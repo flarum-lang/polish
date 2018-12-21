@@ -1,0 +1,26 @@
+{
+    "name": "bepro/lang-english",
+    "type": "flarum-extension",
+    "description": "Polska paczka językowa dla Flarum wraz z niektórymi rozszerzeniami.",
+    "homepage": "https://github.com/bepropl/lang-polish",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.8.1"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Polski",
+            "icon": {
+                "image": "icon.png",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "pl",
+            "title": "Polski"
+        }
+    }
+}
