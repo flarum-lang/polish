@@ -20,7 +20,7 @@ flarum-sticky:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      sticky_button: => flarum-sticky.ref.sticky
+      sticky_button: => Przypnij
       unsticky_button: Odepnij
 
     # These translations are displayed between posts in the post stream.
