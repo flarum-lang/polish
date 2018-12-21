@@ -25,7 +25,7 @@ flarum-lock:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_locked_text: "{username} zamknął"
+      discussion_locked_text: "{username} zamknął tą dyskusję"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
