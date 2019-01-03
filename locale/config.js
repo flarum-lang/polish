@@ -16,7 +16,7 @@ function processRelativeTime(number, withoutSuffix, key, isFuture) {
   return withoutSuffix ? format[key][0] : format[key][1];
 };
 
-moment.locale('de', {
+moment.locale('pl', {
   months : 'styczeń_luty_marzec_kwiecień_maj_czerwiec_lipiec_sierpień_wrzesień_październik_listopad_grudzień'.split('_'),
   monthsShort : 'STY._LUT._MAR_KWI._MAJ_CZE_LIP_SIE._WRZ._PAŹ._LIS._GRU.'.split('_'),
   weekdays : 'poniedziałek_wtorek_środa_czwartek_piątek_sobota_niedziela'.split('_'),
