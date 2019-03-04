@@ -36,4 +36,4 @@ reflar-polls:
     tooltip:
       votes: głosów
       vote: głosów
-      badge: głosowanie
+      badge: Ankieta
