@@ -1,8 +1,8 @@
 core:
   forum:
     index_sort:
-      popular_button: Popularne
-      unpopular_button: Niepopularne
+      popular_button: Najczęściej wyświetlane
+      unpopular_button: Najrzadziej wyświetlane
 
 flarum_discussion_views:
   forum:

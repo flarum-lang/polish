@@ -130,7 +130,7 @@ core:
       extensions_button: Rozszerzenia
       extensions_text: Tutaj możesz zarządzać rozszerzeniami.
       permissions_button: Uprawnienia
-      permissions_text: Konfiguracja uprawnienień użytkowników i grup. 
+      permissions_text: Konfiguracja uprawnienień użytkowników i grup.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -290,11 +290,11 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Ostatnie
-      newest_button: Najnowsze
-      oldest_button: Najstarsze
-      relevance_button: Stosownie
-      top_button: Od góry
+      latest_button: Ostatnio komentowane
+      newest_button: Najnowsze wątki
+      oldest_button: Najstarsze wątki
+      relevance_button: Najtrafniejsze wyniki
+      top_button: Najczęściej komentowane
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -336,7 +336,7 @@ core:
       viewing_text: "Post: {index} z {count}|Post: {index} z {count}"
 
     # These translations are displayed between posts in the post stream.
-    post_stream:      
+    post_stream:
       discussion_renamed_old_tooltip: 'Poprzedni tytuł: "{old}"'
       discussion_renamed_text: "{username} zmienił tytuł na {new}."
       load_more_button: => core.ref.load_more
@@ -447,7 +447,7 @@ core:
     discussion:
       next_page_button: => core.ref.next_page
       previous_page_button: Poprzednia strona
-   
+
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
       403_message: Nie masz uprawnień aby przeglądać tą stronę.
@@ -455,19 +455,19 @@ core:
       404_return_link: "Wróć na {forum}"
       500_message: Wystąpił bład podczas próby załadowania tej strony.
       503_message: "{forum} jest w trakcie modernizacji. Prosimy o cierpliwość!"
-      
+
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
       previous_page_button: => core.ref.previous_page
-      
+
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
       log_out_confirmation: "Czy na pewno chcesz się wylogować z {forum}?"
       title: => core.ref.log_out
-      
+
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
       confirm_password_label: => core.ref.confirm_password
