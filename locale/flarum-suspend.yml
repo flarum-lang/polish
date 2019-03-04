@@ -22,11 +22,11 @@ flarum-suspend:
     suspend_user:
       indefinitely_label: Zbanowany na zawsze
       limited_time_days_text: " dni"
-      limited_time_label: Zbanowany na X dni
+      limited_time_label: Zbanowany na określony czas...
       not_suspended_label: Nie jest zbanowany
-      status_heading: Wybierz status bana:
+      status_heading: "Wybierz status bana:"
       submit_button: => core.ref.save_changes
-      title: "Edytujesz status bana {username}"
+      title: "Zbanuj {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:

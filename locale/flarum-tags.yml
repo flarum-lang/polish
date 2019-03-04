@@ -58,7 +58,7 @@ flarum-tags:
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
       choose_primary_placeholder: "Wybierz główny tag|Wybierz {count} główne tagi"
-      choose_secondary_placeholder: "Wybierz 1 więcej tag|Wybierz {count} więcej tagi"
+      choose_secondary_placeholder: "Wybierz 1 dodatkowy tag|Wybierz {count} dodatkowe tagi|Wybierz {count} dodatkowych tagów"
       edit_title: "Edytuj tagi dla {title}"
       submit_button: => core.ref.okay
       title: Wybierz tagi do swojej dyskusji
@@ -70,9 +70,9 @@ flarum-tags:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       edit_tags_button: Edytuj tagi
-      
+
     header:
-      back_to_tags_tooltip: Wróć do wybory kategorii
+      back_to_tags_tooltip: Wróć do wyboru kategorii
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -83,7 +83,7 @@ flarum-tags:
     # These translations are displayed between posts in the post stream.
     post_stream:
       added_and_removed_tags_text: "{username} dodał {tagsAdded} i usunął {tagsRemoved}."
-      added_tags_text: "{username} dodał {tagsAdded}."   
+      added_tags_text: "{username} dodał {tagsAdded}."
       removed_tags_text: "{username} usunął {tagsRemoved}."
       tags_text: "tag {tags}|tagi {tags}"
 

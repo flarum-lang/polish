@@ -8,7 +8,7 @@ reflar-polls:
   forum:
     no_permission: Nie masz uprawnień do głosowania
     poll_ended: Ta ankieta zakończyła się
-    days_remaining: "Zakończ ankietę {time}"
+    days_remaining: "Ankieta zakończy się {time}"
     public_poll: Zobacz głosujących
     votes_modal:
       title: Głosujący użytkownicy
@@ -35,5 +35,5 @@ reflar-polls:
       edit: => reflar-polls.forum.moderation.edit
     tooltip:
       votes: głosów
-      vote: głosować
+      vote: głosów
       badge: głosowanie
