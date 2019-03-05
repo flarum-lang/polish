@@ -550,7 +550,7 @@ core:
     notifications: Powiadomienia
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Hasło
-    posts: Postów
+    posts: Posty
     previous_page: poprzednia strona
     remove: Usuń
     rename: Zmień tytuł
@@ -563,7 +563,7 @@ core:
     some_others: "{count} inny|{count} inni"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Rozpocznij dyskusję
     username: Nazwa użytkownika
-    user: Użytkowników * wewnątrz
+    users: Użytkownicy
     write_a_reply: Napisz odpowiedź...
     you: Ty                                    # Referenced by flarum-likes.yml, flarum-mentions.yml
 
