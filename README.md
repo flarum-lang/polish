@@ -15,7 +15,7 @@ Paczka zawiera tłumaczenia dla Flarum (dostosowane do wersji `0.1.0-beta.8.1`) 
 Rozszerzenie instalujemy za pomocą [Composera](https://getcomposer.org/):
 
 ```console
-composer require rob006/flarum-lang-polish`
+composer require rob006/flarum-lang-polish
 ```
 
 ## Aktualizacja
@@ -31,6 +31,7 @@ composer update rob006/flarum-lang-polish
 Jeśli masz już zainstalowane rozszerzenie [`bepro/lang-polish`](https://github.com/bepropl/lang-polish) musisz:
 
 1. W panelu admina wyłączyć rozszerzenie `bepro/lang-polish`.
+
 2. Odinstalować rozszerzenie za pomocą Composera:
 
    ```console
