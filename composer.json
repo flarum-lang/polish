@@ -31,10 +31,10 @@
 	"prefer-stable": true,
 	"extra": {
 		"branch-alias": {
-			"dev-master": "1.0.x-dev"
+			"dev-master": "0.1.x-dev"
 		},
 		"flarum-extension": {
-			"title": "Polski",
+			"title": "Polish language pack",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
