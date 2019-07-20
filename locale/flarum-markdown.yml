@@ -1,19 +1,11 @@
 flarum-markdown:
-
-  ##
-  # UNIQUE KEYS - The following keys are used in only one location each.
-  ##
-
-  # Translations in this namespace are used by the forum user interface.
   forum:
-
-    # These translations are used by the composer (emoji autocompletion function).
     composer:
-      bold_tooltip: Dodaj pogrubienie
-      code_tooltip: Wstaw kod
-      header_tooltip: Dodaj nagłówek
-      italic_tooltip: Dodaj kursywę
-      link_tooltip: Dodaj link
-      ordered_list_tooltip: Dodaj listę numerową
-      quote_tooltip: Wstaw cytat
-      unordered_list_tooltip: Dodaj listę punktową
+      bold_tooltip: 'Dodaj pogrubienie'
+      code_tooltip: 'Wstaw kod'
+      header_tooltip: 'Dodaj nagłówek'
+      italic_tooltip: 'Dodaj kursywę'
+      link_tooltip: 'Dodaj link'
+      ordered_list_tooltip: 'Dodaj listę numerową'
+      quote_tooltip: 'Wstaw cytat'
+      unordered_list_tooltip: 'Dodaj listę punktową'

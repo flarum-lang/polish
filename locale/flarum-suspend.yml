@@ -1,37 +1,20 @@
 flarum-suspend:
-
-  ##
-  # UNIQUE KEYS - The following keys are used in only one location each.
-  ##
-
-  # Translations in this namespace are used by the admin interface.
   admin:
-
-    # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: Kto może banować użytkowników?
-
-  # Translations in this namespace are used by the forum user interface.
+      suspend_users_label: 'Kto może banować użytkowników?'
   forum:
-    # These translations are used in the suspension notifications
     notifications:
-      user_suspended_text: "{username} zbanował Cię na {timeReadable}"
-      user_unsuspended_text: "{username} odbanował Cię"
-
-    # These translations are used in the Suspend User modal dialog (admin function).
+      user_suspended_text: '{username} zbanował Cię na {timeReadable}'
+      user_unsuspended_text: '{username} odbanował Cię'
     suspend_user:
-      indefinitely_label: Zbanowany na zawsze
-      limited_time_days_text: " dni"
-      limited_time_label: Zbanowany na określony czas...
-      not_suspended_label: Nie jest zbanowany
-      status_heading: "Wybierz status bana:"
-      submit_button: => core.ref.save_changes
-      title: "Zbanuj {username}"
-
-    # These translations are displayed as tooltips for user badges.
+      indefinitely_label: 'Zbanowany na zawsze'
+      limited_time_days_text: ' dni'
+      limited_time_label: 'Zbanowany na określony czas...'
+      not_suspended_label: 'Nie jest zbanowany'
+      status_heading: 'Wybierz status bana:'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Zbanuj {username}'
     user_badge:
       suspended_tooltip: Zbanowany
-
-    # These translations are found on the user profile page (admin function).
     user_controls:
       suspend_button: Zbanuj
