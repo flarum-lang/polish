@@ -101,6 +101,7 @@ Jeśli masz już zainstalowane rozszerzenie [`bepro/lang-polish`](https://github
 
 | Extension | Status |
 | --- | --- |
+| [Best Answer by Wiwatsrt](https://github.com/wiwatsrt/flarum-ext-best-answer) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/pl/flarum-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/flarum-best-answer/pl/) |
 | [Canonical Url by Migratetoflarum](https://github.com/migratetoflarum/canonical) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/pl/migratetoflarum-canonical/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/migratetoflarum-canonical/pl/) |
 
 <!-- various-extensions-list-stop -->
