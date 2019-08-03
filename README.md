@@ -2,15 +2,6 @@
 
 Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `0.1.0-beta.8.1` lub nowszą) oraz wybranych wtyczek.
 
-<!-- TODO REMOVE -->
-- [BestAnswer by Wiwatsrt ](https://github.com/wiwatsrt/flarum-ext-best-answer)
-- [Upload by Flagrow](https://github.com/flagrow/upload)
-- [Polls by ReFlar](https://github.com/ReFlar/polls)
-- [Split by Flagrow ](https://github.com/flagrow/split)
-- [Linguist by Flagrow](https://flagrow.io/extensions/flagrow/linguist)
-- [Discussion Views by MichaelBelgium](https://github.com/MichaelBelgium/flarum-discussion-views)
-
-
 ## Instalacja
 
 Rozszerzenie instalujemy za pomocą [Composera](https://getcomposer.org/):
