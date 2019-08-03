@@ -90,6 +90,7 @@ Jeśli masz już zainstalowane rozszerzenie [`bepro/lang-polish`](https://github
 | Extension | Status |
 | --- | --- |
 | [FoF Pages](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/friends-of-flarum/pl/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/friends-of-flarum/fof-pages/pl/) |
+| [FoF Polls](https://github.com/FriendsOfFlarum/polls) | [![Translation status](https://weblate.rob006.net/widgets/friends-of-flarum/pl/fof-pools/svg-badge.svg)](https://weblate.rob006.net/projects/friends-of-flarum/fof-pools/pl/) |
 | [FoF User Directory](https://github.com/FriendsOfFlarum/user-directory) | [![Translation status](https://weblate.rob006.net/widgets/friends-of-flarum/pl/fof-user-directory/svg-badge.svg)](https://weblate.rob006.net/projects/friends-of-flarum/fof-user-directory/pl/) |
 
 <!-- fof-extensions-list-stop -->
