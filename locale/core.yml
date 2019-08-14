@@ -359,6 +359,13 @@ core:
       404_return_link: 'Wróć na {forum}'
       500_message: 'Wystąpił bład podczas próby załadowania tej strony.'
       503_message: '{forum} jest w trakcie modernizacji. Prosimy o cierpliwość!'
+      csrf_token_mismatch: 'You have been inactive for too long.'
+      csrf_token_mismatch_return_link: 'Go back, to try again'
+      forbidden: 'You do not have permission to access this page.'
+      invalid_confirmation_token: 'This confirmation link has already been used or is invalid.'
+      not_found: 'The page you requested could not be found.'
+      not_found_return_link: 'Return to {forum}'
+      unknown: 'An error occurred while trying to load this page.'
       419_message: 'Zbyt długo byłeś nieaktywny.'
       419_return_link: 'Cofnij się, aby spróbować ponownie'
     index:
