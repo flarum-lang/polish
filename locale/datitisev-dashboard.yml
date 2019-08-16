@@ -2,24 +2,25 @@ datitisev-dashboard:
   admin:
     dashboard:
       months:
-        january: January
-        february: February
-        march: March
-        april: April
-        may: May
-        june: June
-        july: July
-        august: August
-        september: September
-        october: October
-        november: November
-        december: December
+        january: Styczeń
+        february: Luty
+        march: Marzec
+        april: Kwiecień
+        may: Maj
+        june: Czerwiec
+        july: Lipiec
+        august: Sierpień
+        september: Wrzesień
+        october: Październik
+        november: Listopad
+        december: Grudzień
       graph:
-        users: Users
-        discussions: Discussions
-        posts: Posts
+        users: Użytkownicy
+        discussions: Dyskusje
+        posts: Posty
       updates:
-        check_button: 'Check Extension Updates'
-        checking: 'Checking Updates...'
+        check_button: 'Sprawdź aktulizacje rozszerzeń'
+        checking: 'Sprawdź aktualizacje...'
         available: '{count} Update Available|{count} Updates Available'
-        none: 'No Updates Found'
+        none: 'Brak aktualizacj!'
+        avialable: 'Dostępne aktualizacje {count}'
