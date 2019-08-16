@@ -7,7 +7,7 @@ fof-pages:
       delete_page_confirmation: 'Czy na pewno chcesz usunąć stronę?'
       hidden_label: 'Zapisz Szkic'
       html_label: 'Włącz Html'
-      set_as_home_page_confirmation: 'Are you sure you want to want to set this page as your home page?'
+      set_as_home_page_confirmation: 'Are you sure you want to set this page as your home page?'
       slug_label: '=> fof-pages.ref.slug'
       slug_placeholder: '=> fof-pages.ref.slug'
       submit_button: '=> core.ref.save_changes'
