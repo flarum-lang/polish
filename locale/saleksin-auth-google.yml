@@ -3,7 +3,7 @@ saleksin-auth-google:
     google_settings:
       client_id_label: 'App ID'
       client_secret_label: 'App Secret'
-      title: 'Google Settings'
+      title: 'Ustawienia Google'
   forum:
     log_in:
-      with_google_button: 'Log In with Google'
+      with_google_button: 'Zaloguj się z Google'

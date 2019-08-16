@@ -1,11 +1,11 @@
 reflar-level-ranks:
   admin:
     settings:
-      title: 'Level Ranks Settings'
-      levelText: 'Enter the text to be displayed for the points (e.g. Rank, Level)'
+      title: 'Ustawienia Rangi'
+      levelText: 'Wprowadź tekst, który będzie wyświetlany dla punktów (np. Ranga, Poziom)'
   forum:
     desc:
       expText: EXP
   lib:
     defaults:
-      level: Level
+      level: ranga

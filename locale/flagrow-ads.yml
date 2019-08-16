@@ -1,19 +1,19 @@
 flagrow-ads:
   admin:
     buttons:
-      save: 'Save settings'
+      save: 'Zapisz ustawienia'
     positions:
       under-header:
-        title: 'Ad position under navigational header'
-        placeholder: 'Insert your ad code here.'
+        title: 'Pozycja reklamy pod nagłówkiem nawigacyjnym'
+        placeholder: 'Wprowadź tu kod swojej reklamy.'
       between-posts:
-        title: 'Ad position between posts'
+        title: 'Pozycja reklamy pomiędzy postami'
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
       under-nav-items:
-        title: 'Ad position in the left column under tags on frontpage'
+        title: 'Pozycja reklamy w lewej kolumnie pod tagami na stronie głównej'
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
     settings:
       start-from-post: 'Specify from which post to start to show an ad'
-      between-n-posts: 'Specify after how many posts to place an ad'
+      between-n-posts: 'Ustal po ilu postach wyświetlać reklamę'
     tab:
-      description: 'Set ads preferences and positions.'
+      description: 'Ustaw preferencje reklam i pozycje.'

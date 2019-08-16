@@ -1,11 +1,11 @@
 fof-socialprofile:
   forum:
     edit:
-      edit: Edit
-      add: Add
-      headtitle: 'Edit Buttons'
-      title: Title
+      edit: Edytuj
+      add: Dodaj
+      headtitle: 'Edytuj przyciski'
+      title: Tytuł
       url: Url
-      submit: Save
-      delete: Delete
-      deletetitle: 'Delete Button'
+      submit: Zapisz
+      delete: Usuń
+      deletetitle: 'Usuń przyciski'
