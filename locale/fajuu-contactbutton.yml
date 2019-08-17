@@ -1,8 +1,8 @@
 fajuu-contactbutton:
   admin:
     settings:
-      title: 'Contact button'
-      label: 'Name of the button'
-      url: 'Email address or link to the website'
-      icon: 'Button icon'
-      newtab: 'Open the link in the new tab (email always)'
+      title: 'Przycisk kontaktu'
+      label: 'Nazwa przycisku'
+      url: 'Adres email, bądź link do strony'
+      icon: 'Ikona przycisku'
+      newtab: 'Otwórz link w nowej karcie (email zawsze)'
