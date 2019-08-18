@@ -1,16 +1,16 @@
 fof-subscribed:
   forum:
     settings:
-      defaults_label: 'Set "{setting}" enabled by default'
+      defaults_label: 'Ustaw "{setting}" domyślnie włączone'
       forced_label: 'Force enable "{setting}" for everyone'
-      notify_discussion_created_label: 'Someone creates a discussion'
-      notify_user_created_label: 'When someone registers'
+      notify_discussion_created_label: 'Ktoś utworzył dyskusję'
+      notify_user_created_label: 'Gdy ktoś się zarejestrował'
     notifications:
-      discussion_created_text: '{username} created a new discussion'
-      user_created_text: '{username} had just signed up'
+      discussion_created_text: '{username} utworzył/a nową dyskusję'
+      user_created_text: '{username} właśnie się zarejestrował/a'
   admin:
     menu:
-      description: 'Configure (default) user subscriptions'
+      description: 'Konfiguruj (domyślne) ustawienia subskrypcji'
     permission:
-      subscribe_to_discussion_created: 'Allowed to receive notification upon new discussion'
-      subscribe_to_user_created: 'Allowed to receive notification upon new user'
+      subscribe_to_discussion_created: 'Może otrzymywać notyfikacje o nowych dyskusjach'
+      subscribe_to_user_created: 'Może otrzymywać notyfikacje o rejestracji nowego użytkownika'
