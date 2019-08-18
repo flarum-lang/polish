@@ -2,7 +2,7 @@ fof-subscribed:
   forum:
     settings:
       defaults_label: 'Ustaw "{setting}" domyślnie włączone'
-      forced_label: 'Force enable "{setting}" for everyone'
+      forced_label: 'Wymuś włączenie "{setting}" dla wszystkich'
       notify_discussion_created_label: 'Ktoś utworzył dyskusję'
       notify_user_created_label: 'Gdy ktoś się zarejestrował'
     notifications:
