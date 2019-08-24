@@ -1,12 +1,12 @@
 flarum-sticky:
   admin:
     permissions:
-      sticky_discussions_label: 'Kto może przypinać dyskusje?'
+      sticky_discussions_label: 'Przypinanie dyskusji'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
     discussion_controls:
-      sticky_button: '=> Przypnij'
+      sticky_button: '=> flarum-sticky.ref.sticky'
       unsticky_button: Odepnij
     post_stream:
       discussion_stickied_text: '{username} przypiął dyskusję.'
