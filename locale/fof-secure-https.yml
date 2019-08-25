@@ -1,8 +1,8 @@
 fof-secure-https:
   admin:
     settings:
-      title: Configuration
-      replace: 'Proxy images through HTTPS'
+      title: Konfiguracja
+      replace: 'Użyj HTTPS proxy dla obrazków'
   forum:
-    removed: 'Image removed due to the lack of support for HTTPS.'
-    show: 'Show Anyway'
+    removed: 'Obrazek został usunięty z powodu braku wsparcia dla HTTPS.'
+    show: 'Pokaż mimo wszystko'

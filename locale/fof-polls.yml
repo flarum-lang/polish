@@ -27,7 +27,7 @@ fof-polls:
       options_label: Odpowiedzi
       public_poll_label: 'Pozwól użytkownikom zobaczyć, kto głosował'
       question_placeholder: Pytanie
-      submit: Potwierdź
+      submit: Zatwierdź
       switch: 'Pozwól użytkownikom zobaczyć, kto głosował'
       answer_placeholder: Odpowiedź
       add: 'Dodaj opcję'
