@@ -1,69 +1,69 @@
 core:
   forum:
     index_sort:
-      hot_button: Trending
+      hot_button: Popularne
 fof-gamification:
   forum:
     votes: Votes
-    vote_title: 'Show Who Voted'
+    vote_title: 'Pokaż, kto zagłosował'
     nav:
-      name: Rankings
+      name: Rankingi
     ranking:
-      rank: Place
-      name: User
-      amount: Points
+      rank: Miejsce
+      name: Użytkownik
+      amount: Punkty
     notification:
-      upvote: '{username} upvoted your post'
-      downvote: '{username} downvoted your post'
+      upvote: '{username} oddał głos w górę na twój post'
+      downvote: '{username} oddał głos w dół na twój post'
     user:
-      points: 'Points: {points}'
+      points: 'Punkty: {points}'
       rank: '{rank}'
     modal:
-      title: Voters
+      title: Głosujący
       upvotes_label: 'Upvoters:'
       downvotes_label: 'Downvoters:'
-    mod_item: 'View Voters'
+    mod_item: 'Zobacz Głosujących'
   admin:
     permissions:
-      vote_label: 'Upvote/Downvote posts'
-      see_votes_label: 'See post upvotes/downvotes'
-      see_ranking_page: 'See ranking page'
+      vote_label: 'Posty w górę/dół'
+      see_votes_label: 'Zobacz posty w górę/dół'
+      see_ranking_page: 'Zobacz stronę rankingową'
     nav:
-      desc: 'Gamification for your Flarum community'
+      desc: 'Gamification dla twojej społeczności Flarum'
     page:
       rankings:
         blocked:
           placeholder: 'CDK2020, Ralkage, AngelAvila'
-          title: 'Ignored Users'
-          help: 'These users will not be shown on the ranking page. Usernames should be seperated by a comma followed by a space.'
-        title: 'Rankings Page'
-        enable: 'Enable custom images'
-        custom_image_1: '1st place image'
-        custom_image_2: '2nd place image'
-        custom_image_3: '3rd place image'
+          title: 'Zignorowani użytkownicy'
+          help: 'Ci użytkownicy nie będą wyświetlani na stronie rankingu. Nazwy użytkowników powinny być oddzielone przecinkiem i spacją.'
+        title: Rankingi
+        enable: 'Włącz niestandardowe zdjęcia'
+        custom_image_1: 'Zdjęcie 1'
+        custom_image_2: 'Zdjęcie 2'
+        custom_image_3: 'Zdjęcie 3'
       votes:
-        points_title: 'Points Placeholder'
-        points_placeholder: 'Points: '
+        points_title: 'Punkty Placeholder'
+        points_placeholder: 'Punkty: '
         color_holder: '#ffffff'
-        auto_upvote: 'Auto upvote posts when posted'
+        auto_upvote: 'Automatycznie śledź posty po ich opublikowaniu'
         rate_limit: 'Enforce a vote rate limit (10 seconds)'
         discussion_page: 'Show total votes of original post on discussions list'
-        title: Votes
-        vote_color: 'Voted color'
-        icon_name: 'Upvote/downvote icon'
-        icon_help: 'Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron'
-      save_settings: 'Save settings'
+        title: Głosy
+        vote_color: 'Głosowany kolor'
+        icon_name: 'Ikonka głosów w górę/dół'
+        icon_help: 'Wprowadź dowolną ikonę Font-Awesome. Przykłady: arrow, thumbs, chevron'
+      save_settings: 'Zapisz ustawienia'
       convert:
-        button: 'Convert likes to upvotes'
+        button: 'Konwertuj polubienia na głosy w górę'
         help: 'Convert your previous likes from flarum-ext-likes into upvotes, as well as calculate the hotness for all current discussions.'
         converting: 'Your likes are now being converted. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total forum likes)'
-        converted: 'Successfully converted all {number} likes'
+        converted: 'Pomyślnie skonwertowano wszystkie {number} polubień'
       ranks:
-        title: Ranks
-        ranks: 'Custom ranks'
-        number_title: 'How many rank badges should be shown?'
+        title: Rangi
+        ranks: 'Rangi niestandardowe'
+        number_title: 'Ile rang należy pokazywać?'
         help:
           color: '#ffffff'
-          help: 'Input the required number of upvotes, the name of the rank, and the hex color of the rank'
-          points: Points
-          name: Name
+          help: 'Wprowadź wymaganą liczbę Głosów w górę, nazwę rangi oraz jej kolor'
+          points: Punkty
+          name: Nazwa

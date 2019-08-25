@@ -1,13 +1,13 @@
 fof-drafts:
   admin:
     permissions:
-      start: 'Create discussion drafts'
+      start: 'Tworzenie szkiców dyskusji'
   forum:
     composer:
-      title: 'Save Draft'
-      alert: 'Draft saved.'
+      title: 'Zapisz szkic'
+      alert: 'Szkic został zapisany.'
     dropdown:
-      title: Drafts
-      button: 'Delete Draft'
+      title: Szkice
+      button: 'Usuń szkic'
       tooltip: '=> fof-drafts.forum.dropdown.title'
-      alert: 'Are you sure you want to delete your draft?'
+      alert: 'Czy jesteś pewien, że chcesz usunąć ten szkic?'
