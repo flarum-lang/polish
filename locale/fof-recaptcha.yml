@@ -6,4 +6,4 @@ fof-recaptcha:
       site_key_label: 'Site Key'
       secret_key_label: 'Secret Key'
 validation:
-  recaptcha: 'Walidacja reCAPTCHA nie powiodła.'
+  recaptcha: 'Weryfikacja reCAPTCHA nie powiodła się.'
