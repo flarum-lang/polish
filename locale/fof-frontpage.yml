@@ -1,12 +1,12 @@
 core:
   forum:
     index_sort:
-      front_button: FrontPage
+      front_button: 'Pierwsza strona'
     badge:
-      frontpage_tooltip: 'Marked as FrontPage'
+      frontpage_tooltip: 'Oznaczone jako "pierwsza strona"'
     post_controls:
-      push_to_front_button: 'Push to FrontPage'
-      pull_from_front_button: 'Pull from FrontPage'
+      push_to_front_button: 'Wypchnij na pierwszą stronę'
+      pull_from_front_button: 'Zdejmij z pierwszej strony'
   admin:
     permissions:
-      can_push_to_frontpage_label: 'Can Push to FrontPage'
+      can_push_to_frontpage_label: 'Może wypychać na pierwszą stronę'
