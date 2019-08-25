@@ -1,39 +1,39 @@
 fof-username-request:
   admin:
     permissions:
-      start: 'Request username change'
-      moderate: 'Approve username change requests'
+      start: 'Proszenie o zmianę nazwy użytkownika'
+      moderate: 'Zatwierdzanie zmiany nazwy użytkownika'
   forum:
     action:
       title: '=> fof-username-request.forum.results.title'
-      help_text: 'Make sure the username follows the forum guidelines.'
-      decision_title: Decision
-      approval_label: Approve
-      denial_label: Deny
-      submit_button: Submit
-      reason_title: 'Reason for Denial'
-      success: 'Decision sent.'
-      name: '{username} has requested their username be changed to "{newUsername}"'
+      help_text: 'Upewnij się że nazwa użytkownika jest zgodna z regulaminem społeczności.'
+      decision_title: Decyzja
+      approval_label: Zatwierdź
+      denial_label: Odrzuć
+      submit_button: Zatwierdź
+      reason_title: 'Powód odmowy'
+      success: 'Decyzja wysłana.'
+      name: '{username} poprosił o zmianę nazwy użytkownika na "{newUsername}"'
     results:
-      title: 'Username Change'
-      approved: 'Your username change request has been approved!'
-      new_username: 'Your username is now "{username}"'
-      denied: 'Your username request was denied'
-      reason: 'Reason: <i>"{reason}"</i>'
-      resubmit: 'You may resubmit a new username request from your account settings.'
+      title: 'Zmiana nazwy użytkownika'
+      approved: 'Twoja prośba o zmianę nazwy użytkownika została zaakceptowana!'
+      new_username: 'Twoja nazwa użytkownika to teraz "{username}"'
+      denied: 'Twoja prośba o zmianę nazwy użytkownika została odrzucona'
+      reason: 'Powód: <i>"{reason}"</i>'
+      resubmit: 'Możesz wysłać nową prośbę o zmianę nazwy użytkownika z poziomu ustawień konta.'
     request:
-      title: 'Request Username Change'
-      current_request: 'You have already requested the username "{username}." You can update or delete this request.'
-      submit_button: 'Submit Request'
-      delete_button: 'Delete Request'
-      confirmation_message: 'Your request has been received and will be reviewed soon.'
-      dismiss_button: Understood
-      deleted: 'Username request deleted.'
-    account_label: 'Change Username'
-    profile_link: 'Username History'
+      title: 'Poproś o zmianę nazwy użytkownika'
+      current_request: 'Już poprosiłeś o zmianę nazwy użytkownika na "{username}." Możesz edytować lub usunąć tę prośbę.'
+      submit_button: 'Wyślij prośbę'
+      delete_button: 'Usuń prośbę'
+      confirmation_message: 'Twoja prośba została wysłana i wkrótce zostanie zweryfikowana.'
+      dismiss_button: Zrozumiano
+      deleted: 'Prośba o zmianę nazwy użytkownika została usunięta.'
+    account_label: 'Zmień nazwę użytkownika'
+    profile_link: 'Historia nazwy użytkownika'
     dropdown:
-      empty_text: 'No username requests found'
+      empty_text: 'Nie znaleziono żadnych próśb o zmianę nazwy użytkownika'
       tooltip: '=> fof-username-request.forum.dropdown.title'
-      title: 'Username Change Requests'
-      item_text: '{username} requested a username change'
-      exerpt: 'Requsted username: {requestedUsername}'
+      title: 'Prośby o zmianę nazwy użytkownika'
+      item_text: '{username} poprosił o zmianę nazwy użytkownika'
+      exerpt: 'Wnioskowana nazwa użytkownika: {requestedUsername}'
