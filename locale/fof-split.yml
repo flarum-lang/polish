@@ -1,7 +1,7 @@
 fof-split:
   admin:
     permissions:
-      split_discussion_label: 'Kto może przenosić posty w dyskusji?'
+      split_discussion_label: 'Wydzielanie postów z dyskusji'
   forum:
     post:
       was_split_to: '{count} post został przeniesiony do {target}.|{count} posty zostały przeniesione do {target}.|{count} postów zostało przeniesionych do {target}.'
@@ -11,5 +11,5 @@ fof-split:
       to: 'Przenieś do tego posta'
     modal:
       title: 'Przenoszenie postów'
-      new_discussion_label: 'Wprowadź temat nowej dyskusji'
+      new_discussion_label: 'Podaj tytuł nowej dyskusji'
       submit_button: Przenieś
