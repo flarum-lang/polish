@@ -4,3 +4,7 @@ fof-transliterator:
       title: 'Ustawienia FriendsOfFlarum Transliterator'
       parse_button: 'Konwertuj istniejące dyskusje'
       result: 'Przekonwertowano 1 dyskusję|Przekonwertowano {count} dyskusje|Przekonwertowano {count} dyskusji'
+      package_label: 'Transliterator Package'
+      package_behat_label: 'Behat (default)'
+      package_php_label: 'PHP (requires ext-intl)'
+      package_php2_label: 'PHP #2 (requires ext-intl)'
