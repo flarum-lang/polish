@@ -6,4 +6,4 @@ fof-auth-gitlab:
       title: 'FriendsOfFlarum GitLab Login'
   forum:
     log_in:
-      with_gitlab_button: 'Log In with GitLab'
+      with_gitlab_button: 'Zaloguj się przy użyciu GitLaba'

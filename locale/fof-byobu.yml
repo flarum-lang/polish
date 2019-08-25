@@ -39,4 +39,4 @@ fof-byobu:
       edit_user_recipients: 'Edytowanie użytkowników biorących udział w prywatnych dyskusjach'
       edit_group_recipients: 'Edytowanie grup biorących udział w prywatnych dyskusjach'
     settings:
-      byobu_users_page_label: 'Add private discussions to user page'
+      byobu_users_page_label: 'Wyświetlaj prywatne dyskusje w profilu użytkownika'
