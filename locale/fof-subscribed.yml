@@ -4,7 +4,7 @@ fof-subscribed:
       defaults_label: 'Ustaw "{setting}" domyślnie włączone'
       forced_label: 'Wymuś włączenie "{setting}" dla wszystkich'
       notify_discussion_created_label: 'Ktoś utworzył dyskusję'
-      notify_user_created_label: 'Gdy ktoś się zarejestrował'
+      notify_user_created_label: 'Ktoś się zarejestrował'
     notifications:
       discussion_created_text: '{username} utworzył nową dyskusję'
       user_created_text: '{username} właśnie się zarejestrował'
@@ -12,5 +12,5 @@ fof-subscribed:
     menu:
       description: 'Konfiguruj (domyślne) ustawienia subskrypcji'
     permission:
-      subscribe_to_discussion_created: 'Może otrzymywać powiadomienia o nowych dyskusjach'
-      subscribe_to_user_created: 'Może otrzymywać powiadomienia o rejestracji nowego użytkownika'
+      subscribe_to_discussion_created: 'Otrzymywanie powiadomień o nowych dyskusjach'
+      subscribe_to_user_created: 'Powiadomienia o rejestracji nowego użytkownika'
