@@ -13,4 +13,4 @@ fof-subscribed:
       description: 'Konfiguruj (domyślne) ustawienia subskrypcji'
     permission:
       subscribe_to_discussion_created: 'Otrzymywanie powiadomień o nowych dyskusjach'
-      subscribe_to_user_created: 'Powiadomienia o rejestracji nowego użytkownika'
+      subscribe_to_user_created: 'Otrzymywanie powiadomień o rejestracji nowego użytkownika'
