@@ -19,8 +19,8 @@ datitisev-dashboard:
         discussions: Dyskusje
         posts: Posty
       updates:
-        check_button: 'Sprawdź aktulizacje rozszerzeń'
-        checking: 'Sprawdź aktualizacje...'
-        available: '{count} Update Available|{count} Updates Available'
-        none: 'Brak aktualizacj!'
+        check_button: 'Sprawdź aktualizacje rozszerzeń'
+        checking: 'Sprawdzanie aktualizacji...'
+        available: '{count} aktualizacja dostępna|{count} aktualizacje dostępne|{count} aktualizacji dostępnych'
+        none: 'Brak aktualizacji'
         avialable: 'Dostępne aktualizacje {count}'

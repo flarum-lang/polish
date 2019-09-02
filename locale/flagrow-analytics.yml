@@ -1,29 +1,29 @@
 flagrow-analytics:
   admin:
     popup:
-      title: 'Analytics Settings'
+      title: 'Ustawienia Analytics'
       section:
         googleAnalytics: 'Google Analytics'
         piwik: Piwik
       field:
-        statusGoogle: 'Enable Google Analytics'
-        googleTrackingCode: 'Tracking Code ID'
-        statusPiwik: 'Enable Piwik'
-        piwikUrl: 'Piwik domain or url'
-        piwikSiteId: 'Site ID'
-        piwikTrackSubdomain: 'Track visitors across all subdomains of Flarum'
-        piwikPrependDomain: 'Prepend the site domain to the page title when tracking'
-        piwikHideAliasUrl: 'In the "Outlinks" report, hide clicks to known alias URLs'
-        piwikAliasUrl: 'Alias Url'
-        piwikTrackAccounts: 'Track individual user accounts'
-        piwikAuthToken: 'Authentication Token'
+        statusGoogle: 'Włącz Google Analytics'
+        googleTrackingCode: 'Identyfikator śledzenia'
+        statusPiwik: 'Włącz Piwik'
+        piwikUrl: 'Domena lub URL Piwik'
+        piwikSiteId: 'ID serwisu'
+        piwikTrackSubdomain: 'Śledź odwiedzających na wszystkich subdomenach forum'
+        piwikPrependDomain: 'Dodaj domenę do tytułu strony gdy śledzisz'
+        piwikHideAliasUrl: 'W raporcie "Outlinks", ukryj kliknięcia na znane aliasy adresów URL'
+        piwikAliasUrl: 'URL aliasu'
+        piwikTrackAccounts: 'Śledź konta użytkowników'
+        piwikAuthToken: 'Token autentykacji API'
       placeholder:
-        piwikAuthToken: "Fill this token to enable a Piwik stats tab in the admin panel.\nYou can find it in Settings > Personal > API Authentication Token.\n"
+        piwikAuthToken: "Uzupełnij ten token aby włączyć statystyki Piwik w zakładce w panelu admina.\nMożesz go znaleźć w Ustawienia > Osobiste > Token autentykacji API.\n"
       trackAccounts:
-        none: 'Do not track'
-        username: 'Track by username'
-        email: 'Track by email'
+        none: 'Nie śledź'
+        username: 'Śledź na podstawie nazwy użytkownika'
+        email: 'Śledź na podstawie adresu e-mail'
     page:
       nav:
         title: Analytics
-        description: 'Take a look at Statistics'
+        description: 'Zerknij na statystyki'
