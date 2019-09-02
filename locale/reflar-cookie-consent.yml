@@ -2,23 +2,23 @@ reflar-cookie-consent:
   admin:
     settings:
       title: 'Reflar Cookie Consent'
-      configuration_title: 'Configuration Options'
-      consentText: 'Content Message'
-      buttonText: 'Dismiss Button Text'
-      configuration_button_title: 'Learn More Button'
-      learnMoreLinkText: Text
+      configuration_title: 'Opcje konfiguracji'
+      consentText: 'Treść wiadomości'
+      buttonText: 'Tekst przycisku "Rozumiem"'
+      configuration_button_title: 'Tekst przycisku "Dowiedz się więcej"'
+      learnMoreLinkText: Tekst
       learnMoreLinkUrl: Link
-      theme_title: 'Theme Options'
-      ccTheme: Theme
-      theme_popup_title: 'Popup Colors'
-      backgroundColor: Background
-      textColor: Text
-      theme_dismiss_title: 'Dismiss Button Colors'
-      buttonBackgroundColor: Background
-      buttonTextColor: Text
+      theme_title: 'Opcje motywu'
+      ccTheme: Motyw
+      theme_popup_title: 'Kolory popupa'
+      backgroundColor: Tło
+      textColor: Tekst
+      theme_dismiss_title: 'Kolory przycisku "Rozumiem"'
+      buttonBackgroundColor: Tło
+      buttonTextColor: Tekst
       themes:
         blocky: Blocky
         edgeless: Edgeless
         classic: Classic
-        custom: Custom
-        no_css: 'No CSS'
+        custom: Własny
+        no_css: 'Brak CSS'
