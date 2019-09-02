@@ -36,22 +36,22 @@ flagrow-terms:
       export-policies: 'Export all users and policies data'
   forum:
     signup:
-      i-accept: 'I accept the <a>{policy}</a>'
-      must-accept: 'The {policy} must be accepted.'
+      i-accept: 'Akceptuję <a>{policy}</a>'
+      must-accept: '{policy} musi zostać zaakceptowana.'
     accept-modal:
-      title: 'Terms Update'
-      updated-at: 'The terms were updated on {date}'
-      updated-recently: 'The terms were updated since your last visit'
-      i-accept: 'I accept the new <a>{policy}</a>'
-      accept: Confirm
-      close: 'You can now close this modal'
+      title: 'Aktualizacja warunków korzystania z forum'
+      updated-at: 'Warunki korzystania z forum zostały zaktualizowane {date}'
+      updated-recently: 'Warunki korzystania z forum zostały zaktualizowane od twojej ostatniej wizyty'
+      i-accept: 'Akceptuję nową politykę: <a>{policy}</a>'
+      accept: Potwierdź
+      close: 'Możesz teraz zamknąć to okno'
     state-modal:
-      title: 'Terms accept state for user {username}'
-      accepted-at: 'Accepted at {date}'
-      not-accepted: 'Not accepted'
+      title: 'Status akceptacji warunków korzystania dla {username}'
+      accepted-at: 'Zaakceptowano {date}'
+      not-accepted: 'Nie zaakceptowano'
     update-alert:
-      must-accept-message: 'We''ve temporarily restricted access to your account while you check out the new terms.'
-      can-accept-message: 'We recently updated the terms. You must accept them to continue using this website.'
-      review: 'Click here to review and accept the new terms'
+      must-accept-message: 'Tymczasowo ograniczyliśmy możliwości twojego konta do czasu aż zaakceptujesz nowe warunki korzystania z forum.'
+      can-accept-message: 'Niedawno zaktualizowaliśmy warunki korzystania z forum. Musisz je zaakceptować aby kontynuować korzystanie z witryny.'
+      review: 'Kliknij tutaj aby zobaczyć i zaakceptować nowe warunki korzystania z forum'
     user_controls:
-      state_button: 'Terms accept state'
+      state_button: 'Status akceptacji TOS'

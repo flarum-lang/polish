@@ -1,5 +1,5 @@
 flarum_profile_views:
   forum:
     user:
-      title_last_viewers: 'Last profile viewers'
-      views_count_text: 'viewed {viewcount} times'
+      title_last_viewers: 'Ostatnio oglądali profil'
+      views_count_text: 'Liczba wyświetleń: {viewcount}'

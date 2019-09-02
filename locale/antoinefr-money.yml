@@ -1,18 +1,18 @@
 antoinefr-money:
   admin:
     settings:
-      title: Settings
-      moneyforpost: 'Money given for a new post'
-      moneyfordiscussion: 'Money given for a new discussion'
-      moneyname: 'Name of the money (ex: [money] points)'
-      postminimumlength: 'Post minimum length to get the money (0 to disable)'
-      noshowzero: 'Do not show if the value is zero'
+      title: Ustawienia
+      moneyforpost: 'Pieniądze otrzymane za nowy post'
+      moneyfordiscussion: 'Pieniądze otrzymane za nową dyskusję'
+      moneyname: 'Nazwa dla pieniędzy (np. [money] punktów)'
+      postminimumlength: 'Minimalna długość posta kwalifikując go do otrzymania pieniędzy (ustaw 0 dla braku limitu)'
+      noshowzero: 'Nie pokazuj jeśli wartość to zero'
     permissions:
-      edit_money_label: 'Edit money'
+      edit_money_label: 'Edytuj pieniądze'
   forum:
     user_controls:
-      money_button: 'Edit money'
+      money_button: 'Edytuj pieniądze'
     modal:
-      title: '{username}''s money'
-      current: 'Current :'
+      title: 'Pieniądze użytkownika {username}'
+      current: 'Obecnie:'
       submit_button: '=> core.ref.save_changes'
