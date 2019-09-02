@@ -13,7 +13,7 @@ flagrow-ads:
         title: 'Pozycja reklamy w lewej kolumnie pod tagami na stronie głównej'
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
     settings:
-      start-from-post: 'Specify from which post to start to show an ad'
-      between-n-posts: 'Ustal po ilu postach wyświetlać reklamę'
+      start-from-post: 'Od którego postu zacząć wyświetlać reklamy'
+      between-n-posts: 'Co ile postów wyświetlać reklamę'
     tab:
-      description: 'Ustaw preferencje reklam i pozycje.'
+      description: 'Ustaw preferencje i pozycje reklam.'
