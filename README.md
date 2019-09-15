@@ -22,7 +22,7 @@ Aktualizacje instalujemy za pomocą [Composera](https://getcomposer.org/):
 composer update rob006/flarum-lang-polish
 ```
 
-lub aby wymusić najnowszą wersję (zalecane przy korzystaniu z najnowszej wersji Flarum):
+lub aby wymusić najnowszą wersję (zalecane przy aktualizacji do nowej wersji Flarum - sprawdź wcześniej [changelog](https://github.com/rob006-software/flarum-lang-polish/blob/master/CHANGELOG.md), czy żadne z wykorzystywanych rozszerzeń nie utraciło wsparcia):
 
 ```console
 composer require rob006/flarum-lang-polish
@@ -220,4 +220,5 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/rob006-sof
 Paczka bazuje na [rozszerzeniu stworzonym przez bepropl](https://github.com/bepropl/lang-polish). Tworzona przy udziale społeczności jako część [Kolektywu tłumaczeń Flarum](https://github.com/rob006-software/flarum-translations).
 
 Tłumaczenie dla `moment.js` pochodzi bezpośrednio ze [źródła](https://github.com/moment/moment/blob/2.24.0/locale/pl.js).
+
 Tłumaczenie dla `validation.yml` pochodzi z [paczki językowej dla Laravela](https://github.com/caouecs/Laravel-lang/blob/4.0.2/src/pl/validation.php).
