@@ -1,6 +1,7 @@
 # Polska paczka językowa dla [Flarum](https://flarum.org/)
 
-Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `0.1.0-beta.8.1` lub nowszą) oraz wybranych wtyczek.
+Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `0.1.0-beta.8.1` lub nowszą) oraz niemal wszystkich popularnych rozszerzeń. Pełna lista obsługiwanych rozszerzeń dostępna jest poniżej (dla nieprzetłumaczonych fraz wyświetlany jest oryginalny tekst w języku angielskim). Tłumaczenia synchronizowane są automatycznie z tekstem źródłowym rozszerzeń - wszystkie zmiany w rozszerzeniach powinny być synchronizowane w ciągu kilku godzin.
+
 
 ## Instalacja
 
@@ -10,12 +11,33 @@ Rozszerzenie instalujemy za pomocą [Composera](https://getcomposer.org/):
 composer require rob006/flarum-lang-polish
 ```
 
+Po czym w panelu admina włączamy rozszerzenie.
+
+
 ## Aktualizacja
 
 Aktualizacje instalujemy za pomocą [Composera](https://getcomposer.org/):
 
 ```console
 composer update rob006/flarum-lang-polish
+```
+
+lub aby wymusić najnowszą wersję (zalecane przy korzystaniu z najnowszej wersji Flarum):
+
+```console
+composer require rob006/flarum-lang-polish
+```
+
+Jeśli lubisz życie na krawędzi, możesz korzystać z wersji niestabilnej:
+
+```console
+composer require "rob006/flarum-lang-polish:0.2.x-dev"
+```
+
+Po aktualizacji czyścimy cache:
+
+```console
+php flarum cache:clear
 ```
 
 ## Migracja z `bepro/lang-polish`
@@ -37,6 +59,10 @@ Jeśli masz już zainstalowane rozszerzenie [`bepro/lang-polish`](https://github
    ```
 
 4. Włączyć nowe rozszerzenie w panelu admina.
+
+## Znalazłem błąd / Brakuje rozszerzenia X
+
+Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/rob006-software/flarum-lang-polish/issues) lub na [forum](https://discuss.flarum.org/d/18134-polish-language-pack/30). Propozycje tłumaczeń można zgłaszać bezpośrednio korzystając z [Weblate](https://weblate.rob006.net/) (wystarczy kliknąć status tłumaczenia na liście poniżej aby przejść do tłumaczenia danego rozszerzenia/komponentu).
 
 
 ## Status tłumaczeń głównego silnika Flarum
@@ -74,7 +100,7 @@ Jeśli masz już zainstalowane rozszerzenie [`bepro/lang-polish`](https://github
 <!-- flarum-extensions-list-stop -->
 
 
-## Status tłumaczeń dla rozszerzeń od Friend of Flarum
+## Status tłumaczeń dla rozszerzeń od Friends of Flarum
 
 <!-- fof-extensions-list-start -->
 
@@ -191,7 +217,7 @@ Jeśli masz już zainstalowane rozszerzenie [`bepro/lang-polish`](https://github
 
 ## Credits
 
-Paczka bazuje na [rozszerzeniu stworzonym przez bepropl](https://github.com/bepropl/lang-polish) - to on jest autorem 
-większości tłumaczeń.
+Paczka bazuje na [rozszerzeniu stworzonym przez bepropl](https://github.com/bepropl/lang-polish). Tworzona przy udziale społeczności jako część [Kolektywu tłumaczeń Flarum](https://github.com/rob006-software/flarum-translations).
 
 Tłumaczenie dla `moment.js` pochodzi bezpośrednio ze [źródła](https://github.com/moment/moment/blob/2.24.0/locale/pl.js).
+Tłumaczenie dla `validation.yml` pochodzi z [paczki językowej dla Laravela](https://github.com/caouecs/Laravel-lang/blob/4.0.2/src/pl/validation.php).
