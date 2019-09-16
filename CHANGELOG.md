@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-0.2.0 - 2019-09-16
+0.2.0 (2019-09-16)
 ------------------
 
 Nowa wersja całkowicie bazująca na [Kolektywie tłumaczeń Flarum](https://github.com/rob006-software/flarum-translations). Znacznie usprawniło to proces tłumaczenia, co skutkowało wieloma poprawkami oraz dodaniem wsparcia dla kilkudziesięciu nowych rozszerzeń. **Paczka jest kompatybilna z Flarum `v0.1.0-beta.10`**.
@@ -108,7 +108,7 @@ Nowa wersja całkowicie bazująca na [Kolektywie tłumaczeń Flarum](https://git
 Zobacz wszystkie zmiany: [v0.1.1...v0.2.0](https://github.com/rob006-software/flarum-lang-polish/compare/v0.1.1...v0.2.0).
 
 
-0.1.1 - 2019-07-20
+0.1.1 (2019-07-20)
 ------------------
 
 Aktualizacja poprawiająca kompatybilność z Flarum `v0.1.0-beta.9`:
@@ -126,7 +126,7 @@ Aktualizacja poprawiająca kompatybilność z Flarum `v0.1.0-beta.9`:
 Zobacz wszystkie zmiany: [v0.1.0...v0.1.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.1.0...v0.1.1)
 
 
-0.1.0 - 2019-04-03
+0.1.0 (2019-04-03)
 ------------------
 
 Pierwsze wydanie bazujące na paczce od [bepro/lang-polish](https://github.com/bepropl/lang-polish) z kilkoma usprawnieniami:
