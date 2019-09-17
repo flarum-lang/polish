@@ -1,11 +1,11 @@
 clarkwinkelmann-catch-the-fish:
   forum:
     moderate:
-      add: Add
-      edit: Edit
-      delete: Delete
-      fishes: Fishes
-      rounds: Rounds
+      add: Dodaj
+      edit: Edytuj
+      delete: Usuń
+      fishes: Ryby
+      rounds: Rundy
     nav:
       rankings: 'Catch The Fish Rankings'
       settings: 'Catch The Fish Settings'
