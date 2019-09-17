@@ -71,6 +71,8 @@ Jeśli masz już zainstalowane rozszerzenie [`bepro/lang-polish`](https://github
 
 Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/rob006-software/flarum-lang-polish/issues) lub na [forum](https://discuss.flarum.org/d/18134-polish-language-pack/30). Propozycje tłumaczeń można zgłaszać bezpośrednio korzystając z [Weblate](https://weblate.rob006.net/) (wystarczy kliknąć status tłumaczenia na liście poniżej aby przejść do tłumaczenia danego rozszerzenia/komponentu).
 
+> [Tłumaczenia można dostosowywać też na poziomie konkretnej instalacji forum](https://rob006.net/blog/jak-nadpisac-lub-dodac-brakujace-tlumaczenia-dla-flarum/). Stworzenie paczki językowej, która będzie odpowiadała każdemu, jest praktycznie niemożliwe. Zmiany specyficzne dla konkretnego forum lepiej ustawiać lokalnie - nie każda fraza jest na tyle uniwersalna aby mogła znaleźć się w ogólnej paczce językowej.
+
 
 ## Status tłumaczeń głównego silnika Flarum
 
