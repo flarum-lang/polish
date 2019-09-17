@@ -1,20 +1,20 @@
 amaurycarrade-syndication:
   forum:
     autodiscovery:
-      forum_activity: 'Forum activity'
-      forum_new_discussions: 'Forum''s new discussions'
-      tag_activity: 'Activity for the {tag} tag'
-      tag_new_discussions: 'Discussions in the {tag} tag'
-      discussion_last_posts: 'This discussion'
+      forum_activity: 'Aktywność na forum'
+      forum_new_discussions: 'Nowe dyskusje na forum'
+      tag_activity: 'Aktywność dla {tag} tagu'
+      tag_new_discussions: 'Dyskusje w {tag} tagu'
+      discussion_last_posts: 'Ta dyskusja'
     feeds:
       titles:
         main_title: '{forum_name}'
-        main_subtitle: 'Last posts in the forum'
-        main_d_title: 'New discussions in {forum_name}'
-        main_d_subtitle: 'The newest discussions in the forum'
-        tag_title: 'Activity in the {tag} tag'
-        tag_subtitle: 'Last posts in the {tag} tag'
-        tag_d_title: 'New discussions in the {tag} tag'
-        tag_d_subtitle: 'The newest discussions in the {tag} tag'
+        main_subtitle: 'Ostatnie posty na forum'
+        main_d_title: 'Nowe dyskusje w {forum_name}'
+        main_d_subtitle: 'Najnowsze dyskusje na forum'
+        tag_title: 'Aktywność w {tag} tagu'
+        tag_subtitle: 'Ostatnie posty w {tag} tagu'
+        tag_d_title: 'Nowe dyskusje w {tag} tagu'
+        tag_d_subtitle: 'Najnowsze dyskusje w {tag} tagu'
         discussion_title: '{discussion_name}'
-        discussion_subtitle: 'Derniers messages dans cette discussion'
+        discussion_subtitle: 'Najnowsze posty w tym wątku'

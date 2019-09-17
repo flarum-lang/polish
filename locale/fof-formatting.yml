@@ -5,5 +5,5 @@ fof-formatting:
       Autovideo: 'Convert video URLs into playable videos'
       FancyPants: 'Use fancy typography'
       HTMLEntities: 'Use HTML entities'
-      MediaEmbed: 'Embed content from allowed sites'
+      MediaEmbed: 'Osadzanie treści z dozwolonych witryn'
       PipeTables: 'ASCII-style tables'

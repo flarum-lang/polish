@@ -1,11 +1,11 @@
 flagrow-html-errors:
   admin:
     settings:
-      title: 'Custom HTML Error Pages'
+      title: 'Niestandardowe strony błędów HTML'
       error:
-        403: '403 Forbidden'
-        404: '404 Not Found'
-        500: '500 Internal Server Error'
-        503: '503 Service Unavailable (Down For Maintenance)'
+        403: 'Błąd 403: Odmowa dostępu/Zabronione'
+        404: 'Błąd 404: Nie znaleziono'
+        500: 'Błąd 500: Wewnętrzy błąd serwera'
+        503: 'Błąd 503: Usługa niedostępna'
       placeholder:
-        empty_for_default: 'Leave empty for the default Flarum error page'
+        empty_for_default: 'Pozostaw puste dla domyślnej strony błędu Flarum'

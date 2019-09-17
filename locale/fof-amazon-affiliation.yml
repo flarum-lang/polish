@@ -2,12 +2,12 @@ fof-amazon-affiliation:
   admin:
     settings:
       title:
-        modal: 'Amazon Affiliation Settings'
-        tags: 'Affiliate Tags'
+        modal: 'Ustawienia Amazon Affiliation'
+        tags: 'Tagi partnerskie'
       field:
-        keep-existing-tag: 'Keep Amazon Affiliate Tags from original links instead of replacing'
-        keep-existing-tag-help: 'By default any existing tag in the original url is replaced by the tag you define below.'
-        remove-tag-if-unhandled: 'Remove Amazon Affiliate Tags on Amazon links that aren''t covered'
-        remove-tag-if-unhandled-help: 'By default links that aren''t covered are left as-it, including their tag if any.'
+        keep-existing-tag: 'Zachowaj tagi Amazon Affiliate z oryginalnych linków zamiast je zastępować'
+        keep-existing-tag-help: 'Domyślnie każdy istniejący tag w oryginalnym adresie URL jest zastępowany tagiem zdefiniowanym poniżej.'
+        remove-tag-if-unhandled: 'Usuń tagi Amazon Affiliate z linków do nieobsługiwanych wersji Amazon'
+        remove-tag-if-unhandled-help: 'Domyślnie nieobsługiwane linki pozostają niezmienione, w tym ich tag (jeśli taki istnieje).'
         tag: '{name} (amazon.{domain})'
-        tag-placeholder: 'Leave empty to not cover those links'
+        tag-placeholder: 'Pozostaw puste, aby nie obsługiwać tych linków'

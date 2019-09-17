@@ -1,19 +1,19 @@
 fof-pretty-mail:
   admin:
     nav:
-      desc: 'Customize your html email templates.'
+      desc: 'Dostosuj szablony e-mail HTML.'
     settings:
-      label: 'Email Templates'
-      reset: 'Revert to Default'
-      confirm: 'Are you sure you want to revert to the stock email template for'
-      default: 'Default Template'
-      newPost: 'Flarum/subscriptions New Post Email'
+      label: 'Szablony wiadomości e-mail'
+      reset: 'Przywróć domyślne'
+      confirm: 'Czy na pewno chcesz wrócić do podstawowego szablonu wiadomości e-mail dla'
+      default: 'Domyślny szablon'
+      newPost: 'Flarum/subskrypcje Nowy e-mail'
       userMentioned: 'Flarum/mentions User Mentioned Email'
       postMentioned: 'Flarum/mentions Post Mentioned Email'
-      notifications: 'Notification templates'
-      notificationHelp: 'It is recommended to use "$forumStyle" for these emails as they may contain BBCODE. These emails also have "$user" available which contains the entire user model of the user being emailed.'
+      notifications: 'Szablony powiadomień'
+      notificationHelp: 'Zaleca się stosowanie „$forumStyle” dla tych e-maili, ponieważ mogą one zawierać BBCODE.  Te e-maile mają również „$user”, który zawiera cały model użytkownika wysyłanego pocztą e-mail.'
       help: '"$body" will contain the actual content of the email, "$forumStyle" contains the <strong>entire forum CSS</strong> "$baseUrl" contains your forum url, "$settings" allows you to interact with the SettingsRepositoryInterface, and "$link" contains the link within the email. See each template for how to use each variable.'
     css_settings:
-      label: 'CSS settings'
+      label: 'Ustawienia CSS'
       help: 'You can choose to include the forum''s CSS in the email''s HTML code. If you enable this, you may have issues with certain email providers.'
       switch_label: 'include full forum css'
