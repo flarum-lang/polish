@@ -1,14 +1,14 @@
 clarkwinkelmann-emojionearea:
   forum:
-    picker_button: 'Emoji Picker'
+    picker_button: 'Picker Emoji'
     search_placeholder: Szukaj...
   admin:
     settings:
-      title: 'EmojioneArea settings'
-      enableSearch: 'Enable search'
-      enableRecent: 'Enable recent'
-      enableTones: 'Enable tones'
-      filtersPosition: 'Move categories to the bottom'
-      searchPosition: 'Move search and tones to the bottom'
-      hideFlarumButton: 'Hide Flarum''s emoji picker button'
-      hideFlarumButtonHelp: 'The Emoji Picker extension must be enabled after the Emoji extension for this setting to work'
+      title: 'Ustawienia EmojioneArea'
+      enableSearch: 'Włącz wyszukiwanie'
+      enableRecent: 'Włącz najnowsze'
+      enableTones: 'Włącz dźwięki'
+      filtersPosition: 'Przenieś kategorie na dół'
+      searchPosition: 'Przenieś wyszukiwanie i dźwięki na dół'
+      hideFlarumButton: 'Ukryj przycisk wyboru emoji Flarum'
+      hideFlarumButtonHelp: 'Rozszerzenie Emoji Picker musi być włączone po rozszerzeniu Emoji, aby to ustawienie działało'

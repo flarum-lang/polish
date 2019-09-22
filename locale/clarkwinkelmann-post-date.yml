@@ -1,12 +1,12 @@
 clarkwinkelmann-post-date:
   forum:
     post_controls:
-      edit_button: 'Edit Time'
+      edit_button: 'Edytuj czas'
     modal:
-      title: 'Edit Post Date'
-      created_at: 'Creation time'
-      edited_at: 'Edit time'
-      submit: Save
+      title: 'Edytuj Datę Publikacji'
+      created_at: 'Czas utworzenia'
+      edited_at: 'Edytuj czas'
+      submit: Zapisz
   admin:
     permissions:
-      edit-post-date: 'Edit post date'
+      edit-post-date: 'Edytuj datę publikacji'

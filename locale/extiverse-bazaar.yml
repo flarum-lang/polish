@@ -1,110 +1,110 @@
 bazaar:
   admin:
     loader:
-      is_loading: Processing..
-      error: 'An error occured. Check the History tab and your Flarum log for details. Don''t be afraid to report it to us.'
-      refresh: 'Refresh page'
-      close: Close
-      report_issue: 'Report an issue'
+      is_loading: Przetwarzanie..
+      error: 'Wystąpił błąd. Sprawdź kartę Historia i dziennik Flarum, aby uzyskać szczegółowe informacje. Nie bój się nam tego zgłosić.'
+      refresh: 'Odśwież stronę'
+      close: Zamknij
+      report_issue: 'Zgłoś problem'
     nav:
       title: Bazaar
-      description: 'The extension marketplace.'
+      description: 'Rynek rozszerzeń.'
     header:
-      extensions: 'Browse extensions'
-      tasks: 'Tasks history'
+      extensions: 'Przeglądaj rozszerzenia'
+      tasks: 'Historia zadań'
     modal:
       dashboard:
         title: Dashboard
-        visit-remote-dashboard: 'Visit dashboard'
+        visit-remote-dashboard: 'Odwiedź dashboard'
         sync:
-          switch: Sync
-          description: "Sync your extension information with {host} to receive timely notifications about new versions of extensions you installed. In addition we will send you a regular notification about outdated extensions on all your synced Bazaar enabled Flarum installations.\n"
+          switch: Synchronizacja
+          description: "Zsynchronizuj informacje o swoim rozszerzeniu z {host}, aby otrzymywać aktualne powiadomienia o nowych wersjach zainstalowanych rozszerzeń. Ponadto będziemy regularnie wysyłać Ci powiadomienia o nieaktualnych rozszerzeniach we wszystkich Twoich zsynchronizowanych instalacjach Flarum z włączonym bazarem.\n"
       settings:
-        title: 'Flagrow Bazaar'
+        title: 'Bazar Flagrow'
         field:
           token:
-            label: 'API token'
-            description: 'This api token is required to access the Flagrow extension api. If already set, you''re good to go!'
+            label: 'Token API'
+            description: 'Ten token API jest wymagany, aby uzyskać dostęp do interfejsu API rozszerzenia Flagrow. Jeśli już ustawiony, możesz kontynuować!'
           use_cron_for_tasks:
-            label: Cronjobs
-            description: "By allowing cronjobs to process Bazaar tasks, these processes are less likely to timeout. Please note you need to be able to configure the cronjob, refer to <a>the wiki</a>.\n"
-            toggle: 'Use crons for task processing'
+            label: 'Zadania Cron'
+            description: "Umożliwiając zadaniu crona przetwarzanie zadań bazaru, procesy te mają mniejsze prawdopodobieństwo przekroczenia limitu czasu. Pamiętaj, że musisz mieć możliwość skonfigurowania cronjob, patrz <a>the wiki</a>.\n"
+            toggle: 'Użyj cronów do przetwarzania zadań'
       connect-bazaar:
-        title: Connect
-        description: "Connect your Flarum forum to your personal account on {host} to unlock advanced features; including a dashboard that gives you an health overview of all your connected Flarum installations. We will add more functionality like notifications when your forum contains outdated extensions or the ability to update all Flarum installations centrally.\n"
+        title: Połącz
+        description: "Połącz swoje forum Flarum z kontem osobistym na {host}, aby odblokować zaawansowane funkcje; w tym pulpit, który daje przegląd stanu wszystkich podłączonych instalacji Flarum. Dodamy więcej funkcji, takich jak powiadomienia, gdy twoje forum zawiera nieaktualne rozszerzenia lub możliwość centralnej aktualizacji wszystkich instalacji Flarum.\n"
       requirements:
         file-permissions:
-          title: 'File permissions'
-          description: "It seems Bazaar has insufficient permissions to write files and/or directories, please review the list below. For further information, refer to <a>the wiki</a>.\n"
+          title: 'Uprawnienia do plików'
+          description: "Wygląda na to, że Bazaar ma niewystarczające uprawnienia do zapisywania plików i / lub katalogów, zapoznaj się z poniższą listą. Aby uzyskać więcej informacji, zobacz <a>the wiki</a>.\n"
         php-memory_limit:
-          title: 'Memory limit'
-          description: "We recommend allowing PHP to use at least {required} of memory, your php.ini currently allows {limit}. Although we try to increase the memory limit during runtime, success depends on your hosting environment. For further information, refer to <a>the wiki</a>.\n"
+          title: 'Limit pamięci'
+          description: "Zalecamy zezwolenie PHP na użycie co najmniej {required} pamięci, twój php.ini obecnie pozwala na {limit}. Chociaż staramy się zwiększyć limit pamięci w czasie wykonywania, sukces zależy od środowiska hostingowego. Aby uzyskać więcej informacji, zobacz  <a>the wiki</a>.\n"
     page:
       state:
-        no_results_available: "It seems no results were available at this time.\n"
-        not_authorized: "Your authorization against our flagrow.io api failed. Possibly an unstable internet connection is causing this. Please refresh the page once your connection stabilised. If the problem persists, please get in touch with us.\n"
+        no_results_available: "Wygląda na to, że w tej chwili nie są dostępne żadne wyniki.\n"
+        not_authorized: "Twoja autoryzacja flagrow.io api nie powiodła się. Być może przyczyną tego jest niestabilne połączenie internetowe. Odśwież stronę po ustabilizowaniu połączenia. Jeśli problem będzie się powtarzał, skontaktuj się z nami.\n"
       button:
-        more: 'More, load page {current} of {total}'
-        install: Install
-        uninstall: Uninstall
-        enable: Enable
-        disable: Disable
-        update: Update
-        connect: Connect
-        favorite_button: 'Favorite extension'
-        remove_favorite_button: 'Remove extension from your favorites'
-        subscribe: 'Buy subscription'
-        unsubscribe: 'Cancel subscription'
-        connect_to_subscribe: 'Connect your Bazaar to subcribe to extensions'
+        more: 'Więcej, załaduj stronę {current} z {total}'
+        install: Zainstaluj
+        uninstall: Odinstaluj
+        enable: Włącz
+        disable: Wyłącz
+        update: Aktualizacja
+        connect: Połącz
+        favorite_button: 'Ulubione rozszerzenia'
+        remove_favorite_button: 'Usuń rozszerzenie z ulubionych'
+        subscribe: 'Kup subskrypcję'
+        unsubscribe: 'Anuluj subskrypcje'
+        connect_to_subscribe: 'Połącz swój bazar, aby subskrybować rozszerzenia'
       extension:
-        installed: 'Extension is installed'
-        enabled: 'Extension is enabled'
-        vendor: 'By {vendor}'
-        downloads: Downloads
-        installed_version: 'Installed version'
-        highest_version: 'Latest version'
-        favorites: Favorited
-        favorited: 'One of your favorites'
-        pending: 'Extension waits on a background task to complete'
-        outdated: 'Extension is outdated, please update to version {new}'
+        installed: 'Rozszerzenie jest zainstalowane'
+        enabled: 'Rozszerzenie jest włączone'
+        vendor: 'Przez {vendor}'
+        downloads: 'Pliki do pobrania'
+        installed_version: 'Zainstalowana wersja'
+        highest_version: 'Ostatnia wersja'
+        favorites: Ulubione
+        favorited: 'Jeden z twoich ulubionych'
+        pending: 'Rozszerzenie oczekuje na zakończenie zadania w tle'
+        outdated: 'Rozszerzenie jest nieaktualne, zaktualizuj do wersji {new}'
         premium: Premium
-        subscribed: Subscribed
-        subscribe_check_failed: 'It looks like you cancelled the checkout process.'
-        incompatible: 'Incompatible with your current Flarum version'
-        next_incompatible: 'Incompatible with the upcoming Flarum version'
-        latest_incompatible: 'Incompatible with the latest Flarum version'
+        subscribed: Subskrybuj
+        subscribe_check_failed: 'Wygląda na to, że anulowałeś proces zakupu.'
+        incompatible: 'Niezgodny z twoją aktualną wersją Flarum'
+        next_incompatible: 'Niezgodny z nadchodzącą wersją Flarum'
+        latest_incompatible: 'Niezgodny z najnowszą wersją Flarum'
       task:
         header:
           status: Status
-          command: Command
-          output: Output
-          time: Time
-          details: Details
+          command: Komenda
+          output: Wynik
+          time: Czas
+          details: Szczegóły
         attribute:
-          created_at: 'Created at'
-          started_at: 'Started at'
-          finished_at: 'Finished at'
+          created_at: 'Utworzono w'
+          started_at: 'Rozpoczęty o'
+          finished_at: 'Zakończony o'
         status:
-          success: Success
-          exception: 'An exception occured'
-          working: 'Work in progress'
-          unknown: Unknown
+          success: Powodzenie
+          exception: 'Wystąpił wyjątek'
+          working: 'Praca w toku'
+          unknown: Nieznany
         command:
-          sync-lock: 'Sync composer.lock file'
-          sync-version: 'Sync {extension} version'
-          install: 'Install {extension}'
-          update: 'Update {extension}'
-          uninstall: 'Uninstall {extension}'
+          sync-lock: 'Synchronizuj plik composer.lock'
+          sync-version: 'Synchronizuj wersję {extension}'
+          install: 'Zainstaluj {extension}'
+          update: 'Aktualizuj {extension}'
+          uninstall: 'Odinstaluj {extension}'
         group:
-          today: Today
-          lastmonth: 'Last month'
-          older: Older
+          today: Dzisiaj
+          lastmonth: 'W zeszłym miesiącu'
+          older: Starsze
     search:
-      placeholder: 'Search extensions'
-      filter_installed: Installed
-      filter_update: 'Has update'
-      filter_favorited: Favorited
-      filter_subscribed: Subscribed
+      placeholder: 'Wyszukaj rozszerzenia'
+      filter_installed: Zainstalowano
+      filter_update: 'Ma aktualizację'
+      filter_favorited: Ulubione
+      filter_subscribed: Subskrybuj
       filter_premium: Premium
-      filter_pending: Pending
-      filter_languages: Languages
+      filter_pending: 'W oczekiwaniu'
+      filter_languages: Języki
