@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+0.2.1 (2019-09-22)
+------------------
+
+**Dodano wsparcie dla rozszerzeń**:
+
+* [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
+* [`fajuu/flarum-icons`](https://github.com/Fajuu/flarum-icons)
+* [`dem13n/auth-odnoklassniki`](https://github.com/Dem13n/auth-odnoklassniki)
+* [`clarkwinkelmann/flarum-ext-post-date`](https://github.com/clarkwinkelmann/flarum-ext-post-date)
+* [`kvothe/reply-to-see`](https://github.com/oaklinq/flarum-ext-reply2see)
+* [`tituspijean/flarum-ext-auth-ssowat`](https://github.com/tituspijean/flarum-ext-auth-ssowat)
+
+**Dodano tłumaczenia dla**:
+
+* [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication)
+* [`flagrow/html-errors`](https://github.com/flagrow/html-errors)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
+
+
+Zobacz wszystkie zmiany: [v0.2.0...v0.2.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.0...v0.2.1).
+
+
 0.2.0 (2019-09-16)
 ------------------
 
