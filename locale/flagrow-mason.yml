@@ -1,7 +1,7 @@
 flagrow-mason:
   forum:
     discussion-controls:
-      edit-answers: 'Edit fields'
+      edit-answers: 'Edytuj pola'
     answers-modal:
       edit-title: 'Edit fields for {title}'
       save: 'Save fields'
