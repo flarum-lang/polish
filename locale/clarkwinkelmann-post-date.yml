@@ -3,7 +3,7 @@ clarkwinkelmann-post-date:
     post_controls:
       edit_button: 'Edytuj czas'
     modal:
-      title: 'Edytuj Datę Publikacji'
+      title: 'Edytuj datę publikacji'
       created_at: 'Czas utworzenia'
       edited_at: 'Edytuj czas'
       submit: Zapisz
