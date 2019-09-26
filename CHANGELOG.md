@@ -9,7 +9,7 @@ CHANGELOG
 
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 
-**Dodano tłumaczenia dla**:
+**Dodano tłumaczenia dla rozszerzeń**:
 
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
