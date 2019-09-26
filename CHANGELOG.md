@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+0.2.2 (2019-09-26)
+------------------
+
+**Dodano wsparcie dla rozszerzeń**:
+
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+
+**Dodano tłumaczenia dla**:
+
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`clarkwinkelmann/flarum-ext-post-date`](https://github.com/clarkwinkelmann/flarum-ext-post-date)
+* [`dem13n/auth-mailru`](https://github.com/Dem13n/auth-mailru)
+* [`dem13n/auth-odnoklassniki`](https://github.com/Dem13n/auth-odnoklassniki)
+* [`dem13n/auth-vkontakte`](https://github.com/Dem13n/auth-vkontakte)
+* [`dem13n/auth-yandex`](https://github.com/Dem13n/auth-yandex)
+* [`dem13n/nickname-changer`](https://github.com/Dem13n/nickname-changer)
+* [`extiverse/bazaar`](https://github.com/extiverse/bazaar)
+* [`fajuu/flarum-icons`](https://github.com/Fajuu/flarum-icons)
+* [`flagrow/fonts`](https://github.com/flagrow/fonts)
+
+
+Wszystkie zmiany: [v0.2.1...v0.2.2](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.1...v0.2.2).
+
+
 0.2.1 (2019-09-22)
 ------------------
 
@@ -22,7 +47,7 @@ CHANGELOG
 * [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
 
 
-Zobacz wszystkie zmiany: [v0.2.0...v0.2.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.0...v0.2.1).
+Wszystkie zmiany: [v0.2.0...v0.2.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.0...v0.2.1).
 
 
 0.2.0 (2019-09-16)
@@ -128,7 +153,7 @@ Nowa wersja całkowicie bazująca na [Kolektywie tłumaczeń Flarum](https://git
 * `reflar/polls` - zastapione przez [`fof/polls`](https://github.com/FriendsOfFlarum/polls).
 * `flagrow/bazar` - zastapione przez [`extiverse/bazaar`](https://github.com/extiverse/bazaar).
 
-Zobacz wszystkie zmiany: [v0.1.1...v0.2.0](https://github.com/rob006-software/flarum-lang-polish/compare/v0.1.1...v0.2.0).
+Wszystkie zmiany: [v0.1.1...v0.2.0](https://github.com/rob006-software/flarum-lang-polish/compare/v0.1.1...v0.2.0).
 
 
 0.1.1 (2019-07-20)
@@ -146,7 +171,7 @@ Aktualizacja poprawiająca kompatybilność z Flarum `v0.1.0-beta.9`:
 * [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical)
 
 
-Zobacz wszystkie zmiany: [v0.1.0...v0.1.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.1.0...v0.1.1)
+Wszystkie zmiany: [v0.1.0...v0.1.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.1.0...v0.1.1)
 
 
 0.1.0 (2019-04-03)
