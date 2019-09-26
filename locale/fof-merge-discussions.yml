@@ -17,8 +17,8 @@ fof-merge-discussions:
       merge_discussions_label: 'Scal dyskusje'
   api:
     error:
-      merging_failed: 'Failed to merge discussions.'
-      updating_failed: 'Failed to update discussion details.'
-      deleting_failed: 'Failed to delete empty discussions.'
+      merging_failed: 'Nie udało się scalić dyskusji.'
+      updating_failed: 'Nie udało się odświeżyć informacji o dyskusji.'
+      deleting_failed: 'Nie udało się usunąć pustej dyskusji.'
   ref:
     merge: Scal
