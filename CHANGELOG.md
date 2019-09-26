@@ -39,7 +39,7 @@ Wszystkie zmiany: [v0.2.1...v0.2.2](https://github.com/rob006-software/flarum-la
 * [`kvothe/reply-to-see`](https://github.com/oaklinq/flarum-ext-reply2see)
 * [`tituspijean/flarum-ext-auth-ssowat`](https://github.com/tituspijean/flarum-ext-auth-ssowat)
 
-**Dodano tłumaczenia dla**:
+**Dodano tłumaczenia dla rozszerzeń**:
 
 * [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication)
 * [`flagrow/html-errors`](https://github.com/flagrow/html-errors)
