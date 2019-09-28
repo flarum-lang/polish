@@ -1,3 +1,7 @@
+fof-nightmode:
+  forum:
+    night: 'Night Mode'
+    day: 'Day Mode'
 reflar-nightmode:
   forum:
     night: 'Tryb nocny'
