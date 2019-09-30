@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+0.2.3 (2019-09-30)
+------------------
+
+**Dodano wsparcie dla rozszerzeń**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`veriael/markdown`](https://github.com/Veriael/markdown)
+
+
+Wszystkie zmiany: [v0.2.2...v0.2.3](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.2...v0.2.3).
+
+
 0.2.2 (2019-09-26)
 ------------------
 
