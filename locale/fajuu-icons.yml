@@ -8,6 +8,8 @@ fajuu-icons:
       elementPath: 'Ścieżka elementu'
       originalIcon: 'Oryginalna ikona'
       modifiedIcon: 'Zmodyfikowana ikona'
+      create: Create
+      delete: Delete
     nav:
       icons_button: '=> fajuu-icons.ref.icons'
       icons_text: 'Zmień ikony i zmień ich styl'
