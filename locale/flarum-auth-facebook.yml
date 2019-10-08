@@ -10,4 +10,4 @@ flarum-auth-facebook:
       title: 'Ustawienia Facebooka'
   forum:
     log_in:
-      with_facebook_button: 'Zaloguj się przy użyciu Facebooka'
+      with_facebook_button: 'Zaloguj się za pomocą Facebooka'
