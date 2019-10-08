@@ -10,4 +10,4 @@ flarum-auth-github:
       title: 'Ustawienia GitHuba'
   forum:
     log_in:
-      with_github_button: 'Zaloguj się przy użyciu GitHuba'
+      with_github_button: 'Zaloguj się za pomocą GitHuba'

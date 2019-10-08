@@ -10,4 +10,4 @@ saleksin-auth-google:
       title: 'Ustawienia Google'
   forum:
     log_in:
-      with_google_button: 'Zaloguj się przy użyciu Google'
+      with_google_button: 'Zaloguj się za pomocą Google'

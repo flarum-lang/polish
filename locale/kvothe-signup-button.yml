@@ -4,10 +4,10 @@
 
 kvothe-sub:
   forum:
-    signup: 'Sign Up'
+    signup: 'Zarejestruj się'
   admin:
     settings:
-      title: 'Sign Up Button Settings'
+      title: 'Ustawienia przycisku rejestracji'
       field:
-        hide-desktop: 'Do not show the Button on Desktops.'
-        replace-discussion-button: 'Replace the Start Discussion Button.'
+        hide-desktop: 'Ukryj przycisk na komputerach.'
+        replace-discussion-button: 'Podmień przycisk do rozpoczynania dyskusji.'

@@ -12,4 +12,4 @@ dem13n-auth-ok:
       app_desc: 'Możesz zarejestrować aplikację tutaj <a>https://ok.ru/dk?st.cmd=appEditBasic&st.vpl.mini=false</a>'
       app_p: 'Callback URL'
   forum:
-    login_with_ok_button: 'Zaloguj się przy użyciu Odnoklassniki'
+    login_with_ok_button: 'Zaloguj się za pomocą Odnoklassniki'

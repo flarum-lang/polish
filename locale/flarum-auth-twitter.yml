@@ -10,4 +10,4 @@ flarum-auth-twitter:
       title: 'Ustawienia Twittera'
   forum:
     log_in:
-      with_twitter_button: 'Zaloguj się przy użyciu Twittera'
+      with_twitter_button: 'Zaloguj się za pomocą Twittera'

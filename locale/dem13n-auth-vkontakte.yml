@@ -11,4 +11,4 @@ dem13n-auth-vkontakte:
       app_desc: 'Możesz zarejestrować aplikację tutaj <a>https://vk.com/apps?act=manage</a>'
       app_p: 'Callback URL'
   forum:
-    login_with_vkontakte_button: 'Zaloguj się przy użyciu Vkontakte'
+    login_with_vkontakte_button: 'Zaloguj się za pomocą Vkontakte'

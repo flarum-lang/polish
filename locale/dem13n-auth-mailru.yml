@@ -11,4 +11,4 @@ dem13n-auth-mailru:
       app_desc: 'Możesz zarejestrować aplikację tutaj <a>https://api.mail.ru/sites/my/add</a>'
       app_p: 'Callback URL'
   forum:
-    login_with_mailru_button: 'Zaloguj się przy użyciu Mail.ru'
+    login_with_mailru_button: 'Zaloguj się za pomocą Mail.ru'
