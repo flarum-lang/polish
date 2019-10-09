@@ -5,9 +5,9 @@
 fof-formatting:
   admin:
     plugins:
-      Autoimage: 'Convert image URLs into actual images'
-      Autovideo: 'Convert video URLs into playable videos'
-      FancyPants: 'Use fancy typography'
-      HTMLEntities: 'Use HTML entities'
-      MediaEmbed: 'Osadzanie treści z dozwolonych witryn'
-      PipeTables: 'ASCII-style tables'
+      Autoimage: 'Zamień linki do obrazków na rzeczywiste obrazki'
+      Autovideo: 'Zamień linki do wideo na odtwarzalne wideo'
+      FancyPants: 'Użyj ulepszonej typografii (fancy Unicode symbols)'
+      HTMLEntities: 'Zezwól na encje HTML'
+      MediaEmbed: 'Osadź treści z dozwolonych witryn'
+      PipeTables: 'Obsługuj tabele ASCII'
