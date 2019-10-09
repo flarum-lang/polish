@@ -4,6 +4,6 @@
 
 fancybox:
   forum:
-    next: Next
-    prev: Previous
-    error: 'An error occured loading the image.'
+    next: Następny
+    prev: Poprzedni
+    error: 'Wystąpił błąd podczas ładowania tego obrazka.'

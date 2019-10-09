@@ -5,9 +5,9 @@
 nomiscz-auth-linkedin:
   forum:
     buttons:
-      login: 'Log in with LinkedIn'
+      login: 'Zaloguj się za pomocą LinkedIn'
   admin:
     settings:
-      title: 'LinkedIn Auth Settings'
+      title: 'Ustawienia logowania LinkedIn'
       api_app_id: 'API App ID'
       api_app_secret: 'API App Secret'
