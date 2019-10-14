@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+0.2.4 (2019-10-14)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`zerosonesfun/announce`](https://github.com/zerosonesfun/announce)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+
+
+**Uzupełniono tłumaczenia dla rozszerzeń**:
+
+* [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
+* [`giga300/flarum-auth-discord`](https://github.com/giga300/flarum-auth-discord)
+* [`kvothe/reply-to-see`](https://github.com/oaklinq/flarum-ext-reply2see)
+* [`kvothe/signup-button`](https://github.com/oaklinq/flarum-signup-button)
+* [`kvothe/spoiler-bbcode`](https://github.com/oaklinq/flarum-ext-spoiler-bbcode)
+* [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+* [`nikovonlas/flarum-ext-auth-vk`](https://github.com/NikoVonLas/flarum-ext-auth-vk)
+* [`nomiscz/flarum-ext-auth-linkedin`](https://github.com/NomisCZ/flarum-ext-auth-linkedin)
+* [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam)
+* [`squeevee/flarum-ext-fancybox`](https://github.com/squeevee/flarum-ext-fancybox)
+
+
+Wszystkie zmiany: [v0.2.3...v0.2.4](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.3...v0.2.4).
+
+
 0.2.3 (2019-09-30)
 ------------------
 
