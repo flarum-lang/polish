@@ -5,7 +5,7 @@
 maicol07-sso:
   admin:
     settings:
-      title: 'SSO Settings'
-      signup_url: 'Signup URL'
-      login_url: 'Login URL'
-      logout_url: 'Logout URL'
+      title: 'Ustawienia SSO'
+      signup_url: 'URL rejestracji'
+      login_url: 'URL logowania'
+      logout_url: 'URL wylogowania'
