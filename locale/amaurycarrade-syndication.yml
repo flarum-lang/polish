@@ -24,12 +24,12 @@ amaurycarrade-syndication:
         discussion_subtitle: 'Najnowsze posty w tej dyskusji'
   admin:
     settings:
-      title: 'Syndication Settings'
+      title: 'Ustawienia kanałów RSS'
       full-text:
-        label: 'Full-Text Feeds'
-        help: "If disabled, the feeds will only contain an extract of the posts,\nand users will have to go to the forum to read everything.\n"
-        recommendation: "I would recommend to leave this option active in order to respect\nthe people following the forum from an RSS aggregator—if any.\n"
+        label: 'Udostępnij pełną treść'
+        help: "Jeśli wyłączone, kanał będzie zawierał tylko fragmenty postów. Aby zobaczyć pełną treść posta, użytkownik musi odwiedzić forum.\n"
+        recommendation: "Rekomendowane jest pozostawienie tej opcji włączonej - pozwoli to śledzić forum za pomocą czytników RSS.\n"
       html:
-        label: 'Formatted Feeds'
-        help: 'Check this to keep the HTML in the generated feeds. If disabled, the feeds will be in plain text.'
-      entries-count: 'How many entries per feed?'
+        label: 'Formatowanie kanałów'
+        help: 'Zaznacz aby wyświetlać HTML w treści kanałów. Jeśli wyłączone, kanały będą zawierały jedynie czysty tekst.'
+      entries-count: 'Ile pozycji wyświetlać w kanale?'
