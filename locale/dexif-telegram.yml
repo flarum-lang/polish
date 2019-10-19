@@ -5,14 +5,14 @@
 dexif-telegram:
   admin:
     settings:
-      title: 'Telegram Settings'
+      title: 'Ustawienia Telegrama'
       field:
         botUsername: 'Bot Username'
         botToken: 'Bot Token'
-        enableNotifications: 'Enable Notifications'
+        enableNotifications: 'Włącz powiadomienia'
   forum:
-    log_in_with_telegram_button: 'Log in with Telegram'
-    link_telegram_button: 'Link Telegram'
+    log_in_with_telegram_button: 'Zaloguj się za pomocą Telegrama'
+    link_telegram_button: 'Powiąż z Telegramem'
     settings:
       notify_by_telegram_heading: Telegram
-      unblock_telegram_bot: 'It seems like you did not authorize or blocked the Telegram bot. Send a message to <a>{username}</a> on Telegram to re-enable notifications'
+      unblock_telegram_bot: 'Wygląda na to, że nie autoryzowałeś lub zablokowałeś bota Telegrama. Wyślij wiadomość do <a>{username}</a> w Telegramie, aby ponownie włączyć powiadomienia'
