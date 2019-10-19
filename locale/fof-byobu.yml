@@ -36,8 +36,8 @@ fof-byobu:
         block_pd: 'Blokuj prywatne dyskusje'
       byobu_link: 'Prywatne dyskusje'
     notifications:
-      pd_label: 'Someone includes me in a Private discussion'
-      pd_text: '{username} started a new private discussion with you'
+      pd_label: 'Ktoś doda mnie do prywatnej dyskusji'
+      pd_text: '{username} utworzył nową prywatną dyskusję z tobą'
   admin:
     permission:
       create_private_discussions_with_users: 'Tworzenie prywatnych dyskusji z użytkownikami'
@@ -49,4 +49,4 @@ fof-byobu:
       byobu_users_page_label: 'Wyświetlaj prywatne dyskusje w profilu użytkownika'
   notifications:
     private_discussion_created:
-      title: '[forum-name] New private discussion'
+      title: '[forum-name] Nowa prywatna dyskusja z user'
