@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+0.2.5 (2019-10-20)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
+* [`hiqstd/flarum-ext-close`](https://github.com/HiQStd/flarum-ext-close)
+
+
+**Uzupełniono tłumaczenia dla rozszerzeń**:
+
+* [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
+
+
+Wszystkie zmiany: [v0.2.4...v0.2.5](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.4...v0.2.5).
+
+
 0.2.4 (2019-10-14)
 ------------------
 
