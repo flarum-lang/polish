@@ -9,9 +9,13 @@ clarkwinkelmann-author-change:
     modal:
       title-post: 'Edytuj autora posta'
       title-discussion: 'Edytuj autora dyskusji'
-      search_placeholder: 'Wyszukaj użytkowników'
       submit: Zapisz
       cancel: Anuluj
+      search_placeholder: 'Wyszukaj użytkowników'
+    search:
+      placeholder: 'Search users'
+      type-more: 'Type 3 characters to search database'
+      no-results: 'No results'
   admin:
     permissions:
       edit: 'Aktualizowanie autora postów i dyskusji'
