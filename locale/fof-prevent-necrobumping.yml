@@ -18,3 +18,5 @@ fof-prevent-necrobumping:
       message_title_help: 'Użyj <code>[time]</code> dla podania czasu tekstowo, np. "14 dni".'
       message_description_label: 'Niestandardowa treść wiadomości'
       message_agreement_label: 'Niestandardowa treść potwierdzenia (checkbox)'
+      tags_title: Tags
+      tags_help: 'Override the global days for a specific tag. Empty means use default value. If a discussion has multiple tags with different day values, it will use the smallest amount of days configured.'
