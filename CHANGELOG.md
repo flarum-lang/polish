@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+0.2.6 (2019-10-24)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`xmugenx/flarum-ext-post-blacklist`](https://github.com/xmugenx/flarum-ext-post-blacklist)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+
+
+Wszystkie zmiany: [v0.2.5...v0.2.6](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.5...v0.2.6).
+
+
 0.2.5 (2019-10-20)
 ------------------
 
