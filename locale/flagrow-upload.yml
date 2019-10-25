@@ -41,7 +41,7 @@ flagrow-upload:
         title: 'Ustawienia magazynu OVH SVFS'
         username: Username
       qiniu:
-        title: 'Qiniu storage settings'
+        title: 'Ustawienia Qiniu'
         key: Key
         secret: Secret
         bucket: Bucket
