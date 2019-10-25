@@ -40,6 +40,11 @@ flagrow-upload:
         tenantid: 'Tenant ID'
         title: 'Ustawienia magazynu OVH SVFS'
         username: Username
+      qiniu:
+        title: 'Qiniu storage settings'
+        key: Key
+        secret: Secret
+        bucket: Bucket
       preferences:
         max_file_size: 'Maksymalna wielkość pliku (w kilobajtach)'
         mime_types: 'Skonfiguruj mapowanie typu MIME i adaptera przesyłania'
@@ -69,6 +74,7 @@ flagrow-upload:
       imgur: Imgur
       local: Lokalnie
       ovh-svfs: 'OVH SVFS'
+      qiniu: QiNiu
   forum:
     buttons:
       attach: Załącz
