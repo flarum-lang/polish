@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.7 (2019-10-26)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`tank/perspective`](https://github.com/tankerkiller125/flarum-perspective)
+
+
+Wszystkie zmiany: [v0.2.6...v0.2.7](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.6...v0.2.7).
+
+
 0.2.6 (2019-10-24)
 ------------------
 
