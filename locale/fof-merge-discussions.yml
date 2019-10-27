@@ -18,7 +18,7 @@ fof-merge-discussions:
       merged: 'Włączono <b>{count}</b> post z {titles}.|Włączono <b>{count}</b> posty z {titles}.|Włączono <b>{count}</b> postów z {titles}.'
   admin:
     permissions:
-      merge_discussions_label: 'Scal dyskusje'
+      merge_discussions_label: 'Scalanie dyskusji'
   api:
     error:
       merging_failed: 'Nie udało się scalić dyskusji.'
