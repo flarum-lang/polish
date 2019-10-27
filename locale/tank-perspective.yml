@@ -6,6 +6,7 @@ perspective:
   admin:
     settings:
       title: 'Ustawienia Perspective'
+      donotstore: 'Do Not Store'
       field:
         api_key: 'API Key'
         threshold: 'Próg dla zgłoszeń'
