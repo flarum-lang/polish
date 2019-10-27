@@ -7,10 +7,10 @@ flagrow-passport:
     popup:
       title: 'Flagrow Passport'
       field:
-        app-auth-url: 'OAuth authorization url'
-        app-token-url: 'OAuth token url'
-        app-user-url: 'Api URL providing user details when authenticated'
-        app-id: 'OAuth application id'
+        app-auth-url: 'OAuth authorization URL'
+        app-token-url: 'OAuth token URL'
+        app-user-url: 'URL API udostępniający szczegóły użytkownika po uwierzytelnieniu'
+        app-id: 'OAuth application ID'
         app-secret: 'OAuth application secret'
         app-scopes: 'OAuth scopes to request'
-        button-title: 'Label for login button'
+        button-title: 'Etykieta przycisku logowania'
