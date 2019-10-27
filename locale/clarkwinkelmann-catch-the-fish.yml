@@ -28,7 +28,7 @@ clarkwinkelmann-catch-the-fish:
       congratulation: 'Gratulacje, złowiłeś rybę! W sumie złowiłeś już {catch_count} ryb.'
       name: 'Nazwa ryby'
       name-help: 'Jeśli chcesz, możesz zmienić nazwę ryby. Nazwa musi być zgodna z regulaminem forum.'
-      placement-help: 'Możesz ukryć rybę w ostatnich dyskusjach i aktywnych profilach użytkowników. Nie możesz złapać ryby, którą sam umieściłeś.'
+      placement-help: 'Możesz ukryć rybę w ostatnich dyskusjach i aktywnych profilach użytkowników. Nie możesz złowić ryby, którą sam umieściłeś.'
       submit-name-place-later: 'Zapisz nazwę i wybierz miejsce do ukrycia'
       submit-name: 'Zapisz nazwę'
       submit-place-later: 'Tak, wybiorę miejsce do ukrycia'
@@ -45,21 +45,21 @@ clarkwinkelmann-catch-the-fish:
       create: 'Utwórz rundę'
       save: 'Zapisz rundę'
       delete: 'Usuń rundę'
-      delete-confirmation: 'Usunąć rundę "{name}"?'
+      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć rundę "{name}"?'
     edit-fish:
       name: Nazwa
       name-help: 'Obecna nazwa ryby. Może być edytowana przez graczy, jeśli mają uprawnienia do zmiany nazwy ryb'
       create: 'Utwórz rybę'
       save: 'Zapisz rybę'
       delete: 'Usuń rybę'
-      delete-confirmation: 'Usunąć rybę "{name}"?'
+      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć rybę "{name}"?'
     moving-fish:
       login: 'Zaloguj się, aby łowić ryby'
     fish-image:
       alt: 'Obrazek ryby "{name}"'
       missing: 'Brak obrazka ryby'
     round-alert:
-      message: 'Runda "{name}", złap jak najwięcej ryb do {time}'
+      message: 'Runda "{name}", złów jak najwięcej ryb do {time}'
       rankings: 'Zobacz rankingi'
     basket:
       title: 'Koszyk na ryby'
@@ -88,7 +88,7 @@ clarkwinkelmann-catch-the-fish:
       no-user-name: 'Nie zmieniono nazwy'
       no-user-place: Losowo
       upload: 'Prześlij nowy obrazek'
-      new-from-image: 'Twórz nowe ryby poprzez zbiorczy import obrazów'
+      new-from-image: 'Twórz nowe ryby poprzez zbiorczy import obrazków'
     table-ranking:
       loading: Ładowanie...
       title: 'Ranking rundy "{name}"'
@@ -110,7 +110,7 @@ clarkwinkelmann-catch-the-fish:
       user-age: 'Jak długo użytkownik może być nieaktywny, aby móc umieścić na nim rybę (dni)'
       time-to-place: 'Czas na umieszczenie ryby, zanim zostanie rozmieszczona losowo (minuty)'
       alert-round: 'Pokaż na stronie głównej alert z nazwą rundy i czasem trwania'
-      animate-flip: 'Odwróć obrazy ryb na podstawie kierunku'
+      animate-flip: 'Odwróć obrazki ryb na podstawie kierunku'
     permissions:
       visible: 'Może zobaczyć ryby'
       list-rankings: 'Dostęp do strony z rankingami'
@@ -120,7 +120,7 @@ clarkwinkelmann-catch-the-fish:
       moderate: 'Moderowanie rund oraz ryb'
   api:
     default-fish-name: 'Ryba #{number}'
-    wrong-catch-placement: 'Tu nie ma żadnych ryb. Może nie byłeś wystarczająco szybki i ktoś inny złapał ją przed tobą'
+    wrong-catch-placement: 'Tu nie ma żadnych ryb. Może nie byłeś wystarczająco szybki i ktoś inny złowił ją przed tobą'
     too-many-placement-models: 'Rybę można umieścić tylko w jednym miejscu'
     invalid-discussion-id: 'Ta dyskusja nie istnieje, być może została niedawno usunięta'
     invalid-post-id: 'Ten post nie istnieje, być może został niedawno usunięty'
@@ -133,9 +133,9 @@ clarkwinkelmann-catch-the-fish:
     non-comment-post: 'Można umieszczać ryby tylko na postach'
     user-suspended: 'Nie można umieścić ryby na zawieszonym użytkowniku'
     random-error: 'Nie udało się wygenerować losowej pozycji dla tej ryby'
-    cannot-catch-own-fish: 'Nie możesz złapać ryby, którą sam umieściłeś'
-    cannot-catch-hold-fish: 'Użytkownik który poprzednio złapał rybę musi ją uwolnić, zanim będzie można ją złapać ponownie'
-    fish-update-wrong-user: 'Nie możesz już edytować tej ryby. Ktoś prawdopodobnie ją złapał'
+    cannot-catch-own-fish: 'Nie możesz złowić ryby, którą sam umieściłeś'
+    cannot-catch-hold-fish: 'Użytkownik który poprzednio złowił rybę musi ją uwolnić, zanim będzie można ją złowić ponownie'
+    fish-update-wrong-user: 'Nie możesz już edytować tej ryby. Ktoś prawdopodobnie ją złowił'
     fish-update-expired: 'Za późno, nie możesz już edytować tej ryby. W międzyczasie została gdzieś automatycznie umieszczona'
     round-not-started: 'Ta runda jeszcze się nie rozpoczęła'
     round-finished: 'Ta runda jest zakończona'
