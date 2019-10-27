@@ -7,6 +7,7 @@ perspective:
     settings:
       title: 'Ustawienia Perspective'
       donotstore: 'Do Not Store'
+      usemax: 'Use Max Score'
       field:
         api_key: 'API Key'
         threshold: 'Próg dla zgłoszeń'
