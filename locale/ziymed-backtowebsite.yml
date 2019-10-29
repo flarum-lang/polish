@@ -5,9 +5,9 @@
 backtowebsite:
   forum:
     header:
-      back_button: 'Back to website'
+      back_button: 'Wróć na stronę'
   admin:
     settings:
-      backto_label_label: 'Title of button'
-      backto_url_label: 'Back to URL'
-      title: 'Back to URL Settings'
+      backto_label_label: 'Treść przycisku'
+      backto_url_label: 'Docelowy adres URL'
+      title: 'Ustawienia "Wróć na stronę"'
