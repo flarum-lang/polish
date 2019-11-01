@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+0.2.8 (2019-11-01)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
+
+
+**Uzupełniono tłumaczenia dla rozszerzeń**:
+
+* [`flagrow/passport`](https://github.com/flagrow/passport)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical)
+* [`ziymed/backtowebsite`](https://github.com/ziymed/BackToWebsite)
+
+
+Wszystkie zmiany: [v0.2.7...v0.2.8](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.7...v0.2.8).
+
+
 0.2.7 (2019-10-26)
 ------------------
 
