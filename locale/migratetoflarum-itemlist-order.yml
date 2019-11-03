@@ -5,7 +5,7 @@
 migratetoflarum-itemlist-order:
   admin:
     settings:
-      title: 'Itemlist Order Settings'
-      explanation: "To customize the content of your forum, enable edit mode below then visit your forum (refresh the page if it was already open). A new button will appear beside the content you can edit. Only your own browser will enter edit mode (visitors can't see it). Come back to this page to disable it.\n"
-      enable-edit-mode: 'Enable edit mode'
-      disable-edit-mode: 'Disable edit mode'
+      title: 'Ustawienia kolejności elementów'
+      explanation: "Aby dostosować treść twojego forum, włącz tryb edycji poniżej i odwiedź forum (odśwież stronę, jeśli była już wcześniej otwarta). Pojawi się nowy przycisk obok elementów, które możesz edytować. Tylko aktywna sesja z twojej przeglądarki będzie miała dostęp do trybu edycji (inni odwiedzający nie zobaczą go). Po dokonaniu zmian, wróć na tę stronę, aby wyłączyć tryb edycji.\n"
+      enable-edit-mode: 'Włącz tryb edycji'
+      disable-edit-mode: 'Wyłącz tryb edycji'
