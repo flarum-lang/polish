@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+0.2.9 (2019-11-04)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`kilowhat/flarum-ext-affiliation-links`](https://github.com/kilowhat/flarum-ext-affiliation-links)
+
+
+**Uzupełniono tłumaczenia dla rozszerzeń**:
+
+* [`kilowhat/flarum-ext-mailing`](https://github.com/kilowhat/flarum-ext-mailing)
+* [`migratetoflarum/itemlist-order`](https://github.com/migratetoflarum/itemlist-order)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
+
+
+Wszystkie zmiany: [v0.2.8...v0.2.9](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.8...v0.2.9).
+
+
 0.2.8 (2019-11-01)
 ------------------
 
