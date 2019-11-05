@@ -5,15 +5,15 @@
 shriker-pronouns:
   admin:
     settings:
-      title: 'Personal Pronouns Settings'
-      prefix_label: 'Pronouns Prefix'
-      prefix_help_text: 'This text will show before the user''s pronouns. It''s useful if you want to represent pronoun sites like mypronouns.org or pronouns.is'
+      title: 'Ustawienia zaimków osobowych'
+      prefix_label: 'Prefiks zaimków'
+      prefix_help_text: 'Ten tekst pojawi się przed zaimkami ustawionymi przez użytkownika. Przydatne może być linkowanie do stron typu mypronouns.org lub pronouns.is'
   forum:
-    change_pronouns_title: 'Change Pronouns'
-    change_pronouns_button: 'Change Pronouns'
-    my_pronouns_are_label: 'My pronouns are'
-    my_pronouns_are_placeholder: 'For example: they/them, he/him, or she/her'
-    my_pronouns_are_help_text: 'Your pronouns will show up on your profile and user card. <a>What are personal pronouns and why do they matter?</a>'
-    submit_button: 'Save Changes'
-    submit_success_text: 'Your personal pronouns have been saved.'
-    dismiss_button: Dismiss
+    change_pronouns_title: 'Zmień zaimki'
+    change_pronouns_button: 'Zmień zaimki'
+    my_pronouns_are_label: 'Moje zaimki to'
+    my_pronouns_are_placeholder: 'Na przykład: oni/im, on/mu lub ona/jej'
+    my_pronouns_are_help_text: 'Twoje zaimki pojawią się na twoim profilu oraz karcie użytkownika. <a>Co to są zaimki osobowe i czemu mają znaczenie?</a>'
+    submit_button: 'Zapisz zmiany'
+    submit_success_text: 'Twoje zaimki osobowe zostały zapisane.'
+    dismiss_button: Anuluj
