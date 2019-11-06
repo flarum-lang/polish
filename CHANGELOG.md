@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+0.2.10 (2019-11-06)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`zerosonesfun/flarum-ext-poke`](https://github.com/zerosonesfun/flarum-ext-poke)
+
+
+**Uzupełniono tłumaczenia dla rozszerzeń**:
+
+* [`manelizzard/flarum-ext-notify`](https://github.com/manelizzard/flarum-notify)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+* [`migratetoflarum/vbulletin-redirects`](https://github.com/migratetoflarum/vbulletin-redirects)
+* [`shriker/flarum-pronouns`](https://github.com/shriker/flarum-pronouns)
+
+
+Wszystkie zmiany: [v0.2.9...v0.2.10](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.9...v0.2.10).
+
+
 0.2.9 (2019-11-04)
 ------------------
 
