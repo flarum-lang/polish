@@ -5,16 +5,16 @@
 clarkwinkelmann-poke:
   forum:
     profile:
-      poke: 'Poke this user'
-      count: '{count} pokes received'
-      sent: 'The poke is on its way!'
-      reset: 'Reset poke count'
-      reseted: 'The poke count has been reset'
+      poke: 'Zaczep tego użytkownika'
+      count: 'Zaczepiony {count} razy'
+      sent: 'Zaczepka została wysłana!'
+      reset: 'Resetuj licznik zaczepek'
+      reseted: 'Licznik zaczepek został zresetowany'
     notifications:
-      poke: '{username} sent you a poke!'
+      poke: '{username} zaczepił cię!'
     settings:
-      poke: 'Poke notifications'
+      poke: 'Powiadomienia o zaczepkach'
   admin:
     permissions:
-      poke: 'Poke other users'
-      reset: 'Reset poke count'
+      poke: 'Zaczepianie innych użytkowników'
+      reset: 'Resetowanie licznika zaczepek'
