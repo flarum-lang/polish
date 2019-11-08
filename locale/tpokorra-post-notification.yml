@@ -7,6 +7,12 @@ tpokorra-post-notification:
     settings:
       title: 'Ustawienia powiadomień o postach'
       recipients:
+        new_post:
+          to: 'Comma separated list of email addresses for the To recipient for new posts'
+          bcc: 'Comma separated list of email addresses for the BCC recipient for new posts'
+        revised_post:
+          to: 'Comma separated list of email addresses for the To recipient for revised posts'
+          bcc: 'Comma separated list of email addresses for the BCC recipient for revised posts'
         to: 'Lista adresatów - adresy e-mail rozdzielone przecinkami'
         bcc: 'Lista ukrytych adresatów (BCC) - adresy e-mail rozdzielone przecinkami'
       new_post: 'Etykieta opisująca nowy post'
