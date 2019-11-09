@@ -8,7 +8,7 @@ tpokorra-post-notification:
       title: 'Ustawienia powiadomień o postach'
       recipients:
         post_approval:
-          to: 'Comma separated list of email addresses for the To recipient for approval of new posts'
+          to: 'Lista adresatów, którzy będą powiadamiani o nowych postach do zatwierdzenia (adresy e-mail rozdzielone przecinkami)'
         new_discussion:
           to: 'Lista adresatów, którzy będą powiadamiani o nowych dyskusjach (adresy e-mail rozdzielone przecinkami)'
           bcc: 'Lista ukrytych adresatów (BCC), którzy będą powiadamiani o nowych dyskusjach (adresy e-mail rozdzielone przecinkami)'
@@ -23,4 +23,4 @@ tpokorra-post-notification:
       new_discussion: 'Etykieta opisująca nową dyskusję'
       new_post: 'Etykieta opisująca nowy post'
       revised_post: 'Etykieta opisująca edycję posta'
-      post_approval: 'Label for describing a new post that needs approval'
+      post_approval: 'Etykieta opisująca nowy post wymagający zatwierdzenia'
