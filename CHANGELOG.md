@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.11 (2019-11-11)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
+
+
+Wszystkie zmiany: [v0.2.10...v0.2.11](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.10...v0.2.11).
+
+
 0.2.10 (2019-11-06)
 ------------------
 
