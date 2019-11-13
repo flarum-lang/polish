@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.12 (2019-11-13)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`irony/flarum-ext-google-search`](https://github.com/892768447/flarum-ext-google-search)
+
+
+Wszystkie zmiany: [v0.2.11...v0.2.12](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.11...v0.2.12).
+
+
 0.2.11 (2019-11-11)
 ------------------
 
