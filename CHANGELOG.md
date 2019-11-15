@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.13 (2019-11-15)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
+
+
+Wszystkie zmiany: [v0.2.12...v0.2.13](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.12...v0.2.13).
+
+
 0.2.12 (2019-11-13)
 ------------------
 
