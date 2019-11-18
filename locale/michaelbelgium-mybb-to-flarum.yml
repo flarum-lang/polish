@@ -25,7 +25,7 @@ mybbtoflarum:
           prefix: 'Prefiks tabeli'
           mybbPath: 'Absolutna ścieżka do MyBB'
         options:
-          title: 'Ogólnie opcje migracji'
+          title: 'Ogólne opcje migracji'
           migrateUsers: 'Migruj użytkowników'
           migrateThreadsPosts: 'Migruj wątki i posty'
           migrateUserGroups: 'Migruj grupy użytkowników'
