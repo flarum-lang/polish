@@ -10,7 +10,9 @@ fof-drafts:
     composer:
       title: 'Zapisz szkic'
       alert: 'Szkic został zapisany.'
+      exit_alert: 'Discard changes to draft?'
     dropdown:
+      empty_text: 'You didn''t save any drafts'
       title: Szkice
       button: 'Usuń szkic'
       tooltip: '=> fof-drafts.forum.dropdown.title'
