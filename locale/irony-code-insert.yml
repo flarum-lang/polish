@@ -4,8 +4,8 @@
 
 flarum-ext-code-insert:
   forum:
-    title: 'Insert Code'
-    insert: Insert
+    title: 'Wstaw kod'
+    insert: Wstaw
   admin:
-    title: 'Language Mode'
-    modes_label: 'Mode(use , separate. supports https://github.com/ajaxorg/ace-builds/tree/master/src-min-noconflict)'
+    title: 'Wspierane języki'
+    modes_label: 'Języki (rozdzielone przecinkami; lista wspieranych języków: https://github.com/ajaxorg/ace-builds/tree/master/src-min-noconflict)'
