@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+0.2.14 (2019-12-15)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`irony/flarum-ext-bing-wallpaper`](https://github.com/892768447/flarum-ext-bing-wallpaper)
+* [`irony/flarum-ext-code-insert`](https://github.com/892768447/flarum-ext-code-insert)
+* [`irony/flarum-ext-login2see`](https://github.com/892768447/flarum-ext-login2see)
+* [`irony/flarum-ext-webhook`](https://github.com/892768447/flarum-ext-webhook)
+
+
+**Uzupełniono tłumaczenia dla rozszerzeń**:
+
+* [`flagrow/mason`](https://github.com/flagrow/mason)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`reflar/webhooks`](https://github.com/ReFlar/webhooks)
+
+
+Wszystkie zmiany: [v0.2.13...v0.2.14](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.13...v0.2.14).
+
+
 0.2.13 (2019-11-15)
 ------------------
 
