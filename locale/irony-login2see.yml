@@ -4,5 +4,5 @@
 
 flarum-ext-login2see:
   forum:
-    hidden_content: 'HIDDEN CONTENT'
-    login_to_see: 'You need to {login} and refresh to see the content'
+    hidden_content: 'Ukryta zawartość'
+    login_to_see: 'Musisz <a class="login2see_login">zalogować się</a>, aby zobaczyć tę zawartość'
