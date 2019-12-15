@@ -5,6 +5,6 @@
 flarum-ext-bing-wallpaper:
   admin:
     settings:
-      title: 'Background wallpaper settings'
-      transparency_label: 'Background transparency'
-      url_label: 'Background wallpaper url'
+      title: 'Ustawienia tapety w tle'
+      transparency_label: 'Przezroczystość tła'
+      url_label: 'URL tapety w tle'
