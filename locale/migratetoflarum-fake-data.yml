@@ -12,12 +12,12 @@ migratetoflarum-fake-data:
       send: 'Wygeneruj dane'
   forum:
     link:
-      generate-replies: 'Generate fake replies'
+      generate-replies: 'Generuj odpowiedzi'
     generator:
-      title: 'Generate fake replies'
-      user-count: 'Number of users to create'
-      post-count: 'Number of posts to create'
-      send: 'Generate data'
+      title: 'Generuj odpowiedzi'
+      user-count: 'Liczba użytkowników do utworzenia'
+      post-count: 'Liczba postów do utworzenia'
+      send: 'Wygeneruj dane'
   api:
-    no-users-matched: 'No users matched'
-    no-discussions-matched: 'No discussions matched'
+    no-users-matched: 'Nie znaleziono pasujących użytkowników'
+    no-discussions-matched: 'Nie znaleziono pasujących dyskusji'
