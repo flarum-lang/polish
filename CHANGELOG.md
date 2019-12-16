@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.15 (2019-12-16)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+
+
+Wszystkie zmiany: [v0.2.14...v0.2.15](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.14...v0.2.15).
+
+
 0.2.14 (2019-12-15)
 ------------------
 
