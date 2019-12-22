@@ -2,8 +2,29 @@ CHANGELOG
 =========
 
 
+0.2.16 (2019-12-22)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
+
+
+**Uzupełniono tłumaczenia dla rozszerzeń**:
+
+* [`nikovonlas/flarum-ext-web-push`](https://github.com/NikoVonLas/flarum-ext-web-push)
+* [`reflar/twofactor`](https://github.com/ReFlar/twofactor)
+* [`tituspijean/flarum-ext-auth-ssowat`](https://github.com/tituspijean/flarum-ext-auth-ssowat)
+* [`zhishiq/flarum-pusher`](https://github.com/ZhiShiQ/FlarumPusher)
+* [`zhishiq/flarum-queue`](https://github.com/ZhiShiQ/FlarumQueue)
+* [`zhishiq/flarum-redis`](https://github.com/ZhiShiQ/FlarumRedis)
+
+
+Wszystkie zmiany: [v0.2.15...v0.2.16](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.15...v0.2.16).
+
+
 0.2.15 (2019-12-16)
-------------------
+-------------------
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
@@ -14,7 +35,7 @@ Wszystkie zmiany: [v0.2.14...v0.2.15](https://github.com/rob006-software/flarum-
 
 
 0.2.14 (2019-12-15)
-------------------
+-------------------
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
@@ -36,7 +57,7 @@ Wszystkie zmiany: [v0.2.13...v0.2.14](https://github.com/rob006-software/flarum-
 
 
 0.2.13 (2019-11-15)
-------------------
+-------------------
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
@@ -47,7 +68,7 @@ Wszystkie zmiany: [v0.2.12...v0.2.13](https://github.com/rob006-software/flarum-
 
 
 0.2.12 (2019-11-13)
-------------------
+-------------------
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
@@ -58,7 +79,7 @@ Wszystkie zmiany: [v0.2.11...v0.2.12](https://github.com/rob006-software/flarum-
 
 
 0.2.11 (2019-11-11)
-------------------
+-------------------
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
@@ -69,7 +90,7 @@ Wszystkie zmiany: [v0.2.10...v0.2.11](https://github.com/rob006-software/flarum-
 
 
 0.2.10 (2019-11-06)
-------------------
+-------------------
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
