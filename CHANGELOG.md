@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+0.2.17 (2019-12-29)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`dotronglong/flarum-hide-me`](https://github.com/dotronglong/flarum-hide-me)
+
+
+Wszystkie zmiany: [v0.2.16...v0.2.17](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.16...v0.2.17).
+
+
 0.2.16 (2019-12-22)
 -------------------
 
