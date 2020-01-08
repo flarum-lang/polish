@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.18 (2020-01-08)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+
+
+Wszystkie zmiany: [v0.2.17...v0.2.18](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.17...v0.2.18).
+
+
 0.2.17 (2019-12-29)
 -------------------
 
