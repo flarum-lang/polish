@@ -257,4 +257,4 @@ Paczka bazuje na [rozszerzeniu stworzonym przez bepropl](https://github.com/bepr
 
 Tłumaczenie dla `moment.js` pochodzi bezpośrednio ze [źródła](https://github.com/moment/moment/blob/2.24.0/locale/pl.js).
 
-Tłumaczenie dla `validation.yml` pochodzi z [paczki językowej dla Laravela](https://github.com/caouecs/Laravel-lang/blob/4.0.2/src/pl/validation.php).
+Tłumaczenie dla `validation.yml` bazuje na [paczce językowej dla Laravela](https://github.com/caouecs/Laravel-lang/blob/4.0.2/src/pl/validation.php).
