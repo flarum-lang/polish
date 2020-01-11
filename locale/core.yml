@@ -98,6 +98,7 @@ core:
       mandrill_heading: 'Ustawienia Mandrilla'
       ses_heading: 'Ustawienia SES'
       smtp_heading: 'Ustawienia SMTP'
+      mail_mailgun_region_label: Region
     extensions:
       add_button: 'Dodaj rozszerzenie'
       settings_button: '=> core.ref.settings'
