@@ -15,3 +15,6 @@ dotronglong-hide-me:
       privacy_public_info: 'Twoja tożsamość będzie widoczna dla wszystkich.'
       privacy_anonymous_label: Anonimowa
       privacy_anonymous_info: 'Wyświetlaj jako użytkownik anonimowy. Wciąż będziesz mógł edytować swoje posty.'
+  anonymous:
+    username: '[hidden]'
+    display_name: '[hidden]'
