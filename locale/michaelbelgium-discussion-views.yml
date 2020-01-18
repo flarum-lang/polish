@@ -18,3 +18,8 @@ flarum_discussion_views:
   admin:
     permissions:
       reset_views_label: 'Ustawianie liczby wyświetleń dyskusji'
+    settings:
+      title: 'Discussionviews settings'
+      track_unique: 'Track unique views'
+      abbr_numbers: 'Abbreviate view numbers'
+      show_filter: 'Enable (un)popular filter'
