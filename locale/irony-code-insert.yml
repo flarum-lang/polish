@@ -3,9 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-ext-code-insert:
-  forum:
-    title: 'Wstaw kod'
-    insert: Wstaw
   admin:
-    title: 'Wspierane języki'
     modes_label: 'Języki (rozdzielone przecinkami; lista wspieranych języków: https://github.com/ajaxorg/ace-builds/tree/master/src-min-noconflict)'
+    title: 'Wspierane języki'
+  forum:
+    insert: Wstaw
+    title: 'Wstaw kod'

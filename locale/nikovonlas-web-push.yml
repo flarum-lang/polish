@@ -3,56 +3,56 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 nikovonlas-webpush:
-  forum:
-    subscribe: 'Włącz powiadomienia push'
   admin:
     settings:
+      api_key: 'API key'
+      app_id: 'App ID'
+      autoprompt: 'Od razu wyświetl prośbę o przydzielenie uprawnień'
+      excerpt: 'Długość podsumowania w powiadomieniu'
+      subdomain: Subdomena
       title: 'Ustawienia powiadomień push OneSignal'
       type:
+        custom: Własny
         description: 'Typ połączenia (connector)'
         standart: Standardowy
-        custom: Własny
-      app_id: 'App ID'
-      api_key: 'API key'
       user_key: 'User key'
-      subdomain: Subdomena
-      excerpt: 'Długość podsumowania w powiadomieniu'
-      autoprompt: 'Od razu wyświetl prośbę o przydzielenie uprawnień'
+  forum:
+    subscribe: 'Włącz powiadomienia push'
   notify:
+    delete:
+      message: '{from} usunął dyskusję: {title}'
+      title: 'Dyskusja została usunięta'
+    flag:
+      message: '{from} zgłosił post: {post}'
+      title: 'Nowe zgłoszenie'
     like:
-      title: 'Post został polubiony'
       message: '{from} polubił twój post: {post}'
+      title: 'Post został polubiony'
+    lock:
+      message: '{from} zamknął dyskusję: {title}'
+      title: 'Dyskusja została zamknięta'
     mention-post:
-      title: 'Nowa odpowiedź w: {title}'
       message: '{from} odpowiedział na post: {post}'
+      title: 'Nowa odpowiedź w: {title}'
     mention:
-      title: 'Zostałeś wspomniany w: {title}'
       message: '{from} wspomniał cię w poście: {post}'
+      title: 'Zostałeś wspomniany w: {title}'
     post:
-      title: 'Nowy post w obserwowanej dyskusji: {title}'
       message: '{from} dodał nowy post: {post}'
+      title: 'Nowy post w obserwowanej dyskusji: {title}'
+    rename:
+      message: '{from} zmienił nazwę dyskusji na: {title}'
+      title: 'Zmieniono nazwę dyskusji'
+    suspend:
+      message: '{from} zbanował twoje konto'
+      title: 'Twoje konto zostało zbanowane'
     tag:
       discussion:
-        title: 'Nowa dyskusja w obserwowanym tagu'
         message: '{from} rozpoczął nową dyskusję: {title}'
+        title: 'Nowa dyskusja w obserwowanym tagu'
       post:
-        title: 'Nowy post w dyskusji: {title}'
         message: '{from} dodał nowy post: {post}'
-    rename:
-      title: 'Zmieniono nazwę dyskusji'
-      message: '{from} zmienił nazwę dyskusji na: {title}'
-    lock:
-      title: 'Dyskusja została zamknięta'
-      message: '{from} zamknął dyskusję: {title}'
-    delete:
-      title: 'Dyskusja została usunięta'
-      message: '{from} usunął dyskusję: {title}'
-    suspend:
-      title: 'Twoje konto zostało zbanowane'
-      message: '{from} zbanował twoje konto'
+        title: 'Nowy post w dyskusji: {title}'
     unsuspend:
-      title: 'Twoje konto zostało odbanowane'
       message: '{from} odbanował twoje konto'
-    flag:
-      title: 'Nowe zgłoszenie'
-      message: '{from} zgłosił post: {post}'
+      title: 'Twoje konto zostało odbanowane'

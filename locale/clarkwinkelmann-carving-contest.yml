@@ -3,42 +3,42 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-carving-contest:
-  forum:
-    nav:
-      contest: 'Zawody w rzeźbieniu'
-    page:
-      title: 'Zawody w rzeźbieniu w dyni'
-      loading: 'Ładowanie wyników...'
-      participate: 'Weź udział'
-      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć dynię "{name}" utworzoną przez {username}?'
-      like: 'Lubię to'
-      already-liked: 'Lubię to'
-      unlike: 'Przestań lubić'
-      refresh: Odśwież
-      load-more: 'Załaduj więcej wyników'
-      sort:
-        mostLikes: 'Najwięcej polubień'
-        fewerLikes: 'Najmniej polubień'
-        mostRecent: 'Ostatnio dodane'
-        leastRecent: 'Najdawniej dodane'
-      likes:
-        you_text: '=> core.ref.you'
-        others_link: '=> core.ref.some_others'
-        liked_by_self_text: '{users} lubisz to.|{users} lubicie to.'
-        liked_by_text: '{users} lubi to.|{users} lubią to.'
-    modal:
-      title: 'Weź udział'
-      name: 'Nazwij swoje dzieło'
-      submit: Wyślij
-      tools:
-        circle: Okrąg
-        square: Kwadrat
-    likes_modal:
-      title: 'Użytkownicy, którzy polubili tę pracę'
   admin:
     permissions:
       heading: 'Zawody w rzeźbieniu'
-      view: 'Przeglądanie prac'
       like: 'Polubienie prac'
-      participate: Uczestnictwo
       moderate: Moderacja
+      participate: Uczestnictwo
+      view: 'Przeglądanie prac'
+  forum:
+    likes_modal:
+      title: 'Użytkownicy, którzy polubili tę pracę'
+    modal:
+      name: 'Nazwij swoje dzieło'
+      submit: Wyślij
+      title: 'Weź udział'
+      tools:
+        circle: Okrąg
+        square: Kwadrat
+    nav:
+      contest: 'Zawody w rzeźbieniu'
+    page:
+      already-liked: 'Lubię to'
+      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć dynię "{name}" utworzoną przez {username}?'
+      like: 'Lubię to'
+      likes:
+        liked_by_self_text: '{users} lubisz to.|{users} lubicie to.'
+        liked_by_text: '{users} lubi to.|{users} lubią to.'
+        others_link: '=> core.ref.some_others'
+        you_text: '=> core.ref.you'
+      load-more: 'Załaduj więcej wyników'
+      loading: 'Ładowanie wyników...'
+      participate: 'Weź udział'
+      refresh: Odśwież
+      sort:
+        fewerLikes: 'Najmniej polubień'
+        leastRecent: 'Najdawniej dodane'
+        mostLikes: 'Najwięcej polubień'
+        mostRecent: 'Ostatnio dodane'
+      title: 'Zawody w rzeźbieniu w dyni'
+      unlike: 'Przestań lubić'

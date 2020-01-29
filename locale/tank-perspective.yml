@@ -5,18 +5,18 @@
 perspective:
   admin:
     settings:
-      title: 'Ustawienia Perspective'
       donotstore: 'Nie przechowuj'
-      usemax: 'Użyj maksymalnego wyniku'
-      useexperimental: 'Użyj eksperymentalnych modeli (experimental models)'
       field:
         api_key: 'API Key'
-        threshold: 'Próg dla zgłoszeń'
-        toxicity: Toksyczność
-        threat: Groźby
+        flirtation: Flirtowanie
         profanity: Przekleństwa
         sexually_explicit: 'Materiały erotyczne'
-        flirtation: Flirtowanie
+        threat: Groźby
+        threshold: 'Próg dla zgłoszeń'
+        toxicity: Toksyczność
+      title: 'Ustawienia Perspective'
+      useexperimental: 'Użyj eksperymentalnych modeli (experimental models)'
+      usemax: 'Użyj maksymalnego wyniku'
   forum:
     post:
       not_toxic_button: 'Oznacz post jako nietoksyczny'

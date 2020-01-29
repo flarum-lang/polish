@@ -11,13 +11,23 @@ validation:
   alpha_dash: ':attribute może zawierać jedynie litery, cyfry, myślniki i podkreślniki.'
   alpha_num: ':attribute może zawierać jedynie litery i cyfry.'
   array: ':attribute musi być tablicą.'
+  attributes:
+    content: Zawartość
+    email: E-mail
+    name_plural: 'Nazwa w liczbie mnogiej'
+    name_singular: 'Nazwa w liczbie pojedynczej'
+    password: Hasło
+    tag_count_primary: 'Liczba głównych tagów'
+    tag_count_secondary: 'Liczba tagów podrzędnych'
+    title: Tytuł
+    username: 'Nazwa użytkownika'
   before: ':attribute musi być datą wcześniejszą od :date.'
   before_or_equal: ':attribute musi być datą nie późniejszą niż :date.'
   between:
-    numeric: ':attribute musi zawierać się w pomiędzy :min a :max.'
-    file: ':attribute musi mieć od :min do :max kilobajtów.'
-    string: ':attribute musi mieć od :min do :max znaków.'
     array: ':attribute musi mieć od :min do :max elementów.'
+    file: ':attribute musi mieć od :min do :max kilobajtów.'
+    numeric: ':attribute musi zawierać się w pomiędzy :min a :max.'
+    string: ':attribute musi mieć od :min do :max znaków.'
   boolean: ':attribute musi mieć wartość prawda albo fałsz.'
   confirmed: 'Potwierdzenie :attribute nie zgadza się.'
   date: ':attribute nie jest prawidłową datą.'
@@ -34,15 +44,15 @@ validation:
   file: ':attribute musi być plikiem.'
   filled: 'Pole :attribute jest wymagane.'
   gt:
-    numeric: ':attribute musi być większy niż :value.'
-    file: ':attribute musi być większy niż :value kilobajtów.'
-    string: ':attribute musi być dłuższy niż :value znaków.'
     array: ':attribute musi mieć więcej niż :value elementów.'
+    file: ':attribute musi być większy niż :value kilobajtów.'
+    numeric: ':attribute musi być większy niż :value.'
+    string: ':attribute musi być dłuższy niż :value znaków.'
   gte:
-    numeric: ':attribute musi być większy lub równy :value.'
-    file: ':attribute musi mieć co najmniej :value kilobajtów.'
-    string: ':attribute musi mieć co najmniej :value znaków.'
     array: ':attribute musi mieć co najmniej :value elementów.'
+    file: ':attribute musi mieć co najmniej :value kilobajtów.'
+    numeric: ':attribute musi być większy lub równy :value.'
+    string: ':attribute musi mieć co najmniej :value znaków.'
   image: ':attribute musi być obrazkiem.'
   in: 'Zaznaczony :attribute jest nieprawidłowy.'
   in_array: ':attribute nie znajduje się w :other.'
@@ -52,27 +62,27 @@ validation:
   ipv6: ':attribute musi być prawidłowym adresem IPv6.'
   json: ':attribute musi być poprawnym ciągiem znaków JSON.'
   lt:
-    numeric: ':attribute musi być mniejszy niż :value.'
-    file: ':attribute musi być mniejszy niż :value kilobajtów.'
-    string: ':attribute musi być krótszy niż :value znaków.'
     array: ':attribute musi mieć mniej niż :value elementów.'
+    file: ':attribute musi być mniejszy niż :value kilobajtów.'
+    numeric: ':attribute musi być mniejszy niż :value.'
+    string: ':attribute musi być krótszy niż :value znaków.'
   lte:
-    numeric: ':attribute musi być mniejszy lub równy :value.'
-    file: ':attribute musi mieć co najwyżej :value kilobajtów.'
-    string: ':attribute musi mieć co najwyżej :value znaków.'
     array: ':attribute musi mieć co najwyżej :value elementów.'
+    file: ':attribute musi mieć co najwyżej :value kilobajtów.'
+    numeric: ':attribute musi być mniejszy lub równy :value.'
+    string: ':attribute musi mieć co najwyżej :value znaków.'
   max:
-    numeric: ':attribute nie może być większy niż :max.'
-    file: ':attribute nie może być większy niż :max kilobajtów.'
-    string: ':attribute nie może być dłuższy niż :max znaków.'
     array: ':attribute nie może mieć więcej niż :max elementów.'
+    file: ':attribute nie może być większy niż :max kilobajtów.'
+    numeric: ':attribute nie może być większy niż :max.'
+    string: ':attribute nie może być dłuższy niż :max znaków.'
   mimes: ':attribute musi być plikiem typu :values.'
   mimetypes: ':attribute musi być plikiem typu :values.'
   min:
-    numeric: ':attribute musi być nie mniejszy od :min.'
-    file: ':attribute musi mieć przynajmniej :min kilobajtów.'
-    string: ':attribute musi mieć przynajmniej :min znaków.'
     array: ':attribute musi mieć przynajmniej :min elementów.'
+    file: ':attribute musi mieć przynajmniej :min kilobajtów.'
+    numeric: ':attribute musi być nie mniejszy od :min.'
+    string: ':attribute musi mieć przynajmniej :min znaków.'
   not_in: 'Zaznaczony :attribute jest nieprawidłowy.'
   not_regex: 'Format :attribute jest nieprawidłowy.'
   numeric: ':attribute musi być liczbą.'
@@ -87,10 +97,10 @@ validation:
   required_without_all: 'Pole :attribute jest wymagane gdy żadne z :values nie są obecne.'
   same: 'Pole :attribute i :other muszą się zgadzać.'
   size:
-    numeric: ':attribute musi mieć :size.'
-    file: ':attribute musi mieć :size kilobajtów.'
-    string: ':attribute musi mieć :size znaków.'
     array: ':attribute musi zawierać :size elementów.'
+    file: ':attribute musi mieć :size kilobajtów.'
+    numeric: ':attribute musi mieć :size.'
+    string: ':attribute musi mieć :size znaków.'
   starts_with: ':attribute musi się zaczynać jednym z wymienionych: :values.'
   string: ':attribute musi być ciągiem znaków.'
   timezone: ':attribute musi być prawidłową strefą czasową.'
@@ -98,13 +108,3 @@ validation:
   uploaded: 'Nie udało się wgrać pliku :attribute.'
   url: 'Format :attribute jest nieprawidłowy.'
   uuid: ':attribute musi być poprawnym identyfikatorem UUID.'
-  attributes:
-    username: 'Nazwa użytkownika'
-    password: Hasło
-    email: E-mail
-    title: Tytuł
-    content: Zawartość
-    name_singular: 'Nazwa w liczbie pojedynczej'
-    name_plural: 'Nazwa w liczbie mnogiej'
-    tag_count_primary: 'Liczba głównych tagów'
-    tag_count_secondary: 'Liczba tagów podrzędnych'

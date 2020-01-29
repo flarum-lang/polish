@@ -5,5 +5,5 @@
 flarum-ext-webhook:
   admin:
     settings:
-      title: 'Ustawienia webhooków'
       approved_label: Zatwierdzone
+      title: 'Ustawienia webhooków'

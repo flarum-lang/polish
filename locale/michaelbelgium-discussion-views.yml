@@ -8,18 +8,18 @@ core:
       popular_button: 'Najczęściej wyświetlane'
       unpopular_button: 'Najrzadziej wyświetlane'
 flarum_discussion_views:
-  forum:
-    modal_resetviews:
-      title: 'Zresetuj liczbę wyświetleń dyskusji'
-      submit: 'Tak, usuń wszystkie'
-      label: 'Czy jesteś pewien, że chcesz usunąć {count} wyświetlenie tej dyskusji?|Czy jesteś pewien, że chcesz usunąć {count} wyświetlenia tej dyskusji?|Czy jesteś pewien, że chcesz usunąć {count} wyświetleń tej dyskusji?'
-    discussion_controls:
-      resetviews_button: 'Zresetuj wyświetlenia'
   admin:
     permissions:
       reset_views_label: 'Ustawianie liczby wyświetleń dyskusji'
     settings:
-      title: 'Ustawienia liczby wyświetleń dyskusji'
-      track_unique: 'Zliczaj unikalne wyświetlania'
       abbr_numbers: 'Skróć liczbę wyświetleń ("1k" zamiast "1000")'
       show_filter: 'Włącz sortowanie dyskusji na podstawie liczby wyświetleń'
+      title: 'Ustawienia liczby wyświetleń dyskusji'
+      track_unique: 'Zliczaj unikalne wyświetlania'
+  forum:
+    discussion_controls:
+      resetviews_button: 'Zresetuj wyświetlenia'
+    modal_resetviews:
+      label: 'Czy jesteś pewien, że chcesz usunąć {count} wyświetlenie tej dyskusji?|Czy jesteś pewien, że chcesz usunąć {count} wyświetlenia tej dyskusji?|Czy jesteś pewien, że chcesz usunąć {count} wyświetleń tej dyskusji?'
+      submit: 'Tak, usuń wszystkie'
+      title: 'Zresetuj liczbę wyświetleń dyskusji'

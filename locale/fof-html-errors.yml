@@ -5,7 +5,6 @@
 fof-html-errors:
   admin:
     settings:
-      title: 'Niestandardowe strony błędów HTML'
       error:
         403: 'Błąd 403: Odmowa dostępu/Zabronione'
         404: 'Błąd 404: Nie znaleziono'
@@ -13,3 +12,4 @@ fof-html-errors:
         503: 'Błąd 503: Usługa niedostępna (niedostępne z powodu konserwacji)'
       placeholder:
         empty_for_default: 'Pozostaw puste dla domyślnej strony błędu Flarum'
+      title: 'Niestandardowe strony błędów HTML'
