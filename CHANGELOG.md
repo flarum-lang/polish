@@ -1,6 +1,18 @@
 CHANGELOG
 =========
 
+0.2.19 (2020-02-01)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`dem13n/quad-theme`](https://github.com/Dem13n/quad-theme)
+* [`simonxeko/preview-discussion`](https://github.com/simonxeko/flarum-ext-preview-discussion)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+
+
+Wszystkie zmiany: [v0.2.18...v0.2.19](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.18...v0.2.19).
+
 
 0.2.18 (2020-01-08)
 -------------------
