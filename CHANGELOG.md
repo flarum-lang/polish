@@ -1,6 +1,18 @@
 CHANGELOG
 =========
 
+
+0.2.19.1 (2020-02-02)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+
+
+Wszystkie zmiany: [v0.2.19...v0.2.19.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.19...v0.2.19.1).
+
+
 0.2.19 (2020-02-01)
 -------------------
 
