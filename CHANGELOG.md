@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.19.3 (2020-02-05)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+
+
+Wszystkie zmiany: [v0.2.19.2...v0.2.19.3](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.19.2...v0.2.19.3).
+
+
 0.2.19.2 (2020-02-04)
 ---------------------
 
