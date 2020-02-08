@@ -91,6 +91,7 @@ core:
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Ustawienia Mailguna'
       mandrill_heading: 'Ustawienia Mandrilla'
+      not_sending_message: 'Obecnie Flarum nie wysyła żadnych wiadomości e-mail. Może to być skutek wybranego sterownika lub błędów w konfiguracji.'
       password_label: '=> core.ref.password'
       port_label: Port
       server_heading: 'Serwer SMTP'
@@ -134,6 +135,7 @@ core:
       moderate_heading: Moderacja
       new_group_button: 'Nowa grupa'
       participate_heading: Uczestnictwo
+      post_without_throttle_label: 'Odpowiadanie w dyskusjach z pominięciem limitu szybkości'
       read_heading: Czytanie
       rename_discussions_label: 'Zmiana tytułu dyskusji'
       reply_to_discussions_label: 'Odpowiadanie w dyskusji'
