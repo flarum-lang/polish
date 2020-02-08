@@ -9,7 +9,7 @@ fof-best-answer:
       best_answer_not_own_discussion: 'Wybieranie najlepszej odpowiedzi (cudza dyskusja)'
     settings:
       allow_select_own_post: 'Pozwól użytkownikowi wybrać swój własny post'
-      remind_tag_ids: 'Aby ograniczyć przypomnienia do konkretnych tagów, wpisz tutaj ich ID (rozdzielone przecinkami)'
+      remind_tag_ids: 'Aby wysyłać przypomnienia tylko dla dyskusji w konkretnych tagach, wpisz tutaj ich ID ( ID tagów rozdzielone przecinkami)'
       schedule_log_output: 'Zapisz logi harmonogramu zadań'
       schedule_on_one_server: 'Użyj dyrektywy ''onOneServer()'' dla harmonogramu zadań (task scheduler) (wymaga Redis/Memcache)'
       schedule_stop_overnight: 'Wyłącz przypomnienia w godzinach nocnych (21.00 - 8.00 według czasu serwera)'
@@ -25,7 +25,7 @@ fof-best-answer:
       awarded_email: 'Twój post został wybrany jako najlepsza odpowiedź'
       content: 'Wybierz najlepszą odpowiedź, jeśli twój problem został rozwiązany'
       preferences:
-        awarde_best_answer: 'Gdy ktoś oznaczy mój post jako najlepsza odpowiedź'
+        awarde_best_answer: 'Ktoś oznaczy mój post jako najlepsza odpowiedź'
       select_email_title: 'Czy udało ci się rozwiązać twój problem?'
     remove_best_answer: 'To nie jest najlepsza odpowiedź'
     this_best_answer: 'Oznacz jako najlepsza odpowiedź'
