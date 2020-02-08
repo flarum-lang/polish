@@ -17,7 +17,7 @@ kilowhat-affiliation-links:
     messages:
       delete-rule-confirmation: 'Czy jesteś pewien, że chcesz nieodwracalnie usunąć regułę "{match_pattern}"?'
     rules:
-      comment: 'Komentarz (opcjonalny, wykorzystywany jedynie jako dokumentacja)'
+      comment: 'Komentarz (niewymagane, wykorzystywany jedynie jako dokumentacja)'
       match-component: 'Komponent do dopasowania'
       match-component-help: 'Cześć adresu URL, którą chcesz porównać'
       match-pattern: 'Wzorzec dopasowania'
