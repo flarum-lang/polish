@@ -2,6 +2,40 @@ CHANGELOG
 =========
 
 
+0.2.20 (2020-02-08)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`simonxeko/follow-users`](https://github.com/simonxeko/follow-users)
+* [`the-turk/flarum-password-strength`](https://github.com/the-turk/flarum-password-strength)
+* [`the-turk/flarum-stargazing-theme`](https://github.com/the-turk/flarum-stargazing-theme)
+* [`therealsujitk/flarum-ext-show-password`](https://github.com/therealsujitk/flarum-ext-show-password)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flagrow/ads`](https://github.com/FriendsOfFlarum/ads)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`kilowhat/flarum-ext-affiliation-links`](https://github.com/kilowhat/flarum-ext-affiliation-links)
+* [`reflar/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`wiwatsrt/flarum-ext-best-answer`](https://github.com/wiwatsrt/flarum-ext-best-answer)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+
+
+Wszystkie zmiany: [v0.2.19.3...v0.2.20](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.19.3...v0.2.20).
+
+
 0.2.19.3 (2020-02-05)
 ---------------------
 
