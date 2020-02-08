@@ -12,9 +12,17 @@ pushedx-chat:
       post: 'Pisanie na czacie'
     settings:
       charlimit: 'Limit znaków w wiadomości'
+      floodgate:
+        number: 'Liczba wiadomości wysłanych pod rząd'
+        time: 'W czasie'
+        title: Antyflood
       title: 'Ustawienia czatu'
   forum:
     chat:
+      message:
+        actions:
+          hide: Ukryj
+          resend: 'Wyślij ponownie'
       placeholder: 'Wpisz swoją wiadomość...'
     errors:
       chatdenied: 'Nie masz uprawnień aby pisać na czacie'
