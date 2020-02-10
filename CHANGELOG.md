@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.20.1 (2020-02-10)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`dem13n/nickname-changer`](https://github.com/Dem13n/nickname-changer)
+
+
+Wszystkie zmiany: [v0.2.20...v0.2.20.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.20...v0.2.20.1).
+
+
 0.2.20 (2020-02-08)
 -------------------
 
