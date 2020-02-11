@@ -6,6 +6,7 @@ dem13n:
   admin:
     nickname:
       allow_nickname_change: 'Pozwól na zmianę pseudonimu'
+      allow_nickname_unique: 'Pozwól na nieunikalne pseudonimy'
       max_char: 'Maksymalna długość pseudonimu'
       min_char: 'Minimalna długość pseudonimu'
       regex: 'Wyrażenie regularne dla walidacji'
