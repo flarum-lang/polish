@@ -19,7 +19,7 @@ fof-best-answer:
   forum:
     answered_badge: Rozwiązane
     best_answer_button: 'Najlepsza odpowiedź'
-    best_answer_label: 'wybrana przez <a>{username}</a>'
+    best_answer_label: 'wybrana przez <a>{username}</a> {time_set}'
     notification:
       awarded: 'Twój post został wybrany jako najlepsza odpowiedź przez {username}'
       awarded_email: 'Twój post został wybrany jako najlepsza odpowiedź'
