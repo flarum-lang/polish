@@ -26,6 +26,7 @@ fof-best-answer:
       content: 'Wybierz najlepszą odpowiedź, jeśli twój problem został rozwiązany'
       preferences:
         awarde_best_answer: 'Ktoś oznaczy mój post jako najlepsza odpowiedź'
+        awarded_best_answer: 'Ktoś oznaczy mój post jako najlepsza odpowiedź'
       select_email_title: 'Czy udało ci się rozwiązać twój problem?'
     remove_best_answer: 'To nie jest najlepsza odpowiedź'
     this_best_answer: 'Oznacz jako najlepsza odpowiedź'
