@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.20.3 (2020-02-14)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+
+
+Wszystkie zmiany: [v0.2.20.2...v0.2.20.3](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.20.2...v0.2.20.3).
+
+
 0.2.20.2 (2020-02-11)
 ---------------------
 
