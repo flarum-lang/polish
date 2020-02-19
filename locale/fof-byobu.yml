@@ -10,6 +10,7 @@ fof-byobu:
       create_private_discussions_with_users: 'Tworzenie prywatnych dyskusji z użytkownikami'
       edit_group_recipients: 'Edytowanie grup biorących udział w prywatnych dyskusjach'
       edit_user_recipients: 'Edytowanie użytkowników biorących udział w prywatnych dyskusjach'
+      view_private_discussions-when-flagged: 'Przeglądanie prywatnych dyskusji innych użytkowników jeśli ktoś je zgłosił'
     settings:
       byobu_users_page_label: 'Wyświetlaj prywatne dyskusje w profilu użytkownika'
   forum:
@@ -18,22 +19,32 @@ fof-byobu:
         tooltip: 'Prywatna dyskusja'
     buttons:
       add_recipients: Uczestnicy
+      cancel: Anuluj
       edit_recipients: 'Edytuj uczestników'
       send_pd: 'Wyślij wiadomość do {username}'
       submit: OK
+    composer_private_discussion:
+      submit_button: 'Dodaj prywatną dyskusję'
+      title_placeholder: 'Tytuł prywatnej dyskusji'
     input:
       search_recipients: 'Wpisz 3 pierwsze znaki aby wyszukać uczestników...'
     labels:
       recipients: '{count} uczestnik|{count} uczestników'
       user_deleted: '-usunięty-'
     modal:
+      help:
+        add_recipients: 'Ta dyskusja będzie widoczna tylko dla wybranych użytkowników. Wymagany jest przynajmniej jeden uczestnik (oprócz ciebie).'
+        update_recipients: 'Ta dyskusja będzie widoczna tylko dla użytkowników, których tutaj wybierzesz.'
       titles:
         add_recipients: 'Dodaj uczestników do swojej dyskusji'
         update_recipients: 'Uaktualnij uczestników dla {title}'
     nav:
       private_discussions: 'Prywatna dyskusja'
+      start_button: 'Nowa prywatna dyskusja'
     notifications:
-      pd_label: 'Ktoś doda mnie do prywatnej dyskusji'
+      pd_label: 'Ktoś doda mnie do nowej prywatnej dyskusji'
+      pd_reply_label: 'Ktoś odpowie w prywatnej dyskusji, w której uczestniczę'
+      pd_reply_text: '{username} odpowiedział w prywatnej dyskusji, w której uczestniczysz'
       pd_text: '{username} utworzył nową prywatną dyskusję z tobą'
     post:
       recipients_modified:
@@ -45,8 +56,11 @@ fof-byobu:
         groups: Grupy
     user:
       byobu_link: 'Prywatne dyskusje'
+      dropdown_label: 'Prywatne dyskusje'
       settings:
         block_pd: 'Blokuj prywatne dyskusje'
   notifications:
     private_discussion_created:
-      title: '[forum-name] Nowa prywatna dyskusja z user'
+      title: '[Prywatna dyskusja] user rozpoczął prywatną dyskusję z tobą'
+    private_discussion_replied:
+      title: '[Prywatna dyskusja] user odpowiedział w prywatnej dyskusji'
