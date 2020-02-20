@@ -13,6 +13,7 @@ fof-byobu:
       view_private_discussions-when-flagged: 'Przeglądanie prywatnych dyskusji innych użytkowników jeśli ktoś je zgłosił'
     settings:
       byobu_users_page_label: 'Wyświetlaj prywatne dyskusje w profilu użytkownika'
+      nothing_here: 'Nic tutaj jeszcze nie ma'
   forum:
     badges:
       is_private:
