@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.20.5 (2020-02-21)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+
+
+Wszystkie zmiany: [v0.2.20.4...v0.2.20.5](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.20.4...v0.2.20.5).
+
+
 0.2.20.4 (2020-02-19)
 ---------------------
 
