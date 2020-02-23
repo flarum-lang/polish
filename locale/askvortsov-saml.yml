@@ -9,7 +9,7 @@ askvortsov-saml:
       idp_metadata_url: 'URL z metadanymi dostawcy tożsamości (alternatywa dla XML)'
       nameid_format: 'NameID Format'
       only_option: 'Użyj SAML2 SSO jako jedynej opcji logowania?'
-      sync_attributes: 'Synchronizuj atrybuty (awatar, grupy, opis w profilu oraz sam profil)? Wymaga rozszerzenia askvortsov/auth-sync.'
+      sync_attributes: 'Synchronizuj atrybuty (awatar, grupy, opis w profilu oraz pola profilu)? Wymaga rozszerzenia <code>askvortsov/auth-sync</code>.'
     options:
       nameid_format:
         emailAddress: 'Email (domyślny - użyj jeśli "persistent" nie jest wspierany)'

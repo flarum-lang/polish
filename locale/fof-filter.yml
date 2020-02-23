@@ -23,7 +23,7 @@ fof-filter:
         email: 'Wyślij użytkownikowi wiadomość e-mail po tym jak jego post zostanie odfiltrowany'
         merge: 'Automatycznie scalaj podwójne posty'
     nav:
-      desc: 'Odfiltruj posty z niedowolnymi słowami'
+      desc: 'Odfiltruj posty z niedowolnymi słowami.'
       text: Filtrowanie
     title: Filtrowanie
   forum:
