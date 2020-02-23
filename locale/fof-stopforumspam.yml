@@ -7,7 +7,7 @@ fof-stopforumspam:
     settings:
       api_key_instructions_text: '<register>Zarejestruj się na StopForumSpam</register>. Następnie musisz <key>uzyskać klucz API</key>.'
       api_key_label: 'Klucz API'
-      api_key_text: 'Masz włączone rozszerzenie fof/spamblock, teraz możesz zgłaszać spamerów do StopForumSpam, aby pomagać też innym społecznościom walczyć ze spamem.'
+      api_key_text: 'Masz włączone rozszerzenie <code>fof/spamblock</code>, teraz możesz zgłaszać spamerów do StopForumSpam, aby pomagać też innym społecznościom walczyć ze spamem.'
       email_label: 'Sprawdzaj adres e-mail'
       frequency_example_text: 'Na przykład: jeśli adres e-mail ma 1 zgłoszenie, a adres IP ma 2 zgłoszenia, w sumie da to 3 zgłoszenia. Jeśli próg to 3 lub mniej, rejestracja będzie niemożliwa.'
       frequency_label: Próg
