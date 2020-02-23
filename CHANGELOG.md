@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+0.2.21 (2020-02-23)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`askvortsov/flarum-auth-sync`](https://github.com/askvortsov1/flarum-auth-sync)
+* [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`kvothe/keyboard-shortcuts`](https://github.com/oaklinq/flarum-ext-keyboard-shortcuts)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+
+
+Wszystkie zmiany: [v0.2.20.5...v0.2.21](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.20.5...v0.2.21).
+
+
 0.2.20.5 (2020-02-21)
 ---------------------
 
