@@ -11,7 +11,7 @@ the-turk-diff:
     settings:
       allowSwitch: 'Pozwól użytkownikom przełączać tryb renderowania'
       charLevel: 'Na poziomie znaków'
-      customHTML: 'Niestandardowy widok bez numerów wierszy'
+      customHTML: 'Niestandardowy widok bez numerów linii'
       detailLevel: 'Stopień szczegółowości'
       displayMode: 'Tryb wyświetlania (HTML)'
       enableSyncScroll: 'Włącz synchronizację przewijania dla widoku wyświetlania różnic obok siebie'
@@ -25,15 +25,15 @@ the-turk-diff:
       renderMode: 'Tryb renderowania'
       separateBlock: 'Wyświetl separator pomiędzy osobnymi partiami różnic w wyrenderowanym HTMLu'
       sideBySide: 'Obok siebie (HTML)'
-      tabularHTML: 'Widok tabelaryczny z numerami wierszy'
+      tabularHTML: 'Widok tabelaryczny z numerami linii'
       title: 'Ustawienia historii edycji'
       wordLevel: 'Na poziomie słów'
   forum:
     confirmDelete: 'Czy jesteś pewien ze chcesz usunąć treść tej rewizji z historii?'
-    deleteErrorMessage: 'Usuwanie treści tej rewizji nie powiodło się.'
+    deleteErrorMessage: 'Usuwanie treści rewizji nie powiodło się.'
     deleteSuccessMessage: 'Treść rewizji została usunięta.'
     deletedText: (usunięto)
-    deletedTooltip: '{username} usunął tę treść {ago}'
+    deletedTooltip: '{username} usunął treść tej rewizji {ago}'
     differences: Różnice
     emptyText: 'Brak rewizji'
     revisionInfo: 'Edytowano {revisionCount} raz, najnowsze na górze|Edytowano {revisionCount} razy, najnowsze na górze'
