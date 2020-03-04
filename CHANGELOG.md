@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.21.3 (2020-03-04)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/flags`](https://github.com/flarum/flags)
+
+
+Wszystkie zmiany: [v0.2.21.2...v0.2.21.3](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.21.2...v0.2.21.3).
+
+
 0.2.21.2 (2020-03-03)
 ---------------------
 
