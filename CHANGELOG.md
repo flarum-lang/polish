@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.21.4 (2020-03-05)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`tank/perspective`](https://github.com/tankerkiller125/flarum-perspective)
+
+
+Wszystkie zmiany: [v0.2.21.3...v0.2.21.4](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.21.3...v0.2.21.4).
+
+
 0.2.21.3 (2020-03-04)
 ---------------------
 
