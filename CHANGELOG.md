@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.2.21.5 (2020-03-06)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+
+
+Wszystkie zmiany: [v0.2.21.4...v0.2.21.5](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.21.4...v0.2.21.5).
+
+
 0.2.21.4 (2020-03-05)
 ---------------------
 
