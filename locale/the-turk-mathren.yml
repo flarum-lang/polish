@@ -47,7 +47,7 @@ the-turk-mathren:
       mainBlockDelimiter: 'Główny separator <strong>BBCode</strong> dla wyrażeń blokowych'
       mainInlineDelimiter: 'Główny separator <strong>BBCode</strong> dla wyrażeń liniowych'
       mathClasses: 'Nazwy klas dla tagu <code>span</code>'
-      mathClassesHelp: 'Możesz łatwo oscylować tagi <code>span</code> wykorzystując własne klasy.'
+      mathClassesHelp: 'Możesz łatwo ostylować tagi <code>span</code> wykorzystując własne klasy.'
       maxExpand: 'Limit dla rozwinięć makr'
       maxSize: 'Maksymalna wielkość (em)'
       minRuleThickness: 'Minimalna grubość (em)'
