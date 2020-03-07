@@ -22,4 +22,4 @@ flarum-ext-close:
       discussion_closed_text: '{username} zamknął tę dyskusję.'
       discussion_unclosed_text: '{username} otworzył tę dyskusję.'
     settings:
-      notify_discussion_closed_label: 'Ktoś zamknie dyskusję, którą rozpocząłem'
+      notify_discussion_closed_label: 'Ktoś zamknął dyskusję, którą rozpocząłem'

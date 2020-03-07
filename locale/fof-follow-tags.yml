@@ -14,8 +14,8 @@ fof-follow-tags:
       new_discussion_text: '{username} rozpoczął'
       new_post_text: '{username} odpowiedział'
     settings:
-      notify_new_discussion_label: 'Ktoś utworzy dyskusję w tagu, który obserwuję'
-      notify_new_post_label: 'Ktoś odpowie w tagu, który obserwuję'
+      notify_new_discussion_label: 'Ktoś utworzył dyskusję w tagu, który obserwuję'
+      notify_new_post_label: 'Ktoś odpowiedział w tagu, który obserwuję'
     sub_controls:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'

@@ -18,8 +18,8 @@ simonxeko-follow-users:
       new_post_text: '{username} odpowiedział'
     profile_link: Obserwowany
     settings:
-      notify_new_discussion_label: 'Obserwowany użytkownik utworzy dyskusję'
-      notify_new_post_label: 'Obserwowany użytkownik odpowie w dyskusji'
+      notify_new_discussion_label: 'Obserwowany użytkownik utworzył dyskusję'
+      notify_new_post_label: 'Obserwowany użytkownik odpowiedział w dyskusji'
     sub_controls:
       follow_button: '=> simonxeko-follow-users.ref.follow'
       following_button: '=> simonxeko-follow-users.ref.following'
