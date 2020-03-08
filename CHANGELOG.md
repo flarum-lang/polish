@@ -2,6 +2,45 @@ CHANGELOG
 =========
 
 
+0.2.22 (2020-03-08)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`minr/flarum-ext-auth-qq`](https://github.com/minr/flarum-ext-auth-qq)
+* [`minr/flarum-ext-auth-weibo`](https://github.com/minr/auth-weibo)
+* [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
+* [`the-turk/flarum-edit-notifications`](https://github.com/the-turk/flarum-edit-notifications)
+* [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication)
+* [`flagrow/ads`](https://github.com/FriendsOfFlarum/ads)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`hiqstd/flarum-ext-close`](https://github.com/HiQStd/flarum-ext-close)
+* [`simonxeko/follow-users`](https://github.com/simonxeko/follow-users)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+
+
+Wszystkie zmiany: [v0.2.21.5...v0.2.22](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.21.5...v0.2.22).
+
+
 0.2.21.5 (2020-03-06)
 ---------------------
 
