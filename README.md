@@ -47,25 +47,6 @@ Po aktualizacji czyścimy cache:
 php flarum cache:clear
 ```
 
-## Migracja z `bepro/lang-polish`
-
-Jeśli masz już zainstalowane rozszerzenie [`bepro/lang-polish`](https://github.com/bepropl/lang-polish) musisz:
-
-1. W panelu admina wyłączyć rozszerzenie `bepro/lang-polish`.
-
-2. Odinstalować rozszerzenie za pomocą Composera:
-
-   ```console
-   composer remove bepro/lang-polish
-   ```
-   
-3. Zainstalować nowe rozszerzenie za pomocą Composera:
-
-   ```console
-   composer require rob006/flarum-lang-polish
-   ```
-
-4. Włączyć nowe rozszerzenie w panelu admina.
 
 ## Znalazłem błąd / Brakuje rozszerzenia X
 
