@@ -2,6 +2,47 @@ CHANGELOG
 =========
 
 
+0.3.0 (2020-03-08)
+------------------
+
+**Usunięto przestarzałe tłumaczenia dla**:
+
+* Głównego silnika Flarum (wspierana jest wersja `0.1.0-beta.11` lub wyższa).
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
+* [`datitisev/flarum-ext-dashboard`](https://github.com/datitisev/flarum-ext-dashboard)
+* [`dem13n/nickname-changer`](https://github.com/Dem13n/nickname-changer)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`tank/perspective`](https://github.com/tankerkiller125/flarum-perspective)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
+* [`ziymed/backtowebsite`](https://github.com/ziymed/BackToWebsite)
+
+
+**Usunięto wsparcie dla nierozwijanych rozszerzeń**:
+
+* [`flagrow/html-errors`](https://github.com/flagrow/html-errors)
+* [`flagrow/linguist`](https://github.com/flagrow/linguist)
+* [`flagrow/terms`](https://github.com/flagrow/terms)
+* [`flagrow/upload`](https://github.com/flagrow/upload)
+* [`flagrow/users-list`](https://github.com/flagrow/users-list)
+* [`manelizzard/flarum-ext-notify`](https://github.com/manelizzard/flarum-notify)
+* [`push-edx/flarum-ext-chat`](https://github.com/Push-EDX/flarum-ext-chat)
+* [`reflar/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`reflar/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+* [`wuethrich44/flarum-ext-sso`](https://github.com/fabwu/flarum-ext-sso)
+* [`zerosonesfun/flarum-ext-poke`](https://github.com/zerosonesfun/flarum-ext-poke)
+
+
+Wszystkie zmiany: [v0.2.22...v0.3.0](https://github.com/rob006-software/flarum-lang-polish/compare/v0.2.22...v0.3.0).
+
+
 0.2.22 (2020-03-08)
 -------------------
 
