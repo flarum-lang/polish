@@ -12,15 +12,11 @@ fof-polls:
   forum:
     composer_discussion:
       add_poll: 'Dodaj ankietę'
-      edit: '=> reflar-polls.forum.moderation.edit'
       edit_poll: '=> fof-polls.forum.moderation.edit'
     days_remaining: 'Ankieta zakończy się {time}.'
     modal:
-      add: 'Dodaj opcję'
       add_option_label: 'Dodaj opcję'
       add_title: 'Dodaj ankietę'
-      answer_placeholder: Odpowiedź
-      answers: Odpowiedzi
       date_placeholder: 'Data zakończenia ankiety (niewymagane)'
       edit_title: 'Edytuj ankietę'
       include_question: 'Ankieta musi zawierać pytanie'
@@ -32,7 +28,6 @@ fof-polls:
       public_poll_label: 'Pozwól użytkownikom zobaczyć, kto głosował'
       question_placeholder: Pytanie
       submit: Zatwierdź
-      switch: 'Pozwól użytkownikom zobaczyć, kto głosował'
     moderation:
       delete: 'Usuń ankietę'
       delete_confirm: 'Czy jesteś pewien, że chcesz usunąć tę ankietę?'
@@ -42,7 +37,6 @@ fof-polls:
     public_poll: 'Zobacz głosujących'
     tooltip:
       badge: Ankieta
-      vote: głosów
       votes: '1 głos|{count} głosy|{count} głosów'
     votes_modal:
       title: 'Głosujący użytkownicy'

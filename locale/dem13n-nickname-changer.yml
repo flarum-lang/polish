@@ -15,8 +15,6 @@ dem13n:
       unlimited_nickname_change: 'Nieograniczone zmienianie pseudonimu'
   forum:
     nickname:
-      admin_change_nickname: '{username} zmienił twój pseudonim na <strong>{actor}</strong>'
-      admin_delete_nickname: '{username} usunął twój pseudonim'
       change: 'Zmień pseudonim'
       head_title: Pseudonim
       new_nickname: 'Wpisz nowy pseudonim'

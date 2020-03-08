@@ -33,13 +33,6 @@ fof-upload:
       local:
         cdn_url: 'URL usługi CDN (poprzedza ścieżki plików)'
         title: 'Ustawienia lokalnego magazynu'
-      ovh-svfs:
-        container: Container
-        password: Hasło
-        region: Region
-        tenantid: 'Tenant ID'
-        title: 'Ustawienia magazynu OVH SVFS'
-        username: Username
       preferences:
         max_file_size: 'Maksymalna wielkość pliku (w kilobajtach)'
         mime_types: 'Skonfiguruj mapowanie typu MIME i adaptera przesyłania'
@@ -50,7 +43,6 @@ fof-upload:
         secret: Secret
         title: 'Ustawienia Qiniu'
       resize:
-        max_height: 'Maksymalna wysokość obrazka'
         max_width: 'Maksymalna szerokość obrazka'
         title: 'Przeskaluj obrazki'
         toggle: 'Przeskaluj obrazki'
@@ -81,5 +73,4 @@ fof-upload:
     states:
       error: Błąd
       loading: Wysyłanie
-      success: Powodzenie
       unauthorized: 'Nie masz uprawnień aby pobierać pliki'

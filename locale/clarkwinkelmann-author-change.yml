@@ -11,7 +11,6 @@ clarkwinkelmann-author-change:
       edit: 'Edytuj Autora'
     modal:
       cancel: Anuluj
-      search_placeholder: 'Wyszukaj użytkowników'
       submit: Zapisz
       title-discussion: 'Edytuj autora dyskusji'
       title-post: 'Edytuj autora posta'

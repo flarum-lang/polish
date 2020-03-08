@@ -26,7 +26,6 @@ the-turk-diff:
       neighborLines: 'Sąsiednie linie'
       neighborLinesHelp: 'Podaj liczbę sąsiednich linii, które powinny być wyświetlane.'
       noneLevel: Brak
-      notice: 'Zmiany w ustawieniach dla <strong>sąsiednich linii</strong> nie będą miały efektu dla starszych edycji, które zostały wygenerowane według poprzednich ustawień.'
       onlyUnsigned: 'Dozwolone są jedynie <strong>nieujemne liczby całkowite</strong>!'
       renderMode: 'Tryb renderowania'
       separateBlock: 'Wyświetl separator pomiędzy osobnymi partiami różnic w wyrenderowanym HTMLu'

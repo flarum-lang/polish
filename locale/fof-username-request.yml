@@ -12,7 +12,6 @@ fof-username-request:
     action:
       approval_label: Zatwierdź
       decision_title: Decyzja
-      denial_label: Odrzuć
       help_text: 'Upewnij się że nazwa użytkownika jest zgodna z regulaminem społeczności.'
       name: '{username} poprosił o zmianę nazwy użytkownika na "{newUsername}"'
       reason_title: 'Powód odmowy'
@@ -37,7 +36,6 @@ fof-username-request:
       title: 'Poproś o zmianę nazwy użytkownika'
     results:
       approved: 'Twoja prośba o zmianę nazwy użytkownika została zaakceptowana'
-      denied: 'Twoja prośba o zmianę nazwy użytkownika została odrzucona'
       new_username: 'Twoja nazwa użytkownika została zmieniona na: "{username}"'
       reason: 'Powód odmowy: <i>"{reason}"</i>.'
       rejected: 'Twoja prośba o zmianę nazwy użytkownika została odrzucona'

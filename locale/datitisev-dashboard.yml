@@ -24,7 +24,6 @@ datitisev-dashboard:
         september: Wrzesień
       updates:
         available: '{count} aktualizacja dostępna|{count} aktualizacje dostępne|{count} aktualizacji dostępnych'
-        avialable: 'Dostępne aktualizacje {count}'
         check_button: 'Sprawdź aktualizacje rozszerzeń'
         checking: 'Sprawdzanie aktualizacji...'
         none: 'Brak aktualizacji'

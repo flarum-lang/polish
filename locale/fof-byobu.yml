@@ -12,8 +12,6 @@ fof-byobu:
       edit_user_recipients: 'Edytowanie użytkowników biorących udział w prywatnych dyskusjach'
       view_private_discussions-when-flagged: 'Przeglądanie prywatnych dyskusji innych użytkowników jeśli ktoś je zgłosił'
     settings:
-      byobu_users_page_label: 'Wyświetlaj prywatne dyskusje w profilu użytkownika'
-      nothing_here: 'Nic tutaj jeszcze nie ma'
       use_tag_slug: 'Podaj slug tagu, który będzie wymuszony dla wszystkich prywatnych dyskusji'
       use_tag_slug_help: 'Zostaw puste aby pozwolić użytkownikom wybierać swój własny tag. Ustawienia mają zastosowanie tylko dla nowo utworzonych prywatnych dyskusji.'
   forum:

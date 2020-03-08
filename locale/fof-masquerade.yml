@@ -21,7 +21,6 @@ fof-masquerade:
       name-help: "Publicznie widoczna (nieprzetłumaczalna) etykieta pola.\n"
       on_bio: 'Pokaż wartość tego pola w profilu użytkownika'
       option-coma-warning: 'Etykieta opcji nie może zawierać przecinka (",").'
-      option-comma-warning: 'Etykieta opcji nie może zawierać przecinka (",").'
       option-new: 'Nowa opcja'
       options: Opcje
       prefix: 'Prefiks pola'
