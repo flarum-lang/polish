@@ -5,6 +5,8 @@
 migratetoflarum-fake-data:
   admin:
     generator:
+      bulk-mode: 'Tryb masowy'
+      bulk-mode-description: 'Generuje jedną losową wartość i używa jej dla wszystkich wygenerowanych rekordów'
       discussion-count: 'Liczba dyskusji do utworzenia'
       post-count: 'Liczba postów do utworzenia'
       send: 'Wygeneruj dane'
