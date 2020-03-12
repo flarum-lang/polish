@@ -5,7 +5,7 @@
 flarum-subscriptions:
   forum:
     badge:
-      following_tooltip: Obserwowana
+      following_tooltip: '=> flarum-subscriptions.ref.following'
       ignoring_tooltip: '=> flarum-subscriptions.ref.ignoring'
     discussion_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
