@@ -12,7 +12,7 @@ fof-username-request:
     action:
       approval_label: Zatwierdź
       decision_title: Decyzja
-      help_text: 'Upewnij się że nazwa użytkownika jest zgodna z regulaminem społeczności.'
+      help_text: 'Upewnij się, że nazwa użytkownika jest zgodna z regulaminem społeczności.'
       name: '{username} poprosił o zmianę nazwy użytkownika na "{newUsername}"'
       reason_title: 'Powód odmowy'
       rejected_label: Odrzuć

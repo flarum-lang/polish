@@ -18,6 +18,6 @@ askvortsov-saml:
     title: 'Konfiguracja SAML2 SSO'
   forum:
     log_in:
-      enable_popups: 'Odblokuj wyskakujące okienka aby się zalogować/zarejestrować'
+      enable_popups: 'Odblokuj wyskakujące okienka, aby się zalogować/zarejestrować'
       open_popup: 'Zaloguj się'
       with_saml_button: 'SAML2 SSO'

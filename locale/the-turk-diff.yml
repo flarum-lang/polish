@@ -10,7 +10,7 @@ the-turk-diff:
       viewEditHistory: 'Przeglądanie historii edycji'
     settings:
       allowSwitch: 'Pozwól użytkownikom przełączać tryb renderowania'
-      archiveInfo: 'Zauważ że możesz wyłączyć obie opcje i ręcznie uruchomić komendę <code>php flarum diff:archive</code> aby zarchiwizować stare rewizje.'
+      archiveInfo: 'Zauważ, że możesz wyłączyć obie opcje i ręcznie uruchomić komendę <code>php flarum diff:archive</code>, aby zarchiwizować stare rewizje.'
       archiveOlds: 'Archiwizuj stare rewizje'
       archiveOldsInfo: 'Jeśli <strong>x ≥ A</strong>, pierwszych <strong>y=mx+b</strong> rewizji danego posta zostanie scalonych oraz skompresowanych. <strong>x</strong> to liczba rewizji danego posta. <strong>y</strong> zostanie zaokrąglone w dół do liczby całkowitej.'
       charLevel: 'Na poziomie znaków'
@@ -37,7 +37,7 @@ the-turk-diff:
       usePoint: 'Użyj <strong>kropki</strong> jako separator dziesiętny dla liczb niecałkowitych.'
       wordLevel: 'Na poziomie słów'
   forum:
-    confirmDelete: 'Czy jesteś pewien ze chcesz usunąć treść tej rewizji z historii?'
+    confirmDelete: 'Czy jesteś pewien, że chcesz usunąć treść tej rewizji z historii?'
     confirmRollback: 'Czy jesteś pewien, że chcesz przywrócić tę wersję? Edycje dokonane po tej rewizji zostaną nieodwracalnie usunięte.'
     deleteErrorMessage: 'Usuwanie treści rewizji nie powiodło się.'
     deleteSuccessMessage: 'Treść rewizji została usunięta.'

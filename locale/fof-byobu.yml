@@ -13,7 +13,7 @@ fof-byobu:
       view_private_discussions-when-flagged: 'Przeglądanie prywatnych dyskusji innych użytkowników jeśli ktoś je zgłosił'
     settings:
       use_tag_slug: 'Podaj slug tagu, który będzie wymuszony dla wszystkich prywatnych dyskusji'
-      use_tag_slug_help: 'Zostaw puste aby pozwolić użytkownikom wybierać swój własny tag. Ustawienia mają zastosowanie tylko dla nowo utworzonych prywatnych dyskusji.'
+      use_tag_slug_help: 'Zostaw puste, aby pozwolić użytkownikom wybierać swój własny tag. Ustawienia mają zastosowanie tylko dla nowo utworzonych prywatnych dyskusji.'
   forum:
     badges:
       is_private:
@@ -28,7 +28,7 @@ fof-byobu:
       submit_button: 'Dodaj prywatną dyskusję'
       title_placeholder: 'Tytuł prywatnej dyskusji'
     input:
-      search_recipients: 'Wpisz 3 pierwsze znaki aby wyszukać uczestników...'
+      search_recipients: 'Wpisz 3 pierwsze znaki, aby wyszukać uczestników...'
     labels:
       recipients: '{count} uczestnik|{count} uczestników'
       user_deleted: '-usunięty-'

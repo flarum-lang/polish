@@ -25,7 +25,7 @@ pushedx-chat:
           resend: 'Wyślij ponownie'
       placeholder: 'Wpisz swoją wiadomość...'
     errors:
-      chatdenied: 'Nie masz uprawnień aby pisać na czacie'
+      chatdenied: 'Nie masz uprawnień, aby pisać na czacie'
       unauthenticated: 'Tylko zarejestrowani użytkownicy mogą korzystać z czatu'
     toolbar:
       disable_notifications: 'Wyłącz powiadomienia'

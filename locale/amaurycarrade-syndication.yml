@@ -11,7 +11,7 @@ amaurycarrade-syndication:
         label: 'Udostępnij pełną treść'
         recommendation: 'Rekomendowane jest pozostawienie tej opcji włączonej - pozwoli to śledzić forum za pomocą czytników RSS.'
       html:
-        help: 'Zaznacz aby wyświetlać HTML w treści kanałów. Jeśli wyłączone, kanały będą zawierały jedynie czysty tekst.'
+        help: 'Zaznacz, aby wyświetlać HTML w treści kanałów. Jeśli wyłączone, kanały będą zawierały jedynie czysty tekst.'
         label: 'Formatowanie kanałów'
       title: 'Ustawienia kanałów RSS'
   forum:

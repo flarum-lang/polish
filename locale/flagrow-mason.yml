@@ -9,7 +9,7 @@ flagrow-mason:
       add-field: 'Dodaj pole'
       delete-answer: 'Usuń odpowiedź'
       delete-field: 'Usuń pole'
-      edit-field: 'Kliknij aby edytować pole'
+      edit-field: 'Kliknij, aby edytować pole'
       new-field: 'Nowe pole'
       save-answer: 'Zapisz zmiany'
       save-field: 'Zapisz zmiany'

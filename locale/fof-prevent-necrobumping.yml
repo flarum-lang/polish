@@ -5,7 +5,7 @@
 fof-prevent-necrobumping:
   admin:
     settings:
-      days_help: 'Dyskusja zostanie oznaczona jako stara, jeśli podana liczba dni minie od czasu opublikowania ostatniej odpowiedzi w tej dyskusji. Użyj <code>0</code> aby domyślnie wyłączyć.'
+      days_help: 'Dyskusja zostanie oznaczona jako stara, jeśli podana liczba dni minie od czasu opublikowania ostatniej odpowiedzi w tej dyskusji. Użyj <code>0</code>, aby domyślnie wyłączyć.'
       days_label: Dni
       message_agreement_label: 'Niestandardowa treść potwierdzenia (checkbox)'
       message_description_label: 'Niestandardowa treść wiadomości'
