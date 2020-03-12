@@ -41,7 +41,7 @@ simonxeko-follow-users:
       unfollow_confirmation: 'Czy jesteś pewien, że chcesz przestać obserwować tego użytkownika?'
   ref:
     follow: Obserwuj
-    following: Obserwany
+    following: Obserwujesz
     hiding: Ukryte
     ignoring: Ignorujesz
     lurking: Podpatrujesz
