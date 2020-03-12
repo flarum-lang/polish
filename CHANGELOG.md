@@ -2,6 +2,53 @@ CHANGELOG
 =========
 
 
+0.3.1 (2020-03-12)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal)
+* [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication)
+* [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`flagrow/flarum-ext-analytics`](https://github.com/flagrow/analytics)
+* [`flagrow/mason`](https://github.com/flagrow/mason)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`kvothe/keyboard-shortcuts`](https://github.com/oaklinq/flarum-ext-keyboard-shortcuts)
+* [`kvothe/spoiler-bbcode`](https://github.com/oaklinq/flarum-ext-spoiler-bbcode)
+* [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+* [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical)
+* [`reflar/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`reflar/twofactor`](https://github.com/ReFlar/twofactor)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+
+
+Wszystkie zmiany: [v0.3.0.1...v0.3.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.0.1...v0.3.1).
+
+
 0.3.0.1 (2020-03-11)
 --------------------
 
