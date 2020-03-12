@@ -20,7 +20,7 @@ reflar-doorman:
           max_uses: 'Maksymalna liczba użyć'
         help:
           activates: 'Aktywuj użytkownika: Automatycznie aktywuje konto użytkownika zaraz po rejestracji.'
-          group: 'Grupa: Grupa do której użytkownik zostanie przypisany po rejestracji.'
+          group: 'Grupa: Grupa, do której użytkownik zostanie przypisany po rejestracji.'
           key: 'Klucz: Kod zaproszenia, który użytkownik poda podczas rejestracji.'
           max: 'Maksymalna liczba użyć: Kod może być użyty jedynie podaną liczbę razy. Ustaw 0 dla braku limitu.'
         key: Klucz
