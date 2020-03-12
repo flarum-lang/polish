@@ -22,11 +22,16 @@ clarkwinkelmann-who-read:
       unread-icon: 'Ikona dla oznaczonych jako nieodczytane'
   forum:
     badges:
+      following: Obserwuje
+      ignoring: Ignoruje
       unread: 'Oznaczono jako nieodczytane'
     controls:
       remove-unread: 'Oznacz jako odczytane'
       set-unread: 'Oznacz jako nieodczytane'
     footer:
+      read-no-further: '{0} Wszyscy czytali dalej|{1} Jeden użytkownik nie czytał dalej|]1,Inf] {count} nie czytało dalej'
+      read-this-post: '{0} Nikt nie odczytał tego posta|{1} Jeden użytkownik odczytał ten post|]1,Inf] {count} użytkowników odczytało ten post'
+      read-to-end: '{0} Nikt nie odczytał do końca|{1} Jeden użytkownik odczytał do końca|]1,Inf] {count} użytkowników odczytało do końca'
       to-end: '{total} użytkowników odczytało do końca'
       to-end-nobody: 'Nikt nie odczytał do końca'
       to-here-nobody: 'Nikt nie odczytał tego posta'
