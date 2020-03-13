@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.3.1.1 (2020-03-13)
+--------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+
+
+Wszystkie zmiany: [v0.3.1...v0.3.1.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.1...v0.3.1.1).
+
+
 0.3.1 (2020-03-12)
 ------------------
 
