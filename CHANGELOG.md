@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.3.1.2 (2020-03-15)
+--------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+
+
+Wszystkie zmiany: [v0.3.1.1...v0.3.1.2](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.1.1...v0.3.1.2).
+
+
 0.3.1.1 (2020-03-13)
 --------------------
 
