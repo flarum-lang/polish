@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.3.2 (2020-03-23)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
+
+
+Wszystkie zmiany: [v0.3.1.3...v0.3.2](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.1.3...v0.3.2).
+
+
 0.3.1.3 (2020-03-21)
 --------------------
 
