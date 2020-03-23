@@ -12,5 +12,9 @@ fof-passport:
         app-secret: 'OAuth application secret'
         app-token-url: 'OAuth token URL'
         app-user-url: 'URL API udostępniający szczegóły użytkownika po uwierzytelnieniu'
+        button-icon: 'Ikona przycisku logowania'
         button-title: 'Etykieta przycisku logowania'
-      title: 'Flagrow Passport'
+        button-title-placeholder: '=> fof-passport.api.default-login-button-title'
+      title: 'FoF Passport'
+  api:
+    default-login-button-title: '=> core.ref.log_in'
