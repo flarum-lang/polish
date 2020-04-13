@@ -10,6 +10,8 @@ core:
 flarum_discussion_views:
   admin:
     permissions:
+      can_reset_views: 'Resetowanie liczby wyświetleń'
+      can_view_number: 'Dostęp do liczby wyświetleń'
       reset_views_label: 'Ustawianie liczby wyświetleń dyskusji'
     settings:
       abbr_numbers: 'Skróć liczbę wyświetleń ("1k" zamiast "1000")'
