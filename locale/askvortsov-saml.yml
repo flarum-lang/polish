@@ -21,3 +21,5 @@ askvortsov-saml:
       enable_popups: 'Odblokuj wyskakujące okienka, aby się zalogować/zarejestrować'
       open_popup: 'Zaloguj się'
       with_saml_button: 'SAML2 SSO'
+    sign_up:
+      post_saml_title: 'Jeszcze jeden krok...'
