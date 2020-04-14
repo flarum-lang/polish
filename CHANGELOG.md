@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+0.3.3 (2020-04-14)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-auth-sync`](https://github.com/askvortsov1/flarum-auth-sync)
+* [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+
+
+Wszystkie zmiany: [v0.3.2...v0.3.3](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.2...v0.3.3).
+
+
 0.3.2 (2020-03-23)
 ------------------
 
