@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+0.3.4 (2020-04-25)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`kvothe/online-users`](https://github.com/oaklinq/flarum-ext-online-users)
+* [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
+* [`therealsujitk/flarum-ext-hljs`](https://github.com/therealsujitk/flarum-ext-hljs)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+* [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
+
+
+Wszystkie zmiany: [v0.3.3...v0.3.4](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.3...v0.3.4).
+
+
 0.3.3 (2020-04-14)
 ------------------
 
