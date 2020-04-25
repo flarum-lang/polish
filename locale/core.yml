@@ -404,7 +404,7 @@ core:
     rename: 'Zmień tytuł'
     reply: Odpowiedz
     reset_your_password: 'Zresetuj swoje hasło'
-    restore: Odzyskaj
+    restore: Przywróć
     save_changes: 'Zapisz zmiany'
     settings: Ustawienia
     sign_up: 'Zarejestruj się'
