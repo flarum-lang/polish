@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+0.3.4.1 (2020-05-02)
+--------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-auth-sync`](https://github.com/askvortsov1/flarum-auth-sync)
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+
+
+Wszystkie zmiany: [v0.3.4...v0.3.4.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.4...v0.3.4.1).
+
+
 0.3.4 (2020-04-25)
 ------------------
 
