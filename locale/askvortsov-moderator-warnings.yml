@@ -5,7 +5,7 @@
 askvortsov-moderator-warnings:
   admin:
     permissions:
-      delete_warnings: 'Permanentne usuwanie ostrzeżeń'
+      delete_warnings: 'Nieodwracalne usuwanie ostrzeżeń'
       manage_warnings: 'Tworzenie oraz usuwanie ostrzeżeń'
       view_warnings: 'Przeglądanie ostrzeżeń'
   forum:
@@ -23,7 +23,7 @@ askvortsov-moderator-warnings:
       warnings: Ostrzeżenia
     warning_controls:
       delete_button: Usuń
-      delete_forever_button: 'Usuń permanentnie'
+      delete_forever_button: 'Nieodwracalnie usuń'
       restore_button: Przywróć
     warning_list:
       add_button: 'Nowe ostrzeżenie'
