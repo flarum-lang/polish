@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+0.3.5 (2020-05-03)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`estevao-simoes/flarum-microsoft-auth`](https://github.com/estevao-simoes/flarum-microsoft-auth)
+
+
+Wszystkie zmiany: [v0.3.4.1...v0.3.5](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.4.1...v0.3.5).
+
+
 0.3.4.1 (2020-05-02)
 --------------------
 
