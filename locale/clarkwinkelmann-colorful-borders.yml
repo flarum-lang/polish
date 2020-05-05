@@ -5,19 +5,19 @@
 clarkwinkelmann-colorful-borders:
   admin:
     permissions:
-      editAnyPost: 'Edytuj dowolne style postów'
-      editOwnPost: 'Edytuj własne style postów'
+      editAnyPost: 'Edytowanie stylów wszystkich postów'
+      editOwnPost: 'Edytowanie stylów własnych postów'
       heading: 'Kolorowe ramki'
     settings:
       colors:
         all: 'Dowolny kolor'
         custom: 'Niestandardowa lista kolorów'
-        custom-help: 'Rozdzielana przecinkami lista wartości #hex lub rgb ()'
+        custom-help: 'Rozdzielona przecinkami lista wartości #hex lub rgb()'
         simple: 'Prosty zestaw kolorów'
       enableBackgroundColor: 'Konfigurowalny kolor tła'
       enableBorderColor: 'Konfigurowalny kolor obramowania'
-      enableBorderRadius: 'Konfigurowalny promień ramki'
-      enableBorderWidth: 'Konfigurowalna szerokość ramki'
+      enableBorderRadius: 'Konfigurowalne zaokrąglenie obramowania'
+      enableBorderWidth: 'Konfigurowalna grubość obramowania'
       enableTextColor: 'Konfigurowalny kolor tekstu'
       max: Maksimum
       min: Minimum
@@ -25,9 +25,9 @@ clarkwinkelmann-colorful-borders:
   forum:
     apply: Zastosuj
     backgroundColor: 'Kolor tła'
-    borderColor: 'Kolor ramki'
-    borderRadius: 'Promień ramki'
-    borderWidth: 'Szerokość ramki'
+    borderColor: 'Kolor obramowania'
+    borderRadius: 'Zaokrąglenie obramowania'
+    borderWidth: 'Grubość obramowania'
     default: Domyślny
     edit: 'Edytuj styl'
     reset: 'Usuń niestandardowe style'
