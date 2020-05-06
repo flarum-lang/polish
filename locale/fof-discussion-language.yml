@@ -15,6 +15,7 @@ fof-discussion-language:
   forum:
     change_language:
       edit_title: 'Język edycji dla {title}'
+      submit_button: '=> core.ref.save_changes'
       title: 'Język edycji'
     composer_discussion:
       choose_language_link: Język
