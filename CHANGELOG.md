@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+0.3.6 (2020-05-06)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+
+
+Wszystkie zmiany: [v0.3.5...v0.3.6](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.5...v0.3.6).
+
+
 0.3.5 (2020-05-03)
 ------------------
 
