@@ -5,14 +5,14 @@
 jasper-chevereto:
   admin:
     AdminNav:
-      description: 'Skonfiguruj rozszerzenie hostingu obrazu chevereto'
+      description: 'Skonfiguruj przesyłanie plików za pomocą Chevereto'
     buttons:
       save: 'Zapisz ustawienia'
     permissions:
-      upload: 'Prześlij Chevereto'
+      upload: 'Przesyłanie plików Chevereto'
     setting:
-      auto-insert: 'Osadzanie kodów do automatycznego wstawiania w docelowej edytowalnej treści'
+      auto-insert: 'BBCode  wykorzystywany do automatycznego osadzania obrazków w treści'
       lang: Język
-      src: 'Źródłowy adres URL wtyczki wyskakującej Chevereto (pup.js)'
-      title: 'Ustawienia przesyłania Chevereto'
-      url: 'Adres URL witryny docelowej Chevereto'
+      src: 'Adres URL do pliku z wtyczką wyświetlającą okienko Chevereto (pup.js)'
+      title: 'Ustawienia przesyłania plików Chevereto'
+      url: 'Adres URL docelowego serwisu Chevereto'
