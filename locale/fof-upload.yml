@@ -67,6 +67,11 @@ fof-upload:
       local: Lokalnie
       ovh-svfs: 'OVH SVFS'
       qiniu: QiNiu
+  api:
+    upload_errors:
+      could_not_detect_mime: 'Nie można wykryć typu MIME tego pliku, spróbuj ponownie.'
+      forbidden_type: 'Przesyłanie plików tego typu jest niedozwolone.'
+      unsupported_type: 'Adapter przesyłania nie obsługuje podanego typu MIME: {mime}.'
   forum:
     buttons:
       attach: Załącz
