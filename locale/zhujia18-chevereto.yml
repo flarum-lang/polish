@@ -8,5 +8,11 @@ jasper-chevereto:
       description: 'Skonfiguruj rozszerzenie hostingu obrazu chevereto'
     buttons:
       save: 'Zapisz ustawienia'
+    permissions:
+      upload: 'Prześlij Chevereto'
     setting:
+      auto-insert: 'Osadzanie kodów do automatycznego wstawiania w docelowej edytowalnej treści'
       lang: Język
+      src: 'Źródłowy adres URL wtyczki wyskakującej Chevereto (pup.js)'
+      title: 'Ustawienia przesyłania Chevereto'
+      url: 'Adres URL witryny docelowej Chevereto'

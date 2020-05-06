@@ -26,7 +26,9 @@ clarkwinkelmann-scratchpad:
       settings: 'Ustawienia edytora'
     fields:
       admin_js: 'Administrator JS'
+      admin_less: 'Administrator mniej'
       forum_js: 'Forum JS'
+      forum_less: 'Forum mniej'
       php: PHP
       title: 'Nazwa notatnika'
     menu:
@@ -34,6 +36,7 @@ clarkwinkelmann-scratchpad:
       title: Brudnopis
     placeholders:
       js-log: 'Cześć, {frontend}!'
+      php-comment: 'Zarejestruj przedłużacze tutaj'
       untitled: 'Bez nazwy'
     settings:
       compile-automatically: 'Kompiluj JS automatycznie po zapisaniu'
