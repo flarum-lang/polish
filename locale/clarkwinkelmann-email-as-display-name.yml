@@ -5,12 +5,12 @@
 clarkwinkelmann-email-as-display-name:
   admin:
     permissions:
-      heading: 'Email jako wyświetlana nazwa'
-      view-all: 'Wyświetl wszystkie profile'
-      view-own: 'Wyświetl własny profil'
+      heading: 'Wyświetlaj e-mail zamiast nazwy użytkownika'
+      view-all: 'Wyświetlanie na wszystkich profilach'
+      view-own: 'Wyświetlanie na własnym profilu'
     settings:
-      remove-username-registration: 'Usuń nazwę użytkownika z formularza rejestracyjnego'
-      title: 'Ustawienia rozszerzeń'
+      remove-username-registration: 'Usuń pole na nazwę użytkownika z formularza rejestracyjnego'
+      title: 'Ustawienia rozszerzenia'
   forum:
     log_in:
       username_or_email_placeholder: '=> core.ref.email'

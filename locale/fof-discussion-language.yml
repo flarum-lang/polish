@@ -5,18 +5,18 @@
 fof-discussion-language:
   admin:
     permissions:
-      allow_change_language_label: 'Zezwalaj na edycję języka'
+      allow_change_language_label: 'Edytowanie języka dyskusji'
     settings:
-      native_label: 'Używaj nazw w języku ojczystym'
-      title: 'FriendsOfFlarum Język dyskusji'
+      native_label: 'Używaj lokalnych nazw języków'
+      title: 'Język dyskusji'
   api:
     discussion:
       validation_error: 'Musisz wybrać język dyskusji.'
   forum:
     change_language:
-      edit_title: 'Język edycji dla {title}'
+      edit_title: 'Edycja języka dla {title}'
       submit_button: '=> core.ref.save_changes'
-      title: 'Język edycji'
+      title: 'Edycja języka'
     composer_discussion:
       choose_language_link: Język
     discussion_controls:
