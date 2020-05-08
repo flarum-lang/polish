@@ -11,7 +11,7 @@ jasper-chevereto:
     permissions:
       upload: 'Przesyłanie plików Chevereto'
     setting:
-      auto-insert: 'BBCode  wykorzystywany do automatycznego osadzania obrazków w treści'
+      auto-insert: 'BBCode wykorzystywany do automatycznego osadzania obrazków w treści'
       lang: Język
       src: 'Adres URL do pliku z wtyczką wyświetlającą okienko Chevereto (pup.js)'
       title: 'Ustawienia przesyłania plików Chevereto'
