@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+0.3.7 (2020-05-08)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-email-as-display-name`](https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name)
+* [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
+* [`clarkwinkelmann/flarum-ext-silent-mailchimp`](https://github.com/clarkwinkelmann/flarum-ext-silent-mailchimp)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`studosi/mail-filter`](https://github.com/studosi-flarum/mail-filter)
+* [`zhujia18/chevereto`](https://github.com/zhujia18/flarum-chevereto)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Wszystkie zmiany: [v0.3.6...v0.3.7](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.6...v0.3.7).
+
+
 0.3.6 (2020-05-06)
 ------------------
 
