@@ -7,6 +7,9 @@ fof-moderator-notes:
     permissions:
       createnotes: 'Tworzenie notatek dla moderatorów'
       viewnotes: 'Przeglądanie notatek dla moderatorów'
+  api:
+    auto-note: 'Użyłem FoF Impersonate aby przełączyć się na tego użytkownika'
+    auto-note-actor: 'Użyto FoF Impersonate aby przełączyć się na konto "username"'
   forum:
     moderatorNotes:
       add_button: 'Nowa notatka'
