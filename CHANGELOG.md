@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+0.3.7.1 (2020-05-09)
+--------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+
+
+Wszystkie zmiany: [v0.3.7...v0.3.7.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.7...v0.3.7.1).
+
+
 0.3.7 (2020-05-08)
 ------------------
 
