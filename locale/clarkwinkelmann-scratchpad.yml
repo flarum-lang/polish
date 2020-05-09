@@ -40,7 +40,11 @@ clarkwinkelmann-scratchpad:
       untitled: 'Bez nazwy'
     settings:
       compile-automatically: 'Kompiluj JS automatycznie po zapisaniu'
+      empty-for-default: 'Zostaw puste, aby użyć domyślnej komendy'
       indent: 'Liczba spacji dla wcięcia'
+      npm-install-command: 'Komenda instalacji dla NPM'
       single-column: 'Grupuj edytory w jednej kolumnie zamiast 3'
       theme: 'Motyw CodeMirror (wymaga odświeżenia strony po zmianie)'
+      theme-auto: 'Automatycznie (domyślny na jasnym motywie, darcula na ciemnym)'
       title: 'Ustawienia notatnika'
+      webpack-command: 'Komenda dla Webpack'
