@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.3.7.2 (2020-05-10)
+--------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+
+
+Wszystkie zmiany: [v0.3.7.1...v0.3.7.2](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.7.1...v0.3.7.2).
+
+
 0.3.7.1 (2020-05-09)
 --------------------
 
