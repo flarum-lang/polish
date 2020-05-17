@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+0.3.8 (2020-05-17)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`flarumite/flarum-decontaminator`](https://github.com/flarumite/flarum-decontaminator)
+* [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+
+
+Wszystkie zmiany: [v0.3.7.2...v0.3.8](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.7.2...v0.3.8).
+
+
 0.3.7.2 (2020-05-10)
 --------------------
 
