@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.3.8.2 (2020-05-19)
+--------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
+
+
+Wszystkie zmiany: [v0.3.8.1...v0.3.8.2](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.8.1...v0.3.8.2).
+
+
 0.3.8.1 (2020-05-18)
 --------------------
 
