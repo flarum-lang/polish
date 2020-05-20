@@ -11,6 +11,7 @@ askvortsov-categories:
       layout: Layout
       nav: Nawigacja
       parent_display: 'Wyświetlanie nadrzędnych kategorii'
+      performance: Wydajność
     labels:
       child_bare_icon: 'Czy ikony w podkategoriach powinny być wyświetlane bez tła?'
       compact_mobile_mode: 'Kompaktowy widok mobilny'
@@ -20,6 +21,7 @@ askvortsov-categories:
       parent_remove_icon: 'Ukryć ikony dla tagów najwyższego poziomu?'
       parent_remove_last_discussion: 'Ukryć ostatnie dyskusje dla tagów najwyższego poziomu?'
       parent_remove_stats: 'Ukryć statystyki dla tagów najwyższego poziomu?'
+      small_forum_optimized: 'Zoptymalizować pod kątem małych forów? Zapewni to dokładniejszą liczbę dyskusji/postów, ale znacznie spowolni średnie i duże fora.'
     title: 'Ustawienia kategorii'
   forum:
     header:
