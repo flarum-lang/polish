@@ -21,7 +21,7 @@ askvortsov-categories:
       parent_remove_icon: 'Ukryć ikony dla tagów najwyższego poziomu?'
       parent_remove_last_discussion: 'Ukryć ostatnie dyskusje dla tagów najwyższego poziomu?'
       parent_remove_stats: 'Ukryć statystyki dla tagów najwyższego poziomu?'
-      small_forum_optimized: 'Zoptymalizować pod kątem małych forów? Zapewni to dokładniejszą liczbę dyskusji/postów, ale znacznie spowolni średnie i duże fora.'
+      small_forum_optimized: 'Zoptymalizować pod kątem małych forów? Zapewni to dokładniejszą liczbę dyskusji/postów, ale może znacznie spowolnić średnie i duże fora.'
     title: 'Ustawienia kategorii'
   forum:
     header:
