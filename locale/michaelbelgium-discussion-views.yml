@@ -29,3 +29,24 @@ flarum_discussion_views:
       title: 'Zresetuj liczbę wyświetleń dyskusji'
     viewlist:
       title: 'Ostatnio oglądający'
+michaelbelgium-discussion-views:
+  admin:
+    permissions:
+      reset_views_label: 'Resetowanie liczby wyświetleń'
+      view_number_label: 'Dostęp do liczby wyświetleń'
+    settings:
+      abbr_numbers_label: 'Skróć liczbę wyświetleń ("1k" zamiast "1000")'
+      max_viewcount_label: 'Liczba ostatnio oglądających wyświetlanych na liście'
+      show_filter_label: 'Włącz sortowanie dyskusji na podstawie liczby wyświetleń'
+      show_viewlist_label: 'Włącz listę ostatnio oglądających'
+      title: 'Ustawienia liczby wyświetleń dyskusji'
+      track_unique_label: 'Zliczaj unikalne wyświetlania'
+  forum:
+    discussion_controls:
+      resetviews_button: 'Zresetuj wyświetlenia'
+    modal_resetviews:
+      label: 'Czy jesteś pewien, że chcesz usunąć {count} wyświetlenie tej dyskusji?|Czy jesteś pewien, że chcesz usunąć {count} wyświetlenia tej dyskusji?|Czy jesteś pewien, że chcesz usunąć {count} wyświetleń tej dyskusji?'
+      submit_button: 'Tak, usuń wszystkie'
+      title: 'Zresetuj liczbę wyświetleń dyskusji'
+    viewlist:
+      title: 'Ostatnio oglądający'
