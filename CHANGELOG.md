@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+0.3.9 (2020-05-21)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`askvortsov/flarum-copy-links`](https://github.com/askvortsov1/flarum-copy-links)
+* [`the-turk/flarum-extended-appearance`](https://github.com/the-turk/flarum-extended-appearance)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
+* [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
+
+
+Wszystkie zmiany: [v0.3.8.2...v0.3.9](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.8.2...v0.3.9).
+
+
 0.3.8.2 (2020-05-19)
 --------------------
 
