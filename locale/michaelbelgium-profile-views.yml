@@ -7,3 +7,8 @@ flarum_profile_views:
     user:
       title_last_viewers: 'Ostatnio oglądający'
       views_count_text: 'wyświetlono {viewcount} raz|wyświetlono {viewcount} razy'
+michaelbelgium-flarum-profile-views:
+  forum:
+    user:
+      last_viewers_heading: 'Ostatnio oglądający'
+      view_count_text: 'wyświetlono {viewcount} raz|wyświetlono {viewcount} razy'
