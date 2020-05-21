@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+0.3.9.1 (2020-05-21)
+--------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+
+
+Wszystkie zmiany: [v0.3.9...v0.3.9.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.9...v0.3.9.1).
+
+
 0.3.9 (2020-05-21)
 ------------------
 
