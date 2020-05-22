@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+0.3.9.2 (2020-05-22)
+--------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+Wszystkie zmiany: [v0.3.9.1...v0.3.9.2](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.9.1...v0.3.9.2).
+
+
 0.3.9.1 (2020-05-21)
 --------------------
 
