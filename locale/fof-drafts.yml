@@ -14,6 +14,6 @@ fof-drafts:
     dropdown:
       alert: 'Czy jesteś pewien, że chcesz usunąć ten szkic?'
       button: 'Usuń szkic'
-      empty_text: 'Nie zapisałeś żadnego szkicu'
+      empty_text: 'Nie zapisałeś żadnych szkiców'
       title: Szkice
       tooltip: '=> fof-drafts.forum.dropdown.title'

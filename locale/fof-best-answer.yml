@@ -20,6 +20,8 @@ fof-best-answer:
     answered_badge: Rozwiązane
     best_answer_button: 'Najlepsza odpowiedź'
     best_answer_label: 'wybrana przez <a>{username}</a> {time_set}'
+    errors:
+      mismatch: 'Wybrany post nie istnieje w tej dyskusji'
     notification:
       awarded: 'Twój post został wybrany jako najlepsza odpowiedź przez {username}'
       awarded_email: 'Twój post został wybrany jako najlepsza odpowiedź'
