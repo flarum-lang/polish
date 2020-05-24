@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.3.10 (2020-05-24)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`the-turk/flarum-ext-fancybox`](https://github.com/the-turk/flarum-ext-fancybox)
+
+
+Wszystkie zmiany: [v0.3.9.2...v0.3.10](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.9.2...v0.3.10).
+
+
 0.3.9.2 (2020-05-22)
 --------------------
 
