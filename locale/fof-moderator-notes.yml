@@ -9,12 +9,14 @@ fof-moderator-notes:
       viewnotes: 'Przeglądanie notatek dla moderatorów'
   api:
     auto-note: 'Użyłem FoF Impersonate aby przełączyć się na tego użytkownika'
-    auto-note-actor: 'Użyto FoF Impersonate aby przełączyć się na konto "username"'
+    auto-note-actor: 'Przełączono się na konto "username": reason'
+    no_reason_provided: 'Nie podano powodu'
   forum:
     moderatorNotes:
       add_button: 'Nowa notatka'
       confirmation_message: 'Twoja notatka została zapisana. Musisz odświeżyć stronę, aby ją zobaczyć.'
       create-heading: 'Utwórz nową notatkę dla moderatorów'
+      created_text: '{username} utworzył tę notatkę {date}'
       dismiss_button: Gotowe
       input_heading: 'Wpisz notatki dotyczące <strong>{username}</strong>'
       noNotes: 'Wygląda na to, że nie ma tutaj żadnych notatek.'
