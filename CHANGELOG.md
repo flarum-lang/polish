@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+0.3.10.1 (2020-05-26)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+
+
+Wszystkie zmiany: [v0.3.10...v0.3.10.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.10...v0.3.10.1).
+
+
 0.3.10 (2020-05-24)
 -------------------
 
