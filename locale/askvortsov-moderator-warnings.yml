@@ -21,6 +21,9 @@ askvortsov-moderator-warnings:
       warning_notification_label: 'Moderator dał mi ostrzeżenie'
     user:
       warnings: Ostrzeżenia
+    validation:
+      invalid_strike_count: 'Liczba punktów karnych powinna być liczbą całkowitą z przedziału od 0  do 5.'
+      public_comment_required: 'Musisz podać publicznie widoczny komentarz.'
     warning_controls:
       delete_button: Usuń
       delete_forever_button: 'Nieodwracalnie usuń'
@@ -28,6 +31,7 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Nowe ostrzeżenie'
       no-warnings: 'Wygląda na to, że nie ma tutaj żadnych ostrzeżeń.'
+      no_warnings: 'Wygląda na to, że nie ma tutaj żadnych ostrzeżeń.'
       warnings: 'Ostrzeżenia: {strikes} punkt karny|Ostrzeżenia: {strikes} punkty karne|Ostrzeżenia: {strikes} punktów karnych'
       warnings_no_strikes: 'Ostrzeżenia: bez punktów karnych'
     warning_list_item:
