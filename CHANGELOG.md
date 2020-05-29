@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+0.3.11 (2020-05-29)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+* [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+
+
+Wszystkie zmiany: [v0.3.10.2...v0.3.11](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.10.2...v0.3.11).
+
+
 0.3.10.2 (2020-05-27)
 ---------------------
 
