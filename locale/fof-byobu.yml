@@ -51,6 +51,8 @@ fof-byobu:
       pd_added_label: 'Ktoś dodał mnie do istniejącej prywatnej dyskusji'
       pd_added_text: '{username} dodał cię do prywatnej dyskusji'
       pd_label: 'Ktoś dodał mnie do nowej prywatnej dyskusji'
+      pd_made_public_label: 'Prywatna dyskusja została upubliczniona'
+      pd_made_public_text: '{username} upublicznił dyskusję'
       pd_reply_label: 'Ktoś odpowiedział w prywatnej dyskusji, w której uczestniczę'
       pd_reply_text: '{username} odpowiedział w prywatnej dyskusji, w której uczestniczysz'
       pd_text: '{username} utworzył nową prywatną dyskusję z tobą'
@@ -71,6 +73,8 @@ fof-byobu:
       settings:
         block_pd: 'Blokuj prywatne dyskusje'
   notifications:
+    made_public:
+      title: '[Prywatna dyskusja] user upublicznił dyskusję'
     private_discussion_added:
       title: '[Prywatna dyskusja] user dodał cię do prywatnej dyskusji'
     private_discussion_created:
