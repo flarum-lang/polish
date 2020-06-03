@@ -8,6 +8,11 @@ flarum_profile_views:
       title_last_viewers: 'Ostatnio oglądający'
       views_count_text: 'wyświetlono {viewcount} raz|wyświetlono {viewcount} razy'
 michaelbelgium-flarum-profile-views:
+  admin:
+    settings:
+      max_viewcount_label: 'Maksymalna liczba wyświetlanych odwiedzających'
+      title: 'Ustawienia wyświetleń profilu'
+      track_guests_label: 'Zliczaj gości'
   forum:
     user:
       last_viewers_heading: 'Ostatnio oglądający'
