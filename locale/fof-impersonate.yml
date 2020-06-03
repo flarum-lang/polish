@@ -6,6 +6,10 @@ fof-impersonate:
   admin:
     permissions:
       login: 'Logowanie na konta innych użytkowników'
+    settings:
+      no_settings_available: 'Żadne ustawienia nie są obecnie dostępne. Spróbuj zainstalować <code>fof/moderator-notes</code>.'
+      require_reason: 'Wymuś podanie powodu przed przełączeniem się na innego użytkownika.'
+      title: 'FoF Impersonate'
   forum:
     user_controls:
       impersonate_button: 'Zaloguj się jako ten użytkownik'
