@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+0.3.11.1 (2020-06-03)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+
+
+Wszystkie zmiany: [v0.3.11...v0.3.11.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.11...v0.3.11.1).
+
+
 0.3.11 (2020-05-29)
 -------------------
 
