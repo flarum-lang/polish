@@ -23,7 +23,7 @@ fof-moderator-notes:
       created_text: '{username} utworzył tę notatkę {date}'
       delete: Usuń
       dismiss_button: Gotowe
-      input_heading: 'Wpisz notatki dotyczące <strong>{username}</strong>, (możesz użyć markdown)'
+      input_heading: 'Wpisz notatki dotyczące <strong>{username}</strong> (możesz użyć markdown)'
       noNotes: 'Wygląda na to, że nie ma tutaj żadnych notatek.'
       no_content_given: 'Puste notatki nie są dozwolone.'
       submit_button: 'Zapisz notatkę'
