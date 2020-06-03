@@ -11,5 +11,11 @@ fof-impersonate:
       require_reason: 'Wymuś podanie powodu przed przełączeniem się na innego użytkownika.'
       title: 'FoF Impersonate'
   forum:
+    modal:
+      impersonate_username: 'Zaloguj się jako {username}'
+      label: 'Z wielką mocą wiąże się wielka odpowiedzialność. Kontynuując zalogujesz się na konto {username} i zostaniesz na nim aż do wylogowania.'
+      placeholder_optional: 'Podaj powód przełączenia się na tego użytkownika (opcjonalne)'
+      placeholder_required: 'Aby kontynuować, musisz podać powód przełączenia się na tego użytkownika'
+      title: 'Zaloguj się jako inny użytkownik'
     user_controls:
       impersonate_button: 'Zaloguj się jako ten użytkownik'
