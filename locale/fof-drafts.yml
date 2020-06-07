@@ -9,6 +9,8 @@ fof-drafts:
       start: 'Tworzenie szkiców'
     settings:
       enable_scheduled_drafts: 'Włącz planowanie publikacji szkiców'
+      schedule_log_output: 'Zapisz logi harmonogramu zadań'
+      schedule_on_one_server: 'Użyj dyrektywy "onOneServer()" dla harmonogramu zadań (task scheduler) (wymaga Redis/Memcache)'
       title: 'Ustawienia szkiców'
   console:
     scheduled_drafts_disabled: 'Planowanie publikacji szkiców jest obecnie wyłączone.'
