@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+0.3.11.2 (2020-06-07)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+
+
+Wszystkie zmiany: [v0.3.11.1...v0.3.11.2](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.11.1...v0.3.11.2).
+
+
 0.3.11.1 (2020-06-03)
 ---------------------
 
