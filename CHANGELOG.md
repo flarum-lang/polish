@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+0.3.12 (2020-06-18)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+
+
+Wszystkie zmiany: [v0.3.11.2...v0.3.12](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.11.2...v0.3.12).
+
+
 0.3.11.2 (2020-06-07)
 ---------------------
 
