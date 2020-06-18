@@ -5,16 +5,19 @@
 fof-follow-tags:
   email:
     newDiscussionInTag: '[Nowa dyskusja w obserwowanym tagu] title'
+    newDiscussionTag: '[Zmieniono tagi dyskusji] title'
     newPostInTag: '[Nowy post w obserwowanym tagu] title'
   forum:
     index:
       follow_tag_button: Obserwuj
       unfollow_tag_button: 'Przestań obserwować'
     notifications:
+      new_discussion_tag_text: '{username} zmienił tagi'
       new_discussion_text: '{username} rozpoczął'
       new_post_text: '{username} odpowiedział'
     settings:
       notify_new_discussion_label: 'Ktoś utworzył dyskusję w tagu, który obserwuję'
+      notify_new_discussion_tag_label: 'Ktoś zmienił tagi dyskusji na tag, który obserwuję'
       notify_new_post_label: 'Ktoś odpowiedział w tagu, który obserwuję'
     sub_controls:
       follow_button: '=> fof-follow-tags.ref.follow'

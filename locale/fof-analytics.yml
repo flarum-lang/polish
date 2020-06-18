@@ -10,7 +10,9 @@ fof-analytics:
         title: Analytics
     popup:
       field:
+        googleGTMCode: 'Identyfikator śledzenia GTM (opcjonalne)'
         googleTrackingCode: 'Identyfikator śledzenia'
+        optTrackingCode: 'Identyfikator śledzenia Optimize (opcjonalne)'
         piwikAliasUrl: 'URL aliasu'
         piwikAuthToken: 'Token autentykacji API'
         piwikHideAliasUrl: 'W raporcie "Outlinks", ukryj kliknięcia na znane aliasy adresów URL'
@@ -26,7 +28,7 @@ fof-analytics:
       section:
         googleAnalytics: 'Google Analytics'
         piwik: Piwik
-      title: 'Ustawienia statystyk'
+      title: 'FoF Analytics'
       trackAccounts:
         email: 'Śledź na podstawie adresu e-mail'
         none: 'Nie śledź'
