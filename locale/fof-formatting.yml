@@ -11,3 +11,4 @@ fof-formatting:
       HTMLEntities: 'Zezwól na encje HTML'
       MediaEmbed: 'Osadź treści z dozwolonych witryn'
       PipeTables: 'Obsługuj tabele ASCII'
+      TaskLists: 'Listy zadań w stylu GitHuba/GitLaba'
