@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.3.12.1 (2020-06-22)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
+
+
+Wszystkie zmiany: [v0.3.12...v0.3.12.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.12...v0.3.12.1).
+
+
 0.3.12 (2020-06-18)
 -------------------
 
