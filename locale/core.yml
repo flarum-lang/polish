@@ -446,6 +446,3 @@ core:
       new_password_label: 'Nowe hasło'
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.reset_your_password'
-rob006-flarum-translations:
-  fof-placeholder: 'This is simple placeholder to keep Weblate component with main translations repository for "Friends of Flarum" project.'
-  various-placeholder: 'This is simple placeholder to keep Weblate component with main translations repository for "Flarum extensions" project.'
