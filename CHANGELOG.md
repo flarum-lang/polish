@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+0.3.12.2 (2020-06-26)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarumite/flarum-decontaminator`](https://github.com/flarumite/flarum-decontaminator)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+
+
+Wszystkie zmiany: [v0.3.12.1...v0.3.12.2](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.12.1...v0.3.12.2).
+
+
 0.3.12.1 (2020-06-22)
 ---------------------
 
