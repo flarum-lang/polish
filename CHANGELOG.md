@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+0.3.12.3 (2020-07-03)
+---------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+
+
+Wszystkie zmiany: [v0.3.12.2...v0.3.12.3](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.12.2...v0.3.12.3).
+
+
 0.3.12.2 (2020-06-26)
 ---------------------
 
