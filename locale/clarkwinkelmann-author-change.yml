@@ -6,14 +6,19 @@ clarkwinkelmann-author-change:
   admin:
     permissions:
       edit: 'Aktualizowanie autora postów i dyskusji'
+      edit-date: 'Edycja daty postów i dyskusji'
+      edit-user: 'Edycja autora postów i dyskusji'
   forum:
     controls:
-      edit: 'Edytuj Autora'
+      edit: 'Edytuj autora i datę'
     modal:
       cancel: Anuluj
+      created_at: 'Czas utworzenia'
+      edited_at: 'Edytuj czas'
       submit: Zapisz
-      title-discussion: 'Edytuj autora dyskusji'
-      title-post: 'Edytuj autora posta'
+      title-discussion: 'Edytuj autora dyskusji oraz datę'
+      title-post: 'Edytuj autora posta oraz datę'
+      user: Autor
     search:
       no-results: 'Brak wyników'
       placeholder: 'Wyszukaj użytkowników'
