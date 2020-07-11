@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+0.3.12.4 (2020-07-11)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+
+
+Wszystkie zmiany: [v0.3.12.3...v0.3.12.4](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.12.3...v0.3.12.4).
+
+
 0.3.12.3 (2020-07-03)
 ---------------------
 
