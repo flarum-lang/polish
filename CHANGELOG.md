@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.3.12.5 (2020-07-17)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+
+
+Wszystkie zmiany: [v0.3.12.4...v0.3.12.5](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.12.4...v0.3.12.5).
+
+
 0.3.12.4 (2020-07-11)
 ---------------------
 
