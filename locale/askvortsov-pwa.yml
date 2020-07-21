@@ -21,7 +21,7 @@ askvortsov-pwa:
       logo_heading: 'Loga i ikony'
       logo_size_text: 'Wyślij logo, które zostanie przeskalowane do rozmiaru {size} na {size} pikseli.'
       logo_text: "Musisz wysłać przynajmniej jedno logo, aby było możliwe zainstalowanie Progressive Web App dla twojego forum. Zauważ że logo musi być kwadratem, w przeciwnym razie może zostać rozciągnięte.\n\nJest kilka dostępnych rozmiarów poniżej. Zalecane jest wysłanie tak wielu jak to tylko możliwe, aby wspierać jak najwięcej różnych urządzeń.\n\nZauważ że możesz wysłać jedno duże logo dla wszystkich dostępnych rozmiarów. Na przykład możesz wysłać logo o rozmiarze 1000px x 1000px logo dla wszystkich pól poniżej. Jeśli jednak wyślesz logo o rozmiarze 50px x 50px do pola na logo o rozmiarze 512px x 512px, zostanie ono dość mocno rozciągnięte.\n"
-      refreshed_message: 'Konfiguracja PWA została prawidłowo odświeżona.'
+      refreshed_message: 'Konfiguracja PWA została pomyślnie odświeżona.'
       status_check_heading: Status
       submit_button: 'Zapisz ustawienia'
       text: 'Skonfiguruj swoje Flarum aby działało jako Progressive Web App! Zauważ, że nie umieści twojej aplikacji w App Store. Zamiast tego przeglądarka udostępni opcję "Dodaj do ekranu głównego". Rozszerzenie zapewnia podstawowe sprawdzenie konfiguracji, ale najlepszym sposobem na przetestowanie go jest instalacja i sprawdzenie czy działa (instrukcję instalacji Progressive Web App można znaleźć w Google). Miej na uwadze, że popup "zainstaluj jako PWA" jest kontrolowany przez przeglądarkę i nie może być wywołany przez developera/administratora/aplikację. Zalecane jest załączenie instrukcji jak zainstalować PWA na twojej stronie.'
