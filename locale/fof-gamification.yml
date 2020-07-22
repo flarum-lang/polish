@@ -9,7 +9,7 @@ core:
 fof-gamification:
   admin:
     nav:
-      desc: 'Gamification dla twojej społeczności Flarum'
+      desc: 'Grywalizacja dla twojej społeczności Flarum'
     page:
       convert:
         button: 'Konwertuj polubienia na głosy pozytywne'
@@ -37,7 +37,7 @@ fof-gamification:
         title: Rangi
       save_settings: 'Zapisz ustawienia'
       votes:
-        alternate_layout: 'Użyj alternatywnego układu do wyświetlania oraz przydzielania głosów'
+        alternate_layout: 'Użyj alternatywnego układu do wyświetlania oraz dodawania głosów'
         auto_upvote: 'Automatycznie oceń pozytywnie posty po ich opublikowaniu'
         color_holder: '#ffffff'
         discussion_page: 'Wyświetl sumę głosów pierwszego posta na liście dyskusji'
