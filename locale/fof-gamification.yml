@@ -37,6 +37,7 @@ fof-gamification:
         title: Rangi
       save_settings: 'Zapisz ustawienia'
       votes:
+        alternate_layout: 'Użyj alternatywnego układu do wyświetlania oraz przydzielania głosów'
         auto_upvote: 'Automatycznie oceń pozytywnie posty po ich opublikowaniu'
         color_holder: '#ffffff'
         discussion_page: 'Wyświetl sumę głosów pierwszego posta na liście dyskusji'
