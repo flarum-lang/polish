@@ -43,6 +43,7 @@ the-turk-mathren:
       mathClassesHelp: 'Możesz łatwo ostylować tagi <code>span</code> wykorzystując własne klasy.'
       maxExpand: 'Limit dla rozwinięć makr'
       maxSize: 'Maksymalna wielkość (em)'
+      mentions: 'Musisz włączyć rozszerzenie <code>flarum/mentions</code> aby aktywować przycisk do cytowania.'
       minRuleThickness: 'Minimalna grubość (em)'
       otherOptionsHeading: 'Inne opcje'
       outputMode: 'Tryb wyjściowy'
