@@ -15,7 +15,7 @@ Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `0.1.0-beta.11` l
 Rozszerzenie instalujemy za pomocą [Composera](https://getcomposer.org/):
 
 ```console
-composer require rob006/flarum-lang-polish
+composer require rob006/flarum-lang-polish:^0.3
 ```
 
 Po czym w panelu admina włączamy rozszerzenie.
@@ -32,7 +32,7 @@ composer update rob006/flarum-lang-polish
 lub aby wymusić najnowszą wersję (zalecane przy aktualizacji do nowej wersji Flarum - sprawdź wcześniej [changelog](https://github.com/rob006-software/flarum-lang-polish/blob/master/CHANGELOG.md), czy żadne z wykorzystywanych przez Ciebie rozszerzeń nie utraciło wsparcia):
 
 ```console
-composer require rob006/flarum-lang-polish
+composer require rob006/flarum-lang-polish:^0.3
 ```
 
 Jeśli lubisz życie na krawędzi, możesz korzystać z wersji niestabilnej (może zawierać niezweryfikonwane frazy zaproponowane przez społeczność):
