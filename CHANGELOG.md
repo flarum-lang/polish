@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+0.3.12.6 (2020-07-25)
+---------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`reflar/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+
+
+Wszystkie zmiany: [v0.3.12.5...v0.3.12.6](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.12.5...v0.3.12.6).
+
+
 0.3.12.5 (2020-07-17)
 ---------------------
 
