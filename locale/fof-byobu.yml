@@ -42,7 +42,7 @@ fof-byobu:
       user_deleted: '-usunięty-'
     modal:
       help:
-        add_recipients: 'Ta dyskusja będzie widoczna tylko dla użytkowników, których tutaj wybierzesz. Wymagany jest przynajmniej jeden uczestnik (oprócz ciebie).'
+        add_recipients: 'Ta dyskusja będzie widoczna tylko dla użytkowników, których tutaj wybierzesz. Wymagany jest przynajmniej jeden uczestnik (oprócz Ciebie).'
         update_recipients: 'Ta dyskusja będzie widoczna tylko dla użytkowników, których tutaj wybierzesz.'
       titles:
         add_recipients: 'Dodaj uczestników do swojej dyskusji'
@@ -52,7 +52,7 @@ fof-byobu:
       start_button: 'Nowa prywatna dyskusja'
     notifications:
       pd_added_label: 'Ktoś dodał mnie do istniejącej prywatnej dyskusji'
-      pd_added_text: '{username} dodał cię do prywatnej dyskusji'
+      pd_added_text: '{username} dodał Cię do prywatnej dyskusji'
       pd_label: 'Ktoś dodał mnie do nowej prywatnej dyskusji'
       pd_made_public_label: 'Prywatna dyskusja została upubliczniona'
       pd_made_public_text: '{username} upublicznił dyskusję'
@@ -79,7 +79,7 @@ fof-byobu:
     made_public:
       title: '[Prywatna dyskusja] user upublicznił dyskusję'
     private_discussion_added:
-      title: '[Prywatna dyskusja] user dodał cię do prywatnej dyskusji'
+      title: '[Prywatna dyskusja] user dodał Cię do prywatnej dyskusji'
     private_discussion_created:
       title: '[Prywatna dyskusja] user rozpoczął prywatną dyskusję z tobą'
     private_discussion_replied:

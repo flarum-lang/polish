@@ -25,7 +25,7 @@ fof-masquerade:
       option-new: 'Nowa opcja'
       options: Opcje
       prefix: 'Prefiks pola'
-      prefix-help: "Wyświetla twój przedrostek przed wartościami wprowadzonymi do tego pola przez użytkownika.\n"
+      prefix-help: "Wyświetla Twój przedrostek przed wartościami wprowadzonymi do tego pola przez użytkownika.\n"
       required: 'Oznacz pole jako obowiązkowe'
       title: Pola
       type: Typ

@@ -10,7 +10,7 @@ fof-mason:
       delete-answer: 'Usuń odpowiedź'
       delete-field: 'Usuń pole'
       edit-answer: 'Edytuj odpowiedź'
-      edit-answer-prompt: 'Zmień odpowiedź wszędzie gdzie została użyta'
+      edit-answer-prompt: 'Zmień odpowiedź wszędzie, gdzie została użyta'
       edit-field: 'Kliknij, aby edytować pole'
       new-field: 'Nowe pole'
       save-answer: 'Zapisz zmiany'

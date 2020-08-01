@@ -38,7 +38,7 @@ the-turk-diff:
       textFormatting: 'Włącz formatowanie tekstu dla podglądów'
       title: 'Ustawienia historii edycji'
       useCrons: 'Użyj crona do archiwizowania starych rewizji'
-      useCronsHelp: 'Musisz dodać wpis do crona na twoim serwerze, aby ta opcja zadziałała. Zadanie wykona się co tydzień w niedzielę o 2:00. Jeśli wyłączysz tę opcję ale włączysz archiwizowanie, wszystkie rewizje posta zostaną przeskanowane pod kątem archiwizacji podczas edycji posta.'
+      useCronsHelp: 'Musisz dodać wpis do crona na swoim serwerze, aby ta opcja zadziałała. Zadanie wykona się co tydzień w niedzielę o 2:00. Jeśli wyłączysz tę opcję ale włączysz archiwizowanie, wszystkie rewizje posta zostaną przeskanowane pod kątem archiwizacji podczas edycji posta.'
       usePoint: 'Użyj <strong>kropki</strong> jako separator dziesiętny dla liczb niecałkowitych.'
       wordLevel: 'Na poziomie słów'
   forum:
