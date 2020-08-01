@@ -46,7 +46,7 @@ fof-masquerade:
       url: URL
   forum:
     alerts:
-      profile-completion-required: "Uzupełnij proszę wymagane pola profilu poniżej.\n"
+      profile-completion-required: "Uzupełnij wymagane pola profilu poniżej.\n"
     buttons:
       save-profile: Zapisz
       view-profile: 'Zobacz profil'
@@ -56,4 +56,4 @@ fof-masquerade:
         'yes': Tak
       select:
         none-optional: 'Nie wybrano żadnej opcji (niewymagane)'
-        none-required: 'Wybierz proszę którąś z opcji (wymagane)'
+        none-required: 'Wybierz którąś z opcji (wymagane)'
