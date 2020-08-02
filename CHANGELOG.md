@@ -2,6 +2,69 @@ CHANGELOG
 =========
 
 
+0.3.13 (2020-08-02)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
+* [`kyrne/shout`](https://github.com/KyrneDev/Shout-public)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`dotronglong/flarum-hide-me`](https://github.com/dotronglong/flarum-hide-me)
+* [`extiverse/bazaar`](https://github.com/extiverse/bazaar)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab)
+* [`kilowhat/flarum-ext-affiliation-links`](https://github.com/kilowhat/flarum-ext-affiliation-links)
+* [`kvothe/keyboard-shortcuts`](https://github.com/oaklinq/flarum-ext-keyboard-shortcuts)
+* [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical)
+* [`migratetoflarum/itemlist-order`](https://github.com/migratetoflarum/itemlist-order)
+* [`nikovonlas/flarum-ext-web-push`](https://github.com/NikoVonLas/flarum-ext-web-push)
+* [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam)
+* [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
+* [`reflar/twofactor`](https://github.com/ReFlar/twofactor)
+* [`reflar/webhooks`](https://github.com/ReFlar/webhooks)
+* [`shriker/flarum-pronouns`](https://github.com/shriker/flarum-pronouns)
+* [`studosi/mail-filter`](https://github.com/studosi-flarum/mail-filter)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+* [`the-turk/flarum-edit-notifications`](https://github.com/the-turk/flarum-edit-notifications)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+* [`the-turk/flarum-password-strength`](https://github.com/the-turk/flarum-password-strength)
+* [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
+* [`wiwatsrt/flarum-ext-best-answer`](https://github.com/wiwatsrt/flarum-ext-best-answer)
+
+
+Wszystkie zmiany: [v0.3.12.6...v0.3.13](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.12.6...v0.3.13).
+
+
 0.3.12.6 (2020-07-25)
 ---------------------
 
