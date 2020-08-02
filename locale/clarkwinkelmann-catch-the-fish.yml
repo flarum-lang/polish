@@ -39,7 +39,7 @@ clarkwinkelmann-catch-the-fish:
     round-not-started: 'Ta runda jeszcze się nie rozpoczęła'
     too-many-placement-models: 'Rybę można umieścić tylko w jednym miejscu'
     user-suspended: 'Nie można umieścić ryby na zbanowanym użytkowniku'
-    wrong-catch-placement: 'Tu nie ma żadnych ryb. Może nie byłeś wystarczająco szybki i ktoś inny złowił ją przed tobą'
+    wrong-catch-placement: 'Tu nie ma żadnych ryb. Może nie byłeś wystarczająco szybki i ktoś inny złowił ją przed Tobą?'
   forum:
     basket:
       drag-help: 'Przeciągnij i upuść rybę na dyskusji, poście lub profilu użytkownika'
