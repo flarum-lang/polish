@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+0.3.14 (2020-08-08)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+* [`the-turk/flarum-welcome-widgets`](https://github.com/the-turk/flarum-welcome-widgets)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Wszystkie zmiany: [v0.3.13...v0.3.14](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.13...v0.3.14).
+
+
 0.3.13 (2020-08-02)
 -------------------
 
