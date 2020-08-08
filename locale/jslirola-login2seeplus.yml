@@ -20,4 +20,4 @@ jslirola-login2seeplus:
     code: 'Zaloguj się aby zobaczyć kod'
     image: 'Zaloguj się aby zobaczyć obrazek'
     link: 'Zaloguj się aby zobaczyć link'
-    post: 'Musisz się <a class=''jslirolaLogin2seeplusLogin''>zalogować</a> lub <a class=''jslirolaLogin2seeplusRegister''>zarejestrować</a>, aby zobaczyć pełną treść'
+    post: '{login} lub {register}, aby zobaczyć pełną treść'
