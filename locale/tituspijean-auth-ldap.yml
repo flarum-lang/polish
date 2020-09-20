@@ -26,5 +26,5 @@ tituspijean-auth-ldap:
       use_ssl: 'Użyj SSL'
       use_tls: 'Użyj TLS'
   forum:
-    log_in_with: 'Zaloguj się za pomocą'
+    log_in_with: 'Zaloguj się za pomocą {server}'
     log_out: '=> core.ref.log_out'
