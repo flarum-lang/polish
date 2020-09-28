@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+0.3.15 (2020-09-28)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń komunikatów walidacji.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`nearata/flarum-ext-copy-code-to-clipboard`](https://github.com/Nearata/flarum-ext-copy-code-to-clipboard)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/auth-gitlab`](https://github.com/FriendsOfFlarum/auth-gitlab)
+* [`kyrne/shout`](https://github.com/KyrneDev/Shout-public)
+* [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
+
+
+Wszystkie zmiany: [v0.3.14...v0.3.15](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.14...v0.3.15).
+
+
 0.3.14 (2020-08-08)
 -------------------
 
