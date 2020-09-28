@@ -13,7 +13,7 @@ fof-sitemap:
       frequency_label: 'Jak często harmonogram zadań powinien generować ponownie mapę zapisaną w cache / na dysku?'
       mode_help: 'Wybór trybu odpowiedniego dla wielkości twojego forum jest bardzo ważny.'
       mode_help_cache_disk: 'Najlepszy dla małych lub średniej wielkości forów na hostingach współdzielonych obsługujących zadania cron i harmonogram zadań Flarum (patrz poniżej), oraz z sumaryczną liczbą dyskusji, użytkowników, tagów oraz podstron poniżej 50 000 pozycji.'
-      mode_help_cache_disk_label: 'Map zapisana w cache / na dysku'
+      mode_help_cache_disk_label: 'Cache / Na dysku'
       mode_help_large: '50 000 pozycji to techniczne ograniczenie dla pliku mapy witryny. Jeśli twoje forum ma więcej pozycji, użyj poniższej opcji!'
       mode_help_multi: 'Najlepszy dla dużych forów, posiadających ponad 50 000 pozycji w mapie witryny. Mapa witryny zostanie rozbita na kilka skompresowanych plików zapisanych w katalogu <code>/public</code>.'
       mode_help_multi_label: 'Wiele plików'
