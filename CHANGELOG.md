@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+0.3.16 (2020-10-05)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`therealsujitk/flarum-ext-show-password`](https://github.com/therealsujitk/flarum-ext-show-password)
+
+
+Wszystkie zmiany: [v0.3.15...v0.3.16](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.15...v0.3.16).
+
+
 0.3.15 (2020-09-28)
 -------------------
 
