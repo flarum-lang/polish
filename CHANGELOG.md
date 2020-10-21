@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+0.3.17 (2020-10-21)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja formatu dat.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+
+
+Wszystkie zmiany: [v0.3.16...v0.3.17](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.16...v0.3.17).
+
+
 0.3.16 (2020-10-05)
 -------------------
 
