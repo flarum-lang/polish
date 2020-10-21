@@ -35,7 +35,7 @@
     }
   }
 
-  var pl = moment.defineLocale('pl', {
+  var pl = moment.locale('pl', {
     months : function (momentToFormat, format) {
       if (!momentToFormat) {
         return monthsNominative;
