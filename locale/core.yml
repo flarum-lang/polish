@@ -201,8 +201,10 @@ core:
       title_placeholder: 'Tytuł dyskusji'
     composer_edit:
       discard_confirmation: 'Nie zapisałeś dokonanych zmian. Czy chcesz je porzucić?'
+      edited_message: 'Twoje zmiany zostały zapisane.'
       post_link: 'Post #{number} w {discussion}'
       submit_button: '=> core.ref.save_changes'
+      view_button: '=> core.ref.view'
     composer_reply:
       body_placeholder: '=> core.ref.write_a_reply'
       discard_confirmation: 'Nie opublikowałeś swojej odpowiedzi. Czy chcesz ją porzucić?'
@@ -424,6 +426,7 @@ core:
     start_a_discussion: 'Rozpocznij dyskusję'
     username: 'Nazwa użytkownika'
     users: Użytkownicy
+    view: Zobacz
     write_a_reply: 'Napisz odpowiedź...'
     you: Ty
   views:
