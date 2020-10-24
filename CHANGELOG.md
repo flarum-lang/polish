@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+0.3.18 (2020-10-24)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja formatu dat.
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+
+
+Wszystkie zmiany: [v0.3.17...v0.3.18](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.17...v0.3.18).
+
+
 0.3.17 (2020-10-21)
 -------------------
 
