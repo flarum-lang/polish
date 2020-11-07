@@ -15,8 +15,17 @@ fof-linguist:
     filters:
       for-extension: Rozszerzenia
       for-extension-unavailable: "Nie znaleziono żadnych tłumaczeń dla prefiksu \"{namespace}\". Możliwe, że to rozszerzenie nie posiada żadnych testów do przetłumaczenia lub korzysta z innego prefiksu. Spróbuj skorzystać z wyszukiwarki, aby znaleźć brakujące tłumaczenia.\n"
+      missing: 'Znajdź brakujące tłumaczenia'
+      missing-middle-label: 'tłumaczenia dla'
+      negation-options:
+        with: Posiadające
+        without: Nieposiadające
       results: 'Wyświetlono {shown} z {total} pasujących tłumaczeń'
       search: 'Szukaj tekstu tłumaczenia...'
+      type-options:
+        any: 'oryginalne lub własne'
+        original: oryginalne
+        own: własne
       with-original-translations-in-locales: 'Z oryginalnym tłumaczeniem'
       with-own-translations: 'Moje tłumaczenia'
       without-original-translations-in-locales: 'Bez oryginalnego tłumaczenia'
