@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+0.3.19 (2020-11-08)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+
+
+Wszystkie zmiany: [v0.3.18...v0.3.19](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.18...v0.3.19).
+
+
 0.3.18 (2020-10-24)
 -------------------
 
