@@ -5,6 +5,7 @@
 tank-perspective:
   admin:
     settings:
+      api_key_help: 'Twój klucz API od Google do Perspective API'
       donotstore: 'Nie przechowuj'
       field:
         api_key: 'API Key'

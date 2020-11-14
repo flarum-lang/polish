@@ -54,6 +54,9 @@ fof-upload:
         position: 'Pozycja znaku wodnego'
         title: 'Oznaczanie obrazków znakiem wodnym'
         toggle: 'Oznaczaj obrazki znakiem wodnym'
+    pane:
+      description: 'Skonfiguruj ustawienia przesyłania plików.'
+      title: 'Przesyłanie plików'
     permissions:
       download_label: 'Pobieranie plików'
       upload_label: 'Przesyłanie plików'
