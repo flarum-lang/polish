@@ -18,7 +18,7 @@ tank-perspective:
         threshold: 'Próg dla zgłoszeń'
         toxicity: Toksyczność
       maxscore_help: 'To ustawienie informuje wtyczkę, aby użyć maksymalnego wyniku zamiast średniej'
-      threshold_help: 'To jest minimalny wynik (jako liczba całkowita), który musi uzyskać post aby zostać automatycznie zgłoszony'
+      threshold_help: 'To jest minimalny wynik (jako liczba całkowita), który musi uzyskać post, aby zostać automatycznie zgłoszony'
       title: 'Ustawienia Perspective'
       useexperimental: 'Użyj eksperymentalnych modeli (experimental models)'
       usemax: 'Użyj maksymalnego wyniku'
