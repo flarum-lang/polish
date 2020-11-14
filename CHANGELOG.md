@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+0.3.20 (2020-11-14)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`tank/perspective`](https://github.com/flarum-tank/flarum-perspective)
+
+
+Wszystkie zmiany: [v0.3.19...v0.3.20](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.19...v0.3.20).
+
+
 0.3.19 (2020-11-08)
 -------------------
 
