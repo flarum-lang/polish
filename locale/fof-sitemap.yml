@@ -20,7 +20,7 @@ fof-sitemap:
       mode_help_runtime: 'Przeznaczony dla mniejszych forów na hostingach współdzielonych, z sumaryczną liczbą dyskusji, użytkowników, tagów oraz podstron poniżej 10 000 pozycji. Mapa witryny będzie generowana w locie przy każdym żądaniu.'
       mode_help_runtime_label: 'W locie'
       mode_help_schedule: 'Następujące tryby dodają swoje zadania do harmonogramu zadań Flarum.'
-      mode_help_schedule_setup: 'Bez włączonego harmonogramu zadań Flarum, poniższe tryby nie będą działać.  <a>Kliknij tutaj</a>, aby uzyskać więcej informacji.'
+      mode_help_schedule_setup: 'Bez włączonego harmonogramu zadań Flarum, poniższe tryby nie będą działać. <a>Kliknij tutaj</a>, aby uzyskać więcej informacji.'
       mode_label: Tryb
       modes:
         cache: Cache
