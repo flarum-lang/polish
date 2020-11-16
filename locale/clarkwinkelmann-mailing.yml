@@ -13,13 +13,13 @@ clarkwinkelmann-mailing:
     default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
   forum:
     links:
-      mail_all: 'Wyślij e-mail do wszystkich użytkowników'
-      mail_individual: 'Wyślij e-mail do tego użytkownika'
+      mail_all: 'Wyślij e-mail'
+      mail_individual: 'Wyślij e-mail'
     modal_mail:
       default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
       message_label: Wiadomość
       recipients_label: Adresaci
-      recipients_placeholder: 'Wpisz innych adresatów...'
+      recipients_placeholder: 'Dodaj więcej adresatów...'
       subject_label: Temat
       submit_button: Wyślij
       title_text: 'Utwórz wiadomość'
