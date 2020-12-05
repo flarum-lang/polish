@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+0.3.21 (2020-12-05)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+
+
+Wszystkie zmiany: [v0.3.20...v0.3.21](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.20...v0.3.21).
+
+
 0.3.20 (2020-11-14)
 -------------------
 
