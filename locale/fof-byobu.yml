@@ -48,8 +48,9 @@ fof-byobu:
         add_recipients: 'Dodaj uczestników do swojej dyskusji'
         update_recipients: 'Uaktualnij uczestników dla {title}'
     nav:
+      nav_item: 'Prywatne dyskusje'
       private_discussions: 'Prywatna dyskusja'
-      start_button: 'Nowa prywatna dyskusja'
+      start_button: 'Prywatna dyskusja'
     notifications:
       pd_added_label: 'Ktoś dodał mnie do istniejącej prywatnej dyskusji'
       pd_added_text: '{username} dodał Cię do prywatnej dyskusji'
@@ -75,6 +76,7 @@ fof-byobu:
       dropdown_label: 'Prywatne dyskusje'
       settings:
         block_pd: 'Blokuj prywatne dyskusje'
+        unified_index: 'Wyświetl prywatne dyskusje na liście dyskusji na forum'
   notifications:
     made_public:
       title: '[Prywatna dyskusja] user upublicznił dyskusję'

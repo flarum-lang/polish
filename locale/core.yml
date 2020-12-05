@@ -20,6 +20,7 @@ core:
       custom_styles_heading: 'Niestandardowe style'
       custom_styles_text: 'Edytuj wygląd swojego forum poprzez dodawanie swojego własnego kodu LESS/CSS, który będzie dodany nad domyślnymi stylami Flarum.'
       dark_mode_label: 'Ciemny motyw'
+      description: 'Dostosuj kolory, logo oraz inne ustawienia swojego forum.'
       edit_css_button: 'Edytuj niestandardowy CSS'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
@@ -29,9 +30,11 @@ core:
       logo_heading: Logo
       logo_text: 'Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.'
       submit_button: '=> core.ref.save_changes'
+      title: 'Wygląd forum'
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Domyślny język'
+      description: 'Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.'
       display_name_heading: 'Wyświetlana nazwa użytkownika'
       display_name_text: 'Wybierz sterownik, który powinien być używany do wyświetlania nazw użytkowników. Domyślnie wyświetlana jest nazwa użytkownika.'
       forum_description_heading: 'Opis forum'
@@ -42,10 +45,13 @@ core:
       saved_message: 'Twoje zmiany zostały zapisane.'
       show_language_selector_label: 'Pokazuj menu wyboru języka'
       submit_button: '=> core.ref.save_changes'
+      title: Podstawowe
       welcome_banner_heading: 'Baner powitalny'
       welcome_banner_text: 'Skonfiguruj tekst, który wyświetla się w banerze na stronie "Wszystkie dyskusje". Użyj go, aby powitać gości na swoim forum.'
     dashboard:
       clear_cache_button: 'Wyczyść cache'
+      description: 'Podstawowe informacje dotyczące forum.'
+      title: Kokpit
       tools_button: Narzędzia
     edit_css:
       customize_text: 'Edytuj wygląd swojego forum poprzez dodawanie swojego własnego kodu LESS/CSS, który będzie dodany nad <a>domyślnymi stylami Flarum</a>.'
@@ -73,6 +79,7 @@ core:
       title: '=> core.ref.custom_header_title'
     email:
       addresses_heading: Adresy
+      description: 'Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.'
       driver_heading: 'Wybierz sterownik (driver)'
       driver_label: 'Sterownik (driver)'
       from_label: Nadawca
@@ -100,27 +107,62 @@ core:
       smtp_heading: 'Ustawienia SMTP'
       submit_button: '=> core.ref.save_changes'
       text: 'Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.'
+      title: '=> core.ref.email'
+    extension:
+      confirm_uninstall: 'Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?'
+      disabled: Wyłączone
+      enable_to_see: 'Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.'
+      enabled: Włączone
+      info_links:
+        discuss: Dyskusja
+        documentation: Dokumentacja
+        donate: Wesprzyj
+        source: Źródła
+        support: Wsparcie
+        website: 'Strona internetowa'
+      no_permissions: 'Brak uprawnień'
+      no_settings: 'Brak ustawień'
+      open_modal: 'Otwórz ustawienia'
+      permissions_title: Uprawnienia
+      saved_message: 'Twoje zmiany zostały zapisane.'
+      uninstall_button: Odinstaluj
     extensions:
       add_button: 'Dodaj rozszerzenie'
       settings_button: '=> core.ref.settings'
       uninstall_button: Odinstaluj
     header:
+      get_help: 'Uzyskaj pomoc'
       log_out_button: '=> core.ref.log_out'
     loading:
       title: 'Proszę czekać...'
     nav:
       appearance_button: 'Wygląd forum'
       appearance_text: 'Dostosuj kolory, logo oraz inne ustawienia swojego forum.'
+      appearance_title: '=> core.admin.appearence.description'
       basics_button: Podstawowe
       basics_text: 'Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.'
+      basics_title: '=> core.admin.basics.description'
+      categories:
+        authentication: Uwierzytelnianie
+        discussion: Dyskusja
+        feature: Funkcje
+        formatting: Formatowanie
+        language: Języki
+        moderation: Moderacja
+        other: 'Inne rozszerzenia'
+        theme: Motywy
       dashboard_button: Kokpit
       dashboard_text: 'Podstawowe informacje dotyczące forum.'
+      dashboard_title: '=> core.admin.dashboard.description'
       email_button: '=> core.ref.email'
       email_text: 'Skonfiguruj ustawienia wysyłki wiadomości e-mail.'
+      email_title: '=> core.admin.email.description'
       extensions_button: Rozszerzenia
       extensions_text: 'Dodaj dodatkowe funkcje do forum i dostosuj je pod siebie.'
       permissions_button: Uprawnienia
       permissions_text: 'Skonfiguruj uprawnienia użytkowników i grup.'
+      permissions_title: '=> core.admin.permissions.description'
+      search_placeholder: 'Wyszukaj rozszerzenia'
     permissions:
       allow_post_editing_label: 'Pozwól na edycję posta'
       allow_renaming_label: 'Pozwól na zmianę tytułu dyskusji'
@@ -129,6 +171,7 @@ core:
       delete_discussions_label: 'Usuwanie dyskusji'
       delete_posts_forever_label: 'Usuwanie postów na zawsze'
       delete_posts_label: 'Usuwanie postów'
+      description: 'Skonfiguruj uprawnienia użytkowników i grup.'
       edit_posts_label: 'Edytowanie postów'
       edit_users_label: 'Edytowanie użytkowników'
       global_heading: Globalne
@@ -141,6 +184,7 @@ core:
       reply_to_discussions_label: 'Odpowiadanie w dyskusji'
       sign_up_label: Rejestracja
       start_discussions_label: 'Rozpoczynanie dyskusji'
+      title: Uprawnienia
       view_discussions_label: 'Przeglądanie dyskusji'
       view_hidden_groups_label: 'Przeglądanie etykiet ukrytych grup'
       view_last_seen_at_label: 'Dostęp do daty ostatniej wizyty użytkownika'
