@@ -140,7 +140,7 @@ core:
     nav:
       appearance_button: 'Wygląd forum'
       appearance_text: 'Dostosuj kolory, logo oraz inne ustawienia swojego forum.'
-      appearance_title: '=> core.admin.appearence.description'
+      appearance_title: '=> core.admin.appearance.description'
       basics_button: Podstawowe
       basics_text: 'Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.'
       basics_title: '=> core.admin.basics.description'
