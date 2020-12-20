@@ -1,7 +1,7 @@
 # Polska paczka językowa dla [Flarum](https://flarum.org/)
 
 [![Latest Stable Version](https://poser.pugx.org/rob006/flarum-lang-polish/v/stable)](https://packagist.org/packages/rob006/flarum-lang-polish) 
-[![Latest Unstable Version](https://poser.pugx.org/rob006/flarum-lang-polish/v/unstable)](https://packagist.org/packages/rob006/flarum-lang-polish) 
+[![Latest Unstable Version](https://img.shields.io/badge/unstable-v0.4.x--dev-e68718)](https://packagist.org/packages/rob006/flarum-lang-polish) 
 [![License](https://poser.pugx.org/rob006/flarum-lang-polish/license)](https://packagist.org/packages/rob006/flarum-lang-polish) 
 [![Total Downloads](https://poser.pugx.org/rob006/flarum-lang-polish/downloads)](https://packagist.org/packages/rob006/flarum-lang-polish/stats) 
 [![Monthly Downloads](https://poser.pugx.org/rob006/flarum-lang-polish/d/monthly)](https://packagist.org/packages/rob006/flarum-lang-polish/stats) 
