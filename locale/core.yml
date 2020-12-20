@@ -132,10 +132,10 @@ core:
     loading:
       title: 'Proszę czekać...'
     nav:
-      appearance_button: 'Wygląd forum'
+      appearance_button: '=> core.admin.appearance.title'
       appearance_text: 'Dostosuj kolory, logo oraz inne ustawienia swojego forum.'
       appearance_title: '=> core.admin.appearance.description'
-      basics_button: Podstawowe
+      basics_button: '=> core.admin.basics.title'
       basics_text: 'Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.'
       basics_title: '=> core.admin.basics.description'
       categories:
@@ -148,7 +148,7 @@ core:
         moderation: Moderacja
         other: 'Inne rozszerzenia'
         theme: Motywy
-      dashboard_button: Kokpit
+      dashboard_button: '=> core.admin.dashboard.title'
       dashboard_text: 'Podstawowe informacje dotyczące forum.'
       dashboard_title: '=> core.admin.dashboard.description'
       email_button: '=> core.ref.email'
@@ -156,7 +156,7 @@ core:
       email_title: '=> core.admin.email.description'
       extensions_button: Rozszerzenia
       extensions_text: 'Dodaj dodatkowe funkcje do forum i dostosuj je pod siebie.'
-      permissions_button: Uprawnienia
+      permissions_button: '=> core.admin.permissions.title'
       permissions_text: 'Skonfiguruj uprawnienia użytkowników i grup.'
       permissions_title: '=> core.admin.permissions.description'
       search_placeholder: 'Wyszukaj rozszerzenia'
