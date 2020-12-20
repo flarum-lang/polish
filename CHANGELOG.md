@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+0.3.23 (2020-12-20)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`luuhai48/oauth-google`](https://github.com/luuhai48/oauth-google)
+* [`luuhai48/oauth-linkedin`](https://github.com/luuhai48/oauth-linkedin)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/custom-footer`](https://github.com/FriendsOfFlarum/custom-footer)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+Wszystkie zmiany: [v0.3.22...v0.3.23](https://github.com/rob006-software/flarum-lang-polish/compare/v0.3.22...v0.3.23).
+
+
 0.3.22 (2020-12-12)
 -------------------
 
