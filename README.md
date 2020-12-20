@@ -38,7 +38,7 @@ composer require rob006/flarum-lang-polish
 Jeśli lubisz życie na krawędzi, możesz korzystać z wersji niestabilnej (może zawierać niezweryfikowane frazy zaproponowane przez społeczność):
 
 ```console
-composer require "rob006/flarum-lang-polish:0.3.x-dev"
+composer require "rob006/flarum-lang-polish:0.4.x-dev"
 ```
 
 Po aktualizacji czyścimy cache:
