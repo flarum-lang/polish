@@ -7,7 +7,7 @@
 [![Monthly Downloads](https://poser.pugx.org/rob006/flarum-lang-polish/d/monthly)](https://packagist.org/packages/rob006/flarum-lang-polish/stats) 
 [![Daily Downloads](https://poser.pugx.org/rob006/flarum-lang-polish/d/daily)](https://packagist.org/packages/rob006/flarum-lang-polish/stats)
 
-Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `0.1.0-beta.11` lub nowszą) oraz niemal wszystkich popularnych rozszerzeń. Pełna lista obsługiwanych rozszerzeń dostępna jest poniżej.
+Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `0.1.0-beta.14` lub nowszą) oraz niemal wszystkich popularnych rozszerzeń. Pełna lista obsługiwanych rozszerzeń dostępna jest poniżej.
 
 
 ## Instalacja
