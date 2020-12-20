@@ -9,4 +9,3 @@ fof-custom-footer:
       height: 'Wysokość stopki (px)'
       js: JS
       text: 'Tekst stopki'
-      title: 'Konfiguracja niestandardowej stopki'

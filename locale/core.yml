@@ -91,21 +91,15 @@ core:
       mail_mailgun_domain_label: Domena
       mail_mailgun_region_label: Region
       mail_mailgun_secret_label: 'Secret key'
-      mail_mandrill_secret_label: 'Secret key'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
-      mail_ses_key_label: Key
-      mail_ses_region_label: Region
-      mail_ses_secret_label: Secret
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Ustawienia Mailguna'
-      mandrill_heading: 'Ustawienia Mandrilla'
       not_sending_message: 'Obecnie Flarum nie wysyła żadnych wiadomości e-mail. Może to być skutek wybranego sterownika lub błędów w konfiguracji.'
       send_test_mail_button: Wyślij
       send_test_mail_heading: 'Wyślij testowy e-mail'
       send_test_mail_success: 'Testowa wiadomość e-mail została pomyślnie wysłana!'
       send_test_mail_text: 'Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na Twój adres e-mail, {email}.'
-      ses_heading: 'Ustawienia SES'
       smtp_heading: 'Ustawienia SMTP'
       submit_button: '=> core.ref.save_changes'
       text: 'Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.'

@@ -33,7 +33,6 @@ fof-oauth:
           api_key_label: 'API Key'
           api_secret_label: 'API Secret'
           description: 'Utwórz aplikację na {link}. Będziesz musiał ustawić URL do Polityki Prywatności oraz Regulaminu Serwisu. Upewnij się, że dodałeś uprawnienia do uzyskiwania adresu e-mail.'
-      title: 'FriendsOfFlarum OAuth'
   forum:
     error:
       bad_verification_code: 'Nieprawidłowy lub wygasły token weryfikacyjny. Spróbuj ponownie.'
