@@ -68,11 +68,19 @@ fof-webhooks:
         disabled: 'Ten webhook jest wyłączony, ponieważ nie ma żadnych aktywnych zdarzeń.'
         general: 'Tutaj możesz dodać, edytować oraz usuwać webhooki dla swojego forum.'
         url: 'Docelowy adres URL webhooka'
+      item:
+        tag_any_label: Dowolny
       modal:
         description: 'Tutaj możesz ustawić dla jakich zdarzeń webhook będzie wywoływany.'
+        events_label: Zdarzenia
+        extra_text_help: 'Dodatkowy tekst, który zostanie dołączony podczas wysyłania webhooka.'
+        extra_text_label: 'Dodatkowy tekst'
+        group_help: 'Wyślij zasoby, do których ma dostęp ta grupa'
+        group_label: Grupa
         title: 'Ustawienia webhooka'
       services:
         discord: Discord
+        microsoft-teams: 'Microsoft Teams'
         slack: Slack
       title: Webhooki
   ref:
