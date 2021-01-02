@@ -4,6 +4,21 @@
 
 nearata-tags-color-generator:
   admin:
+    color_hue_label: Odcień
+    color_hue_options:
+      blue: Niebieski
+      green: Zielony
+      monochrome: Szary
+      orange: Pomarańczowy
+      pink: Różowy
+      purple: Purpurowy
+      random: Losowo
+      red: Czerwony
+      yellow: Żółty
     color_luminosity_label: Jasność
     color_luminosity_options:
+      bright: Jaskrawy
+      dark: Ciemny
+      light: Jasny
       random: Losowo
+    generate_color_button: 'Wygeneruj losowy kolor'
