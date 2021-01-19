@@ -150,11 +150,11 @@ xelson-chat:
           url: URL
         you: Ty
       moder: Moderator
-      placeholder: 'Wpisz  swoją wiadomość...'
+      placeholder: 'Wpisz swoją wiadomość...'
       welcome:
         header: 'Witaj w Neon Chat!'
     errors:
-      chatdenied: 'Twoje grupa nie ma uprawnień aby pisać wiadomości'
+      chatdenied: 'Twoja grupa nie ma uprawnień, aby pisać wiadomości'
       removed: 'Zostałeś wyrzucony z czatu'
       unauthenticated: 'Jedynie zarejestrowani użytkownicy mogą korzystać z czatu'
     toolbar:
