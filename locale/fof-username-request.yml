@@ -36,7 +36,7 @@ fof-username-request:
         name: '{name} poprosił o zmianę pseudonimu na "{requestedName}"'
         reason_title: 'Powód odmowy'
         rejected_label: Odrzuć
-        submit_button: Zapisz
+        submit_button: Wyślij
         success: 'Decyzja wysłana.'
         title: '=> fof-username-request.ref.nickname_change_request'
       request:
@@ -56,10 +56,11 @@ fof-username-request:
         resubmit: 'Od tej chwili możesz wysłać nową prośbę o zmianę pseudonimu z poziomu ustawień konta.'
         title: 'Prośba o zmianę pseudonimu'
     pending_requests:
-      empty_text: 'Nie znaleziono żadnych próśb o zmianę nazwy użytkownika lub pseudonimu.'
+      empty_text: 'Nie znaleziono żadnych próśb o zmianę nazwy.'
       nickname_exerpt: 'Wnioskowany pseudonim: {requestedName}'
       nickname_item_text: '{name} poprosił o zmianę pseudonimu'
       title: '=> fof-username-request.ref.name_change_requests'
+      tooltip: '=> fof-username-request.ref.name_change_requests'
       username_exerpt: 'Wnioskowana nazwa użytkownika: {requestedName}'
       username_item_text: '{name} poprosił o zmianę nazwy użytkownika'
     profile_link: 'Historia nazwy użytkownika'
@@ -81,6 +82,8 @@ fof-username-request:
     settings:
       nickname_request_button: 'Zmień pseudonim'
       username_request_button: 'Zmień nazwę użytkownika'
+    user:
+      name_history_link: 'Historia nazwy'
     username_modals:
       action:
         approval_label: Zatwierdź
@@ -89,7 +92,7 @@ fof-username-request:
         name: '{name} poprosił o zmianę nazwy użytkownika na "{requestedName}"'
         reason_title: 'Powód odmowy'
         rejected_label: Odrzuć
-        submit_button: Zapisz
+        submit_button: Wyślij
         success: 'Decyzja wysłana.'
         title: '=> fof-username-request.ref.nickname_change_request'
       request:
@@ -108,3 +111,10 @@ fof-username-request:
         rejected: 'Twoja prośba o zmianę nazwy użytkownika została odrzucona'
         resubmit: 'Od tej chwili możesz wysłać nową prośbę o zmianę nazwy użytkownika z poziomu ustawień konta.'
         title: 'Prośba o zmianę nazwy użytkownika'
+  ref:
+    name_change_request: 'Prośba o zmianę nazwy'
+    name_change_requests: 'Prośby o zmianę nazwy'
+    nickname_change_request: 'Prośba o zmianę pseudonimu'
+    nickname_change_requests: 'Prośby o zmianę pseudonimu'
+    username_change_request: 'Prośba o zmianę nazwy użytkownika'
+    username_change_requests: 'Prośby o zmianę nazwy użytkownika'
