@@ -15,4 +15,4 @@ ianm-synopsis:
       settings:
         show-summaries: 'Wyświetlaj fragment dla każdej dyskusji na liście dyskusji (desktop/tablet)'
         show-summaries-mobile: 'Wyświetlaj fragment dla każdej dyskusji na liście dyskusji (mobile)'
-        summaries-heading: Streszczenie
+        summaries-heading: Podsumowanie
