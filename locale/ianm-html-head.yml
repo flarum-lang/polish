@@ -9,7 +9,7 @@ ianm-html-head:
       create_title: 'Utwórz nowy element'
       description_label: Opis
       edit_title: 'Edytuj element'
-      header_label: 'Niestandardowy element w &lt;head&gt;'
+      header_label: 'Niestandardowy element w <code>head</code>'
       save_button: Zapisz
       text: 'Upewnij się, że składnia jest prawidłowa, ponieważ możliwe jest zepsucie forum poprzez dodanie nieprawidłowych tagów w sekcji <code>head</code> forum. Po zapisaniu, włącz nowy element wykorzystując odpowiedni przełącznik.'
     table:
@@ -18,4 +18,4 @@ ianm-html-head:
       description_label: Opis
       edit_button: Edytuj
       empty_text: 'Brak wpisów'
-      header_label: Nagłówek
+      header_label: 'Element w <code>head</code>'
