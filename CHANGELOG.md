@@ -2,6 +2,37 @@ CHANGELOG
 =========
 
 
+0.4.5 (2021-02-14)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`dem13n/topic-starter-label`](https://github.com/Dem13n/topic-starter-label)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/html-head`](https://github.com/imorland/html-head)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+
+
+Wszystkie zmiany: [v0.4.4...v0.4.5](https://github.com/rob006-software/flarum-lang-polish/compare/v0.4.4...v0.4.5).
+
+
 0.4.4 (2021-02-01)
 ------------------
 
