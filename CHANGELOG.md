@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+0.4.6 (2021-02-20)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+
+
+Wszystkie zmiany: [v0.4.5...v0.4.6](https://github.com/rob006-software/flarum-lang-polish/compare/v0.4.5...v0.4.6).
+
+
 0.4.5 (2021-02-14)
 ------------------
 
