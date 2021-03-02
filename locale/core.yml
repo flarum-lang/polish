@@ -171,6 +171,8 @@ core:
       delete_posts_label: 'Usuwanie postów'
       description: 'Skonfiguruj uprawnienia użytkowników i grup.'
       edit_posts_label: 'Edytowanie postów'
+      edit_users_credentials_label: 'Edytowanie danych logowania użytkownika'
+      edit_users_groups_label: 'Edytowanie grup użytkownika'
       edit_users_label: 'Edytowanie użytkowników'
       global_heading: Globalne
       moderate_heading: Moderacja
@@ -275,6 +277,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Grupy
+      nothing_available: 'Nie ma żadnych danych, które mógłbyś edytować.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Ustaw nowe hasło'
