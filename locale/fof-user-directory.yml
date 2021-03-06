@@ -10,6 +10,8 @@ fof-user-directory:
       default-sort: 'Domyślne sortowanie'
       link: 'Dodaj link do katalogu użytkowników na stronie głównej'
   forum:
+    header:
+      back_to_user_directory_tooltip: 'Wróć do katalogu użytkowników'
     page:
       empty_text: 'Nie udało się znaleźć żadnego użytkownika pasującego do kryteriów wyszukiwania.'
       filter_button: 'Filtruj po grupie'
