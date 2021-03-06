@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+0.4.7 (2021-03-06)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+
+
+Wszystkie zmiany: [v0.4.6...v0.4.7](https://github.com/rob006-software/flarum-lang-polish/compare/v0.4.6...v0.4.7).
+
+
 0.4.6 (2021-02-20)
 ------------------
 
