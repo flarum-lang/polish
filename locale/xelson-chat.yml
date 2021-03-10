@@ -157,6 +157,7 @@ xelson-chat:
         you: Ty
       moder: Moderator
       placeholder: 'Wpisz swoją wiadomość...'
+      rejoin: 'Dołącz ponownie'
       welcome:
         header: 'Witaj w Neon Chat!'
         subheader: 'Aby porozmawiać, wybierz kanał w panelu po lewej stronie'
