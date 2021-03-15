@@ -173,7 +173,7 @@ core:
       edit_posts_label: 'Edytowanie postów'
       edit_users_credentials_label: 'Edytowanie danych logowania użytkownika'
       edit_users_groups_label: 'Edytowanie grup użytkownika'
-      edit_users_label: 'Edytowanie użytkowników'
+      edit_users_label: 'Edytowanie atrybutów użytkownika'
       global_heading: Globalne
       moderate_heading: Moderacja
       new_group_button: 'Nowa grupa'
