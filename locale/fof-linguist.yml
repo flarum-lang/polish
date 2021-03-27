@@ -33,3 +33,5 @@ fof-linguist:
       all-locales: 'Tekst, który tutaj wpiszesz, zostanie pokazany dla wszystkich języków'
       hint: 'Oryginalny tekst:'
       not-translated: Nieprzetłumaczone
+    tabs:
+      strings: Tłumaczenia
