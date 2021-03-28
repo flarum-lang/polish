@@ -109,6 +109,7 @@ fof-upload:
         hide_confirmation: 'Czy jesteś pewien, że chcesz ukryć "{fileName}"? Ukrycie pliku jedynie usunie go z twojego managera plików i nie wpłynie na istniejące posty.'
         hide_fail: 'Nie udało się ukryć pliku "{fileName}"'
         hide_success: 'Plik ukryty'
+        loading: 'Ukrywanie pliku...'
       load_more_files_btn: 'Załaduj więcej plików'
       loading: 'Ładowanie plików...'
       modal_empty_desktop: 'Lista twoich plików jest pusta. Kliknij przycisk lub przeciągnij plik, aby coś wysłać.'
