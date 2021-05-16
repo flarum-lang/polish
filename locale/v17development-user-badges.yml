@@ -8,30 +8,30 @@ v17development-flarum-badges:
       description: 'Opis odznaki'
       icon: 'Ikona odznaki'
       name: 'Nazwa odznaki'
-      visible: Widoczność
-      visible_description: 'Włącz tę odznakę. Jeżeli wyłączona, odznaka nie będzie widoczna.'
+      visible: Widoczna
+      visible_description: 'Jeśli odznaczysz tę opcję, odznaka nie będzie widoczna.'
     badge_category:
       description: 'Opis kategorii'
-      enabled: Włączone
-      enabled_description: 'Włącz tę kategorię. Jeżeli wyłączona, wszystkie odznaki zostaną wyłączone a kategoria nie będzie widoczna.'
+      enabled: Włączona
+      enabled_description: 'Jeśli wyłączysz kategorię, wszystkie zawarte w niej odznaki zostaną ukryte, a kategoria nie będzie widoczna.'
       name: 'Nazwa kategorii'
     confirm_dialog:
       'no': Nie
-      title: Zatwierdź
+      title: Potwierdź
       'yes': Tak
     confirm_messages:
-      delete_badge: 'Czy na pewno chcesz usunąć tę odznakę? Zostanie ona odebrana wszystkim użytkownikom i jest to nieodwracalne.'
-      delete_category: 'Czy na pewno chcesz usunąć tę kategorię? Jeżeli są w niej jakieś odznaki, zostaną one oznaczone jako ''Bez kategorii''.'
+      delete_badge: 'Czy jesteś pewien, że chcesz usunąć tę odznakę? Zostanie ona odebrana wszystkim użytkownikom i jest to nieodwracalne.'
+      delete_category: 'Czy jesteś pewien, że chcesz usunąć tę kategorię? Jeżeli są w niej jakieś odznaki, zostaną one oznaczone jako "Bez kategorii".'
     create_category: 'Utwórz kategorię'
     edit_category: 'Edytuj kategorię'
     new_badge: 'Nowa odznaka'
-    nothing_here_yet: 'Nie utworzono jeszcze żadnych odznak i kategorii.'
+    nothing_here_yet: 'Nie utworzono jeszcze żadnych odznak ani kategorii.'
     permissions:
-      give_badge: 'Przyznaj odznakę'
-      take_badge: 'Odbierz odznakę'
-    uncategorized: 'Brak kategorii'
-    update_badge: 'Popraw odznakę'
-    update_category: 'Popraw kategorię'
+      give_badge: 'Przyznawanie odznak użytkownikom'
+      take_badge: 'Odbieranie odznak użytkownikom'
+    uncategorized: 'Bez kategorii'
+    update_badge: 'Edytuj odznakę'
+    update_category: 'Edytuj kategorię'
   forum:
     all_badges: 'Zobacz wszystkie odznaki'
     all_users: 'Zobacz wszystkich użytkowników'
@@ -40,12 +40,20 @@ v17development-flarum-badges:
       badges: Odznaki
       category: 'Kategoria odznaki'
       description: 'Opis odznaki'
+      earned_count: '<b>{count} użytkownik</b> uzyskali tę odznakę|<b>{count} użytkowników</b> uzyskało tę odznakę'
+      earned_on: 'Odznakę przyznano'
       earning_reason: 'Powód przyznania odznaki'
       name: 'Nazwa odznaki'
-      update_earning_reason: 'Popraw powód przyznania odznaki'
+      no_earning_reason: 'Nie podano powodu przyznania odznaki'
+      update_earning_reason: 'Edytuj powód przyznania odznaki'
     badge_information: 'Informacje o odznace'
     give_badge: 'Przyznaj odznakę'
+    moderation:
+      give_badge: 'Przyznaj odznakę'
+      remove_badge: 'Odbierz odznakę użytkownikowi'
+      remove_badge_confirm: 'Czy jesteś pewien, że chcesz odebrać tę odznakę temu użytkownikowi?'
     select_badge: 'Wybierz odznakę'
-    update_badge: 'Popraw odznakę'
+    uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
+    update_badge: 'Edytuj odznakę'
     user_has_badge: 'Ten użytkownik już ma tę odznakę.'
     user_no_badges: 'Ten użytkownik nie ma jeszcze żadnych odznak.'
