@@ -242,4 +242,4 @@ Paczka bazuje na [rozszerzeniu stworzonym przez bepropl](https://github.com/bepr
 
 Tłumaczenie dla `day.js` pochodzi bezpośrednio ze [źródła](https://github.com/iamkun/dayjs/blob/v1.9.3/src/locale/pl.js).
 
-Tłumaczenie dla `validation.yml` bazuje na [paczce językowej dla Laravela](https://github.com/caouecs/Laravel-lang/blob/4.0.2/src/pl/validation.php).
+Tłumaczenie dla `validation.yml` bazuje na [paczce językowej dla Laravela](https://github.com/caouecs/Laravel-lang/blob/8.1.3/src/pl/validation.php).
