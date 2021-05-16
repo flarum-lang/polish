@@ -47,7 +47,7 @@ fof-upload:
         title: 'Ustawienia Imgura'
       local:
         cdn_url: 'URL usługi CDN (poprzedza ścieżki plików)'
-        title: 'Ustawienia lokalnego magazynu'
+        title: 'Ustawienia pamięci lokalnej'
       preferences:
         max_file_size: 'Maksymalna wielkość pliku (w kilobajtach)'
         mime_types: 'Skonfiguruj mapowanie typu MIME i adaptera przesyłania'
