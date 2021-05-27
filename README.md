@@ -6,7 +6,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/rob006/flarum-lang-polish)](https://packagist.org/packages/rob006/flarum-lang-polish/stats) 
 [![Monthly Downloads](https://img.shields.io/packagist/dm/rob006/flarum-lang-polish)](https://packagist.org/packages/rob006/flarum-lang-polish/stats) 
 
-Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `0.1.0-beta.14` lub nowszą) oraz niemal wszystkich popularnych rozszerzeń. Pełna lista obsługiwanych rozszerzeń dostępna jest poniżej.
+Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `1.0.0` lub nowszą) oraz niemal wszystkich popularnych rozszerzeń. Pełna lista obsługiwanych rozszerzeń dostępna jest poniżej.
 
 
 ## Instalacja
@@ -37,7 +37,7 @@ composer require rob006/flarum-lang-polish
 Jeśli lubisz życie na krawędzi, możesz korzystać z wersji niestabilnej (może zawierać niezweryfikowane frazy zaproponowane przez społeczność):
 
 ```console
-composer require "rob006/flarum-lang-polish:0.4.x-dev"
+composer require "rob006/flarum-lang-polish:0.5.x-dev"
 ```
 
 Po aktualizacji czyścimy cache:
