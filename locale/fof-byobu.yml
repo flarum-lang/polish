@@ -39,8 +39,6 @@ fof-byobu:
     composer_private_discussion:
       submit_button: 'Dodaj prywatną dyskusję'
       title_placeholder: 'Tytuł prywatnej dyskusji'
-    confirm:
-      make_public: 'To sprawi, że ta prywatna dyskusja będzie widoczna dla wszystkich. Upewnij się, że właśnie tego chcesz.'
     input:
       search_recipients: 'Wpisz 3 pierwsze znaki, aby wyszukać uczestników...'
     labels:
@@ -79,4 +77,3 @@ fof-byobu:
       dropdown_label: 'Prywatne dyskusje'
       settings:
         block_pd: 'Blokuj prywatne dyskusje'
-        unified_index: 'Wyświetl prywatne dyskusje na liście dyskusji na forum'

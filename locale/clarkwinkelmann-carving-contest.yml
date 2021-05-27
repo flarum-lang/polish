@@ -10,7 +10,6 @@ clarkwinkelmann-carving-contest:
       custom-help: 'Lista wartości #hex lub rgb(), rozdzielonych przecinkami'
       simple: 'Prosty zestaw kolorów'
     permissions:
-      heading: 'Zawody w rzeźbieniu'
       like: 'Polubienie prac'
       moderate: Moderacja
       participate: Uczestnictwo
@@ -18,7 +17,6 @@ clarkwinkelmann-carving-contest:
     settings:
       colorMode: 'Użyj trybu kolorowania zamiast trybu rzeźbienia'
       maxEntriesPerUser: 'Maksymalna liczba zgłoszeń na użytkownika'
-      title: 'Ustawienia zawodów w rzeźbieniu'
   forum:
     likes_modal:
       title: 'Użytkownicy, którzy polubili tę pracę'

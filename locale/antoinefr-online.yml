@@ -6,7 +6,6 @@ antoinefr-online:
   admin:
     settings:
       displaymax: 'Liczba wyświetlanych użytkowników'
-      title: Ustawienia
       titleoflist: 'Tytuł wyświetlany ponad listą'
   forum:
     andmore: 'i {more} więcej...'
