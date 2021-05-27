@@ -242,6 +242,6 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/rob006-sof
 
 Paczka bazuje na [rozszerzeniu stworzonym przez bepropl](https://github.com/bepropl/lang-polish). Tworzona z udziałem społeczności jako część [Kolektywu tłumaczeń Flarum](https://github.com/rob006-software/flarum-translations).
 
-Tłumaczenie dla `day.js` pochodzi bezpośrednio ze [źródła](https://github.com/iamkun/dayjs/blob/v1.10.4/src/locale/pl.js).
+Tłumaczenie dla Day.js pochodzi bezpośrednio ze [źródła](https://github.com/iamkun/dayjs/blob/v1.10.4/src/locale/pl.js).
 
 Tłumaczenie dla `validation.yml` bazuje na [paczce językowej dla Laravela](https://github.com/Laravel-Lang/lang/blob/8.1.3/src/pl/validation.php).

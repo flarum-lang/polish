@@ -7,7 +7,7 @@ CHANGELOG
 
 **Ogólne usprawnienia**:
 
-* Aktualizacja tłumaczeń dayjs.
+* Aktualizacja tłumaczeń Day.js.
 * Aktualizacja tłumaczeń głównego silnika Flarum.
 * Aktualizacja tłumaczeń komunikatów walidacji.
 
@@ -231,7 +231,7 @@ Wszystkie zmiany: [v0.4.0...v0.4.1](https://github.com/rob006-software/flarum-la
 
 **Ogólne usprawnienia**:
 
-* Aktualizacja tłumaczeń dayjs.
+* Aktualizacja tłumaczeń Day.js.
 * Usunięto przestarzałe frazy dla głównego silnika Flarum (wspierana jest wersja `0.1.0-beta.14` lub wyższa).
 
 
@@ -1786,8 +1786,8 @@ Nowa wersja całkowicie bazująca na [Kolektywie tłumaczeń Flarum](https://git
 **Usunięto wsparcie dla rozszerzeń**:
 
 * `flagrow/split` - zastąpione przez [`fof/split`](https://github.com/FriendsOfFlarum/split).
-* `reflar/polls` - zastapione przez [`fof/polls`](https://github.com/FriendsOfFlarum/polls).
-* `flagrow/bazar` - zastapione przez [`extiverse/bazaar`](https://github.com/extiverse/bazaar).
+* `reflar/polls` - zastąpione przez [`fof/polls`](https://github.com/FriendsOfFlarum/polls).
+* `flagrow/bazar` - zastąpione przez [`extiverse/bazaar`](https://github.com/extiverse/bazaar).
 
 Wszystkie zmiany: [v0.1.1...v0.2.0](https://github.com/rob006-software/flarum-lang-polish/compare/v0.1.1...v0.2.0).
 
@@ -1813,8 +1813,8 @@ Wszystkie zmiany: [v0.1.0...v0.1.1](https://github.com/rob006-software/flarum-la
 0.1.0 (2019-04-03)
 ------------------
 
-Pierwsze wydanie bazujące na paczce od [bepro/lang-polish](https://github.com/bepropl/lang-polish) z kilkoma usprawnieniami:
+Pierwsze wydanie bazujące na paczce [`bepro/lang-polish`](https://github.com/bepropl/lang-polish) z kilkoma usprawnieniami:
 
-* Poprawione tłumaczenia dla moment.js (odpowiada za wyświetlanie czasu).
+* Poprawiono tłumaczenia Moment.js (odpowiada za wyświetlanie czasu).
 * Poprawiono pluralizację w niektórych tłumaczeniach (prawidłowe uwzględnianie liczby pojedynczej i mnogiej).
 * Drobne usprawnia oraz poprawki literówek i gramatyki.
