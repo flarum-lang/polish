@@ -239,6 +239,12 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/rob006-sof
 <!-- various-extensions-list-stop -->
 
 
+## Status tłumaczeń dla rozszerzeń premium
+
+<!-- premium-extensions-list-start -->
+<!-- premium-extensions-list-stop -->
+
+
 ## Credits
 
 Paczka bazuje na [rozszerzeniu stworzonym przez bepropl](https://github.com/bepropl/lang-polish). Tworzona z udziałem społeczności jako część [Kolektywu tłumaczeń Flarum](https://github.com/rob006-software/flarum-translations).
