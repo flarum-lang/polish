@@ -242,6 +242,12 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/rob006-sof
 ## Status tłumaczeń dla rozszerzeń premium
 
 <!-- premium-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+| [Backup by Datitisev](https://extiverse.com/extension/datitisev/flarum-backup) | [![Translation status](https://weblate.rob006.net/widgets/flarum/pl/datitisev-backup/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-backup/pl/) |
+| [Maintenance Mode by Datitisev](https://extiverse.com/extension/datitisev/flarum-maintenance) | [![Translation status](https://weblate.rob006.net/widgets/flarum/pl/datitisev-maintenance/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-maintenance/pl/) |
+
 <!-- premium-extensions-list-stop -->
 
 
