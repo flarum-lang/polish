@@ -42,7 +42,7 @@ fof-byobu:
     input:
       search_recipients: 'Wpisz 3 pierwsze znaki, aby wyszukać uczestników...'
     labels:
-      recipients: '{count} uczestnik|{count} uczestników'
+      recipients: '{count, plural, one {{count} uczestnik} other {{count} uczestników}}'
       user_deleted: '-usunięty-'
     modal:
       help:
