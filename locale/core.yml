@@ -185,7 +185,7 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Wybierz obrazek...'
     users:
-      description: 'Stronicowana lista wszystkich użytkowników na twoim forum.'
+      description: 'Stronicowana lista wszystkich użytkowników na Twoim forum.'
       grid:
         columns:
           edit_user:

@@ -4,6 +4,23 @@
 
 v17development-flarum-badges:
   admin:
+    auto_moderator:
+      action_drivers:
+        badge_id: 'ID odznaki'
+        give_badge: 'Przyznaj odznakę'
+        remove_badge: 'Odbierz odznakę'
+      badge_selector:
+        loading_badges: 'Ładowanie odznak'
+        placeholder: 'Wybierz odznakę'
+      metric_drivers:
+        badges_received: 'Przyznano odznaki'
+      not_installed:
+        content: 'To rozszerzenie oferuje większą funkcjonalność jeśli rozszerzenie <a>Auto Moderator</a> jest włączone. Użytkownicy mogą być wtedy automatycznie nagradzani odznakami bez udziału moderatorów lub administracji!'
+        dismiss: 'Nie pokazuj ponownie'
+        install: Zainstaluj
+        title: 'Automatycznie nagradzaj użytkowników odznakami'
+      requirement_drivers:
+        has_badge: 'Posiada odznakę'
     badge:
       description: 'Opis odznaki'
       icon: 'Ikona odznaki'
@@ -40,7 +57,7 @@ v17development-flarum-badges:
       badges: Odznaki
       category: 'Kategoria odznaki'
       description: 'Opis odznaki'
-      earned_count: '<b>{count} użytkownik</b> uzyskał tę odznakę|<b>{count} użytkowników</b> uzyskało tę odznakę'
+      earned_count: '{count, plural, one {<b>{count} użytkownik</b> uzyskał} other {<b>{count} użytkowników</b> uzyskało}} tę odznakę'
       earned_on: 'Odznakę przyznano'
       earning_reason: 'Powód przyznania odznaki'
       name: 'Nazwa odznaki'
