@@ -2,6 +2,59 @@ CHANGELOG
 =========
 
 
+0.5.1 (2021-06-06)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist)
+* [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`malago/flarum-ads`](https://github.com/malago86/flarum-ads)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online)
+* [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
+* [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+* [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags)
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
+* [`flarum/markdown`](https://github.com/flarum/markdown)
+* [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`ianm/flarum-diff`](https://github.com/imorland/flarum-diff)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+
+
+Wszystkie zmiany: [v0.5.0...v0.5.1](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.0...v0.5.1).
+
+
 0.5.0 (2021-05-28)
 ------------------
 
