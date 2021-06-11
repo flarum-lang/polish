@@ -6,9 +6,9 @@ flarum-ext-welcomebox:
   admin:
     enablepostbox: 'Włącz baner powitalny dla gości'
   forum:
-    SettingsLink: Ustawienia
+    SettingsLink: '=> core.ref.settings'
     discussion: '=> core.ref.discussions'
-    goToProfile: Profil
+    goToProfile: '=> core.ref.profile_button'
     notregistered: 'Obecnie nie jesteś zarejestrowany na tym forum.'
     npost: '=> core.ref.posts'
     wback: 'Witaj ponownie,'
