@@ -84,7 +84,7 @@ v17development-flarum-blog:
       update_category: 'Edytuj kategorie'
     utils:
       redirect:
-        link: '<a>Kliknij tutaj</a> jeśli strona nie przekieruje Cię automatycznie'
+        link: '<a>Kliknij tutaj</a>, jeśli strona nie przekieruje Cię automatycznie'
         title: 'Przekierowuję Cię do wpisu na blogu...'
     validation:
       missing_id: 'Brakujące ID'

@@ -35,4 +35,4 @@ flarum-mentions:
       notify_post_mentioned_label: 'Ktoś odpowiedział na mój post'
       notify_user_mentioned_label: 'Ktoś wspomniał o mnie w poście'
     user:
-      mentions_link: Wspomniany
+      mentions_link: Wzmianki
