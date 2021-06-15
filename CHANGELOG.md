@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+0.5.2 (2021-06-15)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+Wszystkie zmiany: [v0.5.1...v0.5.2](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.1...v0.5.2).
+
+
 0.5.1 (2021-06-06)
 ------------------
 
