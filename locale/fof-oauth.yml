@@ -51,7 +51,7 @@ fof-oauth:
       with_linkedin_button: '=> fof-oauth.forum.log_in.with_button'
       with_twitter_button: '=> fof-oauth.forum.log_in.with_button'
     providers:
-      discord: Discord
+      discord: Discorda
       facebook: Facebooka
       github: GitHuba
       gitlab: GitLaba
