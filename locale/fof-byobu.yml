@@ -47,7 +47,12 @@ fof-byobu:
     modal:
       help:
         add_recipients: 'Ta dyskusja będzie widoczna tylko dla użytkowników, których tutaj wybierzesz. Wymagany jest przynajmniej jeden uczestnik (oprócz Ciebie).'
+        click_user_to_remove_tooltip: 'Kliknij, aby usunąć'
+        selected_users: 'Kliknij nazwę użytkownika, aby go usunąć.'
         update_recipients: 'Ta dyskusja będzie widoczna tylko dla użytkowników, których tutaj wybierzesz.'
+      labels:
+        search_field: 'Wyszukaj użytkownika'
+        selected_users: 'Wybrani użytkownicy'
       titles:
         add_recipients: 'Dodaj uczestników do swojej dyskusji'
         update_recipients: 'Uaktualnij uczestników dla {title}'

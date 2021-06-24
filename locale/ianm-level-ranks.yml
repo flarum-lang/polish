@@ -9,7 +9,7 @@ ianm-level-ranks:
       title: 'Ustawienia rang'
   forum:
     desc:
-      expText: EXP
+      expText: '{expTotal} EXP'
   lib:
     defaults:
       level: Ranga
