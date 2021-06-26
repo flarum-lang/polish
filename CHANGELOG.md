@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+0.5.3 (2021-06-26)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`ianm/level-ranks`](https://github.com/imorland/level-ranks)
+* [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+
+
+Wszystkie zmiany: [v0.5.2...v0.5.3](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.2...v0.5.3).
+
+
 0.5.2 (2021-06-15)
 ------------------
 
