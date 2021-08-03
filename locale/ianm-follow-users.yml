@@ -19,6 +19,10 @@ ianm-follow-users:
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'
+    modals:
+      select_follow_level:
+        cancel_btn: Anuluj
+        save_btn: Zapisz
     notifications:
       new_discussion_text: '{username} rozpoczął'
       new_follower_text: '{username} zaczął Cię obserwować'
