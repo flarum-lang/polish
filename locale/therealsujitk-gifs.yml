@@ -6,6 +6,11 @@ therealsujitk-gifs:
   admin:
     apiKey: 'Klucz API'
     engine: Wyszukiwarka
+    rating: 'Filtr treści'
+    ratingHigh: 'G / Wysoki'
+    ratingLow: 'PG-13 / Niski'
+    ratingMedium: 'PG / Średni'
+    ratingOff: 'R / Wyłączony'
   forum:
     addFavourite: 'Dodaj do Ulubionych'
     favourites: Ulubione
