@@ -8,7 +8,7 @@ fof-best-answer:
       best_answer: 'Wybieranie najlepszej odpowiedzi (własna dyskusja)'
       best_answer_not_own_discussion: 'Wybieranie najlepszej odpowiedzi (cudza dyskusja)'
     settings:
-      allow_select_own_post: 'Pozwól użytkownikowi wybrać swój własny post'
+      allow_select_own_post: 'Wybieranie własnego posta'
       label:
         advanced: Zaawansowane
         general: Ogólne
@@ -16,10 +16,12 @@ fof-best-answer:
         reminders_notice: 'Aby przypomnienia działały, harmonogram zadań Flarum musi być prawidłowo skonfigurowany.'
       remind_tag_ids: 'Aby wysyłać przypomnienia tylko dla dyskusji w konkretnych tagach, wpisz tutaj ich ID (ID tagów rozdzielone przecinkami)'
       schedule_log_output: 'Zapisz logi harmonogramu zadań'
-      schedule_on_one_server: 'Użyj dyrektywy "onOneServer()" dla harmonogramu zadań (task scheduler) (wymaga Redis/Memcache)'
-      schedule_stop_overnight: 'Wyłącz przypomnienia w godzinach nocnych (21.00 - 8.00 według czasu serwera)'
-      select_best_answer_reminder_days: 'Przypomnij użytkownikowi o wybraniu najlepszej odpowiedzi po X dniach'
-      use_alt_ui: 'Użyj alternatywnego układu (przycisk najlepszej odpowiedzi w stopce posta)'
+      schedule_on_one_server: 'Użyj dyrektywy "onOneServer()" dla harmonogramu zadań (task scheduler)'
+      schedule_on_one_server_help: 'Wymaga Redis/Memcache'
+      schedule_stop_overnight: 'Wyłącz przypomnienia w godzinach nocnych'
+      schedule_stop_overnight_help: '21.00 - 8.00 według czasu serwera'
+      select_best_answer_reminder_days: 'Częstotliwość przypominania'
+      use_alt_ui: 'Alternatywny układ'
   email:
     body:
       awarded: "Witaj {recipient_display_name},\n\nŚwietna robota, {actor_display_name} właśnie wybrał Twój post jako najlepsza odpowiedź w \"{discussion_title}\". Dzięki za pomoc!\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n"
