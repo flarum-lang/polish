@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+0.5.8 (2021-08-24)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+Wszystkie zmiany: [v0.5.7...v0.5.8](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.7...v0.5.8).
+
+
 0.5.7 (2021-08-14)
 ------------------
 
