@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+0.5.9 (2021-09-05)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+
+
+Wszystkie zmiany: [v0.5.8...v0.5.9](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.8...v0.5.9).
+
+
 0.5.8 (2021-08-24)
 ------------------
 
