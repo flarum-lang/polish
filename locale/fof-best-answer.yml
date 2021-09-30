@@ -30,6 +30,8 @@ fof-best-answer:
       schedule_stop_overnight_help: '21.00 - 8.00 według czasu serwera'
       select_best_answer_reminder_days: 'Częstotliwość przypominania'
       select_best_answer_reminder_days_help: 'Po podanej liczbie dni wyślij przypomnienie do autora dyskusji, aby wybrał najlepszą odpowiedź. Ustaw 0, aby wyłączyć przypomnienia.'
+      show_filter_help: 'Dla tagów obsługujących najlepsze odpowiedzi wyświetl filtr pozwalający odfiltrować rozwiązane/nierozwiązane dyskusje na liście'
+      show_filter_label: 'Wyświetl filtr dyskusji z/bez najlepszą odpowiedzią'
       use_alt_ui: 'Alternatywny układ'
       use_alt_ui_help: 'Wyświetl opcje do ustawiania najlepszej odpowiedzi w stopce posta'
   email:
