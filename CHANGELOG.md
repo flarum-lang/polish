@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+0.5.10 (2021-10-14)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+* Aktualizacja tłumaczeń komunikatów walidacji.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/markdown`](https://github.com/flarum/markdown)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+Wszystkie zmiany: [v0.5.9...v0.5.10](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.9...v0.5.10).
+
+
 0.5.9 (2021-09-05)
 ------------------
 
