@@ -60,7 +60,7 @@ fof-oauth:
       linkedin: '=> fof-oauth.lib.providers.linkedin'
       twitter: Twittera
     signup:
-      username_help: 'Wybierze nazwę użytkownika wykorzystywaną na forum'
+      username_help: 'Wybierz nazwę użytkownika wykorzystywaną na forum'
   lib:
     providers:
       discord: Discord
