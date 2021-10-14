@@ -428,6 +428,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Grupy
+      nothing_available: 'Nie jesteś upoważniony, aby edytować tego użytkownika.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Ustaw nowe hasło'
@@ -440,7 +441,7 @@ core:
       generic_message: 'Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.'
       missing_dependencies_message: 'Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}'
       not_found_message: 'Żądany zasób nie został znaleziony.'
-      payload_too_large_message: 'Ładunek żądania był zbyt duży.'
+      payload_too_large_message: 'Żądanie jest za długie.'
       permission_denied_message: 'Nie masz uprawnień, aby to zrobić.'
       rate_limit_exceeded_message: 'Nie bądź taki hop do przodu! Spróbuj ponownie za kilka sekund.'
     loading_indicator:
@@ -504,6 +505,7 @@ core:
   views:
     admin:
       extensions:
+        caption: '=> core.ref.extensions'
         disable: Wyłącz
         empty: 'Brak zainstalowanych rozszerzeń'
         enable: Włącz
@@ -514,7 +516,9 @@ core:
         caption: 'Informacje o aplikacji'
       title: Administracja
     confirm_email:
+      submit_button: '=> core.ref.confirm_email'
       text: 'Kliknij poniższy przycisk, aby potwierdzić adres e-mail swojego konta.'
+      title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Ta strona najlepiej działa w nowoczesnych przeglądarkach z włączonym JavaScriptem.'
       load_error_message: 'Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć przeglądarki (cache) i spróbuj ponownie.'
