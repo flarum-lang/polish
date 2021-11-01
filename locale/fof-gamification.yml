@@ -6,9 +6,12 @@ core:
   forum:
     index_sort:
       hot_button: Popularne
+      votes_button: Lubiane
 fof-gamification:
   admin:
     page:
+      alt_votes:
+        icon_name: 'Alternatywne ikonki głosowania'
       convert:
         button: 'Konwertuj polubienia na głosy pozytywne'
         converted: 'Pomyślnie przekonwertowano wszystkie {number} polubień'
@@ -35,7 +38,8 @@ fof-gamification:
         title: Rangi
       save_settings: 'Zapisz ustawienia'
       votes:
-        alternate_layout: 'Użyj alternatywnego układu do wyświetlania oraz dodawania głosów'
+        alternate_layout: 'Użyj alternatywnego układu do głosowania na liście dyskusji'
+        alternate_post_layout: 'Użyj alternatywnego układu do głosowania na post'
         auto_upvote: 'Automatycznie oceń pozytywnie posty po ich opublikowaniu'
         color_holder: '#ffffff'
         discussion_page: 'Wyświetl sumę głosów pierwszego posta na liście dyskusji'
@@ -45,6 +49,7 @@ fof-gamification:
         points_title: 'Placeholder dla punktów'
         rate_limit: 'Wymuś ograniczenie szybkości głosowania (10 sekund)'
         title: Głosy
+        upvotes_only: 'Pozwól jedynie na głosy pozytywne'
         vote_color: 'Kolor po zagłosowaniu'
     permissions:
       see_ranking_page: 'Przeglądanie rankingu'
