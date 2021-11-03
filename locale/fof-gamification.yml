@@ -53,7 +53,8 @@ fof-gamification:
         vote_color: 'Kolor po zagłosowaniu'
     permissions:
       see_ranking_page: 'Przeglądanie rankingu'
-      see_votes_label: 'Przeglądanie głosów na posty'
+      see_voters_label: 'Przeglądanie kto zagłosował'
+      see_votes_label: 'Przeglądanie licznika głosów'
       vote_label: 'Oddawanie głosów na posty'
   forum:
     mod_item: 'Zobacz głosujących'
