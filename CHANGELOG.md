@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+0.5.11 (2021-11-04)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
+
+
+Wszystkie zmiany: [v0.5.10...v0.5.11](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.10...v0.5.11).
+
+
 0.5.10 (2021-10-14)
 -------------------
 
