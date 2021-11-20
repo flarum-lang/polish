@@ -110,6 +110,8 @@ core:
       no_settings: 'To rozszerzenie nie posiada żadnych ustawień.'
       open_modal: 'Otwórz ustawienia'
       permissions_title: Uprawnienia
+      readme:
+        title: 'Dokumentacja {extName}'
       uninstall_button: Odinstaluj
     header:
       get_help: 'Uzyskaj pomoc'
@@ -281,6 +283,7 @@ core:
       mark_as_read_tooltip: 'Oznacz jako przeczytane'
       replied_text: '{username} odpowiedział {ago}'
       started_text: '{username} rozpoczął {ago}'
+      total_replies_a11y_label: '{count, plural, one {# odpowiedź} other {# odpowiedzi}}'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
@@ -409,6 +412,8 @@ core:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Wyślij ponownie e-mail aktywacyjny'
       sent_message: Wysłano
+    welcome_hero:
+      hide: 'Ukryj baner powitalny'
   group:
     admin: Administrator
     admins: Administratorzy
