@@ -12,6 +12,7 @@ fof-discussion-language:
       native_label: 'Używaj lokalnych nazw języków'
       show_any_lang_opt_label: 'Pozwól na wybranie opcji "Dowolny język"'
       show_flag_label: 'Wyświetl flagę kraju obok nazwy języka'
+      tags_page_discussion_locale_label: 'Wyświetl jedynie dyskusje pasujące do języka użytkownika na podstronie tagów'
   api:
     discussion:
       validation_error: 'Musisz wybrać język dyskusji.'
