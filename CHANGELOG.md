@@ -2,6 +2,39 @@ CHANGELOG
 =========
 
 
+0.5.12 (2021-11-21)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+* Aktualizacja tłumaczeń komunikatów walidacji.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
+* [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+
+
+Wszystkie zmiany: [v0.5.11...v0.5.12](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.11...v0.5.12).
+
+
 0.5.11 (2021-11-04)
 -------------------
 
