@@ -64,6 +64,7 @@ fof-webhooks:
             registered: Rejestracja
             renamed: 'Zmieniono nazwę'
             title: Użytkownicy
+      debug_label: Debug
       help:
         disabled: 'Ten webhook jest wyłączony, ponieważ nie ma żadnych aktywnych zdarzeń.'
         general: 'Tutaj możesz dodać, edytować oraz usuwać webhooki dla swojego forum.'
