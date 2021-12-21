@@ -6,6 +6,7 @@ acpl-lscache:
   admin:
     cache_exclude_help: 'Ścieżki zawierające te ciągi nie będą zapisywane. Na przykład, dla <code>/mypath/mypage?aa=bb</code>, <code>mypage?aa=</code> może zostać użyte tutaj. Aby dopasować początek, dodaj <code>^</code> na początku elementu. Aby wykonać dopasowanie typu exact match, dodaj symbol <code>$</code> na końcu adresu URL. Jeden na linię.'
     cache_exclude_label: 'Nie zapisuj w pamięci podręcznej ścieżek'
+    clearing_cache_listener_label: 'Opróżnij LSCache gdy cache Flarum jest czyszczone'
     public_cache_ttl_help: 'Określ jak długo, w sekundach, publiczne strony będą przechowywane w pamięci podręcznej. Wartość domyślna to 300 sekund.'
     public_cache_ttl_label: 'Domyślny TTL publicznego cache'
     purge_all: 'Opróżnij całe LSCache'
