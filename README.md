@@ -226,6 +226,7 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/rob006-sof
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/pl/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/pl/) |
 | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/pl/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/pl/) |
 | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/pl/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/pl/) |
+| [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) | [![Translation status](https://weblate.rob006.net/widgets/flarum/pl/xelson-chat/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/xelson-chat/pl/) |
 
 <!-- various-extensions-list-stop -->
 
