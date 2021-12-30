@@ -429,6 +429,8 @@ core:
     mod: Moderator
     mods: Moderatorzy
   lib:
+    alert:
+      dismiss_a11y_label: 'Ukryj alert'
     badge:
       hidden_tooltip: Ukryte
     debug_button: Debug
@@ -458,6 +460,9 @@ core:
       render_failed_message: 'Wystąpił błąd podczas wyświetlania tej treści. Jeśli jesteś użytkownikiem, spróbuj ponownie później. Jeśli jesteś administratorem, sprawdź logi Flarum, aby uzyskać więcej informacji.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Strona # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Strona # - {forumName}}}'
     modal:
       close: Zamknij
     nav:
