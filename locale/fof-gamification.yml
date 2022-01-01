@@ -43,6 +43,7 @@ fof-gamification:
         auto_upvote: 'Automatycznie oceń pozytywnie posty po ich opublikowaniu'
         color_holder: '#ffffff'
         discussion_page: 'Wyświetl sumę głosów pierwszego posta na liście dyskusji'
+        first_post_only: 'Pozwól głosować jedynie na pierwszy post w dyskusji'
         icon_help: 'Wprowadź dowolną ikonę Font Awesome, która ma końcówkę -up lub -down. Przykłady: arrow, thumbs, chevron'
         icon_name: 'Ikonki głosowania'
         points_placeholder: 'Punkty: '
@@ -56,6 +57,11 @@ fof-gamification:
       see_voters_label: 'Przeglądanie kto zagłosował'
       see_votes_label: 'Przeglądanie licznika głosów'
       vote_label: 'Oddawanie głosów na posty'
+  email:
+    body:
+      postVoted: "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie zagłosował na Twój post w {discussion_title}.\n\nKliknij poniższy link, aby przejść do dyskusji:\n{discussion_url}\n"
+    subject:
+      postVoted: '{display_name} zagłosował na Twój post'
   forum:
     mod_item: 'Zobacz głosujących'
     modal:
@@ -65,7 +71,12 @@ fof-gamification:
       name: Rankingi
     notification:
       downvote: '{username} negatywnie ocenił Twój post'
+      prefrences:
+        vote: 'Ktoś zagłosował na mój post'
       upvote: '{username} pozytywnie ocenił Twój post'
+    post:
+      downvote_button: 'Oceń negatywnie'
+      upvote_button: 'Oceń pozytywnie'
     ranking:
       amount: Punkty
       name: Użytkownik
@@ -74,4 +85,8 @@ fof-gamification:
       points: 'Punkty: {points}'
       rank: '{rank}'
     vote_title: 'Pokaż kto zagłosował'
+    voters:
+      label: Głosujący
+      label_none: 'Brak głosujących'
+      none: 'Jeszcze nikt nie zagłosował'
     votes: Głosy
