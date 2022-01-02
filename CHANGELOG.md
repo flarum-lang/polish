@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+0.5.13 (2022-01-02)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`afrux/news-widget`](https://github.com/afrux/news-widget)
+* [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+
+
+Wszystkie zmiany: [v0.5.12...v0.5.13](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.12...v0.5.13).
+
+
 0.5.12 (2021-11-21)
 -------------------
 
