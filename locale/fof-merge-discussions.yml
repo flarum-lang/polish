@@ -7,7 +7,7 @@ fof-merge-discussions:
     permissions:
       merge_discussions_label: 'Scalanie dyskusji'
     settings:
-      search_result_help: 'Ile dyskusji powinno być zwróconych podczas wyszukiwania w modalu `Scal dyskusje`. Domyślnie 4'
+      search_result_help: 'Ile dyskusji powinno być zwróconych podczas wyszukiwania w okienku "Scal dyskusje". Domyślnie 4.'
       search_result_label: 'Limit wyszukiwania dyskusji do scalenia'
   api:
     error:
@@ -31,7 +31,7 @@ fof-merge-discussions:
       type_target_help_text: 'Wybierz dyskusje do włączenia do <b>{title}</b>.'
       type_target_label: 'Włącz do mnie'
     notification:
-      discussion_merged: 'Twoja dyskusja <b>{oldTitle}</b> została włączona do tej dyskusji przez {username}.'
+      discussion_merged: 'Twoja dyskusja <b>{oldTitle}</b> została scalona z tą dyskusją przez {username}.'
       preferences:
         discussion_merged: 'Ktoś scalił moją dyskusję z inną'
     post:
