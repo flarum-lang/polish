@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+0.5.15 (2022-01-20)
+-------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+Wszystkie zmiany: [v0.5.14...v0.5.15](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.14...v0.5.15).
+
+
 0.5.14 (2022-01-08)
 -------------------
 
