@@ -4,6 +4,6 @@
 
 littlecxm-reply-to-see:
   forum:
-    button_tooltip: 'Dodaj ukrytą treść'
+    button_tooltip: 'Dodaj ukrytą zawartość'
     hidden_content: 'Ukryta zawartość'
     reply_to_see: 'Musisz <a class="reply2see_reply">odpowiedzieć</a>, a następnie odświeżyć stronę, aby zobaczyć tę zawartość'
