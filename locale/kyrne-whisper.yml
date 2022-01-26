@@ -10,7 +10,33 @@ kyrne-whisper:
       set_own_password: 'Pozwól użytkownikom dodać własne hasło - Kompatybilność SSO'
       title: Ustawienia
   forum:
+    chat:
+      cant_send: 'Nie możesz wysłać nowej wiadomości zanim {username} odpowie.'
+      cant_send_toomany: 'Zaczekaj na odpowiedź zanim wyślesz nową wiadomość.'
+      cant_start: 'Nie można rozpocząć rozmowy'
+      chat_with: 'Rozmowa z {username}'
+      messages_multiple: '{count} wiadomości'
+      messages_single: 'Nowa wiadomośćprywatna'
+      read: Przeczytane
+      send: 'Wyślij wiadomość'
+      start: 'Rozpocznij rozmowę'
+      start_of_conversation: 'Początek rozmowy'
+      text_placeholder: 'Wpisz swoją wiadomość'
     dropdown:
       tooltip: Wiadomości
+    modal:
+      already: 'Już rozpocząłeś rozmowę z {username}.'
+      copied: 'Twoja wiadomość została przekopiowana do schowka.'
+      help: 'Wpisz nazwę użytkownika by rozpocząć rozmowę.'
+      help_start: 'Wpisz swoją wiadomość. To jedyna wiadomość, którą możesz wysłać zanim {username} odpowie. Kliknij na użytkownika by wybrać innego odbiorcę.'
+      more_users: 'Jeśli na liście nie ma użytkownika, którego szukasz, prawdopodobnie nie ma on/ona włączonych wiadomości prywatnych.'
+      search_recipients: 'Wpisz nazwę użytkownika...'
+      submit: 'Rozpocznij rozmowę'
+      title: 'Wyślij wiadomość prywatną'
     setup:
-      header_setup: 'Wpisz swój login i hasło, żeby włączyć wiadomości prywatne.'
+      button_import: Import
+      confirm_password: 'Potwierdź hasło'
+      header_import: 'Wpisz swoje hasło, żeby zaimportować wiadomości prywatne.'
+      header_setup: 'Wpisz swoje hasło, żeby włączyć wiadomości prywatne.'
+      invalid_password: 'Niepoprawne hasło.'
+      passwords_mismatch: 'Wpisane hasła różnią się od siebie.'
