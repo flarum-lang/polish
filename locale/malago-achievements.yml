@@ -10,6 +10,7 @@ malago-achievements:
       add_delete_title: 'Przyznaj lub odbierz osiągnięcie użytkownikowi'
       col_label: Kolumna
       col_placeholder: '0'
+      computation_label: "Źródło danych, na podstawie którego będą przyznawane osiągnięcia\n"
       computation_placeholder: Liczba
       delete_button: 'Usuń osiągnięcie'
       delete_confirmation: 'Czy jesteś pewien, że chcesz usunąć to osiągnięcie?'
@@ -31,7 +32,16 @@ malago-achievements:
       username: 'Nazwa użytkownika'
       username_placeholder: 'Nazwa użytkownika'
       variable:
-        manual: Manualnie
+        avatar: 'Ustawiony awatar'
+        comments: 'Odpowiedzi otrzymane w dyskusji'
+        contains: 'Posty zawierające'
+        discussions: Dyskusje
+        edits: 'Edytowane posty'
+        likes: 'Rozdane polubienia'
+        manual: Ręcznie
+        posts: Posty
+        selflikes: 'Otrzymane polubienia'
+        years: 'Lata od rejestracji'
       variable_label: Źródło
       width_label: 'Szerokość obrazka'
       width_placeholder: '32'
