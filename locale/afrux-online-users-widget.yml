@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 afrux-online-users-widget:
+  admin:
+    settings:
+      max_users: 'Maksymalna liczba użytkowników do pokazania'
   forum:
     widget:
       empty: 'Żaden użytkownik nie jest online.'

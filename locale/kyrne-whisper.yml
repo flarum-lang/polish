@@ -12,16 +12,19 @@ kyrne-whisper:
       title: Ustawienia
   forum:
     chat:
-      cant_send: 'Nie możesz wysłać nowej wiadomości zanim {username} odpowie.'
-      cant_send_toomany: 'Zaczekaj na odpowiedź zanim wyślesz nową wiadomość.'
-      cant_start: 'Nie można rozpocząć rozmowy'
+      cant_send: 'Nie możesz wysłać wiadomości do czasu aż {username} odpowie (jedynie pierwsza wiadomość)'
+      cant_send_toomany: 'Musisz poczekać na odpowiedź od {username} zanim wyślesz kolejne wiadomości'
+      cant_start: 'Nie możesz rozpocząć konwersacji'
       chat_with: 'Rozmowa z {username}'
+      failed_message: 'Nie udało się odszyfrować wiadomości, próba odzyskiwania metodą #{method}'
+      failed_to_decrypt: '[Nie udało się odszyfrować]'
       messages_multiple: '{count} wiadomości'
-      messages_single: 'Nowa wiadomośćprywatna'
+      messages_single: 'Nowa konwersacja'
       read: Przeczytane
+      recovery_message: 'Wiadomość systemowa: Encryption sync lost and recovered'
       send: 'Wyślij wiadomość'
-      start: 'Rozpocznij rozmowę'
-      start_of_conversation: 'Początek rozmowy'
+      start: 'Rozpocznij konwersację'
+      start_of_conversation: 'Początek konwersacji'
       text_placeholder: 'Wpisz swoją wiadomość'
     dropdown:
       tooltip: Konwersacje
