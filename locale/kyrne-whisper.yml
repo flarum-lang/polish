@@ -5,9 +5,9 @@
 kyrne-whisper:
   admin:
     permissions:
-      start_label: 'Wyślij wiadomość prywatną'
+      start_label: 'Rozpoczynanie prywatnych konwersacji'
     settings:
-      set_own_password: 'Pozwól użytkownikom dodać własne hasło - Kompatybilność SSO'
+      set_own_password: 'Pozwól użytkownikom ustawić własne hasło, aby zapewnić kompatybilność SSO'
       title: Ustawienia
   forum:
     chat:
@@ -23,7 +23,7 @@ kyrne-whisper:
       start_of_conversation: 'Początek rozmowy'
       text_placeholder: 'Wpisz swoją wiadomość'
     dropdown:
-      tooltip: Wiadomości
+      tooltip: Konwersacje
     modal:
       already: 'Już rozpocząłeś rozmowę z {username}.'
       copied: 'Twoja wiadomość została przekopiowana do schowka.'
@@ -36,7 +36,7 @@ kyrne-whisper:
     setup:
       button_import: Import
       confirm_password: 'Potwierdź hasło'
-      header_import: 'Wpisz swoje hasło, żeby zaimportować wiadomości prywatne.'
-      header_setup: 'Wpisz swoje hasło, żeby włączyć wiadomości prywatne.'
+      header_import: 'Wpisz swoje hasło, żeby zaimportować prywatne wiadomości.'
+      header_setup: 'Wpisz swoje hasło, żeby włączyć prywatne wiadomości.'
       invalid_password: 'Niepoprawne hasło.'
       passwords_mismatch: 'Wpisane hasła różnią się od siebie.'
