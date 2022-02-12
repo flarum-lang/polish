@@ -25,7 +25,7 @@ malago-achievements:
       name_placeholder: 'Nazwa osiągnięcia'
       points_label: 'Punkty za to osiągnięcie'
       points_placeholder: "0\n"
-      row_label: Rząd
+      row_label: Wiersz
       row_placeholder: '0'
       submit_button: '=> core.ref.save_changes'
       title: 'Utwórz osiągniecie'
