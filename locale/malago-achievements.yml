@@ -37,7 +37,7 @@ malago-achievements:
         likes: 'Minimalna liczba rozdanych polubień (np. 10) lub zakres (np. 10,19)'
         posts: 'Minimalna liczba postów (np. 10) lub zakres (np. 10,19)'
         selflikes: 'Minimalna liczba otrzymanych polubień (np. 10) lub zakres (np. 10,19)'
-        tagposts: 'Slug tagu oraz minimalna liczba postów (np. off-topic,10) lub zakres (np. 1off-topic,0,19)'
+        tagposts: 'Slug tagu oraz minimalna liczba postów (np. off-topic,10) lub zakres (np. off-topic,10,19)'
         years: 'Minimalna liczba lat po rejestracji (np. 10) lub zakres (np. 10,19)'
       username: 'Nazwa użytkownika'
       username_placeholder: 'Nazwa użytkownika'
