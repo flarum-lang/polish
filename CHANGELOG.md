@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+0.5.17 (2022-02-14)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`blomstra/notification-deleter`](https://github.com/blomstra/flarum-ext-notification-deleter)
+* [`clarkwinkelmann/flarum-ext-post-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-post-bookmarks)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
+
+
+Wszystkie zmiany: [v0.5.16...v0.5.17](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.16...v0.5.17).
+
+
 0.5.16 (2022-02-12)
 -------------------
 
