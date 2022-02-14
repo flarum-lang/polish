@@ -35,6 +35,7 @@ malago-achievements:
         discussions: 'Minimalna liczba utworzonych dyskusji (np. 10) lub zakres (np. 10,19)'
         edits: 'Minimalna liczba edytowanych postów (np. 10) lub zakres (np. 10,19)'
         likes: 'Minimalna liczba rozdanych polubień (np. 10) lub zakres (np. 10,19)'
+        meanwords: 'Minimalna średnia liczba słów na post (np. 10) lub zakres (np. 10,19). Minimalna wartość to 10.'
         posts: 'Minimalna liczba postów (np. 10) lub zakres (np. 10,19)'
         selflikes: 'Minimalna liczba otrzymanych polubień (np. 10) lub zakres (np. 10,19)'
         tagposts: 'Slug tagu oraz minimalna liczba postów (np. off-topic,10) lub zakres (np. off-topic,10,19)'
