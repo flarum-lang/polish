@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.5.18 (2022-02-28)
+-------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+
+
+Wszystkie zmiany: [v0.5.17...v0.5.18](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.17...v0.5.18).
+
+
 0.5.17 (2022-02-14)
 -------------------
 
