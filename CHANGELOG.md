@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+0.5.19 (2022-03-08)
+-------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+
+
+Wszystkie zmiany: [v0.5.18...v0.5.19](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.18...v0.5.19).
+
+
 0.5.18 (2022-02-28)
 -------------------
 
