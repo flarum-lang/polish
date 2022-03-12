@@ -4,6 +4,9 @@
 
 antoinefr-money:
   admin:
+    automoderator:
+      action_name: 'Przyznaj pieniądze'
+      metric_name: Pieniądze
     permissions:
       edit_money_label: 'Edytuj pieniądze'
     settings:
