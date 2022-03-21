@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+0.5.20 (2022-03-21)
+-------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
+
+
+Wszystkie zmiany: [v0.5.19...v0.5.20](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.19...v0.5.20).
+
+
 0.5.19 (2022-03-08)
 -------------------
 
