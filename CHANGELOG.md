@@ -2,6 +2,44 @@ CHANGELOG
 =========
 
 
+0.5.21 (2022-05-11)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread)
+* [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+
+
+Wszystkie zmiany: [v0.5.20...v0.5.21](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.20...v0.5.21).
+
+
 0.5.20 (2022-03-21)
 -------------------
 
