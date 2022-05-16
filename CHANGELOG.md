@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+0.5.22 (2022-05-16)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/markdown`](https://github.com/flarum/markdown)
+
+
+Wszystkie zmiany: [v0.5.21...v0.5.22](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.21...v0.5.22).
+
+
 0.5.21 (2022-05-11)
 -------------------
 
