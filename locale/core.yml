@@ -451,6 +451,7 @@ core:
       username_label: '=> core.ref.username'
     error:
       dependent_extensions_message: 'Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}'
+      extension_initialiation_failed_message: 'Nie udało się zainicjować rozszerzenia {extension}. Aby uzyskać więcej informacji, sprawdź konsolę przeglądarki.'
       generic_message: 'Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.'
       missing_dependencies_message: 'Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}'
       not_found_message: 'Żądany zasób nie został znaleziony.'
