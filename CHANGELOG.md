@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+0.5.23 (2022-05-21)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter)
+* [`clarkwinkelmann/flarum-ext-follow-tags-prompt`](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt)
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received)
+* [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
+* [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+Wszystkie zmiany: [v0.5.22...v0.5.23](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.22...v0.5.23).
+
+
 0.5.22 (2022-05-16)
 -------------------
 
