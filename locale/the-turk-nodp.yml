@@ -8,7 +8,7 @@ the-turk-nodp:
       double_posting_label: 'Dodawanie kilku postów pod rząd'
     settings:
       time_limit_label: 'Limit czasowy'
-      time_limit_text: 'Jeśli minęło mniej niż <b>xxx</b> minut od napisania ostatniego posta w dyskusji, autor ostatniego posta będzie zmuszony edytować swój post. Ustaw na <b>0</b>, aby wyłączyć limit.'
+      time_limit_text: 'Jeśli minęło mniej niż <b>xxx</b> minut od napisania ostatniego posta w dyskusji, autor ostatniego posta będzie zmuszony edytować swój poprzedni post. Ustaw na <b>0</b>, aby wyłączyć limit.'
   forum:
     composer_edit:
       double_posting_warning_description: 'Niedawno odpowiedziałeś w tej dyskusji. Edytuj swój ostatni post, zamiast dodawać nowy.'
