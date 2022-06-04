@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+0.5.24 (2022-06-04)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+Wszystkie zmiany: [v0.5.23...v0.5.24](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.23...v0.5.24).
+
+
 0.5.23 (2022-05-21)
 -------------------
 
