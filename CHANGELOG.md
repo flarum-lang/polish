@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+0.5.25 (2022-06-12)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+
+
+Wszystkie zmiany: [v0.5.24...v0.5.25](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.24...v0.5.25).
+
+
 0.5.24 (2022-06-04)
 -------------------
 
