@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+0.5.26 (2022-06-18)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
+* [`cadiducho/bbcode`](https://github.com/EdorasMinecraft/BBcode)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+
+
+Wszystkie zmiany: [v0.5.25...v0.5.26](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.25...v0.5.26).
+
+
 0.5.25 (2022-06-12)
 -------------------
 
