@@ -6,6 +6,7 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 'Zaawansowane ustawienia'
+      exclude_users: 'Wyklucz wszystkie profile użytkowników z mapy witryny'
       frequency:
         daily: Codziennie
         hourly: 'Co godzinę'
