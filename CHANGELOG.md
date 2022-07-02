@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+0.5.27 (2022-07-02)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+Wszystkie zmiany: [v0.5.26...v0.5.27](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.26...v0.5.27).
+
+
 0.5.26 (2022-06-18)
 -------------------
 
