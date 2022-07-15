@@ -29,6 +29,6 @@ nearata-twofactor:
       password_placeholder: Hasło
       scan_qr: 'Zeskanuj ten kod używając aplikacji umożliwiającej logowanie dwuetapowe.'
       submit_button:
-        disable: Wyłacz
+        disable: Wyłącz
         enable: Włącz
       title: 'Weryfikacja dwuetapowa'
