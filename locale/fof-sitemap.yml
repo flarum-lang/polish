@@ -29,4 +29,6 @@ fof-sitemap:
         cache_disk: 'Na dysku'
         multi_file: 'Wiele plików'
         runtime: 'W locie'
+      risky_performance_improvements: 'Włącz ryzykowne optymalizacje wydajności'
+      risky_performance_improvements_help: 'Ryzykowne optymalizacje sprawiają, że zadania cron wykonują się szybciej dla zbiorów danych zawierających miliony rekordów, ale mogą być niekompatybilne z niektórymi rozszerzeniami.'
       title: 'FoF Sitemap'
