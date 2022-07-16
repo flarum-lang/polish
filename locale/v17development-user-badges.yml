@@ -85,7 +85,7 @@ v17development-flarum-badges:
     badge_information: 'Informacje o odznace'
     badges_in_card:
       description: 'Możesz wybrać odznaki widoczne w twoim profilu. Jeśli nie wybierzesz żadnej odznaki, zostaną one wybrane automatycznie.'
-      hit_limit: 'Jest miejsce tylko na {limit, plural, one {<b>jedną odznakę</b> widoczną} few {<b># odznaki</b> widoczne} other {<b># odznak</b> widocznych}} w twoim profilu. Ukryj inne odznaki, aby zrobić miejsce na nowe.'
+      hit_limit: 'Jest miejsce tylko na {limit, plural, one {<b>jedną odznakę</b> widoczną} few {<b># odznaki</b> widoczne} other {<b># odznak</b> widocznych}} w twoim profilu. Ukryj niektóre odznaki, aby zrobić miejsce na nowe.'
       manage_badges: 'Zarządzaj odznakami'
       select_limit: 'Możesz wybrać {limit, plural, one {<b>jedną odznakę</b> widoczną} few {<b># odznaki</b> widoczne} other {<b># odznak</b> widocznych}} w twoim profilu.'
       title: 'Odznaki w profilu użytkownika'

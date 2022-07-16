@@ -27,7 +27,7 @@ nearata-twofactor:
       enter_code_manually: 'Wpisz kod ręcznie'
       passcode_placeholder: 'Kod uwierzytelnienia dwuskładnikowego'
       password_placeholder: Hasło
-      scan_qr: 'Zeskanuj ten kod QR używając aplikacji umożliwiające dwuskładnikowej uwierzytelnienie.'
+      scan_qr: 'Zeskanuj ten kod QR używając aplikacji umożliwiającej dwuskładnikowe uwierzytelnienie.'
       submit_button:
         disable: Wyłącz
         enable: Włącz
