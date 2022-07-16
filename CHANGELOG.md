@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+0.5.28 (2022-07-16)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+
+
+Wszystkie zmiany: [v0.5.27...v0.5.28](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.27...v0.5.28).
+
+
 0.5.27 (2022-07-02)
 -------------------
 
