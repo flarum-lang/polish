@@ -10,7 +10,12 @@ flarum-statistics:
       last_12_months_label: 'Ostatnie 12 miesięcy'
       last_28_days_label: 'Ostatnie 28 dni'
       last_7_days_label: 'Ostatnie 7 dni'
+      loading: '=> core.ref.loading'
+      mini_heading: 'Statystyki forum'
       posts_heading: '=> core.ref.posts'
+      previous_28_days_label: 'Poprzednie 28 dni'
+      previous_7_days_label: 'Poprzednie 7 dni'
       today_label: Dzisiaj
       total_label: Razem
       users_heading: '=> core.ref.users'
+      view_full: 'Zobacz więcej statystyk'
