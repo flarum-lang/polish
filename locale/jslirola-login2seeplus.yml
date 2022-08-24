@@ -16,3 +16,4 @@ jslirola-login2seeplus:
     image: 'Zaloguj się, aby zobaczyć obrazek'
     link: 'Zaloguj się, aby zobaczyć link'
     post: '{login} lub {register}, aby zobaczyć pełną treść'
+    post_login: '{login}, aby zobaczyć pełną treść'

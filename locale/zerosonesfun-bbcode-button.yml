@@ -6,8 +6,8 @@ flarum-bbcode-button:
   admin:
     settings:
       codedesc: 'Wpisz otwarcie i zamknięcie tagu BBCode.'
-      codelabel: 'Tagi BBcode'
-      iconlabel: 'Ikona przycisku'
+      codelabel: '1. Tagi BBcode'
+      iconlabel: '1. Ikona przycisku'
   forum:
     composer:
       bbcode_tooltip: 'Wstaw BBCode'

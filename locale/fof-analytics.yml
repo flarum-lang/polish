@@ -19,7 +19,7 @@ fof-analytics:
         piwikTrackAccounts: 'Śledź konta użytkowników'
         piwikTrackSubdomain: 'Śledź odwiedzających na wszystkich subdomenach forum'
         piwikUrl: 'Domena lub URL Matomo'
-        statusGoogle: 'Włącz Google Analytics'
+        statusGoogle: 'Włącz Google Analytics (UA/GA4)'
         statusPiwik: 'Włącz Matomo'
       placeholder:
         piwikAuthToken: "Uzupełnij ten token, aby włączyć widget ze statystykami Matomo w panelu admina.\nMożesz go znaleźć w Ustawienia > Osobiste > Token autentykacji API.\n"

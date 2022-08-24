@@ -5,12 +5,19 @@
 the-turk-mathren:
   admin:
     settings:
+      alias_block_asciimath_delimiters_text: '<strong>Alternatywne</strong> separatory dla wyrażeń blokowych AsciiMath'
       alias_block_delimiters_text: '<strong>Alternatywne</strong> separatory dla wyrażeń blokowych'
+      alias_inline_asciimath_delimiters_text: '<strong>Alternatywne</strong> separatory dla wyrażeń liniowych AsciiMath'
       alias_inline_delimiters_text: '<strong>Alternatywne</strong> separatory dla wyrażeń liniowych'
       aliases_as_primary_label: 'Użyj alternatywnych separatorów jako podstawowych, jeśli to możliwe'
+      allow_asciimath_label: 'Pozwól korzystać ze składni AsciiMath'
       bbcode_delimiters_rule_text: 'Separatory BBCode muszą się składać jedynie z małych lub wielkich liter oraz myślników.'
       blockDelimiters: 'Tagi <strong>BBCode</strong> dla wyrażeń blokowych'
+      block_asciimath_delimiters_text: 'Separatory <strong>BBCode</strong> dla wyrażeń blokowych AsciiMath'
       block_delimiters_text: 'Separatory <strong>BBCode</strong> dla wyrażeń blokowych'
+      cdn_asciimath2tex_text: 'URL usługi CDN dla <strong>asciimath2tex</strong>'
+      cdn_katex_text: 'URL usługi CDN dla <strong>KaTeX</strong>'
+      cdn_options_heading: 'Opcje CDN'
       color_is_text_color_label: 'Pozwól komendzie <code>\color</code> przyjmować dwa argumenty (colorIsTextColor)'
       decisiveKeywords: 'Lista słów kluczowych do ignorowania wyrażeń'
       decisiveKeywordsHelp: 'Możesz dodać jedno ze słów kluczowych wewnątrz tagu BBCode (np. <code>[math=<strong>keyword</strong>]%e%[/math]</code>), aby zapobiec renderowaniu wyrażenia.'
@@ -39,6 +46,7 @@ the-turk-mathren:
       ignoringExpressions: 'Ignorowanie wyrażeń'
       ignoringExpressionsHelp: 'Rozdziel je przecinkami.'
       inlineDelimiters: 'Tagi <strong>BBCode</strong> dla wyrażeń liniowych'
+      inline_asciimath_delimiters_text: 'Separatory <strong>BBCode</strong> dla wyrażeń liniowych AsciiMath'
       inline_delimiters_text: 'Separatory <strong>BBCode</strong> dla wyrażeń liniowych'
       java_syntax_text: 'Musisz je zapisać, korzystając ze składni JavaScript.'
       katexOptionsHeading: 'Opcje KaTeX'
@@ -69,14 +77,19 @@ the-turk-mathren:
       sizeSettings: 'Ustawienia wielkości'
       sizeSettingsHelp: 'Użyj <strong>kropki</strong> jako separator dziesiętny.'
       sizing_options_heading: 'Ustawienia wielkości'
+      sri_asciimath2tex_text: 'Hash SRI usługi CDN dla <strong>asciimath2tex</strong>'
+      sri_katex_text: 'Hash SRI usługi CDN dla <strong>KaTeX</strong>'
       syntaxInfo: 'Musisz je zapisać, korzystając ze składni JavaScript.'
       throw_on_error_label: 'Wyrzuć błąd dla niewspieranych komend lub nieprawidłowej składni LaTeX'
       title: 'Ustawienia MathRen'
       validation: 'Walidacja pola "{field_key}" nie powiodła się.'
   forum:
     composer:
+      asciimath_only: 'Obsługuj tylko AsciiMath'
       block_expression: 'Wyrażenie blokowe'
+      block_expression_asciimath: 'Wyrażenie blokowe (AsciiMath)'
       inline_expression: 'Wyrażenie liniowe'
+      inline_expression_asciimath: 'Wyrażenie liniowe (AsciiMath)'
     textEditor:
       blockExpression: 'Wyrażenia blokowe'
       inlineExpression: 'Wyrażenia liniowe'
