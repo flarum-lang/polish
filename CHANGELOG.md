@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+0.5.29 (XXXX-XX-XX)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+
+
+Wszystkie zmiany: [v0.5.28...v0.5.29](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.28...v0.5.29).
+
+
 0.5.28 (2022-07-16)
 -------------------
 
