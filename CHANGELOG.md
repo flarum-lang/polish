@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+0.5.30 (2022-08-26)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-ipsum-autocomplete`](https://github.com/clarkwinkelmann/flarum-ext-ipsum-autocomplete)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+* [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
+
+
+Wszystkie zmiany: [v0.5.29...v0.5.30](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.29...v0.5.30).
+
+
 0.5.29 (2022-08-24)
 -------------------
 
