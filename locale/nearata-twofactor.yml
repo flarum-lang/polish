@@ -4,6 +4,8 @@
 
 nearata-twofactor:
   admin:
+    permissions:
+      can_enable_twofactor: 'Włączenie uwierzytelniania dwuskładnikowego'
     settings:
       generate_backups: 'Generuj kody zapasowe.'
   forum:
