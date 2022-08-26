@@ -10,6 +10,11 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-discussion-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-discussion-bookmarks)
 
 
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+
+
 Wszystkie zmiany: [v0.5.30...v0.5.31](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.30...v0.5.31).
 
 
