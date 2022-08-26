@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.5.31 (XXXX-XX-XX)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-discussion-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-discussion-bookmarks)
+
+
+Wszystkie zmiany: [v0.5.30...v0.5.31](https://github.com/rob006-software/flarum-lang-polish/compare/v0.5.30...v0.5.31).
+
+
 0.5.30 (2022-08-26)
 -------------------
 
