@@ -12,6 +12,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 
 
