@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-0.5.31 (XXXX-XX-XX)
+0.5.31 (2022-08-29)
 -------------------
 
 **Dodano wsparcie dla nowych rozszerzeń**:
