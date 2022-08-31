@@ -2,15 +2,15 @@ CHANGELOG
 =========
 
 
-0.5.32 (XXXX-XX-XX)
--------------------
+1.0.0 (XXXX-XX-XX)
+------------------
 
 **Ogólne usprawnienia**:
 
-* Aktualizacja tłumaczeń głównego silnika Flarum.
+* Usunięto przestarzałe frazy dla głównego silnika Flarum (wspierana jest wersja `1.3` lub wyższa).
 
 
-**Zaktualizowano tłumaczenia dla rozszerzeń**:
+**Zaktualizowano i/lub usunięto przestarzałe frazy dla rozszerzeń**:
 
 * [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
@@ -40,7 +40,36 @@ CHANGELOG
 * [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
 
 
-Wszystkie zmiany: [v0.5.31...v0.5.32](https://github.com/flarum-lang/polish/compare/v0.5.31...v0.5.32).
+**Usunięto wsparcie dla przestarzałych rozszerzeń**:
+
+* [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication)
+* [`andre-pullinen/ads`](https://github.com/andre-pullinen/ads)
+* [`askvortsov/flarum-auth-sync`](https://github.com/askvortsov1/flarum-auth-sync)
+* [`clarkwinkelmann/flarum-ext-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-bookmarks)
+* [`datitisev/flarum-ext-dashboard`](https://github.com/datitisev/flarum-ext-dashboard)
+* [`fof/transliterator`](https://github.com/FriendsOfFlarum/transliterator)
+* [`ianm/flarum-diff`](https://github.com/imorland/flarum-diff)
+* [`irony/flarum-ext-login2see`](https://github.com/892768447/flarum-ext-login2see)
+* [`kvothe/reply-to-see`](https://github.com/oaklinq/flarum-ext-reply2see)
+* [`kyrne/shout`](https://github.com/KyrneDev/Shout-public)
+* [`luuhai48/oauth-google`](https://github.com/luuhai48/oauth-google)
+* [`luuhai48/oauth-linkedin`](https://github.com/luuhai48/oauth-linkedin)
+* [`reflar/level-ranks`](https://github.com/ReFlar/level-ranks)
+* [`saleksin/flarum-auth-google`](https://github.com/saleksin/flarum-auth-google)
+* [`shriker/flarum-pronouns`](https://github.com/shriker/flarum-pronouns)
+* [`simonxeko/follow-users`](https://github.com/simonxeko/follow-users)
+* [`simonxeko/preview-discussion`](https://github.com/simonxeko/flarum-ext-preview-discussion)
+* [`squeevee/flarum-ext-fancybox`](https://github.com/squeevee/flarum-ext-fancybox)
+* [`tank/perspective`](https://github.com/flarum-tank/flarum-perspective)
+* [`the-turk/flarum-ext-fancybox`](https://github.com/the-turk/flarum-ext-fancybox)
+* [`the-turk/flarum-stargazing-theme`](https://github.com/the-turk/flarum-stargazing-theme)
+* [`therealsujitk/flarum-ext-hljs`](https://github.com/therealsujitk/flarum-ext-hljs)
+* [`therealsujitk/flarum-ext-show-password`](https://github.com/therealsujitk/flarum-ext-show-password)
+* [`tituspijean/flarum-ext-auth-ssowat`](https://github.com/tituspijean/flarum-ext-auth-ssowat)
+
+
+
+Wszystkie zmiany: [v0.5.31...v1.0.0](https://github.com/flarum-lang/polish/compare/v0.5.31...v1.0.0).
 
 
 0.5.31 (2022-08-29)
