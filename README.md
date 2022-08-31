@@ -1,12 +1,12 @@
 # Polska paczka językowa dla [Flarum](https://flarum.org/)
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/rob006/flarum-lang-polish?color=success&label=stable)](https://packagist.org/packages/rob006/flarum-lang-polish) 
-[![Latest Unstable Version](https://img.shields.io/badge/unstable-v0.5.x--dev-fe7d37)](https://packagist.org/packages/rob006/flarum-lang-polish) 
-[![License](https://img.shields.io/packagist/l/rob006/flarum-lang-polish)](https://packagist.org/packages/rob006/flarum-lang-polish) 
-[![Total Downloads](https://img.shields.io/packagist/dt/rob006/flarum-lang-polish)](https://packagist.org/packages/rob006/flarum-lang-polish/stats) 
-[![Monthly Downloads](https://img.shields.io/packagist/dm/rob006/flarum-lang-polish)](https://packagist.org/packages/rob006/flarum-lang-polish/stats) 
+[![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/polish?color=success&label=stable)](https://packagist.org/packages/flarum-lang/polish) 
+[![Latest Unstable Version](https://img.shields.io/badge/unstable-v1.x--dev-fe7d37)](https://packagist.org/packages/flarum-lang/polish) 
+[![License](https://img.shields.io/packagist/l/flarum-lang/polish)](https://packagist.org/packages/flarum-lang/polish) 
+[![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/polish)](https://packagist.org/packages/flarum-lang/polish/stats) 
+[![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/polish)](https://packagist.org/packages/flarum-lang/polish/stats) 
 
-Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `1.0.0` lub nowszą) oraz niemal wszystkich popularnych rozszerzeń. Pełna lista obsługiwanych rozszerzeń dostępna jest poniżej.
+Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `1.3.0` lub nowszą) oraz niemal wszystkich popularnych rozszerzeń. Pełna lista obsługiwanych rozszerzeń dostępna jest poniżej.
 
 
 ## Instalacja
@@ -14,7 +14,7 @@ Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `1.0.0` lub nowsz
 Rozszerzenie instalujemy za pomocą [Composera](https://getcomposer.org/):
 
 ```console
-composer require rob006/flarum-lang-polish
+composer require flarum-lang/polish
 ```
 
 Po czym w panelu admina włączamy rozszerzenie.
@@ -25,19 +25,19 @@ Po czym w panelu admina włączamy rozszerzenie.
 Aktualizacje instalujemy za pomocą [Composera](https://getcomposer.org/):
 
 ```console
-composer update rob006/flarum-lang-polish
+composer update flarum-lang/polish
 ```
 
-Lub aby wymusić najnowszą wersję (zalecane przy aktualizacji do nowej wersji Flarum — sprawdź wcześniej [changelog](https://github.com/rob006-software/flarum-lang-polish/blob/master/CHANGELOG.md), czy żadne z wykorzystywanych przez Ciebie rozszerzeń nie utraciło wsparcia):
+Lub aby wymusić najnowszą wersję (zalecane przy aktualizacji do nowej wersji Flarum — sprawdź wcześniej [changelog](https://github.com/flarum-lang/polish/blob/master/CHANGELOG.md), czy żadne z wykorzystywanych przez Ciebie rozszerzeń nie utraciło wsparcia):
 
 ```console
-composer require rob006/flarum-lang-polish
+composer require flarum-lang/polish
 ```
 
 Jeśli lubisz życie na krawędzi, możesz korzystać z wersji niestabilnej (może zawierać niezweryfikowane frazy zaproponowane przez społeczność):
 
 ```console
-composer require "rob006/flarum-lang-polish:0.5.x-dev"
+composer require "flarum-lang/polish:1.x-dev"
 ```
 
 Po aktualizacji czyścimy cache:
@@ -49,7 +49,7 @@ php flarum cache:clear
 
 ## Znalazłem błąd / Brakuje rozszerzenia X
 
-Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/rob006-software/flarum-lang-polish/issues) lub na [forum](https://discuss.flarum.org/d/18134-polish-language-pack/30). Propozycje tłumaczeń można zgłaszać bezpośrednio korzystając z [Weblate](https://weblate.rob006.net/) (wystarczy kliknąć status tłumaczenia na liście poniżej lub na [tej stronie](https://rob006-software.github.io/flarum-translations/status/pl.html), aby przejść do tłumaczenia danego rozszerzenia/komponentu).
+Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lang/polish/issues) lub na [forum](https://discuss.flarum.org/d/18134-polish-language-pack). Propozycje tłumaczeń można zgłaszać bezpośrednio korzystając z [Weblate](https://weblate.rob006.net/) (wystarczy kliknąć status tłumaczenia na liście poniżej lub na [tej stronie](https://rob006-software.github.io/flarum-translations/status/pl.html), aby przejść do tłumaczenia danego rozszerzenia/komponentu).
 
 > [Tłumaczenia można dostosowywać też na poziomie konkretnej instalacji forum](https://rob006.net/blog/jak-nadpisac-lub-dodac-brakujace-tlumaczenia-dla-flarum/). Stworzenie paczki językowej, która będzie odpowiadała każdemu, jest praktycznie niemożliwe. Zmiany specyficzne dla konkretnego forum lepiej ustawiać lokalnie — nie każda fraza jest na tyle uniwersalna, aby mogła znaleźć się w ogólnej paczce językowej.
 
