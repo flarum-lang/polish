@@ -5,7 +5,7 @@ CHANGELOG
 1.0.0 (2022-08-31)
 ------------------
 
-⚠️ Paczka zmieniła nazwę z `rob006/flarum-lang-polish` na `flarum-lang/polish`. Jesli korzystałeś wczesniej z `rob006/flarum-lang-polish`, musisz odinstalować starą paczkę i zainstalować nową:
+⚠️ Paczka zmieniła nazwę z `rob006/flarum-lang-polish` na `flarum-lang/polish`. Jesli korzystałeś wcześniej z `rob006/flarum-lang-polish`, musisz odinstalować starą paczkę i zainstalować nową:
 
 ```console
 composer remove rob006/flarum-lang-polish
