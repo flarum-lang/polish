@@ -2,6 +2,47 @@ CHANGELOG
 =========
 
 
+0.5.32 (XXXX-XX-XX)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
+* [`flarum/markdown`](https://github.com/flarum/markdown)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/level-ranks`](https://github.com/imorland/level-ranks)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+* [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+* [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
+* [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
+
+
+Wszystkie zmiany: [v0.5.31...v0.5.32](https://github.com/flarum-lang/polish/compare/v0.5.31...v0.5.32).
+
+
 0.5.31 (2022-08-29)
 -------------------
 
