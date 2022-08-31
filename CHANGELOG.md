@@ -68,7 +68,6 @@ CHANGELOG
 * [`tituspijean/flarum-ext-auth-ssowat`](https://github.com/tituspijean/flarum-ext-auth-ssowat)
 
 
-
 Wszystkie zmiany: [v0.5.31...v1.0.0](https://github.com/flarum-lang/polish/compare/v0.5.31...v1.0.0).
 
 
