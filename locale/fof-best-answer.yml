@@ -22,7 +22,6 @@ fof-best-answer:
         general: Ogólne
         reminders: Przypomnienia
         reminders_notice: 'Aby przypomnienia działały, harmonogram zadań Flarum musi być prawidłowo skonfigurowany.'
-      remind_tag_ids: 'Aby wysyłać przypomnienia tylko dla dyskusji w konkretnych tagach, wpisz tutaj ich ID (ID tagów rozdzielone przecinkami)'
       schedule_log_output: 'Zapisz logi harmonogramu zadań'
       schedule_on_one_server: 'Użyj dyrektywy "onOneServer()" dla harmonogramu zadań (task scheduler)'
       schedule_on_one_server_help: 'Wymaga Redis/Memcache'

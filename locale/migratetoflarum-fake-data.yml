@@ -3,34 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 migratetoflarum-fake-data:
-  admin:
-    generator:
-      bulk-mode: '=> migratetoflarum-fake-data.ref.bulk-mode'
-      bulk-mode-description: '=> migratetoflarum-fake-data.ref.bulk-mode-description'
-      date: '=> migratetoflarum-fake-data.ref.date'
-      date-interval-placeholder: '=> migratetoflarum-fake-data.ref.date-interval-placeholder'
-      date-start-placeholder: '=> migratetoflarum-fake-data.ref.date-start-placeholder'
-      discussion-count: 'Liczba dyskusji do utworzenia'
-      discussion-tags: 'Tagi dla nowych dyskusji'
-      discussion-tags-none: Brak
-      discussion-tags-random: Losowo
-      post-count: '=> migratetoflarum-fake-data.ref.post-count'
-      send: '=> migratetoflarum-fake-data.ref.send'
-      user-count: '=> migratetoflarum-fake-data.ref.user-count'
   api:
     no-discussions-matched: 'Nie znaleziono pasujących dyskusji'
     no-users-matched: 'Nie znaleziono pasujących użytkowników'
   forum:
     generator:
-      bulk-mode: '=> migratetoflarum-fake-data.ref.bulk-mode'
-      bulk-mode-description: '=> migratetoflarum-fake-data.ref.bulk-mode-description'
-      date: '=> migratetoflarum-fake-data.ref.date'
-      date-interval-placeholder: '=> migratetoflarum-fake-data.ref.date-interval-placeholder'
-      date-start-placeholder: '=> migratetoflarum-fake-data.ref.date-start-placeholder'
-      post-count: '=> migratetoflarum-fake-data.ref.post-count'
-      send: '=> migratetoflarum-fake-data.ref.send'
       title: 'Generuj odpowiedzi'
-      user-count: '=> migratetoflarum-fake-data.ref.user-count'
     link:
       generate-replies: 'Generuj odpowiedzi'
   lib:
@@ -49,12 +27,3 @@ migratetoflarum-fake-data:
       reset: 'Generowanie zakończone! Kliknij, aby zresetować'
       send: 'Wygeneruj dane'
       user-count: 'Liczba użytkowników do utworzenia'
-  ref:
-    bulk-mode: 'Tryb masowy'
-    bulk-mode-description: 'Generuje jedną losową wartość i używa jej dla wszystkich wygenerowanych rekordów'
-    date: 'Ustawienia daty'
-    date-interval-placeholder: 'Interwał (domyślnie 1 sekunda)'
-    date-start-placeholder: 'Data początkowa (domyślnie aktualna data)'
-    post-count: 'Liczba postów do utworzenia'
-    send: 'Wygeneruj dane'
-    user-count: 'Liczba użytkowników do utworzenia'

@@ -4,8 +4,6 @@
 
 fof-subscribed:
   admin:
-    menu:
-      description: 'Konfiguruj (domyślne) ustawienia subskrypcji'
     permission:
       subscribe_to_discussion_created: 'Otrzymywanie powiadomień o nowych dyskusjach'
       subscribe_to_post_created: 'Otrzymywanie powiadomień o nowych postach lub odpowiedziach'

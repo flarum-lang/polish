@@ -49,7 +49,6 @@ fof-byobu:
       search_recipients: 'Wpisz 3 pierwsze znaki, aby wyszukać uczestników...'
     labels:
       recipients: '{count, plural, one {{count} uczestnik} other {{count} uczestników}}'
-      user_deleted: '-usunięty-'
     modal:
       help:
         add_recipients: 'Ta dyskusja będzie widoczna tylko dla użytkowników, których tutaj wybierzesz. Wymagany jest przynajmniej jeden uczestnik (oprócz Ciebie).'

@@ -4,8 +4,6 @@
 
 fof-upload:
   admin:
-    buttons:
-      save: 'Zapisz ustawienia'
     help_texts:
       client_extension: "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n"
       composer_buttons: "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"

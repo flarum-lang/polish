@@ -5,11 +5,8 @@
 ianm-synopsis:
   admin:
     settings:
-      excerpt-label: 'Limit długości wyświetlanego fragmentu'
-      excerpt-type: 'Fragment którego posta powinien zostać wyświetlony?'
       first-label: 'Pierwszy post'
       last-label: 'Ostatni post'
-      rich-excerpts: 'Wyświetlaj fragmenty zachowując formatowanie (zachowaj ostrożność)'
   forum:
     user:
       settings:

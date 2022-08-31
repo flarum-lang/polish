@@ -31,7 +31,6 @@ clarkwinkelmann-catch-the-fish:
         probability: Prawdopodobieństwo
         tag: Tag
       time-to-place: 'Czas na umieszczenie ryby, zanim zostanie rozmieszczona losowo (minuty)'
-      title: 'Ustawienia łowienia ryb'
       user: Użytkownicy
       user-age: 'Jak długo użytkownik może być nieaktywny, aby móc umieścić na nim rybę (dni)'
       user-probability: 'Prawdopodobieństwo umieszczenia na profilu użytkownika (%)'

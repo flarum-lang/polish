@@ -20,7 +20,6 @@ fof-pretty-mail:
       attributes_label: 'Dostępne ustawienia'
       confirm: 'Czy jesteś pewien, że chcesz wrócić do podstawowego szablonu wiadomości e-mail dla'
       default: 'Domyślny szablon'
-      help: '"$body" zawiera rzeczywistą treść wiadomości e-mail, "$forumStyle" zawiera <strong>cały CSS forum</strong>, "$url" zawiera <code>UrlGenerator</code>, "$settings" zapewnia dostęp do <code>SettingsRepositoryInterface</code>, a "$link" zawiera link w wiadomości e-mail. Sprawdź istniejące szablony, aby zobaczyć jak wykorzystywać dostępne zmienne.'
       label: 'Szablony wiadomości e-mail'
       newPost: 'flarum/subscriptions - Nowy post'
       notificationHelp: 'Zaleca się stosowanie „$forumStyle” dla tych wiadomości e-mail, ponieważ mogą one zawierać BBCODE. Dostępna jest też zmienna „$user”, która zawiera cały model użytkownika, do którego wysyłana jest wiadomość e-mail.'

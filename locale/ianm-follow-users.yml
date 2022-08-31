@@ -54,9 +54,7 @@ ianm-follow-users:
       notify_new_unfollower_label: 'Ktoś przestał mnie obserwować'
     user_controls:
       follow_button: '=> ianm-follow-users.lib.follow'
-      follow_confirmation: 'Czy jesteś pewien, że chcesz obserwować tego użytkownika?'
       unfollow_button: '=> ianm-follow-users.lib.change_follow_type'
-      unfollow_confirmation: 'Czy jesteś pewien, że chcesz przestać obserwować tego użytkownika?'
   lib:
     change_follow_type: 'Ustawienia obserwowania'
     follow: Obserwuj

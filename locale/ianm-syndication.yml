@@ -15,11 +15,9 @@ ianm-syndication:
       full-text:
         help: 'Jeśli wyłączone, kanał będzie zawierał tylko fragmenty postów. Aby zobaczyć pełną treść posta, użytkownik musi odwiedzić forum. Rekomendowane jest pozostawienie tej opcji włączonej, aby ułatwić śledzenie forum za pomocą czytników RSS.'
         label: 'Udostępnij pełną treść'
-        recommendation: 'Rekomendowane jest pozostawienie tej opcji włączonej - pozwoli to śledzić forum za pomocą czytników RSS.'
       html:
         help: 'Zaznacz, aby wyświetlać HTML w treści kanałów. Jeśli wyłączone, kanały będą zawierały jedynie czysty tekst.'
         label: 'Formatowanie kanałów'
-      title: 'Ustawienia kanałów RSS'
   forum:
     autodiscovery:
       discussion_last_posts: 'Ta dyskusja'

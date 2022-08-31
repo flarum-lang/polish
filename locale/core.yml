@@ -96,7 +96,6 @@ core:
     extension:
       configure_scopes: 'Konfiguruj zakresy uprawnień'
       confirm_purge: 'Wszystkie wpisy w bazie oraz zasoby powiązane z tym rozszerzeniem zostaną usunięte. Samo rozszerzenie nie zostanie odinstalowane, to musi być dokonane za pomocą Composera. Czy chcesz kontynuować?'
-      confirm_uninstall: 'Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?'
       disabled: Wyłączone
       enable_to_see: 'Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.'
       enabled: Włączone
@@ -116,7 +115,6 @@ core:
         button_label: README
         no_readme: 'Wygląda na to, że to rozszerzenie nie posiada pliku README'
         title: 'Dokumentacja {extName}'
-      uninstall_button: Odinstaluj
     header:
       get_help: 'Uzyskaj pomoc'
       log_out_button: '=> core.ref.log_out'
@@ -284,7 +282,6 @@ core:
     discussion_list:
       empty_text: 'Wygląda na to, że nie ma tutaj żadnych dyskusji.'
       load_more_button: '=> core.ref.load_more'
-      mark_as_read_tooltip: 'Oznacz jako odczytane'
       replied_text: '{username} odpowiedział {ago}'
       started_text: '{username} rozpoczął {ago}'
       total_replies_a11y_label: '{count, plural, one {# odpowiedź} other {# odpowiedzi}}'

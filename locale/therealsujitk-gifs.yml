@@ -21,16 +21,3 @@ therealsujitk-gifs:
     searchTenor: 'Wyszukaj w Tenor'
     title: 'Wybierz GIF, który chcesz dodać do swojego posta'
     trending: 'Popularne GIFy'
-therealsujitk:
-  admin:
-    gifs:
-      giphyAPIkey: 'Giphy API Key'
-  forum:
-    gifs:
-      label: 'Wstaw GIF'
-      loading: Ładowanie...
-      loadmore: 'Wczytaj więcej'
-      noresults: 'Brak wyników'
-      search: Szukaj
-      searchbar: 'Wyszukaj GIFy'
-      title: 'Wybierz GIF'
