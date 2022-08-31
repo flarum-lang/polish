@@ -1,8 +1,8 @@
 {
-	"name": "rob006/flarum-lang-polish",
+	"name": "flarum-lang/polish",
 	"type": "flarum-extension",
 	"description": "Polish language pack for Flarum.",
-	"homepage": "https://github.com/rob006-software/flarum-lang-polish",
+	"homepage": "https://github.com/flarum-lang/polish",
 	"keywords": [
 		"locale",
 		"flarum",
@@ -17,17 +17,17 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/rob006-software/flarum-lang-polish/issues",
-		"source": "https://github.com/rob006-software/flarum-lang-polish"
+		"issues": "https://github.com/flarum-lang/polish/issues",
+		"source": "https://github.com/flarum-lang/polish"
 	},
 	"require": {
-		"flarum/core": "^1.0"
+		"flarum/core": "^1.3"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
 		"branch-alias": {
-			"dev-master": "0.5.x-dev"
+			"dev-master": "1.x-dev"
 		},
 		"flarum-extension": {
 			"title": "Polish",
