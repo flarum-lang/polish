@@ -48,7 +48,7 @@ php flarum cache:clear
 
 ## Migracja z `rob006/flarum-lang-polish`
 
-Przy wydaniu wersji `1.0.0` paczka zmieniała nazwę z `rob006/flarum-lang-polish` na `flarum-lang/polish`. Jesli korzystałeś wczesniej z `rob006/flarum-lang-polish`, musisz odinstalować starą paczkę i i zainstalować nową:
+Przy wydaniu wersji `1.0.0` paczka zmieniała nazwę z `rob006/flarum-lang-polish` na `flarum-lang/polish`. Jesli korzystałeś wczesniej z `rob006/flarum-lang-polish`, musisz odinstalować starą paczkę i zainstalować nową:
 
 ```console
 composer remove rob006/flarum-lang-polish
