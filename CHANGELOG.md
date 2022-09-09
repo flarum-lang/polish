@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.1 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+
+
+Wszystkie zmiany: [v1.0.0...v1.0.1](https://github.com/flarum-lang/polish/compare/v1.0.0...v1.0.1).
+
+
 1.0.0 (2022-08-31)
 ------------------
 
