@@ -6,6 +6,7 @@ fof-sentry:
   admin:
     settings:
       dsn_label: 'Sentry DSN'
+      environment_label: 'Sentry Environment'
       javascript_console_label: 'Przechwytuj konsolę JavaScriptu'
       javascript_label: 'Zgłaszaj błędy JavaScriptu'
       javascript_trace_sample_rate: 'Procent żądań monitorowanych pod kątem wydajności frontendu (0 - 100)'
