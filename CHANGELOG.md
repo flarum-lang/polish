@@ -12,6 +12,8 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 
 
