@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.0.1 (2022-09-13)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+
+
+Wszystkie zmiany: [v1.0.0...v1.0.1](https://github.com/flarum-lang/polish/compare/v1.0.0...v1.0.1).
+
+
 1.0.0 (2022-08-31)
 ------------------
 
