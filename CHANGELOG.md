@@ -5,6 +5,11 @@ CHANGELOG
 1.0.1 (XXXX-XX-XX)
 ------------------
 
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
