@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.0.2 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+
+
+Wszystkie zmiany: [v1.0.1...v1.0.2](https://github.com/flarum-lang/polish/compare/v1.0.1...v1.0.2).
+
+
 1.0.1 (2022-09-13)
 ------------------
 
