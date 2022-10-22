@@ -17,6 +17,15 @@ fof-gamification:
         converted: 'Pomyślnie przekonwertowano wszystkie {number} polubień'
         converting: 'Twoje polubienia są właśnie konwertowane. Odśwież stronę po kilku minutach, aby zobaczyć czy proces się zakończył (konwersja może potrwać chwilę w zależności od liczby polubień na Twoim forum).'
         help: 'Przekonwertuj istniejące polubienia z flarum-ext-likes na głosy pozytywne oraz przelicz popularność dla wszystkich istniejących dyskusji.'
+      groups:
+        add: 'Dodaj nową regułę'
+        column:
+          group: Grupa
+          maxPoints: 'Maksymalna liczba punktów (włącznie)'
+          minPoints: 'Minimalna liczba punktów (włącznie)'
+        delete: 'Usuń regułę'
+        help: "Wybrane grupy zostaną w razie potrzeby automatycznie dodane lub odebrane, jeśli zmieni się liczba punktów uzyskanych przez użytkownika. Jeśli zmienisz konfigurację, powinieneś uruchomić komendę <code>php flarum fof:gamification:assign-groups</code>, aby zaktualizować istniejących użytkowników. Jeśli chcesz usunąć regułę i odebrać grupę wszystkim użytkownikom, pozostaw pola na minimalną i maksymalną liczbę punktów jako puste, zapisz ustawienia i uruchom komendę do aktualizacji użytkowników. Po tej operacji możesz całkowicie usunąć regułę w ustawieniach.\n"
+        title: 'Automatyczne przypisywanie grup'
       rankings:
         blocked:
           help: 'Ci użytkownicy nie będą wyświetlani na stronie rankingu. Nazwy użytkowników powinny być oddzielone przecinkiem i spacją.'
