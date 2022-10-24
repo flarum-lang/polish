@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.3 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
+
+
+Wszystkie zmiany: [v1.0.2...v1.0.3](https://github.com/flarum-lang/polish/compare/v1.0.2...v1.0.3).
+
+
 1.0.2 (2022-10-23)
 ------------------
 
