@@ -29,7 +29,7 @@ fof-gamification:
       rankings:
         blocked:
           help: 'Ci użytkownicy nie będą wyświetlani na stronie rankingu. Nazwy użytkowników powinny być oddzielone przecinkiem i spacją.'
-          placeholder: 'CDK2020, Ralkage, AngelAvila'
+          placeholder: 'admin, user1, user2'
           title: 'Zignorowani użytkownicy'
         custom_image_1: 'Ikona pierwszego miejsca'
         custom_image_2: 'Ikona drugiego miejsca'
@@ -47,6 +47,7 @@ fof-gamification:
         title: Rangi
       save_settings: 'Zapisz ustawienia'
       votes:
+        allow_self_votes: 'Użytkownicy mogą głosować na swoje własne posty'
         alternate_layout: 'Użyj alternatywnego układu do głosowania na liście dyskusji'
         alternate_post_layout: 'Użyj alternatywnego układu do głosowania na post'
         auto_upvote: 'Automatycznie oceń pozytywnie posty po ich opublikowaniu'
