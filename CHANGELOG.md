@@ -8,6 +8,7 @@ CHANGELOG
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 
 
 Wszystkie zmiany: [v1.0.2...v1.0.3](https://github.com/flarum-lang/polish/compare/v1.0.2...v1.0.3).
