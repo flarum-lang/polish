@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.4 (2022-11-11)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
+Wszystkie zmiany: [v1.0.3...v1.0.4](https://github.com/flarum-lang/polish/compare/v1.0.3...v1.0.4).
+
+
 1.0.3 (2022-10-25)
 ------------------
 
