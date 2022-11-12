@@ -7,7 +7,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
-* [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
 Wszystkie zmiany: [v1.0.4...v1.0.5](https://github.com/flarum-lang/polish/compare/v1.0.4...v1.0.5).

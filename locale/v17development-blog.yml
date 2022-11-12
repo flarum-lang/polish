@@ -89,8 +89,8 @@ v17development-flarum-blog:
       pending_review: 'Ten wpis oczekuje na zatwierdzenie i nie został jeszcze opublikowany'
       pending_review_title: 'Oczekuje na zatwierdzenie'
     tools:
-      approve_article: 'Zaakceptuj wpis'
       article_settings: 'Ustawienia wpisu'
+      approve_article: 'Zaakceptuj wpis'
       delete_forever: 'Usuń nieodwracalnie'
       disable_comments: 'Wyłącz komentarze'
       edit_article: 'Edytuj wpis'
