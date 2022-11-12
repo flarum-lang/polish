@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.5 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget)
+
+
+Wszystkie zmiany: [v1.0.4...v1.0.5](https://github.com/flarum-lang/polish/compare/v1.0.4...v1.0.5).
+
+
 1.0.4 (2022-11-11)
 ------------------
 
