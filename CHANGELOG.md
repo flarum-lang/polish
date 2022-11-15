@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.0.5 (XXXX-XX-XX)
+1.0.5 (2022-11-15)
 ------------------
 
 **Ogólne usprawnienia**:
