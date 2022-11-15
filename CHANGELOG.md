@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.0.5 (2022-11-15)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+
+
+Wszystkie zmiany: [v1.0.4...v1.0.5](https://github.com/flarum-lang/polish/compare/v1.0.4...v1.0.5).
+
+
 1.0.4 (2022-11-11)
 ------------------
 
