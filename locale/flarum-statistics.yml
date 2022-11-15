@@ -17,6 +17,7 @@ flarum-statistics:
       custom_label: 'Zmień niestandardowy zakres…'
       custom_label_specified: 'Od {fromDate} do {toDate}'
       discussions_heading: '=> core.ref.discussions'
+      export_chart_button: 'Wyeksportuj wykres do SVG'
       last_12_months_label: 'Ostatnie 12 miesięcy'
       last_28_days_label: 'Ostatnie 28 dni'
       last_7_days_label: 'Ostatnie 7 dni'
