@@ -62,6 +62,17 @@ fof-oauth:
       twitter: Twittera
     signup:
       username_help: 'Wybierz nazwę użytkownika wykorzystywaną na forum'
+    unlink: 'Usuń powiązanie'
+    user:
+      settings:
+        linked-account:
+          help: 'Te powiązane konta pozwalają Ci zalogować się na forum za pomocą zewnętrznych usług.'
+          identifier-label: 'ID {provider}'
+          label: 'Powiązane konta'
+          last-used-label: 'Ostatnio używane'
+          link-created-label: 'Utworzono powiązanie'
+          orphaned-account: 'Zalogowałeś się za pomocą tej usługi w przeszłości, ale obecnie logowanie za pomocą tej metody zostało wyłączone.'
+          unlink-confirm: 'Czy jesteś pewien, że chcesz wyłączyć możliwość logowania na Twoje konto na forum za pomocą {provider}? Nie będziesz mógł korzystać z tej metody logowania do czasu, aż ponownie powiążesz konta ze sobą.'
   lib:
     providers:
       discord: Discord
