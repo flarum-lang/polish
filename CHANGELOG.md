@@ -7,6 +7,9 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
