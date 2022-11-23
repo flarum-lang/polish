@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+1.0.6 (2022-11-23)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Wszystkie zmiany: [v1.0.5...v1.0.6](https://github.com/flarum-lang/polish/compare/v1.0.5...v1.0.6).
+
+
 1.0.5 (2022-11-15)
 ------------------
 
