@@ -53,5 +53,5 @@ fof-masquerade:
         'no': Nie
         'yes': Tak
       select:
-        none-optional: 'Nie wybrano żadnej opcji (niewymagane)'
+        none-optional: 'Nie wybrano żadnej opcji (opcjonalne)'
         none-required: 'Wybierz którąś z opcji (wymagane)'

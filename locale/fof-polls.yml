@@ -21,7 +21,7 @@ fof-polls:
     modal:
       add_option_label: 'Dodaj opcję'
       add_title: 'Dodaj ankietę'
-      date_placeholder: 'Data zakończenia ankiety (niewymagane)'
+      date_placeholder: 'Data zakończenia ankiety (opcjonalne)'
       edit_title: 'Edytuj ankietę'
       image_option_placeholder: 'URL obrazka (opcjonalne)'
       include_question: 'Ankieta musi zawierać pytanie'
