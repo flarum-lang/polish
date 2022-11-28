@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.7 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+
+
+Wszystkie zmiany: [v1.0.6...v1.0.7](https://github.com/flarum-lang/polish/compare/v1.0.6...v1.0.7).
+
+
 1.0.6 (2022-11-23)
 ------------------
 
