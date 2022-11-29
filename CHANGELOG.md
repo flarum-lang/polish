@@ -7,6 +7,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 
 
