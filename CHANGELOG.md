@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.8 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+
+
+Wszystkie zmiany: [v1.0.7...v1.0.8](https://github.com/flarum-lang/polish/compare/v1.0.7...v1.0.8).
+
+
 1.0.7 (2022-11-30)
 ------------------
 
