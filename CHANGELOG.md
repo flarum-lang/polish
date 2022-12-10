@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.0.8 (2022-12-10)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+
+
+Wszystkie zmiany: [v1.0.7...v1.0.8](https://github.com/flarum-lang/polish/compare/v1.0.7...v1.0.8).
+
+
 1.0.7 (2022-11-30)
 ------------------
 
