@@ -6,10 +6,12 @@ fof-share-social:
   admin:
     settings:
       canonical-urls: 'Użyj kanonicznych adresów URL podczas udostępniania'
+      plain-copy: 'Wyświetl przycisk do skopiowania adresu URL'
   forum:
     discussion:
       share_button: Udostępnij
     modal:
+      copy_button: Skopiuj
       title: Udostępnij
   lib:
     networks:

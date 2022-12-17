@@ -14,6 +14,8 @@ fof-byobu:
       view_private_discussions-when-flagged: 'Przeglądanie prywatnych dyskusji innych użytkowników, jeśli ktoś je zgłosił'
     settings:
       badge-icon: 'Ikona w etykiecie dyskusji Byobu'
+      delete_on_last_recipient_left: 'Usuń prywatną dyskusję po tym, jak ostatni uczestnik ją opuści'
+      delete_on_last_recipient_left_help: 'Jeśli włączone, prywatne dyskusje zostaną nieodwracalnie usunięte, gdy ostatni uczestnik opuści dyskusję. W innym wypadku prywatne dyskusje zostaną ukryte (soft deleted).'
       enable-make-public-option: 'Włącz możliwość upublicznienia prywatnej dyskusji'
       enable-make-public-option-help: 'Dodaje możliwość, aby osoby z uprawnieniami mogły usunąć wszystkich uczestników, przypisać nowy tag i uczynić dyskusję publicznie widoczną (zgodnie z ustawieniami widoczności wybranego tagu).'
       post-event-icon: 'Ikona zdarzeń w dyskusjach Byobu'
