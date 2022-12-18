@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.0.9 (2022-12-18)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+
+
+Wszystkie zmiany: [v1.0.8...v1.0.9](https://github.com/flarum-lang/polish/compare/v1.0.8...v1.0.9).
+
+
 1.0.8 (2022-12-10)
 ------------------
 
