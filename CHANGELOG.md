@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.10 (2022-12-27)
+-------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+
+
+Wszystkie zmiany: [v1.0.9...v1.0.10](https://github.com/flarum-lang/polish/compare/v1.0.9...v1.0.10).
+
+
 1.0.9 (2022-12-18)
 ------------------
 
