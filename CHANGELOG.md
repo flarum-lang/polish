@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.11 (2023-02-07)
+-------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+
+
+Wszystkie zmiany: [v1.0.10...v1.0.11](https://github.com/flarum-lang/polish/compare/v1.0.10...v1.0.11).
+
+
 1.0.10 (2022-12-27)
 -------------------
 
