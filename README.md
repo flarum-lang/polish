@@ -280,6 +280,7 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lan
 
 | Rozszerzenie | Status |
 | --- | --- |
+| [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/blomstra-realtime/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-realtime/pl/) |
 | [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/datitisev-backup/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-backup/pl/) |
 | [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/datitisev-maintenance/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-maintenance/pl/) |
 | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/pl/) |
