@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Niestandardowy nagłówek'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: 'Niestandardowe style nie obsługują funkcji @import i data-uri.'
       custom_styles_heading: 'Niestandardowe style'
       custom_styles_text: 'Edytuj wygląd swojego forum poprzez dodawanie swojego własnego kodu Less/CSS, który będzie dodany nad domyślnymi stylami Flarum.'
       dark_mode_label: 'Ciemny motyw'
@@ -48,6 +49,11 @@ core:
       clear_cache_button: 'Wyczyść cache'
       description: 'Podstawowe informacje dotyczące forum.'
       io_error_message: 'Zapis do systemu plików się nie powiódł. Sprawdź uprawnienia systemu plików i spróbuj ponownie, lub spróbuj wykonać tę akcję z poziomu wiersza poleceń.'
+      status:
+        scheduler:
+          active: Aktywny
+          inactive: Nieaktywny
+          never-run: 'Nigdy nie uruchomiony'
       title: Kokpit
       tools_button: Narzędzia
     debug-warning:
@@ -153,6 +159,7 @@ core:
     permissions:
       allow_post_editing_label: 'Pozwól na edycję posta'
       allow_renaming_label: 'Pozwól na zmianę tytułu dyskusji'
+      create_access_token_label: 'Tworzenie tokenów dostępu'
       create_heading: 'Rozpoczynanie dyskusji'
       delete_discussions_forever_label: 'Nieodwracalne usuwanie dyskusji'
       delete_discussions_label: 'Usuwanie dyskusji'
@@ -164,6 +171,7 @@ core:
       edit_users_groups_label: 'Edytowanie grup użytkownika'
       edit_users_label: 'Edytowanie atrybutów użytkownika'
       global_heading: Globalne
+      moderate_access_tokens_label: 'Zarządzanie tokenami dostępu'
       moderate_heading: Moderacja
       new_group_button: 'Nowa grupa'
       participate_heading: Uczestnictwo
@@ -198,6 +206,8 @@ core:
       description: 'Stronicowana lista wszystkich użytkowników na Twoim forum.'
       grid:
         columns:
+          display_name:
+            title: 'Wyświetlana nazwa'
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
@@ -219,8 +229,12 @@ core:
         invalid_column_content: Nieprawidłowe
       pagination:
         back_button: 'Poprzednia strona'
+        first_button: 'Przejdź do pierwszej strony'
+        go_to_page_textbox_a11y_label: 'Przejdź do strony z numerem'
+        last_button: 'Przejdź do ostatniej strony'
         next_button: 'Następna strona'
         page_counter: 'Strona {current} z {total}'
+      search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
       total_users: 'Wszystkich użytkowników: {count}'
   api:
@@ -367,7 +381,7 @@ core:
       viewing_text: 'Post {index} z {formattedCount}'
     post_stream:
       discussion_renamed_old_tooltip: 'Poprzedni tytuł: "{old}"'
-      discussion_renamed_text: '{username} zmienił tytuł na {new}.'
+      discussion_renamed_text: '{username} zmienił tytuł na {new} {time}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} później'
@@ -378,6 +392,38 @@ core:
       all_discussions_button: 'Przeszukaj wszystkie dyskusje dla "{query}"'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{browser} na {os}'
+      cannot_terminate_current_session: 'Nie można zakończyć obecnie aktywnej sesji. Zamiast tego, wyloguj się.'
+      created: Utworzono
+      current_active_session: 'Obecnie aktywna sesja'
+      developer_tokens_heading: 'Tokeny developerskie'
+      empty_text: 'Wygląda na to, że nie ma tutaj nic do wyświetlenia.'
+      global_logout:
+        heading: 'Globalne wylogowanie'
+        help_text: 'Czyści obecne ciasteczko sesyjne, wylogowuje wszystkie sesje, unieważnia tokeny developerskie oraz unieważnia wszystkie wiadomości do potwierdzenia adresu e-mail lub resetu hasła.'
+        log_out_button: Wyloguj
+      hide_access_token: 'Ukryj token'
+      last_activity: 'Ostatnia aktywność'
+      never: Nigdy
+      new_access_token_button: '=> core.ref.new_token'
+      new_access_token_modal:
+        submit_button: 'Utwórz token'
+        title: '=> core.ref.new_token'
+        title_placeholder: Tytuł
+      revoke_access_token: Unieważnij
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      session_terminated: '{count, plural, one {Zakończono jedną sesję} few {Zakończono # sesje} other {Zakończono # sesji}}.'
+      session_termination_failed: 'Wystąpił błąd podczas kończenia Twoich sesji.'
+      sessions_heading: 'Aktywne sesje'
+      show_access_token: 'Pokaż token'
+      terminate_all_other_sessions: 'Zakończ wszystkie inne sesje'
+      terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
+      terminate_session: Zakończ
+      title: '=> core.ref.security'
+      token_item_title: '{title} - {token}'
+      token_revoked: 'Token został unieważniony.'
+      token_title_placeholder: '-'
     settings:
       account_heading: Konto
       change_email_button: '=> core.ref.change_email'
@@ -410,6 +456,7 @@ core:
       posts_empty_text: 'Wygląda na to, że nie ma tutaj żadnych postów.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
       settings_link: '=> core.ref.settings'
     user_controls:
       button: Opcje
@@ -439,6 +486,8 @@ core:
       dismiss_a11y_label: 'Ukryj alert'
     badge:
       hidden_tooltip: Ukryte
+    data_segment:
+      label: '{label}:'
     debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Przełącz menu rozwijane'
@@ -458,6 +507,7 @@ core:
     error:
       dependent_extensions_message: 'Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}'
       extension_initialiation_failed_message: 'Nie udało się zainicjować rozszerzenia {extension}. Aby uzyskać więcej informacji, sprawdź konsolę przeglądarki.'
+      generic_cross_origin_message: 'Ups! Coś poszło nie tak podczas obsługi żądania typu cross-origin. Odśwież stronę i spróbuj ponownie.'
       generic_message: 'Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.'
       missing_dependencies_message: 'Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}'
       not_found_message: 'Żądany zasób nie został znaleziony.'
@@ -502,6 +552,7 @@ core:
     edit_user: 'Edytuj użytkownika'
     email: E-mail
     extensions: Rozszerzenia
+    generic_confirmation_message: 'Czy jesteś pewien, że chcesz kontynuować? Ta operacje nie może zostać cofnięta.'
     icon: Ikona
     icon_text: 'Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.'
     load_more: 'Wczytaj więcej'
@@ -509,6 +560,7 @@ core:
     log_in: 'Zaloguj się'
     log_out: 'Wyloguj się'
     mark_all_as_read: 'Oznacz wszystko jako odczytane'
+    new_token: 'Nowy token'
     next_page: 'Następna strona'
     notifications: Powiadomienia
     okay: OK
@@ -521,6 +573,8 @@ core:
     reset_your_password: 'Zresetuj swoje hasło'
     restore: Przywróć
     save_changes: 'Zapisz zmiany'
+    search_users: 'Wyszukiwanie użytkowników'
+    security: Bezpieczeństwo
     settings: Ustawienia
     sign_up: 'Zarejestruj się'
     some_others: '{count, plural, one {# inny} other {# innych}}'
