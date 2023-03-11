@@ -5,6 +5,11 @@ CHANGELOG
 1.2.0 (XXXX-XX-XX)
 ------------------
 
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
