@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.2.0 (XXXX-XX-XX)
+1.2.0 (2023-03-12)
 ------------------
 
 **Ogólne usprawnienia**:
