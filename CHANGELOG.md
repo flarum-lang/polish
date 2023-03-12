@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.2.0 (2023-03-12)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+Wszystkie zmiany: [v1.1.0...v1.2.0](https://github.com/flarum-lang/polish/compare/v1.1.0...v1.2.0).
+
+
 1.1.0 (2023-02-25)
 ------------------
 
