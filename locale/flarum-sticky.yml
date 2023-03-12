@@ -13,7 +13,7 @@ flarum-sticky:
       sticky_button: '=> flarum-sticky.ref.sticky'
       unsticky_button: Odepnij
     post_stream:
-      discussion_stickied_text: '{username} przypiął dyskusję.'
-      discussion_unstickied_text: '{username} odpiął dyskusję.'
+      discussion_stickied_text: '{username} przypiął dyskusję {time}.'
+      discussion_unstickied_text: '{username} odpiął dyskusję {time}.'
   ref:
     sticky: Przypięta
