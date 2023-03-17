@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.2.1 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+
+
+Wszystkie zmiany: [v1.2.0...v1.2.1](https://github.com/flarum-lang/polish/compare/v1.2.0...v1.2.1).
+
+
 1.2.0 (2023-03-12)
 ------------------
 
