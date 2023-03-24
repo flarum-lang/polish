@@ -8,6 +8,8 @@ CHANGELOG
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
 
 Wszystkie zmiany: [v1.2.0...v1.2.1](https://github.com/flarum-lang/polish/compare/v1.2.0...v1.2.1).
