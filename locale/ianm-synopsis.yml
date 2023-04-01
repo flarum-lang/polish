@@ -5,6 +5,8 @@
 ianm-synopsis:
   admin:
     settings:
+      disable-when-searching:
+        label: 'Wyłącz podsumowanie podczas wyszukiwania'
       first-label: 'Pierwszy post'
       last-label: 'Ostatni post'
   forum:
