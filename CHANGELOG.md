@@ -13,8 +13,11 @@ CHANGELOG
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`flarum/likes`](https://github.com/flarum/likes)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
 
 
 Wszystkie zmiany: [v1.2.0...v1.2.1](https://github.com/flarum-lang/polish/compare/v1.2.0...v1.2.1).
