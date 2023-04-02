@@ -9,10 +9,10 @@ ianm-synopsis:
         help: 'Jeśli włączone, fragment najbardziej trafnego posta będzie użyty zamiast podsumowania.'
         label: 'Wyłącz podsumowanie w wynikach wyszukiwania'
       excerpt-length:
-        help: 'Liczba znaków, które powinny być wyświetlone jako podsumowanie posta.'
+        help: 'Liczba znaków, które powinny być wykorzystane do wygenerowania podsumowania posta.'
         label: 'Długość podsumowania'
       excerpt-type:
-        help: 'Wybierz który post powinien być wykorzystany jako treść podsumowania.'
+        help: 'Wybierz, który post powinien być wykorzystany jako treść podsumowania.'
         label: 'Który post powinien być wyświetlany w podsumowaniu?'
       first-label: 'Pierwszy post'
       last-label: 'Ostatni post'
