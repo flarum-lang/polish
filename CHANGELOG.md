@@ -12,6 +12,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
