@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.3.0 (XXXX-XX-XX)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+
+
+Wszystkie zmiany: [v1.2.1...v1.3.0](https://github.com/flarum-lang/polish/compare/v1.2.1...v1.3.0).
+
+
 1.2.1 (2023-04-02)
 ------------------
 
