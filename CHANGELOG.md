@@ -10,6 +10,13 @@ CHANGELOG
 * [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
 
 
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
 Wszystkie zmiany: [v1.2.1...v1.3.0](https://github.com/flarum-lang/polish/compare/v1.2.1...v1.3.0).
 
 
