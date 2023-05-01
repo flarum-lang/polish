@@ -7,7 +7,7 @@ acpl-lscache:
     cache_exclude_help: 'Ścieżki zawierające te ciągi znaków (po jednym na wiersz) nie będą zapisywane w cache. Na przykład, dla ścieżki <code>/mypath/mypage?aa=bb</code> można użyć <code>mypage?aa=</code>. Aby dopasować od początku, dodaj <code>^</code> na początku ciągu znaków. Aby dopasować dokładnie, dodaj symbol <code>$</code> na końcu ciągu znaków.'
     cache_exclude_label: 'Nie zapisuj w pamięci podręcznej ścieżek'
     clearing_cache_listener_label: 'Wyczyść LSCache, gdy cache Flarum jest czyszczony'
-    public_cache_ttl_help: 'Określ jak długo, w sekundach, publiczne strony będą przechowywane w pamięci podręcznej. Wartość domyślna to 300 sekund.'
+    public_cache_ttl_help: 'Określ jak długo, w sekundach, publiczne strony będą przechowywane w pamięci podręcznej. Wartość domyślna to 604800 sekund (1 tydzień).'
     public_cache_ttl_label: 'Domyślny TTL publicznego cache'
     purge_all: 'Wyczyść cały LSCache'
     purge_all_success: 'Powiadomiono serwer LiteSpeed, aby wyczyścił wszystkie wpisy LSCache'
