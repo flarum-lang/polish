@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.3.3 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+
+
+Wszystkie zmiany: [v1.3.2...v1.3.3](https://github.com/flarum-lang/polish/compare/v1.3.2...v1.3.3).
+
+
 1.3.2 (2023-05-06)
 ------------------
 
