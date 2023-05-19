@@ -8,7 +8,6 @@ club-1-cross-references:
       help: 'Konwertuje #<ID> w treści postów (np. #42) na odnośniki do powiązanych dyskusji.'
       label: 'Włącz krótkie odnośniki'
     retrofit_links_in_frontend:
-      help: "Podmienia adresy URL na tytuły dyskusji w postach, które zostały napisane zanim to rozszerzenie zostało włączone. Podmiana jest dokonana przez JavaScript i może negatywnie wpływać na komfort przeglądania dyskusji. Aby przekonwertować linki w starych postach korzystając ze standardowego mechanizmu, użyj komendy `chore:reparse` z rozszerzenia [`club-1/flarum-ext-chore-commands`](https://github.com/club-1/flarum-ext-chore-commands).\n"
       label: 'Przekształć w locie stare linki'
     show_discussion_id:
       help: 'Dodaje ID dyskusji na liście dyskusji oraz przy odniesieniach.'
