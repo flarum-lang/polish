@@ -45,6 +45,15 @@ core:
       title: Podstawowe
       welcome_banner_heading: 'Baner powitalny'
       welcome_banner_text: 'Skonfiguruj tekst, który wyświetla się w banerze na stronie "Wszystkie dyskusje". Użyj go, aby powitać gości na swoim forum.'
+    create_user:
+      email_confirmed_label: 'Wymagaj potwierdzenia tego adresu e-mail przez użytkownika'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
+      submit_and_create_another_button: 'Utwórz i dodaj następnego'
+      submit_button: 'Utwórz użytkownika'
+      title: 'Utwórz nowego użytkownika'
+      use_random_password: 'Wygeneruj losowe hasło'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Wyczyść cache'
       description: 'Podstawowe informacje dotyczące forum.'
@@ -161,6 +170,7 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Pozwól na usuwanie własnych postów'
       allow_post_editing_label: 'Pozwól na edycję posta'
       allow_renaming_label: 'Pozwól na zmianę tytułu dyskusji'
       create_access_token_label: 'Tworzenie tokenów dostępu'
@@ -193,6 +203,7 @@ core:
       view_post_ips_label: 'Przeglądanie IP użytkowników'
     permissions_controls:
       allow_indefinitely_button: 'Cały czas'
+      allow_never_button: '=> core.ref.never'
       allow_some_minutes_button: '{count, plural, one {Przez # minutę} few {Przez # minuty} many {Przez # minut} other {Przez # minuty}}'
       allow_ten_minutes_button: 'Przez 10 minut'
       allow_until_reply_button: 'Aż ktoś odpisze w dyskusji'
@@ -207,6 +218,7 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Wybierz obrazek...'
     users:
+      create_user_button: 'Nowy użytkownik'
       description: 'Stronicowana lista wszystkich użytkowników na Twoim forum.'
       grid:
         columns:
@@ -242,6 +254,10 @@ core:
       title: '=> core.ref.users'
       total_users: 'Wszystkich użytkowników: {count}'
   api:
+    invalid_filter_type:
+      must_be_numeric_message: 'Filtr {filter} musi być liczbą.'
+      must_not_be_array_message: 'Filtr {filter} nie może być tablicą.'
+      must_not_be_multidimensional_array_message: 'Filtr {filter} nie może być tablicą wielowymiarową.'
     invalid_username_message: 'Nazwa użytkownika może zawierać jedynie litery, cyfry i myślniki.'
   email:
     activate_account:
@@ -409,7 +425,7 @@ core:
         log_out_button: Wyloguj
       hide_access_token: 'Ukryj token'
       last_activity: 'Ostatnia aktywność'
-      never: Nigdy
+      never: '=> core.ref.never'
       new_access_token_button: '=> core.ref.new_token'
       new_access_token_modal:
         submit_button: 'Utwórz token'
@@ -509,6 +525,7 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
+      circular_dependencies_message: 'Wykryto cykliczne zależności: {extensions}. Operacja została przerwana. Proszę wyłączyć jedno z rozszerzeń i spróbować ponownie.'
       dependent_extensions_message: 'Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}'
       extension_initialiation_failed_message: 'Nie udało się zainicjować rozszerzenia {extension}. Aby uzyskać więcej informacji, sprawdź konsolę przeglądarki.'
       generic_cross_origin_message: 'Ups! Coś poszło nie tak podczas obsługi żądania typu cross-origin. Odśwież stronę i spróbuj ponownie.'
@@ -564,6 +581,7 @@ core:
     log_in: 'Zaloguj się'
     log_out: 'Wyloguj się'
     mark_all_as_read: 'Oznacz wszystko jako odczytane'
+    never: Nigdy
     new_token: 'Nowy token'
     next_page: 'Następna strona'
     notifications: Powiadomienia

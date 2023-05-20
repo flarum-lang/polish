@@ -69,7 +69,7 @@ validation:
     numeric: 'Pole :attribute musi być mniejsze niż :value.'
     string: 'Pole :attribute musi być krótsze niż :value znaków.'
   lte:
-    array: 'Pole :attribute musi mieć :value lub mniej elementów.'
+    array: 'Pole :attribute nie może mieć więcej niż :value elementów.'
     file: 'Pole :attribute musi być mniejsze lub równe :value kilobajtów.'
     numeric: 'Pole :attribute musi być mniejsze lub równe :value.'
     string: 'Pole :attribute musi być krótsze lub równe :value znaków.'
