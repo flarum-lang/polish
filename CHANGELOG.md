@@ -2,16 +2,30 @@ CHANGELOG
 =========
 
 
-1.3.3 (XXXX-XX-XX)
+1.4.0 (XXXX-XX-XX)
 ------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+* Aktualizacja tłumaczeń komunikatów walidacji.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
+
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
 
 
-Wszystkie zmiany: [v1.3.2...v1.3.3](https://github.com/flarum-lang/polish/compare/v1.3.2...v1.3.3).
+Wszystkie zmiany: [v1.3.2...v1.4.0](https://github.com/flarum-lang/polish/compare/v1.3.2...v1.4.0).
 
 
 1.3.2 (2023-05-06)
