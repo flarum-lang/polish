@@ -35,7 +35,7 @@ fof-webhooks:
   admin:
     errors:
       service_not_found: 'Usługa "{service}" nie została odnaleziona.'
-      tag_disabled: 'Ten webhook jest ma ograniczenia na podstawie tagów, ale rozszerzenia Tags jest wyłączone. Ograniczenia nie zostaną zastosowane. Upewnij się, że jest to zamierzone.'
+      tag_disabled: 'Ten webhook jest ma ograniczenia na podstawie tagów, ale rozszerzenie Tags nie jest wyłączone. Ograniczenia nie zostaną zastosowane. Upewnij się, że jest to zamierzone.'
       tag_invalid: 'Ten webhook jest ograniczony do nieprawidłowego taga. Ograniczenia nie zostaną zastosowane. Upewnij się, że jest to zamierzone.'
       url_invalid: 'Ten adres URL jest nieprawidłowy dla wybranej usługi.'
     nav:

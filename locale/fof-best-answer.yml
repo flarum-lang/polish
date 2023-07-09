@@ -34,7 +34,7 @@ fof-best-answer:
       show_filter_help: 'Dla tagów obsługujących najlepsze odpowiedzi wyświetl filtr pozwalający odfiltrować rozwiązane/nierozwiązane dyskusje na liście'
       show_filter_label: 'Wyświetl filtr dyskusji z/bez najlepszą odpowiedzią'
       show_max_lines_help: 'Ustaw 0, aby wyłączyć limit. Jeśli post jest dłuższy niż podana liczba wierszy, podgląd posta zostanie przycięty za pomocą efektu zanikania.'
-      show_max_lines_label: 'Maksymalna liczba wierszy do wyświetlania w podglądzie posta'
+      show_max_lines_label: 'Maksymalna liczba wierszy do wyświetlenia w podglądzie posta'
       use_alt_ui: 'Alternatywny układ'
       use_alt_ui_help: 'Wyświetl opcje do ustawiania najlepszej odpowiedzi w stopce posta'
   email:
