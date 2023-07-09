@@ -29,8 +29,12 @@ fof-best-answer:
       schedule_stop_overnight_help: '21.00 - 8.00 według czasu serwera'
       select_best_answer_reminder_days: 'Częstotliwość przypominania'
       select_best_answer_reminder_days_help: 'Po podanej liczbie dni wyślij przypomnienie do autora dyskusji, aby wybrał najlepszą odpowiedź. Ustaw 0, aby wyłączyć przypomnienia.'
+      select_best_answer_tags_help: 'Wybierz które tagi mają zostać dodane do dyskusji, gdy zostanie dla niej ustawiona najlepsza odpowiedź. Tylko tagi podrzędne są dozwolone. Te tagi zostaną usunięte z dyskusji, jeśli najlepsza odpowiedź zostanie usunięta dla danej dyskusji.'
+      select_best_answer_tags_label: 'Tagi dla dyskusji z najlepszą odpowiedzią'
       show_filter_help: 'Dla tagów obsługujących najlepsze odpowiedzi wyświetl filtr pozwalający odfiltrować rozwiązane/nierozwiązane dyskusje na liście'
       show_filter_label: 'Wyświetl filtr dyskusji z/bez najlepszą odpowiedzią'
+      show_max_lines_help: 'Ustaw 0, aby wyłączyć limit. Jeśli post jest dłuższy niż podana liczba wierszy, podgląd posta zostanie przycięty za pomocą efektu zanikania.'
+      show_max_lines_label: 'Maksymalna liczba wierszy do wyświetlania w podglądzie posta'
       use_alt_ui: 'Alternatywny układ'
       use_alt_ui_help: 'Wyświetl opcje do ustawiania najlepszej odpowiedzi w stopce posta'
   email:
@@ -72,3 +76,8 @@ fof-best-answer:
     this_best_answer: 'Oznacz jako najlepsza odpowiedź'
     user:
       best-answer-count: '{count, plural, one {{count} najlepsza odpowiedź} few {{count} najlepsze odpowiedzi} other {{count} najlepszych odpowiedzi}}'
+fof-user-directory:
+  lib:
+    sort:
+      least_best_answers: 'Najmniej najlepszych odpowiedzi'
+      most_best_answers: 'Najwięcej najlepszych odpowiedzi'

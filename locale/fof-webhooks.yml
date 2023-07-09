@@ -17,6 +17,7 @@ fof-webhooks:
       deleted: 'Usunięto grupę `{1}`'
       renamed: 'Zmieniono nazwę grupy na `{1}`'
     post:
+      approved: 'Zaakceptowano post w `{1}`'
       deleted: 'Usunięto post w `{1}`'
       hidden: 'Ukryto post w `{1}`'
       posted: 'Nowy post w `{1}`'
@@ -34,6 +35,7 @@ fof-webhooks:
   admin:
     errors:
       service_not_found: 'Usługa "{service}" nie została odnaleziona.'
+      tag_disabled: 'Ten webhook jest ma ograniczenia na podstawie tagów, ale rozszerzenia Tags jest wyłączone. Ograniczenia nie zostaną zastosowane. Upewnij się, że jest to zamierzone.'
       tag_invalid: 'Ten webhook jest ograniczony do nieprawidłowego taga. Ograniczenia nie zostaną zastosowane. Upewnij się, że jest to zamierzone.'
       url_invalid: 'Ten adres URL jest nieprawidłowy dla wybranej usługi.'
     nav:
@@ -41,6 +43,9 @@ fof-webhooks:
     settings:
       actions:
         flarum:
+          approval:
+            postwasapproved: 'Zatwierdzono post'
+            title: 'Zatwierdzanie postów'
           discussion:
             deleted: Usunięto
             hidden: Ukryto
@@ -70,9 +75,10 @@ fof-webhooks:
       help:
         disabled: 'Ten webhook jest wyłączony, ponieważ nie ma żadnych aktywnych zdarzeń.'
         general: 'Tutaj możesz dodać, edytować oraz usuwać webhooki dla swojego forum.'
+        tags: 'Możesz ograniczyć webhook do wybranych tagów. Jeśli wybierzesz jakieś tagi, webhook będzie wywołany tylko jeśli zdarzenie zostało wywołane dla zasobu powiązanego z którymś z wybranych tagów.'
         url: 'Docelowy adres URL webhooka'
       item:
-        tag_any_label: Dowolny
+        tag_any_label: 'Dowolny tag'
       modal:
         description: 'Tutaj możesz ustawić dla jakich zdarzeń webhook będzie wywoływany.'
         events_label: Zdarzenia
