@@ -7,7 +7,7 @@ fof-polls:
     permissions:
       change_vote: 'Zmiana głosu'
       moderate: 'Edytowanie i usuwanie ankiet'
-      self_edit: 'Edytowanie swoich własnych ankiet'
+      self_edit: 'Edytowanie utworzonych ankiet (wymaga uprawnień edycji posta)'
       start: 'Tworzenie ankiet'
       view_results_without_voting: 'Podglądanie wyników bez zagłosowania'
       vote: 'Głosowanie w ankietach'
