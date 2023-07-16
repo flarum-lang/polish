@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.5.0 (2023-07-16)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`clarkwinkelmann/flarum-ext-post-permissions`](https://github.com/clarkwinkelmann/flarum-ext-post-permissions)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Wszystkie zmiany: [v1.4.1...v1.5.0](https://github.com/flarum-lang/polish/compare/v1.4.1...v1.5.0).
+
+
 1.4.1 (2023-07-09)
 ------------------
 
