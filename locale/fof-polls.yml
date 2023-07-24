@@ -25,6 +25,7 @@ fof-polls:
     modal:
       add_option_label: 'Dodaj opcję'
       add_title: 'Dodaj ankietę'
+      allow_change_vote_label: 'Pozwól użytkownikom zmienić swój głos'
       allow_multiple_votes_label: 'Pozwól użytkownikom głosować na wiele opcji'
       date_placeholder: 'Data zakończenia ankiety (opcjonalne)'
       edit_title: 'Edytuj ankietę'
@@ -47,6 +48,9 @@ fof-polls:
       delete_confirm: 'Czy jesteś pewien, że chcesz usunąć tę ankietę?'
       edit: 'Edytuj ankietę'
     no_permission: 'Nie masz uprawnień, aby głosować w tej ankiecie'
+    poll:
+      cannot_change_vote: 'Nie możesz zmienić swojego głosu po zagłosowaniu.'
+      submit_button: Głosuj
     poll_ended: 'Ta ankieta zakończyła się.'
     public_poll: 'Zobacz głosujących'
     tooltip:
