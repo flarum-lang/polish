@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.5.1 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Wszystkie zmiany: [v1.5.0...v1.5.1](https://github.com/flarum-lang/polish/compare/v1.5.0...v1.5.1).
+
+
 1.5.0 (2023-07-16)
 ------------------
 
