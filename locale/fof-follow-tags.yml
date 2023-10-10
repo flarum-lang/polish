@@ -39,6 +39,7 @@ fof-follow-tags:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Będziesz powiadamiany o wszystkich nowych dyskusjach.'
+      header: 'Subskrypcja dla {tagName}'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Ukryj dyskusje ze strony "Wszystkie dyskusje".'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
@@ -49,6 +50,8 @@ fof-follow-tags:
       not_following_text: 'Będziesz powiadamiany tylko wtedy, kiedy zostaniesz @wspomniany.'
       notify_alert_tooltip: 'Otrzymuj powiadomienia na forum, kiedy pojawią się nowe dyskusje lub posty'
       notify_email_tooltip: 'Otrzymuj powiadomienia e-mail, kiedy pojawią się nowe dyskusje lub posty'
+      submit_button: 'Zatwierdź subskrypcję'
+      subscription_label: 'Wybierz poziom subskrypcji dla {tagName}'
     user:
       settings:
         filter_label: 'Co domyślnie wyświetlać na stronie "Obserwowane"'
