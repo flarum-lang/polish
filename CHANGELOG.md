@@ -7,6 +7,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
