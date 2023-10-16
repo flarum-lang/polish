@@ -7,6 +7,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
