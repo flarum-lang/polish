@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-1.5.1 (XXXX-XX-XX)
+1.6.0 (XXXX-XX-XX)
 ------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
@@ -12,7 +17,7 @@ CHANGELOG
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
-Wszystkie zmiany: [v1.5.0...v1.5.1](https://github.com/flarum-lang/polish/compare/v1.5.0...v1.5.1).
+Wszystkie zmiany: [v1.5.0...v1.6.0](https://github.com/flarum-lang/polish/compare/v1.5.0...v1.6.0).
 
 
 1.5.0 (2023-07-16)
