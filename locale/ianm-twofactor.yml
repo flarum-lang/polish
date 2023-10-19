@@ -24,6 +24,9 @@ ianm-twofactor:
   email:
     body:
       status_changed: "Witaj {recipient_display_name},\n\nUwierzytelnianie dwuskładnikowe zostało {type} dla Twojego konta na {forum_url}.\n\nJeśli zainicjowałeś tę akcję, dalsze kroki nie są konieczne. Jeśli nie autoryzowałeś tej zmiany, skontaktuj się natychmiast z administratorami forum.\n"
+    status_type:
+      disabled: wyłączone
+      enabled: włączone
     subject:
       status_changed: 'Uwierzytelnianie dwuskładnikowe {type} dla twojego konta'
   forum:
@@ -33,6 +36,7 @@ ianm-twofactor:
     security:
       backup_codes: 'Twoje kody zapasowe'
       backup_codes_instruction: 'Prosimy o zapisanie tych kodów w bezpiecznym miejscu. Mogą one zostać użyte do uzyskania dostępu do konta w przypadku utraty podstawowej metody uwierzytelniania. Nie będą one wyświetlane ponownie.'
+      backup_codes_remaining: 'Pozostałe kody zapasowe:'
       cancel_button: Anuluj
       cannot_disable: 'Bieżąca konfiguracja uniemożliwia wyłączenie uwierzytelniania dwuskładnikowego.'
       cannot_disable_tooltip: 'Nie można wyłączyć uwierzytelniania dwuskładnikowego'
