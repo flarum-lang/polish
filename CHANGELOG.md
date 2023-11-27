@@ -7,6 +7,7 @@ CHANGELOG
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 
 
