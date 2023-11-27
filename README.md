@@ -107,6 +107,7 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lan
 | --- | --- |
 | [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-amazon-affiliation/pl/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/pl/) |
+| [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-anti-spam/pl/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-ban-ips/pl/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/pl/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/pl/) |
