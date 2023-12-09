@@ -4,9 +4,23 @@
 
 fof-anti-spam:
   admin:
+    blocked_registrations:
+      attempted-at: Próba
+      button: 'Zablokowane rejestracje'
+      delete_entry: 'Usuń rekord'
+      email: 'Adres email'
+      help: "Ta strona pokazuje wszystkie rejestracje, które zostały zablokowane przez usługę StopForumSpam. Możesz wyświetlić szczegóły każdej rejestracji, a jeśli chcesz, możesz usunąć rekord z bazy danych.\n"
+      ip: 'Adres IP'
+      login-provider: 'Dostawca logowania'
+      login-provider-data: 'Dane dostawcy logowania'
+      no-records: 'Nie znaleziono zablokowanych rejestracji.'
+      sfs-data: 'Dane StopForumSpam'
+      title: 'Zablokowane rejestracje'
+      username: 'Nazwa użytkownika'
     permissions:
       spamblock_users_label: 'Oznacz użytkownika jako spamera'
     settings:
+      button: Ustawienia
       default-actions:
         delete_discussions_help: 'Spowoduje to nieodwracalne usunięcie wszystkich dyskusji rozpoczętych przez tego użytkownika. Po wyłączeniu tej opcji dyskusje zostaną ukryte.'
         delete_discussions_label: 'Usuń dyskusje'
@@ -37,12 +51,16 @@ fof-anti-spam:
         region_us_label: 'Stany Zjednoczone'
         regional_endpoint_help: 'Domyślnie skierujemy wyszukiwanie do najbliższego serwera regionalnego, aby zapewnić najszybszą odpowiedź. Jeśli chcesz ograniczyć ruch do określonego regionu, na przykład w celu zapewnienia zgodności z przepisami dotyczącymi prywatności firmy lub kraju, możesz wymusić połączenie z określonym regionem.'
         regional_endpoint_label: 'Dostęp geograficzny'
+        report_blocked_registrations_help: 'Gdy rejestracja zostanie zablokowana przez funkcję "Weryfikuj rejestracje", zgłosimy próbę z powrotem do StopForumSpam, aby aktywność spamerów mogła zostać lepiej potwierdzona. Wymaga ustawienia klucza API StopForumSpam (zobacz poniżej).'
+        report_blocked_registrations_label: 'Zgłoś blokowane rejestracje'
         sfs_lookup_help: 'Jeśli ta opcja jest włączona, będziemy sprawdzać bazę danych StopForumSpam, gdy nowy użytkownik zarejestruje się na Twoim forum. Jeśli użytkownik zostanie znaleziony (nazwa użytkownika, adres IP, e-mail) i ten punkt danych jest włączony wraz z poziomem zaufania SFS osiągającym zdefiniowany poziom, uniemożliwimy mu dokończenie rejestracji.'
         sfs_lookup_label: 'Weryfikuj rejestracje'
         username_label: 'Kontrola spamu nazwy użytkownika'
   forum:
     message:
       spam: 'Twoje informacje zostały oznaczone jako spam.'
+      stopforumspam:
+        blocked: 'Szczegóły Twojej rejestracji zostały znalezione w bazie danych zapobiegania spamowi, dlatego Twoja rejestracja została zablokowana.'
     spammer_modal:
       hard_delete_discussions_help: 'Spowoduje to nieodwracalne usunięcie wszystkich dyskusji rozpoczętych przez tego użytkownika. Po wyłączeniu tej opcji dyskusje zostaną ukryte.'
       hard_delete_discussions_label: 'Usuń dyskusje'
