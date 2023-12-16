@@ -16,6 +16,7 @@ CHANGELOG
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
 Wszystkie zmiany: [v1.5.0...v1.6.0](https://github.com/flarum-lang/polish/compare/v1.5.0...v1.6.0).
