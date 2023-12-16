@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-upload/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Usuwa odniesienie do użytkownika z przesłanych plików. Same pliki pozostają dostępne dla użytkowników, którzy mogli je przeglądać przed anonimizacją.'
+        delete_description: 'Usuwa wszystkie pliki przesłane przez użytkownika.'
+        export_description: 'Wszystkie pliki przesłane przez użytkownika.'
 fof-upload:
   admin:
     help_texts:
@@ -14,7 +21,20 @@ fof-upload:
       resize: "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n"
       s3_acl: "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n"
+      s3_instance_profile: "Pozostaw klucz i sekret puste, aby użyć poświadczeń w profilu instancji.\n"
       watermark: "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n"
+    inspect-mime:
+      description: "FoF Upload wykorzystuje bibliotekę <a>PHP Mime Detector</a> dla popularnych typów MIME i PHP Fileinfo jako rozwiązanie zastępcze.\nWartość MIME zwracana przez Fileinfo może się różnić w zależności od serwera!\n"
+      guessed-extension: 'Domyślne rozszerzenie pliku (jeśli oryginał nie znajduje się na białej liście)'
+      laravel-validation: 'Walidacja plików Laravel'
+      mime-detector: 'Mime Detector (podstawowy)'
+      mime-fileinfo: 'PHP Fileinfo (zastępcze)'
+      no-file-selected: 'Brak pliku'
+      not-available: 'Brak wyników'
+      select: 'Wybierz plik poniżej, aby sprawdzić wartości, które zostaną użyte. Plik nie zostanie zapisany.'
+      title: 'Sprawdź MIME'
+      validation-failed: 'Nie powiodło się: {error}'
+      validation-passed: Zaliczono
     labels:
       aws-s3:
         acl: 'Access Control List (ACL)'
@@ -43,12 +63,15 @@ fof-upload:
       imgur:
         client_id: 'ID użytkownika Imgura'
         title: 'Ustawienia Imgura'
+        tos: 'To Twoim obowiązkiem jest dopilnowanie, by użytkownicy forum przestrzegali <a>warunków korzystania z usługi</a> Imgur'
+      inspect-mime: 'Przetestuj typ MIME pliku'
       local:
         cdn_url: 'URL usługi CDN (poprzedza ścieżki plików)'
         title: 'Ustawienia pamięci lokalnej'
       preferences:
         max_file_size: 'Maksymalna wielkość pliku (w kilobajtach)'
         mime_types: 'Skonfiguruj mapowanie typu MIME i adaptera przesyłania'
+        php_ini_values: 'Twoje wartości <code>php.ini</code> to <code>post_max_size={post}</code> i <code>upload_max_filesize={upload}</code>. Upewnij się, że wartość ustawiona tutaj jest poniżej tych progów, lub dostosuj je odpowiednio. Jeśli korzystasz z <code>Nginx</code>, upewnij się również, że <code>client_max_body_size</code> jest odpowiedniej wielkości dla wybranego maksymalnego limitu.'
         title: 'Preferencje ogólne'
       qiniu:
         bucket: Bucket
@@ -64,15 +87,27 @@ fof-upload:
         position: 'Pozycja znaku wodnego'
         title: 'Oznaczanie obrazków znakiem wodnym'
         toggle: 'Oznaczaj obrazki znakiem wodnym'
+    nav:
+      shared-uploads-button: 'Współdzielone pliki'
     pane:
       description: 'Skonfiguruj ustawienia przesyłania plików.'
       title: 'Przesyłanie plików'
     permissions:
+      access_shared_label: 'Dostęp do współdzielonych plik w menedżerze mediów'
       delete_uploads_of_others_label: 'Usuwanie plików użytkowników'
       download_label: 'Pobieranie plików'
       upload_label: 'Przesyłanie plików'
+      upload_shared_label: 'Prześlij współdzielone pliki'
       view_user_uploads_label: 'Przeglądanie plików użytkowników'
+    shared-uploads:
+      description: 'Prześlij pliki, które mogą być używane przez wszystkich użytkowników forum.'
+      introduction: "Współdzielone pliki to pliki, których mogą używać wszyscy użytkownicy twojego forum. Nie są one dołączone do żadnego posta, ale mogą być wstawiane do postów za pomocą menedżera multimediów.\n\n<strong>Ostrzeżenie:</strong> Współdzielone pliki nie są chronione przez żadne uprawnienia. Każdy, kto posiada URL, może je wyświetlić.\n"
+      no-files: 'Nie przesłano jeszcze żadnych współdzielonych plików.'
+      title: 'Współdzielone pliki'
+      upload-new-button: 'Prześlij nowy plik'
     templates:
+      bbcode-image: 'Szablon obrazka BBCode'
+      bbcode-image_description: "Pokazuje kompletny obrazek liniowo za pomocą BBCode. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/bbcode, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n"
       file: 'Domyślny szablon pobierania pliku'
       file_description: "Wyświetla nazwę pliku i podstawowe informacje o nim. Przekierowuje pobieranie przez PHP, pozwalając na zbieranie statystyk i ochronę przed hotlinkowaniem.\n"
       image: 'Domyślny szablon dla obrazków'
@@ -81,6 +116,10 @@ fof-upload:
       image_description: "Wyświetla miniaturę obrazka i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n"
       just-url: 'Jedynie URL'
       just-url_description: "Wstawia jedynie URL. Renderowanie może być obsłużone przez inne rozszerzenie umożliwiające automatycznie formatowanie. Brak obsługi pobierania, zliczania statystyk oraz ochrony przed hotlinkowaniem.\n"
+      markdown-image: 'Szablon obrazka Markdown'
+      markdown-image_description: "Pokazuje kompletny obrazek liniowo za pomocą Markdown. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/markdown, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n"
+      text-preview: 'Podgląd tekstu'
+      text-preview_description: "Wstawia podgląd (pierwsze 5 wierszy) pliku tekstowego z opcją rozwinięcia w celu wyświetlenia pełnej zawartości pliku.\n"
     upload_methods:
       aws-s3: 'Kompatybilne z S3'
       imgur: Imgur
@@ -89,15 +128,25 @@ fof-upload:
       qiniu: QiNiu
   api:
     upload_errors:
+      cannot_write_to_disk: 'Nie można zapisać na dysku.'
       could_not_detect_mime: 'Nie można wykryć typu MIME tego pliku, spróbuj ponownie.'
       forbidden_type: 'Przesyłanie plików tego typu jest niedozwolone.'
+      max_upload_file_size_form: 'Osiągnięto limit maksymalnego rozmiaru przesyłanych plików z formularza.'
+      max_upload_file_size_ini: 'Osiągnięto limit maksymalnego rozmiaru przesyłanych plików z php.ini.'
+      no_file_uploaded: 'Nie przesłano żadnego pliku.'
+      no_files_made_it_to_upload: 'Prosimy o przesyłanie plików nie większych niż {max} kb.'
+      no_upload_tmp_folder: 'Brak folderu tmp do przesyłania plików.'
+      partial_upload: 'Częściowe przesłanie.'
       unsupported_type: 'Adapter przesyłania nie obsługuje podanego typu MIME: {mime}.'
+      upload_blocked_by_php_extension: 'Rozszerzenie php zablokowało przesyłanie.'
   forum:
     buttons:
       attach: Załącz
       cancel: Anuluj
       media: 'Moje pliki'
+      shared_media: 'Współdzielone pliki'
       upload: Wyślij
+      upload_shared: Współdzielone
       user_uploads: 'Pliki użytkownika'
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Nic nie wybrano} one {Wybierz plik} other {Wybierz pliki}}'
@@ -127,3 +176,39 @@ fof-upload:
       no_snippet_preview: '<podgląd pojawi się tutaj po opublikowaniu posta>'
     validation:
       max_size: 'Wysyłanie plików większych niż {max} kb nie jest obsługiwane.'
+  lib:
+    file_list:
+      confirm_selection_btn: '{fileCount, plural, =0 {Nie wybrano} one {Wybierz plik} other {Select pliki}}'
+      delete_file_a11y_label: 'Usuń plik "{fileName}"'
+      empty: 'Nie ma żadnych plików do wyświetlenia.'
+      hide_file:
+        btn_a11y_label_hide: 'Ukryj "{fileName}" w menedżerze plików'
+        btn_a11y_label_show: 'Pokaż "{fileName}" w menedżerze plików'
+        hide_confirmation: 'Czy na pewno chcesz ukryć "{fileName}"? Ukrycie pliku spowoduje jedynie usunięcie go z menedżera multimediów i nie wpłynie na istniejące posty.'
+        hide_fail: 'Nie można ukryć pliku "{fileName}"'
+        hide_success: 'Plik ukryty'
+        loading: 'Ukrywanie pliku...'
+        show_confirmation: 'Czy na pewno chcesz wyświetlić "{fileName}"? Wyświetlenie pliku spowoduje, że będzie on widoczny w menedżerze multimediów.'
+        show_fail: 'Nie można wyświetlić pliku "{fileName}"'
+        show_success: 'Pokazany plik'
+      hide_shared_file:
+        btn_a11y_label_hide: 'Ustaw "{fileName}" jako prywatny (bez publicznego adresu URL)'
+        btn_a11y_label_show: 'Ustaw "{fileName}" jako publiczny (z publicznym adresem URL)'
+        hide_confirmation: 'Czy na pewno chcesz ustawić "{fileName}" jako prywatny? Ustawienie pliku jako prywatny spowoduje usunięcie jego publicznego adresu URL, ale nie wpłynie na istniejące posty. Nie będzie on również widoczny w menedżerze multimediów dla nieautoryzowanych użytkowników.'
+        hide_fail: 'Nie można ustawić pliku "{fileName}" jako prywatnego'
+        hide_success: 'Plik stał się prywatny'
+        loading: 'Udostępnianie pliku jako prywatnego...'
+        show_confirmation: 'Czy na pewno chcesz upublicznić plik "{fileName}"? Upublicznienie pliku sprawi, że będzie on dostępny dla każdego, kto ma publiczny adres URL i każdy będzie mógł go udostępnić za pomocą menedżera plików.'
+        show_fail: 'Nie można upublicznić pliku "{fileName}"'
+        show_success: 'Plik został upubliczniony'
+      load_more_files_btn: 'Wczytaj więcej plików'
+      loading: 'Wczytywanie plików...'
+      modal_empty_desktop: 'Lista plików jest pusta. Kliknij przycisk lub przeciągnij plik tutaj, aby go przesłać.'
+      modal_empty_phone: 'Lista plików jest pusta. Dotknij powyższego przycisku, aby przesłać plik.'
+      release_to_upload: 'Upuść, aby przesłać'
+      select_file_a11y_label: 'Wybierz plik "{fileName}"'
+    upload-shared-file-modal:
+      dropzone: 'Przeciągnij i upuść pliki tutaj lub kliknij, aby je przeglądać'
+      hide-from-media-gallery: 'Ukryj w galerii multimediów użytkownika'
+      title: 'Nowy współdzielony plik'
+      upload: Prześlij
