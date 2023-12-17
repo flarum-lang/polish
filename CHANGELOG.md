@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.7.0 (XXXX-XX-XX)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+
+
+Wszystkie zmiany: [v1.6.0...v1.7.0](https://github.com/flarum-lang/polish/compare/v1.6.0...v1.7.0).
+
+
 1.6.0 (2023-12-17)
 ------------------
 
