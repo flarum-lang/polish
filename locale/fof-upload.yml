@@ -179,6 +179,7 @@ fof-upload:
   lib:
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Nie wybrano} one {Wybierz plik} other {Select pliki}}'
+      delete_confirmation: 'Czy jesteś pewien, że chcesz usunąć "{fileName}"?'
       delete_file_a11y_label: 'Usuń plik "{fileName}"'
       empty: 'Nie ma żadnych plików do wyświetlenia.'
       hide_file:
