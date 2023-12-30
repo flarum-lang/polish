@@ -10,6 +10,11 @@ CHANGELOG
 * [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
 
 
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
 Wszystkie zmiany: [v1.6.0...v1.7.0](https://github.com/flarum-lang/polish/compare/v1.6.0...v1.7.0).
 
 
