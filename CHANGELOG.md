@@ -12,6 +12,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
