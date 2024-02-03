@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 
 
 Wszystkie zmiany: [v1.6.0...v1.7.0](https://github.com/flarum-lang/polish/compare/v1.6.0...v1.7.0).
