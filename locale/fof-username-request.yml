@@ -8,6 +8,14 @@ fof-username-request:
       moderate_requests: 'Zatwierdzanie zmiany nazwy użytkownika lub pseudonimu'
       request_nickname: 'Proszenie o zmianę pseudonimu'
       request_username: 'Proszenie o zmianę nazwy użytkownika'
+  email:
+    body:
+      approved: "Witaj {recipient_display_name},\n\nTwoja prośba o zmianę nazwy użytkownika na \"{new_username}\" została zatwierdzona przez {actor_display_name}.\n\nMożesz teraz zalogować się przy użyciu nowej nazwy użytkownika: {login_url}.\n"
+      noReasonProvided: 'Nie podano powodu.'
+      rejected: "Witaj {recipient_display_name},\n\nTwoja prośba o zmianę nazwy użytkownika z \"{old_username}\" na \"{requested_username}\" została odrzucona przez {actor_display_name}.\n\nPowód: {reason}\n"
+    subject:
+      approved: '{display_name} zatwierdził zmianę nazwy użytkownika na {requested_username}'
+      rejected: '{display_name} odrzucił zmianę nazwy użytkownika na {requested_username}'
   forum:
     nickname_modals:
       action:
