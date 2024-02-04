@@ -12,6 +12,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
