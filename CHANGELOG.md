@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.7.0 (2024-02-04)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+
+
+Wszystkie zmiany: [v1.6.0...v1.7.0](https://github.com/flarum-lang/polish/compare/v1.6.0...v1.7.0).
+
+
 1.6.0 (2023-12-17)
 ------------------
 
