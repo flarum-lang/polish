@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.8.0 (XXXX-XX-XX)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+
+
+Wszystkie zmiany: [v1.7.0...v1.8.0](https://github.com/flarum-lang/polish/compare/v1.7.0...v1.8.0).
+
+
 1.7.0 (2024-02-04)
 ------------------
 
