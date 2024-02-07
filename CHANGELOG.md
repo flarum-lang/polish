@@ -9,6 +9,13 @@ CHANGELOG
 
 * [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
 
 
 Wszystkie zmiany: [v1.7.0...v1.8.0](https://github.com/flarum-lang/polish/compare/v1.7.0...v1.8.0).
