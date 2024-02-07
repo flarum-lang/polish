@@ -4,6 +4,9 @@
 
 signature:
   admin:
+    permissions:
+      allow_signature: 'Posiadanie sygnatury'
+      edit_signature_others: 'Edytowanie sygnatur użytkowników'
     settings:
       maximum_char_limit:
         description: 'Maksymalna liczba znaków w sygnaturce (zliczane są znaki, nie brane są pod uwagę tagi HTML)'
@@ -20,6 +23,7 @@ signature:
     title: Sygnaturka
   forum:
     buttons:
+      edit: 'Zmień sygnaturę'
       save: 'Zapisz sygnaturkę'
       signature: Sygnaturka
     errors:
@@ -34,3 +38,5 @@ signature:
       loading:
         content: 'Proszę czekać...'
         title: Zapisywanie
+    profile:
+      click: 'Kliknij by pisać sygnaturę'
