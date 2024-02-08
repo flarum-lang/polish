@@ -15,6 +15,7 @@ CHANGELOG
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 
 
