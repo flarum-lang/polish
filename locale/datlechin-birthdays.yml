@@ -5,32 +5,42 @@
 datlechin-birthdays:
   admin:
     permissions:
-      edit_own_birthday_label: 'Zmiana swojej daty urodzin'
-      view_birthday_label: 'Wyświetl urodziny'
+      edit_own_birthday_label: 'Zmiana swojej daty urodzenia'
+      view_birthday_label: 'Wyświetlanie urodzin'
     settings:
       date_format_help: 'Użyj formatu daty <a>dayjs</a>. Pozostaw puste, aby użyć domyślnego formatu.'
       date_format_label: 'Format daty'
       date_none_year_label: 'Format daty bez roku'
       min_age_help: 'Minimalny wiek do rejestracji'
       min_age_label: 'Minimalny wiek'
-      required_help: 'Aby ta opcja działała, należy włączyć opcję Wymagaj przy rejestracji'
-      required_label: 'Wymagane wprowadzenie daty urodzin'
-      set_on_registration_label: 'Zezwól na ustawianie daty urodzin przy rejestracji'
+      required_help: 'Aby ta opcja działała, musisz pozwolić na ustawianie daty urodzenia podczas rejestracji'
+      required_label: 'Wymagaj podania daty urodzenia'
+      set_on_registration_label: 'Zezwól na ustawianie daty urodzenia podczas rejestracji'
   api:
-    invalid_age_message: 'Twój wiek musi wynosić co najmniej {minAge} lat.'
+    invalid_age_message: 'Twój wiek musi wynosić co najmniej {minAge, plural, one {1 rok} few {# lata} other {# lat}}.'
     invalid_dob_message: 'Nieprawidłowa data urodzenia'
   forum:
     change_dob:
-      title: 'Zmień datę urodzin'
+      date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Edytuj datę urodzenia'
+    edit_user:
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
     nav:
       nav_item: 'Dzisiejsze urodziny'
+    page:
+      discussion_count: '{count, plural, one {Dyskusje: #} other {Dyskusje: #}}'
+      post_count: '{count, plural, one {Posty: #} other {Posty: #}}'
     settings:
-      change_dob_label: 'Zmień datę urodzin'
+      change_dob_label: 'Zmień datę urodzenia'
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
       show_dob_date_label: 'Pokaż dzień i miesiąc urodzin'
       show_dob_year_help: 'Pozwoli to ludziom zobaczyć Twój wiek.'
       show_dob_year_label: 'Pokaż rok urodzenia'
+    sign_up:
+      dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'
     user:
       age_text: 'Wiek: {age}'
       birthday_text: 'Urodziny: {date}'
   ref:
-    date_of_birth: 'Data urodzin'
+    date_of_birth: 'Data urodzenia'
