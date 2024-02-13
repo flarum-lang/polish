@@ -47,6 +47,7 @@ ianm-twofactor:
       cannot_disable: 'Bieżąca konfiguracja uniemożliwia wyłączenie uwierzytelniania dwuskładnikowego.'
       cannot_disable_tooltip: 'Nie można wyłączyć 2FA'
       confirm_disable_2fa_text: 'Czy na pewno chcesz wyłączyć uwierzytelnianie dwuskładnikowe?'
+      confirm_disable_2fa_text_other_user: 'Czy na pewno chcesz wyłączyć uwierzytelnianie dwuskładnikowe dla {username}? Spowoduje to usunięcie wszystkich kodów zapasowych i wyłączenie 2FA dla konta użytkownika.'
       confirm_disable_2fa_title: 'Potwierdzenie wyłączenia uwierzytelniania dwuskładnikowego'
       disable_2fa_button: 'Wyłącz 2FA'
       enable_2fa_button: 'Włącz 2FA'

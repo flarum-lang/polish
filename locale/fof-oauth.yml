@@ -6,6 +6,10 @@ fof-oauth:
   admin:
     configure_button_label: 'Skonfiguruj z FoF OAuth'
     settings:
+      advanced:
+        heading: Zaawansowane
+        log-oauth-errors-help: 'Jeśli to ustawienie jest włączone, błędy OAuth będą rejestrowane w dzienniku Flarum. Może to pomóc w debugowaniu błędów OAuth, ale może również zawierać poufne informacje.'
+        log-oauth-errors-label: 'Loguj błędy OAuth'
       only_icons_label: 'Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)'
       providers:
         callback_url_text: 'Jeśli to konieczne, ustaw adres zwrotny (callback URL) na {url}.'
