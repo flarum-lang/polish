@@ -7,6 +7,7 @@ CHANGELOG
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
 * [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
