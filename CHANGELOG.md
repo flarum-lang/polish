@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.8.0 (2024-02-17)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+Wszystkie zmiany: [v1.7.0...v1.8.0](https://github.com/flarum-lang/polish/compare/v1.7.0...v1.8.0).
+
+
 1.7.0 (2024-02-04)
 ------------------
 
