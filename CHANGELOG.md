@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.8.1 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+
+
+Wszystkie zmiany: [v1.8.0...v1.8.1](https://github.com/flarum-lang/polish/compare/v1.8.0...v1.8.1).
+
+
 1.8.0 (2024-02-17)
 ------------------
 
