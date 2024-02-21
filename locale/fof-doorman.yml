@@ -35,7 +35,8 @@ fof-doorman:
         key: Klucz
         max_uses: 'Maksymalna liczba użyć'
         title: 'Kody zaproszeń'
-        used_times: '{remaining, plural, one {Pozostało {remaining} użycie} few {Pozostały {remaining} użycia} other {Pozostało {remaining} użyć}}'
+        total_uses: '{totalUses, plural, one {Użyto {totalUses} raz} other {Użyto {totalUses} razy}}'
+        used_times: '{remaining, plural, =0 {Nielimitowana liczba użyć} one {Pozostało {remaining} użycie} few {Pozostały {remaining} użycia} other {Pozostało {remaining} użyć}}'
         warning: 'Ten kod zaproszenia został już wykorzystany maksymalną liczbę razy.'
       title: Doorman
   forum:

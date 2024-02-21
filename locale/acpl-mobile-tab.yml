@@ -6,7 +6,7 @@ acpl-mobile-tab:
   forum:
     all_discussions: Dyskusje
     categories: Kategorie
-    home: 'Strona główna'
+    home: Główna
     log_in: 'Zaloguj się'
     notifications: Powiadomienia
     profile: Profil

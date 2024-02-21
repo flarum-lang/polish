@@ -12,7 +12,7 @@ fof-best-answer:
       best_answer_not_own_discussion: 'Wybieranie najlepszej odpowiedzi (cudza dyskusja)'
     settings:
       allow_select_own_post: 'Wybieranie własnego posta'
-      allow_select_own_post_help: 'Pozwól autorowi dyskusji wybrać jeden z jego własnych postów jako najlepszą odpowiedź'
+      allow_select_own_post_help: 'Pozwól użytkownikowi wybrać swój własny post jako najlepszą odpowiedź w dyskusji'
       documentation: Dokumentacja
       enable_all_tags_button: 'Włącz obsługę najlepszych odpowiedzi we wszystkich tagach'
       enable_all_tags_reminder_button: 'Włącz przypomnienia o wybraniu najlepszej odpowiedzi we wszystkich tagach'
