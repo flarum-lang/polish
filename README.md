@@ -280,7 +280,6 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lan
 | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/pl/) |
 | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/pl/) |
 | [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/xelson-chat/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/xelson-chat/pl/) |
-| [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/zerosonesfun-bbcode-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/pl/) |
 
 <!-- various-extensions-list-stop -->
 
