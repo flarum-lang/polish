@@ -16,6 +16,14 @@ fof-polls:
       allow_option_image: 'Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie'
       max_options: 'Maksymalna liczba opcji w ankiecie'
   forum:
+    answers: Odpowiedzi
+    compose:
+      add_title: 'Dodaj ankietę'
+      continue_editing: 'Kontynuuj edycję'
+      edit_title: 'Edytuj ankietę'
+      polls_manager: 'Menadżer ankiet'
+      polls_preview: 'Zobacz ankietę'
+      success: 'Ankieta zapisana pomyślnie.'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -50,8 +58,22 @@ fof-polls:
     no_permission: 'Nie masz uprawnień, aby głosować w tej ankiecie'
     poll:
       cannot_change_vote: 'Nie możesz zmienić swojego głosu po zagłosowaniu.'
+      cannot_start_poll_button: 'Nie można rozpocząć ankiety'
+      start_poll_button: 'Rozpocznij globalną ankietę'
       submit_button: Głosuj
+    poll_controls:
+      delete_confirmation: 'Czy na pewno chcesz usunąć tę ankietę?'
+      delete_error_message: 'Coś poszło nie tak podczas usuwania ankiety.'
+      delete_success_message: 'Usunięto ankietę pomyślnie.'
     poll_ended: 'Ta ankieta zakończyła się.'
+    poll_form:
+      delete: 'Usuń ankietę'
+      error: 'Wystąpił błąd podczas zapisywania ankiety, prosimy o kontakt z administratorem.'
+    poll_never_ends: 'Ankieta nigdy się nie kończy'
+    polls_list:
+      empty_text: 'Wygląda na to, że nie ma tu ankiet dla całej społeczności.'
+    polls_page:
+      title: Ankiety
     public_poll: 'Zobacz głosujących'
     tooltip:
       badge: Ankieta
