@@ -12,6 +12,7 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
 Wszystkie zmiany: [v1.8.0...v1.8.1](https://github.com/flarum-lang/polish/compare/v1.8.0...v1.8.1).
