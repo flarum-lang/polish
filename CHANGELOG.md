@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.8.2 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+
+
+Wszystkie zmiany: [v1.8.1...v1.8.2](https://github.com/flarum-lang/polish/compare/v1.8.1...v1.8.2).
+
+
 1.8.1 (2024-06-09)
 ------------------
 
