@@ -12,11 +12,12 @@ fof-user-bio:
       allowFormatting: 'Obsługuj formatowanie w opisie profilu'
       allowFormatting_help: 'Z założenia to formatowanie różni się od formatowania postów. Jeśli rozszerzenia BBCode i/lub Markdown są włączone, będą one dostępne do formatowania opisu profilu. Obrazki oraz inne osadzone media nie są dozwolone. Rozszerzenia dodające dodatkowe opcje formatowania treści do Flarum muszą bezpośrednio włączyć obsługę formatowania treści również w opisie profilu.'
       bioLimit: 'Limit długości opisu w profilu'
+      maxLines: 'Maksymalna liczba wierszy do pokazania jednocześnie'
   forum:
     profile:
       cancel_button: Anuluj
-      cancel_confirm: 'Czy na pewno chcesz anulować edycję swojej biografii? Wprowadzone zmiany zostaną utracone.'
-      edit_bio_label: 'Edytuj biografię'
+      cancel_confirm: 'Czy na pewno chcesz anulować edycję opisu profilu? Wprowadzone zmiany zostaną utracone.'
+      edit_bio_label: 'Edytuj opis profilu'
       save_button: Zapisz
     userbioPlaceholder: 'Napisz coś o sobie'
     userbioPlaceholderOtherUser: 'Utwórz opis dla {username}'
