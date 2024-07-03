@@ -16,7 +16,7 @@ fof-user-bio:
   forum:
     profile:
       cancel_button: Anuluj
-      cancel_confirm: 'Czy na pewno chcesz anulować edycję opisu profilu? Wprowadzone zmiany zostaną utracone.'
+      cancel_confirm: 'Czy jesteś pewien, że chcesz anulować edycję opisu profilu? Wprowadzone zmiany zostaną utracone.'
       edit_bio_label: 'Edytuj opis profilu'
       save_button: Zapisz
     userbioPlaceholder: 'Napisz coś o sobie'
