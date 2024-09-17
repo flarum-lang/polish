@@ -50,6 +50,7 @@ fof-polls:
       public_poll_label: 'Pozwól użytkownikom zobaczyć, kto głosował'
       question_placeholder: Pytanie
       submit: Zatwierdź
+      subtitle_placeholder: 'Podtytuł/Opis (opcjonalne)'
     moderation:
       add: 'Dodaj ankietę'
       delete: 'Usuń ankietę'
