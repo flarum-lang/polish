@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.8.3 (2024-09-22)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Wszystkie zmiany: [v1.8.2...v1.8.3](https://github.com/flarum-lang/polish/compare/v1.8.2...v1.8.3).
+
+
 1.8.2 (2024-07-03)
 ------------------
 
