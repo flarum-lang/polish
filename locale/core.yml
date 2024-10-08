@@ -512,7 +512,7 @@ core:
       label: '{label}:'
     datetime_formats:
       humanTimeLong: LL
-      humanTimeShort: 'D MMMM'
+      humanTimeShort: LL
       scrubber: 'MMMM YYYY'
     debug_button: Debug
     dropdown:
