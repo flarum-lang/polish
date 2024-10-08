@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.8.4 (XXXX-XX-XX)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+Wszystkie zmiany: [v1.8.3...v1.8.4](https://github.com/flarum-lang/polish/compare/v1.8.3...v1.8.4).
+
+
 1.8.3 (2024-09-22)
 ------------------
 
