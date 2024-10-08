@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.8.4 (XXXX-XX-XX)
+1.8.4 (2024-10-08)
 ------------------
 
 **Ogólne usprawnienia**:
