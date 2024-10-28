@@ -7,6 +7,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
 
 
