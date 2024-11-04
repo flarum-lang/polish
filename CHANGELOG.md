@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.8.5 (2024-11-04)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+
+
+Wszystkie zmiany: [v1.8.4...v1.8.5](https://github.com/flarum-lang/polish/compare/v1.8.4...v1.8.5).
+
+
 1.8.4 (2024-10-08)
 ------------------
 
