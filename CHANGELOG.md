@@ -8,6 +8,7 @@ CHANGELOG
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 
 
 Wszystkie zmiany: [v1.8.5...v1.9.0](https://github.com/flarum-lang/polish/compare/v1.8.5...v1.9.0).
