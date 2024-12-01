@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.9.0 (2024-12-01)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+
+
+Wszystkie zmiany: [v1.8.5...v1.9.0](https://github.com/flarum-lang/polish/compare/v1.8.5...v1.9.0).
+
+
 1.8.5 (2024-11-04)
 ------------------
 
