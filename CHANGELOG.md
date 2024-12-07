@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.9.1 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+
+
+Wszystkie zmiany: [v1.9.0...v1.9.1](https://github.com/flarum-lang/polish/compare/v1.9.0...v1.9.1).
+
+
 1.9.0 (2024-12-01)
 ------------------
 
