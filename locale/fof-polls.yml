@@ -14,6 +14,8 @@ fof-polls:
       vote: 'Głosowanie w ankietach'
     settings:
       allow_option_image: 'Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie'
+      general:
+        heading: 'Ogólne ustawienia'
       max_options: 'Maksymalna liczba opcji w ankiecie'
   forum:
     answers: Odpowiedzi
@@ -47,16 +49,31 @@ fof-polls:
       no_voters: 'Brak głosów'
       option_placeholder: Odpowiedź
       options_label: Odpowiedzi
+      poll_image:
+        alt_help_text: 'Ten tekst jest wymagany po ustawieniu obrazka i zostanie wyświetlony, jeśli obraz nie zostanie załadowany.'
+        alt_label: 'Alternatywny tekst obrazka'
+        help: 'Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).'
+        label: 'Obrazek ankiety'
+        later_help: 'Po utworzeniu ankiety będzie można przesłać obrazek.'
+      poll_option_image:
+        help: 'Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).'
+        label: 'Obrazek odpowiedzi ankiety'
       public_poll_label: 'Pozwól użytkownikom zobaczyć, kto głosował'
       question_placeholder: Pytanie
       submit: Zatwierdź
       subtitle_placeholder: 'Podtytuł/Opis (opcjonalne)'
+      tooltip:
+        options:
+          add-button: 'Dodaj odpowiedź'
     moderation:
       add: 'Dodaj ankietę'
       delete: 'Usuń ankietę'
       delete_confirm: 'Czy jesteś pewien, że chcesz usunąć tę ankietę?'
       edit: 'Edytuj ankietę'
     no_permission: 'Nie masz uprawnień, aby głosować w tej ankiecie'
+    page:
+      nav: Ankiety
+      nav-all: 'Wszystkie globalne ankiety'
     poll:
       cannot_change_vote: 'Nie możesz zmienić swojego głosu po zagłosowaniu.'
       cannot_start_poll_button: 'Nie można rozpocząć ankiety'
@@ -76,8 +93,16 @@ fof-polls:
     polls_page:
       title: Ankiety
     public_poll: 'Zobacz głosujących'
+    showcase:
+      active-polls: 'Aktywne ankiety'
+      ended-polls: 'Zakończone ankiety'
+      no-active-polls: 'W tej chwili nie ma aktywnych ankiet.'
+      no-recent-polls: 'W tej chwili nie ma żadnych niedawno zakończonych ankiet.'
     tooltip:
       badge: Ankieta
       votes: '{count, plural, one {# głos} few {# głosy} other {# głosów}}'
+    upload_image:
+      remove_button: 'Usuń obrazek'
+      upload_button: 'Prześlij obrazek'
     votes_modal:
       title: 'Głosujący użytkownicy'
