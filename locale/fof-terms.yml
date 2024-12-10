@@ -55,7 +55,10 @@ fof-terms:
       title: 'Status akceptacji warunków korzystania dla {username}'
     update-alert:
       can-accept-message: 'Niedawno zaktualizowaliśmy warunki korzystania z forum. Musisz je zaakceptować, aby kontynuować korzystanie z witryny.'
+      close: Zamknij
       must-accept-message: 'Tymczasowo ograniczyliśmy możliwości Twojego konta, do czasu aż zaakceptujesz nowe warunki korzystania z forum.'
       review: 'Kliknij tutaj, aby zobaczyć i zaakceptować nowe warunki korzystania z forum'
     user_controls:
       state_button: 'Status akceptacji TOS'
+    user_settings:
+      optional_policies_label: Polityki

@@ -40,6 +40,7 @@ fof-polls:
       date_placeholder: 'Data zakończenia ankiety (opcjonalne)'
       edit_title: 'Edytuj ankietę'
       hide_votes_label: 'Ukryj głosy do czasu zakończenia ankiety'
+      hide_votes_label_help: 'Użytkownik, który rozpoczął ankietę, zawsze będzie mógł zobaczyć głosy.'
       image_option_placeholder: 'URL obrazka (opcjonalne)'
       include_question: 'Ankieta musi zawierać pytanie'
       max: 'Możesz mieć maksymalnie {max, plural, one {# opcję} few {# opcje} other {# opcji}}'
@@ -88,6 +89,7 @@ fof-polls:
       delete: 'Usuń ankietę'
       error: 'Wystąpił błąd podczas zapisywania ankiety, prosimy o kontakt z administratorem.'
     poll_never_ends: 'Ankieta nigdy się nie kończy'
+    polls_count: '{count, plural, one { {count} głos} few {{count} głosy} other {{count} głosów}}'
     polls_list:
       empty_text: 'Wygląda na to, że nie ma tu ankiet dla całej społeczności.'
     polls_page:
