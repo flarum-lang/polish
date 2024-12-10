@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 
 
 Wszystkie zmiany: [v1.9.0...v1.9.1](https://github.com/flarum-lang/polish/compare/v1.9.0...v1.9.1).
