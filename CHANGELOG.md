@@ -7,6 +7,8 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
