@@ -39,3 +39,6 @@ flarum-suspend:
       suspended_tooltip: Zbanowany
     user_controls:
       suspend_button: Zbanuj
+  validation:
+    attributes:
+      suspendedUntil: 'zbanowany do'

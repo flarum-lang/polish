@@ -40,6 +40,7 @@ flarum-tags:
       about_tags_text: 'Tagi są używane do kategoryzacji dyskusji. Główne tagi są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Podrzędne tagi nie mają hierarchii ani kolejności, są więc użyteczne bardziej do mikro-kategoryzacji.'
       create_primary_tag_button: 'Utwórz główny tag'
       create_secondary_tag_button: 'Utwórz podrzędny tag'
+      edit_tag_label: 'Edytuj tag {tag}'
       primary_heading: 'Główne tagi'
       secondary_heading: 'Podrzędne tagi'
       settings_heading: Ustawienia
@@ -85,3 +86,12 @@ flarum-tags:
     choose_tags_placeholder: '{count, plural, one {Wybierz 1 dodatkowy tag} few {Wybierz # dodatkowe tagi} other {Wybierz # dodatkowych tagów}}'
     name: Nazwa
     tags: Tagi
+  validation:
+    attributes:
+      color: kolor
+      description: opis
+      is_hidden: ukryty
+      name: nazwa
+      slug: slug
+      tag_count_primary: '=> validation.attributes.tag_count_primary'
+      tag_count_secondary: '=> validation.attributes.tag_count_secondary'
