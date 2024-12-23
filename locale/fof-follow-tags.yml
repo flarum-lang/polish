@@ -6,8 +6,8 @@ flarum-gdpr:
   lib:
     data:
       tagsubscription:
-        anonymize_description: 'Usuwa subskrypcję użytkownika do tagu.'
-        export_description: 'Eksportuje szczegóły poziomu subskrypcji tagu jeśli taka istnieje.'
+        anonymize_description: 'Usuwa subskrypcję użytkownika dla tagu.'
+        export_description: 'Eksportuje szczegóły poziomu subskrypcji dla tagu, jeśli taka istnieje.'
 fof-follow-tags:
   admin:
     settings:
@@ -56,7 +56,7 @@ fof-follow-tags:
       not_following_text: 'Będziesz powiadamiany tylko wtedy, kiedy zostaniesz @wspomniany.'
       notify_alert_tooltip: 'Otrzymuj powiadomienia na forum, kiedy pojawią się nowe dyskusje lub posty'
       notify_email_tooltip: 'Otrzymuj powiadomienia e-mail, kiedy pojawią się nowe dyskusje lub posty'
-      submit_button: 'Zatwierdź subskrypcję'
+      submit_button: 'Potwierdź subskrypcję'
       subscription_label: 'Wybierz poziom subskrypcji dla {tagName}'
     user:
       settings:
