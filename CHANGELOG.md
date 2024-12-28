@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.9.2 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+
+
+Wszystkie zmiany: [v1.9.1...v1.9.2](https://github.com/flarum-lang/polish/compare/v1.9.1...v1.9.2).
+
+
 1.9.1 (2024-12-23)
 ------------------
 
