@@ -88,6 +88,8 @@ fof-webhooks:
         group_label: Grupa
         max_post_content_length_help: 'Ustaw limit długości treści posta dla wszystkich zdarzeń powiązanych z postami. Ustaw zero lub pozostaw pole puste, aby usunąć limit.'
         max_post_content_length_label: 'Maksymalna długość treści posta'
+        name_help: 'Nazwa webhooka. Ta wartość będzie używana jako np. nazwa użytkownika Discord, nazwa bota Slack, itp.'
+        name_label: Nazwa
         title: 'Ustawienia webhooka'
         use_plain_text_label: 'Ogranicz formatowanie treści posta'
       services:
