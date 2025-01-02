@@ -12,7 +12,7 @@ acpl-lscache:
     drop_qs_help: "Użyj tej funkcji do pominięcia konkretnych ciągów zapytań, takich jak <code>fbclid</code> lub <code>utm*</code>, podczas generowania cache. Dzięki temu unikniesz nadmiernego tworzenia cache dla stron z \"śmieciowymi\" ciągami zapytań, takimi jak kody UTM, które służą do śledzenia, ale nie wpływają na zawartość strony. Funkcja ta wymaga LSWS w wersji 5.2.3 lub nowszej. Wpisz ciągi zapytań do pominięcia, po jednym na linię. <a>Dowiedz się więcej o pomijaniu ciągów zapytań</a>.<br></br>\n⚠️ Ta opcja modyfikuje plik .htaccess.\n"
     drop_qs_label: 'Pomiń ciągi zapytań'
     permissions:
-      purge: '=> acpl-lscache.ref.purge_cache'
+      purge: 'Czyszczenie LSCache'
     public_cache_ttl_help: 'Określ przez jak długi czas, w sekundach, publiczne strony powinny być przechowywane w cache. Domyślna wartość to 604800 sekund (jeden tydzień).'
     public_cache_ttl_label: 'Domyślny czas życia publicznego cache'
     purge_all: '=> acpl-lscache.ref.purge_cache'
