@@ -27,7 +27,7 @@ acpl-lscache:
     purge:
       discussion: '=> acpl-lscache.ref.purge_cache'
   lib:
-    purge_all_success: 'Wyczyszczono cały cache pomyślnie'
-    purge_success: 'Wyczyszczono cache pomyślnie'
+    purge_all_success: 'Wyczyszczono cały cache pomyślnie.'
+    purge_success: 'Wyczyszczono cache pomyślnie.'
   ref:
     purge_cache: 'Wyczyść LSCache'
