@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.9.3 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+
+
+Wszystkie zmiany: [v1.9.2...v1.9.3](https://github.com/flarum-lang/polish/compare/v1.9.2...v1.9.3).
+
+
 1.9.2 (2025-02-02)
 ------------------
 
