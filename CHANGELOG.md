@@ -8,6 +8,7 @@ CHANGELOG
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 
 
 Wszystkie zmiany: [v1.9.2...v1.9.3](https://github.com/flarum-lang/polish/compare/v1.9.2...v1.9.3).
