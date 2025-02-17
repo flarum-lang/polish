@@ -14,6 +14,8 @@ fof-user-directory:
   forum:
     header:
       back_to_user_directory_tooltip: 'Wróć do katalogu użytkowników'
+    hero:
+      title: '=> fof-user-directory.forum.page.nav'
     page:
       empty_text: 'Nie udało się znaleźć żadnego użytkownika pasującego do kryteriów wyszukiwania.'
       filter_button: 'Filtruj po grupie'
