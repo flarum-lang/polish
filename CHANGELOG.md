@@ -8,6 +8,7 @@ CHANGELOG
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 
 
