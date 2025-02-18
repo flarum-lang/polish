@@ -19,8 +19,14 @@ fof-byobu:
       delete_on_last_recipient_left_help: 'Jeśli włączone, prywatne dyskusje zostaną nieodwracalnie usunięte, gdy ostatni uczestnik opuści dyskusję. W innym wypadku prywatne dyskusje zostaną ukryte (soft deleted).'
       enable-make-public-option: 'Włącz możliwość upublicznienia prywatnej dyskusji'
       enable-make-public-option-help: 'Dodaje możliwość, aby osoby z uprawnieniami mogły usunąć wszystkich uczestników, przypisać nowy tag i uczynić dyskusję publicznie widoczną (zgodnie z ustawieniami widoczności wybranego tagu).'
+      general:
+        heading: 'Ogólne ustawienia'
+        help: 'Te ustawienia kontrolują podstawowe funkcje byobu.'
       hide_from_all_discussions_page: 'Ukryj prywatne dyskusje z podstrony "Wszystkie dyskusje"'
       hide_from_all_discussions_page_help: 'Prywatne dyskusje będą dostępne jedynie na podstronie "Prywatne dyskusje" lub w profilu użytkownika'
+      icon:
+        heading: 'Ustawienia ikony'
+        help: 'Te ustawienia kontrolują ikony używane przez na forum.'
       post-event-icon: 'Ikona zdarzeń w dyskusjach Byobu'
   email:
     body:
@@ -50,6 +56,8 @@ fof-byobu:
       title_placeholder: 'Tytuł prywatnej dyskusji'
     confirm:
       make_public: 'Czy jesteś pewien, że chcesz usunąć uczestników i uczynić tę dyskusję widoczną dla każdego, kto może zobaczyć przypisany tag?'
+    hero:
+      title: '=> fof-byobu.forum.nav.nav_item'
     input:
       search_recipients: 'Wpisz 3 pierwsze znaki, aby wyszukać uczestników...'
     labels:
