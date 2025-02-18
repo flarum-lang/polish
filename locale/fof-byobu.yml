@@ -25,8 +25,8 @@ fof-byobu:
       hide_from_all_discussions_page: 'Ukryj prywatne dyskusje z podstrony "Wszystkie dyskusje"'
       hide_from_all_discussions_page_help: 'Prywatne dyskusje będą dostępne jedynie na podstronie "Prywatne dyskusje" lub w profilu użytkownika'
       icon:
-        heading: 'Ustawienia ikony'
-        help: 'Te ustawienia kontrolują ikony używane przez na forum.'
+        heading: 'Ustawienia ikon'
+        help: 'Te ustawienia kontrolują ikony używane przez forum.'
       post-event-icon: 'Ikona zdarzeń w dyskusjach Byobu'
   email:
     body:
