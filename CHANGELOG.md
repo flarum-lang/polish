@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.9.3 (XXXX-XX-XX)
+1.9.3 (2025-02-27)
 ------------------
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
