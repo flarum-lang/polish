@@ -21,7 +21,7 @@ fof-byobu:
       enable-make-public-option-help: 'Dodaje możliwość, aby osoby z uprawnieniami mogły usunąć wszystkich uczestników, przypisać nowy tag i uczynić dyskusję publicznie widoczną (zgodnie z ustawieniami widoczności wybranego tagu).'
       general:
         heading: 'Ogólne ustawienia'
-        help: 'Te ustawienia kontrolują podstawowe funkcje byobu.'
+        help: 'Te ustawienia kontrolują podstawowe funkcje Byobu.'
       hide_from_all_discussions_page: 'Ukryj prywatne dyskusje z podstrony "Wszystkie dyskusje"'
       hide_from_all_discussions_page_help: 'Prywatne dyskusje będą dostępne jedynie na podstronie "Prywatne dyskusje" lub w profilu użytkownika'
       icon:
