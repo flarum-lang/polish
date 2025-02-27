@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+1.9.3 (2025-02-27)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+
+
+Wszystkie zmiany: [v1.9.2...v1.9.3](https://github.com/flarum-lang/polish/compare/v1.9.2...v1.9.3).
+
+
 1.9.2 (2025-02-02)
 ------------------
 
