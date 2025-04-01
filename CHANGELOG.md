@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.9.4 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+Wszystkie zmiany: [v1.9.3...v1.9.4](https://github.com/flarum-lang/polish/compare/v1.9.3...v1.9.4).
+
+
 1.9.3 (2025-02-27)
 ------------------
 
