@@ -8,6 +8,12 @@ blomstra-gdpr:
       twofactordata:
         delete_description: 'Usuwa wszystkie dane powiązane z 2FA.'
         export_description: 'Eksportuje status 2FA oraz zaszyfrowane kody zapasowe.'
+flarum-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: 'Usuwa wszystkie dane związane z 2FA.'
+        export_description: 'Eksportuje status 2FA i zaszyfrowane kody kopii zapasowych.'
 ianm-twofactor:
   admin:
     edit_group:
@@ -27,6 +33,15 @@ ianm-twofactor:
         title: 'Grupy wymagające uwierzytelniania dwuskładnikowego'
       logo_qr: 'Logo na kodzie QR'
       logo_qr_help: 'Jeśli logo zostało przesłane, zostanie ono osadzone na kodzie QR. Pozostaw puste, aby użyć logo forum.'
+      tokens:
+        also_kill_developer_tokens: 'Zabij także tokeny developerskie'
+        also_kill_developer_tokens_help: 'Zabija również tokeny dostępu dewelopera, które były nieaktywne przez określony czas.'
+        heading: 'Tokeny dostępu'
+        help: 'W celu zwiększenia bezpieczeństwa możesz tutaj zarządzać dodatkowymi zachowaniami związanymi z tokenami dostępu.'
+        kill_inactive_tokens: 'Zabij nieaktywne tokeny'
+        kill_inactive_tokens_age_days: 'Zabij nieaktywne tokeny po (dniach)'
+        kill_inactive_tokens_age_days_help: 'Liczba dni braku aktywności, po których tokeny dostępu zostaną usunięte.'
+        kill_inactive_tokens_help: 'Automatycznie zabija tokeny dostępu, które były nieaktywne przez określony czas.'
   email:
     body:
       status_changed: "Witaj {recipient_display_name},\n\nUwierzytelnianie dwuskładnikowe zostało {type} dla Twojego konta na {forum_url}.\n\nJeśli zainicjowałeś tę akcję, dalsze kroki nie są konieczne. Jeśli nie autoryzowałeś tej zmiany, skontaktuj się natychmiast z administratorami forum.\n"
@@ -46,20 +61,30 @@ ianm-twofactor:
       cancel_button: Anuluj
       cannot_disable: 'Bieżąca konfiguracja uniemożliwia wyłączenie uwierzytelniania dwuskładnikowego.'
       cannot_disable_tooltip: 'Nie można wyłączyć 2FA'
+      change_device_button: 'Zmień urządzenie'
+      change_device_description: 'Przenieś 2FA na nowe urządzenie'
+      change_device_heading: 'Zmień urządzenie uwierzytelniające'
+      change_device_title: 'Zmień urządzenie'
       confirm_disable_2fa_text: 'Czy na pewno chcesz wyłączyć uwierzytelnianie dwuskładnikowe?'
       confirm_disable_2fa_text_other_user: 'Czy na pewno chcesz wyłączyć uwierzytelnianie dwuskładnikowe dla {username}? Spowoduje to usunięcie wszystkich kodów zapasowych i wyłączenie 2FA dla konta użytkownika.'
       confirm_disable_2fa_title: 'Potwierdzenie wyłączenia uwierzytelniania dwuskładnikowego'
+      continue_button: Kontynuuj
+      device_changed_confirmation: 'Urządzenie uwierzytelniające zostało pomyślnie zmienione.'
       disable_2fa_button: 'Wyłącz 2FA'
       enable_2fa_button: 'Włącz 2FA'
       enable_2fa_modal_text: 'Zeskanuj poniższy kod QR za pomocą aplikacji uwierzytelniającej, a następnie wprowadź dostarczony token, aby włączyć uwierzytelnianie dwuskładnikowe.'
+      enter_current_token: 'Wprowadź token z bieżącego urządzenia'
+      enter_new_token: 'Wprowadź token z nowego urządzenia'
       enter_token: 'Wpisz token'
       loading_qr: 'Wczytywaniu kodu QR...'
       manual_entry_instruction: 'Wprowadź podany kod do aplikacji uwierzytelniającej, a następnie wprowadź wygenerowany token, aby włączyć uwierzytelnianie dwuskładnikowe.'
       manual_tab: 'Ręczna konfiguracja'
+      new_backup_codes: 'Twoje nowe kody zapasowe'
       ok_button: Ok
       qr_code_alt: 'Kod QR uwierzytelniania dwuskładnikowego'
       qr_tab: 'Zeskanuj kod QR'
       saved_backup_codes_button: 'Zapisałem te kody'
+      scan_new_device_qr: 'Zeskanuj ten kod QR za pomocą nowego urządzenia uwierzytelniającego.'
       scan_qr_instruction: 'Zeskanuj powyższy kod QR za pomocą aplikacji uwierzytelniającej, a następnie wprowadź dostarczony token, aby włączyć uwierzytelnianie dwuskładnikowe.'
       two_factor_apps: 'Aplikacje takie jak {google}, {authy}, {microsoft} i inne są dostępne za darmo.'
       two_factor_disabled: 'Uwierzytelnianie dwuskładnikowe jest wyłączone na tym koncie.'
@@ -69,6 +94,8 @@ ianm-twofactor:
       two_factor_help: 'Uwierzytelnianie dwuskładnikowe (2FA) zapewnia dodatkową warstwę zabezpieczeń konta. Po jego włączeniu, oprócz hasła, wymagane będzie wprowadzenie tokena z aplikacji uwierzytelniającej podczas logowania lub wykonywania niektórych innych czynności. Zapewnia to bezpieczeństwo konta, nawet jeśli hasło zostanie złamane, ponieważ atakujący będą również potrzebować kodu (który zmienia się co 30 sekund), aby uzyskać dostęp do konta.'
       two_factor_title: 'Status:'
       verify_button: Zweryfikuj
+      verify_current_device_message: 'Wprowadź token z bieżącego urządzenia uwierzytelniającego, aby zweryfikować swoją tożsamość.'
+      verify_new_device_message: 'Teraz wprowadź token z nowego urządzenia, aby zakończyć zmianę.'
     user_2fa:
       alert_message: 'Musisz włączyć uwierzytelnianie dwuskładnikowe, aby uzyskać dostęp do swojego konta.'
   views:
