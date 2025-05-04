@@ -7,6 +7,7 @@ CHANGELOG
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 
 
