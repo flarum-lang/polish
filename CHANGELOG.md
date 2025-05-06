@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.10.0 (2025-05-06)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+
+
+Wszystkie zmiany: [v1.9.4...v1.10.0](https://github.com/flarum-lang/polish/compare/v1.9.4...v1.10.0).
+
+
 1.9.4 (2025-04-06)
 ------------------
 
