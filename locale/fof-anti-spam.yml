@@ -29,7 +29,7 @@ fof-anti-spam:
         delete_user_help: 'Spowoduje to nieodwracalne usunięcie użytkownika. Po wyłączeniu tej opcji, użytkownik zostanie zbanowany.'
         delete_user_label: 'Usuń użytkownika'
         heading: 'Domyślne akcje moderacyjne'
-        introduction: "Gdy użytkownik zostanie oznaczony jako spamer, moderatorzy mogą wybierać spośród różnych działań, jak poradzić sobie z konkretnym przypadkiem. Ustawienia te pozwalają na wstępne ustawienie działań, które zwykle podejmujesz, aby przyspieszyć proces, ale także pozwalają na zmiany w razie potrzeby.\n"
+        introduction: 'Gdy użytkownik zostanie oznaczony jako spamer, moderatorzy mogą wybierać spośród różnych działań, jak poradzić sobie z konkretnym przypadkiem. Ustawienia te pozwalają na wstępne ustawienie działań, które zwykle podejmujesz, aby przyspieszyć proces, ale także pozwalają na zmiany w razie potrzeby.'
         move_discussions_to_tags_help: 'Spowoduje to przeniesienie wszystkich dyskusji rozpoczętych przez tego użytkownika do określonych tagów. Wyczyść wybór tagów, aby pozostawić dyskusje w ich oryginalnych tagach. To nie ma wpływu, jeśli opcja "Usuń dyskusje" jest włączona.'
         move_discussions_to_tags_label: 'Przenieś dyskusje do tagu/tagów'
       stopforumspam:
