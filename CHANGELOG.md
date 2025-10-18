@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.1 (XXXX-XX-XX)
+-------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
+Wszystkie zmiany: [v1.10.0...v1.10.1](https://github.com/flarum-lang/polish/compare/v1.10.0...v1.10.1).
+
+
 1.10.0 (2025-05-06)
 -------------------
 
