@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.10.1 (XXXX-XX-XX)
+1.11.0 (XXXX-XX-XX)
 -------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 
 
-Wszystkie zmiany: [v1.10.0...v1.10.1](https://github.com/flarum-lang/polish/compare/v1.10.0...v1.10.1).
+Wszystkie zmiany: [v1.10.0...v1.11.0](https://github.com/flarum-lang/polish/compare/v1.10.0...v1.11.0).
 
 
 1.10.0 (2025-05-06)
