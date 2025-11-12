@@ -5,6 +5,12 @@ CHANGELOG
 1.11.0 (XXXX-XX-XX)
 -------------------
 
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+* Aktualizacja tłumaczeń komunikatów walidacji.
+
+
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
@@ -13,6 +19,7 @@ CHANGELOG
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
 Wszystkie zmiany: [v1.10.0...v1.11.0](https://github.com/flarum-lang/polish/compare/v1.10.0...v1.11.0).
