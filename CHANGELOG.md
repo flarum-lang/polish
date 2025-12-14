@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.11.0 (XXXX-XX-XX)
+1.10.1 (XXXX-XX-XX)
 -------------------
 
 **Ogólne usprawnienia**:
@@ -22,7 +22,7 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
-Wszystkie zmiany: [v1.10.0...v1.11.0](https://github.com/flarum-lang/polish/compare/v1.10.0...v1.11.0).
+Wszystkie zmiany: [v1.10.0...v1.10.1](https://github.com/flarum-lang/polish/compare/v1.10.0...v1.10.1).
 
 
 1.10.0 (2025-05-06)
