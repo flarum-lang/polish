@@ -23,6 +23,7 @@ acpl-lscache:
     serve_stale_label: 'Serwuj nieaktualną treść'
     status_codes_cache_help: 'Podaj kod odpowiedzi HTTP i liczbę sekund przechowywania strony w cache, oddzielone spacją. Po jednym na linię.'
     status_codes_cache_label: 'Domyślny czas życia strony z kodem statusu HTTP'
+    test_failed_alert: 'Wygląda na to, że Twój serwer nie obsługuje LSCache. Sprawdź konfigurację swojego serwera. Wykryty serwer: <b>{server}</b>, wykryty typ serwera LiteSpeed: <b>{type}</b>.'
   forum:
     purge:
       discussion: '=> acpl-lscache.ref.purge_cache'
