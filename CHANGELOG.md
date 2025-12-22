@@ -14,6 +14,7 @@ CHANGELOG
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
