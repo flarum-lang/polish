@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.10.1 (XXXX-XX-XX)
+1.10.1 (2026-01-03)
 -------------------
 
 **Ogólne usprawnienia**:
