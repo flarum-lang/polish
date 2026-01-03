@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+1.10.1 (2026-01-03)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+* Aktualizacja tłumaczeń komunikatów walidacji.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Wszystkie zmiany: [v1.10.0...v1.10.1](https://github.com/flarum-lang/polish/compare/v1.10.0...v1.10.1).
+
+
 1.10.0 (2025-05-06)
 -------------------
 
