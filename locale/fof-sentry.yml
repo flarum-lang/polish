@@ -7,9 +7,8 @@ fof-sentry:
     settings:
       dsn_label: 'Sentry DSN'
       environment_label: 'Sentry Environment'
-      javascript_console_label: 'Przechwytuj konsolę JavaScriptu'
       javascript_label: 'Włącz zgłaszanie błędów JavaScriptu'
       javascript_trace_sample_rate: 'Częstotliwość próbkowania monitorowania wydajności frontendu'
       monitor_performance_label: 'Częstotliwość próbkowania monitorowania wydajności backendu'
-      send_user_emails_label: 'Uwzględniaj adresy e-mail użytkowników w raportach?'
+      send_user_emails_label: 'Uwzględniaj adresy e-mail użytkowników w raportach'
       user_feedback_label: 'Włącz feedback od użytkowników'
