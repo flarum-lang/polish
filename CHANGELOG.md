@@ -5,6 +5,11 @@ CHANGELOG
 1.10.2 (XXXX-XX-XX)
 -------------------
 
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
