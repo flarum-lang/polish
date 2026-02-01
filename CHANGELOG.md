@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.10.2 (2026-02-01)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+
+
+Wszystkie zmiany: [v1.10.1...v1.10.2](https://github.com/flarum-lang/polish/compare/v1.10.1...v1.10.2).
+
+
 1.10.1 (2026-01-03)
 -------------------
 
