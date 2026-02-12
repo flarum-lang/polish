@@ -8,6 +8,7 @@ fof-best-answer:
       qna_label: 'Włącz możliwość ustawiania najlepszej odpowiedzi w tym tagu'
       reminders: 'Wysyłaj przypomnienia o ustawieniu najlepszej odpowiedzi dla dyskusji w tym tagu'
     permissions:
+      allow_select_own_post: 'Wybieranie własnego posta jako najlepszej odpowiedzi'
       best_answer: 'Wybieranie najlepszej odpowiedzi (własna dyskusja)'
       best_answer_not_own_discussion: 'Wybieranie najlepszej odpowiedzi (cudza dyskusja)'
     settings:
@@ -22,6 +23,7 @@ fof-best-answer:
         general: Ogólne
         reminders: Przypomnienia
         reminders_notice: 'Aby przypomnienia działały, harmonogram zadań Flarum musi być prawidłowo skonfigurowany.'
+        search: Szukaj
         tags: 'Tagi najlepszej odpowiedzi'
       schedule_log_output: 'Zapisz logi harmonogramu zadań'
       schedule_on_one_server: 'Użyj dyrektywy "onOneServer()" dla harmonogramu zadań (task scheduler)'
