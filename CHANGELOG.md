@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.3 (XXXX-XX-XX)
+-------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+
+
+Wszystkie zmiany: [v1.10.2...v1.10.3](https://github.com/flarum-lang/polish/compare/v1.10.2...v1.10.3).
+
+
 1.10.2 (2026-02-01)
 -------------------
 
