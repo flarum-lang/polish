@@ -5,6 +5,16 @@ CHANGELOG
 1.10.3 (XXXX-XX-XX)
 -------------------
 
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+
+
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
