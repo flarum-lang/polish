@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.10.3 (2026-02-21)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+
+
+Wszystkie zmiany: [v1.10.2...v1.10.3](https://github.com/flarum-lang/polish/compare/v1.10.2...v1.10.3).
+
+
 1.10.2 (2026-02-01)
 -------------------
 
