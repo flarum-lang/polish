@@ -57,6 +57,12 @@ core:
     dashboard:
       clear_cache_button: 'Wyczyść cache'
       description: 'Podstawowe informacje dotyczące forum.'
+      info_button: 'Informacje systemowe'
+      info_modal:
+        copy_button: 'Skopiuj do schowka'
+        copy_error: 'Kopiowanie do schowka nie powiodło się'
+        copy_success: 'Skopiowano informacje systemowe do schowka'
+        title: 'Informacje o systemie'
       io_error_message: 'Zapis do systemu plików się nie powiódł. Sprawdź uprawnienia systemu plików i spróbuj ponownie, lub spróbuj wykonać tę akcję z poziomu wiersza poleceń.'
       status:
         headers:
@@ -119,8 +125,11 @@ core:
       smtp_heading: 'Ustawienia SMTP'
       title: '=> core.ref.email'
     extension:
+      abandoned_no_replacement: 'To rozszerzenie nie jest już rozwijane przez autora i może nie otrzymać aktualizacji.'
+      abandoned_with_replacement: 'To rozszerzenie zostało zastąpione przez {replacement}. Rozważ migrację do pakietu zastępczego.'
       configure_scopes: 'Konfiguruj zakresy uprawnień'
       confirm_purge: 'Wszystkie wpisy w bazie oraz zasoby powiązane z tym rozszerzeniem zostaną usunięte. Samo rozszerzenie nie zostanie odinstalowane, to musi być dokonane za pomocą Composera. Czy chcesz kontynuować?'
+      deprecated: Przestarzałe
       disabled: Wyłączone
       enable_to_see: 'Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.'
       enabled: Włączone
@@ -140,6 +149,7 @@ core:
         button_label: README
         no_readme: 'Wygląda na to, że to rozszerzenie nie posiada pliku README'
         title: 'Dokumentacja {extName}'
+      replaced: Zastąpione
     header:
       get_help: 'Uzyskaj pomoc'
       log_out_button: '=> core.ref.log_out'
