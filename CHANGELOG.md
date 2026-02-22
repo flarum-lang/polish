@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.4 (XXXX-XX-XX)
+-------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+Wszystkie zmiany: [v1.10.3...v1.10.4](https://github.com/flarum-lang/polish/compare/v1.10.3...v1.10.4).
+
+
 1.10.3 (2026-02-21)
 -------------------
 
