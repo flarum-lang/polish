@@ -9,6 +9,13 @@ blomstra-gdpr:
         anonymize_description: '=> blomstra-gdpr.lib.data.followuser.delete_description'
         delete_description: 'Usuń wszystkie dane dotyczące obserwowanych użytkowników.'
         export_description: 'Wyeksportuj wszystkie dane dotyczące obserwowanych i obserwujących użytkowników.'
+flarum-gdpr:
+  lib:
+    data:
+      followuser:
+        anonymize_description: '=> flarum-gdpr.lib.data.followuser.delete_description'
+        delete_description: 'Usuwa wszystkie dane związane z obserwowanymi użytkownikami.'
+        export_description: 'Eksportuje szczegóły dotyczące obserwowanych użytkowników i obserwujących użytkowników.'
 ianm-follow-users:
   admin:
     permissions:
@@ -32,6 +39,7 @@ ianm-follow-users:
       following: 'Obserwowani użytkownicy'
     followed: '{count, plural, one {Obserwowany} other {Obserwowanych}}'
     followers: '{count, plural, one {Obserwujący} other {Obserwujących}}'
+    followers_link: Obserwujący
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'
@@ -52,6 +60,7 @@ ianm-follow-users:
       new_unfollower_text: '{username} przestał Cię obserwować'
     profile_link: '=> ianm-follow-users.lib.following_link'
     profile_page:
+      no_followers: 'Wygląda na to, że nie masz jeszcze obserwujących.'
       no_following: 'Wygląda na to, że nikogo jeszcze nie obserwujesz.'
     settings:
       block_follow: 'Nie pozwól innym na obserwowanie mnie'
