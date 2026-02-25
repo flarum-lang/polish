@@ -7,6 +7,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
 
