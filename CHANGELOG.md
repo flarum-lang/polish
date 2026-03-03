@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.10.4 (2026-03-03)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+Wszystkie zmiany: [v1.10.3...v1.10.4](https://github.com/flarum-lang/polish/compare/v1.10.3...v1.10.4).
+
+
 1.10.3 (2026-02-21)
 -------------------
 
