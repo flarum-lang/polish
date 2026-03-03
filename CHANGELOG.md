@@ -5,6 +5,11 @@ CHANGELOG
 1.10.4 (XXXX-XX-XX)
 -------------------
 
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+
+
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
