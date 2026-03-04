@@ -2,10 +2,30 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-geoip/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
-fof-geoip:
+fof-default-user-preferences:
   admin:
     settings:
+      showIPCountry: 'Pokazuj flagę kraju, z którego pisze użytkownik'
+      showIPCountry-help: 'Funkcja działa w oparciu o adres IP z momentu publikacji posta. Flaga kraju (jeśli jest włączona) będzie widoczna dla wszystkich. Administratorzy i moderatorzy po najechaniu na nią zobaczą w dymku sam adres IP.'
+fof-geoip:
+  admin:
+    permissions:
+      see_country: 'Wyświetlanie kraju pochodzenia adresu IP'
+    settings:
       access_key_label: 'Access Key'
+      error_code_prefix: 'Kod:'
+      error_prefix: 'Błąd:'
+      general:
+        heading: 'Ustawienia ogólne'
+        help: 'Te ustawienia kontrolują ogólne zachowanie rozszerzenia.'
+      providers:
+        heading: 'Usługa sprawdzania IP'
+        help: 'Wybierz usługę do sprawdzania adresów IP. Niektóre z nich nakładają limity zapytań, więc upewnij się, że zapoznałeś się z ich dokumentacją, aby uzyskać więcej informacji.'
+      quota_label: 'Limit zapytań'
+      raw_http_response_label: 'Surowa treść odpowiedzi HTTP'
+      request_options_label: 'Opcje żądania'
+      request_url_label: 'URL żądania'
+      response_headers_label: 'Nagłówki odpowiedzi'
       security_label: 'Security Module (wymaga planu Professional Plus)'
       service_freegeoip_description: 'Użyj <b>https://freegeoip.app/</b>, aby sprawdzić kody krajów dla maksymalnie 15 000 IP na godzinę, całkiem za darmo.'
       service_freegeoip_label: FreeGeoIP
@@ -15,6 +35,8 @@ fof-geoip:
       service_ipapi_label: IP-API
       service_ipdata_description: 'Użyj <b>https://ipdata.co</b>, aby sprawdzić do 1 500 IP dziennie, całkiem za darmo. Dostępne są również płatne plany z wyższymi limitami użytkowania.'
       service_ipdata_label: IPData
+      service_ipinfo-lite_description: 'Użyj <b>https://ipinfo.io</b>, aby pobierać informacje o IP bez żadnych limitów i ograniczeń. Wymaga darmowej rejestracji w celu uzyskania klucza API.'
+      service_ipinfo-lite_label: 'IPInfo Lite'
       service_iplocation_description: 'Użyj <b>https://www.iplocation.net/</b>, aby pobrać informacje o kraju i ISP. Limity dotyczące częstotliwości odwołań do API nie są znane.'
       service_iplocation_label: 'IP Location'
       service_ipsevenex_description: 'Użyj <b>https://7x.ax</b>, aby uzyskać bezpłatny klucz API dla maksymalnie 20 żądań na minutę. Dostępne są również płatne plany dla wyższych limitów użytkowania.'
@@ -22,10 +44,33 @@ fof-geoip:
       service_ipstack_description: 'Użyj <b>https://ipstack.com</b>, aby sprawdzić do 10 000 IP na miesiąc, w ramach darmowego pakietu. Płatne plany zawierają informacje o połączeniu (ISP, organizacja) oraz poziomie zagrożenia.'
       service_ipstack_label: IPStack
       service_label: Usługa
+      show_flag_help: 'Wyświetla flagę kraju przypisaną do adresu IP autora posta (bez ujawniania samego adresu), jeśli użytkownik włączy tę opcję w swoich preferencjach.'
+      show_flag_label: 'Pokazuj flagę kraju przy każdym poście'
+      status_error: '✗ Błąd'
+      status_success: '✓ Sukces'
+      status_unknown: Nieznany
+      test:
+        heading: 'Test konfiguracji usługi'
+        help: 'Przetestuj konfigurację usługi sprawdzania IP za pomocą przykładowego adresu. Przed wykonaniem testu upewnij się, że zapisałeś ustawienia.'
+      test_button: 'Przetestuj usługę'
+      test_error: 'Wystąpił błąd podczas testowania usługi.'
+      test_error_details_label: 'Szczegóły błędu:'
+      test_http_status_code_label: 'Kod statusu HTTP:'
+      test_ip_required: 'Wprowadź adres IP do przetestowania.'
+      test_processed_service_response_label: 'Przetworzona odpowiedź z usługi:'
+      test_response_time_label: 'Czas odpowiedzi:'
+      test_result_title: 'Wynik testu'
+      test_service_help: 'Wprowadź adres IPv4 lub IPv6, aby przetestować obecną konfigurację usługi.'
+      test_service_label: 'Przetestuj usługę sprawdzania IP'
+      test_service_label_result: 'Usługa:'
+      test_status_label: 'Status:'
+      test_timestamp_label: 'Znacznik czasu:'
+      testing: Testowanie...
       title: 'FriendsOfFlarum GeoIP'
   forum:
     alerts:
       ip_copied: 'Skopiowano adres IP'
+    copy_ip_label: 'Skopiuj adres IP do schowka'
     map_button_label: 'Informacje o IP'
     map_modal:
       as: ASN
@@ -36,5 +81,10 @@ fof-geoip:
       mobile: 'Sieć komórkowa'
       not_enough_data: 'Za mało danych, aby narysować mapę'
       organization: Organizacja
+      threat_level: 'Poziom zagrożenia'
+      threat_types: 'Typy zagrożeń'
       title: 'Informacje o IP'
       zip_code: 'Kod pocztowy'
+    user:
+      settings:
+        ip_country: 'Pokazuj flagę kraju, z którego piszę, na podstawie mojego adresu IP'

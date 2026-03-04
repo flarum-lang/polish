@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-ban-ips/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      bannedipdata:
+        anonymize_description: 'Wszystkie adresy IP powiązane z użytkownikiem zostaną odłączone, jednak sam adres IP pozostanie zablokowany wraz z podanym powodem. Upewnij się, że w polu „powód” nie są przechowywane żadne dane osobowe.'
+        export_description: 'Jeśli wpis blokady IP jest powiązany z użytkownikiem (tzn. użytkownik został zablokowany na podstawie adresu IP), w eksporcie znajdzie się jego adres IP wraz z powodem blokady i datą jej utworzenia.'
 fof-ban-ips:
   admin:
     empty_text: 'Nie znaleziono żadnych zbanowanych IP.'

@@ -6,6 +6,12 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 'Zaawansowane ustawienia'
+      build_button: 'Przebuduj mapy witryny teraz'
+      build_button_help: 'Natychmiast uruchamia przebudowę wszystkich plików mapy witryny. Zadanie zostanie dodane do kolejki, jeśli jest skonfigurowana; w przeciwnym razie zostanie wykonane od razu.'
+      build_error: 'Nie udało się dodać zadania przebudowy mapy witryny do kolejki. Sprawdź logi i konfigurację kolejki.'
+      build_success: 'Zadanie przebudowy mapy witryny zostało pomyślnie dodane do kolejki. Sprawdź logi, aby monitorować postęp.'
+      exclude_tags: 'Wyklucz wszystkie strony tagów z mapy witryny'
+      exclude_tags_help: 'Domyślnie wszystkie tagi widoczne dla gości będą indeksowane'
       exclude_users: 'Wyklucz wszystkie profile użytkowników z mapy witryny'
       exclude_users_help: 'Domyślnie każdy użytkownik widoczny dla gości będzie zawarty w mapie witryny'
       frequency:
@@ -13,6 +19,11 @@ fof-sitemap:
         hourly: 'Co godzinę'
         twice_daily: '2 razy dziennie'
       frequency_label: 'Jak często harmonogram zadań powinien generować ponownie mapę zapisaną w cache?'
+      include_changefreq: 'Dołącz wartości częstotliwości zmian w mapie witryny'
+      include_changefreq_help: 'Wartości częstotliwości zmian są ignorowane przez Google, ale mogą być używane przez inne wyszukiwarki do planowania indeksowania'
+      include_priority: 'Dołącz wartości priorytetu w mapie witryny'
+      include_priority_help: 'Wartości priorytetu są ignorowane przez Google, ale mogą być używane przez inne wyszukiwarki, takie jak Bing i Yandex'
+      last_build_time: 'Czas ostatniej przebudowy'
       mode_help: 'Wybór trybu odpowiedniego dla wielkości Twojego forum jest bardzo ważny.'
       mode_help_large: '50 000 pozycji to techniczne ograniczenie dla pliku mapy witryny. Jeśli Twoje forum ma więcej pozycji, użyj poniższej opcji!'
       mode_help_multi: 'Najlepszy dla dużych forów, posiadających ponad 10 000 pozycji w mapie witryny. Mapa witryny zostanie rozbita na kilka skompresowanych plików zapisanych w katalogu <code>/public</code>.'
