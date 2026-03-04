@@ -10,6 +10,7 @@ fof-user-directory:
       default-sort: 'Domyślne sortowanie'
       disable-global-search-source: 'Nie wyświetlaj katalogu użytkowników w podpowiedziach wyszukiwarki Flarum'
       link: 'Dodaj link do katalogu użytkowników na stronie głównej'
+      link-group-mentions: 'Linkuj wzmianki o grupach w postach do katalogu użytkowników'
       use-small-cards: 'Użyj małych kart użytkowników'
   forum:
     header:
