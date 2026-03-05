@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.10.5 (2026-03-05)
+-------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+
+
+Wszystkie zmiany: [v1.10.4...v1.10.5](https://github.com/flarum-lang/polish/compare/v1.10.4...v1.10.5).
+
+
 1.10.4 (2026-03-03)
 -------------------
 
