@@ -5,6 +5,11 @@ CHANGELOG
 1.10.6 (XXXX-XX-XX)
 -------------------
 
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
