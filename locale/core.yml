@@ -651,6 +651,7 @@ core:
       csrf_token_mismatch: 'Zbyt długo byłeś nieaktywny.'
       csrf_token_mismatch_return_link: 'Cofnij się, aby spróbować ponownie'
       invalid_confirmation_token: 'Ten link aktywacyjny został już użyty lub jest nieprawidłowy.'
+      method_not_allowed: 'Ta strona nie obsługuje tej metody żądania.'
       not_authenticated: 'Nie masz uprawnień, aby przeglądać tę stronę. Spróbuj ponownie po zalogowaniu.'
       not_found: 'Podana strona nie istnieje.'
       not_found_return_link: 'Wróć na {forum}'
