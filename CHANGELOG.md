@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.6 (XXXX-XX-XX)
+-------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+
+
+Wszystkie zmiany: [v1.10.5...v1.10.6](https://github.com/flarum-lang/polish/compare/v1.10.5...v1.10.6).
+
+
 1.10.5 (2026-03-05)
 -------------------
 
