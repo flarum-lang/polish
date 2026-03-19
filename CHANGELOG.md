@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.7 (XXXX-XX-XX)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+
+
+Wszystkie zmiany: [v1.10.6...v1.10.7](https://github.com/flarum-lang/polish/compare/v1.10.6...v1.10.7).
+
+
 1.10.6 (2026-03-10)
 -------------------
 
