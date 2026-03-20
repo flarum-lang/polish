@@ -5,7 +5,7 @@
 fof-move-posts:
   admin:
     permissions:
-      move_posts: '=> sycho-move-posts.ref.move_posts'
+      move_posts: 'Przenoszenie postów'
     settings:
       group_sequential_posts: 'Grupuj kolejne posty informujące o przeniesieniu.'
       moved_first_post_content: 'Treść pierwszego posta w przeniesionej dyskusji'
