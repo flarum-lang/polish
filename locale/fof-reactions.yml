@@ -16,7 +16,7 @@ fof-reactions:
           display: 'Wyświetlana nazwa'
           identifier: Identyfikator
         reactions: 'Obecne reakcje'
-        title: 'Niestandardowe reakcje'
+        title: Reakcje
       settings:
         integrations:
           gamification:
