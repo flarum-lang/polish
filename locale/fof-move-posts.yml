@@ -23,6 +23,7 @@ fof-move-posts:
       move_posts_to_same_discussion: 'Nie możesz przenieść postów do tej samej dyskusji.'
     modal:
       check: 'Sprawdź typ operacji'
+      confirm_move_all_to_new_discussion: 'Zamierzasz przenieść wszystkie posty z tej dyskusji do nowej. W większości przypadków lepiej zamiast tego edytować istniejącą dyskusję, na przykład zmieniając jej tytuł, tagi lub inne atrybuty. Czy chcesz kontynuować?'
       destination: 'Dyskusja docelowa'
       discussion_help: 'Zastosowane zostaną tagi z dyskusji źródłowej. Można je zmienić po utworzeniu nowej.'
       discussion_name: '=> core.forum.composer_discussion.title_placeholder'
