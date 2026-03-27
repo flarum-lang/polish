@@ -11,6 +11,11 @@ CHANGELOG
 * Usunięto przestarzałe komunikaty walidacji (wspierana jest wersja `2.0` lub wyższa).
 
 
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+
+
 **Zaktualizowano i/lub usunięto przestarzałe frazy dla rozszerzeń**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
