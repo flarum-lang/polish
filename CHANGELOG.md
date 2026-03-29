@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.8 (XXXX-XX-XX)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+
+
+Wszystkie zmiany: [v1.10.7...v1.10.8](https://github.com/flarum-lang/polish/compare/v1.10.7...v1.10.8).
+
+
 1.10.7 (2026-03-23)
 -------------------
 
