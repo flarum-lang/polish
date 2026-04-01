@@ -10,6 +10,11 @@ CHANGELOG
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 
 
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+
+
 Wszystkie zmiany: [v1.10.7...v1.10.8](https://github.com/flarum-lang/polish/compare/v1.10.7...v1.10.8).
 
 
