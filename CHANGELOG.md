@@ -8,6 +8,7 @@ CHANGELOG
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
