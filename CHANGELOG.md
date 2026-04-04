@@ -13,6 +13,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 
 
