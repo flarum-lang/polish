@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.10.8 (2026-04-04)
+-------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+
+
+Wszystkie zmiany: [v1.10.7...v1.10.8](https://github.com/flarum-lang/polish/compare/v1.10.7...v1.10.8).
+
+
 1.10.7 (2026-03-23)
 -------------------
 
