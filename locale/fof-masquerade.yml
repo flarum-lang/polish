@@ -17,6 +17,7 @@ fof-masquerade:
       edit-field: 'Zapisz zmiany'
     fields:
       add: 'Dodaj pole {field}'
+      create: 'Utwórz pole'
       delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć pole {field}? Ta operacje nie może zostać cofnięta.'
       description: 'Opis pola'
       description-help: "Opcjonalny opis wyjaśniający przeznaczenie tego pola.\n"
