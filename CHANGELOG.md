@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.9 (XXXX-XX-XX)
+-------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+Wszystkie zmiany: [v1.10.8...v1.10.9](https://github.com/flarum-lang/polish/compare/v1.10.8...v1.10.9).
+
+
 1.10.8 (2026-04-04)
 -------------------
 
