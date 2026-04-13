@@ -12,8 +12,11 @@ CHANGELOG
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
 * [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
 
 
 Wszystkie zmiany: [v1.10.8...v1.10.9](https://github.com/flarum-lang/polish/compare/v1.10.8...v1.10.9).
