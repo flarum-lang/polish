@@ -10,6 +10,12 @@ CHANGELOG
 * Aktualizacja tłumaczeń głównego silnika Flarum.
 
 
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+
+
 Wszystkie zmiany: [v1.10.8...v1.10.9](https://github.com/flarum-lang/polish/compare/v1.10.8...v1.10.9).
 
 
