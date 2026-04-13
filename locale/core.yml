@@ -7,7 +7,7 @@ core:
     announcements:
       about: 'Najnowsze wiadomości i ogłoszenia pochodzące z oficjalnej społeczności Flarum na stronie discuss.flarum.org.'
       comments_label: '{count, plural, one {# komentarz} few {# komentarze} other {# komentarzy}}'
-      description: 'Ostatnie wiadomości o ogłoszenia od zespołu Flarum.'
+      description: 'Ostatnie wiadomości i ogłoszenia od zespołu Flarum.'
       empty: 'Nie znaleziono ogłoszeń.'
       hide: 'Ukryj ogłoszenia'
       load_error: 'Nie można załadować ogłoszeń. Spróbuj ponownie później.'
