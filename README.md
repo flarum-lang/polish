@@ -14,7 +14,7 @@ Paczka zawiera tłumaczenia dla Flarum (kompatybilne z wersją `1.3.0` lub nowsz
 Rozszerzenie instalujemy za pomocą [Composera](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/polish
+composer require "flarum-lang/polish:*"
 ```
 
 Po czym w panelu admina włączamy rozszerzenie.
@@ -28,16 +28,10 @@ Aktualizacje instalujemy za pomocą [Composera](https://getcomposer.org/):
 composer update flarum-lang/polish
 ```
 
-Lub aby wymusić najnowszą wersję (zalecane przy aktualizacji do nowej wersji Flarum — sprawdź wcześniej [changelog](https://github.com/flarum-lang/polish/blob/master/CHANGELOG.md), czy żadne z wykorzystywanych przez Ciebie rozszerzeń nie utraciło wsparcia):
-
-```console
-composer require flarum-lang/polish
-```
-
 Jeśli lubisz życie na krawędzi, możesz korzystać z wersji niestabilnej (może zawierać niezweryfikowane frazy zaproponowane przez społeczność):
 
 ```console
-composer require "flarum-lang/polish:1.x-dev"
+composer require "flarum-lang/polish:@dev"
 ```
 
 Po aktualizacji czyścimy cache:
@@ -52,7 +46,7 @@ Przy wydaniu wersji `1.0.0` paczka zmieniła nazwę z `rob006/flarum-lang-polish
 
 ```console
 composer remove rob006/flarum-lang-polish
-composer require flarum-lang/polish
+composer require "flarum-lang/polish:*"
 ```
 
 Po czym w panelu admina włączamy nowe rozszerzenie.
