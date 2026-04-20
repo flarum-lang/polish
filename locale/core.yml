@@ -47,7 +47,7 @@ core:
       display_name_heading: 'Wyświetlana nazwa użytkownika'
       display_name_text: 'Wybierz sterownik, który powinien być używany do wyświetlania nazw użytkowników. Domyślnie wyświetlana jest nazwa użytkownika.'
       forum_description_heading: 'Opis forum'
-      forum_description_text: 'Wpisz 1-2 krótkie zdania, które opisują Twoją społeczność. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.'
+      forum_description_text: 'Wpisz 1-2 krótkie zdania, które opisują Twoje forum. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.'
       forum_title_heading: 'Nazwa forum'
       home_page_heading: 'Strona domowa'
       home_page_text: 'Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.'
