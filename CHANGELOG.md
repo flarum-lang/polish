@@ -10,6 +10,11 @@ CHANGELOG
 * Aktualizacja tłumaczeń głównego silnika Flarum.
 
 
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+
+
 Wszystkie zmiany: [v2.0.0...v2.0.1](https://github.com/flarum-lang/polish/compare/v2.0.0...v2.0.1).
 
 
