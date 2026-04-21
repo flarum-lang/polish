@@ -7,3 +7,5 @@ fof-photoswipe:
     arrow_next_title: Następny
     arrow_prev_title: Poprzedni
     close_title: Zamknij
+    error_msg: 'Nie można załadować tego obrazka'
+    zoom_title: Powiększ
