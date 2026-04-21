@@ -12,6 +12,7 @@ CHANGELOG
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 
 
