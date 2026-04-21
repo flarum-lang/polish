@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.10 (XXXX-XX-XX)
+--------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+
+
+Wszystkie zmiany: [v1.10.9...v1.10.10](https://github.com/flarum-lang/polish/compare/v1.10.9...v1.10.10).
+
+
 1.10.9 (2026-04-18)
 -------------------
 
