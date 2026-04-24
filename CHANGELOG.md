@@ -15,6 +15,7 @@ CHANGELOG
 * [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
 
 
 Wszystkie zmiany: [v2.0.0...v2.0.1](https://github.com/flarum-lang/polish/compare/v2.0.0...v2.0.1).
