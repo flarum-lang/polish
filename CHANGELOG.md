@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+2.0.1 (2026-04-25)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+
+
+Wszystkie zmiany: [v2.0.0...v2.0.1](https://github.com/flarum-lang/polish/compare/v2.0.0...v2.0.1).
+
+
 2.0.0 (2026-04-18)
 ------------------
 
