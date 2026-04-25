@@ -18,6 +18,11 @@ CHANGELOG
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 
 
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+
+
 Wszystkie zmiany: [v2.0.0...v2.0.1](https://github.com/flarum-lang/polish/compare/v2.0.0...v2.0.1).
 
 
