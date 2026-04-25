@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.10.10 (XXXX-XX-XX)
+1.10.10 (2026-04-25)
 --------------------
 
 **Dodano wsparcie dla nowych rozszerzeń**:
