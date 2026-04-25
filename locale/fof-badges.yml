@@ -4,5 +4,24 @@
 
 fof-badges:
   admin:
+    category_enabled: Włączona
+    create_category: 'Utwórz kategorię'
+    enabled: Włączona
+    headers:
+      badges: Odznaki
+    permissions:
+      moderate: 'Zarządzaj odznakami'
+    settings:
+      save: 'Zapisz ustawienia'
+      show_badges_on_user_card: 'Pokaż odznaki w profilu użytkownika'
     tabs:
       badges: Odznaki
+      categories: Kategorie
+      settings: Ustawienia
+    uncategorized: 'Bez kategorii'
+  forum:
+    badges_title: Odznaki
+    nav:
+      badges: Odznaki
+    user:
+      badges_tab: Odznaki
