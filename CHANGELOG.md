@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.10.10 (2026-04-25)
+--------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+
+
+Wszystkie zmiany: [v1.10.9...v1.10.10](https://github.com/flarum-lang/polish/compare/v1.10.9...v1.10.10).
+
+
 1.10.9 (2026-04-18)
 -------------------
 
