@@ -11,6 +11,11 @@ CHANGELOG
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 
 
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+
+
 Wszystkie zmiany: [v1.10.9...v1.10.10](https://github.com/flarum-lang/polish/compare/v1.10.9...v1.10.10).
 
 
