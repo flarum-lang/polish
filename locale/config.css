@@ -7,7 +7,8 @@
  * with this source code in the file LICENSE.
  */
 
-.DiscussionPage-nav .item-controls .ButtonGroup > .Button {
+/* this could be removed after https://github.com/flarum/framework/issues/4621 is fixed */
+.Button-labelText {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
