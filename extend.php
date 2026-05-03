@@ -11,5 +11,4 @@
 
 return [
 	new Flarum\Extend\LanguagePack(),
-	(new Flarum\Extend\Frontend('forum'))->css(__DIR__ . '/less/main.less'),
 ];
