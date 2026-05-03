@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.11 (XXXX-XX-XX)
+--------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja stylów.
+
+
+Wszystkie zmiany: [v1.10.10...v1.10.11](https://github.com/flarum-lang/polish/compare/v1.10.10...v1.10.11).
+
+
 1.10.10 (2026-04-25)
 --------------------
 
