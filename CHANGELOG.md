@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja stylów.
+
+
+Wszystkie zmiany: [v2.0.1...v2.0.2](https://github.com/flarum-lang/polish/compare/v2.0.1...v2.0.2).
+
+
 2.0.1 (2026-04-25)
 ------------------
 
