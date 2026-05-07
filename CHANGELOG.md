@@ -10,6 +10,11 @@ CHANGELOG
 * Aktualizacja stylów.
 
 
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+
+
 Wszystkie zmiany: [v2.0.1...v2.0.2](https://github.com/flarum-lang/polish/compare/v2.0.1...v2.0.2).
 
 
