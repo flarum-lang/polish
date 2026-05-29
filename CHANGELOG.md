@@ -8,6 +8,7 @@ CHANGELOG
 **Ogólne usprawnienia**:
 
 * Aktualizacja stylów.
+* Aktualizacja tłumaczeń głównego silnika Flarum.
 
 
 **Dodano wsparcie dla nowych rozszerzeń**:
