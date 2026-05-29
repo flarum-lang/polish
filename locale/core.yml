@@ -4,6 +4,52 @@
 
 core:
   admin:
+    advanced:
+      description: 'Skonfiguruj zaawansowane ustawienia swojego forum.'
+      fontawesome:
+        cdn_url_help: 'Pełny adres URL pliku CSS FontAwesome w sieci CDN'
+        cdn_url_label: 'Adres URL CDN''a'
+        config_override:
+          label: 'Nadpisanie konfiguracji'
+        kit_url_help: 'Adres URL skryptu zestawu FontAwesome (z kit.fontawesome.com)'
+        kit_url_label: 'Adres URL zestawu'
+        section_label: 'Ikony FontAwesome'
+        source_cdn: CDN
+        source_help: 'Wybierz sposób wczytywania ikon FontAwesome. Local korzysta z dołączonych czcionek, CDN ładuje się z CDN, a Kit korzysta z zestawów FontAwesome z niestandardowymi ikonami.'
+        source_kit: 'Zestaw FontAwesome'
+        source_label: 'Źródło ikony'
+        source_local: 'Lokalny (pakiet)'
+      maintenance:
+        bisect:
+          begin_button_text: 'Rozpocznij Podział'
+          continue_button_text: 'Kontynuuj Podział'
+          help: 'Pomaga zidentyfikować rozszerzenie powodujące zaobserwowany problem. Automatycznie przełącza forum w tryb konserwacji (niski poziom) aż do zakończenia procesu.'
+          label: 'Rozszerzenie Podziału'
+        bisect_modal:
+          description: "Przełącza forum w tryb konserwacji (niski poziom) do zakończenia procesu. Na każdym etapie niektóre rozszerzenia zostaną wyłączone, aż do znalezienia tego, które powoduje problem. Nie dziw się więc, jeśli zauważysz brakujące funkcje lub zmieniony wygląd motywu. Zachowaj otwartą tę stronę i spróbuj odtworzyć problem po każdym etapie na osobnej stronie. Możesz zawsze wrócić na tę stronę, jeśli przypadkowo ją zamkniesz.\n"
+          end_button: 'Zamknij i przejdź do strony rozszerzenia'
+          issue_question: 'Czy problem nadal występuje?'
+          issue_question_help: 'Spróbuj odtworzyć problem na osobnej stronie i odpowiedz na podstawie wyniku.'
+          no_button: Nie
+          result_description: "Forum nie jest już w trybie konserwacji. Rozszerzenie podziału zostało zakończone. Na podstawie Twoich odpowiedzi na każdy krok, przyczyną problemu jest następujące rozszerzenie:\n"
+          start_button: 'Rozpocznij podział'
+          steps_left: 'Pozostało kroków: {steps}'
+          stop_button: 'Zakończ podział'
+          title: 'Rozszerzenie Podziału'
+          total_steps: 'Zajmie to około {steps} kroków.'
+          yes_button: Tak
+        config_override:
+          help: 'Nadal możesz zmienić te ustawienia, ale nie zaczną one obowiązywać, dopóki nie ustawisz <code>offline</code> na <code>0</code> w pliku <code>config.php</code>.'
+          label: 'Twój plik <code>config.php</code> zastępuje te ustawienia.'
+        help: 'Przełącz forum w tryb konserwacji, aby uniemożliwić użytkownikom dostęp do niego.'
+        options:
+          high: 'Tryb intensywnej konserwacji. Nikt nie może uzyskać dostępu do forum (można włączyć tylko za pomocą pliku config.php)'
+          low: 'Tryb niskiej konserwacji. Administratorzy mogą uzyskać dostęp do forum.'
+          none: 'Brak konserwacji.'
+          safe: 'Tryb awaryjny. Żadne rozszerzenia nie są uruchamiane, a dostęp do forum mają tylko administratorzy.'
+        safe_mode_extensions: 'Rozszerzenia, które mogą się uruchamiać w trybie awaryjnym'
+        safe_mode_extensions_override_help: 'To ustawienie jest zastępowane przez klucz <code>safe_mode_extensions</code> w pliku <code>config.php</code>. (<b>{extensions}</b>)'
+        section_label: Konserwacja
     announcements:
       about: 'Najnowsze wiadomości i ogłoszenia pochodzące z oficjalnej społeczności Flarum na stronie discuss.flarum.org.'
       comments_label: '{count, plural, one {# komentarz} few {# komentarze} other {# komentarzy}}'
