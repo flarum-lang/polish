@@ -20,6 +20,11 @@ CHANGELOG
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 
 
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/flags`](https://github.com/flarum/flags)
+
+
 Wszystkie zmiany: [v2.0.1...v2.0.2](https://github.com/flarum-lang/polish/compare/v2.0.1...v2.0.2).
 
 
