@@ -264,7 +264,6 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lan
 | [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/tituspijean-auth-ldap/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/tituspijean-auth-ldap/pl/) |
 | [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/tpokorra-post-notification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/tpokorra-post-notification/pl/) |
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/pl/) |
-| [`v17development/flarum-seo`](https://github.com/FriendsOfFlarum/seo) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/pl/) |
 
 <!-- various-extensions-list-stop -->
 
