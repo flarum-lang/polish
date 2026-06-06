@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+2.0.2 (2026-06-06)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flarum/flags`](https://github.com/flarum/flags)
+
+
+Wszystkie zmiany: [v2.0.1...v2.0.2](https://github.com/flarum-lang/polish/compare/v2.0.1...v2.0.2).
+
+
 2.0.1 (2026-04-25)
 ------------------
 
