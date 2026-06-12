@@ -8,6 +8,7 @@ CHANGELOG
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 
 
 Wszystkie zmiany: [v2.0.2...v2.0.3](https://github.com/flarum-lang/polish/compare/v2.0.2...v2.0.3).
