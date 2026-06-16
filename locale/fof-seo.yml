@@ -37,6 +37,56 @@ fof-seo:
         learn_more_line: '<a>Dowiedz się więcej</a> o liście do-follow.'
         title: 'Lista do-follow'
     pages:
+      health:
+        checks:
+          crawl:
+            button: 'Przejrzyj ustawienia postów'
+            label: 'Przejrzyj ustawienia indeksowania postów w dyskusjach'
+            reason: 'Musisz przejrzeć to ustawienie, aby test został zaliczony.'
+          description:
+            button: 'Zaktualizuj opis'
+            label: 'Sprawdza, czy forum ma opis'
+            reason_default: 'Nie zmieniono domyślnego opisu forum po instalacji!'
+            reason_missing: 'Nie ustawiono jeszcze opisu forum!'
+            reason_too_short: 'Opis forum ma mniej niż 20 znaków. Rozszerz go, aby poprawić wyniki w wyszukiwarkach.'
+          keywords:
+            button: 'Zaktualizuj słowa kluczowe'
+            label: 'Sprawdza, czy forum ma ustawione słowa kluczowe'
+            reason: 'Nie ustawiono jeszcze słów kluczowych forum!'
+          meta_tags:
+            label: 'Sprawdza, czy forum ma dostępne meta tagi (generowane przez to rozszerzenie)'
+          review:
+            button: 'OK, przejrzałem!'
+            label: 'Przeglądaj ustawienia SEO co dwa miesiące. Następny przegląd: {date}'
+            reason: 'Czas ponownie przejrzeć ustawienia SEO.'
+          robots:
+            button: 'Dowiedz się więcej o dodawaniu robots.txt'
+            label: 'Sprawdza, czy forum ma dostępny plik robots.txt'
+            reason: 'Plik robots.txt jest dostarczany przez rozszerzenie FriendsOfFlarum Sitemap. Zainstaluj je i włącz, aby udostępnić robots.txt wyszukiwarkom.'
+          search_engines:
+            button: 'Więcej informacji'
+            label: 'Zarejestruj forum w wyszukiwarkach'
+            reason: 'Musisz przejrzeć tę sekcję, aby test został zaliczony.'
+          sitemap:
+            button: 'Dowiedz się więcej o dodawaniu mapy witryny'
+            label: 'Sprawdza, czy forum ma dostępną mapę witryny'
+            reason: 'Zdecydowanie zalecamy instalację rozszerzenia FriendsOfFlarum Sitemap!'
+          social_media:
+            button: 'Zaktualizuj obraz'
+            label: 'Ustaw obraz dla mediów społecznościowych'
+            reason: 'Nie ustawiono obrazu dla mediów społecznościowych dla Twojego forum. Zalecamy jego dodanie. Obecnie jako podgląd w mediach społecznościowych zostanie użyta faviconka.'
+          ssl:
+            button: 'Jak skonfigurować SSL'
+            label: 'Sprawdza, czy witryna ma dostępne bezpieczne połączenie (SSL/TLS)'
+            reason: 'Twoje forum nie wymusza połączenia SSL/TLS, czyli bezpiecznego połączenia z witryną. Większość wyszukiwarek nie zaindeksuje witryny bez bezpiecznego połączenia albo obniży jej pozycję.'
+        default_button: 'Zaktualizuj ustawienie'
+        legend: 'Aby uzyskać najlepsze wyniki w wyszukiwarkach, upewnij się, że wszystkie testy są zielone.'
+        status:
+          passed: 'Wszystko gotowe!'
+          warning: Ostrzeżenie!
+        table:
+          status: Status
+          technique: Technika
       search_engines:
         bing_heading: 'Dodaj swoją witrynę do wyników wyszukiwania Bing'
         bing_sitemap: 'Nie zapomnij skonfigurować adresu URL mapy witryny. Po zweryfikowaniu witryny wszystko jest gotowe i Bing zacznie ją indeksować.'
@@ -66,9 +116,18 @@ fof-seo:
         why_body: 'Mapa witryny to plik XML z listą wszystkich dostępnych stron w Twojej witrynie. Roboty i wyszukiwarki używają go do odnajdywania stron.'
         why_heading: 'Dlaczego warto używać mapy witryny?'
       ssl:
+        added_heading: 'OK, SSL został dodany!'
+        how_body: 'Jeśli korzystasz z hostingu, najczęściej wystarczy wejść do panelu hostingowego, przejść do ustawień hostingu swojej strony i kliknąć SSL. Następnie postępuj zgodnie z instrukcjami. Większość firm hostingowych obsługuje dziś popularnego wystawcę certyfikatów {link}.'
+        how_heading: 'Jak dodać SSL do witryny?'
         intro_body: 'Świadomość bezpieczeństwa i prywatności w sieci rośnie. <b>Prawie każdy</b> deweloper lub właściciel strony chce, aby jego witryna była bezpieczna dla odwiedzających, tak aby nie musieli obawiać się kradzieży danych przez hakerów lub podszywania się pod stronę.'
         intro_heading: 'Dlaczego potrzebuję bezpiecznego połączenia?'
+        no_ssl_body: 'W takim przypadku możesz odinstalować to rozszerzenie, ponieważ wyszukiwarki ze względów bezpieczeństwa <b>nie będą indeksować Twojego forum</b> albo umieszczą je znacznie niżej niż inne strony.'
+        no_ssl_heading: 'A jeśli nie chcę dodawać SSL?'
+        rankings_body: 'Jeśli Twoja witryna nie ma bezpiecznego połączenia, wyszukiwarki będą pozycjonować ją znacznie niżej niż inne strony albo mogą jej w ogóle nie indeksować.'
+        rankings_body_ssl: 'Jeśli masz SSL, Twoja witryna może uzyskać wyższą pozycję i będzie indeksowana.'
         rankings_heading: 'Wyszukiwarki {icon} bezpieczne połączenia'
+        what_body: 'Większość osób zna <b>https</b>, używane do bezpiecznych połączeń, jako SSL: <i>Secure Sockets Layer</i>. Oficjalnie jest to TLS: <i>Transport Layer Security</i>. Ta metoda tworzy bezpieczne połączenie z serwerem WWW, chroni przed podszywaniem się pod Twoją witrynę i dba o bezpieczeństwo odwiedzających. Jeśli dojdzie do naruszenia połączenia SSL, przeglądarka ostrzeże użytkownika, że strona nie jest zaufana.'
+        what_heading: 'Czym jest SSL lub TLS?'
     permissions:
       category_label: SEO
       configure_seo: 'Konfigurowanie SEO'
@@ -113,3 +172,84 @@ fof-seo:
         button: 'Wróć do podsumowania i sprawdź ponownie'
         heading: 'Zaktualizowano to ustawienie?'
         help: 'Jeśli uważasz, że wszystko jest gotowe, kliknij poniższy przycisk, aby ponownie sprawdzić status tego ustawienia.'
+  forum:
+    controls:
+      configure_seo: 'Skonfiguruj SEO'
+      reset_seo: 'Zresetuj SEO'
+      update_seo: 'Zaktualizuj SEO'
+    meta_seo:
+      auto_update:
+        help: 'Po włączeniu meta tagi tego elementu będą automatycznie aktualizowane po zmianie obiektu.'
+        label: 'Automatycznie aktualizuj meta tagi'
+        switch: 'Aktualizuj SEO obiektu przy zmianach'
+      close:
+        autofill_info: 'Ta zmiana cofnie własne modyfikacje i uzupełni meta tagi danymi elementu.'
+        close: Zamknij
+        save: Zapisz
+        save_autofill: 'Zapisz i uzupełnij automatycznie'
+      image:
+        help: 'Wyświetla obraz.'
+        label: 'Obraz meta'
+        managed_by: 'Źródłem obrazu zarządza {source}'
+        placeholder: 'Wpisz adres URL obrazu'
+        upload: 'Prześlij plik'
+      keywords:
+        comma_note: 'Uwaga: oddzielaj słowa kluczowe przecinkami.'
+        example: 'Przykład: flarum, web development, forum, jabłka, bezpieczeństwo'
+        help: 'Wpisz jedno lub więcej słów kluczowych opisujących ten element.'
+        label: 'Słowa kluczowe'
+        placeholder: 'Dodaj kilka słów kluczowych'
+      managed: Zarządzane
+      meta_description:
+        help: 'Opisuje element i jest wyświetlany w wyszukiwarkach.'
+        label: 'Meta opis'
+      meta_title:
+        help: 'Tytuł widoczny w wyszukiwarkach.'
+        label: 'Meta tytuł'
+        placeholder: 'Wpisz tytuł strony'
+      note_prefix: 'Uwaga:'
+      og:
+        auto_switch: 'Automatycznie generuj tagi Open Graph'
+        description:
+          label: 'Opis Open Graph'
+          placeholder: 'Własny opis Open Graph'
+        label: 'Tagi Open Graph'
+        title: 'Tytuł Open Graph'
+      reading_time:
+        help: 'Szacowany czas czytania w sekundach.'
+        label: 'Szacowany czas czytania'
+        placeholder: 'Czas czytania w sekundach'
+      robots:
+        help: 'Ustawienia indeksowania przez roboty dla tego elementu.'
+        label: Roboty
+        switch:
+          follow: 'Zezwalaj na śledzenie linków do innych stron'
+          indexing: 'Zezwalaj na indeksowanie strony'
+          noarchive: 'Wyłącz archiwizowanie strony (noarchive)'
+          noimageindex: 'Wyłącz indeksowanie obrazów na tej stronie (noimageindex)'
+          nosnippet: 'Wyłącz fragmenty tekstu na stronie (nosnippet)'
+        tags:
+          archive_not_allowed: 'Archiwizowanie stron niedozwolone'
+          follow_allowed: 'Śledzenie linków dozwolone'
+          follow_not_allowed: 'Śledzenie linków niedozwolone'
+          imageindex_not_allowed: 'Indeksowanie obrazów niedozwolone'
+          indexing_allowed: 'Indeksowanie strony dozwolone'
+          indexing_not_allowed: 'Indeksowanie strony niedozwolone'
+          snippet_not_allowed: 'Tworzenie fragmentów tekstu niedozwolone'
+      saved: Zapisano!
+      title: 'Ustawienia SEO - meta'
+      twitter:
+        auto_switch: 'Automatycznie generuj kartę X (dawniej Twitter)'
+        description: 'Opis dla X (dawniej Twitter)'
+        image:
+          help: 'Wyświetla obraz w X (dawniej Twitter).'
+          label: 'Obraz dla X (dawniej Twitter)'
+          reset: 'Zresetuj obraz'
+        label: 'Karta X (dawniej Twitter)'
+        title: 'Tytuł dla X (dawniej Twitter)'
+      unsupported_object:
+        body: 'Otwórz to okno, używając właściwości objectType i objectId, albo zarejestruj relację obiektu.'
+        docs_link: Dokumentacja
+        title: 'Ten obiekt nie jest obsługiwanym obiektem SeoMeta'
+    profile_description: 'Profil użytkownika {username} | {discussion_count} dyskusji | {comment_count} postów'
+    profile_title: 'Profil użytkownika {username}'

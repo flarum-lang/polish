@@ -87,6 +87,12 @@ core:
       logo_text: 'Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.'
       title: 'Wygląd forum'
     basics:
+      abandoned_extensions_heading: 'Porzucone rozszerzenia'
+      abandoned_extensions_notify_admins_label: 'Powiadamiaj administratorów e-mailem, gdy podczas cotygodniowego sprawdzania zostanie wykryte nowo porzucone rozszerzenie'
+      abandoned_extensions_sync_button: 'Sprawdź teraz'
+      abandoned_extensions_sync_error: 'Nie udało się pobrać listy porzuconych rozszerzeń. Spróbuj ponownie później.'
+      abandoned_extensions_sync_success: 'Lista porzuconych rozszerzeń została zaktualizowana. Znaleziono pasujące zainstalowane rozszerzenia: {count}.'
+      abandoned_extensions_text: 'Flarum prowadzi <a>społecznościową listę porzuconych rozszerzeń</a>. Gdy zainstalowane rozszerzenie znajdzie się na tej liście, zostanie oznaczone w panelu administracyjnym.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Domyślny język'
       description: 'Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.'
@@ -224,6 +230,7 @@ core:
         discussion: Dyskusja
         feature: Funkcje
         formatting: Formatowanie
+        forum-widget: 'Widżety forum'
         language: Języki
         moderation: Moderacja
         other: 'Inne rozszerzenia'
@@ -319,6 +326,8 @@ core:
       must_not_be_array_message: 'Filtr {filter} nie może być tablicą.'
       must_not_be_multidimensional_array_message: 'Filtr {filter} nie może być tablicą wielowymiarową.'
   email:
+    abandoned_extensions:
+      subject: 'Wymagane działanie: wykryto porzucone rozszerzenia'
     activate_account:
       subject: 'Aktywuj swoje nowe konto'
     confirm_email:
