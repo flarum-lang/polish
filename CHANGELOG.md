@@ -12,6 +12,7 @@ CHANGELOG
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
+* [`flarum/audit`](https://github.com/flarum/audit)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 
