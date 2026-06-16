@@ -5,6 +5,11 @@ CHANGELOG
 1.10.12 (XXXX-XX-XX)
 --------------------
 
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
