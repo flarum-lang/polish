@@ -8,6 +8,7 @@ CHANGELOG
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 
 
 Wszystkie zmiany: [v1.10.11...v1.10.12](https://github.com/flarum-lang/polish/compare/v1.10.11...v1.10.12).
