@@ -42,6 +42,12 @@ core:
       logo_text: 'Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.'
       title: 'Wygląd forum'
     basics:
+      abandoned_extensions_heading: 'Porzucone rozszerzenia'
+      abandoned_extensions_notify_admins_label: 'Powiadamiaj administratorów e-mailem, gdy podczas cotygodniowego sprawdzania zostanie wykryte nowo porzucone rozszerzenie'
+      abandoned_extensions_sync_button: 'Sprawdź teraz'
+      abandoned_extensions_sync_error: 'Nie udało się pobrać listy porzuconych rozszerzeń. Spróbuj ponownie później.'
+      abandoned_extensions_sync_success: 'Lista porzuconych rozszerzeń została zaktualizowana. Znaleziono pasujące zainstalowane rozszerzenia: {count}.'
+      abandoned_extensions_text: 'Flarum prowadzi <a>społecznościową listę porzuconych rozszerzeń</a>. Gdy zainstalowane rozszerzenie znajdzie się na tej liście, zostanie oznaczone w panelu administracyjnym.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Domyślny język'
       description: 'Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.'
@@ -179,6 +185,7 @@ core:
         discussion: Dyskusja
         feature: Funkcje
         formatting: Formatowanie
+        forum-widget: 'Widżety forum'
         language: Języki
         moderation: Moderacja
         other: 'Inne rozszerzenia'
@@ -286,6 +293,11 @@ core:
       must_not_be_multidimensional_array_message: 'Filtr {filter} nie może być tablicą wielowymiarową.'
     invalid_username_message: 'Nazwa użytkownika może zawierać jedynie litery, cyfry i myślniki.'
   email:
+    abandoned_extensions:
+      body: "Cześć {username},\n\nNastępujące zainstalowane rozszerzenia zostały oznaczone jako porzucone:\n\n{extensions}\n\nSprawdź te rozszerzenia i rozważ przejście na alternatywy, jeśli są dostępne.\n"
+      line_no_replacement: '- {package} (brak dostępnego zamiennika)'
+      line_with_replacement: '{package} (sugerowany zamiennik: {replacement})'
+      subject: 'Wymagane działanie: wykryto porzucone rozszerzenia'
     activate_account:
       body: "Witaj {username},\n\nKtoś (mamy nadzieję, że Ty!) zarejestrował się na {forum} używając tego adresu e-mail.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej i Twoje konto zostanie aktywowane:\n{url}\n\nJeśli się nie rejestrowałeś, zignoruj tę wiadomość.\n"
       subject: 'Aktywuj swoje nowe konto'
