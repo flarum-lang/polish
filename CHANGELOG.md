@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.12 (XXXX-XX-XX)
+--------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+Wszystkie zmiany: [v1.10.11...v1.10.12](https://github.com/flarum-lang/polish/compare/v1.10.11...v1.10.12).
+
+
 1.10.11 (2026-06-06)
 --------------------
 
