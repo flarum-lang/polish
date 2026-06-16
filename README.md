@@ -106,6 +106,7 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lan
 | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-badges/pl/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-ban-ips/pl/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/pl/) |
+| [`fof/blog`](https://github.com/FriendsOfFlarum/blog) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-blog/pl/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/pl/) |
 | [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-checklist/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-checklist/pl/) |
 | [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/fof-cookie-consent/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-cookie-consent/pl/) |
@@ -263,7 +264,6 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lan
 | [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/therealsujitk-gifs/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/therealsujitk-gifs/pl/) |
 | [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/tituspijean-auth-ldap/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/tituspijean-auth-ldap/pl/) |
 | [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/tpokorra-post-notification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/tpokorra-post-notification/pl/) |
-| [`v17development/flarum-blog`](https://github.com/FriendsOfFlarum/blog) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum/pl/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/pl/) |
 
 <!-- various-extensions-list-stop -->
 
