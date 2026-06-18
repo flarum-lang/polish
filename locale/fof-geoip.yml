@@ -13,6 +13,8 @@ fof-geoip:
       see_country: 'Wyświetlanie kraju pochodzenia adresu IP'
     settings:
       access_key_label: 'Access Key'
+      allow_custom_flag_help: 'Jeśli włączone, użytkownicy mogą z poziomu ustawień profilu wybrać flagę, która będzie widoczna przy ich postach. Taka flaga jest widoczna dla wszystkich i ma pierwszeństwo przed flagą wykrytą na podstawie adresu IP. Wymaga włączonej opcji "Wyświetlaj flagę kraju przy każdym poście".'
+      allow_custom_flag_label: 'Pozwól użytkownikom na wybór własnej flagi kraju'
       error_code_prefix: 'Kod:'
       error_prefix: 'Błąd:'
       general:
@@ -87,4 +89,26 @@ fof-geoip:
       zip_code: 'Kod pocztowy'
     user:
       settings:
+        custom_flag_help: 'Wybierz flagę kraju, która będzie widoczna przy Twoich postach. Flaga ta jest widoczna dla wszystkich i zastępuje tę generowaną na podstawie Twojego adresu IP.'
+        custom_flag_label: 'Własna flaga kraju'
         ip_country: 'Pokazuj flagę kraju, z którego piszę, na podstawie mojego adresu IP'
+  lib:
+    alerts:
+      ip_copied: 'Skopiowano adres IP'
+    copy_ip_label: 'Skopiuj IP do schowka'
+    custom_flag:
+      none: 'Brak własnej flagi'
+    map_button_label: 'Informacje o IP'
+    map_modal:
+      as: ASN
+      country_code: 'Kod kraju'
+      error: Błąd
+      ip_address: 'Adres IP'
+      isp: 'Dostawca internetu (ISP)'
+      mobile: 'Sieć komórkowa'
+      not_enough_data: 'Zbyt mało danych, aby wygenerować mapę'
+      organization: Organizacja
+      threat_level: 'Poziom zagrożenia'
+      threat_types: 'Rodzaje zagrożeń'
+      title: 'Informacje o adresie IP'
+      zip_code: 'Kod pocztowy'
