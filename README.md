@@ -75,6 +75,7 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lan
 | --- | --- |
 | [`flarum/akismet`](https://github.com/flarum/akismet) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-akismet/pl/) |
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-approval/pl/) |
+| [`flarum/audit`](https://github.com/flarum/audit) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-audit/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-audit/pl/) |
 | [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-bbcode/pl/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-emoji/pl/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-flags/pl/) |
