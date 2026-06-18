@@ -17,6 +17,11 @@ CHANGELOG
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 
 
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
 Wszystkie zmiany: [v2.0.2...v2.0.3](https://github.com/flarum-lang/polish/compare/v2.0.2...v2.0.3).
 
 
