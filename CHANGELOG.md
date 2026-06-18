@@ -17,6 +17,11 @@ CHANGELOG
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 
 
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
 Wszystkie zmiany: [v1.10.11...v1.10.12](https://github.com/flarum-lang/polish/compare/v1.10.11...v1.10.12).
 
 
