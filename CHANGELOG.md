@@ -13,6 +13,7 @@ CHANGELOG
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
