@@ -102,6 +102,7 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lan
 
 | Rozszerzenie | Status |
 | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation/pl/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/pl/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/pl/) |
 | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/fof-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-badges/pl/) |
