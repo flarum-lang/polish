@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.10.12 (2026-06-24)
+--------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
+Wszystkie zmiany: [v1.10.11...v1.10.12](https://github.com/flarum-lang/polish/compare/v1.10.11...v1.10.12).
+
+
 1.10.11 (2026-06-06)
 --------------------
 
