@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+2.0.3 (2026-06-24)
+------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
+Wszystkie zmiany: [v2.0.2...v2.0.3](https://github.com/flarum-lang/polish/compare/v2.0.2...v2.0.3).
+
+
 2.0.2 (2026-06-06)
 ------------------
 
