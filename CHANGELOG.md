@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.13 (XXXX-XX-XX)
+--------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
+
+
+Wszystkie zmiany: [v1.10.12...v1.10.13](https://github.com/flarum-lang/polish/compare/v1.10.12...v1.10.13).
+
+
 1.10.12 (2026-06-24)
 --------------------
 
