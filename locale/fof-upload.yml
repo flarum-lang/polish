@@ -71,7 +71,7 @@ fof-upload:
         cdn_url: 'URL usługi CDN (poprzedza ścieżki plików)'
         title: 'Ustawienia pamięci lokalnej'
       preferences:
-        max_file_size: 'Maksymalna wielkość pliku (w kilobajtach)'
+        max_file_size: 'Maksymalna wielkość pliku'
         mime_types: 'Skonfiguruj mapowanie typu MIME i adaptera przesyłania'
         php_ini_values: 'Twoje wartości <code>php.ini</code> to <code>post_max_size={post}</code> i <code>upload_max_filesize={upload}</code>. Upewnij się, że wartość ustawiona tutaj jest poniżej tych progów, lub dostosuj je odpowiednio. Jeśli korzystasz z <code>Nginx</code>, upewnij się również, że <code>client_max_body_size</code> jest odpowiedniej wielkości dla wybranego maksymalnego limitu.'
         title: 'Preferencje ogólne'
