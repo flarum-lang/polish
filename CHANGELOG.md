@@ -13,6 +13,7 @@ CHANGELOG
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
 Wszystkie zmiany: [v2.0.3...v2.0.4](https://github.com/flarum-lang/polish/compare/v2.0.3...v2.0.4).
