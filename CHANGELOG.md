@@ -5,6 +5,11 @@ CHANGELOG
 1.10.13 (XXXX-XX-XX)
 --------------------
 
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
