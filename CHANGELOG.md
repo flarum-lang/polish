@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
 
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
