@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 
 
 Wszystkie zmiany: [v1.10.12...v1.10.13](https://github.com/flarum-lang/polish/compare/v1.10.12...v1.10.13).
