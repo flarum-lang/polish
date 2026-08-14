@@ -15,6 +15,7 @@ CHANGELOG
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
