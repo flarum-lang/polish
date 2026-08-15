@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.10.13 (2026-08-15)
+--------------------
+
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+
+
+Wszystkie zmiany: [v1.10.12...v1.10.13](https://github.com/flarum-lang/polish/compare/v1.10.12...v1.10.13).
+
+
 1.10.12 (2026-06-24)
 --------------------
 
