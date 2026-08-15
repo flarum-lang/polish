@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+2.0.4 (2026-08-15)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Wszystkie zmiany: [v2.0.3...v2.0.4](https://github.com/flarum-lang/polish/compare/v2.0.3...v2.0.4).
+
+
 2.0.3 (2026-06-24)
 ------------------
 
