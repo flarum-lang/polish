@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.5 (XXXX-XX-XX)
+------------------
+
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+
+
+Wszystkie zmiany: [v2.0.4...v2.0.5](https://github.com/flarum-lang/polish/compare/v2.0.4...v2.0.5).
+
+
 2.0.4 (2026-08-15)
 ------------------
 
