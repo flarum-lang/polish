@@ -5,6 +5,11 @@ CHANGELOG
 2.0.5 (XXXX-XX-XX)
 ------------------
 
+**Ogólne usprawnienia**:
+
+* Aktualizacja tłumaczeń głównego silnika Flarum.
+
+
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
