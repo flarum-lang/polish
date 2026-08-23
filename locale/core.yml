@@ -419,9 +419,9 @@ core:
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Przełącz menu rozwijane z nawigacją'
     index_sort:
-      latest_button: 'Ostatnio aktywne'
+      latest_button: '=> core.ref.latest'
       toggle_dropdown_accessible_label: 'Zmień sortowanie listy dyskusji'
-      top_button: 'Najbardziej aktywne'
+      top_button: '=> core.ref.top'
     log_in:
       forgot_password_link: 'Zapomniałeś hasła?'
       password_placeholder: '=> core.ref.password'
