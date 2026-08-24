@@ -634,6 +634,7 @@ core:
     generic_confirmation_message: 'Czy jesteś pewien, że chcesz kontynuować? Ta operacje nie może zostać cofnięta.'
     icon: Ikona
     icon_text: 'Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem (np. <code>fas fa-flag</code> lub <code>fa-solid fa-flag</code>).'
+    latest: 'Ostatnio aktywne'
     load_more: 'Wczytaj więcej'
     loading: Ładowanie...
     log_in: 'Zaloguj się'
@@ -641,12 +642,17 @@ core:
     mark_all_as_read: 'Oznacz wszystko jako odczytane'
     never: Nigdy
     new_token: 'Nowy token'
+    newest: Najnowsze
     next_page: 'Następna strona'
     notifications: Powiadomienia
     okay: OK
+    oldest: 'Najstarsze dyskusje'
     password: Hasło
     posts: Posty
     previous_page: 'Poprzednia strona'
+    refresh: Odśwież
+    relevance: 'Najtrafniejsze wyniki'
+    remember_me_label: 'Zapamiętaj mnie'
     remove: Usuń
     rename: 'Zmień tytuł'
     reply: Odpowiedz
@@ -659,6 +665,7 @@ core:
     sign_up: 'Zarejestruj się'
     some_others: '{count, plural, one {# inny} other {# innych}}'
     start_a_discussion: 'Rozpocznij dyskusję'
+    top: 'Najbardziej aktywne'
     username: 'Nazwa użytkownika'
     users: Użytkownicy
     view: Zobacz
