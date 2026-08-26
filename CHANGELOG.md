@@ -13,6 +13,7 @@ CHANGELOG
 **Dodano wsparcie dla nowych rozszerzeń**:
 
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
