@@ -12,8 +12,10 @@ CHANGELOG
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
