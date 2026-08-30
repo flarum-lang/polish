@@ -12,6 +12,7 @@ CHANGELOG
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
