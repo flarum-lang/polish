@@ -22,6 +22,7 @@ CHANGELOG
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
 * [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 
 
 Wszystkie zmiany: [v2.0.4...v2.0.5](https://github.com/flarum-lang/polish/compare/v2.0.4...v2.0.5).
