@@ -16,5 +16,10 @@ flectar-turnstile:
     not_loaded_error: 'Nie udało się załadować Cloudflare Turnstile. Odśwież stronę i sprawdź, czy adblocker nie blokuje skryptu.'
     validation_error: 'Ukończ weryfikację Turnstile.'
 validation:
+  custom:
+    turnstile:
+      required: 'Ukończ weryfikację Turnstile.'
+    turnstileToken:
+      required: 'Ukończ weryfikację Turnstile.'
   required: 'Ukończ weryfikację Turnstile.'
   turnstile: 'Nie udało się zweryfikować, czy jesteś człowiekiem. Odśwież stronę i spróbuj ponownie.'
