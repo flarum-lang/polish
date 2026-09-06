@@ -17,6 +17,7 @@ CHANGELOG
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
