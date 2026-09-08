@@ -12,6 +12,7 @@ CHANGELOG
 
 **Dodano wsparcie dla nowych rozszerzeń**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
@@ -22,6 +23,12 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/realtime`](https://github.com/flarum/realtime)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 
