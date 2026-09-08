@@ -12,6 +12,7 @@ fof-discussion-views:
     discussion_controls:
       resetviews_button: 'Ustaw liczbę wyświetleń'
     modal_resetviews:
+      invalid: 'Podaj liczbę większą lub równą 0'
       label: 'Ustaw liczbę wyświetleń'
       submit: Zatwierdź
       title: 'Zresetuj liczbę wyświetleń dyskusji'

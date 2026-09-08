@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-suspend/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        suspended: 'Zbanowano użytkownika {username} do {until}'
+        unsuspended: 'Odbanowano użytkownika {username}'
 flarum-suspend:
   admin:
     permissions:
@@ -9,8 +15,16 @@ flarum-suspend:
   email:
     no_reason_given: 'Nie podano powodu tego bana.'
     suspended:
+      html:
+        body: 'Twoje konto na forum {forumTitle} zostało zbanowane z następującego powodu:'
+      plain:
+        body: "Twoje konto zostało zbanowane z następującego powodu:\n\n---\n{suspension_message}\n---\n"
       subject: 'Twoje konto zostało zbanowane'
     unsuspended:
+      html:
+        body: 'Twoje konto zostało odbanowane. Możesz już wrócić na forum {forumTitle}.'
+      plain:
+        body: "Twoje konto zostało odbanowane. Aby wrócić na forum, kliknij poniższy link:\n\n{forum_url}\n"
       subject: 'Twoje konto zostało odbanowane'
   forum:
     notifications:
@@ -37,3 +51,8 @@ flarum-suspend:
       suspended_tooltip: Zbanowany
     user_controls:
       suspend_button: Zbanuj
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: zbanowany
