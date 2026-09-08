@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.14 (XXXX-XX-XX)
+--------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
+Wszystkie zmiany: [v1.10.13...v1.10.14](https://github.com/flarum-lang/polish/compare/v1.10.13...v1.10.14).
+
+
 1.10.13 (2026-08-15)
 --------------------
 
