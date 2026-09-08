@@ -31,10 +31,10 @@ core:
         source_local: 'Lokalny (pakiet)'
       maintenance:
         bisect:
-          begin_button_text: 'Rozpocznij Podział'
-          continue_button_text: 'Kontynuuj Podział'
+          begin_button_text: 'Rozpocznij diagnostykę'
+          continue_button_text: 'Kontynuuj diagnostykę'
           help: 'Pomaga zidentyfikować rozszerzenie powodujące zaobserwowany problem. Automatycznie przełącza forum w tryb konserwacji (niski poziom) aż do zakończenia procesu.'
-          label: 'Rozszerzenie Podziału'
+          label: 'Diagnostyka rozszerzeń'
         bisect_modal:
           description: "Przełącza forum w tryb konserwacji (niski poziom) do zakończenia procesu. Na każdym etapie niektóre rozszerzenia zostaną wyłączone, aż do znalezienia tego, które powoduje problem. Nie dziw się więc, jeśli zauważysz brakujące funkcje lub zmieniony wygląd motywu. Zachowaj otwartą tę stronę i spróbuj odtworzyć problem po każdym etapie na osobnej stronie. Możesz zawsze wrócić na tę stronę, jeśli przypadkowo ją zamkniesz.\n"
           end_button: 'Zamknij i przejdź do strony rozszerzenia'
@@ -64,7 +64,7 @@ core:
         search_configuration: 'Konfiguracja wyszukiwania'
       queue:
         backoff_help: 'Czas oczekiwania przed ponowną próbą wykonania nieudanego zadania. Domyślnie 0 sekund.'
-        backoff_label: 'Przerwa przed ponowną próbą (sekundy)'
+        backoff_label: 'Opóźnienie ponowienia (sekundy)'
         custom_driver: 'Forum korzysta ze sterownika kolejki {driver}, udostępnianego przez rozszerzenie.'
         memory_help: 'Maksymalna ilość pamięci, jaką może wykorzystać proces obsługujący kolejkę przed ponownym uruchomieniem. Domyślnie 128 MB.'
         memory_label: 'Limit pamięci (MB)'
@@ -83,7 +83,7 @@ core:
         timeout_label: 'Limit czasu zadania (sekundy)'
       search:
         cjk_mode_help: 'Włącz, jeśli na forum przeważa język chiński, japoński lub koreański. Wyszukiwanie oparte na słowach nie pozwala dopasowywać fragmentów tekstu w tych językach, dlatego ta opcja włącza wyszukiwanie ciągów znaków. Na bardzo dużych forach może ono działać wolniej. Szybszym rozwiązaniem jest wtedy skonfigurowanie w bazie danych parsera wyszukiwania pełnotekstowego obsługującego te języki, np. parsera ngram w MySQL/MariaDB.'
-        cjk_mode_label: 'Dostosuj wyszukiwanie do języków chińskiego, japońskiego i koreańskiego'
+        cjk_mode_label: 'Optymalizuj wyszukiwanie dla języków CJK'
         driver_heading: 'Sterownik wyszukiwania: {model}'
         driver_options:
           default: 'Domyślne wyszukiwanie w bazie danych'
@@ -108,7 +108,7 @@ core:
       allow_user_color_scheme_label: 'Pozwól użytkownikom wybierać motyw kolorystyczny'
       color_scheme_label: 'Domyślny motyw kolorystyczny'
       color_schemes:
-        auto_mode_label: 'Zgodnie z ustawieniami systemu lub wyborem użytkownika'
+        auto_mode_label: 'Ustawienia systemu lub użytkownika'
         dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
         dark_mode_label: '=> core.ref.dark_mode_label'
         light_hc_mode_label: '=> core.ref.light_hc_mode_label'
@@ -208,7 +208,7 @@ core:
           inactive: Nieaktywny
           never-run: 'Nigdy nie uruchomiony'
       title: Kokpit
-      toggle_advanced_page_button: 'Przełącz stronę ustawień zaawansowanych'
+      toggle_advanced_page_button: 'Przełącz stronę zaawansowaną'
       tools_button: Narzędzia
     database-driver-mismatch-warning:
       detail: "W pliku <code>config.php</code> wybrano sterownik bazy danych <code>{configured}</code>, ale Flarum wykrył, że serwer bazy danych to <code>{actual}</code>.\n\nNiewłaściwy sterownik może powodować trudne do zdiagnozowania błędy. W sekcji <code>database</code> pliku <code>config.php</code> ustaw <code>'driver' => ''{actual}''</code>. Więcej informacji znajdziesz w <link>dokumentacji Flarum</link>.\n"
@@ -309,11 +309,11 @@ core:
         title: 'Dokumentacja {extName}'
       replaced: Zastąpione
       reset_settings:
-        button: 'Przywróć ustawienia domyślne'
+        button: 'Resetuj ustawienia'
         cancel_button: Anuluj
-        confirm_button: Przywróć
-        title: 'Przywracanie ustawień domyślnych'
-        title_extension: 'Przywracanie ustawień domyślnych: {extensionTitle}'
+        confirm_button: Resetuj
+        title: 'Resetowanie ustawień'
+        title_extension: 'Resetowanie ustawień {extensionTitle}'
         warning: 'Ta operacja jest nieodwracalna. Poniższe ustawienia zostaną trwale usunięte z bazy danych i przywrócone do wartości domyślnych. Dane rozszerzenia pozostaną bez zmian.'
       safe_mode_warning: 'Tryb awaryjny jest włączony. Rozszerzenia nie są uruchamiane, dlatego ich ustawienia są niedostępne.'
     extensions-health-widget:
@@ -434,7 +434,7 @@ core:
         heading: Ogólne
     settings:
       saved_message: 'Twoje zmiany zostały zapisane.'
-      select_dropdown_custom_label: 'Własna wartość'
+      select_dropdown_custom_label: Własne
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -477,10 +477,16 @@ core:
     invalid_username_message: 'Nazwa użytkownika może zawierać tylko litery, cyfry i łączniki. Musi zawierać co najmniej jedną literę.'
   email:
     abandoned_extensions:
+      body_intro: 'Poniższe zainstalowane rozszerzenia zostały oznaczone jako porzucone:'
+      body_outro: 'Sprawdź te rozszerzenia i rozważ zastąpienie ich innymi, jeśli są dostępne zamienniki.'
+      line_no_replacement: '{package} (brak zamiennika)'
+      line_with_replacement: '{package} (sugerowany zamiennik: {replacement})'
       subject: 'Wymagane działanie: wykryto porzucone rozszerzenia'
     activate_account:
+      body: "Ten adres e-mail został podany podczas rejestracji konta na forum {forum}.\n\nJeśli to Ty zakładasz konto, kliknij poniższy link, aby je aktywować:\n{url}\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
       subject: 'Aktywuj swoje nowe konto'
     confirm_email:
+      body: "Ten adres e-mail został podany jako nowy adres konta na forum {forum}.\n\nJeśli to Twoja zmiana, kliknij poniższy link, aby potwierdzić nowy adres:\n{url}\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
       subject: 'Potwierdź swój adres e-mail'
     greeting: 'Cześć, {displayName},'
     informational:
@@ -493,11 +499,14 @@ core:
         main_text: 'Ta wiadomość została wysłana na adres {email}, ponieważ masz włączone powiadomienia typu „{type}” na forum [{forumTitle}]({forumUrl}).'
         main_text_plain: 'Ta wiadomość została wysłana na adres {email}, ponieważ masz włączone powiadomienia typu „{type}” na forum {forumTitle}.'
         settings_text: '[Zmień ustawienia powiadomień]({settingsLink}).'
+        settings_text_plain: 'Ustawienia powiadomień możesz zmienić tutaj: {settingsLink}'
         unsubscribe_text: 'Jeśli nie chcesz już otrzymywać takich powiadomień, [wyłącz je tutaj]({unsubscribeLink}).'
         unsubscribe_text_plain: 'Jeśli nie chcesz już otrzymywać takich powiadomień, wyłącz je tutaj: {unsubscribeLink}'
     reset_password:
+      body: "Otrzymaliśmy prośbę o zresetowanie hasła do Twojego konta na forum {forum}.\n\nAby ustawić nowe hasło, kliknij poniższy link:\n{url}\n\nJeśli nie chcesz zmieniać hasła, zignoruj tę wiadomość. Twoje hasło pozostanie bez zmian.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
+      body: "To wiadomość testowa wysłana w celu sprawdzenia konfiguracji poczty na forum Flarum.\n\nJeśli to Ty zlecasz ten test, otrzymanie tej wiadomości oznacza, że wysyłka działa prawidłowo.\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
       subject: 'Testowa wiadomość z Flarum'
     signoff: 'Zespół {forumTitle}'
   forum:
@@ -509,7 +518,7 @@ core:
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.change_email'
     change_password:
-      send_button: 'Wyślij e-mail resetujący hasło'
+      send_button: 'Wyślij link do zmiany hasła'
       text: 'Kliknij przycisk poniżej, po czym sprawdź swój e-mail, aby znaleźć link do zresetowania hasła.'
       title: '=> core.ref.change_password'
     composer:
@@ -696,7 +705,7 @@ core:
         light_mode_label: '=> core.ref.light_mode_label'
       device_heading: Urządzenie
       haptic_feedback_help: 'Dostępne tylko na obsługiwanych urządzeniach mobilnych'
-      haptic_feedback_label: 'Włącz wibracje przy obsłudze forum'
+      haptic_feedback_label: 'Włącz reakcje haptyczne'
       notification_checkbox_a11y_label_template: 'Otrzymuj powiadomienia typu "{description}" za pomocą {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
@@ -861,7 +870,7 @@ core:
     pagination:
       back_button: 'Poprzednia strona'
       first_button: 'Przejdź do pierwszej strony'
-      go_to_page_textbox_a11y_label: 'Numer strony, do której chcesz przejść'
+      go_to_page_textbox_a11y_label: 'Przejdź do strony o podanym numerze'
       last_button: 'Przejdź do ostatniej strony'
       next_button: 'Następna strona'
       page_counter: 'Strona {current} z {total}'
@@ -869,7 +878,7 @@ core:
       gambit_minus_button_a11y_label: 'Dodaj filtr wykluczający'
       gambit_plus_button_a11y_label: 'Dodaj filtr uwzględniający'
       no_results_text: 'Nie znaleziono pasujących wyników.'
-      no_search_text: 'Wpisz, czego szukasz.'
+      no_search_text: 'Jeszcze niczego nie wyszukano.'
       options_heading: 'Opcje wyszukiwania'
       placeholder: Szukaj...
       preview_heading: 'Podgląd wyników'
@@ -891,7 +900,7 @@ core:
       two_text: '{first} i {second}'
     user_selection_modal:
       empty_results: 'Nie znaleziono użytkowników pasujących do wyszukiwania.'
-      max_items_to_select: '{count, plural, one {Możesz wybrać maksymalnie # użytkownika} few {Możesz wybrać maksymalnie # użytkowników} other {Możesz wybrać maksymalnie # użytkowników}}'
+      max_items_to_select: '{count, plural, one {Wybierz maksymalnie # użytkownika} few {Wybierz maksymalnie # użytkowników} other {Wybierz maksymalnie # użytkowników}}'
       search_placeholder: '=> core.ref.search_users'
       submit_button: '=> core.ref.okay'
       title: 'Wybierz użytkowników'
@@ -909,6 +918,8 @@ core:
     custom_footer_title: 'Edytuj stopkę'
     custom_header_text: 'Dodaj własny kod HTML, który będzie wyświetlany na samej górze forum.'
     custom_header_title: 'Edytuj nagłówek'
+    dark_hc_mode_label: 'Tryb ciemny o wysokim kontraście'
+    dark_mode_label: 'Tryb ciemny'
     delete: Usuń
     delete_forever: 'Usuń nieodwracalnie'
     discussions: Dyskusje
@@ -919,7 +930,10 @@ core:
     generic_confirmation_message: 'Czy jesteś pewien, że chcesz kontynuować? Ta operacje nie może zostać cofnięta.'
     icon: Ikona
     icon_text: 'Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem (np. <code>fas fa-flag</code> lub <code>fa-solid fa-flag</code>).'
+    invalid_login_message: 'Podane dane logowania są nieprawidłowe.'
     latest: 'Ostatnio aktywne'
+    light_hc_mode_label: 'Tryb jasny o wysokim kontraście'
+    light_mode_label: 'Tryb jasny'
     load_more: 'Wczytaj więcej'
     loading: Ładowanie...
     log_in: 'Zaloguj się'
@@ -950,8 +964,11 @@ core:
     sign_up: 'Zarejestruj się'
     some_others: '{count, plural, one {# inny} other {# innych}}'
     start_a_discussion: 'Rozpocznij dyskusję'
+    title_az: 'Tytuł (A–Z)'
+    title_za: 'Tytuł (Z–A)'
     top: 'Najbardziej aktywne'
     username: 'Nazwa użytkownika'
+    username_or_email_placeholder: 'Nazwa użytkownika lub e-mail'
     users: Użytkownicy
     view: Zobacz
     write_a_reply: 'Napisz odpowiedź...'

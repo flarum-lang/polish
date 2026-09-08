@@ -34,6 +34,7 @@ flarum-gdpr:
         'yes': Tak
     nav:
       gdpr_button: 'Integracje RODO'
+      gdpr_title: '=> flarum-gdpr.admin.gdpr_page.description'
     permissions:
       process_erasure: 'Rozpatrywanie wniosków o usunięcie konta'
       process_export_for_others: 'Wnioskowanie o eksport i pobieranie danych innych użytkowników'

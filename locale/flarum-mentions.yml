@@ -13,8 +13,14 @@ flarum-mentions:
     group_mentioned:
       subject: '{mentioner_display_name} wspomniał grupę, której jesteś członkiem, w {title}'
     post_mentioned:
+      html:
+        body: '{replier_display_name} odpowiedział na Twój post (#{post_number}) w [{title}]({url}).'
+      plain:
+        body: "{replier_display_name} odpowiedział na Twój post (#{post_number}) w {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{replier_display_name} odpowiedział na Twój post w {title}'
     user_mentioned:
+      plain:
+        body: "{mentioner_display_name} wspomniał o Tobie w poście w dyskusji {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{mentioner_display_name} wspomniał o Tobie w {title}'
   forum:
     composer:

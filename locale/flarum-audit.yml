@@ -46,6 +46,7 @@ flarum-audit:
         filterUser: 'Pokaż logi dotyczące tego samego użytkownika'
         hideRaw: 'Ukryj surowy log'
         showRaw: 'Pokaż surowy log'
+      core: rdzeń
       deletedResource:
         discussion: 'Dyskusja #{id}'
         group: 'Grupa #{id}'
