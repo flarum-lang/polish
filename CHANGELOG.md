@@ -28,9 +28,14 @@ CHANGELOG
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/lock`](https://github.com/flarum/lock)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 
 
 Wszystkie zmiany: [v2.0.4...v2.0.5](https://github.com/flarum-lang/polish/compare/v2.0.4...v2.0.5).
