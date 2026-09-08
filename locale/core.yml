@@ -474,6 +474,7 @@ core:
       must_be_numeric_message: 'Filtr {filter} musi być liczbą.'
       must_not_be_array_message: 'Filtr {filter} nie może być tablicą.'
       must_not_be_multidimensional_array_message: 'Filtr {filter} nie może być tablicą wielowymiarową.'
+    invalid_username_message: 'Nazwa użytkownika może zawierać tylko litery, cyfry i łączniki. Musi zawierać co najmniej jedną literę.'
   email:
     abandoned_extensions:
       subject: 'Wymagane działanie: wykryto porzucone rozszerzenia'
@@ -481,10 +482,24 @@ core:
       subject: 'Aktywuj swoje nowe konto'
     confirm_email:
       subject: 'Potwierdź swój adres e-mail'
+    greeting: 'Cześć, {displayName},'
+    informational:
+      default_title: Informacja
+      footer: 'Ta wiadomość została wysłana na adres {userEmail}, ponieważ dotyczy Twojego konta na forum [{forumTitle}]({forumUrl}).'
+      footer_plain: 'Ta wiadomość została wysłana na adres {userEmail}, ponieważ dotyczy Twojego konta na forum {forumTitle}.'
+    notification:
+      default_title: Powiadomienie
+      footer:
+        main_text: 'Ta wiadomość została wysłana na adres {email}, ponieważ masz włączone powiadomienia typu „{type}” na forum [{forumTitle}]({forumUrl}).'
+        main_text_plain: 'Ta wiadomość została wysłana na adres {email}, ponieważ masz włączone powiadomienia typu „{type}” na forum {forumTitle}.'
+        settings_text: '[Zmień ustawienia powiadomień]({settingsLink}).'
+        unsubscribe_text: 'Jeśli nie chcesz już otrzymywać takich powiadomień, [wyłącz je tutaj]({unsubscribeLink}).'
+        unsubscribe_text_plain: 'Jeśli nie chcesz już otrzymywać takich powiadomień, wyłącz je tutaj: {unsubscribeLink}'
     reset_password:
       subject: '=> core.ref.reset_your_password'
     send_test:
       subject: 'Testowa wiadomość z Flarum'
+    signoff: 'Zespół {forumTitle}'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -1004,5 +1019,7 @@ core:
       confirm_button: Potwierdź
       confirm_message: 'Czy chcesz zrezygnować z powiadomień e-mail typu „{type}” z forum {forumTitle}?'
       immediate_helptext: 'Po potwierdzeniu od razu przestaniesz otrzymywać te powiadomienia.'
+      invalid_message: 'Ten link do rezygnacji z powiadomień jest nieprawidłowy lub został już użyty. Aby zmienić powiadomienia e-mail z forum {forumTitle}, [przejdź do ustawień]({settingsLink}).'
       return_to_forum: 'Wróć do {forumTitle}'
+      success_message: 'Powiadomienia typu „{type}” z forum {forumTitle} zostały wyłączone. Jeśli zechcesz znów je otrzymywać, [zmień ustawienia]({settingsLink}).'
       title: 'Potwierdź rezygnację z powiadomień'
