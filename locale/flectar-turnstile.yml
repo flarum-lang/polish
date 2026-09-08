@@ -21,5 +21,4 @@ validation:
       required: 'Ukończ weryfikację Turnstile.'
     turnstileToken:
       required: 'Ukończ weryfikację Turnstile.'
-  required: 'Ukończ weryfikację Turnstile.'
   turnstile: 'Nie udało się zweryfikować, czy jesteś człowiekiem. Odśwież stronę i spróbuj ponownie.'
