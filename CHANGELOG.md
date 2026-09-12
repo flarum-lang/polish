@@ -36,6 +36,7 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 
 
 Wszystkie zmiany: [v2.0.4...v2.0.5](https://github.com/flarum-lang/polish/compare/v2.0.4...v2.0.5).
