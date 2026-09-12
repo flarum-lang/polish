@@ -39,6 +39,12 @@ flarum-subscriptions:
       not_following_text: 'Będziesz powiadamiany tylko wtedy, kiedy zostaniesz @wspomniany.'
       notify_alert_tooltip: 'Otrzymuj powiadomienia na forum, kiedy pojawią się nowe posty'
       notify_email_tooltip: 'Otrzymuj powiadomienia e-mail, kiedy pojawią się nowe posty'
+  lib:
+    gambits:
+      discussions:
+        subscription:
+          following_key: obserwowane
+          ignoring_key: ignorowane
   ref:
     follow: Obserwuj
     following: Obserwujesz

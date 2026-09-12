@@ -8,6 +8,11 @@ flarum-gdpr:
       drafts:
         delete_description: 'Usuwa wszystkie szkice stworzone przez użytkownika.'
         export_description: 'Wszystkie szkice stworzone przez użytkownika.'
+fof-default-user-preferences:
+  admin:
+    settings:
+      draftAutosaveEnable: 'Włącz domyślnie automatyczny zapis'
+      draftAutosaveInterval: 'Domyślny interwał automatycznego zapisywania (w sekundach)'
 fof-drafts:
   admin:
     permissions:
@@ -19,6 +24,7 @@ fof-drafts:
       schedule_on_one_server: 'Użyj dyrektywy "onOneServer()" dla harmonogramu zadań (task scheduler) (wymaga Redis/Memcache)'
       title: 'Ustawienia szkiców'
   console:
+    no_title_error: 'Pomięto szkic: brakuje tytułu dyskusji.'
     scheduled_drafts_disabled: 'Planowanie publikacji szkiców jest obecnie wyłączone.'
   forum:
     composer:
@@ -39,6 +45,7 @@ fof-drafts:
       title: Szkice
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
+      no_title_error: 'Przed zaplanowaniem należy podać tytuł dyskusji.'
       reschedule_button: 'Zaktualizuj zaplanowaną publikację'
       schedule_button: 'Zaplanuj publikację'
       schedule_time_preview: 'Ten szkic zostanie automatycznie opublikowany <b>{datetime}</b>.'
