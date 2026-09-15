@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.6 (XXXX-XX-XX)
+------------------
+
+**Zaktualizowano tłumaczenia dla rozszerzeń**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Wszystkie zmiany: [v2.0.5...v2.0.6](https://github.com/flarum-lang/polish/compare/v2.0.5...v2.0.6).
+
+
 2.0.5 (2026-09-13)
 ------------------
 
