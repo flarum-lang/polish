@@ -6,11 +6,11 @@ fof-links:
   admin:
     edit_link:
       delete_link_button: 'Usuń link'
-      delete_link_confirmation: 'Czy jesteś pewien, że chcesz usunąć ten link?'
+      delete_link_confirmation: 'Czy jesteś pewien, że chcesz usunąć „{title}”?'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Czy to link wewnętrzny?'
-      open_newtab: 'Otwórz link w nowej karcie'
+      open_newtab: 'Otwórz w nowej karcie'
       submit_button: '=> core.ref.save_changes'
       title: '=> fof-links.ref.create_link'
       title_label: '=> fof-links.ref.title'
