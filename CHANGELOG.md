@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.10.14 (XXXX-XX-XX)
+1.10.14 (2026-09-15)
 --------------------
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
