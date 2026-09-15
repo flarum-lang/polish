@@ -7,6 +7,7 @@ CHANGELOG
 
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
