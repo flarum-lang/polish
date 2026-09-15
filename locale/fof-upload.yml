@@ -19,7 +19,7 @@ fof-upload:
       disable-hotlink-protection: "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora posta.\n"
       download_templates: "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na Twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n"
       resize: "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n"
-      s3_acl: "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
+      s3_acl: "Stosowane do każdego wysłanego obiektu. Pozostaw puste, aby użyć domyślnego ustawienia dostawcy (zwykle private).\nUżyj <code>public-read</code>, jeśli pliki mają być dostępne do odczytu bezpośrednio z bucketu.\n"
       s3_compatible_storage: "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n"
       s3_instance_profile: "Pozostaw klucz i sekret puste, aby użyć poświadczeń w profilu instancji.\n"
       watermark: "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n"
