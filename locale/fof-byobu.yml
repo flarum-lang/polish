@@ -29,6 +29,12 @@ fof-byobu:
         help: 'Te ustawienia kontrolują ikony używane przez forum.'
       post-event-icon: 'Ikona zdarzeń w dyskusjach Byobu'
   email:
+    body:
+      made_public: "{actor_display_name} usunął wszystkich uczestników i upublicznił dyskusję: {discussion_title}.\n\nZobacz ją tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n"
+      private_discussion_added: "{actor_display_name} dodał Cię do istniejącej prywatnej dyskusji: {discussion_title}.\n\nZobacz ją tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n"
+      private_discussion_created: "{actor_display_name} rozpoczął z Tobą nową prywatną dyskusję: {discussion_title}.\n\nZobacz ją tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n"
+      private_discussion_replied: "{actor_display_name} odpowiedział w prywatnej dyskusji, w której uczestniczysz: {discussion_title}.\n\nZobacz odpowiedź tutaj:\n{post_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n"
+      recipient_removed: "{actor_display_name} opuścił prywatną dyskusję: {discussion_title}. Nie będzie już mieć dostępu do jej treści.\n\nZobacz dyskusję tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n"
     subject:
       private_discussion_added: '[Prywatna dyskusja] {display_name} dodał Cię do prywatnej dyskusji'
       private_discussion_created: '[Prywatna dyskusja] {display_name} rozpoczął prywatną dyskusję z Tobą'
@@ -96,3 +102,13 @@ fof-byobu:
       dropdown_label: 'Prywatne dyskusje'
       settings:
         block_pd: 'Blokuj prywatne dyskusje'
+  lib:
+    gambits:
+      allows-pd:
+        hint: 'yes'
+        key: allows-pd
+      byobu:
+        hint: 'nazwa użytkownika lub wyświetlana nazwa uczestnika'
+        key: byobu
+      private:
+        key: private

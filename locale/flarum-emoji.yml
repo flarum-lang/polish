@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-emoji:
+  admin:
+    settings:
+      cdn_help: 'np. https://cdn.jsdelivr.net/gh/jdecked/twemoji@[version]/assets/, obecna wersja to: {version}'
   forum:
     composer:
       emoji_tooltip: 'Wstaw emoji'
