@@ -105,10 +105,10 @@ fof-byobu:
   lib:
     gambits:
       allows-pd:
-        hint: 'yes'
-        key: allows-pd
+        hint: tak
+        key: zezwala-na-prywatne
       byobu:
         hint: 'nazwa użytkownika lub wyświetlana nazwa uczestnika'
         key: byobu
       private:
-        key: private
+        key: prywatna

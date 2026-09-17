@@ -7,22 +7,70 @@ fof-links:
     edit_link:
       delete_link_button: 'Usuń link'
       delete_link_confirmation: 'Czy jesteś pewien, że chcesz usunąć „{title}”?'
+      icon_additional_text: 'Jeśli chcesz użyć ikony marki, zamiast tego zastosuj prefiks <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Czy to link wewnętrzny?'
       open_newtab: 'Otwórz w nowej karcie'
+      options_label: Opcje
       submit_button: '=> core.ref.save_changes'
       title: '=> fof-links.ref.create_link'
+      title_child: 'Nowy link pod „{parent}”'
       title_label: '=> fof-links.ref.title'
       title_placeholder: '=> fof-links.ref.title'
+      type:
+        external:
+          help: 'Otwiera adres poza tym forum.'
+          label: 'Prowadzi do innej witryny'
+        heading: 'Działanie linku'
+        internal:
+          help: 'Otwiera stronę bez jej ponownego wczytywania.'
+          label: 'Prowadzi do strony na tym forum'
+        label:
+          help: 'Wyświetla się jako etykieta. Możesz użyć jej jako nazwy grupy linków.'
+          label: 'Nigdzie nie prowadzi'
       url_description: 'Zostaw puste, aby wyświetlić jako etykietę.'
+      url_help:
+        external: 'Pełny adres, łącznie z <code>https://</code>.'
+        internal: 'Część adresu po {baseUrl}, zaczynająca się od ukośnika.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
+      url_placeholder.external: 'https://example.com'
+      url_placeholder.internal: /tags
+      use_rel_me: 'Dodaj atrybut <code>rel="me"</code>'
+      use_rel_me_help: 'Pozwala witrynie, do której prowadzi link, potwierdzić, że to forum należy do Ciebie.'
+      visibility:
+        guest-only:
+          help: 'Zalogowani użytkownicy nie zobaczą tego linku. Powyższe uprawnienie powinno być ustawione na {everyone}.'
+          label: 'Pokazuj tylko grupie {guest}'
+        help: 'Nowy link jest domyślnie widoczny tylko dla użytkowników z grupy {admin}. Zmień uprawnienie, aby udostępnić go szerszej grupie.'
+        help-disabled: 'Zapisz link, zanim wybierzesz, kto może go zobaczyć.'
+        label: 'Kto może go zobaczyć'
     links:
+      add_child_accessible_label: 'Dodaj link pod „{title}”'
+      audience_everyone: 'Widoczny dla wszystkich'
       create_button: '=> fof-links.ref.create_link'
+      description: 'Te linki pojawiają się w nawigacji forum w kolejności ustawionej poniżej.'
+      edit_accessible_label: 'Edytuj „{title}”'
+      flag:
+        guest_only: 'Tylko goście'
+        new_tab: 'Nowa karta'
+        rel_me: 'rel="me"'
       links: '=> fof-links.ref.links'
+      moved: '„{title}” przeniesiono na pozycję {position} z {total}.'
+      moved_under: '„{title}” przeniesiono pod „{parent}”, na pozycję {position} z {total}.'
+      no_url: 'Bez linku — wyświetlany jako etykieta'
+      preconfigured: 'Linki na tym forum zostały skonfigurowane w kodzie i nie można ich tutaj edytować.'
+      reorder_accessible_label: 'Zmień pozycję „{title}”. Użyj klawiszy strzałek, aby przesunąć link w górę, w dół, pod link znajdujący się wyżej albo z powrotem na wyższy poziom.'
+      reorder_help: 'Przeciągnij link za uchwyt, aby zmienić jego pozycję, albo upuść go na innym linku, aby umieścić go pod nim. Gdy uchwyt jest aktywny, możesz zrobić to samo za pomocą klawiszy strzałek.'
+      reorder_loading: 'Przygotowywanie listy do zmiany kolejności…'
     settings:
+      heading: Ustawienia
       show_icons_only_on_tablet: 'Wyświetlaj tylko ikonki na tabletowych rozdzielczościach'
+      show_icons_only_on_tablet_help: 'Ukrywa tytuły linków przy szerokości od 768 do 991 px, gdy w nawigacji jest najmniej miejsca. Czytniki ekranu nadal odczytują ich nazwy.'
+  forum:
+    header:
+      toggle_dropdown_accessible_label: 'Pokaż linki pod „{title}”'
   ref:
     create_link: 'Utwórz link'
     links: Linki

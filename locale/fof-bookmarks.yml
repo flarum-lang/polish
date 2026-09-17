@@ -34,3 +34,7 @@ fof-bookmarks:
     postButton:
       add: 'Dodaj zakładkę'
       remove: 'W zakładkach'
+  lib:
+    gambits:
+      bookmarked:
+        key: w-zakladkach

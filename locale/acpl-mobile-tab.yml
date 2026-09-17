@@ -11,6 +11,7 @@ acpl-mobile-tab:
       delete_button: Usuń
       delete_item_confirmation: 'Jesteś pewien, że chcesz usunąć ten element?'
       icon: Ikonka
+      icon_help: 'Podaj nazwę klasy ikony <a>Font Awesome</a>, razem z prefiksem <code>fas fa-</code>.'
       is_internal_checkbox: 'Czy to wewnętrzny link?'
       label: Etykieta
       label_placeholder: 'Mój własny element'
@@ -19,6 +20,10 @@ acpl-mobile-tab:
       path: Ścieżka
       submit_button: Zapisz
       url: Url
+    scroll_settings:
+      threshold_help: 'Odległość przewinięcia od bieżącej pozycji, po której widoczność zostanie przełączona.'
+      threshold_label: 'Próg przewijania (px)'
+      toggle_label: 'Przełączaj widoczność podczas przewijania'
   lib:
     item:
       all_discussions: Dyskusje
