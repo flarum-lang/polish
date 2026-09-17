@@ -23,6 +23,8 @@ CHANGELOG
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
