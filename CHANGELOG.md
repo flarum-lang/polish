@@ -5,8 +5,17 @@ CHANGELOG
 2.0.6 (XXXX-XX-XX)
 ------------------
 
+**Dodano wsparcie dla nowych rozszerzeń**:
+
+* [`flarum/messages`](https://github.com/flarum/messages)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+
+
 **Zaktualizowano tłumaczenia dla rozszerzeń**:
 
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
