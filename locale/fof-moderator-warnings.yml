@@ -2,6 +2,14 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-moderator-warnings/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      warning:
+        created: 'Ostrzeżono użytkownika {username}'
+        deleted: 'Trwale usunięto ostrzeżenie użytkownika {username}'
+        hidden: 'Usunięto ostrzeżenie użytkownika {username}'
+        restored: 'Przywrócono ostrzeżenie użytkownika {username}'
 fof-moderator-warnings:
   admin:
     permissions:
@@ -26,6 +34,8 @@ fof-moderator-warnings:
       warning_button: 'Ostrzeż użytkownika'
     settings:
       warning_notification_label: 'Moderator dał mi ostrzeżenie'
+    user:
+      warnings: Ostrzeżenia
     validation:
       invalid_strike_count: 'Liczba punktów karnych powinna być liczbą całkowitą z przedziału od 0 do 5.'
       public_comment_required: 'Musisz podać publicznie widoczny komentarz.'
@@ -40,6 +50,8 @@ fof-moderator-warnings:
       warnings_no_strikes: 'Ostrzeżenia: bez punktów karnych'
     warning_list_item:
       linked_post: 'Powiązany post'
+      list_item_heading: '{strikes, plural, one {# punkt karny, {time}} few {# punkty karne, {time}} other {# punktów karnych, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {# punkt karny, {time} (ostrzeżenie usunięte)} few {# punkty karne, {time} (ostrzeżenie usunięte)} other {# punktów karnych, {time} (ostrzeżenie usunięte)}}'
       private_comment: 'Komentarz widoczny dla moderatora'
       public_comment: Ostrzeżenie
     warning_modal:

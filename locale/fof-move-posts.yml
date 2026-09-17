@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-move-posts/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      posts:
+        moved: 'Przeniesiono {post_count, plural, one {jeden post} few {{post_count} posty} other {{post_count} postów}} z {discussion} do {new_discussion}'
+        moved_to_new_discussion: 'Przeniesiono {post_count, plural, one {jeden post} few {{post_count} posty} other {{post_count} postów}} z {discussion} do nowej dyskusji {new_discussion}'
 fof-move-posts:
   admin:
     permissions:
