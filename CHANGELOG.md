@@ -7,18 +7,43 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (1 changed).
+* Updated Flarum core translations (11 changed).
+* Updated validation translations (12 changed).
 
 
 **Updated translations for extensions**:
 
-* [`flarum/akismet`](https://github.com/flarum/akismet) (1 changed)
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 5 changed)
-* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 added)
-* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (17 added)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) (1 changed)
+* [`blomstra/realtime`](https://flarum.org/extension/blomstra/realtime) (1 changed)
+* [`clarkwinkelmann/flarum-ext-follow-tags-prompt`](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt) (2 changed)
+* [`flarum/akismet`](https://github.com/flarum/akismet) (2 changed)
+* [`flarum/audit`](https://github.com/flarum/audit) (2 changed)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (5 changed)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (1 changed)
+* [`flarum/tags`](https://github.com/flarum/tags) (5 changed)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 7 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 added, 5 changed)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (1 changed)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (2 changed)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter) (1 changed)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (17 added, 2 changed)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (1 changed)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 added)
-* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (1 added, 1 changed)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (3 changed)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (1 added, 2 changed)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) (2 changed)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (1 changed)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (2 added, 2 changed)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo) (1 changed)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (14 changed)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (1 changed)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges) (4 changed)
+* [`ianm/syndication`](https://github.com/imorland/syndication) (1 changed)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (3 changed)
+* [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag) (1 changed)
+* [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap) (1 changed)
+* [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support) (4 changed)
 
 
 All changes: [v1.10.14...1.10.15](https://github.com/flarum-lang/polish/compare/v1.10.14...1.10.15).
