@@ -5,7 +5,7 @@
 flarum-akismet:
   admin:
     akismet_settings:
-      api_key_label: 'API Key'
+      api_key_label: 'Klucz API'
       delete_blatant_spam_help: 'Jeśli Akismet wykryje, że post jest rażącym spamem, post zostanie automatycznie usunięty zamiast oznaczać go jako spam'
       delete_blatant_spam_label: 'Automatycznie usuń najbardziej podejrzane posty'
       title: 'Ustawienia Akismeta'

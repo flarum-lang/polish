@@ -10,10 +10,25 @@ flarum-gdpr:
         export_description: 'Eksportuje szczegóły poziomu subskrypcji dla tagu, jeśli taka istnieje.'
 fof-follow-tags:
   admin:
+    basics:
+      following_label: '=> flarum-subscriptions.forum.index.following_link'
     settings:
+      all_discussions_on_following_page_for_guests_label: 'Pokazuj wszystkie dyskusje gościom na stronie „Obserwowane”'
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Domyślny filtr na stronie "Obserwowane"'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+      prompt_button_on_following_page_label: 'Pokaż przycisk „Wybierz tagi do obserwowania” na stronie „Obserwowane”'
+      prompt_new_users_help: "Użytkownicy, którzy nie potwierdzili jeszcze swojego wyboru, zobaczą okno z prośbą o wybranie tagów do obserwowania. Okno będzie wyświetlane przy każdej wizycie, dopóki nie klikną „Przejdź do forum”.\n"
+      prompt_new_users_label: 'Proś nowych użytkowników o wybranie tagów do obserwowania'
+      prompt_tag_ids_label: 'Tagi do wyświetlenia'
+      prompt_tag_strategy_label: 'Tagi wyświetlane w oknie wyboru'
+      prompt_tag_strategy_options:
+        all: 'Wszystkie tagi'
+        list: 'Tagi wybrane poniżej'
+        primary: 'Tagi główne pierwszego poziomu'
+        primaryAndChildren: 'Wszystkie tagi główne, niezależnie od poziomu'
+        primaryAndSecondary: 'Tagi główne pierwszego poziomu i tagi dodatkowe'
+        secondary: 'Tylko tagi dodatkowe'
   email:
     body:
       newDiscussionInTag: "Witaj {recipient_display_name},\n\n{actor_display_name} utworzył dyskusję w tagu, który obserwujesz: \"{discussion_title}\".\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n\n---\n\n{post_content}\n"
@@ -39,6 +54,11 @@ fof-follow-tags:
       new_discussion_tag_text: '{username} zmienił tagi'
       new_discussion_text: '{username} rozpoczął'
       new_post_text: '{username} odpowiedział'
+    prompt:
+      choose_button: 'Wybierz tagi do obserwowania'
+      continue_button: 'Przejdź do forum'
+      later_button: 'Przypomnij mi później'
+      modal_title: 'Wybierz tagi do obserwowania'
     settings:
       notify_new_discussion_label: 'Ktoś utworzył dyskusję w tagu, który obserwuję'
       notify_new_discussion_tag_label: 'Ktoś zmienił tagi dyskusji na tag, który obserwuję'

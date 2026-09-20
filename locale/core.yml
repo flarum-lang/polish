@@ -319,7 +319,7 @@ core:
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.change_email'
     change_password:
-      send_button: 'Wyślij e-mail resetujący hasło'
+      send_button: 'Wyślij link do zmiany hasła'
       text: 'Kliknij przycisk poniżej, po czym sprawdź swój e-mail, aby znaleźć link do zresetowania hasła.'
       title: '=> core.ref.change_password'
     composer:
