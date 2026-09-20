@@ -11,6 +11,7 @@ acpl-mobile-tab:
     edit_item:
       delete_button: Usuń
       delete_item_confirmation: 'Czy na pewno chcesz usunąć ten element?'
+      help: 'Potrzebujesz czegoś więcej niż zwykłego linku? Zobacz <a>dokumentację dla deweloperów</a>, aby dowiedzieć się, jak tworzyć własne elementy i ich zachowanie.'
       icon: Ikona
       icon_help: 'Podaj nazwę klasy dowolnej ikony <a>Font Awesome</a>, razem z prefiksem <code>fas fa-</code>.'
       is_internal_checkbox: 'Czy to wewnętrzny link?'
@@ -20,7 +21,18 @@ acpl-mobile-tab:
       open_new_tab_checkbox: 'Otwieraj link w nowej karcie'
       path: Ścieżka
       submit_button: Zapisz
+      type:
+        external:
+          help: 'Otwiera adres poza tym forum.'
+          label: 'Do innej strony'
+        heading: 'Dokąd prowadzi ten link'
+        internal:
+          help: 'Otwiera stronę bez jej ponownego ładowania.'
+          label: 'Do strony na tym forum'
       url: URL
+      url_help:
+        external: 'Pełny adres, razem z <code>https://</code>.'
+        internal: 'Część adresu znajdująca się po {baseUrl}, zaczynająca się od ukośnika.'
     scroll_settings:
       threshold_help: 'Odległość przewinięcia od bieżącej pozycji, po której widoczność zostanie przełączona.'
       threshold_label: 'Próg przewijania (px)'
