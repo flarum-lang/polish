@@ -74,7 +74,7 @@ fof-seo:
           social_media:
             button: 'Zaktualizuj obraz'
             label: 'Ustaw obraz dla mediów społecznościowych'
-            reason: 'Nie ustawiono obrazu dla mediów społecznościowych dla Twojego forum. Zalecamy jego dodanie. Obecnie jako podgląd w mediach społecznościowych zostanie użyta faviconka.'
+            reason: 'Nie ustawiono obrazu dla mediów społecznościowych dla Twojego forum. Zalecamy jego dodanie. Obecnie jako podgląd w mediach społecznościowych zostanie użyty favicon.'
           ssl:
             button: 'Jak skonfigurować SSL'
             label: 'Sprawdza, czy witryna ma dostępne bezpieczne połączenie (SSL/TLS)'

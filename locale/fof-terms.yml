@@ -68,6 +68,6 @@ fof-terms:
       must-accept-message: 'Tymczasowo ograniczyliśmy możliwości Twojego konta, do czasu aż zaakceptujesz nowe warunki korzystania z forum.'
       review: 'Kliknij tutaj, aby zobaczyć i zaakceptować nowe warunki korzystania z forum'
     user_controls:
-      state_button: 'Status akceptacji TOS'
+      state_button: 'Status akceptacji warunków'
     user_settings:
       optional_policies_label: Polityki

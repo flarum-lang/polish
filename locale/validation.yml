@@ -4,15 +4,15 @@
 
 validation:
   attributes:
-    content: Zawartość
-    email: E-mail
-    name_plural: 'Nazwa w liczbie mnogiej'
-    name_singular: 'Nazwa w liczbie pojedynczej'
-    password: Hasło
-    tag_count_primary: 'Liczba głównych tagów'
-    tag_count_secondary: 'Liczba tagów podrzędnych'
-    title: Tytuł
-    username: 'Nazwa użytkownika'
+    content: zawartość
+    email: e-mail
+    name_plural: 'nazwa w liczbie mnogiej'
+    name_singular: 'nazwa w liczbie pojedynczej'
+    password: hasło
+    tag_count_primary: 'liczba tagów głównych'
+    tag_count_secondary: 'liczba tagów dodatkowych'
+    title: tytuł
+    username: 'nazwa użytkownika'
   boolean: 'Pole :attribute musi mieć wartość logiczną prawda albo fałsz.'
   distinct: 'Pole :attribute ma zduplikowane wartości.'
   exists: 'Zaznaczone pole :attribute jest nieprawidłowe.'
@@ -25,10 +25,10 @@ validation:
   prohibited_unless: 'Pole :attribute jest zabronione, chyba że :other jest w :values.'
   required: 'Pole :attribute jest wymagane.'
   required_if: 'Pole :attribute jest wymagane, gdy :other ma wartość :value.'
-  required_unless: 'Pole :attribute jest wymagane jeżeli :other nie znajduje się w :values.'
+  required_unless: 'Pole :attribute jest wymagane, jeżeli :other nie znajduje się w :values.'
   required_with: 'Pole :attribute jest wymagane, gdy :values jest obecny.'
   required_with_all: 'Pole :attribute jest wymagane, gdy wszystkie :values są obecne.'
   required_without: 'Pole :attribute jest wymagane, gdy :values nie jest obecny.'
   required_without_all: 'Pole :attribute jest wymagane, gdy żadne z :values nie są obecne.'
-  unique: 'Taki :attribute już występuje.'
+  unique: 'Podana wartość pola :attribute jest już zajęta.'
   uploaded: 'Nie udało się wgrać pliku :attribute.'
