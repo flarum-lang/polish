@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.10.15 (XXXX-XX-XX)
+--------------------
+
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
+**Updated translations for extensions**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet) (1 changed)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 5 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 added)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (17 added)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 added)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (1 added, 1 changed)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (2 added, 2 changed)
+
+
+All changes: [v1.10.14...1.10.15](https://github.com/flarum-lang/polish/compare/v1.10.14...1.10.15).
+
+
 1.10.14 (2026-09-15)
 --------------------
 
