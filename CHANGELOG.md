@@ -19,7 +19,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (17 added, 4 changed)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (25 added, 4 changed)
 * [`flarum/akismet`](https://github.com/flarum/akismet) (1 changed)
 * [`flarum/audit`](https://github.com/flarum/audit) (2 changed)
 * [`flarum/emoji`](https://github.com/flarum/emoji) (2 added)
