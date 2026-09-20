@@ -13,7 +13,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (5 added, 1 changed)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (17 added, 4 changed)
 * [`flarum/emoji`](https://github.com/flarum/emoji) (2 added)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (103 added, 5 changed)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (3 added)
