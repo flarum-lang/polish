@@ -13,7 +13,7 @@ fof-geoip:
       see_country: 'Wyświetlanie kraju pochodzenia adresu IP'
     settings:
       access_key_label: 'Access Key'
-      allow_custom_flag_help: 'Jeśli włączone, użytkownicy mogą z poziomu ustawień profilu wybrać flagę, która będzie widoczna przy ich postach. Taka flaga jest widoczna dla wszystkich i ma pierwszeństwo przed flagą wykrytą na podstawie adresu IP. Wymaga włączonej opcji "Wyświetlaj flagę kraju przy każdym poście".'
+      allow_custom_flag_help: 'Jeśli włączone, użytkownicy mogą z poziomu ustawień profilu wybrać flagę, która będzie widoczna przy ich postach. Taka flaga jest widoczna dla wszystkich i ma pierwszeństwo przed flagą wykrytą na podstawie adresu IP. Wymaga włączonej opcji "Pokazuj flagę kraju przy każdym poście".'
       allow_custom_flag_label: 'Pozwól użytkownikom na wybór własnej flagi kraju'
       error_code_prefix: 'Kod:'
       error_prefix: 'Błąd:'

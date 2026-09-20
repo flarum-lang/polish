@@ -15,7 +15,7 @@ gtdxyz-flarum-badges:
       metric_drivers:
         badges_received: 'Przyznano odznaki'
       not_installed:
-        content: 'To rozszerzenie oferuje większą funkcjonalność jeśli rozszerzenie <a>Auto Moderator</a> jest włączone. Użytkownicy mogą być wtedy automatycznie nagradzani odznakami bez udziału moderatorów lub administracji!'
+        content: 'To rozszerzenie oferuje większą funkcjonalność, jeśli rozszerzenie <a>Auto Moderator</a> jest włączone. Użytkownicy mogą być wtedy automatycznie nagradzani odznakami bez udziału moderatorów lub administracji!'
         dismiss: 'Nie pokazuj ponownie'
         install: Zainstaluj
         title: 'Automatycznie nagradzaj użytkowników odznakami'
@@ -84,10 +84,10 @@ gtdxyz-flarum-badges:
       update_earning_reason: 'Edytuj powód przyznania odznaki'
     badge_information: 'Informacje o odznace'
     badges_in_card:
-      description: 'Możesz wybrać odznaki widoczne w twoim profilu. Jeśli nie wybierzesz żadnej odznaki, zostaną one wybrane automatycznie.'
-      hit_limit: 'Jest miejsce tylko na {limit, plural, one {<b>jedną odznakę</b> widoczną} few {<b># odznaki</b> widoczne} other {<b># odznak</b> widocznych}} w twoim profilu. Ukryj niektóre odznaki, aby zrobić miejsce na nowe.'
+      description: 'Możesz wybrać odznaki widoczne w Twoim profilu. Jeśli nie wybierzesz żadnej odznaki, zostaną one wybrane automatycznie.'
+      hit_limit: 'Jest miejsce tylko na {limit, plural, one {<b>jedną odznakę</b> widoczną} few {<b># odznaki</b> widoczne} other {<b># odznak</b> widocznych}} w Twoim profilu. Ukryj niektóre odznaki, aby zrobić miejsce na nowe.'
       manage_badges: 'Zarządzaj odznakami'
-      select_limit: 'Możesz wybrać {limit, plural, one {<b>jedną odznakę</b> widoczną} few {<b># odznaki</b> widoczne} other {<b># odznak</b> widocznych}} w twoim profilu.'
+      select_limit: 'Możesz wybrać {limit, plural, one {<b>jedną odznakę</b> widoczną} few {<b># odznaki</b> widoczne} other {<b># odznak</b> widocznych}} w Twoim profilu.'
       title: 'Odznaki w profilu użytkownika'
     give_badge: 'Przyznaj odznakę'
     moderation:

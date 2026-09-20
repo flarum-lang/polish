@@ -13,7 +13,7 @@ flarum-gdpr:
     data:
       twofactordata:
         delete_description: 'Usuwa wszystkie dane związane z 2FA.'
-        export_description: 'Eksportuje status 2FA i zaszyfrowane kody kopii zapasowych.'
+        export_description: 'Eksportuje status 2FA i zaszyfrowane kody zapasowe.'
 ianm-twofactor:
   admin:
     edit_group:
@@ -49,7 +49,7 @@ ianm-twofactor:
       disabled: wyłączone
       enabled: włączone
     subject:
-      status_changed: 'Uwierzytelnianie dwuskładnikowe {type} dla twojego konta'
+      status_changed: 'Uwierzytelnianie dwuskładnikowe {type} dla Twojego konta'
   forum:
     log_in:
       two_factor_placeholder: 'Token 2FA, np. 123456'
@@ -76,7 +76,7 @@ ianm-twofactor:
       enter_current_token: 'Wprowadź token z bieżącego urządzenia'
       enter_new_token: 'Wprowadź token z nowego urządzenia'
       enter_token: 'Wpisz token'
-      loading_qr: 'Wczytywaniu kodu QR...'
+      loading_qr: 'Wczytywanie kodu QR...'
       manual_entry_instruction: 'Wprowadź podany kod do aplikacji uwierzytelniającej, a następnie wprowadź wygenerowany token, aby włączyć uwierzytelnianie dwuskładnikowe.'
       manual_tab: 'Ręczna konfiguracja'
       new_backup_codes: 'Twoje nowe kody zapasowe'

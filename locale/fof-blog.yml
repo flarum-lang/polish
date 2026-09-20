@@ -32,7 +32,7 @@ fof-blog:
       redirect_tags_label: 'Przekieruj tagi bloga'
       redirect_tags_text: 'Przekierowuje oryginalny URL tagu wykorzystywanego przez blog na URL kategorii na blogu.'
       redirects_heading: Przekierowania
-      require_review_label: 'Wpisy na blogu wymagające zatwierdzenia'
+      require_review_label: 'Wpisy na blogu wymagają zatwierdzenia'
       require_review_text: 'Po utworzeniu wpisu nie będzie on publicznie widoczny i będzie wymagał zatwierdzenia przez moderatora.'
       select_categories_button: 'Wybierz kategorie bloga'
       selected_category_count: '{count, plural, one {Wybrano {count} kategorię} few {Wybrano {count} kategorie} other {Wybrano {count} kategorii}}'

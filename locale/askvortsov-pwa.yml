@@ -51,7 +51,7 @@ askvortsov-pwa:
       no_name: 'Aby Twoja aplikacja działała, musisz podać jej pełną nazwę.'
       no_vapid_keys: 'Nie znaleziono kluczy VAPID. Są one wymagane do wysyłania powiadomień push. Możesz zresetować klucze VAPID poniżej.'
       possible_https_disabled: 'Twoja strona może nie korzystać z HTTPS. Wyczyszczenie cache (przycisk "Narzędzia" w kokpicie panelu admina) może pomóc. Jeśli Twoja strona korzysta z HTTPS, zignoruj to ostrzeżenie. Jeśli nie, miej na uwadze, że HTTPS jest wymagany do działania Progressive Web App.'
-      success: 'Nie wyryto żadnych potencjalnych problemów!'
+      success: 'Nie wykryto żadnych potencjalnych problemów!'
       suggest_gmp: 'Wygląda na to, że rozszerzenie gmp dla PHP nie jest włączone na Twoim serwerze. Nie jest ono wymagane, ale może poprawić wydajność i jego włączenie jest zalecane. Niektóre hostingi współdzielone nie wspierają tego rozszerzenia.'
   forum:
     alerts:

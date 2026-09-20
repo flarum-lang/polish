@@ -45,7 +45,7 @@ fof-polls:
       add_title: 'Dodaj ankietę'
       continue_editing: 'Kontynuuj edycję'
       edit_title: 'Edytuj ankietę'
-      polls_manager: 'Menadżer ankiet'
+      polls_manager: 'Menedżer ankiet'
       polls_preview: 'Zobacz ankietę'
       success: 'Ankieta zapisana pomyślnie.'
     composer_discussion:

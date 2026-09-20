@@ -6,7 +6,7 @@ flarum-audit:
   lib:
     browser:
       registration:
-        blocked: 'Zablokowano rejestrację użytkownika {username} ({email}) z {ip})'
+        blocked: 'Zablokowano rejestrację użytkownika {username} ({email}) z {ip}'
       user:
         marked_as_spammer: 'Oznaczono {username} jako spamera'
 fof-anti-spam:
@@ -15,7 +15,7 @@ fof-anti-spam:
       attempted-at: Próba
       button: 'Zablokowane rejestracje'
       delete_entry: 'Usuń rekord'
-      email: 'Adres email'
+      email: 'Adres e-mail'
       help: "Ta strona pokazuje wszystkie rejestracje, które zostały zablokowane przez usługę StopForumSpam. Możesz wyświetlić szczegóły każdej rejestracji, a jeśli chcesz, możesz usunąć rekord z bazy danych.\n"
       ip: 'Adres IP'
       login-provider: 'Dostawca logowania'
@@ -51,7 +51,7 @@ fof-anti-spam:
         frequency_help: "Łączna liczba zgłoszeń spamu ze wszystkich włączonych metod sprawdzania, które spowodują wyzwolenie filtra antyspamowego.\nNa przykład: Jeśli e-mail ma 1 trafienie, a adres IP ma 2 trafienia, w sumie będą 3 trafienia. Jeśli próg jest ustawiony na 3 lub mniej, uniemożliwimy rejestrację.\n"
         frequency_label: Próg
         heading: StopForumSpam
-        introduction: "Sprawdza nowe rejestracje użytkowników w bazie danych <a>StopForumSpam</a>. Jeśli osiągnięte zostaną progi <code>confidence</code> (pewności) lub <code>frequency</code> (częstotliwości), użytkownikowi uniemożliwione zostanie dokończenie rejestracji na twoim forum.\n\nObsługiwane jest także SSO przez <code>fof/oauth</code> i <code>fof/passport</code>. Inni dostawcy SSO powinni działać, ale nie są przetestowani.\n"
+        introduction: "Sprawdza nowe rejestracje użytkowników w bazie danych <a>StopForumSpam</a>. Jeśli osiągnięte zostaną progi <code>confidence</code> (pewności) lub <code>frequency</code> (częstotliwości), użytkownikowi uniemożliwione zostanie dokończenie rejestracji na Twoim forum.\n\nObsługiwane jest także SSO przez <code>fof/oauth</code> i <code>fof/passport</code>. Inni dostawcy SSO powinni działać, ale nie są przetestowani.\n"
         ip_label: 'Kontrola spamu adresu IP'
         region_closest_label: Najbliższy
         region_europe_label: Europa

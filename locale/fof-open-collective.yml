@@ -5,8 +5,8 @@
 fof-open-collective:
   admin:
     settings:
-      api_key_label: 'API Key'
+      api_key_label: 'Klucz API aplikacji (przestarzałe)'
       desc: 'Uzyskaj swój klucz API na <a>https://opencollective.com/applications</a>.'
-      group_label: 'Grupa do przypisania'
+      group_label: 'Grupa stałych wspierających'
       slug_label: 'Collective Slug'
       title: 'FriendsOfFlarum Open Collective'

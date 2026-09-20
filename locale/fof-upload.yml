@@ -13,14 +13,14 @@ flarum-gdpr:
   lib:
     data:
       uploads:
-        anonymize_description: 'Usuwa odwołania do plików przesłanych przez użytkownika. Same pliki wciąż pozostają dostępne dla użytkowników, którzy mogli zobaczyć je przed anonimizacją.'
+        anonymize_description: 'Usuwa odniesienie do użytkownika z przesłanych plików. Same pliki wciąż pozostają dostępne dla użytkowników, którzy mogli zobaczyć je przed anonimizacją.'
         delete_description: 'Usuwa wszystkie pliki przesłane przez użytkownika.'
         export_description: 'Wszystkie pliki przesłane przez użytkownika.'
 fof-upload:
   admin:
     help_texts:
       client_extension: "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n"
-      composer_buttons: "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
+      composer_buttons: "Domyślnie przycisk dla menedżera multimediów oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
       custom_s3_url: "Użyj tego ustawienia, jeśli korzystasz z usługi zgodnej z S3, która wymaga określonego formatu URL (np. Backblaze B2), lub jeśli występują problemy z domyślnym formatem adresu. W większości usług to ustawienie nie jest potrzebne. Upewnij się, że adres URL zawiera protokół (https://) i jest poprawnie sformatowany. Przykład: https://your-bucket.s3.your-region.backblazeb2.com\n"
       disable-download-logging: "Wyłącz rejestrowanie każdego pobrania przez użytkowników Twojego forum. Pozostawienie tej opcji włączonej pozwoli Ci na zobaczenie ilości pobrań i innych statystyk w niedalekiej przyszłości.\n"
       disable-hotlink-protection: "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora posta.\n"
@@ -56,11 +56,11 @@ fof-upload:
         title: 'Ustawienia AWS S3'
         use_path_style_endpoint: 'Use path style endpoint'
       client_extension:
-        title: 'Rozszerzenia pików podane przez użytkownika'
+        title: 'Rozszerzenia plików podane przez użytkownika'
       composer_buttons:
         options:
           both: Oba
-          media-btn: 'Jedynie przycisk managera plików'
+          media-btn: 'Jedynie przycisk menedżera multimediów'
           upload-btn: 'Jedynie przycisk do wysyłania plików'
         title: 'Przyciski w kompozytorze'
       configured_by_environment: 'Ustawienia pamięci masowej zostały wstępnie skonfigurowane za pomocą zmiennych środowiskowych.'
@@ -71,7 +71,7 @@ fof-upload:
         title: 'Wyłącz ochronę przed hotlinkowaniem'
         toggle: Wyłącz
       imgur:
-        client_id: 'ID użytkownika Imgura'
+        client_id: 'Client ID Imgura'
         title: 'Ustawienia Imgura'
         tos: 'To Twoim obowiązkiem jest dopilnowanie, by użytkownicy forum przestrzegali <a>warunków korzystania z usługi</a> Imgur'
       inspect-mime: 'Przetestuj typ MIME pliku'
@@ -108,7 +108,7 @@ fof-upload:
       description: 'Skonfiguruj ustawienia przesyłania plików.'
       title: 'Przesyłanie plików'
     permissions:
-      access_shared_label: 'Dostęp do współdzielonych plik w menedżerze mediów'
+      access_shared_label: 'Dostęp do współdzielonych plików w menedżerze multimediów'
       delete_uploads_of_others_label: 'Usuwanie plików użytkowników'
       download_label: 'Pobieranie plików'
       upload_label: 'Przesyłanie plików'
@@ -116,7 +116,7 @@ fof-upload:
       view_user_uploads_label: 'Przeglądanie plików użytkowników'
     shared-uploads:
       description: 'Prześlij pliki, które mogą być używane przez wszystkich użytkowników forum.'
-      introduction: "Współdzielone pliki to pliki, których mogą używać wszyscy użytkownicy twojego forum. Nie są one dołączone do żadnego posta, ale mogą być wstawiane do postów za pomocą menedżera multimediów.\n\n<strong>Ostrzeżenie:</strong> Współdzielone pliki nie są chronione przez żadne uprawnienia. Każdy, kto posiada URL, może je wyświetlić.\n"
+      introduction: "Współdzielone pliki to pliki, których mogą używać wszyscy użytkownicy Twojego forum. Nie są one dołączone do żadnego posta, ale mogą być wstawiane do postów za pomocą menedżera multimediów.\n\n<strong>Ostrzeżenie:</strong> Współdzielone pliki nie są chronione przez żadne uprawnienia. Każdy, kto posiada URL, może je wyświetlić.\n"
       no-files: 'Nie przesłano jeszcze żadnych współdzielonych plików.'
       title: 'Współdzielone pliki'
       upload-new-button: 'Prześlij nowy plik'
@@ -136,7 +136,7 @@ fof-upload:
       text-preview: 'Podgląd tekstu'
       text-preview_description: "Wstawia podgląd (pierwsze 5 wierszy) pliku tekstowego z opcją rozwinięcia w celu wyświetlenia pełnej zawartości pliku.\n"
     upload_methods:
-      aws-s3: 'Kompatybilne z S3'
+      aws-s3: 'S3 lub kompatybilne'
       awss3: 'AWS S3'
       imgur: Imgur
       local: Lokalnie
@@ -179,7 +179,7 @@ fof-upload:
       modal_empty_phone: 'Lista Twoich plików jest pusta. Wciśnij przycisk powyżej, aby wysłać plik.'
       release_to_upload: 'Upuść, aby wysłać'
       select_file_a11y_label: 'Wybierz plik "{fileName}"'
-    media_manager: 'Manager plików'
+    media_manager: 'Menedżer multimediów'
     states:
       error: Błąd
       loading: Wysyłanie
@@ -194,13 +194,13 @@ fof-upload:
       max_size: 'Wysyłanie plików większych niż {max} kb nie jest obsługiwane.'
   lib:
     file_list:
-      confirm_selection_btn: '{fileCount, plural, =0 {Nie wybrano} one {Wybierz plik} other {Select pliki}}'
+      confirm_selection_btn: '{fileCount, plural, =0 {Nie wybrano} one {Wybierz plik} other {Wybierz pliki}}'
       delete_confirmation: 'Czy jesteś pewien, że chcesz usunąć "{fileName}"?'
       delete_file_a11y_label: 'Usuń plik "{fileName}"'
       empty: 'Nie ma żadnych plików do wyświetlenia.'
       hide_file:
-        btn_a11y_label_hide: 'Ukryj "{fileName}" w menedżerze plików'
-        btn_a11y_label_show: 'Pokaż "{fileName}" w menedżerze plików'
+        btn_a11y_label_hide: 'Ukryj "{fileName}" w menedżerze multimediów'
+        btn_a11y_label_show: 'Pokaż "{fileName}" w menedżerze multimediów'
         hide_confirmation: 'Czy na pewno chcesz ukryć "{fileName}"? Ukrycie pliku spowoduje jedynie usunięcie go z menedżera multimediów i nie wpłynie na istniejące posty.'
         hide_fail: 'Nie można ukryć pliku "{fileName}"'
         hide_success: 'Plik ukryty'
@@ -214,8 +214,8 @@ fof-upload:
         hide_confirmation: 'Czy na pewno chcesz ustawić "{fileName}" jako prywatny? Ustawienie pliku jako prywatny spowoduje usunięcie jego publicznego adresu URL, ale nie wpłynie na istniejące posty. Nie będzie on również widoczny w menedżerze multimediów dla nieautoryzowanych użytkowników.'
         hide_fail: 'Nie można ustawić pliku "{fileName}" jako prywatnego'
         hide_success: 'Plik stał się prywatny'
-        loading: 'Udostępnianie pliku jako prywatnego...'
-        show_confirmation: 'Czy na pewno chcesz upublicznić plik "{fileName}"? Upublicznienie pliku sprawi, że będzie on dostępny dla każdego, kto ma publiczny adres URL i każdy będzie mógł go udostępnić za pomocą menedżera plików.'
+        loading: 'Ustawianie pliku jako prywatny...'
+        show_confirmation: 'Czy na pewno chcesz upublicznić plik "{fileName}"? Upublicznienie pliku sprawi, że będzie on dostępny dla każdego, kto ma publiczny adres URL i każdy będzie mógł go udostępnić za pomocą menedżera multimediów.'
         show_fail: 'Nie można upublicznić pliku "{fileName}"'
         show_success: 'Plik został upubliczniony'
       load_more_files_btn: 'Wczytaj więcej plików'

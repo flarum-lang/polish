@@ -12,15 +12,15 @@ validation:
   alpha_num: 'Pole :attribute może zawierać jedynie litery i cyfry.'
   array: 'Pole :attribute musi być tablicą.'
   attributes:
-    content: Zawartość
-    email: E-mail
-    name_plural: 'Nazwa w liczbie mnogiej'
-    name_singular: 'Nazwa w liczbie pojedynczej'
-    password: Hasło
-    tag_count_primary: 'Liczba głównych tagów'
-    tag_count_secondary: 'Liczba tagów podrzędnych'
-    title: Tytuł
-    username: 'Nazwa użytkownika'
+    content: zawartość
+    email: e-mail
+    name_plural: 'nazwa w liczbie mnogiej'
+    name_singular: 'nazwa w liczbie pojedynczej'
+    password: hasło
+    tag_count_primary: 'liczba tagów głównych'
+    tag_count_secondary: 'liczba tagów dodatkowych'
+    title: tytuł
+    username: 'nazwa użytkownika'
   before: 'Pole :attribute musi być datą wcześniejszą od :date.'
   before_or_equal: 'Pole :attribute musi być datą nie późniejszą niż :date.'
   between:
@@ -96,9 +96,9 @@ validation:
   prohibited_unless: 'Pole :attribute jest zabronione, chyba że :other jest w :values.'
   regex: 'Format pola :attribute jest nieprawidłowy.'
   required: 'Pole :attribute jest wymagane.'
-  required_array_keys: 'Pole :attribute musi być tablicą zawierająca pozycje dla: :values.'
+  required_array_keys: 'Pole :attribute musi być tablicą zawierającą pozycje dla: :values.'
   required_if: 'Pole :attribute jest wymagane, gdy :other ma wartość :value.'
-  required_unless: 'Pole :attribute jest wymagane jeżeli :other nie znajduje się w :values.'
+  required_unless: 'Pole :attribute jest wymagane, jeżeli :other nie znajduje się w :values.'
   required_with: 'Pole :attribute jest wymagane, gdy :values jest obecny.'
   required_with_all: 'Pole :attribute jest wymagane, gdy wszystkie :values są obecne.'
   required_without: 'Pole :attribute jest wymagane, gdy :values nie jest obecny.'
@@ -112,7 +112,7 @@ validation:
   starts_with: 'Pole :attribute musi zaczynać się jedną z następujących wartości: :values.'
   string: 'Pole :attribute musi być ciągiem znaków.'
   timezone: 'Pole :attribute musi być prawidłową strefą czasową.'
-  unique: 'Taki :attribute już występuje.'
+  unique: 'Podana wartość pola :attribute jest już zajęta.'
   uploaded: 'Nie udało się wgrać pliku :attribute.'
   url: 'Format pola :attribute jest nieprawidłowy.'
   uuid: 'Pole :attribute musi być poprawnym identyfikatorem UUID.'

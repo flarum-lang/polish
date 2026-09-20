@@ -56,7 +56,7 @@ core:
       forum_description_heading: 'Opis forum'
       forum_description_text: 'Wpisz 1-2 krótkie zdania, które opisują Twoją społeczność. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.'
       forum_title_heading: 'Nazwa forum'
-      home_page_heading: 'Strona domowa'
+      home_page_heading: 'Strona główna'
       home_page_text: 'Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.'
       show_language_selector_label: 'Pokazuj menu wyboru języka'
       slug_driver_heading: 'Generator slugów: {model}'
@@ -95,7 +95,7 @@ core:
       title: Kokpit
       tools_button: Narzędzia
     debug-warning:
-      detail: "Gdy tryb <code>debug</code> jest aktywny, Flarum będzie odświeżać pliki <code>JavaScript</code> i <code>CSS</code> przy każdym wczytaniu strony, a także może ujawnić poufne informacje, jak na przykład dane dostępowe do bazy danych, zmienne środowiskowe itp.\n\nZalecane jest wyłączenie trybu <code>debug</code> w pliku <code>config.php</code> dla środowisk produkcyjnych. Sprawdź <link>dokumentację Flarum</link> aby uzyskać więcej informacji.\n"
+      detail: "Gdy tryb <code>debug</code> jest aktywny, Flarum będzie odświeżać pliki <code>JavaScript</code> i <code>CSS</code> przy każdym wczytaniu strony, a także może ujawnić poufne informacje, jak na przykład dane dostępowe do bazy danych, zmienne środowiskowe itp.\n\nZalecane jest wyłączenie trybu <code>debug</code> w pliku <code>config.php</code> dla środowisk produkcyjnych. Sprawdź <link>dokumentację Flarum</link>, aby uzyskać więcej informacji.\n"
       label: 'Tryb debug jest aktywny'
     edit_css:
       customize_text: 'Edytuj wygląd swojego forum poprzez dodawanie swojego własnego kodu Less/CSS, który będzie dodany nad <a>domyślnymi stylami Flarum</a>.'
@@ -131,7 +131,7 @@ core:
       mail_host_label: Host
       mail_mailgun_domain_label: Domena
       mail_mailgun_region_label: Region
-      mail_mailgun_secret_label: 'Secret key'
+      mail_mailgun_secret_label: 'Klucz tajny'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
       mail_username_label: '=> core.ref.username'
@@ -150,7 +150,7 @@ core:
       confirm_purge: 'Wszystkie wpisy w bazie oraz zasoby powiązane z tym rozszerzeniem zostaną usunięte. Samo rozszerzenie nie zostanie odinstalowane, to musi być dokonane za pomocą Composera. Czy chcesz kontynuować?'
       deprecated: Przestarzałe
       disabled: Wyłączone
-      enable_to_see: 'Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.'
+      enable_to_see: 'Włącz to rozszerzenie, aby uzyskać dostęp do jego ustawień.'
       enabled: Włączone
       info_links:
         discuss: Dyskusja
@@ -296,7 +296,7 @@ core:
     abandoned_extensions:
       body: "Cześć {username},\n\nNastępujące zainstalowane rozszerzenia zostały oznaczone jako porzucone:\n\n{extensions}\n\nSprawdź te rozszerzenia i rozważ przejście na alternatywy, jeśli są dostępne.\n"
       line_no_replacement: '- {package} (brak dostępnego zamiennika)'
-      line_with_replacement: '{package} (sugerowany zamiennik: {replacement})'
+      line_with_replacement: '- {package} (sugerowany zamiennik: {replacement})'
       subject: 'Wymagane działanie: wykryto porzucone rozszerzenia'
     activate_account:
       body: "Witaj {username},\n\nKtoś (mamy nadzieję, że Ty!) zarejestrował się na {forum} używając tego adresu e-mail.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej i Twoje konto zostanie aktywowane:\n{url}\n\nJeśli się nie rejestrowałeś, zignoruj tę wiadomość.\n"
@@ -363,7 +363,7 @@ core:
       replied_text: '{username} odpowiedział {ago}'
       started_text: '{username} rozpoczął {ago}'
       total_replies_a11y_label: '{count, plural, one {# odpowiedź} other {# odpowiedzi}}'
-      unread_replies_a11y_label: '{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}.'
+      unread_replies_a11y_label: '{count, plural, one {# nieodczytana odpowiedź} few {# nieodczytane odpowiedzi} other {# nieodczytanych odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
@@ -426,7 +426,7 @@ core:
       number_tooltip: 'Post #{number}'
     post_controls:
       delete_button: '=> core.ref.delete'
-      delete_confirmation: 'Czy jesteś pewien, że chcesz nieodwracalnie usunąć ten post? Ta operacje nie może zostać cofnięta.'
+      delete_confirmation: 'Czy jesteś pewien, że chcesz nieodwracalnie usunąć ten post? Ta operacja nie może zostać cofnięta.'
       delete_forever_button: '=> core.ref.delete_forever'
       edit_button: '=> core.ref.edit'
       hide_confirmation: 'Czy jesteś pewien, że chcesz usunąć ten post?'
@@ -435,7 +435,7 @@ core:
     post_scrubber:
       now_link: Teraz
       original_post_link: 'Początek dyskusji'
-      unread_text: '{count} nieodczytanych'
+      unread_text: '{count, plural, one {# nieodczytany} few {# nieodczytane} other {# nieodczytanych}}'
       viewing_text: 'Post {index} z {formattedCount}'
     post_stream:
       discussion_renamed_old_tooltip: 'Poprzedni tytuł: "{old}"'
@@ -506,7 +506,7 @@ core:
     user:
       avatar_remove_button: '=> core.ref.remove'
       avatar_upload_button: Wyślij
-      avatar_upload_tooltip: 'Wyślij nowy avatar'
+      avatar_upload_tooltip: 'Wyślij nowy awatar'
       discussions_link: '=> core.ref.discussions'
       in_discussion_text: 'W {discussion}'
       joined_date_text: 'Dołączył {ago}'
@@ -618,7 +618,7 @@ core:
     edit_user: 'Edytuj użytkownika'
     email: E-mail
     extensions: Rozszerzenia
-    generic_confirmation_message: 'Czy jesteś pewien, że chcesz kontynuować? Ta operacje nie może zostać cofnięta.'
+    generic_confirmation_message: 'Czy jesteś pewien, że chcesz kontynuować? Ta operacja nie może zostać cofnięta.'
     icon: Ikona
     icon_text: 'Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.'
     load_more: 'Wczytaj więcej'

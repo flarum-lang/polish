@@ -6,7 +6,7 @@ justoverclock-hashtag:
   admin:
     settings:
       oldregexdesc: 'Poprzednie wyrażenie regularne dla hashtagów: <code>{regex}</code>'
-      regexdesc: 'Edytuj poniższe ustawienie tylko jeśli rozumiesz wyrażenia regularne.'
+      regexdesc: 'Edytuj poniższe ustawienie tylko wtedy, gdy rozumiesz wyrażenia regularne.'
       regexlabel: 'Wyrażenie regularne dla hasztagów'
   forum:
     post:
