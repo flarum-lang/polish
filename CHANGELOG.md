@@ -5,6 +5,12 @@ CHANGELOG
 2.0.6 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations (14 changed).
+* Updated validation translations (11 changed).
+
+
 **Added support for new extensions**:
 
 * [`flarum/messages`](https://github.com/flarum/messages)
@@ -14,20 +20,36 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (17 added, 4 changed)
+* [`flarum/akismet`](https://github.com/flarum/akismet) (1 changed)
+* [`flarum/audit`](https://github.com/flarum/audit) (2 changed)
 * [`flarum/emoji`](https://github.com/flarum/emoji) (2 added)
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (103 added, 5 changed)
-* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (3 added)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (5 changed)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (1 changed)
+* [`flarum/tags`](https://github.com/flarum/tags) (5 changed)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (103 added, 8 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (3 added, 4 changed)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (1 changed)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (1 added)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (10 added)
-* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (26 added)
-* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (1 added)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (1 changed)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter) (1 changed)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (26 added, 2 changed)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (1 added, 1 changed)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links) (38 added, 2 changed)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (1 changed)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (8 added)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (7 added)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) (2 added)
-* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (75 added, 1 changed)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) (2 changed)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (1 changed)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo) (1 changed)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (75 added, 25 changed)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) (1 added)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) (2 added)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (1 changed)
+* [`ianm/syndication`](https://github.com/imorland/syndication) (1 changed)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (3 changed)
 
 
 All changes: [v2.0.5...2.0.6](https://github.com/flarum-lang/polish/compare/v2.0.5...2.0.6).
