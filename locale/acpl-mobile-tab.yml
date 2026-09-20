@@ -6,7 +6,7 @@ acpl-mobile-tab:
   admin:
     active_items: 'Aktywne elementy'
     available_items: 'Dostępne elementy'
-    create_new_item_button: 'Utwórz nowy element'
+    create_new_item_button: 'Utwórz element'
     edit_item:
       delete_button: Usuń
       delete_item_confirmation: 'Jesteś pewien, że chcesz usunąć ten element?'
