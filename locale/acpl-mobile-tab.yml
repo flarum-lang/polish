@@ -11,7 +11,7 @@ acpl-mobile-tab:
     edit_item:
       delete_button: Usuń
       delete_item_confirmation: 'Czy na pewno chcesz usunąć ten element?'
-      help: 'Potrzebujesz czegoś więcej niż zwykłego linku? Zobacz <a>dokumentację dla deweloperów</a>, aby dowiedzieć się, jak tworzyć własne elementy i ich zachowanie.'
+      help: 'Potrzebujesz czegoś więcej niż zwykłego linku? Zobacz <a>dokumentację dla programistów</a>, aby dowiedzieć się, jak tworzyć własne elementy i ich zachowanie.'
       icon: Ikona
       icon_help: 'Podaj nazwę klasy dowolnej ikony <a>Font Awesome</a>, razem z prefiksem <code>fas fa-</code>.'
       is_internal_checkbox: 'Czy to wewnętrzny link?'
