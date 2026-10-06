@@ -15,6 +15,22 @@ ramon-chat:
       user_help: 'Wybierz konto, a ogłoszenia staną się zwykłymi wiadomościami tego użytkownika — bez nazwy bota, obrazu i oznaczenia BOT.'
       user_label: 'Wysyłaj jako użytkownik'
       user_search: 'Szukaj użytkowników'
+    layout:
+      group_delivery: 'Dostarczanie i dane'
+      group_general: Ogólne
+      group_integrations: Integracje
+      group_messages: 'Wiadomości i pliki'
+      groups_aria: 'Grupy ustawień'
+      preview_bot_tag: Bot
+      preview_drawer: 'Panel czatu'
+      preview_header: 'Przycisk w nagłówku'
+      preview_label: Podgląd
+      preview_message_sample: 'Nowa dyskusja w kategorii Ogólne: Witamy na forum'
+      saved: 'Wszystkie zmiany zapisane'
+      search_clear: 'Wyczyść wyszukiwanie'
+      search_empty: 'Żadne ustawienie nie pasuje do wyszukiwania.'
+      search_placeholder: 'Szukaj ustawień'
+      unsaved: '{count, plural, one {# niezapisana zmiana} few {# niezapisane zmiany} other {# niezapisanych zmian}}'
     permissions:
       access_private_channels: 'Wyświetlanie prywatnych kanałów i dołączanie do nich'
       bypass_slow_mode: 'Pomijanie trybu powolnego'
@@ -73,6 +89,10 @@ ramon-chat:
       channel_retention_help: 'Liczba dni przechowywania wiadomości na kanałach kategorii. 0 oznacza przechowywanie bezterminowe.'
       dm_retention_days: 'Retencja wiadomości prywatnych (dni)'
       dm_retention_help: 'Liczba dni przechowywania wiadomości prywatnych i grupowych. 0 oznacza przechowywanie bezterminowe.'
+      fof_upload_adapter: 'Adapter FoF Upload'
+      fof_upload_adapter_help: 'Określa, do którego magazynu FoF Upload trafiają załączniki z czatu. Zasobnik musi umożliwiać publiczny odczyt. Typy plików, limity rozmiaru i uprawnienia skonfigurowane w FoF Upload nie mają tutaj zastosowania — obowiązują powyższe limity czatu i jego uprawnienie do przesyłania plików.'
+      fof_upload_adapter_mapping: 'Użyj mapowania typów plików z FoF Upload'
+      fof_upload_local_warning: 'Lokalny adapter FoF Upload, często wybierany przez mapowanie typów plików, zapisuje pliki w public/assets/files na tym serwerze. Pozwoli to ograniczyć wykorzystanie transferu tylko wtedy, gdy w ustawieniach FoF Upload skonfigurowano adres URL CDN.'
       icon_help: 'Klasa Font Awesome, np. fas fa-comments.'
       icon_label: 'Ikona czatu'
       max_message_length: 'Maksymalna długość wiadomości'
@@ -86,6 +106,8 @@ ramon-chat:
       min_message_length: 'Minimalna długość wiadomości'
       queue_realtime: 'Wysyłaj zdarzenia w czasie rzeczywistym przez kolejkę'
       queue_realtime_help: 'Domyślnie wyłączone: zdarzenia są wysyłane w ramach żądania, dzięki czemu wiadomości docierają natychmiast. Włącz tę opcję tylko wtedy, gdy forum stale uruchamia proces obsługujący kolejkę albo serwer WWW nie może połączyć się z serwerem WebSocket. W przypadku sterownika kolejki bazodanowej Flaruma proces uruchamia się raz na minutę, więc każda wiadomość może zostać opóźniona nawet o minutę.'
+      queue_realtime_inline: 'Zdarzenia w czasie rzeczywistym są dostarczane w ramach żądania: to forum nie ma stale działającego workera kolejki, więc skierowanie ich do kolejki spowodowałoby tylko opóźnienie.'
+      queue_realtime_inline_database: 'Zdarzenia w czasie rzeczywistym są dostarczane w ramach żądania: kolejka bazodanowa Flarum jest przetwarzana raz na minutę, więc skierowanie ich do kolejki mogłoby opóźnić wiadomości nawet o minutę.'
       retention_warning: 'Retencja trwale usuwa wiadomości. Nie można tego cofnąć.'
       show_icon_help: 'Wyłącz, aby wyświetlać tylko nazwę.'
       show_icon_label: 'Pokazuj ikonę czatu'
@@ -99,6 +121,10 @@ ramon-chat:
       title: Czat
       title_help: 'Wyświetlana na przycisku w nagłówku i w wysuwanym panelu. Pozostaw puste, aby użyć nazwy „Czat”.'
       title_label: 'Nazwa czatu'
+      upload_storage: 'Miejsce przechowywania publicznych załączników'
+      upload_storage_fof: 'Magazyn FoF Upload'
+      upload_storage_help: 'Załączniki z prywatnych kanałów, wiadomości prywatnych i kategorii z ograniczonym dostępem zawsze pozostają na prywatnym dysku tego forum, niezależnie od wybranego ustawienia. Jeśli fof/upload nie może zapisać pliku, przesyłanie zostanie odrzucone zamiast zapisania go lokalnie.'
+      upload_storage_local: 'Dysk tego forum'
       webhooks_enabled: 'Akceptuj przychodzące webhooki'
       webhooks_enabled_help: 'Gdy opcja jest wyłączona, każdy adres URL webhooka jest odrzucany niezależnie od tego, czy sam webhook jest aktywny. Ustawienie jest zapisywane razem z resztą strony.'
     webhooks:
@@ -119,14 +145,23 @@ ramon-chat:
       url_once: 'Skopiuj ten adres URL teraz. Nie zostanie wyświetlony ponownie.'
   api:
     archive_discussion_not_found: 'Ta dyskusja nie istnieje lub nie masz do niej dostępu.'
+    archive_discussion_wider: 'Dostęp do kategorii tego kanału jest ograniczony, dlatego można go zarchiwizować tylko jako dyskusję w tej samej kategorii.'
     archive_empty: 'Ten kanał zarchiwizowano bez żadnych wiadomości.'
+    archive_needs_approval: 'Twoje posty w tej kategorii wymagają zatwierdzenia, dlatego nie możesz samodzielnie zarchiwizować tego kanału.'
+    archive_private_channel: 'Tylko administrator może zarchiwizować prywatny kanał jako dyskusję.'
     archive_title_required: 'Archiwum wymaga tytułu dyskusji.'
+    archive_too_large: 'Ten kanał zawiera ponad {max} wiadomości. Poproś administratora o jego zarchiwizowanie.'
+    bookmark_name_too_long: 'Nazwa zakładki nie może mieć więcej niż {max} znaków.'
     cannot_remove_self: 'Użyj opcji „Opuść kanał”, aby usunąć siebie.'
+    channel_archived_status: 'Ten kanał jest zarchiwizowany. Najpierw przywróć go z archiwum.'
+    channel_flag_not_allowed: 'Tylko moderatorzy czatu mogą zmienić to ustawienie.'
     channel_not_found: 'Ten kanał nie istnieje lub nie masz do niego dostępu.'
+    channel_tag_not_found: 'Ta kategoria nie istnieje lub nie masz do niej dostępu.'
     direct_channel_self: 'Tylko Ty'
     direct_needs_participant: 'Wybierz co najmniej jednego użytkownika.'
     direct_too_many: '{max, plural, one {Czat grupowy może mieć maksymalnie # uczestnika.} other {Czat grupowy może mieć maksymalnie # uczestników.}}'
     direct_unknown_user: 'Jeden z tych użytkowników nie istnieje.'
+    draft_too_long: 'Ta wersja robocza jest zbyt długa, aby ją zapisać. Wersje robocze mogą mieć maksymalnie {max} znaków.'
     flag_detail_required: 'Napisz, co jest nie tak z tą wiadomością.'
     flag_reason_invalid: 'Nie można zgłosić wiadomości z tego powodu.'
     invalid_channel_status: 'Kanał może być tylko otwarty lub zamknięty.'
@@ -134,8 +169,10 @@ ramon-chat:
     invalid_reply_target: 'Nie możesz odpowiedzieć na wiadomość z innego kanału.'
     invalid_thread_target: 'Ten wątek nie należy do tego kanału.'
     invite_not_found: 'Nie ma tutaj oczekującego zaproszenia.'
+    invite_rate_limited: 'Ostatnio wysłałeś zbyt wiele zaproszeń. Spróbuj ponownie później.'
     members_empty: 'Wybierz co najmniej jednego użytkownika do dodania.'
     members_too_many: '{max, plural, one {Możesz dodać jednocześnie maksymalnie # użytkownika.} other {Możesz dodać jednocześnie maksymalnie # użytkowników.}}'
+    membership_rate_limited: 'Zbyt szybko dołączasz do tego kanału i go opuszczasz. Spróbuj ponownie za minutę.'
     message_empty: 'Nie możesz wysłać pustej wiadomości.'
     message_too_long: 'Wiadomość nie może mieć więcej niż {max} znaków.'
     message_too_short: 'Wiadomość musi mieć co najmniej {min} znaków.'
@@ -143,13 +180,31 @@ ramon-chat:
     move_target_frozen: 'Nie możesz przenosić wiadomości do zamkniętego ani zarchiwizowanego kanału.'
     move_too_many: '{max, plural, one {Możesz przenieść jednocześnie maksymalnie # wiadomość.} other {Możesz przenieść jednocześnie maksymalnie # wiadomości.}}'
     not_a_member: 'Ten użytkownik nie należy do tego kanału.'
+    rank_color_invalid: 'Podaj kolor w formacie #RRGGBB.'
+    rank_flag_invalid: 'Ta wartość nie określa prawidłowo stanu włączenia lub wyłączenia.'
+    rank_icon_invalid: 'Ikona musi być klasą Font Awesome, np. fas fa-star.'
+    rank_limit: 'Kanał może mieć maksymalnie {max} rang.'
+    rank_name_invalid: 'Nazwa rangi musi mieć od 1 do {max} znaków.'
+    rank_not_found: 'Ta ranga nie istnieje na tym kanale.'
+    rank_order_invalid: 'Nowa kolejność musi zawierać każdą rangę dokładnie raz.'
+    rank_rate_limited: 'Zbyt szybko zmieniasz rangi. Spróbuj ponownie za minutę.'
     rate_limited: 'Wysyłasz wiadomości zbyt szybko. Zwolnij trochę.'
+    reaction_limit: 'Nie można dodać więcej reakcji do tej wiadomości.'
     slow_mode_wait: 'Na tym kanale działa tryb powolny. Kolejną wiadomość możesz wysłać za {seconds} s.'
     stickers_not_allowed: 'Nie możesz wysyłać naklejek.'
     threading_disabled: 'Wątki są wyłączone na tym kanale.'
     transcript_empty: 'Nie wybrano żadnych wiadomości lub nie możesz ich odczytać.'
     transcript_too_many: '{max, plural, one {Możesz zacytować jednocześnie maksymalnie # wiadomość.} other {Możesz zacytować jednocześnie maksymalnie # wiadomości.}}'
+    transfer_code_invalid: '{remaining, plural, one {Ten kod jest nieprawidłowy. Pozostała # próba.} few {Ten kod jest nieprawidłowy. Pozostały # próby.} other {Ten kod jest nieprawidłowy. Pozostało # prób.}}'
+    transfer_code_locked: 'Wprowadzono zbyt wiele błędnych kodów. Rozpocznij przenoszenie własności ponownie.'
+    transfer_expired: 'Ta propozycja przeniesienia własności wygasła. Rozpocznij ją ponownie.'
+    transfer_not_found: 'Nie ma tutaj oczekującej propozycji przeniesienia własności.'
+    transfer_rate_limited: 'Ostatnio rozpocząłeś zbyt wiele przeniesień własności. Spróbuj ponownie później.'
+    transfer_target_is_owner: 'Ten członek jest już właścicielem kanału.'
+    transfer_target_not_allowed: 'Ten członek nie może być właścicielem kanału.'
+    transfer_unavailable: 'Nie można teraz zmienić właściciela tego kanału.'
     upload_missing: 'Nie przesłano żadnego pliku.'
+    upload_storage_failed: 'Nie udało się zapisać pliku. Spróbuj ponownie za chwilę, a jeśli problem będzie się powtarzał, poinformuj administratora.'
     upload_too_large: 'Ten plik jest zbyt duży.'
     upload_unsupported: 'Nieobsługiwany typ pliku: {type}'
     uploads_disabled: 'Przesyłanie plików na czacie jest wyłączone.'
@@ -165,6 +220,9 @@ ramon-chat:
         body: "{author} wspomniał o Tobie w {channel}:\n\n{content}\n\nOdpowiedz: {url}\n"
       subject: 'Wspomniano o Tobie w {channel}'
       unknown_author: Ktoś
+    transfer_code:
+      body: 'Twój kod potwierdzający to {code}. Wprowadź go, aby przekazać kanał {channel} użytkownikowi {recipient}. Kod wygaśnie za {minutes} min. Jeśli nie prosiłeś o tę zmianę, zignoruj tę wiadomość — nic się nie zmieni.'
+      subject: 'Potwierdź przeniesienie własności kanału {channel}'
   forum:
     add_members:
       added: '{count, plural, one {Wysłano zaproszenie do: {names}.} few {Wysłano # zaproszenia: {names}.} other {Wysłano # zaproszeń: {names}.}}'
@@ -222,6 +280,7 @@ ramon-chat:
       decline_invite: Odrzuć
       decline_invite_confirm: 'Odrzucić to zaproszenie? Osoba, która Cię zaprosiła, zostanie o tym poinformowana.'
       edit: 'Edytuj kanał'
+      gone: 'Ten kanał już nie istnieje.'
       invite_accepted: 'Dołączyłeś do kanału.'
       invite_declined: 'Odrzuciłeś zaproszenie.'
       invite_failed: 'Nie udało się odpowiedzieć na to zaproszenie.'
@@ -245,6 +304,7 @@ ramon-chat:
       search_in_channel: 'Szukaj na tym kanale'
       threading_enabled: 'Wątki włączone'
       threads: 'Wątki na tym kanale'
+      unarchive: 'Przywróć z archiwum'
       view_all_pinned: 'Zobacz wszystkie przypięte wiadomości ({count})'
       view_info: 'Informacje o kanale'
     composer:
@@ -382,6 +442,23 @@ ramon-chat:
       tab_members: Członkowie
       tab_settings: Ustawienia
       threading: 'Włącz wątki'
+      transfer_accepted: 'Jesteś teraz właścicielem tego kanału.'
+      transfer_cancel: 'Anuluj przeniesienie'
+      transfer_cancelled: 'Przeniesienie własności zostało anulowane.'
+      transfer_code_label: 'Kod potwierdzający'
+      transfer_confirm_start: 'Przekazać kanał {channel} użytkownikowi {username}? Otrzymasz kod e-mailem, a gdy użytkownik przyjmie propozycję, zostaniesz moderatorem tego kanału.'
+      transfer_declined: 'Odrzuciłeś propozycję przejęcia kanału.'
+      transfer_enter_code: 'Wprowadź kod'
+      transfer_failed: 'Nie udało się przenieść własności kanału.'
+      transfer_incoming: '{username} chce przekazać Ci ten kanał.'
+      transfer_intro: 'Wprowadź 6-cyfrowy kod wysłany e-mailem, aby zaproponować przekazanie kanału użytkownikowi {username}.'
+      transfer_offered: 'Zaproponowano użytkownikowi {username} przejęcie tego kanału.'
+      transfer_ownership: 'Przekaż kanał użytkownikowi {username}'
+      transfer_pending_answer: 'Oczekiwanie, aż {username} zaakceptuje przejęcie kanału.'
+      transfer_pending_code: 'Wprowadź kod, aby zaproponować przekazanie kanału użytkownikowi {username}.'
+      transfer_submit: Potwierdź
+      transfer_title: 'Przeniesienie własności'
+      unarchive_channel: 'Przywróć kanał z archiwum'
     lightbox:
       close: Zamknij
       next: 'Następny obraz'
@@ -492,7 +569,49 @@ ramon-chat:
       invite_accept: Przyjmij
       invite_decline: Odrzuć
       message_flagged: '{username} zgłosił wiadomość w {channel}'
+      moderator_promoted: '{username} nadał Ci rolę moderatora kanału {channel}'
+      ownership_inherited: '{username} opuścił kanał {channel}, więc jesteś teraz jego właścicielem'
+      ownership_transfer: '{username} chce przekazać Ci kanał {channel}'
+      ownership_transfer_declined: '{username} odrzucił propozycję przejęcia kanału {channel}'
       someone: Ktoś
+    ranks:
+      assign: 'Rangi użytkownika {username}'
+      assign_empty: 'Nie ma jeszcze rang do przypisania. Utwórz je na karcie „Rangi”.'
+      builtin_tag: Wbudowana
+      cancel: Anuluj
+      color: Kolor
+      color_invalid: 'Podaj kolor w formacie #RRGGBB.'
+      color_theme: 'Użyj koloru motywu'
+      delete: 'Usuń {name}'
+      delete_confirm: 'Usunąć rangę {name}? Wszyscy, którzy ją mają, utracą ją.'
+      deleted: 'Ranga została usunięta.'
+      edit: 'Edytuj {name}'
+      edit_title: 'Edytuj rangę'
+      empty: 'Nie masz jeszcze własnych rang. Utwórz rangę, a następnie przypisz ją na karcie „Członkowie”.'
+      holders: '{count, plural, =0 {Brak członków} one {# członek} other {# członków}}'
+      icon: Ikona
+      icon_help: 'Klasa Font Awesome, np. fas fa-star. Pozostaw puste, aby nie używać ikony.'
+      intro: 'Rangi są wyświetlane przed nazwą członka na tym kanale. Jeśli ktoś ma kilka rang, zobaczysz najwyższą z tej listy.'
+      limit: 'Możesz utworzyć maksymalnie {max} rang.'
+      moderator_default: Moderator
+      move_down: 'Przenieś {name} niżej'
+      move_up: 'Przenieś {name} wyżej'
+      name: Nazwa
+      name_color: 'Kolor nazwy'
+      name_required: 'Nadaj randze nazwę.'
+      new: 'Nowa ranga'
+      owner_default: Właściciel
+      preview: 'Podgląd w jasnym i ciemnym motywie'
+      reset: 'Przywróć domyślne ustawienia rangi {name}'
+      reset_confirm: 'Przywrócić domyślną nazwę i kolor rangi {name}?'
+      reset_done: 'Przywrócono domyślne ustawienia rangi.'
+      save: Zapisz
+      save_failed: 'Nie udało się zapisać rangi.'
+      saved: 'Ranga została zapisana.'
+      show_badge: 'Pokaż jako etykietę'
+      show_badge_help_off: 'Bez etykiety. Nazwa członka przyjmie kolor rangi.'
+      show_badge_help_on: 'Ranga jest wyświetlana przed nazwą jako kolorowa etykieta.'
+      tab: Rangi
     revisions:
       current: 'Aktualna wersja'
       failed: 'Nie udało się wczytać historii edycji.'
@@ -522,6 +641,10 @@ ramon-chat:
       notify_channel_invite: 'Ktoś zaprosi mnie do kanału czatu'
       notify_channel_invite_declined: 'Ktoś odrzuci moje zaproszenie do kanału czatu'
       notify_message_flagged: 'Ktoś zgłosi wiadomość na czacie'
+      notify_moderator_promoted: 'Ktoś nadaje mi rolę moderatora kanału czatu'
+      notify_ownership_inherited: 'Zostaję właścicielem kanału czatu po odejściu jego właściciela'
+      notify_ownership_transfer: 'Ktoś proponuje mi przejęcie kanału czatu'
+      notify_ownership_transfer_declined: 'Ktoś odrzuca propozycję przejęcia mojego kanału czatu'
       open_in_drawer: 'Otwieraj czat w wysuwanym panelu zamiast na pełnym ekranie'
       sound: 'Dźwięk powiadomienia'
       sound_none: Brak
