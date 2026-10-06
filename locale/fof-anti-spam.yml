@@ -193,6 +193,7 @@ fof-anti-spam:
       process_button: Wykonaj
       report_to_sfs_help: 'Spowoduje to zgłoszenie podstawowych danych użytkownika (nazwa użytkownika, adres e-mail, adres IP) do StopForumSpam. Pomoże to zapobiec rejestracji użytkownika na innych forach korzystających z usługi StopForumSpam.'
       report_to_sfs_label: 'Zgłoś do StopForumSpam'
+      success: '{username} został oznaczony jako spamer.'
       title: 'Oznacz {username} jako spamera'
     user_controls:
       spammer_button: Spamer
