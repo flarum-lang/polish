@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.7 (2026-10-08)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (1 added, 100% complete)
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (120 added, 99% complete)
+
+
+All changes: [2.0.6...2.0.7](https://github.com/flarum-lang/polish/compare/2.0.6...2.0.7).
+
+
 2.0.6 (2026-09-24)
 ------------------
 
