@@ -69,6 +69,10 @@ flarum-tags:
       title: 'Wybierz tagi dla swojej dyskusji'
     composer_discussion:
       choose_tags_link: '=> flarum-tags.ref.choose_tags'
+    deck:
+      column_label: Tag
+      tag_label: Tag
+      tag_placeholder: 'Szukaj tagu'
     discussion_controls:
       edit_tags_button: 'Edytuj tagi'
     header:

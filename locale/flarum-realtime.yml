@@ -5,8 +5,13 @@
 flarum-realtime:
   admin:
     permission:
+      view-all-typing: 'Wyświetlanie, kto pisze na całym forum'
       view-who-types: 'Wyświetlanie, kto pisze'
     settings:
+      index-typing-indicator: 'Wskaźniki pisania na liście dyskusji'
+      index-typing-indicator-help: 'Po włączeniu na liście dyskusji pojawi się kropka przy każdej publicznej dyskusji, w której ktoś aktualnie pisze. Nazwy użytkowników nie będą wyświetlane.'
+      index-typing-indicator-restricted: 'Wskaźniki pisania w tagach z ograniczonym dostępem'
+      index-typing-indicator-restricted-help: 'Pokazuj wskaźniki pisania również przy dyskusjach w tagach z ograniczonym dostępem, ale tylko użytkownikom, którzy mają dostęp do tych tagów. Wymaga rozszerzenia Tags. Domyślnie wyłączone.'
       notification-toast-dismiss-after: 'Czas wyświetlania wyskakujących powiadomień'
       notification-toast-dismiss-after-help: 'Jak długo (w sekundach) wyskakujące powiadomienie pozostaje na ekranie, zanim automatycznie zniknie. Ustaw wartość 0, aby wyłączyć takie powiadomienia.'
       release-discussion-updates: 'Aktualizacje listy dyskusji'
@@ -16,6 +21,7 @@ flarum-realtime:
       typing-indicator: 'Wskaźnik pisania'
       typing-indicator-help: 'Gdy ta opcja jest włączona, użytkownicy z odpowiednimi uprawnieniami będą widzieć liczbę osób aktualnie piszących w dyskusji. Gdy jest wyłączona, aktywność pisania jest całkowicie usuwana – zarówno z interfejsu, jak i z komunikacji websocket.'
   forum:
+    discussion-removed: 'Ta dyskusja została usunięta.'
     index-typing:
       someone-typing: 'Ktoś pisze w tej dyskusji'
       someone-typing-tag: 'Ktoś pisze w tym tagu'
