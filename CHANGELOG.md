@@ -10,6 +10,11 @@ CHANGELOG
 * [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
 
 
+**Updated translations for extensions**:
+
+* [`flarum/messages`](https://github.com/flarum/messages) (2 changed, 71% complete)
+
+
 All changes: [2.0.8...2.0.9](https://github.com/flarum-lang/polish/compare/2.0.8...2.0.9).
 
 
