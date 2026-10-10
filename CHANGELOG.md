@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.9 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
+
+
+All changes: [2.0.8...2.0.9](https://github.com/flarum-lang/polish/compare/2.0.8...2.0.9).
+
+
 2.0.8 (2026-10-10)
 ------------------
 
