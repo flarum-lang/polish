@@ -8,12 +8,14 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (100% complete)
 
 
 **Updated translations for extensions**:
 
 * [`flarum/messages`](https://github.com/flarum/messages) (3 changed, 71% complete)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (2 added, 100% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (54 added, 1 changed, 100% complete)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (9 added, 12 changed, 100% complete)
 
 
