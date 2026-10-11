@@ -19,7 +19,8 @@ fof-discussion-views:
     permissions:
       reset_views_label: 'Ustawianie liczby wyświetleń dyskusji'
     settings:
-      dedupe_ttl: 'Czas do ponownego zliczenia wyświetlenia (s)'
+      dedupe_ttl: 'Po ilu sekundach ponownie zliczać wyświetlenie'
+      dedupe_ttl_help: 'Określa, jak długo wyświetlenie dyskusji jest zapamiętywane, aby nie zostało zliczone ponownie. Ustaw 0, aby zliczać każde wyświetlenie.'
       ignore_crawlers: 'Ignoruj wizyty botów'
   forum:
     discussion_controls:
