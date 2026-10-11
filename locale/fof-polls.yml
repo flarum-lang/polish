@@ -2,6 +2,20 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-polls/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      poll:
+        created: 'Utworzono ankietę {title}'
+        deleted: 'Usunięto ankietę {title}'
+        published: 'Opublikowano ankietę {title}'
+        unpublished: 'Cofnięto publikację ankiety {title}'
+        updated: 'Zaktualizowano ankietę {title}'
+        voted: 'Zagłosowano w ankiecie {title}'
+      poll_group:
+        created: 'Utworzono grupę ankiet {name}'
+        deleted: 'Usunięto grupę ankiet {name}'
+        updated: 'Zaktualizowano grupę ankiet {name}'
 fof-polls:
   admin:
     permissions:
@@ -18,6 +32,11 @@ fof-polls:
       view_results_without_voting: 'Podglądanie wyników bez zagłosowania'
       vote: 'Głosowanie w ankietach'
     settings:
+      discussion_polls:
+        heading: 'Ankiety w dyskusjach'
+        help: 'Te ustawienia dotyczą ankiet dodawanych do postów w dyskusjach.'
+      enable_discussion_polls: 'Włącz ankiety w dyskusjach'
+      enable_discussion_polls_help: 'Po włączeniu użytkownicy mogą tworzyć ankiety w postach. Wyłącz tę opcję, jeśli chcesz korzystać wyłącznie z globalnych ankiet.'
       enable_global_polls: 'Włącz globalne ankiety'
       enable_global_polls_help: 'Globalne ankiety nie są powiązane z konkretnym postem i można uzyskać do nich dostęp z dedykowanej strony ankiet.'
       enabled_poll_groups: 'Włącz grupy ankiet'
@@ -30,6 +49,12 @@ fof-polls:
         help: 'Te ustawienia kontrolują funkcję globalnych ankiet.'
       image:
         heading: 'Ustawienia obrazków'
+        help: 'Skonfiguruj limity przesyłania obrazków i ich wymiary. Obrazki są automatycznie konwertowane do formatu WebP i tworzone są ich wersje responsywne.'
+      image_dimensions_help: 'Podstawowe wymiary zapisywanych obrazków. Warianty HiDPI (@2x, @3x) są tworzone automatycznie, jeśli obraz źródłowy jest wystarczająco duży.'
+      image_height: 'Wysokość obrazka po skalowaniu (px)'
+      image_width: 'Szerokość obrazka po skalowaniu (px)'
+      max_image_upload_size: 'Maksymalny rozmiar przesyłanego obrazka (KB)'
+      max_image_upload_size_help: 'Maksymalny rozmiar przesyłanego pliku w kilobajtach. Po przesłaniu obrazki są automatycznie konwertowane do formatu WebP i skalowane, więc zajmują zwykle znacznie mniej miejsca. Domyślnie: 10240 KB (10 MB).'
       max_options: 'Maksymalna liczba opcji w ankiecie'
       options_color_blend: 'Mieszanie kolorów tekstu w opcjach ankiety'
       options_color_blend_help: 'Włącz, aby użyć mieszania kolorów w celu poprawy czytelności opcji ankiety. Wyłącz, jeśli ta funkcja psuje wygląd forum i zmniejsza czytelność.'
@@ -38,10 +63,20 @@ fof-polls:
     compose:
       add_title: 'Dodaj ankietę'
       continue_editing: 'Kontynuuj edycję'
+      draft_saved: 'Zapisano wersję roboczą'
       edit_title: 'Edytuj ankietę'
       polls_manager: 'Menedżer ankiet'
       polls_preview: 'Zobacz ankietę'
+      publish: Opublikuj
+      save_as_draft: 'Zapisz jako wersję roboczą'
+      schedule: Zaplanuj
+      schedule_datetime_label: 'Termin publikacji'
+      schedule_publication: 'Zaplanuj publikację'
+      schedule_publication_edit: 'Edytuj zaplanowaną publikację'
+      schedule_submit: Zaplanuj
+      submit: Zatwierdź
       success: 'Ankieta zapisana pomyślnie.'
+      update_draft: 'Zaktualizuj wersję roboczą'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -53,9 +88,11 @@ fof-polls:
       add_title: 'Dodaj ankietę'
       allow_change_vote_label: 'Pozwól użytkownikom zmienić swój głos'
       allow_multiple_votes_label: 'Pozwól użytkownikom głosować na wiele opcji'
+      date_clear: 'Usuń datę zakończenia'
       date_placeholder: 'Data zakończenia ankiety (opcjonalne)'
       delete: '=> core.ref.delete'
       edit_title: 'Edytuj ankietę'
+      empty_answers: '{count, plural, one {# odpowiedź jest pusta — uzupełnij ją lub usuń.} few {# odpowiedzi są puste — uzupełnij je lub usuń.} other {# odpowiedzi jest pustych — uzupełnij je lub usuń.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Ukryj głosy do czasu zakończenia ankiety'
       hide_votes_label_help: 'Użytkownik, który rozpoczął ankietę, zawsze będzie mógł zobaczyć głosy.'
@@ -71,18 +108,21 @@ fof-polls:
       poll_image:
         alt_help_text: 'Ten tekst jest wymagany po ustawieniu obrazka i zostanie wyświetlony, jeśli obraz nie zostanie załadowany.'
         alt_label: 'Alternatywny tekst obrazka'
-        help: 'Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).'
+        help: 'Prześlij obrazek, który będzie wyświetlany obok ankiety (opcjonalnie).'
         label: 'Obrazek ankiety'
+        url_deprecated: 'W tej ankiecie użyto zewnętrznego adresu URL obrazka. Obsługa takich adresów jest przestarzała i zostanie usunięta w przyszłej wersji. Prześlij obrazek ponownie, korzystając z przycisku przesyłania.'
       poll_option_image:
         help: 'Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).'
         label: 'Obrazek odpowiedzi ankiety'
       public_poll_label: 'Pozwól użytkownikom zobaczyć, kto głosował'
       question_placeholder: Pytanie
+      settings_label: Głosowanie
       submit: Zatwierdź
       subtitle_placeholder: 'Podtytuł/Opis (opcjonalne)'
       tooltip:
         options:
           add-button: 'Dodaj odpowiedź'
+          remove-button: 'Usuń odpowiedź'
     moderation:
       add: 'Dodaj ankietę'
       delete: 'Usuń ankietę'
@@ -96,15 +136,29 @@ fof-polls:
     poll:
       cannot_change_vote: 'Nie możesz zmienić swojego głosu po zagłosowaniu.'
       cannot_start_poll_button: 'Nie można rozpocząć ankiety'
+      draft_label: 'Wersja robocza'
+      scheduled_error_tooltip: 'Nie udało się opublikować ankiety w zaplanowanym terminie. Otwórz ankietę, aby sprawdzić przyczynę.'
+      scheduled_label: 'Zaplanowano na {date}'
       start_poll_button: 'Rozpocznij globalną ankietę'
       submit_button: Głosuj
       total_votes: '{count, plural, one {Oddano # głos} few {Oddano # głosy} other {Oddano # głosów}}'
     poll_controls:
+      cancel_schedule_label: 'Anuluj zaplanowaną publikację'
+      cancel_schedule_success: 'Anulowano zaplanowaną publikację.'
       delete_confirmation: 'Czy na pewno chcesz usunąć tę ankietę?'
       delete_error_message: 'Coś poszło nie tak podczas usuwania ankiety.'
       delete_label: '=> core.ref.delete'
       delete_success_message: 'Usunięto ankietę pomyślnie.'
       edit_label: '=> core.ref.edit'
+      edit_schedule_publish_label: 'Edytuj zaplanowaną publikację'
+      publish_label: 'Opublikuj teraz'
+      publish_success: 'Opublikowano ankietę.'
+      schedule_publish_label: 'Zaplanuj publikację'
+      toggle_dropdown_accessible_label: 'Rozwiń lub zwiń menu ankiety'
+      unpublish_confirmation: 'Przenieść tę ankietę do wersji roboczych? Zniknie z listy prezentowanych ankiet.'
+      unpublish_error_has_votes: 'Nie można cofnąć publikacji — w ankiecie oddano już głosy. Zamiast tego usuń ją.'
+      unpublish_label: 'Przenieś do wersji roboczych'
+      unpublish_success: 'Przeniesiono ankietę do wersji roboczych.'
       view_label: '=> core.ref.view'
     poll_ended: 'Ta ankieta zakończyła się.'
     poll_form:
@@ -115,7 +169,10 @@ fof-polls:
         add_title: 'Dodaj grupę ankiet'
         delete: 'Usuń grupę ankiet'
         edit_title: 'Edytuj grupę ankiet'
+        error: 'Wystąpił błąd podczas zapisywania grupy ankiet. Skontaktuj się z administratorem.'
         groups_manager: 'Menedżer grup ankiet'
+        name_label: Nazwa
+        name_required: 'Grupa ankiet musi mieć nazwę.'
         save_changes: '=> core.ref.save_changes'
         success: 'Grupa ankiet została pomyślnie zapisana.'
         view_group: 'Zobacz grupę ankiet'
@@ -147,6 +204,10 @@ fof-polls:
         oldest: Najstarsze
         sort_dropdown:
           default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
+      status_filter:
+        all: Wszystkie
+        draft: 'Wersje robocze'
+        published: Opublikowane
     polls_page:
       title: Ankiety
     public_poll: 'Zobacz głosujących'
