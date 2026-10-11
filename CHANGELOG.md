@@ -12,7 +12,9 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`flarum/messages`](https://github.com/flarum/messages) (2 changed, 71% complete)
+* [`flarum/messages`](https://github.com/flarum/messages) (3 changed, 71% complete)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (1 added, 93% complete)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (9 added, 12 changed, 100% complete)
 
 
 All changes: [2.0.8...2.0.9](https://github.com/flarum-lang/polish/compare/2.0.8...2.0.9).
