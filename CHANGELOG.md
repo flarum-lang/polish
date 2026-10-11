@@ -16,6 +16,7 @@ CHANGELOG
 * [`flarum/messages`](https://github.com/flarum/messages) (3 changed, 71% complete)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (2 added, 100% complete)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (54 added, 1 changed, 100% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (21 added, 1 changed, 100% complete)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (9 added, 12 changed, 100% complete)
 
 
