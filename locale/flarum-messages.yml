@@ -10,10 +10,10 @@ flarum-messages:
   email:
     message_received:
       html:
-        body: "{user_display_name} wysłał(a) Ci [nową wiadomość]({url}).\n\nNie dostaniesz nowych powiadomień dotyczących tej konwersacji do czasu, aż zobaczysz nową zawartość.\n"
+        body: "{user_display_name} wysłał Ci [nową wiadomość]({url}).\n\nNie dostaniesz nowych powiadomień dotyczących tej konwersacji do czasu, aż zobaczysz nową zawartość.\n"
       plain:
-        body: "{user_display_name} wysłał(a) Ci nową wiadomość.\n\n{url}\n\n---\n\n{content}\n\n---\n\nNie dostaniesz nowych powiadomień dotyczących tej konwersacji do czasu, aż zobaczysz nową zawartość.\n"
-      subject: '{user_display_name} wysłał(a) Ci wiadomość'
+        body: "{user_display_name} wysłał Ci nową wiadomość.\n\n{url}\n\n---\n\n{content}\n\n---\n\nNie dostaniesz nowych powiadomień dotyczących tej konwersacji do czasu, aż zobaczysz nową zawartość.\n"
+      subject: '{user_display_name} wysłał Ci wiadomość'
   forum:
     composer:
       discard_confirmation: 'Wiadomość nie została wysłana. Na pewno chcesz ją odrzucić?'
