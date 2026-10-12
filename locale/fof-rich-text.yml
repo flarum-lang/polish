@@ -5,16 +5,20 @@
 fof-rich-text:
   admin:
     settings:
-      toggle_on_editor: 'Pokazać przełącznik trybu edytora wizualnego?'
+      force_compact_paragraphs: 'Wymuś zwarty układ akapitów u wszystkich użytkowników (Enter wstawia podział wiersza zamiast nowego akapitu)'
+      toggle_on_editor: 'Wyświetlaj przełącznik trybu edytora wizualnego'
   forum:
     settings:
       composer_heading: Edytor
-      rich_text_compact_paragraphs_label: 'Nie oddzielaj akapitów nową linią.'
+      rich_text_compact_paragraphs_label: 'Nie oddzielaj akapitów pustą linią'
       use_rich_text_editor_label: 'Używać edytora wizualnego?'
   lib:
     composer:
       additional_items_tooltip: 'Dodatkowe elementy'
+      bold_tooltip: 'Pogrubienie ({modifierKey}-b)'
       code_block_tooltip: 'Wstaw blok kodu'
+      code_tooltip: 'Kod w tekście ({modifierKey}-`)'
+      header_tooltip: 'Zmień na nagłówek poziomu {level} ({modifierKey}-shift-{level})'
       horizontal_rule_tooltip: 'Wstaw poziomą linię'
       image_tooltip: 'Wstaw obrazek'
       insert_button: Wstaw
@@ -26,7 +30,16 @@ fof-rich-text:
         remove_button: Usuń
         text_placeholder: Tekst
         title_placeholder: 'Tytuł (pokazywany po najechaniu kursorem)'
+      italic_tooltip: 'Kursywa ({modifierKey}-i)'
       link_tooltip: 'Wstaw link'
+      ordered_list_tooltip: 'Lista numerowana ({modifierKey}-shift-9)'
+      paragraph_tooltip: 'Zmień na akapit ({modifierKey}-shift-0)'
+      quote_tooltip: 'Wstaw cytat ({modifierKey}-q)'
       spoiler_block_tooltip: 'Rozwijany blok ze spoilerem'
+      spoiler_inline_tooltip: 'Spoiler w tekście ({modifierKey}-;)'
+      strike_tooltip: 'Przekreślenie (alt-shift-5)'
+      sub_tooltip: 'Indeks dolny ({modifierKey}-,)'
+      sup_tooltip: 'Indeks górny ({modifierKey}-.)'
       text_type_tooltip: 'Wybierz styl tekstu'
       toggle_button: 'Przełącz tryb wizualny'
+      unordered_list_tooltip: 'Lista punktowana ({modifierKey}-shift-8)'
