@@ -17,6 +17,7 @@ CHANGELOG
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (2 added, 100% complete)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (54 added, 1 changed, 100% complete)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (21 added, 1 changed, 100% complete)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (13 added, 2 changed, 100% complete)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo) (3 added, 100% complete)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (9 added, 12 changed, 100% complete)
 
