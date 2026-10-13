@@ -13,7 +13,7 @@ fof-merge-discussions:
     permissions:
       merge_discussions_label: 'Scalanie dyskusji'
     settings:
-      search_result_help: 'Ile dyskusji powinno być zwróconych podczas wyszukiwania w okienku "Scal dyskusje".'
+      search_result_help: 'Ile dyskusji powinno być zwróconych podczas wyszukiwania w okienku „Scal dyskusje”.'
       search_result_label: 'Limit wyszukiwania dyskusji do scalenia'
   api:
     error:
@@ -25,7 +25,7 @@ fof-merge-discussions:
   email:
     merged:
       body: "Twoja dyskusja {merged_discussion_title} została scalona z dyskusją {discussion_title} przez użytkownika {actor_display_name}.\n\nZobacz ją tutaj: {discussion_url}\n"
-      subject: 'Twoja dyskusja "{merged_discussion_title}" została scalona'
+      subject: 'Twoja dyskusja „{merged_discussion_title}” została scalona'
   forum:
     discussion:
       merge: '=> fof-merge-discussions.ref.merge'

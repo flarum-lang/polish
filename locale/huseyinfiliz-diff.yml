@@ -20,7 +20,7 @@ huseyinfiliz-diff:
       lineLevel: Linia
       mainPostOnly: 'Przechowuj rewizje tylko głównego posta'
       mergeThreshold: 'Próg scalania dla renderera połączonego'
-      mergeThresholdHelp: 'Określa, czy blok typu „zamiana" powinien być scalony, w zależności od współczynnika zmiany treści (wartość między 0 a 1).'
+      mergeThresholdHelp: 'Określa, czy blok typu „zamiana” powinien być scalony, w zależności od współczynnika zmiany treści (wartość między 0 a 1).'
       neighborLines: 'Linie sąsiadujące'
       neighborLinesHelp: 'Określ liczbę sąsiadujących linii do wyświetlenia.'
       noneLevel: Brak

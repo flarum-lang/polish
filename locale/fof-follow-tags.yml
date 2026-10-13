@@ -15,7 +15,7 @@ fof-follow-tags:
     settings:
       all_discussions_on_following_page_for_guests_label: 'Pokazuj wszystkie dyskusje gościom na stronie „Obserwowane”'
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
-      following_page_default_label: 'Domyślny filtr na stronie "Obserwowane"'
+      following_page_default_label: 'Domyślny filtr na stronie „Obserwowane”'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
       prompt_button_on_following_page_label: 'Pokaż przycisk „Wybierz tagi do obserwowania” na stronie „Obserwowane”'
       prompt_new_users_help: "Użytkownicy, którzy nie potwierdzili jeszcze swojego wyboru, zobaczą okno z prośbą o wybranie tagów do obserwowania. Okno będzie wyświetlane przy każdej wizycie, dopóki nie klikną „Przejdź do forum”.\n"
@@ -79,7 +79,7 @@ fof-follow-tags:
       following_text: 'Będziesz powiadamiany o wszystkich nowych dyskusjach.'
       header: 'Subskrypcja dla {tagName}'
       hiding_button: '=> fof-follow-tags.ref.hiding'
-      hiding_text: 'Ukryj dyskusje ze strony "Wszystkie dyskusje".'
+      hiding_text: 'Ukryj dyskusje ze strony „Wszystkie dyskusje”.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
       ignoring_text: 'Nigdy nie będziesz powiadamiany.'
       lurking_button: '=> fof-follow-tags.ref.lurking'
@@ -92,7 +92,7 @@ fof-follow-tags:
       subscription_label: 'Wybierz poziom subskrypcji dla {tagName}'
     user:
       settings:
-        filter_label: 'Co domyślnie wyświetlać na stronie "Obserwowane"'
+        filter_label: 'Co domyślnie wyświetlać na stronie „Obserwowane”'
         heading: 'Obserwowanie tagów'
   ref:
     filtering_options:

@@ -59,7 +59,7 @@ fof-links:
       links: '=> fof-links.ref.links'
       moved: '„{title}” przeniesiono na pozycję {position} z {total}.'
       moved_under: '„{title}” przeniesiono pod „{parent}”, na pozycję {position} z {total}.'
-      no_url: 'Bez linku — wyświetlany jako etykieta'
+      no_url: 'Bez linku – wyświetlany jako etykieta'
       preconfigured: 'Linki na tym forum zostały skonfigurowane w kodzie i nie można ich tutaj edytować.'
       reorder_accessible_label: 'Zmień pozycję „{title}”. Użyj klawiszy strzałek, aby przesunąć link w górę, w dół, pod link znajdujący się wyżej albo z powrotem na wyższy poziom.'
       reorder_help: 'Przeciągnij link za uchwyt, aby zmienić jego pozycję, albo upuść go na innym linku, aby umieścić go pod nim. Gdy uchwyt jest aktywny, możesz zrobić to samo za pomocą klawiszy strzałek.'

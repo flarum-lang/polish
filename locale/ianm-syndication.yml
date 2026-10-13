@@ -7,7 +7,7 @@ ianm-syndication:
     settings:
       entries-count: 'Ile pozycji wyświetlać w kanale?'
       forum-icons:
-        help: 'Wyświetl ikonki w widokach "Wszystkie dyskusje", "Tagi" oraz "Dyskusje", aby ułatwić dostęp do kanałów.'
+        help: 'Wyświetl ikonki w widokach „Wszystkie dyskusje”, „Tagi” oraz „Dyskusje”, aby ułatwić dostęp do kanałów.'
         label: 'Pokaż na forum linki do kanałów Atom/RSS'
       forum-link-format:
         help: 'Wybierz, który format (Atom lub RSS) powinien być używany w linkach wyświetlanych na forum.'

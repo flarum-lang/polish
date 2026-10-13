@@ -22,8 +22,8 @@ fof-byobu:
       general:
         heading: 'Ogólne ustawienia'
         help: 'Te ustawienia kontrolują podstawowe funkcje Byobu.'
-      hide_from_all_discussions_page: 'Ukryj prywatne dyskusje z podstrony "Wszystkie dyskusje"'
-      hide_from_all_discussions_page_help: 'Prywatne dyskusje będą dostępne jedynie na podstronie "Prywatne dyskusje" lub w profilu użytkownika'
+      hide_from_all_discussions_page: 'Ukryj prywatne dyskusje z podstrony „Wszystkie dyskusje”'
+      hide_from_all_discussions_page_help: 'Prywatne dyskusje będą dostępne jedynie na podstronie „Prywatne dyskusje” lub w profilu użytkownika'
       icon:
         heading: 'Ustawienia ikon'
         help: 'Te ustawienia kontrolują ikony używane przez forum.'

@@ -14,7 +14,7 @@ fof-upload:
     help_texts:
       client_extension: "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n"
       composer_buttons: "Domyślnie przycisk dla menedżera multimediów oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
-      custom_s3_url: "Publiczny adres bazowy, spod którego serwowane są Twoje pliki — CDN lub własna domena przed bucketem.\nPozostaw puste, aby użyć domyślnego adresu dostawcy. Musi zawierać <code>https://</code>.\n"
+      custom_s3_url: "Publiczny adres bazowy, spod którego serwowane są Twoje pliki – CDN lub własna domena przed bucketem.\nPozostaw puste, aby użyć domyślnego adresu dostawcy. Musi zawierać <code>https://</code>.\n"
       disable-download-logging: "Wyłącz rejestrowanie każdego pobrania przez użytkowników Twojego forum. Pozostawienie tej opcji włączonej pozwoli Ci na zobaczenie ilości pobrań i innych statystyk w niedalekiej przyszłości.\n"
       disable-hotlink-protection: "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora posta.\n"
       download_templates: "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na Twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n"
@@ -25,13 +25,13 @@ fof-upload:
       s3_acl: "Stosowane do każdego wysłanego obiektu. Pozostaw puste, aby użyć domyślnego ustawienia dostawcy (zwykle private).\nUżyj <code>public-read</code>, jeśli pliki mają być dostępne do odczytu bezpośrednio z bucketu.\n"
       s3_acl_unsupported: "{provider} nie obsługuje ACL. Dostęp publiczny skonfiguruj bezpośrednio w panelu dostawcy.\n"
       s3_compatible_storage: "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n"
-      s3_endpoint: "Adres URL API S3 dostawcy — nie publiczny adres URL bucketu. W przypadku Amazon S3 nie trzeba go podawać.\n"
-      s3_instance_profile: "Pozostaw oba pola puste, aby zamiast tego użyć roli IAM — działa to tylko na EC2, ECS i EKS.\n"
+      s3_endpoint: "Adres URL API S3 dostawcy – nie publiczny adres URL bucketu. W przypadku Amazon S3 nie trzeba go podawać.\n"
+      s3_instance_profile: "Pozostaw oba pola puste, aby zamiast tego użyć roli IAM – działa to tylko na EC2, ECS i EKS.\n"
       s3_path_style: "Umieszcza nazwę bucketu w ścieżce URL zamiast w nazwie hosta. Jest to wymagane przez MinIO i Cloudflare R2; ustawienie włącza się automatycznie po wybraniu odpowiedniego dostawcy.\n"
       s3_provider: "Wybór dostawcy automatycznie ustawia format endpointu, sposób adresowania oraz obsługę ACL. Jeśli Twojego dostawcy nie ma na liście, wybierz „Inny zgodny z S3”.\n"
       storage_configure_another: "Inne usługi przechowywania są zainstalowane, ale nie zostały jeszcze skonfigurowane. Sama konfiguracja usługi nie zmieni miejsca zapisywania plików, dopóki nie przypiszesz jej do wybranego typu plików.\n"
       storage_intro: "Tutaj wyświetlane są skonfigurowane usługi oraz te, z których korzysta co najmniej jeden typ pliku. Możesz skonfigurować usługę wcześniej, a przypisać ją do typów plików później na karcie Pliki.\n"
-      storage_not_installed: 'Szukasz Amazon S3, Cloudflare R2 lub Qiniu? Te usługi wymagają dodatkowego pakietu — zobacz <a>instalowanie adapterów pamięci masowej</a>.'
+      storage_not_installed: 'Szukasz Amazon S3, Cloudflare R2 lub Qiniu? Te usługi wymagają dodatkowego pakietu – zobacz <a>instalowanie adapterów pamięci masowej</a>.'
       thumbnail_quality: "Jakość kodowania od 1 do 100, stosowana do miniaturek WebP i JPEG. Wyższe wartości zapewniają lepszą jakość, ale zwiększają rozmiar pliku. Miniatury GIF i PNG są bezstratne, więc to ustawienie ich nie dotyczy. Istniejące miniatury zachowają obecną jakość do czasu ponownego wygenerowania ich poleceniem uzupełniającym.\n"
       thumbnails: "Generuj pomniejszone miniatury obrazów podczas przesyłania. Miniatura jest wyświetlana bezpośrednio w poście, a kliknięcie otwiera oryginalny obraz w pełnej rozdzielczości w nowej karcie. Miniatury mogą znacznie zmniejszyć zużycie transferu i rozmiar stron na forach z dużą liczbą dużych obrazów.\n"
       watermark: "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n"
@@ -103,7 +103,7 @@ fof-upload:
         mime_add_subtype_placeholder: 'np. webp'
         mime_advanced_pattern: 'Zaawansowany wzorzec'
         mime_column_display: 'Sposób wyświetlania'
-        mime_column_display_help: 'Określa, jak plik będzie wyglądał w poście — np. jako podgląd w treści lub przycisk pobierania.'
+        mime_column_display_help: 'Określa, jak plik będzie wyglądał w poście – np. jako podgląd w treści lub przycisk pobierania.'
         mime_column_pattern: 'Typ plików'
         mime_column_pattern_help: 'Rodzaje plików objęte tą regułą, dopasowywane na podstawie typu MIME.'
         mime_column_permission: 'Nazwa uprawnienia'
@@ -251,35 +251,35 @@ fof-upload:
   lib:
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Nie wybrano} one {Wybierz plik} other {Wybierz pliki}}'
-      delete_confirmation: 'Czy jesteś pewien, że chcesz usunąć "{fileName}"?'
-      delete_file_a11y_label: 'Usuń plik "{fileName}"'
+      delete_confirmation: 'Czy jesteś pewien, że chcesz usunąć „{fileName}”?'
+      delete_file_a11y_label: 'Usuń plik „{fileName}”'
       empty: 'Nie ma żadnych plików do wyświetlenia.'
       hide_file:
-        btn_a11y_label_hide: 'Ukryj "{fileName}" w menedżerze multimediów'
-        btn_a11y_label_show: 'Pokaż "{fileName}" w menedżerze multimediów'
-        hide_confirmation: 'Czy na pewno chcesz ukryć "{fileName}"? Ukrycie pliku spowoduje jedynie usunięcie go z menedżera multimediów i nie wpłynie na istniejące posty.'
-        hide_fail: 'Nie można ukryć pliku "{fileName}"'
+        btn_a11y_label_hide: 'Ukryj „{fileName}” w menedżerze multimediów'
+        btn_a11y_label_show: 'Pokaż „{fileName}” w menedżerze multimediów'
+        hide_confirmation: 'Czy na pewno chcesz ukryć „{fileName}”? Ukrycie pliku spowoduje jedynie usunięcie go z menedżera multimediów i nie wpłynie na istniejące posty.'
+        hide_fail: 'Nie można ukryć pliku „{fileName}”'
         hide_success: 'Plik ukryty'
         loading: 'Ukrywanie pliku...'
-        show_confirmation: 'Czy na pewno chcesz wyświetlić "{fileName}"? Wyświetlenie pliku spowoduje, że będzie on widoczny w menedżerze multimediów.'
-        show_fail: 'Nie można wyświetlić pliku "{fileName}"'
+        show_confirmation: 'Czy na pewno chcesz wyświetlić „{fileName}”? Wyświetlenie pliku spowoduje, że będzie on widoczny w menedżerze multimediów.'
+        show_fail: 'Nie można wyświetlić pliku „{fileName}”'
         show_success: 'Pokazany plik'
       hide_shared_file:
-        btn_a11y_label_hide: 'Ustaw "{fileName}" jako prywatny (bez publicznego adresu URL)'
-        btn_a11y_label_show: 'Ustaw "{fileName}" jako publiczny (z publicznym adresem URL)'
-        hide_confirmation: 'Czy na pewno chcesz ustawić "{fileName}" jako prywatny? Ustawienie pliku jako prywatny spowoduje usunięcie jego publicznego adresu URL, ale nie wpłynie na istniejące posty. Nie będzie on również widoczny w menedżerze multimediów dla nieautoryzowanych użytkowników.'
-        hide_fail: 'Nie można ustawić pliku "{fileName}" jako prywatnego'
+        btn_a11y_label_hide: 'Ustaw „{fileName}” jako prywatny (bez publicznego adresu URL)'
+        btn_a11y_label_show: 'Ustaw „{fileName}” jako publiczny (z publicznym adresem URL)'
+        hide_confirmation: 'Czy na pewno chcesz ustawić „{fileName}” jako prywatny? Ustawienie pliku jako prywatny spowoduje usunięcie jego publicznego adresu URL, ale nie wpłynie na istniejące posty. Nie będzie on również widoczny w menedżerze multimediów dla nieautoryzowanych użytkowników.'
+        hide_fail: 'Nie można ustawić pliku „{fileName}” jako prywatnego'
         hide_success: 'Plik stał się prywatny'
         loading: 'Ustawianie pliku jako prywatny...'
-        show_confirmation: 'Czy na pewno chcesz upublicznić plik "{fileName}"? Upublicznienie pliku sprawi, że będzie on dostępny dla każdego, kto ma publiczny adres URL i każdy będzie mógł go udostępnić za pomocą menedżera multimediów.'
-        show_fail: 'Nie można upublicznić pliku "{fileName}"'
+        show_confirmation: 'Czy na pewno chcesz upublicznić plik „{fileName}”? Upublicznienie pliku sprawi, że będzie on dostępny dla każdego, kto ma publiczny adres URL i każdy będzie mógł go udostępnić za pomocą menedżera multimediów.'
+        show_fail: 'Nie można upublicznić pliku „{fileName}”'
         show_success: 'Plik został upubliczniony'
       load_more_files_btn: 'Wczytaj więcej plików'
       loading: 'Wczytywanie plików...'
       modal_empty_desktop: 'Lista plików jest pusta. Kliknij przycisk lub przeciągnij plik tutaj, aby go przesłać.'
       modal_empty_phone: 'Lista plików jest pusta. Dotknij powyższego przycisku, aby przesłać plik.'
       release_to_upload: 'Upuść, aby przesłać'
-      select_file_a11y_label: 'Wybierz plik "{fileName}"'
+      select_file_a11y_label: 'Wybierz plik „{fileName}”'
     upload-shared-file-modal:
       dropzone: 'Przeciągnij i upuść pliki tutaj lub kliknij, aby je przeglądać'
       hide-from-media-gallery: 'Ukryj w galerii multimediów użytkownika'

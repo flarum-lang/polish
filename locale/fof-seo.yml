@@ -109,7 +109,7 @@ fof-seo:
         generated_note: 'Plik mapy witryny jest generowany automatycznie i nie wymaga utrzymania.'
         just_installed_body: 'W takim razie aktywuj je, klikając rozszerzenie na pasku bocznym po lewej. Po aktywacji to ostrzeżenie zniknie.'
         just_installed_heading: 'Właśnie zainstalowałem rozszerzenie'
-        robots_body: 'To samo rozszerzenie generuje też plik <b>robots.txt</b> dla Twojego forum. Plik informuje wyszukiwarki, które obszary mogą indeksować, i wskazuje mapę witryny, więc instalacja rozszerzenia załatwia oba pliki naraz — nie musisz nic dodatkowo konfigurować.'
+        robots_body: 'To samo rozszerzenie generuje też plik <b>robots.txt</b> dla Twojego forum. Plik informuje wyszukiwarki, które obszary mogą indeksować, i wskazuje mapę witryny, więc instalacja rozszerzenia załatwia oba pliki naraz – nie musisz nic dodatkowo konfigurować.'
         robots_heading: 'A co z robots.txt?'
         which_extension_body: '{link} to zalecane rozszerzenie dla Flarum. Zdecydowanie rekomendujemy jego instalację i włączenie.'
         which_extension_details: 'To rozszerzenie sprawi, że roboty znajdą <b>dyskusje</b>, <b>tagi</b> (jeśli rozszerzenie tagów jest włączone) oraz strony z rozszerzenia <b>Pages</b> (jeśli jest zainstalowane i włączone). Automatycznie udostępni też plik sitemap.xml.'
@@ -164,8 +164,8 @@ fof-seo:
         help_dofollow: 'To ustawienie pozwala dodać domeny do listy do-follow. Na przykład możesz dodać <i>flarum.org</i>, aby linki do tej witryny nie otrzymywały atrybutu „nofollow”.'
       social_media_image:
         heading: 'Obraz dla mediów społecznościowych'
-        help_size: 'Oczekiwany jest obraz kwadratowy. Zalecany rozmiar to 1200x1200 pikseli. Możesz też użyć obrazu poziomego — zalecany rozmiar to 1200x630.'
-        help_usage: 'Ten obraz będzie używany przez media społecznościowe, gdy użytkownik udostępni stronę Twojej witryny (Facebook, X — dawniej Twitter, Reddit).'
+        help_size: 'Oczekiwany jest obraz kwadratowy. Zalecany rozmiar to 1200x1200 pikseli. Możesz też użyć obrazu poziomego – zalecany rozmiar to 1200x630.'
+        help_usage: 'Ten obraz będzie używany przez media społecznościowe, gdy użytkownik udostępni stronę Twojej witryny (Facebook, X – dawniej Twitter, Reddit).'
       twitter_card:
         heading: 'Rozmiar karty X (dawniej Twitter)'
         help: 'Gdy Twoje forum zostanie udostępnione w X (dawniej Twitter), będzie miało obrazek, jeśli skonfigurowano obraz dla mediów społecznościowych. Może to być duża karta z dużym obrazem albo mała karta (summary) z mniejszym obrazem.'
@@ -240,7 +240,7 @@ fof-seo:
           indexing_not_allowed: 'Indeksowanie strony niedozwolone'
           snippet_not_allowed: 'Tworzenie fragmentów tekstu niedozwolone'
       saved: Zapisano!
-      title: 'Ustawienia SEO - meta'
+      title: 'Ustawienia SEO – meta'
       twitter:
         auto_switch: 'Automatycznie generuj kartę X (dawniej Twitter)'
         description: 'Opis dla X (dawniej Twitter)'

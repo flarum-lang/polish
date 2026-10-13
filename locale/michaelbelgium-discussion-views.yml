@@ -13,7 +13,7 @@ michaelbelgium-discussion-views:
       reset_views_label: 'Resetowanie liczby wyświetleń'
       view_number_label: 'Dostęp do liczby wyświetleń'
     settings:
-      abbr_numbers_label: 'Skróć liczbę wyświetleń ("1k" zamiast "1000")'
+      abbr_numbers_label: 'Skróć liczbę wyświetleń („1k” zamiast „1000”)'
       abbr_numbers_text: 'Jeśli włączone, duże liczby zostaną skrócone (np. 1000 = 1K)'
       ignore_crawlers_label: 'Ignoruj boty indeksujące'
       ignore_crawlers_text: 'Zapobiega zliczaniu wyświetleń generowanych przez boty'

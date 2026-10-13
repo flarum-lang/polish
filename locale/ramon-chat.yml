@@ -12,7 +12,7 @@ ramon-chat:
       upload_failed: 'Nie udało się przesłać tego obrazu.'
       use_bot: 'Używaj bota'
       user_active: 'Ogłoszenia są wysyłane jako ten użytkownik.'
-      user_help: 'Wybierz konto, a ogłoszenia staną się zwykłymi wiadomościami tego użytkownika — bez nazwy bota, obrazu i oznaczenia BOT.'
+      user_help: 'Wybierz konto, a ogłoszenia staną się zwykłymi wiadomościami tego użytkownika – bez nazwy bota, obrazu i oznaczenia BOT.'
       user_label: 'Wysyłaj jako użytkownik'
       user_search: 'Szukaj użytkowników'
     layout:
@@ -70,7 +70,7 @@ ramon-chat:
       retention_title: Retencja
       uploads_help: 'Czy do wiadomości można dołączać pliki i jak duże mogą być.'
       uploads_title: Pliki
-      webhooks_help: 'Endpointy zgodne ze Slackiem, przez które zewnętrzna usługa może wysyłać wiadomości na kanał. Adres URL jest wyświetlany tylko raz — podczas tworzenia lub zmiany klucza.'
+      webhooks_help: 'Endpointy zgodne ze Slackiem, przez które zewnętrzna usługa może wysyłać wiadomości na kanał. Adres URL jest wyświetlany tylko raz – podczas tworzenia lub zmiany klucza.'
       webhooks_title: 'Przychodzące webhooki'
     settings:
       allow_archiving_channels: 'Zezwalaj na archiwizowanie kanałów'
@@ -90,7 +90,7 @@ ramon-chat:
       dm_retention_days: 'Retencja wiadomości prywatnych (dni)'
       dm_retention_help: 'Liczba dni przechowywania wiadomości prywatnych i grupowych. 0 oznacza przechowywanie bezterminowe.'
       fof_upload_adapter: 'Adapter FoF Upload'
-      fof_upload_adapter_help: 'Określa, do którego magazynu FoF Upload trafiają załączniki z czatu. Zasobnik musi umożliwiać publiczny odczyt. Typy plików, limity rozmiaru i uprawnienia skonfigurowane w FoF Upload nie mają tutaj zastosowania — obowiązują powyższe limity czatu i jego uprawnienie do przesyłania plików.'
+      fof_upload_adapter_help: 'Określa, do którego magazynu FoF Upload trafiają załączniki z czatu. Zasobnik musi umożliwiać publiczny odczyt. Typy plików, limity rozmiaru i uprawnienia skonfigurowane w FoF Upload nie mają tutaj zastosowania – obowiązują powyższe limity czatu i jego uprawnienie do przesyłania plików.'
       fof_upload_adapter_mapping: 'Użyj mapowania typów plików z FoF Upload'
       fof_upload_local_warning: 'Lokalny adapter FoF Upload, często wybierany przez mapowanie typów plików, zapisuje pliki w public/assets/files na tym serwerze. Pozwoli to ograniczyć wykorzystanie transferu tylko wtedy, gdy w ustawieniach FoF Upload skonfigurowano adres URL CDN.'
       icon_help: 'Klasa Font Awesome, np. fas fa-comments.'
@@ -136,7 +136,7 @@ ramon-chat:
       disabled: 'Przychodzące webhooki są wyłączone. Włącz opcję powyżej i zapisz ustawienia, aby nimi zarządzać.'
       empty: 'Nie ma jeszcze żadnych webhooków.'
       failed: 'Nie udało się zapisać tej zmiany.'
-      help: 'Zewnętrzna usługa może wysyłać wiadomości na kanał za pomocą tajnego adresu URL. Adres jest wyświetlany tylko raz — podczas tworzenia lub zmiany klucza.'
+      help: 'Zewnętrzna usługa może wysyłać wiadomości na kanał za pomocą tajnego adresu URL. Adres jest wyświetlany tylko raz – podczas tworzenia lub zmiany klucza.'
       name: 'Nazwa webhooka'
       pick_channel: 'Wybierz kanał'
       rotate: 'Zmień klucz'
@@ -221,7 +221,7 @@ ramon-chat:
       subject: 'Wspomniano o Tobie w {channel}'
       unknown_author: Ktoś
     transfer_code:
-      body: 'Twój kod potwierdzający to {code}. Wprowadź go, aby przekazać kanał {channel} użytkownikowi {recipient}. Kod wygaśnie za {minutes} min. Jeśli nie prosiłeś o tę zmianę, zignoruj tę wiadomość — nic się nie zmieni.'
+      body: 'Twój kod potwierdzający to {code}. Wprowadź go, aby przekazać kanał {channel} użytkownikowi {recipient}. Kod wygaśnie za {minutes} min. Jeśli nie prosiłeś o tę zmianę, zignoruj tę wiadomość – nic się nie zmieni.'
       subject: 'Potwierdź przeniesienie własności kanału {channel}'
   forum:
     add_members:
@@ -492,7 +492,7 @@ ramon-chat:
       reply: Odpowiedz
       reply_in_thread: 'Odpowiedz w wątku'
       reply_jump: 'Przejdź do oryginalnej wiadomości'
-      reply_not_loaded: 'Ta wiadomość nie została jeszcze wczytana — przewiń w górę, aby do niej dotrzeć.'
+      reply_not_loaded: 'Ta wiadomość nie została jeszcze wczytana – przewiń w górę, aby do niej dotrzeć.'
       replying_to: 'Odpowiedź do {username}'
       restore: Przywróć
       select: Wybierz
@@ -529,13 +529,13 @@ ramon-chat:
       image: Obraz
       image_failed: 'Nie udało się przesłać tego obrazu.'
       image_failed_after_create: 'Kanał został utworzony, ale nie udało się przesłać jego obrazu. Możesz go dodać w ustawieniach kanału.'
-      image_help: 'Najlepiej sprawdzi się kwadratowy obraz — zostanie przycięty i zmniejszony do 128×128.'
+      image_help: 'Najlepiej sprawdzi się kwadratowy obraz – zostanie przycięty i zmniejszony do 128×128.'
       image_remove: 'Usuń obraz'
       image_upload: 'Prześlij obraz'
       message_length: 'Długość wiadomości'
       message_length_chars: '{count, plural, one {# znak} few {# znaki} other {# znaków}}'
       message_length_custom: Własny…
-      message_length_help_clamped: '{count, plural, one {Wartość poza zakresem — zostanie zapisana jako # znak.} few {Wartość poza zakresem — zostanie zapisana jako # znaki.} other {Wartość poza zakresem — zostanie zapisana jako # znaków.}}'
+      message_length_help_clamped: '{count, plural, one {Wartość poza zakresem – zostanie zapisana jako # znak.} few {Wartość poza zakresem – zostanie zapisana jako # znaki.} other {Wartość poza zakresem – zostanie zapisana jako # znaków.}}'
       message_length_help_empty: '{count, plural, one {Pozostaw puste, aby użyć domyślnego limitu forum wynoszącego # znak.} few {Pozostaw puste, aby użyć domyślnego limitu forum wynoszącego # znaki.} other {Pozostaw puste, aby użyć domyślnego limitu forum wynoszącego # znaków.}}'
       message_length_help_inherit: '{count, plural, one {Wiadomości mogą mieć tutaj maksymalnie # znak, tak jak na pozostałej części forum.} few {Wiadomości mogą mieć tutaj maksymalnie # znaki, tak jak na pozostałej części forum.} other {Wiadomości mogą mieć tutaj maksymalnie # znaków, tak jak na pozostałej części forum.}} Zmiana ustawienia forum zmieni również limit tego kanału.'
       message_length_help_own: '{count, plural, one {Wiadomości mogą mieć tutaj maksymalnie # znak, niezależnie od limitu pozostałej części forum.} few {Wiadomości mogą mieć tutaj maksymalnie # znaki, niezależnie od limitu pozostałej części forum.} other {Wiadomości mogą mieć tutaj maksymalnie # znaków, niezależnie od limitu pozostałej części forum.}}'
@@ -546,7 +546,7 @@ ramon-chat:
       post_all: 'Wszyscy na kanale'
       post_all_help: 'Każdy członek kanału może wysyłać wiadomości.'
       post_moderators: 'Tylko moderatorzy'
-      post_moderators_help: 'Kanał działa jak tablica ogłoszeń — wszyscy mogą czytać, ale tylko moderatorzy mogą wysyłać wiadomości.'
+      post_moderators_help: 'Kanał działa jak tablica ogłoszeń – wszyscy mogą czytać, ale tylko moderatorzy mogą wysyłać wiadomości.'
       post_permission: 'Kto może wysyłać wiadomości'
       private: Prywatny
       private_help: 'Dostęp tylko na zaproszenie. Kanał nie pojawia się na liście i widzą go wyłącznie jego członkowie.'

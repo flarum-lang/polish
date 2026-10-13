@@ -40,7 +40,7 @@ fof-sitemap:
       risky_performance_improvements_help: 'Ryzykowne optymalizacje sprawiają, że zadania cron wykonują się szybciej dla zbiorów danych zawierających miliony rekordów, ale mogą być niekompatybilne z niektórymi rozszerzeniami.'
       soft_404:
         heading: 'Zapobieganie pozornym błędom 404'
-        help: 'Kiedy dany zasób ma mało (lub nie ma jej wcale) istotnej treści, Google może oznaczyć stronę jako "Pozorny błąd 404". Aby tego uniknąć, ustaw minimalną liczbę elementów, aby zasób kwalifikował się do mapy witryny.'
+        help: 'Kiedy dany zasób ma mało (lub nie ma jej wcale) istotnej treści, Google może oznaczyć stronę jako „Pozorny błąd 404”. Aby tego uniknąć, ustaw minimalną liczbę elementów, aby zasób kwalifikował się do mapy witryny.'
         tags:
           discussion:
             minimum_item_threshold_help: 'Minimalna liczba dyskusji, które musi mieć tag, aby kwalifikował się do zawarcia w mapie witryny.'

@@ -21,7 +21,7 @@ fof-best-answer:
       discussion_sidebar_jump_button: 'Przycisk przejścia do najlepszej odpowiedzi na pasku bocznym'
       discussion_sidebar_jump_button_help: 'Dodaje na pasku bocznym dyskusji przycisk, który pozwala szybko przewinąć stronę bezpośrednio do najlepszej odpowiedzi.'
       documentation: Dokumentacja
-      enabled_tags_help: 'Wybierz tagi, dla których chcesz włączyć najlepsze odpowiedzi. Tagi te zmienią format na "Pytania i Odpowiedzi" (Q&A) i będą miały możliwość oznaczania najlepszych odpowiedzi.'
+      enabled_tags_help: 'Wybierz tagi, dla których chcesz włączyć najlepsze odpowiedzi. Tagi te zmienią format na „Pytania i Odpowiedzi” (Q&A) i będą miały możliwość oznaczania najlepszych odpowiedzi.'
       enabled_tags_label: 'Włączone tagi'
       label:
         advanced: Zaawansowane
@@ -32,10 +32,10 @@ fof-best-answer:
       remind_tags_help: 'Wybierz tagi, dla których mają być wysyłane przypomnienia. Przypomnienia będą wysyłane tylko dla dyskusji zawierających te tagi.'
       remind_tags_label: 'Tagi z przypomnieniami'
       schedule_log_output: 'Zapisz logi harmonogramu zadań'
-      schedule_on_one_server: 'Użyj dyrektywy "onOneServer()" dla harmonogramu zadań (task scheduler)'
+      schedule_on_one_server: 'Użyj dyrektywy „onOneServer()” dla harmonogramu zadań (task scheduler)'
       schedule_on_one_server_help: 'Wymaga Redis/Memcache'
       schedule_stop_overnight: 'Wyłącz przypomnienia w godzinach nocnych'
-      schedule_stop_overnight_help: '21.00 - 8.00 według czasu serwera'
+      schedule_stop_overnight_help: '21.00–8.00 według czasu serwera'
       select_best_answer_reminder_days: 'Częstotliwość przypominania'
       select_best_answer_reminder_days_help: 'Po podanej liczbie dni wyślij przypomnienie do autora dyskusji, aby wybrał najlepszą odpowiedź. Ustaw 0, aby wyłączyć przypomnienia.'
       select_best_answer_tags_help: 'Wybierz, które tagi mają zostać dodane do dyskusji, gdy zostanie dla niej ustawiona najlepsza odpowiedź. Dozwolone są tylko tagi dodatkowe. Te tagi zostaną usunięte z dyskusji, jeśli najlepsza odpowiedź zostanie usunięta dla danej dyskusji.'
@@ -49,9 +49,9 @@ fof-best-answer:
       use_alt_ui_help: 'Wyświetl opcje do ustawiania najlepszej odpowiedzi w stopce posta'
   email:
     body:
-      awarded: "Witaj {recipient_display_name},\n\nŚwietna robota, {actor_display_name} właśnie wybrał Twój post jako najlepszą odpowiedź w \"{discussion_title}\". Dzięki za pomoc!\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n"
-      ba-set: "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji \"{discussion_title}\", w której uczestniczyłeś.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n"
-      select: "Witaj {recipient_display_name},\n\nTylko sprawdzamy. Powinieneś mieć już mnóstwo odpowiedzi na swoje pytanie \"{discussion_title}\". Mamy nadzieję, że jedna z nich pomogła Ci rozwiązać Twój problem.\n\nJeśli tak, wybranie najlepszej odpowiedzi bardzo pomogłoby innym użytkownikom mającym podobny problem - dzięki temu łatwiej będzie im znaleźć odpowiedź, której poszukują. Jest to też forma podziękowania użytkownikom, którzy Ci pomogli - poświęcają swój czas charytatywnie, dobrze byłoby dać im znać, że ich wysiłek nie poszedł na marne.\n\nAby przejść do dyskusji i wybrać najbardziej odpowiedni post jako najlepszą odpowiedź, kliknij poniższy link:\n{discussion_url}\n\nDzięki!\n"
+      awarded: "Witaj {recipient_display_name},\n\nŚwietna robota, {actor_display_name} właśnie wybrał Twój post jako najlepszą odpowiedź w „{discussion_title}”. Dzięki za pomoc!\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n"
+      ba-set: "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji „{discussion_title}”, w której uczestniczyłeś.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n"
+      select: "Witaj {recipient_display_name},\n\nTylko sprawdzamy. Powinieneś mieć już mnóstwo odpowiedzi na swoje pytanie „{discussion_title}”. Mamy nadzieję, że jedna z nich pomogła Ci rozwiązać Twój problem.\n\nJeśli tak, wybranie najlepszej odpowiedzi bardzo pomogłoby innym użytkownikom mającym podobny problem – dzięki temu łatwiej będzie im znaleźć odpowiedź, której poszukują. Jest to też forma podziękowania użytkownikom, którzy Ci pomogli – poświęcają swój czas charytatywnie, dobrze byłoby dać im znać, że ich wysiłek nie poszedł na marne.\n\nAby przejść do dyskusji i wybrać najbardziej odpowiedni post jako najlepszą odpowiedź, kliknij poniższy link:\n{discussion_url}\n\nDzięki!\n"
     subject:
       awarded: 'Twój post został wybrany jako najlepsza odpowiedź przez {display_name}'
       ba-set: 'Najlepsza odpowiedź została wybrana przez {display_name}'
