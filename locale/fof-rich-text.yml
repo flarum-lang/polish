@@ -5,11 +5,11 @@
 fof-rich-text:
   admin:
     settings:
-      toggle_on_editor: 'Pokazać przełącznik trybu edytora wizualnego?'
+      toggle_on_editor: 'Wyświetlaj przełącznik trybu edytora wizualnego'
   forum:
     settings:
       composer_heading: Edytor
-      rich_text_compact_paragraphs_label: 'Nie oddzielaj akapitów nową linią.'
+      rich_text_compact_paragraphs_label: 'Nie oddzielaj akapitów pustą linią'
       use_rich_text_editor_label: 'Używać edytora wizualnego?'
   lib:
     composer:

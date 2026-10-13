@@ -44,10 +44,20 @@ fof-polls:
     compose:
       add_title: 'Dodaj ankietę'
       continue_editing: 'Kontynuuj edycję'
+      draft_saved: 'Zapisano wersję roboczą'
       edit_title: 'Edytuj ankietę'
       polls_manager: 'Menedżer ankiet'
       polls_preview: 'Zobacz ankietę'
+      publish: Opublikuj
+      save_as_draft: 'Zapisz jako wersję roboczą'
+      schedule: Zaplanuj
+      schedule_datetime_label: 'Termin publikacji'
+      schedule_publication: 'Zaplanuj publikację'
+      schedule_publication_edit: 'Edytuj zaplanowaną publikację'
+      schedule_submit: Zaplanuj
+      submit: Zatwierdź
       success: 'Ankieta zapisana pomyślnie.'
+      update_draft: 'Zaktualizuj wersję roboczą'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -62,6 +72,7 @@ fof-polls:
       date_placeholder: 'Data zakończenia ankiety (opcjonalne)'
       delete: '=> core.ref.delete'
       edit_title: 'Edytuj ankietę'
+      empty_answers: '{count, plural, one {# odpowiedź jest pusta — uzupełnij ją lub usuń.} few {# odpowiedzi są puste — uzupełnij je lub usuń.} other {# odpowiedzi jest pustych — uzupełnij je lub usuń.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Ukryj głosy do czasu zakończenia ankiety'
       hide_votes_label_help: 'Użytkownik, który rozpoczął ankietę, zawsze będzie mógł zobaczyć głosy.'
@@ -77,7 +88,7 @@ fof-polls:
       poll_image:
         alt_help_text: 'Ten tekst jest wymagany po ustawieniu obrazka i zostanie wyświetlony, jeśli obraz nie zostanie załadowany.'
         alt_label: 'Alternatywny tekst obrazka'
-        help: 'Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).'
+        help: 'Prześlij obrazek, który będzie wyświetlany obok ankiety (opcjonalnie).'
         label: 'Obrazek ankiety'
         later_help: 'Po utworzeniu ankiety będzie można przesłać obrazek.'
       poll_option_image:
@@ -103,15 +114,28 @@ fof-polls:
     poll:
       cannot_change_vote: 'Nie możesz zmienić swojego głosu po zagłosowaniu.'
       cannot_start_poll_button: 'Nie można rozpocząć ankiety'
+      draft_label: 'Wersja robocza'
+      scheduled_error_tooltip: 'Nie udało się opublikować ankiety w zaplanowanym terminie. Otwórz ankietę, aby sprawdzić przyczynę.'
+      scheduled_label: 'Zaplanowano na {date}'
       start_poll_button: 'Rozpocznij globalną ankietę'
       submit_button: Głosuj
       total_votes: '{count, plural, one {Oddano # głos} few {Oddano # głosy} other {Oddano # głosów}}'
     poll_controls:
+      cancel_schedule_label: 'Anuluj zaplanowaną publikację'
+      cancel_schedule_success: 'Anulowano zaplanowaną publikację.'
       delete_confirmation: 'Czy na pewno chcesz usunąć tę ankietę?'
       delete_error_message: 'Coś poszło nie tak podczas usuwania ankiety.'
       delete_label: '=> core.ref.delete'
       delete_success_message: 'Usunięto ankietę pomyślnie.'
       edit_label: '=> core.ref.edit'
+      edit_schedule_publish_label: 'Edytuj zaplanowaną publikację'
+      publish_label: 'Opublikuj teraz'
+      publish_success: 'Opublikowano ankietę.'
+      schedule_publish_label: 'Zaplanuj publikację'
+      unpublish_confirmation: 'Przenieść tę ankietę do wersji roboczych? Zniknie z listy prezentowanych ankiet.'
+      unpublish_error_has_votes: 'Nie można cofnąć publikacji — w ankiecie oddano już głosy. Zamiast tego usuń ją.'
+      unpublish_label: 'Przenieś do wersji roboczych'
+      unpublish_success: 'Przeniesiono ankietę do wersji roboczych.'
       view_label: '=> core.ref.view'
     poll_ended: 'Ta ankieta zakończyła się.'
     poll_form:
@@ -154,6 +178,10 @@ fof-polls:
         oldest: Najstarsze
         sort_dropdown:
           default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
+      status_filter:
+        all: Wszystkie
+        draft: 'Wersje robocze'
+        published: Opublikowane
     polls_page:
       title: Ankiety
     public_poll: 'Zobacz głosujących'
