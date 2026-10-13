@@ -2,6 +2,51 @@ CHANGELOG
 =========
 
 
+2.0.10 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (9 changed).
+
+
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (2 changed, 100% complete)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (2 changed, 90% complete)
+* [`flarum/tags`](https://github.com/flarum/tags) (1 changed, 100% complete)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) (1 changed, 66% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (5 changed, 100% complete)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (6 changed, 100% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (2 changed, 100% complete)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (1 changed, 97% complete)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (3 changed, 100% complete)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) (1 changed, 94% complete)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (1 changed, 78% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 changed, 100% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (3 changed, 100% complete)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (2 changed, 100% complete)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (1 changed, 73% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (2 changed, 100% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (1 changed, 100% complete)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo) (4 changed, 100% complete)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) (1 changed, 100% complete)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) (6 changed, 100% complete)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (2 changed, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (20 changed, 99% complete)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) (1 changed, 100% complete)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (1 changed, 92% complete)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (1 changed, 100% complete)
+* [`ianm/syndication`](https://github.com/imorland/syndication) (1 changed, 86% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 changed, 100% complete)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) (1 changed, 85% complete)
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (9 changed, 99% complete)
+
+
+All changes: [2.0.9...2.0.10](https://github.com/flarum-lang/polish/compare/2.0.9...2.0.10).
+
+
 2.0.9 (2026-10-13)
 ------------------
 
