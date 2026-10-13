@@ -11,7 +11,7 @@ fof-sitemap:
       build_error: 'Nie udało się dodać zadania przebudowy mapy witryny do kolejki. Sprawdź logi i konfigurację kolejki.'
       build_success: 'Zadanie przebudowy mapy witryny zostało pomyślnie dodane do kolejki. Sprawdź logi, aby monitorować postęp.'
       column_pruning: 'Włącz ograniczanie zakresu danych'
-      column_pruning_help: 'Pobiera tylko dane potrzebne do generowania adresów URL (np. id, slug, nazwa użytkownika, daty), zamiast wszystkich kolumn. Znacząco zmniejsza zużycie pamięci dla dużych forów. Opcja jest domyślnie włączona — wyłącz ją tylko wtedy, gdy niestandardowy mechanizm slugów lub widoczności wymaga dodatkowych danych spoza standardowego zakresu.'
+      column_pruning_help: 'Pobiera tylko dane potrzebne do generowania adresów URL (np. id, slug, nazwa użytkownika, daty), zamiast wszystkich kolumn. Znacząco zmniejsza zużycie pamięci dla dużych forów. Opcja jest domyślnie włączona – wyłącz ją tylko wtedy, gdy niestandardowy mechanizm slugów lub widoczności wymaga dodatkowych danych spoza standardowego zakresu.'
       exclude_tags: 'Wyklucz wszystkie strony tagów z mapy witryny'
       exclude_tags_help: 'Domyślnie wszystkie tagi widoczne dla gości będą indeksowane'
       exclude_users: 'Wyklucz wszystkie profile użytkowników z mapy witryny'
@@ -42,7 +42,7 @@ fof-sitemap:
       risky_performance_improvements_help: 'Zwiększa rozmiar porcji danych pobieranej z bazy z 75 000 do 150 000 wierszy. Przyspiesza generowanie dla bardzo dużych zbiorów danych, ale podwaja maksymalne zużycie pamięci RAM na jedną porcję. Włącz tylko wtedy, gdy masz pewność, że serwer ma wystarczającą ilość pamięci. Włącza również opcję ograniczania zakresu danych (patrz powyżej).'
       soft_404:
         heading: 'Zapobieganie pozornym błędom 404'
-        help: 'Kiedy dany zasób ma mało (lub nie ma jej wcale) istotnej treści, Google może oznaczyć stronę jako "Pozorny błąd 404". Aby tego uniknąć, ustaw minimalną liczbę elementów, aby zasób kwalifikował się do mapy witryny.'
+        help: 'Kiedy dany zasób ma mało (lub nie ma jej wcale) istotnej treści, Google może oznaczyć stronę jako „Pozorny błąd 404”. Aby tego uniknąć, ustaw minimalną liczbę elementów, aby zasób kwalifikował się do mapy witryny.'
         tags:
           discussion:
             minimum_item_threshold_help: 'Minimalna liczba dyskusji, które musi mieć tag, aby kwalifikował się do zawarcia w mapie witryny.'

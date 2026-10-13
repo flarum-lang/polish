@@ -43,14 +43,14 @@ askvortsov-pwa:
       refreshed_message: 'Konfiguracja PWA została pomyślnie odświeżona.'
       status_check_heading: Status
       submit_button: 'Zapisz ustawienia'
-      text: 'Skonfiguruj swoje Flarum, aby działało jako Progressive Web App! Zauważ, że nie umieści to Twojej aplikacji w App Store. Zamiast tego przeglądarka udostępni opcję "Dodaj do ekranu głównego". Rozszerzenie zapewnia podstawowe sprawdzenie konfiguracji, ale najlepszym sposobem na przetestowanie go jest instalacja i sprawdzenie czy działa (instrukcję instalacji Progressive Web App można znaleźć w Google). Miej na uwadze, że popup "zainstaluj jako PWA" jest kontrolowany przez przeglądarkę i nie może być wywołany przez developera/administratora/aplikację. Zalecane jest udostępnienie instrukcji jak zainstalować PWA na Twojej stronie.'
+      text: 'Skonfiguruj swoje Flarum, aby działało jako Progressive Web App! Zauważ, że nie umieści to Twojej aplikacji w App Store. Zamiast tego przeglądarka udostępni opcję „Dodaj do ekranu głównego”. Rozszerzenie zapewnia podstawowe sprawdzenie konfiguracji, ale najlepszym sposobem na przetestowanie go jest instalacja i sprawdzenie czy działa (instrukcję instalacji Progressive Web App można znaleźć w Google). Miej na uwadze, że popup „zainstaluj jako PWA” jest kontrolowany przez przeglądarkę i nie może być wywołany przez developera/administratora/aplikację. Zalecane jest udostępnienie instrukcji jak zainstalować PWA na Twojej stronie.'
     status:
       config_no_https: 'URL w pliku <code>config.php</code> nie korzysta z HTTPS. HTTPS jest wymagany do działania Progressive Web App.'
       key_gen_failed: 'Nie udało się wygenerować kluczy potrzebnych do działania powiadomień push. Pełna treść błędu: {error}'
       no_logo: 'Aby Twoją aplikację dało się zainstalować, musisz wysłać co najmniej jedno logo o minimalnych wymiarach 144px na 144px.'
       no_name: 'Aby Twoja aplikacja działała, musisz podać jej pełną nazwę.'
       no_vapid_keys: 'Nie znaleziono kluczy VAPID. Są one wymagane do wysyłania powiadomień push. Możesz zresetować klucze VAPID poniżej.'
-      possible_https_disabled: 'Twoja strona może nie korzystać z HTTPS. Wyczyszczenie cache (przycisk "Narzędzia" w kokpicie panelu admina) może pomóc. Jeśli Twoja strona korzysta z HTTPS, zignoruj to ostrzeżenie. Jeśli nie, miej na uwadze, że HTTPS jest wymagany do działania Progressive Web App.'
+      possible_https_disabled: 'Twoja strona może nie korzystać z HTTPS. Wyczyszczenie cache (przycisk „Narzędzia” w kokpicie panelu admina) może pomóc. Jeśli Twoja strona korzysta z HTTPS, zignoruj to ostrzeżenie. Jeśli nie, miej na uwadze, że HTTPS jest wymagany do działania Progressive Web App.'
       success: 'Nie wykryto żadnych potencjalnych problemów!'
       suggest_gmp: 'Wygląda na to, że rozszerzenie gmp dla PHP nie jest włączone na Twoim serwerze. Nie jest ono wymagane, ale może poprawić wydajność i jego włączenie jest zalecane. Niektóre hostingi współdzielone nie wspierają tego rozszerzenia.'
   forum:

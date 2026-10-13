@@ -7,9 +7,9 @@ clarkwinkelmann-follow-tags-prompt:
     homepage:
       following: Obserwowane
     settings:
-      allDiscussionsOnFollowingPageForGuests: 'Dla gości pokaż wszystkie dyskusje na podstronie "Obserwowane"'
+      allDiscussionsOnFollowingPageForGuests: 'Dla gości pokaż wszystkie dyskusje na podstronie „Obserwowane”'
       availableTagStrategy: 'Tagi do zaproponowania w okienku'
-      buttonOnFollowingPage: 'Pokaż przycisk na podstronie "Obserwowane"'
+      buttonOnFollowingPage: 'Pokaż przycisk na podstronie „Obserwowane”'
       tagStrategy:
         all: 'Wszystkie tagi'
         list: 'Tagi wybrane poniżej'

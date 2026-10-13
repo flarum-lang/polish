@@ -15,7 +15,7 @@ fof-discussion-language:
         missing_assets: 'Nie udało się wczytać zasobów wymaganych przez to rozszerzenie. Spróbuj uruchomić <code>php flarum assets:publish</code> i sprawdzić czy rozwiązało to ten problem.'
       locale_sort_label: 'Użyj wykrytego języka jako domyślnego filtru dyskusji'
       native_label: 'Używaj lokalnych nazw języków'
-      show_any_lang_opt_label: 'Pozwól na wybranie opcji "Dowolny język"'
+      show_any_lang_opt_label: 'Pozwól na wybranie opcji „Dowolny język”'
       show_flag_label: 'Wyświetl flagę kraju obok nazwy języka'
       tags_page_discussion_locale_label: 'Na podstronie tagów wyświetl jedynie dyskusje pasujące do języka użytkownika'
   api:

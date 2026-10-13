@@ -15,7 +15,7 @@ askvortsov-saml:
       want_messages_signed: 'Czy wiadomości powinny być podpisane?'
     options:
       nameid_format:
-        emailAddress: 'Email (domyślny - użyj, jeśli "persistent" nie jest wspierany)'
+        emailAddress: 'Email (domyślny – użyj, jeśli „persistent” nie jest wspierany)'
         persistent: 'Persistent (rekomendowany, o ile jest wspierany)'
         unspecified: Unspecified
     title: 'Konfiguracja SAML2 SSO'

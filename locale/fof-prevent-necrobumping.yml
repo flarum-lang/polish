@@ -9,7 +9,7 @@ fof-prevent-necrobumping:
       days_label: Dni
       message_agreement_label: 'Niestandardowa treść potwierdzenia (checkbox)'
       message_description_label: 'Niestandardowa treść wiadomości'
-      message_title_help: 'Użyj <code>[time]</code> dla podania czasu tekstowo, np. "14 dni".'
+      message_title_help: 'Użyj <code>[time]</code> dla podania czasu tekstowo, np. „14 dni”.'
       message_title_label: 'Niestandardowy tytuł wiadomości'
       tags_help: 'Nadpisz globalne ustawienia dla konkretnego tagu. Zostaw puste, aby użyć domyślnej wartości. Jeśli dyskusja ma wiele tagów z różną liczbą dni, zostanie użyta najniższa wartość.'
       tags_title: Tagi

@@ -13,7 +13,7 @@ tituspijean-auth-ldap:
       filter: 'Filtr do zastosowania (opcjonalne)'
       follow_referrals: 'Podążaj za odwołaniami podczas uwierzytelniania przez serwer LDAP'
       hosts: 'Domeny lub adresy IP serwerów LDAP (rozdzielone przecinkami)'
-      method_name: 'Nazwa serwera LDAP (pojawi się po "Zaloguj się za pomocą")'
+      method_name: 'Nazwa serwera LDAP (pojawi się po „Zaloguj się za pomocą”)'
       onlyUse: 'Ukryj standardowe logowanie Flarum i używaj jedynie uwierzytelniania za pomocą LDAP'
       port: port
       search_user_fields: 'Pola użytkownika LDAP do przeszukania (rozdzielone przecinkami)'

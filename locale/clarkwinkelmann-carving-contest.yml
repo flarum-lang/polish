@@ -32,7 +32,7 @@ clarkwinkelmann-carving-contest:
     page:
       already-liked: 'Lubię to'
       already-participated: 'Już bierzesz udział'
-      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć dynię "{name}" utworzoną przez {username}?'
+      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć dynię „{name}” utworzoną przez {username}?'
       like: 'Lubię to'
       likes:
         liked_by_self_text: '{count, plural, one {{users} lubisz to} other {{users} lubicie to}}.'

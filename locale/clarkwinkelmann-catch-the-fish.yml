@@ -79,20 +79,20 @@ clarkwinkelmann-catch-the-fish:
       message: 'Tutaj możesz upuścić rybę'
       missing-from-store: 'Nie można znaleźć ryby w magazynie danych'
     edit-fish-modal:
-      title: 'Edytuj rybę "{name}"'
+      title: 'Edytuj rybę „{name}”'
     edit-fish:
       create: 'Utwórz rybę'
       delete: 'Usuń rybę'
-      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć rybę "{name}"?'
+      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć rybę „{name}”?'
       name: Nazwa
       name-help: 'Obecna nazwa ryby. Może być edytowana przez graczy, jeśli mają uprawnienia do zmiany nazwy ryb'
       save: 'Zapisz rybę'
     edit-round-modal:
-      title: 'Edytuj rundę "{name}"'
+      title: 'Edytuj rundę „{name}”'
     edit-round:
       create: 'Utwórz rundę'
       delete: 'Usuń rundę'
-      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć rundę "{name}"?'
+      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć rundę „{name}”?'
       ends-at: 'Czas zakończenia'
       name: Nazwa
       name-help: 'Publiczna nazwa tej rundy zostanie pokazana w banerze oraz w rankingu'
@@ -101,7 +101,7 @@ clarkwinkelmann-catch-the-fish:
       starting-pack-help: 'Będzie zawierać kilka ryb, które pozwolą Ci od razu zacząć zabawę'
       starts-at: 'Czas rozpoczęcia'
     fish-image:
-      alt: 'Obrazek ryby "{name}"'
+      alt: 'Obrazek ryby „{name}”'
       missing: 'Brak obrazka ryby'
     moderate:
       add: Dodaj
@@ -123,7 +123,7 @@ clarkwinkelmann-catch-the-fish:
       permission: 'Nie masz uprawnień, aby zobaczyć rankingi'
       title: Rankingi
     round-alert:
-      message: 'Runda "{name}", złów jak najwięcej ryb do {time}'
+      message: 'Runda „{name}”, złów jak najwięcej ryb do {time}'
       rankings: 'Zobacz rankingi'
     table-fish:
       actions: Akcje
@@ -136,7 +136,7 @@ clarkwinkelmann-catch-the-fish:
       no-user-name: 'Nie zmieniono nazwy'
       no-user-place: Losowo
       placement: 'Obecna pozycja'
-      title: 'Ryby dla rundy "{name}"'
+      title: 'Ryby dla rundy „{name}”'
       upload: 'Prześlij nowy obrazek'
       user-name: 'Ostatnio nazwana przez'
       user-place: 'Ostatnio umieszczona przez'
@@ -144,7 +144,7 @@ clarkwinkelmann-catch-the-fish:
       count: 'Złowione ryby'
       loading: Ładowanie...
       rank: Nazwa
-      title: 'Ranking rundy "{name}"'
+      title: 'Ranking rundy „{name}”'
       user: Użytkownik
     table-round:
       actions: Akcje

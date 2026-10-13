@@ -16,7 +16,7 @@ clarkwinkelmann-scratchpad:
     controls:
       compile: 'Kompiluj JS'
       delete: Usuń
-      delete-confirmation: 'Usunąć "{title}"?'
+      delete-confirmation: 'Usunąć „{title}”?'
       disable: 'Kliknij, aby wyłączyć'
       enable: 'Kliknij, aby włączyć'
       new: Nowy

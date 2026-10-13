@@ -32,7 +32,7 @@ fof-user-directory:
       kinds:
         group: Grupa
         text: Tekst
-      users_heading: 'Wyszukaj użytkowników dla "{query}"'
+      users_heading: 'Wyszukaj użytkowników dla „{query}”'
   lib:
     sort:
       default: Domyślne

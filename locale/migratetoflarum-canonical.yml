@@ -9,8 +9,8 @@ migratetoflarum-canonical:
         status: 'Rodzaj przekierowania'
         wrong_url: 'Ustawienia rozszerzenia pojawią się, gdy uzyskasz dostęp do forum przez adres kanoniczny'
       option:
-        301: '301 (trwałe przekierowanie - dla środowisk produkcyjnych)'
-        302: '302 (tymczasowe przekierowanie - dla testów)'
+        301: '301 (trwałe przekierowanie – dla środowisk produkcyjnych)'
+        302: '302 (tymczasowe przekierowanie – dla testów)'
         disabled: 'Wyłączone (rozszerzenie nic nie będzie robić)'
       step:
         admin_on_canonical: 'Uzyskaj dostęp do panelu admina przez ustawiony adres kanoniczny'

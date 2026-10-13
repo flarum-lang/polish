@@ -7,7 +7,7 @@ fof-merge-discussions:
     permissions:
       merge_discussions_label: 'Scalanie dyskusji'
     settings:
-      search_result_help: 'Ile dyskusji powinno być zwróconych podczas wyszukiwania w okienku "Scal dyskusje".'
+      search_result_help: 'Ile dyskusji powinno być zwróconych podczas wyszukiwania w okienku „Scal dyskusje”.'
       search_result_label: 'Limit wyszukiwania dyskusji do scalenia'
   api:
     error:
@@ -18,8 +18,8 @@ fof-merge-discussions:
       updating_failed: 'Nie udało się odświeżyć informacji o dyskusji.'
   email:
     merged:
-      body: "Witaj {recipient_display_name},\n\nTwoja dyskusja \"{merged_discussion_title}\" została scalona z dyskusją \"{discussion_title}\" przez {actor_display_name}.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n"
-      subject: 'Twoja dyskusja "{merged_discussion_title}" została scalona'
+      body: "Witaj {recipient_display_name},\n\nTwoja dyskusja „{merged_discussion_title}” została scalona z dyskusją „{discussion_title}” przez {actor_display_name}.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n"
+      subject: 'Twoja dyskusja „{merged_discussion_title}” została scalona'
   forum:
     discussion:
       merge: '=> fof-merge-discussions.ref.merge'
