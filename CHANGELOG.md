@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.10.16 (XXXX-XX-XX)
+--------------------
+
+**Updated translations for extensions**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (27 added, 1 changed, 100% complete)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (2 changed, 100% complete)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (12 changed, 100% complete)
+
+
+All changes: [1.10.15...1.10.16](https://github.com/flarum-lang/polish/compare/1.10.15...1.10.16).
+
+
 1.10.15 (2026-09-27)
 --------------------
 
