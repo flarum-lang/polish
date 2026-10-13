@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+2.0.9 (2026-10-13)
+------------------
+
+**Added support for new extensions**:
+
+* [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/messages`](https://github.com/flarum/messages) (3 changed, 71% complete)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (2 added, 100% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (54 added, 1 changed, 100% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (21 added, 1 changed, 100% complete)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (13 added, 2 changed, 100% complete)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo) (3 added, 100% complete)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (9 added, 12 changed, 100% complete)
+
+
+All changes: [2.0.8...2.0.9](https://github.com/flarum-lang/polish/compare/2.0.8...2.0.9).
+
+
 2.0.8 (2026-10-10)
 ------------------
 
