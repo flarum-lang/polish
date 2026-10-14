@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.11 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 added, 100% complete)
+
+
+All changes: [2.0.10...2.0.11](https://github.com/flarum-lang/polish/compare/2.0.10...2.0.11).
+
+
 2.0.10 (2026-10-13)
 -------------------
 
