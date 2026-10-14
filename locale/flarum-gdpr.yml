@@ -158,3 +158,8 @@ flarum-gdpr:
       request_button: 'Przygotuj archiwum'
       text: "Przygotujemy dla Ciebie archiwum zip. Gdy będzie gotowe, otrzymasz powiadomienie z linkiem do pobrania. Link będzie aktywny przez jeden dzień.\n"
       title: 'Zażądaj danych dla {username}'
+  views:
+    confirm_erasure:
+      submit_button: 'Potwierdź usunięcie'
+      text: 'Potwierdź, że chcesz usunąć swoje konto wraz z jego danymi. Dopóki wniosek nie zostanie rozpatrzony, możesz go anulować w ustawieniach.'
+      title: 'Potwierdź usunięcie konta'
