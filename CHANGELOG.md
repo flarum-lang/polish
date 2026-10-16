@@ -7,7 +7,14 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 added, 100% complete)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (9 changed, 92% complete)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (1 changed, 15% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (1 changed, 73% complete)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (1 added, 17% complete)
+* [`ianm/html-head`](https://github.com/imorland/html-head) (1 added, 2 changed, 14% complete)
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (4 changed, 99% complete)
 
 
 All changes: [2.0.10...2.0.11](https://github.com/flarum-lang/polish/compare/2.0.10...2.0.11).
