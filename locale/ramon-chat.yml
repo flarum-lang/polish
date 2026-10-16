@@ -68,7 +68,7 @@ ramon-chat:
       realtime_title: 'Aktualizacje na żywo i dźwięk'
       retention_help: 'Jak długo wiadomości są przechowywane. Starsze są usuwane przez nocne zadanie czyszczące.'
       retention_title: Retencja
-      uploads_help: 'Czy do wiadomości można dołączać pliki i jak duże mogą być.'
+      uploads_help: 'Czy do wiadomości można dołączać pliki, jak duże mogą być i gdzie są przechowywane.'
       uploads_title: Pliki
       webhooks_help: 'Endpointy zgodne ze Slackiem, przez które zewnętrzna usługa może wysyłać wiadomości na kanał. Adres URL jest wyświetlany tylko raz – podczas tworzenia lub zmiany klucza.'
       webhooks_title: 'Przychodzące webhooki'
@@ -345,10 +345,10 @@ ramon-chat:
       minutes: '{count}min'
       seconds: '{count}s'
     edit_channel:
-      archive_confirm: 'Zarchiwizować ten kanał? Jego historia zostanie skopiowana do dyskusji, a kanał zostanie trwale zamrożony.'
+      archive_confirm: 'Zarchiwizować ten kanał? Jego historia zostanie skopiowana do dyskusji, a kanał zostanie zamrożony do czasu przywrócenia go z archiwum.'
       failed: 'Nie udało się zapisać zmian.'
       lifecycle: 'Stan kanału'
-      lifecycle_help: 'Zamknięcie blokuje nowe wiadomości, ale kanał pozostaje dostępny do odczytu. Archiwizacja kopiuje historię do dyskusji i trwale zamraża kanał.'
+      lifecycle_help: 'Zamknięcie blokuje nowe wiadomości, ale kanał pozostaje dostępny do odczytu. Archiwizacja kopiuje historię do dyskusji i zamraża kanał do czasu przywrócenia go z archiwum.'
       saved: 'Kanał został zaktualizowany.'
       submit: 'Zapisz zmiany'
       subtitle: 'Zmiany zaczną obowiązywać wszystkich na kanale natychmiast po zapisaniu.'
@@ -689,7 +689,7 @@ ramon-chat:
     gdpr:
       anonymize_description: 'Twoje wiadomości na czacie pozostaną, aby rozmowy zachowały ciągłość, ale nie będą już przypisane do Ciebie. Załączniki, reakcje, wersje robocze i członkostwa w kanałach zostaną usunięte.'
       delete_description: 'Twoje wiadomości i załączniki na czacie zostaną usunięte wraz z reakcjami, wersjami roboczymi i członkostwami w kanałach.'
-      export_description: 'Twoje wiadomości na czacie, informacje o ich załącznikach oraz kanały, do których należałeś.'
+      export_description: 'Twoje wiadomości na czacie, informacje o ich załącznikach, kanały, do których należałeś, oraz rangi, które w nich miałeś.'
   notifications:
     chat_channel_invite: '{username} zaprosił Cię do {channel}'
     chat_channel_invite_declined: '{username} odrzucił Twoje zaproszenie do {channel}'

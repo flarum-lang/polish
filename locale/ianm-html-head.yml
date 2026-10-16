@@ -6,9 +6,9 @@ ianm-html-head:
   admin:
     create_button: Utwórz
     modal:
-      create_title: 'Utwórz nowy element'
+      create_title: 'Utwórz element sekcji head'
       description_label: Opis
-      edit_title: 'Edytuj element'
+      edit_title: 'Edytuj element sekcji head'
       header_label: 'Niestandardowy element w <code>head</code>'
       save_button: Zapisz
       text: 'Upewnij się, że składnia jest prawidłowa, ponieważ możliwe jest zepsucie forum poprzez dodanie nieprawidłowych tagów w sekcji <code>head</code> forum. Po zapisaniu, włącz nowy element wykorzystując odpowiedni przełącznik.'
@@ -17,4 +17,5 @@ ianm-html-head:
       delete_button: Usuń
       description_label: Opis
       edit_button: Edytuj
+      empty_text: 'Brak elementów. Kliknij „Utwórz”, aby dodać pierwszy element sekcji head.'
       header_label: 'Element w <code>head</code>'

@@ -6,7 +6,7 @@ acpl-lscache:
   admin:
     cache_enabled_help: 'Zajrzyj na <a>stronę informacyjną</a>, aby dowiedzieć się, jak przetestować cache. UWAGA: Po wyłączeniu cache, cała jego zawartość zostanie usunięta.'
     cache_enabled_label: 'Włącz LSCache'
-    cache_exclude_help: 'Ścieżki zawierające te fragmenty nie będą przechowywane w cache. Dla <code>/mypath/mypage?aa=bb</code>, możesz użyć <code>mypage?aa=</code>. Aby dopasować początek, dodaj <code>^</code> na początku. Dla dokładnego dopasowania, dodaj <code>$</code> na końcu URL. Po jednej na linię.'
+    cache_exclude_help: 'Jeden wzorzec ścieżki na linię: <code>/private</code> dopasowuje częściowo, <code>^/private$</code> – dokładnie. Ciągi zapytań są ignorowane. Zmiany nie czyszczą istniejącego cache – w razie potrzeby wyczyść wybrane adresy URL za pomocą CLI lub cały LSCache z menu cache w panelu administracyjnym.'
     cache_exclude_label: 'Wyklucz ścieżki z cache'
     clearing_cache_listener_label: 'Czyść LSCache, kiedy cache Flarum jest czyszczony'
     drop_qs_help: "Użyj tej funkcji do pominięcia konkretnych ciągów zapytań, takich jak <code>fbclid</code> lub <code>utm*</code>, podczas generowania cache. Dzięki temu unikniesz nadmiernego tworzenia cache dla stron z „śmieciowymi” ciągami zapytań, takimi jak kody UTM, które służą do śledzenia, ale nie wpływają na zawartość strony. Funkcja ta wymaga LSWS w wersji 5.2.3 lub nowszej. Wpisz ciągi zapytań do pominięcia, po jednym na linię. <a>Dowiedz się więcej o pomijaniu ciągów zapytań</a>.<br></br>\n⚠️ Ta opcja modyfikuje plik .htaccess.\n"
