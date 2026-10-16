@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.10.17 (XXXX-XX-XX)
+--------------------
+
+**Updated translations for extensions**:
+
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (1 changed, 80% complete)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (1 added, 17% complete)
+
+
+All changes: [1.10.16...1.10.17](https://github.com/flarum-lang/polish/compare/1.10.16...1.10.17).
+
+
 1.10.16 (2026-10-13)
 --------------------
 
