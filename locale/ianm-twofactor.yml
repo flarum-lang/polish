@@ -40,6 +40,7 @@ ianm-twofactor:
     body:
       status_changed: "Witaj {recipient_display_name},\n\nUwierzytelnianie dwuskładnikowe zostało {type} dla Twojego konta na {forum_url}.\n\nJeśli zainicjowałeś tę akcję, dalsze kroki nie są konieczne. Jeśli nie autoryzowałeś tej zmiany, skontaktuj się natychmiast z administratorami forum.\n"
     status_type:
+      device_changed: 'zmieniono urządzenie'
       disabled: wyłączone
       enabled: włączone
     subject:
@@ -96,5 +97,6 @@ ianm-twofactor:
     reset_password:
       two_factor_token_label: 'Token uwierzytelniania dwuskładnikowego'
     two_factor_token:
+      oauth_session_expired: 'Sesja uwierzytelniania OAuth wygasła. Spróbuj zalogować się ponownie.'
       submit_button: 'Prześlij token'
       title: 'Uwierzytelnianie dwuskładnikowe'

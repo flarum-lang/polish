@@ -46,6 +46,7 @@ flarum-audit:
         filterUser: 'Pokaż logi dotyczące tego samego użytkownika'
         hideRaw: 'Ukryj surowy log'
         showRaw: 'Pokaż surowy log'
+        title: 'Elementy sterujące'
       core: rdzeń
       deletedResource:
         discussion: 'Dyskusja #{id}'
@@ -53,6 +54,7 @@ flarum-audit:
         post: 'Post #{id}'
         tag: 'Tag #{id}'
         user: 'Użytkownik #{id}'
+      developer_token_created: 'Utworzono token deweloperski „{title}” dla użytkownika {username}'
       discussion:
         create_date_changed: 'Zmieniono datę rozpoczęcia dyskusji {discussion} z {old_date} na {new_date}'
         created: 'Rozpoczęto dyskusję {discussion}'
@@ -87,6 +89,10 @@ flarum-audit:
       genericResource:
         comment: Komentarz
         post: Post
+      group:
+        created: 'Utworzono grupę {name}'
+        deleted: 'Usunięto grupę {name}'
+        renamed: 'Zmieniono nazwę grupy z {old_name} na {new_name}'
       help:
         multiple: 'Połącz wartości przecinkami, aby dopasować dowolną z nich, np. action:post.created,post.deleted'
         negate: 'Poprzedź filtr minusem, aby wykluczyć dopasowania, np. -client:cli'
@@ -107,9 +113,13 @@ flarum-audit:
         restored: 'Przywrócono {post} użytkownika {postuser} w dyskusji {discussion}'
         revised: 'Zmieniono {post} użytkownika {postuser} w dyskusji {discussion}'
         user_changed: 'Zmieniono autora {post} z {old_user} na {new_user}'
+      queue:
+        paused: 'Wstrzymano przetwarzanie kolejki {queue} ({connection})'
+        resumed: 'Wznowiono przetwarzanie kolejki {queue} ({connection})'
       refresh: Odśwież
       setting_changed: 'Zmieniono ustawienie {key}'
       setting_changed_with_values: 'Zmieniono ustawienie {key} z {old_value} na {new_value}'
+      settings_reset: 'Zresetowano ustawienia {keys} rozszerzenia {extension}'
       user:
         activated: 'Ręcznie aktywowano konto użytkownika {username}'
         activated_with_email: 'Aktywowano konto użytkownika {username} przez link potwierdzający'
