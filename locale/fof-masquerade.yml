@@ -8,6 +8,8 @@ flarum-audit:
       masquerade:
         field_created: 'Utworzono pole profilu „{name}”'
         field_deleted: 'Usunięto pole profilu „{name}”'
+        field_permanently_deleted: 'Trwale usunięto pole profilu „{name}”'
+        field_restored: 'Przywrócono pole profilu „{name}”'
         field_updated: 'Zaktualizowano pole profilu „{name}”'
         profile_updated: 'Zaktualizowano pola profilu użytkownika {username}'
 flarum-gdpr:
@@ -21,19 +23,22 @@ fof-masquerade:
   admin:
     buttons:
       add-field: 'Utwórz pole'
-      delete-field: 'Usuń pole'
+      delete-field: 'Przenieś do kosza'
+      delete-field-permanently: 'Usuń trwale pole „{field}”'
       edit-field: 'Zapisz zmiany'
+      restore-field: 'Przywróć pole „{field}”'
     fields:
       add: 'Dodaj pole {field}'
       create: 'Utwórz pole'
-      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć pole {field}? Ta operacja nie może zostać cofnięta.'
+      delete-confirmation: 'Przenieść pole „{field}” do kosza?'
+      delete-permanently-confirmation: 'Czy na pewno chcesz trwale usunąć pole „{field}” i wszystkie zapisane odpowiedzi? Tej operacji nie można cofnąć.'
       description: 'Opis pola'
       description-help: "Opcjonalny opis wyjaśniający przeznaczenie tego pola.\n"
       edit: 'Edytuj pole {field}'
       force-user-to-completion: 'Wymuś uzupełnienie tego pola przez użytkownika'
       hide-empty-fields: 'Ukryj puste pola'
       icon: Ikona
-      icon-help: "Wyświetla ikonę przed wartościami podanymi przez użytkownika. Listę dostępnych ikon możesz znaleźć na <a>stronie Font Awesome</a>. Użyj nazw ikon w prefiksem „fa-”, np. „fas fa-info”.\n"
+      icon-help: "Wyświetla ikonę przed wartościami podanymi przez użytkownika. Listę dostępnych ikon możesz znaleźć na <a>stronie Font Awesome</a>. Użyj nazw ikon z prefiksem „fa-”, np. „fas fa-info”.\n"
       is_restricted: 'Ogranicz widoczność pola'
       name: 'Nazwa pola'
       name-help: "Publicznie widoczna (nieprzetłumaczalna) etykieta pola.\n"
@@ -45,6 +50,7 @@ fof-masquerade:
       permissions-alert: 'Ustawienia uprawnień będą widoczne podczas edycji, po utworzeniu pola.'
       required: 'Oznacz pole jako obowiązkowe'
       title: Pola
+      trash: Kosz
       type: Typ
       validation: Walidacja
       validation-help: "Sprawdź wspierane <a>reguły walidacji Laravela</a>, np. „string|min:5” lub „url”.\n"
