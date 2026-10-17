@@ -23,6 +23,8 @@ fof-drafts:
       schedule_log_output: 'Zapisz logi harmonogramu zadań'
       schedule_on_one_server: 'Użyj dyrektywy „onOneServer()” dla harmonogramu zadań (task scheduler) (wymaga Redis/Memcache)'
       title: 'Ustawienia szkiców'
+  api:
+    empty_draft_message: 'W tym szkicu nie ma jeszcze nic do zapisania.'
   console:
     no_title_error: 'Pomięto szkic: brakuje tytułu dyskusji.'
     scheduled_drafts_disabled: 'Planowanie publikacji szkiców jest obecnie wyłączone.'
@@ -63,6 +65,7 @@ fof-drafts:
         draft_autosave_interval_button: 'Zaktualizuj częstotliwość'
         draft_autosave_interval_invalid: 'Częstotliwość musi być liczbą większą niż 4.'
         draft_autosave_interval_label: 'Częstotliwość automatycznego zapisu (w sekundach)'
+        draft_autosave_interval_saved_message: 'Zaktualizowano częstotliwość automatycznego zapisywania.'
         drafts_heading: Szkice
   ref:
     schedule_draft: 'Zaplanuj publikację'
