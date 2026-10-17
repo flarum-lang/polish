@@ -8,6 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed, 100% complete)
+* [`flarum/audit`](https://github.com/flarum/audit) (8 added, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 added, 100% complete)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (5 added, 9 changed, 100% complete)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (2 added, 100% complete)
@@ -18,7 +19,9 @@ CHANGELOG
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (22 added, 1 changed, 100% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (1 added, 17% complete)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 100% complete)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (12 added, 100% complete)
 * [`ianm/html-head`](https://github.com/imorland/html-head) (1 added, 2 changed, 14% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (2 added, 100% complete)
 * [`ramon/chat`](https://github.com/ram0ng1/chat) (4 changed, 99% complete)
 
 
