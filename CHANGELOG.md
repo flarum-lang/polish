@@ -5,6 +5,11 @@ CHANGELOG
 2.0.11 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (53% complete)
+
+
 **Updated translations for extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed, 100% complete)
