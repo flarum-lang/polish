@@ -5,11 +5,15 @@
 fof-oauth:
   admin:
     configure_button_label: 'Skonfiguruj z FoF OAuth'
+    permissions:
+      moderate_user_providers: 'Moderowanie powiązanych kont użytkowników'
     settings:
       advanced:
         heading: Zaawansowane
         log-oauth-errors-help: 'Jeśli to ustawienie jest włączone, błędy OAuth będą rejestrowane w dzienniku Flarum. Może to pomóc w debugowaniu błędów OAuth, ale może również zawierać poufne informacje.'
         log-oauth-errors-label: 'Loguj błędy OAuth'
+      disable_avatars_help: "Po włączeniu tej opcji awatar użytkownika nie będzie podczas rejestracji aktualizowany na awatar z konta u dostawcy. Dotyczy to tylko przyszłych rejestracji i nie zmieni awatarów istniejących użytkowników.\n"
+      disable_avatars_label: 'Wyłącz pobieranie awatarów od dostawcy'
       only_icons_label: 'Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)'
       providers:
         callback_url_text: 'Jeśli to konieczne, ustaw adres zwrotny (callback URL) na {url}.'
