@@ -7,7 +7,8 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (1 changed, 80% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (1 changed, 93% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 83% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (1 added, 17% complete)
 
 
