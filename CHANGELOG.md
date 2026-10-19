@@ -25,7 +25,7 @@ CHANGELOG
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (6 added, 3 changed, 100% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (22 added, 1 changed, 100% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (1 added, 17% complete)
-* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 99% complete)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users) (12 added, 100% complete)
 * [`ianm/html-head`](https://github.com/imorland/html-head) (1 added, 2 changed, 14% complete)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (2 added, 100% complete)
