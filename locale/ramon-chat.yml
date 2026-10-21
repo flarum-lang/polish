@@ -129,6 +129,8 @@ ramon-chat:
       webhooks_enabled_help: 'Gdy opcja jest wyłączona, każdy adres URL webhooka jest odrzucany niezależnie od tego, czy sam webhook jest aktywny. Ustawienie jest zapisywane razem z resztą strony.'
     webhooks:
       active: Aktywny
+      author: 'Publikuj jako'
+      author_bot: Bot
       create: 'Utwórz webhook'
       delete: Usuń
       delete_confirm: 'Usunąć ten webhook? Wszystko korzystające z jego adresu URL przestanie działać.'
@@ -210,6 +212,7 @@ ramon-chat:
     uploads_disabled: 'Przesyłanie plików na czacie jest wyłączone.'
     webhook_channel_unavailable: 'Kanał tego webhooka jest zamknięty lub niedostępny.'
     webhook_empty: 'Dane webhooka nie zawierały żadnego tekstu.'
+    webhook_user_not_admin: 'Wybierz bota lub konto administratora.'
   email:
     mentioned:
       direct_channel: 'wiadomości prywatnej'
@@ -494,6 +497,8 @@ ramon-chat:
       reply_jump: 'Przejdź do oryginalnej wiadomości'
       reply_not_loaded: 'Ta wiadomość nie została jeszcze wczytana – przewiń w górę, aby do niej dotrzeć.'
       replying_to: 'Odpowiedź do {username}'
+      reports: '{count, plural, one {# zgłoszenie} few {# zgłoszenia} other {# zgłoszeń}}'
+      reports_open: '{count, plural, one {Zgłoszone przez # osobę. Otwórz listę zgłoszeń.} few {Zgłoszone przez # osoby. Otwórz listę zgłoszeń.} other {Zgłoszone przez # osób. Otwórz listę zgłoszeń.}}'
       restore: Przywróć
       select: Wybierz
       starting_thread: 'Rozpoczynanie wątku od wiadomości użytkownika {username}'
