@@ -28,7 +28,7 @@ CHANGELOG
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (19 added, 100% complete)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (1 changed, 15% complete)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) (2 added, 100% complete)
-* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (6 added, 3 changed, 100% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (6 added, 3 changed, 96% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (22 added, 1 changed, 100% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (1 added, 17% complete)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (3 added, 2 changed, 100% complete)
