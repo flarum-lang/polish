@@ -628,6 +628,7 @@ core:
       sign_up_text: 'Nie masz jeszcze konta? <a>Zarejestruj się</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      too_many_attempts_message: '=> core.ref.too_many_login_attempts_message'
       username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
       delete_all_confirm: 'Czy na pewno chcesz usunąć wszystkie powiadomienia? Tej operacji nie można cofnąć'
@@ -985,6 +986,7 @@ core:
     start_a_discussion: 'Rozpocznij dyskusję'
     title_az: 'Tytuł (A–Z)'
     title_za: 'Tytuł (Z–A)'
+    too_many_login_attempts_message: 'Zbyt wiele nieudanych prób logowania. Odczekaj kilka minut i spróbuj ponownie.'
     top: 'Najbardziej aktywne'
     username: 'Nazwa użytkownika'
     username_or_email_placeholder: 'Nazwa użytkownika lub e-mail'
@@ -1041,6 +1043,7 @@ core:
       remember_me_label: '=> core.ref.remember_me_label'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      too_many_attempts_message: '=> core.ref.too_many_login_attempts_message'
       username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     log_out:
       log_out_button: '=> core.ref.log_out'
