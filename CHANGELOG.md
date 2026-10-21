@@ -35,7 +35,7 @@ CHANGELOG
 * [`ianm/follow-users`](https://github.com/imorland/follow-users) (12 added, 100% complete)
 * [`ianm/html-head`](https://github.com/imorland/html-head) (1 added, 2 changed, 14% complete)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (12 added, 5 changed, 100% complete)
-* [`ramon/chat`](https://github.com/ram0ng1/chat) (4 changed, 99% complete)
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (5 added, 4 changed, 100% complete)
 
 
 All changes: [2.0.10...2.0.11](https://github.com/flarum-lang/polish/compare/2.0.10...2.0.11).
