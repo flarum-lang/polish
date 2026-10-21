@@ -162,11 +162,12 @@ fof-upload:
       title: 'Przesyłanie plików'
     permissions:
       access_shared_label: 'Dostęp do współdzielonych plików w menedżerze multimediów'
-      delete_uploads_of_others_label: 'Usuwanie plików użytkowników'
+      delete_own_uploads_label: 'Usuwanie własnych plików'
+      delete_uploads_of_others_label: 'Ukrywanie i usuwanie plików innych użytkowników'
       download_label: 'Pobieranie plików'
       upload_label: 'Przesyłanie plików (podstawowe uprawnienie wymagane do wszystkich przesyłanych plików)'
       upload_mime_label: 'Przesyłanie: {label}'
-      upload_shared_label: 'Prześlij współdzielone pliki'
+      upload_shared_label: 'Przesyłanie, ukrywanie i usuwanie współdzielonych plików'
       view_user_uploads_label: 'Przeglądanie plików użytkowników'
     shared-uploads:
       description: 'Prześlij pliki, które mogą być używane przez wszystkich użytkowników forum.'
