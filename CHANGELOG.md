@@ -5,6 +5,11 @@ CHANGELOG
 2.0.11 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (3 added).
+
+
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
@@ -17,6 +22,7 @@ CHANGELOG
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed, 100% complete)
 * [`flarum/audit`](https://github.com/flarum/audit) (8 added, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 added, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (36 added, 3 changed, 100% complete)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (5 added, 9 changed, 100% complete)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (2 added, 100% complete)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (19 added, 100% complete)
@@ -28,7 +34,7 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 99% complete)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users) (12 added, 100% complete)
 * [`ianm/html-head`](https://github.com/imorland/html-head) (1 added, 2 changed, 14% complete)
-* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (2 added, 88% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (12 added, 5 changed, 100% complete)
 * [`ramon/chat`](https://github.com/ram0ng1/chat) (4 changed, 99% complete)
 
 
