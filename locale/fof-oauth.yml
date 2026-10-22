@@ -38,10 +38,14 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Utwórz aplikację na {link}.'
+          hosted_domain_label: 'Domena organizacji (G Suite/Google Apps for Business, opcjonalnie)'
+        group_help: 'Wybierz grupę, do której automatycznie będą przypisywani użytkownicy rejestrujący się przez tego dostawcę.'
+        group_label: 'Przypisz grupę'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Utwórz aplikację na {link}.'
+        no_group_label: 'Nie przypisuj grupy'
         twitter:
           api_key_label: 'API Key'
           api_secret_label: 'API Secret'
@@ -49,11 +53,15 @@ fof-oauth:
       update_email_from_provider_help: 'Jeśli to ustawienie jest włączone, a dostawca OAuth zwróci przy logowaniu zweryfikowany adres e-mail inny niż adres użytkownika na forum, na nowy adres zostanie wysłany link potwierdzający, a na obecny – powiadomienie. Adres e-mail zostanie zmieniony po kliknięciu w link. Dostawcy, którzy nie potwierdzają, że adres jest zweryfikowany (w tym zewnętrzni dostawcy, którzy nie zostali jeszcze zaktualizowani, aby to obsługiwać), nie zmienią adresu e-mail.'
       update_email_from_provider_label: 'Zaktualizuj adres e-mail od dostawcy'
     settings_accessibility_label: 'Ustawienia {name}'
+  email:
+    provider_email_change_notice:
+      subject: 'Prośba o zmianę adresu e-mail'
   forum:
     error:
       bad_verification_code: 'Nieprawidłowy lub wygasły token weryfikacyjny. Spróbuj ponownie.'
       invalid_state: 'Nieprawidłowy status. Spróbuj ponownie.'
     log_in:
+      unverified_email_in_use: '{provider} nie potwierdził tego adresu e-mail, więc nie możemy użyć go do zalogowania. Jeśli masz już konto, zaloguj się poniżej, a następnie powiąż je z usługą {provider} w ustawieniach konta.'
       with_button: 'Zaloguj się za pomocą {provider}'
       with_discord_button: '=> fof-oauth.forum.log_in.with_button'
       with_facebook_button: '=> fof-oauth.forum.log_in.with_button'
@@ -77,6 +85,7 @@ fof-oauth:
       settings:
         linked-account:
           help: 'Te powiązane konta pozwalają Ci zalogować się na forum za pomocą zewnętrznych usług.'
+          identification-label: 'ID {provider}'
           identifier-label: 'ID {provider}'
           label: 'Powiązane konta'
           last-used-label: 'Ostatnio używane'
