@@ -51,7 +51,7 @@ ianm-twofactor:
     body:
       status_changed: "Witaj {recipient_display_name},\n\nUwierzytelnianie dwuskładnikowe zostało {type} dla Twojego konta na {forum_url}.\n\nJeśli zainicjowałeś tę akcję, dalsze kroki nie są konieczne. Jeśli nie autoryzowałeś tej zmiany, skontaktuj się natychmiast z administratorami forum.\n"
     status_type:
-      device_changed: 'zmieniono urządzenie'
+      device_changed: 'przeniesione na nowe urządzenie'
       disabled: wyłączone
       enabled: włączone
     subject:
