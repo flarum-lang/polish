@@ -7,9 +7,12 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (1 changed, 89% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (5 changed, 100% complete)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (1 changed, 93% complete)
-* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 83% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (10 added, 1 changed, 91% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (1 added, 17% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (5 changed, 100% complete)
 
 
 All changes: [1.10.16...1.10.17](https://github.com/flarum-lang/polish/compare/1.10.16...1.10.17).
