@@ -11,7 +11,7 @@ fof-rich-text:
     settings:
       composer_heading: Edytor
       rich_text_compact_paragraphs_label: 'Nie oddzielaj akapitów pustą linią'
-      use_rich_text_editor_label: 'Używać edytora wizualnego?'
+      use_rich_text_editor_label: 'Używaj edytora wizualnego'
   lib:
     composer:
       additional_items_tooltip: 'Dodatkowe elementy'
