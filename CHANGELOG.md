@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.18 (XXXX-XX-XX)
+--------------------
+
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (2 changed, 100% complete)
+
+
+All changes: [1.10.17...1.10.18](https://github.com/flarum-lang/polish/compare/1.10.17...1.10.18).
+
+
 1.10.17 (2026-10-22)
 --------------------
 
