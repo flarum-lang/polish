@@ -5,6 +5,11 @@ CHANGELOG
 2.0.12 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
+
+
 **Updated translations for extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (11 added, 5 changed, 100% complete)
