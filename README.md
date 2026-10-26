@@ -216,6 +216,7 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lan
 | [`ramon/chat`](https://github.com/ram0ng1/chat) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/ramon-chat/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/ramon-chat/pl/) |
 | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/sycho-move-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-move-posts/pl/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-profile-cover/pl/) |
+| [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/tpokorra-post-notification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/tpokorra-post-notification/pl/) |
 
 <!-- various-extensions-list-stop -->
 
