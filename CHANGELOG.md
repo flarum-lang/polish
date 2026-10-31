@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (11 added, 5 changed, 100% complete)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (1 changed, 100% complete)
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (10 added, 100% complete)
 
 
 All changes: [2.0.11...2.0.12](https://github.com/flarum-lang/polish/compare/2.0.11...2.0.12).
