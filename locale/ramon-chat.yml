@@ -87,6 +87,10 @@ ramon-chat:
       channel_ownership_members: 'Członkowie tworzą własne kanały i nimi zarządzają'
       channel_retention_days: 'Retencja wiadomości kanałów (dni)'
       channel_retention_help: 'Liczba dni przechowywania wiadomości na kanałach kategorii. 0 oznacza przechowywanie bezterminowe.'
+      direct_messages_provider: 'Przycisk „Wyślij wiadomość” otwiera'
+      direct_messages_provider_chat: 'Rozmowę prywatną na czacie'
+      direct_messages_provider_help: 'Gdy rozszerzenie flarum/messages jest włączone, zarówno ono, jak i czat dodają przycisk „Wyślij wiadomość” do profili i menu użytkowników. Wybierz, co ma otwierać ten przycisk. Druga funkcja pozostanie dostępna na swojej stronie.'
+      direct_messages_provider_messages: 'Wiadomości prywatne (flarum/messages)'
       dm_retention_days: 'Retencja wiadomości prywatnych (dni)'
       dm_retention_help: 'Liczba dni przechowywania wiadomości prywatnych i grupowych. 0 oznacza przechowywanie bezterminowe.'
       fof_upload_adapter: 'Adapter FoF Upload'
@@ -405,7 +409,7 @@ ramon-chat:
     info:
       archive_channel: 'Zarchiwizuj kanał'
       auto_join: 'Automatycznie dodawaj wszystkich użytkowników'
-      auto_join_help: 'Każdy obecny i przyszły użytkownik zostanie dodany do tego kanału.'
+      auto_join_help: 'Wszyscy użytkownicy mający dostęp do czatu, również ci, którzy dołączą do forum w przyszłości, automatycznie należą do tego kanału. Każdy może go jednak opuścić.'
       auto_join_on_reply: 'Dodawaj użytkowników odpowiadających w tej kategorii'
       auto_join_on_reply_help_bound: 'Użytkownik dołączy przy pierwszej odpowiedzi w dyskusji w kategorii {category} i nie zostanie dodany ponownie, jeśli później opuści kanał.'
       auto_join_on_reply_help_none: 'Działa dopiero po powiązaniu kanału z kategorią.'
@@ -578,6 +582,12 @@ ramon-chat:
       subtitle: 'Nadaj mu nazwę i zdecyduj, dla kogo jest przeznaczony. Resztę możesz zmienić później.'
       threading_help: 'Odpowiedzi mogą tworzyć osobne wątki zamiast przerywać główną rozmowę na kanale.'
       visibility: 'Kto może zobaczyć ten kanał'
+    new_direct:
+      intro: 'Wybierz jedną osobę, aby porozmawiać z nią prywatnie, lub kilka osób, aby rozpocząć rozmowę grupową. Jeśli rozmowa z tymi samymi osobami już istnieje, zostanie ponownie otwarta.'
+      submit: 'Rozpocznij rozmowę'
+      submit_group: 'Rozpocznij rozmowę grupową'
+      title: 'Nowa wiadomość prywatna'
+      too_many: 'W rozmowie może uczestniczyć maksymalnie {max} innych osób.'
     notifications:
       channel_invite: '{username} zaprosił Cię do {channel}'
       channel_invite_declined: '{username} odrzucił Twoje zaproszenie do {channel}'
@@ -673,7 +683,9 @@ ramon-chat:
       flags: Zgłoszone
       my_threads: 'Moje wątki'
       new_channel: 'Nowy kanał'
+      new_direct: 'Rozpocznij rozmowę'
       no_channels: 'Nie należysz jeszcze do żadnego kanału.'
+      no_direct: 'Nie masz jeszcze żadnych wiadomości prywatnych.'
       search: Szukaj
     stream:
       date_format: LL
