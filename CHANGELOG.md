@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.13 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (11 added, 1 changed, 100% complete)
+
+
+All changes: [2.0.12...2.0.13](https://github.com/flarum-lang/polish/compare/2.0.12...2.0.13).
+
+
 2.0.12 (2026-11-03)
 -------------------
 
