@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.10.19 (XXXX-XX-XX)
+--------------------
+
+**Added support for new extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/sticky`](https://github.com/flarum/sticky) (2 added, 100% complete)
+
+
+All changes: [1.10.18...1.10.19](https://github.com/flarum-lang/polish/compare/1.10.18...1.10.19).
+
+
 1.10.18 (2026-11-03)
 --------------------
 
