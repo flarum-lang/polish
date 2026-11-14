@@ -7,7 +7,8 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (9 changed).
+* Updated Flarum core translations (17 changed).
+* Updated validation translations (2 changed).
 
 
 **Added support for new extensions**:
@@ -25,25 +26,32 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (11 changed, 100% complete)
+* [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto) (2 changed, 100% complete)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) (4 changed, 89% complete)
+* [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml) (1 changed, 65% complete)
 * [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest) (1 changed, 100% complete)
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish) (2 changed, 96% complete)
+* [`clarkwinkelmann/flarum-ext-discussion-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-discussion-bookmarks) (1 changed, 100% complete)
 * [`flarum/sticky`](https://github.com/flarum/sticky) (2 added, 100% complete)
 * [`flarum/tags`](https://github.com/flarum/tags) (1 changed, 100% complete)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) (2 added, 100% complete)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) (1 changed, 100% complete)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (301 added, 100% complete)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 changed, 100% complete)
-* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (1 changed, 100% complete)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (6 changed, 100% complete)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (1 changed, 100% complete)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (4 added, 100% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (2 added, 100% complete)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (64 added, 100% complete)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (3 changed, 100% complete)
-* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) (6 added, 100% complete)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) (6 added, 4 changed, 100% complete)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget) (2 added, 100% complete)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (3 changed, 100% complete)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (4 added, 100% complete)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) (2 changed, 100% complete)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) (6 added, 100% complete)
-* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) (45 added, 100% complete)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) (45 added, 2 changed, 100% complete)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links) (7 added, 1 changed, 100% complete)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (2 changed, 100% complete)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (3 added, 1 changed, 100% complete)
@@ -53,22 +61,26 @@ CHANGELOG
 * [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (3 added, 100% complete)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) (9 added, 100% complete)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages) (2 changed, 100% complete)
-* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (1 changed, 100% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (3 changed, 100% complete)
 * [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail) (1 changed, 100% complete)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) (4 added, 100% complete)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (10 added, 100% complete)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) (9 added, 100% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (37 added, 100% complete)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) (3 added, 100% complete)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) (1 changed, 100% complete)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed, 100% complete)
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget) (1 added, 100% complete)
-* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (1 changed, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (9 changed, 100% complete)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) (1 changed, 100% complete)
-* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (1 added, 100% complete)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (4 changed, 100% complete)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (1 added, 1 changed, 100% complete)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges) (3 changed, 98% complete)
-* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 changed, 100% complete)
+* [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload) (3 changed, 100% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (3 changed, 100% complete)
 * [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam) (1 changed, 100% complete)
 * [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat) (1 changed, 100% complete)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) (1 changed, 100% complete)
 * [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support) (2 changed, 86% complete)
 
 
