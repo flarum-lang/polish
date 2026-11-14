@@ -7,6 +7,9 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (1 changed, 10% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (5 changed, 97% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (1 changed, 91% complete)
 * [`ramon/chat`](https://github.com/ram0ng1/chat) (11 added, 1 changed, 100% complete)
 
 
