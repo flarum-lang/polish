@@ -5,12 +5,29 @@ CHANGELOG
 2.0.13 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+* Updated validation translations (107 added).
+
+
+**Added support for new extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (100% complete)
+
+
 **Updated translations for extensions**:
 
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (1 changed, 10% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (1 changed, 100% complete)
+* [`flarum/likes`](https://github.com/flarum/likes) (2 added, 100% complete)
+* [`flarum/messages`](https://github.com/flarum/messages) (18 added, 2 changed, 100% complete)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (2 added, 1 changed, 100% complete)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (6 added, 100% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (8 added, 100% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (5 changed, 97% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (1 changed, 91% complete)
-* [`ramon/chat`](https://github.com/ram0ng1/chat) (11 added, 1 changed, 100% complete)
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (11 added, 6 changed, 100% complete)
 
 
 All changes: [2.0.12...2.0.13](https://github.com/flarum-lang/polish/compare/2.0.12...2.0.13).
