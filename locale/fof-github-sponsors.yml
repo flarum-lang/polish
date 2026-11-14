@@ -2,13 +2,55 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-github-sponsors/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof_github_sponsors:
+        groups_changed: 'Synchronizacja GitHub Sponsors zmieniła grupy użytkownika {username} z {old_groups} na {new_groups}'
+        membership_adopted: 'Synchronizacja GitHub Sponsors przejęła zarządzanie członkostwem użytkownika {username} w grupach {new_groups}'
+        onetime_started: 'Jednorazowe sponsorowanie na GitHubie przez użytkownika {username}. Grupy: {old_groups} → {new_groups}'
+        recurring_started: 'Rozpoczęcie miesięcznego sponsorowania na GitHubie przez użytkownika {username}. Grupy: {old_groups} → {new_groups}'
+        recurring_stopped: 'Zakończenie miesięcznego sponsorowania na GitHubie przez użytkownika {username}. Grupy: {old_groups} → {new_groups}'
+        sponsorship_ended: 'Użytkownik {username} nie jest już sponsorem na GitHubie. Grupy: {old_groups} → {new_groups}'
+flarum-gdpr:
+  lib:
+    data:
+      githubsponsor:
+        anonymize_description: '=> flarum-gdpr.lib.data.githubsponsor.delete_description'
+        delete_description: 'Usuwa rekord sponsora GitHub użytkownika, dzięki czemu synchronizacja o nim zapomina bez ogłaszania zakończenia sponsorowania.'
+        export_description: 'Eksportuje status sponsora GitHub użytkownika, datę jego ostatniej zmiany oraz grupy, którymi zarządza dla niego synchronizacja.'
 fof-github-sponsors:
   admin:
     account_types:
       organization: Organizacja
       user: Użytkownik
     settings:
+      account_type_help: 'Wybierz, czy śledzisz sponsorów osobistego konta użytkownika GitHub, czy konta organizacji.'
       account_type_label: 'Rodzaj konta'
+      api_token_help: 'Utwórz osobisty token dostępu na stronie <a>https://github.com/settings/tokens/new</a> z zakresami <code>read:user</code>, <code>user:email</code> i <code>read:org</code>. Ten token służy do pobierania z GitHuba informacji o Twoich sponsorach.'
       api_token_label: 'API Token'
+      group_help: 'Wybierz grupę użytkowników Flarum, do której mają być dodawani aktywni sponsorzy miesięczni. Użytkownicy są dodawani, gdy zaczną sponsorować co miesiąc, i przenoszeni do grupy sponsorów jednorazowych (jeśli została skonfigurowana), gdy ich miesięczne sponsorowanie się zakończy.'
       group_label: 'Grupa sponsorów miesięcznych'
+      login_help: 'Wpisz swoją nazwę użytkownika GitHub (dla kont użytkowników) lub nazwę organizacji (dla organizacji). Sponsorzy tego konta będą synchronizowani.'
       login_label: Login
+      onetime_group_help: 'Wybierz grupę użytkowników Flarum, do której mają być dodawani sponsorzy jednorazowi i byli sponsorzy miesięczni. Jeśli nie zostanie ustawiona, nie będą oni obsługiwani.'
+      onetime_group_label: 'Grupa sponsorów jednorazowych i byłych (opcjonalnie)'
+      onetime_group_none: Brak
+    status:
+      heading: 'Stan synchronizacji'
+      last_failure: 'Ostatnia synchronizacja ({time}) nie powiodła się: {reason}'
+      last_success: 'Ostatnia synchronizacja: {time}. Sponsorzy: {sponsors}, zmiany: {changes}.'
+      never_run: 'Synchronizacja nie została jeszcze uruchomiona. Jest wykonywana co godzinę przez harmonogram zadań Flarum, więc sprawdź, czy harmonogram jest skonfigurowany.'
+      reasons:
+        configuration: 'Ustawienia tokenu, typu konta, loginu lub grupy są niekompletne.'
+        forbidden: 'Token nie ma wymaganego zakresu. Potrzebne są zakresy „read:user”, „user:email” i „read:org”.'
+        network: 'Nie udało się połączyć z GitHubem.'
+        no_sponsors: 'GitHub nie zwrócił żadnych sponsorów, więc niczego nie zmieniono. Jeśli to prawidłowe, uruchom synchronizację z opcją --force.'
+        not_found: 'Nie znaleziono użytkownika ani organizacji GitHub. Sprawdź typ konta i login.'
+        other: 'GitHub zwrócił nieoczekiwaną odpowiedź.'
+        rate_limited: 'Osiągnięto limit zapytań GitHuba. Następna synchronizacja spróbuje ponownie.'
+        unauthorized: 'GitHub odrzucił token. Mógł wygasnąć lub zostać unieważniony.'
+      request_failed: 'Nie udało się przeprowadzić testu połączenia.'
+      stale: 'Ostatnia synchronizacja odbyła się ponad dwie godziny temu. Sprawdź, czy harmonogram zadań Flarum działa.'
+      test_button: 'Testuj połączenie'
+      test_success: 'Połączono z kontem {maintainer} jako {account}. Znalezione publiczne sponsorowania: {sponsorships}.'

@@ -3,6 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-forum-stats-widget:
+  admin:
+    settings:
+      decimal_places:
+        help: 'Liczba miejsc po przecinku wyświetlanych dla dużych liczb (0–2).'
+        label: 'Miejsca po przecinku'
   forum:
     widget:
       stats:

@@ -3,6 +3,103 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-doorman:
+  admin:
+    list:
+      actions:
+        delete: 'Usuń kod zaproszenia'
+        edit: 'Edytuj kod zaproszenia'
+        notify: 'Wyślij ten kod zaproszenia e-mailem'
+      columns:
+        activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        created_by: 'Utworzony przez'
+        group: '=> fof-doorman.admin.ref.fields.group.label'
+        id: ID
+        key: '=> fof-doorman.admin.ref.fields.key.label'
+        manage: Zarządzaj
+        max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        uses: Użycia
+      content:
+        delete: 'Czy na pewno chcesz usunąć kod zaproszenia „{key}”?'
+        invalid_column: '=> core.admin.users.grid.invalid_column_content'
+        no_created_by: 'Nieznany użytkownik'
+        no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+        uses:
+          total_uses: '{totalUses, plural, one {Użyto # raz} other {Użyto # razy}}'
+          used_times: '{remaining, plural, =0 {Bez limitu użyć} one {Pozostało {remainingUses} użycie} few {Pozostały {remainingUses} użycia} many {Pozostało {remainingUses} użyć} other {Pozostało {remainingUses} użycia}}'
+        warning: 'Ten kod zaproszenia osiągnął maksymalną liczbę użyć.'
+      heading: 'Kody zaproszeń'
+      pagination:
+        back_button: '=> core.lib.pagination.back_button'
+        first_page_button: '=> core.lib.pagination.first_button'
+        go_to_page_textbox_a11y_label: '=> core.lib.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.lib.pagination.last_button'
+        next_button: '=> core.lib.pagination.next_button'
+        page_counter: '=> core.lib.pagination.page_counter'
+    modals:
+      create_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_and_create_another_button: 'Utwórz i dodaj kolejny'
+        submit_button: 'Utwórz kod zaproszenia'
+        title: 'Utwórz nowy kod zaproszenia'
+      edit_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_button: 'Zapisz zmiany'
+        title: 'Edytuj kod zaproszenia'
+      send_invites:
+        group: 'Wysyłanie zaproszeń do grupy: {group}'
+        help: 'Adresy można oddzielać przecinkami, spacjami lub przecinkami ze spacją. Wpisz pojedynczy adres e-mail lub wklej listę, a następnie naciśnij spację, aby je dodać.'
+        invalid_emails: 'Następujące adresy e-mail są nieprawidłowe: {emails}'
+        max_use_conflict: 'Liczba adresów e-mail przekracza maksymalną liczbę użyć tego kodu.'
+        placeholder: 'Wpisz tutaj adresy e-mail'
+        send: 'Wyślij e-maile'
+        success: 'E-maile zostały wysłane'
+        title: 'Wyślij kody zaproszeń'
+    ref:
+      fields:
+        activates_user:
+          help: 'Automatycznie aktywuje konto użytkownika podczas rejestracji.'
+          label: 'Aktywuje konto'
+        group:
+          help: 'Grupa, do której zostanie dodany użytkownik rejestrujący się za pomocą tego kodu zaproszenia.'
+          label: Grupa
+        key:
+          help: 'Kod, który użytkownik wpisze podczas rejestracji.'
+          label: Kod
+        max_uses:
+          help: 'Maksymalna liczba użyć kodu. Ustaw 0, aby nie ograniczać liczby użyć.'
+          label: 'Maksymalna liczba użyć'
+    settings:
+      create_doorkey_button: 'Utwórz kod zaproszenia'
+      heading: Ustawienia
+      optional_usage: 'Kod zaproszenia jest opcjonalny podczas rejestracji'
+      optional_usage_help: 'Po włączeniu tej opcji odwiedzający mogą zarejestrować się bez podawania kodu zaproszenia.'
+      search: 'Szukaj kodów zaproszeń'
+      total_doorkeys: 'Liczba kodów zaproszeń: {count}'
+  email:
+    body: "Otrzymujesz zaproszenie do rejestracji na forum {forum}.\n\nGdy zechcesz utworzyć konto, kliknij poniższy link i podczas rejestracji wpisz kod:\n\nAdres URL: {url}\nKod zaproszenia: {code}\n\nJeśli ta wiadomość trafiła do Ciebie przez pomyłkę, zignoruj ją.\n"
+    subject: 'Zaproszenie do dołączenia'
   forum:
     sign_up:
       doorkey_required: 'Wpisz kod zaproszenia.'

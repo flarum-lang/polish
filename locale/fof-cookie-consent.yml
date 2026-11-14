@@ -5,10 +5,73 @@
 fof-cookie-consent:
   admin:
     settings:
+      allowedCookies: 'Nigdy nie usuwaj tych plików cookie'
+      allowedCookies_help: "Jedna nazwa w każdym wierszu. Aby użyć wzorca, otocz go ukośnikami, np. /^app_/. Pliki cookie ustawiane przez samo Flarum są zawsze zachowywane.\n"
+      appearance_title: Wygląd
       backgroundColor: Tło
       buttonBackgroundColor: Tło
       buttonTextColor: Tekst
+      catchall_title: 'Niezadeklarowane pliki cookie'
+      colors_help: "Baner dopasowuje się do motywu forum, w tym do trybu ciemnego. Ustaw kolor tylko wtedy, gdy chcesz to nadpisać – pozostaw puste, aby użyć kolorów motywu.\n"
+      configuration_button_title: 'Link „Dowiedz się więcej”'
       configuration_title: 'Opcje konfiguracji'
+      equalWeightButtons: 'Nadaj obu przyciskom równą wagę'
+      equalWeightButtons_help: 'Zalecane. Identyczny wygląd przycisków akceptacji i odrzucenia sprawia, że odwiedzający nie są nakłaniani do akceptacji.'
+      layout: Układ
+      layout_help: 'Określa kształt banera zgody na pliki cookie.'
+      layouts:
+        bar: Pasek
+        bar_inline: 'Pasek (w linii)'
+        box: Okno
+        box_inline: 'Okno (w linii)'
+        box_wide: 'Okno (szerokie)'
+        cloud: Chmurka
+        cloud_inline: 'Chmurka (w linii)'
       learnMoreLinkUrl: Link
+      learnMoreLinkUrl_help: 'Pozostaw puste, aby ukryć link.'
+      position: Położenie
+      positions:
+        bottom_center: 'Na dole pośrodku'
+        bottom_left: 'Na dole po lewej'
+        bottom_right: 'Na dole po prawej'
+        middle_center: 'Na środku'
+        middle_left: 'Pośrodku po lewej'
+        middle_right: 'Pośrodku po prawej'
+        top_center: 'Na górze pośrodku'
+        top_left: 'Na górze po lewej'
+        top_right: 'Na górze po prawej'
+      sweepUndeclared: 'Usuwaj pliki cookie, których nie zadeklarowało żadne rozszerzenie'
+      sweepUndeclared_help: "Gdy odwiedzający odmówi zgody, usuwaj również pliki cookie, których żadne rozszerzenie nie zadeklarowało za pomocą extendera zgody na pliki cookie. Pozwala to wyłapać mechanizmy śledzące z rozszerzeń, które z niego nie korzystają, ale usunie też pliki cookie naprawdę potrzebne niektórym rozszerzeniom, co może zakłócić ich działanie. Aby je zachować, użyj poniższej listy dozwolonych.\n"
       textColor: Tekst
+      text_help: "Teksty wyświetlane odwiedzającym znajdują się w plikach językowych tego rozszerzenia, więc można je przetłumaczyć. Możesz je zmienić za pomocą FoF Linguist lub pakietu językowego.\n"
+      theme_dismiss_title: 'Kolory przycisków'
       theme_popup_title: 'Kolory popupa'
+  forum:
+    banner:
+      accept: Akceptuj
+      decline: Odrzuć
+      description: 'Ta strona używa plików cookie. Możesz zarządzać swoimi preferencjami lub zaakceptować wszystkie pliki cookie.'
+      learn_more: 'Dowiedz się więcej'
+      preferences: 'Zarządzaj preferencjami'
+    categories:
+      analytics:
+        description: 'Pomagają nam zrozumieć, jak korzystasz z forum, abyśmy mogli je ulepszać. Nie są potrzebne do działania forum.'
+        title: Analityczne
+      marketing:
+        description: 'Służą do mierzenia skuteczności reklam i wyświetlania Ci reklam na innych stronach.'
+        title: Marketingowe
+      necessary:
+        description: 'Wymagane do działania strony – logowanie, utrzymywanie zalogowania i zapamiętywanie wyboru dotyczącego plików cookie. Nie można ich wyłączyć.'
+        title: Niezbędne
+    cookies:
+      cc_cookie: 'Zapamiętuje Twój wybór dotyczący plików cookie, aby nie pytać ponownie.'
+      flarum_remember: 'Automatycznie loguje Cię ponownie przy następnej wizycie.'
+      flarum_session: 'Utrzymuje Twoje zalogowanie podczas przeglądania strony.'
+      locale: 'Zapamiętuje wybrany przez Ciebie język.'
+    preferences:
+      cookie_table:
+        description: Cel
+        name: 'Plik cookie'
+      description: 'Pliki cookie to małe pliki, które ta strona zapisuje w Twojej przeglądarce. Poniżej znajdziesz informacje, co jest zapisywane i w jakim celu. Swój wybór możesz zmienić w dowolnym momencie.'
+      save: 'Zapisz preferencje'
+      title: 'Preferencje plików cookie'

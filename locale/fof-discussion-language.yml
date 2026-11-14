@@ -2,17 +2,31 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-discussion-language/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      subscriptionlanguages:
+        anonymize_description: 'Usuwa język dyskusji wybrany przez użytkownika dla każdego obserwowanego tagu.'
+        export_description: 'Eksportowane razem z każdą subskrypcją tagu, tak jak eksportuje je fof/follow-tags.'
 fof-discussion-language:
   admin:
     permissions:
       allow_change_language_label: 'Edytowanie języka dyskusji'
+      change_language_label: 'Zmienianie języka dyskusji'
     settings:
+      attribution: 'To rozszerzenie wykorzystuje materiały z artykułu Wikipedii <article>List of ISO 639-2 codes</article>, udostępnionego na licencji <license>Creative Commons Uznanie autorstwa – Na tych samych warunkach 3.0</license>.'
       composer_default_label: 'Wstępnie wybierz aktualny język w formularzu tworzenia dyskusji'
       config:
+        add_button: 'Dodaj język'
+        choose_country: 'Wybierz kraj…'
+        choose_language: 'Wybierz język…'
         country_label: 'Kraj (do wyświetlania flagi)'
         language_label: Język
+        remove_button: 'Usuń: {language}'
       errors:
         missing_assets: 'Nie udało się wczytać zasobów wymaganych przez to rozszerzenie. Spróbuj uruchomić <code>php flarum assets:publish</code> i sprawdzić, czy rozwiązało to ten problem.'
+      languages_heading: Języki
+      languages_help: 'Języki, w których mogą być prowadzone dyskusje. Wybrany kraj określa flagę wyświetlaną przy każdym z nich.'
       locale_sort_label: 'Użyj wykrytego języka jako domyślnego filtru dyskusji'
       native_label: 'Używaj lokalnych nazw języków'
       show_any_lang_opt_label: 'Pozwól na wybranie opcji „Dowolny język”'
@@ -32,3 +46,13 @@ fof-discussion-language:
       change_language_button: 'Ustaw język'
     index_language:
       any: 'Dowolny język'
+    language_dropdown:
+      toggle_label: 'Wybierz język dyskusji'
+    sub_controls:
+      subscription_language_help: 'Jeśli wybierzesz tutaj język, będziesz otrzymywać powiadomienia tylko o nowej aktywności w tym języku.'
+      subscription_language_label: 'Język dyskusji'
+  lib:
+    gambits:
+      language:
+        hint: 'kod języka lub kody kilku języków oddzielone przecinkami'
+        key: język

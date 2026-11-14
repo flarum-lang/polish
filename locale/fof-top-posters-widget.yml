@@ -3,6 +3,14 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-top-posters-widget:
+  admin:
+    settings:
+      info: 'Użytkownicy z wybranych grup zostaną wykluczeni z wyników widżetu.'
   forum:
     widget:
+      load_error: 'Nie udało się wczytać listy najaktywniejszych użytkowników.'
       title: 'Najbardziej aktywni w tym miesiącu'
+  lib:
+    gambits:
+      top_poster:
+        key: najaktywniejszy

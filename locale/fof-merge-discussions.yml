@@ -20,7 +20,9 @@ fof-merge-discussions:
       deleting_failed: 'Nie udało się usunąć pustej dyskusji.'
       fixing_posts_number_failed: 'Nie udało się naprawić numerowania postów.'
       fixing_posts_number_meta_failed: 'Nie udało się naprawić numerowania postów.'
+      into_itself: 'Nie można scalić dyskusji z nią samą.'
       merging_failed: 'Nie udało się scalić dyskusji.'
+      redirecting_failed: 'Nie udało się przekierować scalonych dyskusji.'
       updating_failed: 'Nie udało się odświeżyć informacji o dyskusji.'
   email:
     merged:
@@ -36,6 +38,7 @@ fof-merge-discussions:
       ordering_heading: 'Kolejność scalania'
       ordering_suffix_help: 'Posty włączone do docelowej dyskusji zostaną dodane na końcu dyskusji'
       ordering_suffix_label: 'Dodaj włączone posty na końcu dyskusji'
+      preview_truncated: 'Wyświetlane posty: {from}–{to} z {total}.'
       search_discussions_placeholder: 'Szukaj dyskusji...'
       submit_button: '=> fof-merge-discussions.ref.merge'
       title: 'Scal dyskusje'

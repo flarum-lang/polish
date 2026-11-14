@@ -8,3 +8,4 @@ fof-news-widget:
       add_line: 'Dodaj ogłoszenie'
       html_warning: 'Bądź ostrożny, treść ogłoszenia będzie potraktowana jako HTML i błędnie zagnieżdżone tagi mogą zaburzyć layout forum.'
       lines: Ogłoszenie
+      remove_line: 'Usuń wiersz'

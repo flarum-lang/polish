@@ -4,9 +4,14 @@
 
 fof-online-users-widget:
   admin:
+    permissions:
+      view_online_users_widget: 'Wyświetlanie widżetu użytkowników online'
     settings:
+      cache_ttl: 'Czas przechowywania listy użytkowników w pamięci podręcznej (w sekundach)'
+      last_seen_interval: 'Czas od ostatniej aktywności, w którym użytkownik jest uznawany za online (w minutach)'
       max_users: 'Maksymalna liczba użytkowników do pokazania'
   forum:
     widget:
       empty: 'Żaden użytkownik nie jest online.'
+      more: '{count, plural, one {Jeszcze # użytkownik online} few {Jeszcze # użytkowników online} many {Jeszcze # użytkowników online} other {Jeszcze # użytkownika online}}'
       title: 'Kto jest online?'

@@ -23,8 +23,10 @@ fof-masquerade:
   admin:
     buttons:
       add-field: 'Utwórz pole'
+      add-option: 'Dodaj opcję'
       delete-field: 'Przenieś do kosza'
       delete-field-permanently: 'Usuń trwale pole „{field}”'
+      delete-option: 'Usuń opcję'
       edit-field: 'Zapisz zmiany'
       restore-field: 'Przywróć pole „{field}”'
     fields:

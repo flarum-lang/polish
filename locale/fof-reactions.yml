@@ -2,9 +2,25 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-reactions/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof-reactions:
+        post_reaction_removed: 'Usunięto reakcję {reaction} użytkownika {username} (post: {post}, autor: {postuser}, dyskusja: {discussion})'
+        post_reactions_removed: 'Usunięto {count, plural, one {# reakcję {reaction}} few {# reakcje {reaction}} many {# reakcji {reaction}} other {# reakcji {reaction}}} (post: {post}, autor: {postuser}, dyskusja: {discussion})'
+        reaction_created: 'Utworzono reakcję {reaction}'
+        reaction_deleted: 'Usunięto reakcję {reaction}'
+        reaction_disabled: 'Wyłączono reakcję {reaction}'
+        reaction_enabled: 'Włączono reakcję {reaction}'
+        reaction_updated: 'Zmieniono {key} reakcji {reaction} z {old_value} na {new_value}'
 fof-reactions:
   admin:
     page:
+      cdn:
+        default-url: 'Domyślnie: {url}'
+        help: "Domyślnie zasoby reakcji są serwowane z CDN Cloudflare. W razie potrzeby możesz też podać adres dowolnego innego CDN. <code>[codepoint]</code> zostanie zastąpione kodem znaku emoji.\n\nNa przykład, aby przełączyć się na Noto Emoji przez jsdelivr, wpisz <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>.\n\nTwój CDN musi obsługiwać Emoji/Unicode w wersji {emojibase} lub nowszej. Użyj [twemoji], aby wstawić wersję Twemoji.\n"
+        label: URL
+        title: CDN
       convert:
         button: 'Przekonwertuj stare reakcje'
         converted: 'Pomyślnie przekonwertowano wszystkie {number} polubień'
@@ -12,12 +28,25 @@ fof-reactions:
         help: 'Jeśli jedynie zaktualizowałeś rozszerzenie, Twoje reakcje muszą być przekonwertowane. Jeśli właśnie zainstalowałeś rozszerzenie, możesz bezpiecznie zignorować tę wiadomość.'
       reactions:
         Helptext: 'Podaj nazwę (identyfikator) emoji lub ikony Font Awesome i wybierz typ, z którego chcesz korzystać.'
+        add_reaction_button: 'Dodaj reakcję'
+        add_reaction_label: 'Dodaj nową reakcję'
+        delete_confirmation: 'Czy na pewno chcesz usunąć tę reakcję? Tej operacji nie można cofnąć.'
+        delete_reaction_button: 'Usuń reakcję'
+        header:
+          action: Akcja
+          display: 'Wyświetlany tekst'
+          enabled: Włączona
+          identifier: 'Identyfikator ikony/emoji'
+          preview: Podgląd
+          type: Typ
         help:
           display: 'Wyświetlana nazwa'
           identifier: Identyfikator
         reactions: 'Obecne reakcje'
         title: Reakcje
       settings:
+        allow-anonymous: 'Zezwalaj na anonimowe reakcje (gości)'
+        allow-anonymous-help: 'Po włączeniu tej opcji goście i anonimowi użytkownicy będą mogli reagować na posty. Anonimowe reakcje nie są powiązane z profilem użytkownika i są sumowane na liście reakcji.'
         integrations:
           gamification:
             downvoteHelptext: 'Podaj identyfikator reakcji, którą chciałbyś automatycznie przekonwertować na głos negatywny'
@@ -35,16 +64,28 @@ fof-reactions:
         react_own_posts_label: 'Użytkownicy mogą reagować na swoje własne posty'
         save_settings: 'Zapisz ustawienia'
     permissions:
+      delete_post_reactions_label: 'Usuwanie reakcji pod postami'
       react_posts_label: 'Reagowanie na posty'
       see_reactions_label: 'Przeglądanie kto zareagował na dany post'
   forum:
     disabled-reaction: 'Nie możesz użyć tej reakcji w tym momencie, spróbuj odświeżyć stronę'
     mod_item: 'Zobacz reakcje'
     modal:
+      anonymous_count: '{count, plural, one {# anonimowy użytkownik} few {# anonimowi użytkownicy} many {# anonimowych użytkowników} other {# anonimowego użytkownika}}'
+      confirm_remove_all_reaction_type: 'Czy na pewno chcesz usunąć wszystkie reakcje {reaction} z tego posta? Tej operacji nie można cofnąć.'
+      confirm_remove_user_reaction: 'Czy na pewno chcesz usunąć reakcję {reaction} użytkownika {username} z tego posta? Tej operacji nie można cofnąć.'
+      load_more: 'Wczytaj więcej'
+      no_reactions: 'Brak reakcji'
+      others_count: '+ {count, plural, one {# inna osoba} few {# inne osoby} many {# innych osób} other {# innej osoby}}'
+      remove_all_reaction_type: 'Usuń wszystkie reakcje {reaction}'
+      remove_user_reaction: 'Usuń reakcję'
       title: Reakcje
     notification: '{username} zareagował {reaction} na Twój post'
     react_button_label: Zareaguj
+    reacted_with_label: '{count, plural, one {{reaction} (# reakcja)} few {{reaction} (# reakcje)} many {{reaction} (# reakcji)} other {{reaction} (# reakcji)}}'
     reacting-own-post: 'Nie możesz zareagować na swój własny post'
+    reaction_button_label: 'Zareaguj: {reaction}'
     settings:
       notify_post_reacted_label: 'Ktoś zareagował na mój post'
+    unreact_button_label: 'Usuń reakcję'
     warning: 'Twoja reakcja została przekonwertowana'

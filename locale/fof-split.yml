@@ -2,10 +2,20 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-split/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        split_away: 'Wydzielono posty ({post_count}) z dyskusji {discussion} do dyskusji {new_discussion}'
+        split_into: 'Wydzielono posty ({post_count}) do nowej dyskusji {discussion}'
 fof-split:
   admin:
     permissions:
       split_discussion_label: 'Wydzielanie postów z dyskusji'
+  api:
+    errors:
+      end_before_start: 'Wydzielany fragment musi kończyć się na poście, od którego się zaczyna, lub na późniejszym.'
+      first_post: 'Nie można wydzielić pierwszego posta dyskusji.'
   forum:
     modal:
       new_discussion_label: 'Podaj tytuł nowej dyskusji'

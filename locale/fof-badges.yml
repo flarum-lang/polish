@@ -4,24 +4,352 @@
 
 fof-badges:
   admin:
+    actions: 'Akcje po zdobyciu odznaki'
+    active: Aktywna
+    add_to_group: 'Dodaj użytkownika do grupy'
+    add_to_group_help: 'Automatycznie dodaje użytkownika do tej grupy, gdy zdobędzie odznakę.'
+    appearance: Wygląd
+    assign: Przyznaj
+    assign_badge: 'Przyznaj: {badge}'
+    assign_reason: 'Powód (opcjonalnie)'
+    assign_reason_help: 'Ten powód będzie widoczny przy odznace użytkownika.'
+    assign_reason_placeholder: 'Dlaczego ta odznaka jest przyznawana?'
+    automatic: Automatyczna
+    background_color: 'Kolor tła'
+    badge_assigned: 'Odznaka „{badge}” została przyznana użytkownikowi {username}!'
+    badge_category: Kategoria
+    badge_count: '{count, plural, one {# odznaka} few {# odznaki} many {# odznak} other {# odznaki}}'
+    badge_description: Opis
+    badge_description_placeholder: 'Opisz, jak zdobyć tę odznakę…'
+    badge_name: Nazwa
+    badge_name_placeholder: 'np. „Mistrz 100 postów”'
+    badge_revoked: 'Odznaka „{badge}” została odebrana użytkownikowi {username}.'
+    badge_slug: Slug
+    badge_slug_help: 'Identyfikator używany w adresach URL. Jeśli pozostanie pusty, zostanie wygenerowany automatycznie na podstawie nazwy.'
+    badge_slug_placeholder: 'np. „mistrz-100-postow”'
+    cancel: Anuluj
+    category_description: Opis
+    category_description_placeholder: 'Opisz tę kategorię odznak…'
     category_enabled: Włączona
+    category_enabled_help: 'Wyłączone kategorie i ich odznaki nie będą wyświetlane na liście odznak.'
+    category_name: Nazwa
+    category_name_placeholder: 'np. „Odznaki za osiągnięcia”'
+    category_slug: Slug
+    category_slug_help: 'Identyfikator kategorii używany w adresach URL.'
+    category_slug_placeholder: 'np. „osiagniecia”'
+    clear_selection: 'Wyczyść wybór'
+    create_badge: 'Utwórz odznakę'
     create_category: 'Utwórz kategorię'
+    delete: Usuń
+    delete_badge_confirm: 'Czy na pewno chcesz usunąć odznakę „{name}”? Zostanie ona również odebrana wszystkim użytkownikom, którzy ją zdobyli.'
+    delete_category_confirm: 'Czy na pewno chcesz usunąć kategorię „{name}”?'
+    delete_category_confirm_with_badges: 'Czy na pewno chcesz usunąć kategorię „{name}”? {count, plural, one {# odznaka zostanie} few {# odznaki zostaną} many {# odznak zostanie} other {# odznaki zostanie}} bez kategorii.'
+    disabled: Wyłączona
+    earned_count: 'Zdobyto: {count}'
+    edit: Edytuj
+    edit_badge: 'Edytuj odznakę'
+    edit_category: 'Edytuj kategorię'
     enabled: Włączona
+    granted_by_system: System
     headers:
       badges: Odznaki
+      description: Opis
+      earned: Zdobyta
+      icon: Ikona
+      name: Nazwa
+      order: Kolejność
+      rarity: Rzadkość
+      status: Status
+      type: Typ
+    icon_color: 'Kolor ikony'
+    icon_picker:
+      collapse: 'Ukryj wybór ikon'
+      expand: 'Pokaż wybór ikon'
+      hint: 'Kliknij ikonę, aby ją wybrać, lub wpisz powyżej nazwę klasy Font Awesome.'
+    inactive: Nieaktywna
+    install_defaults: 'Zainstaluj domyślne odznaki'
+    install_defaults_error: 'Nie udało się zainstalować domyślnych odznak.'
+    install_defaults_success: 'Domyślne odznaki zostały zainstalowane!'
+    is_active: Aktywna
+    is_active_help: 'Nieaktywne odznaki nie będą automatycznie przyznawane użytkownikom.'
+    is_visible: 'Widoczna na liście odznak'
+    is_visible_help: 'Ukryte odznaki nie będą wyświetlane na publicznej liście odznak, ale użytkownicy nadal mogą je zdobywać.'
+    manual: Ręczna
+    metrics:
+      best_answers_received: 'Otrzymane najlepsze odpowiedzi'
+      discussion_count: 'Rozpoczęte dyskusje'
+      downvotes_given: 'Wystawione oceny negatywne'
+      downvotes_received: 'Otrzymane oceny negatywne'
+      edit_count: 'Edytowane posty'
+      files_uploaded: 'Przesłane pliki'
+      has_avatar: 'Ma awatar'
+      has_bio: 'Ma opis profilu'
+      has_nickname: 'Ma pseudonim'
+      likes_given: 'Dane polubienia'
+      likes_received: 'Otrzymane polubienia'
+      member_days: 'Dni członkostwa'
+      polls_created: 'Utworzone ankiety'
+      polls_voted: 'Głosy w ankietach'
+      post_count: 'Liczba postów'
+      private_discussions_created: 'Utworzone dyskusje prywatne'
+      reactions_given: 'Dodane reakcje'
+      reactions_received: 'Otrzymane reakcje'
+      tag_posts: 'Posty w tagu'
+      upvotes_given: 'Wystawione oceny pozytywne'
+      upvotes_received: 'Otrzymane oceny pozytywne'
+    move_down: 'Przesuń w dół'
+    move_up: 'Przesuń w górę'
+    next: Następna
+    no_badges: 'Nie ma jeszcze żadnych odznak. Utwórz swoją pierwszą odznakę!'
+    no_categories: 'Nie ma jeszcze żadnych kategorii. Utwórz swoją pierwszą kategorię!'
+    no_category: 'Bez kategorii'
+    no_group: 'Nie dodawaj do grupy'
+    no_holders: 'Nikt jeszcze nie zdobył tej odznaki.'
+    no_holders_found: 'Nie znaleziono posiadaczy pasujących do wyszukiwania.'
+    no_users_found: 'Nie znaleziono użytkowników'
     permissions:
+      give_manually: 'Ręczne przyznawanie odznak'
       moderate: 'Zarządzaj odznakami'
+      view_list: 'Przeglądanie listy odznak'
+      view_user_badges: 'Przeglądanie odznak użytkowników'
+    preview: Podgląd
+    previous: Poprzednia
+    rarity: 'Rzadkość: {percent}%'
+    recalculate: Przelicz
+    recalculate_confirm: 'Spowoduje to ponowne przeliczenie wszystkich automatycznych odznak dla wszystkich użytkowników. Proces zostanie wykonany w tle. Kontynuować?'
+    recalculate_error: 'Nie udało się przeliczyć odznak. Spróbuj ponownie.'
+    recalculate_success: 'Przeliczanie zakończone! Przyznano: {awarded}, odebrano: {revoked}, przetworzeni użytkownicy: {users}'
+    recalculate_tab:
+      all_badges: 'Wszystkie automatyczne odznaki'
+      badge_help: 'Wybierz konkretną odznakę lub przelicz wszystkie automatyczne odznaki.'
+      badge_label: 'Odznaka do przeliczenia'
+      badges_to_check: 'Odznaki do sprawdzenia'
+      chunk_size_help: 'Liczba użytkowników przetwarzanych w jednym zadaniu. Mniejsze partie są bardziej niezawodne, ale całość trwa dłużej.'
+      chunk_size_label: 'Rozmiar partii'
+      default: domyślnie
+      estimated_chunks: 'Szacowana liczba partii'
+      info: 'Przeliczanie przetwarza użytkowników w partiach, aby uniknąć przekroczenia limitów czasu kolejki. Każda partia jest wykonywana jako osobne zadanie w tle.'
+      jobs_empty: 'Nie ma jeszcze żadnych zadań przeliczania.'
+      jobs_title: 'Historia zadań'
+      no_automatic_badges: 'Nie skonfigurowano żadnych automatycznych odznak. Najpierw utwórz odznakę z warunkami przyznawania.'
+      no_revoke_help: 'Po włączeniu tej opcji użytkownicy, którzy nie spełniają już kryteriów, zachowają swoje odznaki.'
+      no_revoke_label: 'Nie odbieraj posiadanych odznak'
+      reapply_actions_help: 'Po włączeniu tej opcji akcje odznak (np. dodanie do grupy) zostaną ponownie wykonane dla użytkowników, którzy już mają odznakę. Przydatne, jeśli do istniejącej odznaki dodano nowe akcje.'
+      reapply_actions_label: 'Ponownie wykonaj akcje dla obecnych posiadaczy odznak'
+      show_more: 'Pokaż więcej ({count})'
+      start: 'Rozpocznij przeliczanie'
+      sync_counts: 'Synchronizuj liczniki odznak'
+      sync_counts_error: 'Nie udało się zsynchronizować liczników odznak.'
+      sync_counts_info: 'Przelicza liczbę zdobyć wszystkich odznak na podstawie rzeczywistych rekordów w tabeli user_badges. Użyj tej opcji, jeśli po przeliczeniu liczniki są nieprawidłowe.'
+      sync_counts_success: 'Liczniki odznak zostały zsynchronizowane! Poprawione odznaki: {corrected} z {total}.'
+      sync_counts_title: 'Synchronizacja liczników odznak'
+      title: 'Rozpocznij przeliczanie'
+      total_users: 'Liczba użytkowników'
+    recalculation:
+      already_running: 'Przeliczanie odznak jest już w toku.'
+      auto_refresh_off: 'Automatyczne odświeżanie'
+      auto_refresh_on: 'Automatyczne odświeżanie jest włączone'
+      cancel: Anuluj
+      cancel_confirm: 'Czy na pewno chcesz anulować przeliczanie? Postęp zostanie utracony.'
+      cancel_error: 'Nie udało się anulować przeliczania.'
+      cancelled: 'Przeliczanie zostało anulowane'
+      chunks: 'Partie: {processed} / {total}'
+      completed: 'Przeliczanie zakończone!'
+      dismiss: Zamknij
+      failed: 'Przeliczanie nie powiodło się'
+      pending: 'Przygotowywanie przeliczania…'
+      progress: 'Sprawdzenia: {processed} / {total} ({percentage}%)'
+      running: 'Przeliczanie odznak…'
+      started: 'Rozpoczęto przeliczanie odznak. Zostanie ono wykonane w tle.'
+      stats: 'Przyznane: {awarded} | Odebrane: {revoked}'
+    recalculation_jobs:
+      button: Zadania
+      cancel: Anuluj
+      cancel_error: 'Nie udało się anulować zadania.'
+      cancelled: 'Zadanie zostało anulowane.'
+      empty: 'Nie znaleziono żadnych zadań przeliczania.'
+      force_cancel: 'Wymuś anulowanie'
+      mark_failed: 'Oznacz jako nieudane'
+      mark_failed_error: 'Nie udało się oznaczyć zadania jako nieudanego.'
+      marked_failed: 'Zadanie zostało oznaczone jako nieudane.'
+      results: 'Przyznane: {awarded} | Odebrane: {revoked}'
+      status:
+        cancelled: Anulowane
+        completed: Zakończone
+        failed: Nieudane
+        pending: Oczekuje
+        running: 'W toku'
+      stuck: Zawieszone
+      title: 'Zadania przeliczania'
+      users: 'Sprawdzenia: {processed} / {total}'
+    revoke: Odbierz
+    revoke_confirm: 'Czy na pewno chcesz odebrać odznakę „{badge}” użytkownikowi {username}?'
+    revoke_error: 'Nie udało się odebrać odznaki.'
+    save: Zapisz
+    search_holders_placeholder: 'Szukaj posiadaczy…'
+    search_user_placeholder: 'Szukaj według nazwy użytkownika lub nazwy wyświetlanej…'
+    select_user: 'Wybierz użytkownika'
+    send_notification: 'Wyślij powiadomienie do użytkownika'
     settings:
+      display_title: 'Ustawienia wyświetlania'
+      integrations_help: 'Kryteria odznak, które zależą od innych rozszerzeń. Zainstaluj rozszerzenie, aby odblokować odpowiadające mu kryteria.'
+      integrations_title: 'Integracje z rozszerzeniami'
+      new_badge_highlight: 'Pokazuj oznaczenie „NOWA” przy niedawno zdobytych odznakach'
+      new_badge_highlight_help: 'Wyświetla oznaczenie „NOWA” przy odznakach zdobytych w ciągu ostatnich 7 dni.'
+      post_badge_display_limit: 'Limit odznak wyświetlanych pod postami'
+      post_badge_display_limit_help: 'Maksymalna liczba odznak wyświetlanych pod postami. Ustaw 0, aby wyłączyć.'
+      primary_badge_display: 'Wyświetlanie głównej odznaki'
+      primary_badge_display_help: 'Sposób wyświetlania głównej odznaki użytkownika obok jego nazwy.'
+      primary_badge_hidden: Ukryta
+      primary_badge_icon: 'Tylko ikona'
+      primary_badge_icon_name: 'Ikona i nazwa'
       save: 'Zapisz ustawienia'
+      save_error: 'Nie udało się zapisać ustawień.'
+      saved: 'Ustawienia zostały zapisane.'
       show_badges_on_user_card: 'Pokaż odznaki w profilu użytkownika'
+      show_badges_on_user_card_help: 'Wyświetla ulubioną lub najrzadszą odznakę użytkownika na jego karcie i stronie profilu.'
+    showing_holders: 'Wyświetlanie {from}–{to} z {total}'
+    status: Status
+    tab_assign: Przyznaj
+    tab_holders: 'Posiadacze ({count})'
     tabs:
       badges: Odznaki
       categories: Kategorie
+      recalculation: Przeliczanie
       settings: Ustawienia
+    trigger_builder:
+      add_condition: 'Dodaj warunek'
+      and: 'Muszą być spełnione WSZYSTKIE (AND)'
+      and_help: 'Aby zdobyć tę odznakę, użytkownik musi jednocześnie spełniać wszystkie warunki.'
+      date_end: 'Data końcowa'
+      date_range_help: 'Uwzględniaj tylko aktywność w tym zakresie dat. Przydatne w przypadku odznak za wydarzenia.'
+      date_start: 'Data początkowa'
+      loading_tags: 'Wczytywanie tagów…'
+      logic: 'Przy wielu warunkach'
+      no_conditions_info: 'Nie ustawiono żadnych warunków. Ta odznaka może zostać przyznana tylko ręcznie przez moderatorów.'
+      or: 'Musi być spełniony DOWOLNY (OR)'
+      or_help: 'Aby zdobyć tę odznakę, użytkownik musi spełniać co najmniej jeden warunek.'
+      remove_condition: 'Usuń warunek'
+      select_tag: 'Wybierz tag…'
+      tag_filter: 'Filtr tagu'
+      tag_filter_help: 'Wymagany, jeśli używasz kryterium „Posty w tagu”.'
+      use_date_range: 'Ogranicz do zakresu dat'
+    trigger_config: 'Automatyczne przyznawanie'
+    trigger_config_help: 'Skonfiguruj warunki automatycznego przyznawania odznaki. Pozostaw puste dla odznak przyznawanych tylko ręcznie.'
     uncategorized: 'Bez kategorii'
+    validation:
+      tag_required: 'Musisz wybrać tag, jeśli używasz kryterium „Posty w tagu”.'
+  defaults:
+    badges:
+      active-member:
+        description: 'Napisz 50 odpowiedzi'
+        name: 'Aktywny członek'
+      anniversary:
+        description: 'Bądź członkiem społeczności przez rok'
+        name: Rocznica
+      conversation-starter:
+        description: 'Rozpocznij swoją pierwszą dyskusję'
+        name: 'Inicjator rozmowy'
+      editor:
+        description: 'Popraw 10 postów, edytując je'
+        name: Redaktor
+      first-post:
+        description: 'Napisz swoją pierwszą odpowiedź'
+        name: 'Pierwszy post'
+      first-week:
+        description: 'Bądź członkiem społeczności przez 7 dni'
+        name: 'Pierwszy tydzień'
+      profile-picture:
+        description: 'Prześlij zdjęcie profilowe'
+        name: 'Zdjęcie profilowe'
+      prolific:
+        description: 'Napisz 200 odpowiedzi'
+        name: 'Płodny autor'
+      regular:
+        description: 'Bądź członkiem społeczności przez 30 dni'
+        name: 'Stały bywalec'
+      topic-starter:
+        description: 'Rozpocznij 10 dyskusji'
+        name: 'Inicjator tematów'
+    categories:
+      getting-started:
+        description: 'Odznaki dla nowych członków, którzy stawiają pierwsze kroki'
+        name: 'Pierwsze kroki'
+      milestones:
+        description: 'Odznaki za osiągnięcie ważnych kamieni milowych'
+        name: 'Kamienie milowe'
+      posting:
+        description: 'Odznaki za aktywność i wkład w dyskusje'
+        name: Publikowanie
   forum:
+    all_badges: 'Wszystkie odznaki'
+    badges_subtitle: 'Zdobywaj odznaki, uczestnicząc w życiu społeczności!'
     badges_title: Odznaki
+    earned_by: '{count, plural, one {# użytkownik} few {# użytkownicy} many {# użytkowników} other {# użytkownika}}'
+    earned_users: 'Zdobyli ją'
+    loading: Wczytywanie…
+    more_users_earned: 'I inni użytkownicy…'
+    my_badges: 'Moje odznaki'
     nav:
       badges: Odznaki
+    new_tag: NOWA
+    no_badges: 'Nie ma jeszcze dostępnych odznak.'
+    no_users_earned: 'Nikt jeszcze nie zdobył tej odznaki. Bądź pierwszy!'
+    notification:
+      a_badge: odznakę
+      badge_earned: 'Zdobyto {badge}'
+    other_badges: 'Inne odznaki'
+    owned_badge: 'Masz tę odznakę'
+    toggle_category_dropdown: 'Pokaż/ukryj listę kategorii'
     user:
+      assign_badge: 'Przyznaj odznakę'
+      assign_badge_title: 'Przyznaj odznakę użytkownikowi {username}'
+      assign_button: 'Przyznaj odznakę'
+      assign_reason: 'Powód (opcjonalnie)'
+      assign_reason_help: 'Ten powód będzie widoczny przy odznace użytkownika.'
+      assign_reason_placeholder: 'Dlaczego ta odznaka jest przyznawana?'
+      badge_actions: 'Akcje odznaki'
+      badge_assigned: 'Odznaka „{badge}” została przyznana użytkownikowi {username}!'
+      badge_revoked: 'Odznaka „{badge}” została odebrana.'
+      badges_count: '{count, plural, one {# odznaka} few {# odznaki} many {# odznak} other {# odznaki}}'
       badges_tab: Odznaki
+      badges_title: 'Odznaki użytkownika {username}'
+      cancel: Anuluj
+      earned_on: 'Zdobyto {date}'
+      favorite_badge: 'Ulubiona odznaka'
+      hidden_badge: 'Ukryta w profilu'
+      hide_badge: 'Ukryj w profilu'
+      load_more: 'Wczytaj więcej'
+      manually_awarded: 'Przyznana ręcznie'
+      no_badges: 'Ten użytkownik nie zdobył jeszcze żadnych odznak.'
+      no_badges_available: 'Brak dostępnych odznak.'
+      recalculate: 'Przelicz odznaki'
+      recalculate_error: 'Nie udało się przeliczyć odznak. Spróbuj ponownie.'
+      recalculate_modal:
+        all_badges: 'Wszystkie automatyczne odznaki'
+        badge_label: 'Odznaka do przeliczenia'
+        manual: ręczna
+        no_revoke_help: 'Po włączeniu tej opcji użytkownik zachowa odznaki, nawet jeśli nie spełnia już kryteriów.'
+        no_revoke_label: 'Nie odbieraj posiadanych odznak'
+        reapply_actions_help: 'Ponownie wykonuje akcje odznaki (np. dodanie do grupy), jeśli użytkownik już ma tę odznakę.'
+        reapply_actions_label: 'Ponownie wykonaj akcje dla posiadanych odznak'
+        submit: Przelicz
+        title: 'Przelicz odznaki'
+      recalculate_reapplied: 'Ponownie wykonano akcje dla odznak: {reapplied}'
+      recalculate_success: 'Odznaki zostały przeliczone! Przyznano: {awarded}, odebrano: {revoked}, ponownie wykonano akcje: {reapplied}'
+      remove_favorite: 'Usuń z ulubionych'
+      revoke_badge: 'Odbierz odznakę'
+      revoke_confirm: 'Czy na pewno chcesz odebrać temu użytkownikowi odznakę „{badge}”?'
+      revoke_error: 'Nie udało się odebrać odznaki.'
+      select_badge: 'Wybierz odznakę…'
+      select_badge_label: 'Wybierz odznakę'
+      set_favorite: 'Ustaw jako ulubioną'
+      show_badge: 'Pokaż w profilu'
+      view_all_badges: 'Zobacz wszystkie odznaki'
+  lib:
+    rarity_common: Pospolita
+    rarity_epic: Epicka
+    rarity_explain: '{percent}% użytkowników ma tę odznakę'
+    rarity_legendary: Legendarna
+    rarity_rare: Rzadka
+    rarity_uncommon: 'Niezbyt częsta'

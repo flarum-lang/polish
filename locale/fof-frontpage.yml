@@ -4,5 +4,18 @@
 
 core:
   forum:
+    badge:
+      frontpage_tooltip: 'Na stronie głównej'
     index_sort:
       front_button: 'Strona główna'
+    post_controls:
+      pull_from_front_button: 'Zdejmij ze strony głównej'
+      push_to_front_button: 'Dodaj na stronę główną'
+fof-frontpage:
+  admin:
+    permissions:
+      can_push_to_frontpage_label: 'Dodawanie na stronę główną'
+  lib:
+    gambits:
+      frontpage:
+        key: strona-główna

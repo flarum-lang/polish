@@ -16,6 +16,7 @@ fof-gamification:
         button: 'Konwertuj polubienia na głosy pozytywne'
         converted: 'Pomyślnie przekonwertowano wszystkie {number} polubień'
         converting: 'Twoje polubienia są właśnie konwertowane. Odśwież stronę po kilku minutach, aby zobaczyć czy proces się zakończył (konwersja może potrwać chwilę w zależności od liczby polubień na Twoim forum).'
+        help: 'Przekonwertuj istniejące polubienia z flarum/likes na głosy pozytywne oraz przelicz popularność dla wszystkich istniejących dyskusji.'
       groups:
         add: 'Dodaj nową regułę'
         column:
@@ -55,6 +56,8 @@ fof-gamification:
         first_post_only: 'Pozwól głosować jedynie na pierwszy post w dyskusji'
         icon_help: 'Wprowadź dowolną ikonę Font Awesome, która ma końcówkę -up lub -down. Przykłady: arrow, thumbs, chevron'
         icon_name: 'Ikonki głosowania'
+        icon_preview_downvote: 'Ocena negatywna'
+        icon_preview_upvote: 'Ocena pozytywna'
         points_placeholder: 'Punkty: '
         points_title: 'Placeholder dla punktów'
         rate_limit: 'Wymuś ograniczenie szybkości głosowania (10 sekund)'
@@ -104,3 +107,7 @@ fof-gamification:
       label_none: 'Brak głosujących'
       none: 'Jeszcze nikt nie zagłosował'
     votes: Głosy
+lib:
+  gambits:
+    hot:
+      key: gorące
