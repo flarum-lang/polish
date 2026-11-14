@@ -6,6 +6,9 @@ flarum-audit:
   lib:
     browser:
       masquerade:
+        field_created: 'Utworzono pole profilu'
+        field_deleted: 'Usunięto pole profilu'
+        field_updated: 'Zaktualizowano pole profilu'
         profile_updated: 'Zaktualizowano pola profilu użytkownika {username}'
 flarum-gdpr:
   lib:

@@ -5,6 +5,11 @@
 fof-reactions:
   admin:
     page:
+      cdn:
+        default-url: 'Domyślnie: {url}'
+        help: "Domyślnie zasoby reakcji są serwowane z CDN Cloudflare. W razie potrzeby możesz też podać adres dowolnego innego CDN. <code>[codepoint]</code> zostanie zastąpione kodem znaku emoji.\n\nNa przykład, aby przełączyć się na Noto Emoji przez jsdelivr, wpisz <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. To pole NIGDY nie może pozostać puste.\n"
+        label: URL
+        title: CDN
       convert:
         button: 'Przekonwertuj stare reakcje'
         converted: 'Pomyślnie przekonwertowano wszystkie {number} polubień'
@@ -12,12 +17,15 @@ fof-reactions:
         help: 'Jeśli jedynie zaktualizowałeś rozszerzenie, Twoje reakcje muszą być przekonwertowane. Jeśli właśnie zainstalowałeś rozszerzenie, możesz bezpiecznie zignorować tę wiadomość.'
       reactions:
         Helptext: 'Podaj nazwę (identyfikator) emoji lub ikony Font Awesome i wybierz typ, z którego chcesz korzystać.'
+        delete_confirmation: 'Czy na pewno chcesz usunąć tę reakcję? Tej operacji nie można cofnąć.'
         help:
           display: 'Wyświetlana nazwa'
           identifier: Identyfikator
         reactions: 'Obecne reakcje'
         title: 'Niestandardowe reakcje'
       settings:
+        allow-anonymous: 'Zezwalaj na anonimowe reakcje (gości)'
+        allow-anonymous-help: 'Po włączeniu tej opcji goście i anonimowi użytkownicy będą mogli reagować na posty. Anonimowe reakcje nie są powiązane z profilem użytkownika i są sumowane na liście reakcji.'
         integrations:
           gamification:
             downvoteHelptext: 'Podaj identyfikator reakcji, którą chciałbyś automatycznie przekonwertować na głos negatywny'
@@ -35,12 +43,15 @@ fof-reactions:
         react_own_posts_label: 'Użytkownicy mogą reagować na swoje własne posty'
         save_settings: 'Zapisz ustawienia'
     permissions:
+      delete_post_reactions_label: 'Usuwanie reakcji pod postami'
       react_posts_label: 'Reagowanie na posty'
       see_reactions_label: 'Przeglądanie kto zareagował na dany post'
   forum:
     disabled-reaction: 'Nie możesz użyć tej reakcji w tym momencie, spróbuj odświeżyć stronę'
     mod_item: 'Zobacz reakcje'
     modal:
+      anonymous_count: '{count, plural, one {# anonimowy użytkownik} few {# anonimowi użytkownicy} many {# anonimowych użytkowników} other {# anonimowego użytkownika}}'
+      no_reactions: 'Brak reakcji'
       title: Reakcje
     notification: '{username} zareagował {reaction} na Twój post'
     react_button_label: Zareaguj

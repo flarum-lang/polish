@@ -14,7 +14,13 @@ fof-oauth:
         log-oauth-errors-label: 'Loguj błędy OAuth'
       disable_avatars_help: "Po włączeniu tej opcji awatar użytkownika nie będzie podczas rejestracji aktualizowany na awatar z konta u dostawcy. Dotyczy to tylko przyszłych rejestracji i nie zmieni awatarów istniejących użytkowników.\n"
       disable_avatars_label: 'Wyłącz pobieranie awatarów od dostawcy'
+      fullscreen_popup_help: 'Po włączeniu tej opcji logowanie OAuth będzie otwierane w pełnoekranowym oknie. Ustawienia szerokości i wysokości będą wtedy ignorowane.'
+      fullscreen_popup_label: 'Używaj pełnoekranowego okna OAuth'
       only_icons_label: 'Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)'
+      popup_height_help: 'Ustaw wysokość okna OAuth. To ustawienie jest ignorowane, jeśli włączono opcję „Używaj pełnoekranowego okna OAuth”.'
+      popup_height_label: 'Wysokość okna OAuth'
+      popup_width_help: 'Ustaw szerokość okna OAuth. To ustawienie jest ignorowane, jeśli włączono opcję „Używaj pełnoekranowego okna OAuth”.'
+      popup_width_label: 'Szerokość okna OAuth'
       providers:
         callback_url_text: 'Jeśli to konieczne, ustaw adres zwrotny (callback URL) na {url}.'
         discord:
@@ -55,6 +61,7 @@ fof-oauth:
     settings_accessibility_label: 'Ustawienia {name}'
   email:
     provider_email_change_notice:
+      body: "Witaj {username},\n\nPo zalogowaniu się na {forum} przez {provider} wysłano prośbę o zmianę adresu e-mail Twojego konta na {new_email}. Zmiana zacznie obowiązywać po potwierdzeniu nowego adresu.\n\nJeśli to nie Ty, Twoje konto {provider} mogło zostać przejęte. Zabezpiecz je i skontaktuj się z administratorami {forum}.\n"
       subject: 'Prośba o zmianę adresu e-mail'
   forum:
     error:

@@ -16,8 +16,42 @@ fof-linguist:
     clear-cache:
       button: 'Wyczyść cache teraz'
       text: "Nowe tłumaczenia jeszcze nie zostały zastosowane. Uwaga: wyczyszczenie cache może chwilowo spowolnić Twoje forum.\n"
+    coverage:
+      all-namespaces: Wszystkie
+      apply-missing-filter: 'Pokaż pasujące brakujące tłumaczenia'
+      column-options:
+        locale: 'Według języka'
+        namespace: 'Według frontendu'
+      columns:
+        all-except-admin: 'Forum i inne frontendy'
+        all-frontends: 'Pokaż wszystkie frontendy'
+        namespace: 'Przestrzeń nazw'
+        total: Łącznie
+      count:
+        details: 'Łącznie: {total} / oryginalne: {original} / własne: {custom}'
+        percent: '{percent}%'
+        total: '{translated} / {total}'
+      total-options:
+        count: Liczba
+        percent: Procent
+    export:
+      download: Pobierz
+      include-all: 'Uwzględnij tłumaczenia zdefiniowane dla „Wszystkich” języków'
+      include-originals: 'Uwzględnij oryginalne tłumaczenia'
+      locale: Język
+      locale-all: 'Pseudojęzyk „Wszystkie”'
+      namespace: 'Przestrzeń nazw'
+      namespace-all: Wszystkie
+      output: Wynik
+      output-empty: 'Pusty wynik'
+      output-loading: 'Wczytywanie wyniku…'
+      title: Eksport
+      warning: "Format eksportu korzysta z plików tłumaczeń Flarum w formacie YAML i służy do udostępniania tłumaczeń między forami oraz opiekunom pakietów językowych. Nie jest przeznaczony do przenoszenia wszystkich tłumaczeń na nowe forum. W zależności od potrzeb lepszym rozwiązaniem może być bezpośrednie skopiowanie bazy danych.\n"
     filters:
       for-extension: Rozszerzenia
+      frontend: Frontend
+      frontend-all-except-admin: 'Wszystkie oprócz panelu administracyjnego'
+      mass-edit: 'Edycja masowa'
       missing: 'Znajdź brakujące tłumaczenia'
       missing-middle-label: 'tłumaczenia dla'
       negation-options:
@@ -33,8 +67,29 @@ fof-linguist:
         original: oryginalne
         own: własne
       with-own-translations: 'Moje tłumaczenia'
+    import:
+      input: 'Dane wejściowe'
+      input-placeholder: 'Przeciągnij i upuść lub wklej tutaj plik YAML'
+      locale: Język
+      locale-all: 'Pseudojęzyk „Wszystkie”'
+      override-existing: 'Nadpisz moje istniejące własne tłumaczenia'
+      results: "Import został zakończony. Zaimportowane teksty: {imported}, pominięte identyczne teksty: {identical}. Strona zostanie teraz odświeżona, aby wyświetlić nowe tłumaczenia.\n"
+      results-with-ignore: "Import został zakończony. Zaimportowane teksty: {imported}, zignorowane istniejące teksty: {ignored}, pominięte identyczne teksty: {identical}. Strona zostanie teraz odświeżona, aby wyświetlić nowe tłumaczenia.\n"
+      submit: Importuj
+      title: Import
+    known-frontend:
+      admin: 'Panel administracyjny'
+      api: API
+      forum: Forum
+      lib: 'Lib (używane na forum i w panelu administracyjnym)'
+      ref: 'Ref (używane ponownie w innych kluczach)'
+    known-namespace:
+      core: 'Rdzeń Flarum'
+      validation: 'Błędy walidacji'
     locales:
       all: Wszystkie
+    permissions:
+      view_string_keys: 'Wyświetlanie kluczy tłumaczeń'
     placeholder:
       all-locales: 'Tekst, który tutaj wpiszesz, zostanie pokazany dla wszystkich języków'
       hint: 'Oryginalny tekst:'

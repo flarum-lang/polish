@@ -13,8 +13,18 @@ fof-recaptcha:
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Site Key'
+      type_help: 'To rozszerzenie obsługuje tylko reCAPTCHA v2. Wybrany typ musi być zgodny z typem Twoich danych uwierzytelniających reCAPTCHA.'
       type_label: 'reCAPTCHA Type'
+    test:
+      help_text: "Ten test używa wartości wpisanych powyżej. Pamiętaj, aby po zmianie ustawień ponownie wczytać test, i nie zapomnij zapisać ustawień, gdy test się powiedzie!\nPoniższy test może nie odzwierciedlać zapisanych ustawień.\n"
+      load_test_button: Wczytaj
+      reload_button: 'Wczytaj ponownie'
+      submit_button: Wyślij
+      success_message: 'Sukces! reCAPTCHA jest poprawnie skonfigurowana.'
+      title: 'Test reCAPTCHA'
   forum:
     error: 'Wystąpił błąd podczas przesyłania odpowiedzi reCAPTCHA. Spróbuj ponownie.'
+    unknown_error: 'Wystąpił nieznany błąd. Sprawdź captchę i spróbuj ponownie.'
 validation:
   recaptcha: 'Weryfikacja reCAPTCHA nie powiodła się.'
+  recaptcha-unknown: 'Wystąpił nieznany błąd podczas weryfikacji reCAPTCHA ({errors}).'

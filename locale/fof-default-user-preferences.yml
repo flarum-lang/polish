@@ -5,10 +5,14 @@
 fof-default-user-preferences:
   admin:
     settings:
+      discloseOnline: 'Pokazywanie statusu online'
+      discloseOnline-help: 'Po włączeniu tej opcji nowi użytkownicy będą pozwalać innym widzieć, kiedy są online. Administratorzy i inni użytkownicy z odpowiednim uprawnieniem będą widzieć status online niezależnie od tego ustawienia.'
       followAfterReply: 'Automatycznie obserwuj dyskusje po odpowiedzi'
       followAfterReply-help: 'Jeśli włączone, nowi użytkownicy będą automatycznie obserwować dyskusje, w których odpowiedzieli.'
       groupMentioned: 'Powiadomienia e-mail o wzmiankach grup'
       groupMentioned-help: 'Jeśli włączone, nowi użytkownicy będą mieli włączone powiadomienia e-mail o tym, że ktoś wspomniał w poście grupę, do której należą.'
+      indexProfile: 'Indeksowanie profilu'
+      indexProfile-help: 'Po włączeniu tej opcji nowi użytkownicy będą pozwalać wyszukiwarkom indeksować stronę swojego profilu, chyba że zablokują to inne ustawienia strony lub rozszerzeń.'
       postMentioned: 'Powiadomienia e-mail o odpowiedziach na posty'
       postMentioned-help: 'Jeśli włączone, nowi użytkownicy będą mieli włączone powiadomienia e-mail o tym, że ktoś odpowiedział na ich post.'
       userMentioned: 'Powiadomienia e-mail o wzmiankach'

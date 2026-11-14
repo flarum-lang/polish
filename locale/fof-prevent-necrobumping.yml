@@ -11,12 +11,16 @@ fof-prevent-necrobumping:
       message_description_label: 'Niestandardowa treść wiadomości'
       message_title_help: 'Użyj <code>[time]</code> dla podania czasu tekstowo, np. „14 dni”.'
       message_title_label: 'Niestandardowy tytuł wiadomości'
+      show_discussion_cta_help: 'Pokazuje wezwanie do działania przy odpowiadaniu w dyskusji starszej niż określona liczba dni, jeśli nie ustawiono własnego opisu.'
+      show_discussion_cta_label: 'Pokazuj wezwanie do działania'
       tags_help: 'Nadpisz globalne ustawienia dla konkretnego tagu. Zostaw puste, aby użyć domyślnej wartości. Jeśli dyskusja ma wiele tagów z różną liczbą dni, zostanie użyta najniższa wartość.'
       tags_title: Tagi
   forum:
     composer:
       warning:
         checkbox_label: 'Jestem świadomy, że ta dyskusja jest dość stara, ale chcę w niej odpowiedzieć pomimo to.'
+        cta: 'Może zamiast tego chcesz rozpocząć nową dyskusję?'
+        cta_button: '=> core.ref.start_a_discussion'
         description: 'Jest bardzo prawdopodobne, że nie jest potrzebna dalsza dyskusja na ten temat i podbijanie go jest bezcelowe.'
         error: 'Ta dyskusja jest zbyt stara, aby w niej odpowiedzieć.'
         title: 'Ta dyskusja jest starsza niż <b>{time}</b>.'

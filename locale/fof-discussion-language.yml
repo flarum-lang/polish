@@ -32,3 +32,6 @@ fof-discussion-language:
       change_language_button: 'Ustaw język'
     index_language:
       any: 'Dowolny język'
+    sub_controls:
+      subscription_language_help: 'Jeśli wybierzesz tutaj język, będziesz otrzymywać powiadomienia tylko o nowej aktywności w tym języku.'
+      subscription_language_label: 'Język dyskusji'

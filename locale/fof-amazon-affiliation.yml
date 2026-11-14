@@ -6,6 +6,7 @@ fof-amazon-affiliation:
   admin:
     settings:
       field:
+        help-mediaembed: 'W przypadku używania razem z fof/formatting rozszerzony podgląd (rich embed) zawsze usuwa wszystkie istniejące tagi'
         keep-existing-tag: 'Zachowaj tagi Amazon Affiliate z oryginalnych linków zamiast je zastępować'
         keep-existing-tag-help: 'Domyślnie każdy istniejący tag w oryginalnym adresie URL jest zastępowany tagiem zdefiniowanym poniżej.'
         remove-tag-if-unhandled: 'Usuń tagi Amazon Affiliate z linków do nieobsługiwanych wersji Amazon'
@@ -15,3 +16,4 @@ fof-amazon-affiliation:
       title:
         modal: 'Ustawienia Amazon Affiliation'
         tags: 'Tagi partnerskie'
+        tags-mediaembed: 'Następujące wersje Amazon nie są obecnie obsługiwane przez MediaEmbed, więc zawsze będą wyświetlane jako zwykłe linki (zgodnie z powyższymi ustawieniami): CN, BR, MX, AU'
