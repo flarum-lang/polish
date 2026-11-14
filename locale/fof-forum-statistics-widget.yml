@@ -5,10 +5,10 @@
 fof-forum-statistics-widget:
   admin:
     permissions:
-      view_discussions_count_label: 'Wyświetl widget z liczbą dyskusji na forum'
-      view_lastest_member_label: 'Wyświetl widget z ostatnim zarejestrowanym użytkownikiem'
-      view_posts_count_label: 'Wyświetl widget z liczbą postów na forum'
-      view_users_count_label: 'Wyświetl widget z liczbą użytkowników na forum'
+      view_discussions_count_label: 'Wyświetl widżet z liczbą dyskusji na forum'
+      view_lastest_member_label: 'Wyświetl widżet z ostatnim zarejestrowanym użytkownikiem'
+      view_posts_count_label: 'Wyświetl widżet z liczbą postów na forum'
+      view_users_count_label: 'Wyświetl widżet z liczbą użytkowników na forum'
     settings:
       cache_duration_help: 'Określ, jak długo (w sekundach) statystyki widżetu mają być przechowywane w pamięci podręcznej. <code>0</code> wyłącza pamięć podręczną (niezalecane).'
       cache_duration_label: 'Czas przechowywania w pamięci podręcznej'

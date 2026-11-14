@@ -12,8 +12,8 @@ flarum-gdpr:
 fof-upload:
   admin:
     help_texts:
-      client_extension: "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n"
-      composer_buttons: "Domyślnie przycisk dla menedżera multimediów oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
+      client_extension: "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla przesłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n"
+      composer_buttons: "Domyślnie przycisk dla menedżera multimediów oraz przycisk do przesyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
       custom_s3_url: "Publiczny adres bazowy, spod którego serwowane są Twoje pliki – CDN lub własna domena przed bucketem.\nPozostaw puste, aby użyć domyślnego adresu dostawcy. Musi zawierać <code>https://</code>.\n"
       disable-download-logging: "Wyłącz rejestrowanie każdego pobrania przez użytkowników Twojego forum. Pozostawienie tej opcji włączonej pozwoli Ci na zobaczenie ilości pobrań i innych statystyk w niedalekiej przyszłości.\n"
       disable-hotlink-protection: "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora posta.\n"
@@ -22,7 +22,7 @@ fof-upload:
       mime_order: "Reguły są sprawdzane od góry do dołu, a używana jest pierwsza pasująca. Bardziej szczegółowe reguły umieść więc nad ogólnymi.\n"
       mime_types: "Określ, jakie pliki użytkownicy mogą przesyłać, gdzie mają być przechowywane i w jaki sposób będą wyświetlane w postach.\n"
       resize: "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n"
-      s3_acl: "Stosowane do każdego wysłanego obiektu. Pozostaw puste, aby użyć domyślnego ustawienia dostawcy (zwykle private).\nUżyj <code>public-read</code>, jeśli pliki mają być dostępne do odczytu bezpośrednio z bucketu.\n"
+      s3_acl: "Stosowane do każdego przesłanego obiektu. Pozostaw puste, aby użyć domyślnego ustawienia dostawcy (zwykle private).\nUżyj <code>public-read</code>, jeśli pliki mają być dostępne do odczytu bezpośrednio z bucketu.\n"
       s3_acl_unsupported: "{provider} nie obsługuje ACL. Dostęp publiczny skonfiguruj bezpośrednio w panelu dostawcy.\n"
       s3_compatible_storage: "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n"
       s3_endpoint: "Adres URL API S3 dostawcy – nie publiczny adres URL bucketu. W przypadku Amazon S3 nie trzeba go podawać.\n"
@@ -67,8 +67,8 @@ fof-upload:
         options:
           both: Oba
           media-btn: 'Jedynie przycisk menedżera multimediów'
-          upload-btn: 'Jedynie przycisk do wysyłania plików'
-        title: 'Przyciski w kompozytorze'
+          upload-btn: 'Jedynie przycisk do przesyłania plików'
+        title: 'Przyciski w edytorze'
       configured_by_environment: 'Ustawienia pamięci masowej zostały wstępnie skonfigurowane za pomocą zmiennych środowiskowych.'
       disable-download-logging:
         title: 'Wyłącz rejestrowanie pobrań'
@@ -226,7 +226,7 @@ fof-upload:
       cancel: Anuluj
       media: 'Moje pliki'
       shared_media: 'Współdzielone pliki'
-      upload: Wyślij
+      upload: Prześlij
       upload_shared: Współdzielone
       user_uploads: 'Pliki użytkownika'
     display_name:
@@ -238,7 +238,7 @@ fof-upload:
     media_manager: 'Menedżer multimediów'
     states:
       error: Błąd
-      loading: Wysyłanie
+      loading: Przesyłanie
       permission_required: 'Wymagane uprawnienie'
       unauthorized: 'Nie masz uprawnień, aby pobrać ten plik'
     text_preview:
@@ -249,7 +249,7 @@ fof-upload:
       no_snippet: '<podgląd nie jest dostępny>'
       no_snippet_preview: '<podgląd pojawi się tutaj po opublikowaniu posta>'
     validation:
-      max_size: 'Wysyłanie plików większych niż {max} kb nie jest obsługiwane.'
+      max_size: 'Przesyłanie plików większych niż {max} kb nie jest obsługiwane.'
   lib:
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Nie wybrano} one {Wybierz plik} other {Wybierz pliki}}'

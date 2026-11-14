@@ -10,7 +10,7 @@ sycho-profile-cover:
     thumbnails: 'Utwórz miniaturki'
   forum:
     added:
-      error: 'Nie udało się wysłać obrazka.'
+      error: 'Nie udało się przesłać obrazka.'
       success: 'Tło profilu zostało zaktualizowane.'
     cover: Tło
     edit_cover: 'Edytuj tło'

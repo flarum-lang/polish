@@ -27,7 +27,7 @@ fof-polls:
       start: 'Tworzenie ankiet'
       start_global: 'Tworzenie globalnych ankiet'
       start_group: 'Tworzenie grup ankiet'
-      upload_images: 'Wgrywanie obrazków do ankiet'
+      upload_images: 'Przesyłanie obrazków do ankiet'
       view_group: 'Wyświetlanie grup ankiet'
       view_results_without_voting: 'Podglądanie wyników bez zagłosowania'
       vote: 'Głosowanie w ankietach'

@@ -21,8 +21,8 @@ fof-blog:
     settings:
       add_hero_label: 'Wyświetl baner powitalny'
       add_hero_text: 'Wyświetl baner powitalny na podstronach bloga (jeśli nie został jeszcze zamknięty).'
-      add_sidebar_nav_label: 'Dodaj do nawigacji w sidebarze'
-      add_sidebar_nav_text: 'Dodaj link do bloga w menu nawigacyjnym w sidebarze.'
+      add_sidebar_nav_label: 'Dodaj do nawigacji na pasku bocznym'
+      add_sidebar_nav_text: 'Dodaj link do bloga w menu nawigacyjnym na pasku bocznym.'
       allow_comments_label: 'Pozwól na komentowanie'
       allow_comments_text: 'Domyślnie włącz komentarze do wpisów na blogu. Komentarze mogą być też włączone indywidualnie dla każdego wpisu. <b>Uwaga:</b> Zmiana tego ustawienia nie wpłynie na istniejące wpisy.'
       blog_heading: Blog
@@ -101,12 +101,12 @@ fof-blog:
     recent_posts: 'Ostatnie wpisy na blogu'
     return_to_overview: 'Wróć do przeglądu bloga '
     review_article:
-      approve_article: 'Zaakceptuj wpis'
-      approve_article_approved: 'Ten wpis został zaakceptowany i opublikowany'
+      approve_article: 'Zatwierdź wpis'
+      approve_article_approved: 'Ten wpis został zatwierdzony i opublikowany'
       pending_review: 'Ten wpis oczekuje na zatwierdzenie i nie został jeszcze opublikowany'
       pending_review_title: 'Oczekuje na zatwierdzenie'
     tools:
-      approve_article: 'Zaakceptuj wpis'
+      approve_article: 'Zatwierdź wpis'
       article_settings: 'Ustawienia wpisu'
       delete_forever: 'Usuń nieodwracalnie'
       disable_comments: 'Wyłącz komentarze'
