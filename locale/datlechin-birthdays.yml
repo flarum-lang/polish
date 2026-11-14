@@ -11,7 +11,7 @@ datlechin-birthdays:
       date_format_help: 'Użyj formatu daty <a>dayjs</a>. Pozostaw puste, aby użyć domyślnego formatu.'
       date_format_label: 'Format daty'
       date_none_year_label: 'Format daty bez roku'
-      min_age_help: 'Minimalny wiek do rejestracji'
+      min_age_help: 'Użytkownicy muszą mieć ukończone co najmniej tyle lat. Ograniczenie jest sprawdzane przy każdym zapisywaniu daty urodzenia. Ustaw 0, aby odrzucać tylko daty z przyszłości.'
       min_age_label: 'Minimalny wiek'
       required_help: 'Aby ta opcja działała, musisz pozwolić na ustawianie daty urodzenia podczas rejestracji'
       required_label: 'Wymagaj podania daty urodzenia'

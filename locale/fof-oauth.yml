@@ -12,7 +12,7 @@ fof-oauth:
         heading: Zaawansowane
         log-oauth-errors-help: 'Jeśli to ustawienie jest włączone, błędy OAuth będą rejestrowane w dzienniku Flarum. Może to pomóc w debugowaniu błędów OAuth, ale może również zawierać poufne informacje.'
         log-oauth-errors-label: 'Loguj błędy OAuth'
-      disable_avatars_help: "Po włączeniu tej opcji awatar użytkownika nie będzie podczas rejestracji aktualizowany na awatar z konta u dostawcy. Dotyczy to tylko przyszłych rejestracji i nie zmieni awatarów istniejących użytkowników.\n"
+      disable_avatars_help: "Domyślnie użytkownicy rejestrujący się przez dostawcę otrzymują awatar z konta u dostawcy. Dotyczy to również użytkowników bez awatara, którzy powiążą konto z dostawcą. Po włączeniu tej opcji awatary od dostawców nigdy nie będą używane. Awatary, które użytkownicy już mają, nie zostaną zmienione.\n"
       disable_avatars_label: 'Wyłącz pobieranie awatarów od dostawcy'
       oauth_only_help: "Po włączeniu tej opcji użytkownicy nie będą mogli logować się, rejestrować ani resetować hasła za pomocą hasła. Zamiast tego będą korzystać z włączonych dostawców. Administratorzy nadal będą mogli logować się hasłem przez link „Logowanie administratora” w oknie logowania. Konta istniejących użytkowników, którzy nie mają powiązanego dostawcy, zostaną powiązane podczas pierwszego logowania przez dostawcę, jeśli potwierdzi on ten sam adres e-mail. Pozostali będą potrzebować pomocy administratora. Ustawienie nie działa, jeśli nie włączono żadnego dostawcy. W sekcji uprawnień pozostaw rejestrację ustawioną na „Otwarta”, w przeciwnym razie nowi użytkownicy nie będą mogli rejestrować się również przez dostawców.\n"
       oauth_only_label: 'Zezwalaj na logowanie i rejestrację tylko przez dostawców OAuth'
