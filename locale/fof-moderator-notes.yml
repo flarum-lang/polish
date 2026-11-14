@@ -15,7 +15,7 @@ fof-moderator-notes:
   forum:
     moderatorNotes:
       add_button: 'Nowa notatka'
-      confirm: 'Czy jesteś pewien, że chcesz usunąć tę notatkę?'
+      confirm: 'Czy na pewno chcesz usunąć tę notatkę?'
       create-heading: 'Utwórz nową notatkę dla moderatorów'
       created_text: '{username} utworzył tę notatkę {date}'
       delete: Usuń

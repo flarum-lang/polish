@@ -46,8 +46,8 @@ gtdxyz-flarum-badges:
       title: Potwierdź
       'yes': Tak
     confirm_messages:
-      delete_badge: 'Czy jesteś pewien, że chcesz usunąć tę odznakę? Zostanie ona odebrana wszystkim użytkownikom i jest to nieodwracalne.'
-      delete_category: 'Czy jesteś pewien, że chcesz usunąć tę kategorię? Jeżeli są w niej jakieś odznaki, zostaną one oznaczone jako „Bez kategorii”.'
+      delete_badge: 'Czy na pewno chcesz usunąć tę odznakę? Zostanie ona odebrana wszystkim użytkownikom i jest to nieodwracalne.'
+      delete_category: 'Czy na pewno chcesz usunąć tę kategorię? Jeżeli są w niej jakieś odznaki, zostaną one oznaczone jako „Bez kategorii”.'
     create_category: 'Utwórz kategorię'
     edit_category: 'Edytuj kategorię'
     new_badge: 'Nowa odznaka'
@@ -93,7 +93,7 @@ gtdxyz-flarum-badges:
     moderation:
       give_badge: 'Przyznaj odznakę'
       remove_badge: 'Odbierz odznakę użytkownikowi'
-      remove_badge_confirm: 'Czy jesteś pewien, że chcesz odebrać tę odznakę temu użytkownikowi?'
+      remove_badge_confirm: 'Czy na pewno chcesz odebrać tę odznakę temu użytkownikowi?'
     no_received: 'Żaden użytkownik nie uzyskał jeszcze tej odznaki.'
     notification:
       settings: 'Uzyskałem nową odznakę'

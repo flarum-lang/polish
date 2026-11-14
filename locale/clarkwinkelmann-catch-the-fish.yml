@@ -83,7 +83,7 @@ clarkwinkelmann-catch-the-fish:
     edit-fish:
       create: 'Utwórz rybę'
       delete: 'Usuń rybę'
-      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć rybę „{name}”?'
+      delete-confirmation: 'Czy na pewno chcesz usunąć rybę „{name}”?'
       name: Nazwa
       name-help: 'Obecna nazwa ryby. Może być edytowana przez graczy, jeśli mają uprawnienia do zmiany nazwy ryb'
       save: 'Zapisz rybę'
@@ -92,7 +92,7 @@ clarkwinkelmann-catch-the-fish:
     edit-round:
       create: 'Utwórz rundę'
       delete: 'Usuń rundę'
-      delete-confirmation: 'Czy jesteś pewien, że chcesz usunąć rundę „{name}”?'
+      delete-confirmation: 'Czy na pewno chcesz usunąć rundę „{name}”?'
       ends-at: 'Czas zakończenia'
       name: Nazwa
       name-help: 'Publiczna nazwa tej rundy zostanie pokazana w banerze oraz w rankingu'

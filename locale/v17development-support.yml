@@ -70,7 +70,7 @@ v17development-flarum-support:
     modals:
       article_ratings:
         article_not_rated: 'Ten artykuł nie został jeszcze oceniony.'
-        confirm_delete_rating: 'Czy jesteś pewien, że chcesz usunąć tę ocenę?'
+        confirm_delete_rating: 'Czy na pewno chcesz usunąć tę ocenę?'
         feedback: Opinia
         loading_ratings: 'Wczytywanie ocen'
         no_ratings_found: 'Nie znaleziono ocen spełniających kryteria wyszukiwania'
@@ -141,7 +141,7 @@ v17development-flarum-support:
         title: 'Utwórz nowe zgłoszenie'
       convert_to_ticket:
         button: 'Konwertuj na zgłoszenie'
-        confirm: 'Czy jesteś pewien, że chcesz przekształcić tę dyskusję w zgłoszenie?'
+        confirm: 'Czy na pewno chcesz przekształcić tę dyskusję w zgłoszenie?'
         event: 'Dyskusja {ticket_title} została przekształcona w zgłoszenie'
       fields:
         assignees:

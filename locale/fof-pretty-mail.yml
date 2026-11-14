@@ -18,7 +18,7 @@ fof-pretty-mail:
         settings: 'Pozwala na interakcję z SettingsRepositoryInterface'
         url: '<code>UrlGenerator</code> Flarum'
       attributes_label: 'Dostępne ustawienia'
-      confirm: 'Czy jesteś pewien, że chcesz wrócić do podstawowego szablonu wiadomości e-mail dla'
+      confirm: 'Czy na pewno chcesz wrócić do podstawowego szablonu wiadomości e-mail dla'
       default: 'Domyślny szablon'
       label: 'Szablony wiadomości e-mail'
       newPost: 'flarum/subscriptions – Nowy post'

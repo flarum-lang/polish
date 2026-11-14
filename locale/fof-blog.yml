@@ -72,7 +72,7 @@ fof-blog:
       no_title: 'Brak tytułu'
       nothing_to_preview: 'Nie ma nic do podglądu'
       post_article: 'Opublikuj wpis'
-      post_without_blog_info: 'Czy jesteś pewien, że chcesz opublikować ten wpis? Nie uzupełniłeś podsumowania lub obrazka wpisu.'
+      post_without_blog_info: 'Czy na pewno chcesz opublikować ten wpis? Nie uzupełniłeś podsumowania lub obrazka wpisu.'
       select_category: 'Wybierz kategorię'
       update_settings: 'Zaktualizuj ustawienia bloga'
       view: Podgląd
