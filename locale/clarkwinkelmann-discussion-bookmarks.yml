@@ -5,7 +5,7 @@
 clarkwinkelmann-discussion-bookmarks:
   admin:
     settings:
-      independentButton: 'Wyświetl osobny przycisk zakładki w sidebarze dyskusji, zamiast dodatkowej opcji w menu rozwijanym dyskusji'
+      independentButton: 'Wyświetl osobny przycisk zakładki na pasku bocznym dyskusji, zamiast dodatkowej opcji w menu rozwijanym dyskusji'
   forum:
     badge: 'W zakładkach'
     dropdownButton:

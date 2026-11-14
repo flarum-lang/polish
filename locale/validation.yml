@@ -43,7 +43,7 @@ validation:
   exists: 'Zaznaczone pole :attribute jest nieprawidłowe.'
   file: 'Pole :attribute musi być plikiem.'
   file_too_large: 'Pole :attribute jest za duże.'
-  file_upload_failed: 'Nie udało się wgrać pliku :attribute.'
+  file_upload_failed: 'Nie udało się przesłać pliku :attribute.'
   filled: 'Pole :attribute nie może być puste.'
   gt:
     array: 'Pole :attribute musi mieć więcej niż :value elementów.'
@@ -113,6 +113,6 @@ validation:
   string: 'Pole :attribute musi być ciągiem znaków.'
   timezone: 'Pole :attribute musi być prawidłową strefą czasową.'
   unique: 'Podana wartość pola :attribute jest już zajęta.'
-  uploaded: 'Nie udało się wgrać pliku :attribute.'
+  uploaded: 'Nie udało się przesłać pliku :attribute.'
   url: 'Format pola :attribute jest nieprawidłowy.'
   uuid: 'Pole :attribute musi być poprawnym identyfikatorem UUID.'

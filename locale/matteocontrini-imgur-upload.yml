@@ -5,7 +5,7 @@
 imgur-upload:
   admin:
     settings:
-      allow-paste: 'Pozwól na wysyłanie poprzez wklejenie obrazka'
+      allow-paste: 'Pozwól na przesyłanie poprzez wklejenie obrazka'
       embed-type:
         full-with-link: 'Pełnowymiarowy obrazek z linkiem'
         full-without-link: 'Pełnowymiarowy obrazek bez linka'
@@ -16,5 +16,5 @@ imgur-upload:
   forum:
     done: Gotowe!
     error: Błąd
-    loading: Wysyłanie...
-    upload: 'Wciśnij lub wklej, aby wysłać'
+    loading: Przesyłanie...
+    upload: 'Wciśnij lub wklej, aby przesłać'

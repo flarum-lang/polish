@@ -29,7 +29,7 @@ fof-username-request:
         success: 'Decyzja wysłana.'
         title: '=> fof-username-request.ref.nickname_change_request'
       request:
-        confirmation_message: 'Twoja prośba o zmianę pseudonimu została wysłana i oczekuje na akceptację moderatora.'
+        confirmation_message: 'Twoja prośba o zmianę pseudonimu została wysłana i oczekuje na zatwierdzenie przez moderatora.'
         current_request: 'Już poprosiłeś o zmianę pseudonimu na „{name}”. Możesz edytować lub usunąć tę prośbę.'
         delete_button: 'Usuń prośbę'
         deleted: 'Prośba o zmianę pseudonimu została usunięta.'
@@ -37,7 +37,7 @@ fof-username-request:
         submit_button: 'Wyślij prośbę'
         title: 'Poproś o zmianę pseudonimu'
       results:
-        approved: 'Twoja prośba o zmianę pseudonimu została zaakceptowana'
+        approved: 'Twoja prośba o zmianę pseudonimu została zatwierdzona'
         dismiss_button: '=> core.ref.okay'
         new_name: 'Twój pseudonim został zmieniony na: „{name}”'
         reason: 'Powód odmowy: <i>„{reason}”</i>.'
@@ -69,7 +69,7 @@ fof-username-request:
         success: 'Decyzja wysłana.'
         title: '=> fof-username-request.ref.username_change_request'
       request:
-        confirmation_message: 'Twoja prośba o zmianę nazwy użytkownika została wysłana i oczekuje na akceptację moderatora.'
+        confirmation_message: 'Twoja prośba o zmianę nazwy użytkownika została wysłana i oczekuje na zatwierdzenie przez moderatora.'
         current_request: 'Już poprosiłeś o zmianę nazwy użytkownika na „{name}”. Możesz edytować lub usunąć tę prośbę.'
         delete_button: 'Usuń prośbę'
         deleted: 'Prośba o zmianę nazwy użytkownika została usunięta.'
@@ -77,7 +77,7 @@ fof-username-request:
         submit_button: 'Wyślij prośbę'
         title: 'Poproś o zmianę nazwy użytkownika'
       results:
-        approved: 'Twoja prośba o zmianę nazwy użytkownika została zaakceptowana'
+        approved: 'Twoja prośba o zmianę nazwy użytkownika została zatwierdzona'
         dismiss_button: '=> core.ref.okay'
         new_name: 'Twoja nazwa użytkownika została zmieniona na: „{name}”'
         reason: 'Powód odmowy: <i>„{reason}”</i>.'

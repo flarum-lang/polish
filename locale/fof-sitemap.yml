@@ -20,7 +20,7 @@ fof-sitemap:
         daily: Codziennie
         hourly: 'Co godzinę'
         twice_daily: '2 razy dziennie'
-      frequency_label: 'Jak często harmonogram zadań powinien generować ponownie mapę zapisaną w cache?'
+      frequency_label: 'Jak często harmonogram zadań powinien generować ponownie mapę zapisaną w pamięci podręcznej?'
       include_changefreq: 'Dołącz wartości częstotliwości zmian w mapie witryny'
       include_changefreq_help: 'Wartości częstotliwości zmian są ignorowane przez Google, ale mogą być używane przez inne wyszukiwarki do planowania indeksowania'
       include_priority: 'Dołącz wartości priorytetu w mapie witryny'

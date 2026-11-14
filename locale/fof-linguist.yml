@@ -14,8 +14,8 @@ fof-linguist:
       load-more: 'Wczytaj więcej'
       reset: 'Przywróć oryginał'
     clear-cache:
-      button: 'Wyczyść cache teraz'
-      text: "Nowe tłumaczenia jeszcze nie zostały zastosowane. Uwaga: wyczyszczenie cache może chwilowo spowolnić Twoje forum.\n"
+      button: 'Wyczyść pamięć podręczną teraz'
+      text: "Nowe tłumaczenia jeszcze nie zostały zastosowane. Uwaga: wyczyszczenie pamięci podręcznej może chwilowo spowolnić Twoje forum.\n"
     coverage:
       all-namespaces: Wszystkie
       apply-missing-filter: 'Pokaż pasujące brakujące tłumaczenia'
