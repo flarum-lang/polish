@@ -2,8 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-nicknames/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        nickname_changed: 'Zmieniono pseudonim użytkownika {username} z {old_nickname} na {new_nickname}'
 flarum-nicknames:
   admin:
+    basics:
+      display_name_driver_options:
+        nickname: Pseudonim
     permissions:
       edit_own_nickname_label: 'Edytowanie własnego pseudonimu'
     settings:
@@ -14,7 +22,7 @@ flarum-nicknames:
       regex_label: 'Wyrażenie regularne dla walidacji'
       set_on_registration_label: 'Pozwól ustawić pseudonim podczas rejestracji'
       unique_label: 'Wymagaj unikalnych pseudonimów'
-    wrong_driver: 'Musisz wybrać „nickname” jako sterownik, który powinien być używany do wyświetlania nazw użytkowników, na stronie <a><strong>podstawowych ustawień</strong></a>, aby to rozszerzenie zadziałało.'
+    wrong_driver: 'Musisz wybrać „Pseudonim” jako sterownik, który powinien być używany do wyświetlania nazw użytkowników, na stronie <a><strong>podstawowych ustawień</strong></a>, aby to rozszerzenie zadziałało.'
   api:
     invalid_nickname_message: 'Ten pseudonim jest nieprawidłowy. Skontaktuj się z administratorem forum, aby uzyskać więcej informacji na temat reguł dotyczących pseudonimów.'
   forum:

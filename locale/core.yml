@@ -837,7 +837,7 @@ core:
         hidden:
           key: ukryta
         unread:
-          key: nieprzeczytana
+          key: nieodczytana
       group_keys:
         allows: pozwala
         has: ma

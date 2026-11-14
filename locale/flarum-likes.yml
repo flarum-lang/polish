@@ -27,3 +27,9 @@ flarum-likes:
       notify_post_liked_label: 'Ktoś polubił mój post'
     user:
       likes_link: Polubienia
+  lib:
+    gambits:
+      posts:
+        likedBy:
+          hint: 'ID lub nazwa użytkownika'
+          key: polubiono
