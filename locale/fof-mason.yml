@@ -62,8 +62,8 @@ fof-mason:
       validation: 'Walidacja dla wartości wprowadzonych przez użytkownika'
       validation-help: "Sprawdź obsługiwane <a>reguły walidacji Laravela</a>. Na przykład: „string|min:5” lub „url”.\n"
     messages:
-      delete-answer-confirmation: "Czy jesteś pewien, że chcesz usunąć odpowiedź „{content}”? Zostanie ona usunięta ze wszystkich dyskusji, które ją wykorzystują. Jeśli chcesz zachować istniejące odpowiedzi, wyłącz jedynie sugerowanie tej odpowiedzi. Usunąć odpowiedź?\n"
-      delete-field-confirmation: "Czy jesteś pewien, że chcesz usunąć pole „{name}”? Pole oraz jego odpowiedzi zostaną usunięte ze wszystkich dyskusji, które je wykorzystują. Usunąć pole?\n"
+      delete-answer-confirmation: "Czy na pewno chcesz usunąć odpowiedź „{content}”? Zostanie ona usunięta ze wszystkich dyskusji, które ją wykorzystują. Jeśli chcesz zachować istniejące odpowiedzi, wyłącz jedynie sugerowanie tej odpowiedzi. Usunąć odpowiedź?\n"
+      delete-field-confirmation: "Czy na pewno chcesz usunąć pole „{name}”? Pole oraz jego odpowiedzi zostaną usunięte ze wszystkich dyskusji, które je wykorzystują. Usunąć pole?\n"
     permissions:
       fill-fields: 'Uzupełnianie pól dla nowych dyskusji'
       see-other-fields: 'Przeglądanie pól we wszystkich dyskusjach'

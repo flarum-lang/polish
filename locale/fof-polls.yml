@@ -126,7 +126,7 @@ fof-polls:
     moderation:
       add: 'Dodaj ankietę'
       delete: 'Usuń ankietę'
-      delete_confirm: 'Czy jesteś pewien, że chcesz usunąć tę ankietę?'
+      delete_confirm: 'Czy na pewno chcesz usunąć tę ankietę?'
       edit: 'Edytuj ankietę'
     no_permission: 'Nie masz uprawnień, aby głosować w tej ankiecie'
     page:

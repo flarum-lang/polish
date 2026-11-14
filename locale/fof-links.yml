@@ -6,7 +6,7 @@ fof-links:
   admin:
     edit_link:
       delete_link_button: 'Usuń link'
-      delete_link_confirmation: 'Czy jesteś pewien, że chcesz usunąć „{title}”?'
+      delete_link_confirmation: 'Czy na pewno chcesz usunąć „{title}”?'
       icon_additional_text: 'Jeśli chcesz użyć ikony marki, zamiast tego zastosuj prefiks <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'

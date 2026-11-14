@@ -36,8 +36,8 @@ fof-drafts:
       saving: Zapisywanie...
       title: 'Zapisz szkic'
     dropdown:
-      alert: 'Czy jesteś pewien, że chcesz usunąć ten szkic?'
-      delete_all_alert: 'Czy jesteś pewien, że chcesz usunąć wszystkie swoje szkice?'
+      alert: 'Czy na pewno chcesz usunąć ten szkic?'
+      delete_all_alert: 'Czy na pewno chcesz usunąć wszystkie swoje szkice?'
       delete_all_button: 'Usuń wszystkie szkice'
       delete_button: 'Usuń szkic'
       empty_text: 'Nie zapisałeś żadnych szkiców'
@@ -58,7 +58,7 @@ fof-drafts:
       text: 'Zaplanuj automatyczną publikację szkicu w określonym czasie.'
       title: '=> fof-drafts.ref.schedule_draft'
       unschedule_button: 'Wyłącz zaplanowaną publikację'
-      unschedule_warning: 'Czy jesteś pewien, że chcesz wyłączyć zaplanowaną publikację tego szkicu?'
+      unschedule_warning: 'Czy na pewno chcesz wyłączyć zaplanowaną publikację tego szkicu?'
     user:
       settings:
         draft_autosave_enable: 'Włącz automatyczny zapis szkiców'
