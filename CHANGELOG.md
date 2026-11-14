@@ -8,11 +8,42 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (100% complete)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (100% complete)
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork) (100% complete)
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval) (100% complete)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) (100% complete)
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop) (100% complete)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature) (100% complete)
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (100% complete)
 
 
 **Updated translations for extensions**:
 
 * [`flarum/sticky`](https://github.com/flarum/sticky) (2 added, 100% complete)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) (2 added, 100% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (301 added, 100% complete)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (4 added, 100% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (2 added, 100% complete)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (64 added, 100% complete)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) (6 added, 100% complete)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget) (2 added, 100% complete)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (4 added, 100% complete)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) (6 added, 100% complete)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) (45 added, 100% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (7 added, 100% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (3 added, 100% complete)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode) (3 added, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (7 added, 100% complete)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (3 added, 100% complete)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) (9 added, 100% complete)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) (4 added, 100% complete)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (10 added, 100% complete)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) (9 added, 100% complete)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (37 added, 100% complete)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) (3 added, 100% complete)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget) (1 added, 100% complete)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (1 added, 100% complete)
 
 
 All changes: [1.10.18...1.10.19](https://github.com/flarum-lang/polish/compare/1.10.18...1.10.19).
