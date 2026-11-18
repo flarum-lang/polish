@@ -26,6 +26,9 @@ fof-bookmarks:
       add: 'Dodaj zakładkę'
       remove: 'W zakładkach'
     page:
+      hero:
+        subtitle: 'Dyskusje i posty zapisane na później, aby móc łatwo do nich wrócić.'
+        title: Zakładki
       link: Zakładki
       tab:
         discussions: Dyskusje

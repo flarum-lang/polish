@@ -14,7 +14,9 @@ flectar-turnstile:
   forum:
     error: 'Wystąpił błąd podczas weryfikacji, czy jesteś człowiekiem. Spróbuj ponownie.'
     not_loaded_error: 'Nie udało się załadować Cloudflare Turnstile. Odśwież stronę i sprawdź, czy adblocker nie blokuje skryptu.'
+    slow_error: 'Weryfikacja Turnstile trwa dłużej niż zwykle. Spróbuj ponownie za chwilę.'
     validation_error: 'Ukończ weryfikację Turnstile.'
+    verifying: 'Trwa weryfikacja, czy jesteś człowiekiem...'
 validation:
   custom:
     turnstile:

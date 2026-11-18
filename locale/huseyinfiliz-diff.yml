@@ -13,7 +13,7 @@ huseyinfiliz-diff:
     settings:
       archiveInfo: 'Pamiętaj, że możesz wyłączyć obie opcje i ręcznie uruchomić polecenie <code>php flarum diff:archive</code>, aby zarchiwizować stare rewizje.'
       archiveOlds: 'Archiwizuj stare rewizje'
-      archiveOldsInfo: 'Jeśli <strong>x ≥ A</strong>, pierwsze <strong>y=mx+b</strong> rewizji posta zostanie zapisanych jako scalone i skompresowane. <strong>x</strong> oznacza liczbę rewizji posta. Wartości zmiennoprzecinkowe <strong>y</strong> są zaokrąglane w dół do najbliższej liczby całkowitej.'
+      archiveOldsInfo: 'Jeśli <strong>x ≥ A</strong>, pierwszych <strong>y=mx+b</strong> rewizji posta zostanie zapisanych w postaci scalonej i skompresowanej. <strong>x</strong> oznacza liczbę rewizji posta. Wartości zmiennoprzecinkowe <strong>y</strong> są zaokrąglane w dół do najbliższej liczby całkowitej.'
       charLevel: Znak
       dbOptimisation: 'Optymalizacja bazy danych'
       detailLevel: 'Poziom szczegółowości'
@@ -26,6 +26,7 @@ huseyinfiliz-diff:
       noneLevel: Brak
       onlyUnsigned: 'Dozwolone są tylko <strong>nieujemne liczby całkowite</strong>!'
       separateBlock: 'Pokazuj separator między różnymi fragmentami diff w rendererach HTML'
+      showEditReason: 'Pokazuj pole powodu edycji w edytorze postów'
       textFormatting: 'Włącz formatowanie tekstu dla podglądów'
       title: 'Ustawienia Diff'
       useCrons: 'Używaj harmonogramu zadań (cron) do archiwizacji starych rewizji'
@@ -33,6 +34,9 @@ huseyinfiliz-diff:
       usePoint: 'Używaj <strong>kropki</strong> jako separatora dziesiętnego dla wartości zmiennoprzecinkowych.'
       wordLevel: Słowo
   forum:
+    composer:
+      editReasonLabel: 'Powód edycji (opcjonalnie)'
+      editReasonPlaceholder: 'Możesz podać powód tej edycji'
     confirmDelete: 'Czy na pewno chcesz usunąć zawartość tej edycji z historii?'
     confirmRollback: 'Czy na pewno chcesz zmienić obecną treść posta?'
     createdInfo: '{username} utworzył {ago}'
@@ -46,6 +50,7 @@ huseyinfiliz-diff:
       originalContent: '=> huseyinfiliz-diff.ref.originalContent'
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
       sentence: 'Przeglądasz różnice między {old} a {new}'
+    editReason: 'Powód edycji'
     editedInfo: '=> core.forum.post.edited_tooltip'
     editedText: '=> core.forum.post.edited_text'
     emptyText: 'Brak rewizji'
