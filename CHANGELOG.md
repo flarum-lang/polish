@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.0.14 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 100% complete)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (2 added, 100% complete)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (4 added, 1 changed, 100% complete)
+
+
+All changes: [2.0.13...2.0.14](https://github.com/flarum-lang/polish/compare/2.0.13...2.0.14).
+
+
 2.0.13 (2026-11-15)
 -------------------
 
