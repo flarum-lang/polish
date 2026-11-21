@@ -27,7 +27,7 @@ acpl-mobile-tab:
           label: 'Do innej strony'
         heading: 'Dokąd prowadzi ten link'
         internal:
-          help: 'Otwiera stronę bez jej ponownego ładowania.'
+          help: 'Otwiera stronę bez jej ponownego wczytywania.'
           label: 'Do strony na tym forum'
       url: URL
       url_help:

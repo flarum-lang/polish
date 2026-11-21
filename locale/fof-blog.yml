@@ -33,8 +33,8 @@ fof-blog:
         no_tags: 'Nie masz jeszcze żadnych tagów.'
         tag_name_column: 'Nazwa tagu'
         visit_blog: 'Odwiedź swój blog.'
-      default_article_image_label: 'Domyślny obrazek wpisu'
-      default_article_image_text: 'Wybierz domyślny obrazek wyświetlany dla wpisów, które nie mają ustawionego obrazka.'
+      default_article_image_label: 'Domyślny obraz wpisu'
+      default_article_image_text: 'Wybierz domyślny obraz wyświetlany dla wpisów, które nie mają ustawionego obrazu.'
       featured_count_label: 'Liczba wyróżnionych postów'
       featured_count_text: 'Ile postów powinno wyświetlać się w kafelkach na górze strony?'
       hide_on_discussion_list_label: 'Nie pokazuj na liście dyskusji'
@@ -63,11 +63,11 @@ fof-blog:
     article_settings:
       fields:
         highlight:
-          helper_text: 'Wyświetl duży obrazek dla tego posta na podstronie przeglądu bloga.'
+          helper_text: 'Wyświetl duży obraz dla tego posta na podstronie przeglądu bloga.'
           title: 'Wyróżniony post'
         image:
           helper_text: 'Najlepsza rozdzielczość dla mediów społecznościowych to 1200x630.'
-          title: 'Obrazek artykułu'
+          title: 'Obraz artykułu'
         summary:
           helper_text: 'To podsumowanie będzie widoczne na podstronie przeglądu bloga oraz będzie wykorzystywane do celów związanych z SEO.'
           placeholder: 'Proszę wpisać podsumowanie'
@@ -89,7 +89,7 @@ fof-blog:
       no_title: 'Brak tytułu'
       nothing_to_preview: 'Nie ma nic do podglądu'
       post_article: 'Opublikuj wpis'
-      post_without_blog_info: 'Czy na pewno chcesz opublikować ten wpis? Nie uzupełniłeś podsumowania lub obrazka wpisu.'
+      post_without_blog_info: 'Czy na pewno chcesz opublikować ten wpis? Nie uzupełniłeś podsumowania lub obrazu wpisu.'
       select_category: 'Wybierz kategorię'
       update_settings: 'Zaktualizuj ustawienia bloga'
       view: Podgląd
@@ -119,7 +119,7 @@ fof-blog:
     utils:
       redirect:
         link: '<a>Kliknij tutaj</a>, jeśli strona nie przekieruje Cię automatycznie'
-        title: 'Przekierowuję Cię do wpisu na blogu...'
+        title: 'Przekierowuję Cię do wpisu na blogu…'
     validation:
       missing_id: 'Brakujące ID'
   lib:

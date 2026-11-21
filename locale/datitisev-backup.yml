@@ -156,5 +156,5 @@ datitisev-backup:
     required_package_button: Ustaw
     settings:
       database_bin_path_help: "Jeśli pliki wykonywalne bazy danych (np. mysqldump, pg_dump) nie znajdują się w ścieżce systemowej (PATH), możesz tutaj podać katalog, w którym się znajdują. Pamiętaj o ukośniku na końcu (np. <code>/usr/local/mysql/bin/</code>).\n"
-      database_bin_path_label: '(Opcjonalnie) Ścieżka do plików wykonywalnych bazy danych'
+      database_bin_path_label: 'Ścieżka do plików wykonywalnych bazy danych (opcjonalna)'
     settings_button: Konfiguruj

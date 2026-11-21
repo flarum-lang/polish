@@ -27,7 +27,7 @@ fof-polls:
       start: 'Tworzenie ankiet'
       start_global: 'Tworzenie globalnych ankiet'
       start_group: 'Tworzenie grup ankiet'
-      upload_images: 'Przesyłanie obrazków do ankiet'
+      upload_images: 'Przesyłanie obrazów do ankiet'
       view_group: 'Wyświetlanie grup ankiet'
       view_results_without_voting: 'Podglądanie wyników bez zagłosowania'
       vote: 'Głosowanie w ankietach'
@@ -48,13 +48,13 @@ fof-polls:
         heading: 'Globalne ankiety'
         help: 'Te ustawienia kontrolują funkcję globalnych ankiet.'
       image:
-        heading: 'Ustawienia obrazków'
-        help: 'Skonfiguruj limity przesyłania obrazków i ich wymiary. Obrazki są automatycznie konwertowane do formatu WebP i tworzone są ich wersje responsywne.'
-      image_dimensions_help: 'Podstawowe wymiary zapisywanych obrazków. Warianty HiDPI (@2x, @3x) są tworzone automatycznie, jeśli obraz źródłowy jest wystarczająco duży.'
-      image_height: 'Wysokość obrazka po skalowaniu (px)'
-      image_width: 'Szerokość obrazka po skalowaniu (px)'
-      max_image_upload_size: 'Maksymalny rozmiar przesyłanego obrazka (KB)'
-      max_image_upload_size_help: 'Maksymalny rozmiar przesyłanego pliku w kilobajtach. Po przesłaniu obrazki są automatycznie konwertowane do formatu WebP i skalowane, więc zajmują zwykle znacznie mniej miejsca. Domyślnie: 10240 KB (10 MB).'
+        heading: 'Ustawienia obrazów'
+        help: 'Skonfiguruj limity przesyłania obrazów i ich wymiary. Obrazy są automatycznie konwertowane do formatu WebP i tworzone są ich wersje responsywne.'
+      image_dimensions_help: 'Podstawowe wymiary zapisywanych obrazów. Warianty HiDPI (@2x, @3x) są tworzone automatycznie, jeśli obraz źródłowy jest wystarczająco duży.'
+      image_height: 'Wysokość obrazu po skalowaniu (px)'
+      image_width: 'Szerokość obrazu po skalowaniu (px)'
+      max_image_upload_size: 'Maksymalny rozmiar przesyłanego obrazu (KB)'
+      max_image_upload_size_help: 'Maksymalny rozmiar przesyłanego pliku w kilobajtach. Po przesłaniu obrazy są automatycznie konwertowane do formatu WebP i skalowane, więc zajmują zwykle znacznie mniej miejsca. Domyślnie: 10240 KB (10 MB).'
       max_options: 'Maksymalna liczba opcji w ankiecie'
       options_color_blend: 'Mieszanie kolorów tekstu w opcjach ankiety'
       options_color_blend_help: 'Włącz, aby użyć mieszania kolorów w celu poprawy czytelności opcji ankiety. Wyłącz, jeśli ta funkcja psuje wygląd forum i zmniejsza czytelność.'
@@ -89,14 +89,14 @@ fof-polls:
       allow_change_vote_label: 'Pozwól użytkownikom zmienić swój głos'
       allow_multiple_votes_label: 'Pozwól użytkownikom głosować na wiele opcji'
       date_clear: 'Usuń datę zakończenia'
-      date_placeholder: 'Data zakończenia ankiety (opcjonalne)'
+      date_placeholder: 'Data zakończenia ankiety (opcjonalna)'
       delete: '=> core.ref.delete'
       edit_title: 'Edytuj ankietę'
       empty_answers: '{count, plural, one {# odpowiedź jest pusta – uzupełnij ją lub usuń.} few {# odpowiedzi są puste – uzupełnij je lub usuń.} other {# odpowiedzi jest pustych – uzupełnij je lub usuń.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Ukryj głosy do czasu zakończenia ankiety'
       hide_votes_label_help: 'Użytkownik, który rozpoczął ankietę, zawsze będzie mógł zobaczyć głosy.'
-      image_option_placeholder: 'URL obrazka (opcjonalne)'
+      image_option_placeholder: 'URL obrazu (opcjonalny)'
       include_question: 'Ankieta musi zawierać pytanie'
       max: 'Możesz mieć maksymalnie {max, plural, one {# opcję} few {# opcje} other {# opcji}}'
       max_votes_help: 'Ustaw na 0, aby pozwolić użytkownikom głosować na wszystkie opcje.'
@@ -106,19 +106,19 @@ fof-polls:
       option_placeholder: Odpowiedź
       options_label: Odpowiedzi
       poll_image:
-        alt_help_text: 'Ten tekst jest wymagany po ustawieniu obrazka i zostanie wyświetlony, jeśli obraz nie zostanie załadowany.'
-        alt_label: 'Alternatywny tekst obrazka'
-        help: 'Prześlij obrazek, który będzie wyświetlany obok ankiety (opcjonalnie).'
-        label: 'Obrazek ankiety'
-        url_deprecated: 'W tej ankiecie użyto zewnętrznego adresu URL obrazka. Obsługa takich adresów jest przestarzała i zostanie usunięta w przyszłej wersji. Prześlij obrazek ponownie, korzystając z przycisku przesyłania.'
+        alt_help_text: 'Ten tekst jest wymagany po ustawieniu obrazu i zostanie wyświetlony, jeśli obraz nie zostanie wczytany.'
+        alt_label: 'Alternatywny tekst obrazu'
+        help: 'Prześlij obraz, który będzie wyświetlany obok ankiety (opcjonalnie).'
+        label: 'Obraz ankiety'
+        url_deprecated: 'W tej ankiecie użyto zewnętrznego adresu URL obrazu. Obsługa takich adresów jest przestarzała i zostanie usunięta w przyszłej wersji. Prześlij obraz ponownie, korzystając z przycisku przesyłania.'
       poll_option_image:
-        help: 'Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).'
-        label: 'Obrazek odpowiedzi ankiety'
+        help: 'Prześlij obraz, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).'
+        label: 'Obraz odpowiedzi ankiety'
       public_poll_label: 'Pozwól użytkownikom zobaczyć, kto głosował'
       question_placeholder: Pytanie
       settings_label: Głosowanie
       submit: Zatwierdź
-      subtitle_placeholder: 'Podtytuł/Opis (opcjonalne)'
+      subtitle_placeholder: 'Podtytuł/Opis (opcjonalny)'
       tooltip:
         options:
           add-button: 'Dodaj odpowiedź'
@@ -220,7 +220,7 @@ fof-polls:
       badge: Ankieta
       votes: '{count, plural, one {# głos} few {# głosy} other {# głosów}}'
     upload_image:
-      remove_button: 'Usuń obrazek'
-      upload_button: 'Prześlij obrazek'
+      remove_button: 'Usuń obraz'
+      upload_button: 'Prześlij obraz'
     votes_modal:
       title: 'Głosujący użytkownicy'

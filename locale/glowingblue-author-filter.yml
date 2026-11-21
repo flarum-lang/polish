@@ -16,4 +16,4 @@ glowingblue-author-filter:
         label: 'Filtruj po autorze: {text}'
         no_results: 'Brak wyników'
         remove_filter: 'Wyczyść filtrowanie po autorze'
-        search_label: 'Wyszukaj użytkowników...'
+        search_label: 'Wyszukaj użytkowników…'

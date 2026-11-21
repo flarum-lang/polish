@@ -25,7 +25,7 @@ fof-byobu:
     settings:
       badge-icon: 'Ikona w etykiecie dyskusji Byobu'
       delete_on_last_recipient_left: 'Usuń prywatną dyskusję po tym, jak ostatni uczestnik ją opuści'
-      delete_on_last_recipient_left_help: 'Jeśli włączone, prywatne dyskusje zostaną nieodwracalnie usunięte, gdy ostatni uczestnik opuści dyskusję. W innym wypadku prywatne dyskusje zostaną ukryte (soft deleted).'
+      delete_on_last_recipient_left_help: 'Po włączeniu tej opcji prywatne dyskusje zostaną nieodwracalnie usunięte, gdy ostatni uczestnik opuści dyskusję. W innym wypadku prywatne dyskusje zostaną ukryte (soft deleted).'
       enable-make-public-option: 'Włącz możliwość upublicznienia prywatnej dyskusji'
       enable-make-public-option-help: 'Dodaje możliwość, aby osoby z uprawnieniami mogły usunąć wszystkich uczestników, przypisać nowy tag i uczynić dyskusję publicznie widoczną (zgodnie z ustawieniami widoczności wybranego tagu).'
       general:
@@ -69,7 +69,7 @@ fof-byobu:
     hero:
       title: '=> fof-byobu.forum.nav.nav_item'
     input:
-      search_recipients: 'Wpisz 3 pierwsze znaki, aby wyszukać uczestników...'
+      search_recipients: 'Wpisz 3 pierwsze znaki, aby wyszukać uczestników…'
     labels:
       recipients: '{count, plural, one {{count} uczestnik} other {{count} uczestników}}'
     modal:

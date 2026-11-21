@@ -44,7 +44,7 @@ fof-merge-discussions:
       ordering_suffix_help: 'Posty włączone do docelowej dyskusji zostaną dodane na końcu dyskusji'
       ordering_suffix_label: 'Dodaj włączone posty na końcu dyskusji'
       preview_truncated: 'Wyświetlane posty: {from}–{to} z {total}.'
-      search_discussions_placeholder: 'Szukaj dyskusji...'
+      search_discussions_placeholder: 'Szukaj dyskusji…'
       submit_button: '=> fof-merge-discussions.ref.merge'
       title: 'Scal dyskusje'
       type_from_help_text: 'Wybierz dyskusję docelową, z którą chcesz scalić {title}.'

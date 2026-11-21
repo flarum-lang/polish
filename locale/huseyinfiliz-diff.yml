@@ -35,7 +35,7 @@ huseyinfiliz-diff:
       wordLevel: Słowo
   forum:
     composer:
-      editReasonLabel: 'Powód edycji (opcjonalnie)'
+      editReasonLabel: 'Powód edycji (opcjonalny)'
       editReasonPlaceholder: 'Możesz podać powód tej edycji'
     confirmDelete: 'Czy na pewno chcesz usunąć zawartość tej edycji z historii?'
     confirmRollback: 'Czy na pewno chcesz zmienić obecną treść posta?'

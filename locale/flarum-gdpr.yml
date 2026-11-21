@@ -106,7 +106,7 @@ flarum-gdpr:
       export-ready: 'Twój eksport danych dla {username} jest teraz gotowy do pobrania.'
     process_erasure:
       anonymization_button: 'Anonimizuj użytkownika'
-      comments_label: 'Komentarze (opcjonalnie)'
+      comments_label: 'Komentarze (opcjonalne)'
       confirm: 'Czy na pewno chcesz usunąć konto {name} w trybie {mode}?'
       confirmed_at: 'Potwierdzono: {date}'
       deletion_button: 'Usuń użytkownika'
@@ -118,7 +118,7 @@ flarum-gdpr:
       cancel_button: 'Anuluj wniosek'
       password_label: 'Potwierdź hasło'
       reason: 'Podano następujący powód: {reason}'
-      reason_label: 'Powód (opcjonalnie)'
+      reason_label: 'Powód (opcjonalny)'
       request_button: 'Złóż wniosek o usunięcie'
       status:
         awaiting_user_confirmation: "Powinieneś otrzymać e-mail, aby potwierdzić chęć usunięcia konta.\n"

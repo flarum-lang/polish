@@ -26,7 +26,7 @@ fof-impersonate:
     modal:
       impersonate_username: 'Zaloguj się jako {username}'
       label: 'Z wielką mocą wiąże się wielka odpowiedzialność. Kontynuując, zalogujesz się na konto {username} i zostaniesz na nim, dopóki nie wrócisz na swoje konto.'
-      placeholder_optional: 'Podaj powód przełączenia się na tego użytkownika (opcjonalne)'
+      placeholder_optional: 'Podaj powód przełączenia się na tego użytkownika (opcjonalnie)'
       placeholder_required: 'Aby kontynuować, musisz podać powód przełączenia się na tego użytkownika'
       title: 'Zaloguj się jako inny użytkownik'
     user_controls:

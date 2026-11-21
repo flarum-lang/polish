@@ -80,7 +80,7 @@ fof-masquerade:
         'no': Nie
         'yes': Tak
       select:
-        none-optional: 'Nie wybrano żadnej opcji (opcjonalne)'
+        none-optional: 'Nie wybrano żadnej opcji (pole opcjonalne)'
         none-required: 'Wybierz którąś z opcji (wymagane)'
     profile:
       empty-text: 'Ten użytkownik nie uzupełnił jeszcze żadnego pola profilu.'

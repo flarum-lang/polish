@@ -34,7 +34,7 @@ fof-github-sponsors:
       login_help: 'Wpisz swoją nazwę użytkownika GitHub (dla kont użytkowników) lub nazwę organizacji (dla organizacji). Sponsorzy tego konta będą synchronizowani.'
       login_label: Login
       onetime_group_help: 'Wybierz grupę użytkowników Flarum, do której mają być dodawani sponsorzy jednorazowi i byli sponsorzy miesięczni. Jeśli nie zostanie ustawiona, nie będą oni obsługiwani.'
-      onetime_group_label: 'Grupa sponsorów jednorazowych i byłych (opcjonalnie)'
+      onetime_group_label: 'Grupa sponsorów jednorazowych i byłych (opcjonalna)'
       onetime_group_none: Brak
     status:
       heading: 'Stan synchronizacji'

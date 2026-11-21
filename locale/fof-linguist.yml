@@ -61,7 +61,7 @@ fof-linguist:
         and: 'wszystkich wybranych:'
         or: 'dowolnego z wybranych:'
       results: 'Wyświetlono {shown} z {total} pasujących tłumaczeń'
-      search: 'Szukaj tekstu tłumaczenia...'
+      search: 'Szukaj tekstu tłumaczenia…'
       type-options:
         any: 'oryginalne lub własne'
         original: oryginalne

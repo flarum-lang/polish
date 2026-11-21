@@ -70,7 +70,7 @@ ramon-chat:
       retention_title: Retencja
       uploads_help: 'Czy do wiadomości można dołączać pliki, jak duże mogą być i gdzie są przechowywane.'
       uploads_title: Pliki
-      webhooks_help: 'Endpointy zgodne ze Slackiem, przez które zewnętrzna usługa może wysyłać wiadomości na kanał. Adres URL jest wyświetlany tylko raz – podczas tworzenia lub zmiany klucza.'
+      webhooks_help: 'Punkty końcowe zgodne ze Slackiem, przez które zewnętrzna usługa może wysyłać wiadomości na kanał. Adres URL jest wyświetlany tylko raz – podczas tworzenia lub zmiany klucza.'
       webhooks_title: 'Przychodzące webhooki'
     settings:
       allow_archiving_channels: 'Zezwalaj na archiwizowanie kanałów'
@@ -377,7 +377,7 @@ ramon-chat:
       render: 'Nie udało się wyświetlić części czatu.'
       retry: 'Spróbuj ponownie'
     flag:
-      detail: 'Dodatkowe informacje dla moderatorów (opcjonalnie)'
+      detail: 'Dodatkowe informacje dla moderatorów (opcjonalne)'
       detail_placeholder: 'Tylko moderatorzy zobaczą tę treść.'
       detail_required: 'Napisz moderatorom, co jest nie tak'
       failed: 'Nie udało się wysłać zgłoszenia.'

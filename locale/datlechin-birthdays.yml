@@ -20,7 +20,7 @@ datlechin-birthdays:
       sign_up_label: 'Data urodzenia przy rejestracji'
       sign_up_options:
         'off': 'Nie pytaj'
-        optional: 'Pytaj, opcjonalnie'
+        optional: 'Pytaj, opcjonalne'
         required: 'Pytaj, wymagane'
     users:
       birthday_column: '=> datlechin-birthdays.lib.birthday_label'

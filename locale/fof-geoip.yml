@@ -13,7 +13,7 @@ fof-geoip:
       see_country: 'Wyświetlanie kraju pochodzenia adresu IP'
     settings:
       access_key_label: 'Access Key'
-      allow_custom_flag_help: 'Jeśli włączone, użytkownicy mogą z poziomu ustawień profilu wybrać flagę, która będzie widoczna przy ich postach. Taka flaga jest widoczna dla wszystkich i ma pierwszeństwo przed flagą wykrytą na podstawie adresu IP. Wymaga włączonej opcji „Pokazuj flagę kraju przy każdym poście”.'
+      allow_custom_flag_help: 'Po włączeniu tej opcji użytkownicy mogą z poziomu ustawień profilu wybrać flagę, która będzie widoczna przy ich postach. Taka flaga jest widoczna dla wszystkich i ma pierwszeństwo przed flagą wykrytą na podstawie adresu IP. Wymaga włączonej opcji „Pokazuj flagę kraju przy każdym poście”.'
       allow_custom_flag_label: 'Pozwól użytkownikom na wybór własnej flagi kraju'
       database_asn_label: 'Baza ASN'
       database_built: 'utworzono {time}'
@@ -77,7 +77,7 @@ fof-geoip:
       test_service_label_result: 'Usługa:'
       test_status_label: 'Status:'
       test_timestamp_label: 'Znacznik czasu:'
-      testing: Testowanie...
+      testing: Testowanie…
   forum:
     alerts:
       ip_copied: 'Skopiowano adres IP'

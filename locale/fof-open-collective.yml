@@ -27,7 +27,7 @@ fof-open-collective:
       group_help: 'Wybierz grupę użytkowników Flarum, do której mają być dodawani stali darczyńcy. Użytkownicy będą automatycznie dodawani, gdy zaczną regularnie wspierać projekt, i przenoszeni do grupy darczyńców jednorazowych (jeśli została skonfigurowana), gdy ich subskrypcja się zakończy.'
       group_label: 'Grupa stałych wspierających'
       onetime_group_help: 'Wybierz grupę użytkowników Flarum, do której mają być dodawani darczyńcy jednorazowi. Jeśli nie zostanie ustawiona, darczyńcy jednorazowi nie będą obsługiwani. Gdy stały darczyńca anuluje subskrypcję, zostanie przeniesiony do tej grupy.'
-      onetime_group_label: 'Grupa darczyńców jednorazowych (opcjonalnie)'
+      onetime_group_label: 'Grupa darczyńców jednorazowych (opcjonalna)'
       personal_token_help: 'Utwórz token osobisty na stronie <a>https://opencollective.com/applications</a> z zakresami „orders” i „email”, korzystając z konta, które jest administratorem kolektywu. Ten token służy do pobierania z Open Collective informacji o Twoich darczyńcach.'
       personal_token_label: 'Token osobisty'
       slug_help: 'Wpisz slug swojego kolektywu w Open Collective (część adresu URL kolektywu po opencollective.com/).'

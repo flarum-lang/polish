@@ -11,7 +11,7 @@ fof-badges:
     appearance: Wygląd
     assign: Przyznaj
     assign_badge: 'Przyznaj: {badge}'
-    assign_reason: 'Powód (opcjonalnie)'
+    assign_reason: 'Powód (opcjonalny)'
     assign_reason_help: 'Ten powód będzie widoczny przy odznace użytkownika.'
     assign_reason_placeholder: 'Dlaczego ta odznaka jest przyznawana?'
     automatic: Automatyczna
@@ -305,7 +305,7 @@ fof-badges:
       assign_badge: 'Przyznaj odznakę'
       assign_badge_title: 'Przyznaj odznakę użytkownikowi {username}'
       assign_button: 'Przyznaj odznakę'
-      assign_reason: 'Powód (opcjonalnie)'
+      assign_reason: 'Powód (opcjonalny)'
       assign_reason_help: 'Ten powód będzie widoczny przy odznace użytkownika.'
       assign_reason_placeholder: 'Dlaczego ta odznaka jest przyznawana?'
       badge_actions: 'Akcje odznaki'

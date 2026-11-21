@@ -13,10 +13,10 @@ ianm-syndication:
         help: 'Wybierz, który format (Atom lub RSS) powinien być używany w linkach wyświetlanych na forum.'
         label: 'Format kanałów'
       full-text:
-        help: 'Jeśli wyłączone, kanał będzie zawierał tylko fragmenty postów. Aby zobaczyć pełną treść posta, użytkownik musi odwiedzić forum. Rekomendowane jest pozostawienie tej opcji włączonej, aby ułatwić śledzenie forum za pomocą czytników RSS.'
+        help: 'Po wyłączeniu tej opcji kanał będzie zawierał tylko fragmenty postów. Aby zobaczyć pełną treść posta, użytkownik musi odwiedzić forum. Rekomendowane jest pozostawienie tej opcji włączonej, aby ułatwić śledzenie forum za pomocą czytników RSS.'
         label: 'Udostępnij pełną treść'
       html:
-        help: 'Zaznacz, aby wyświetlać HTML w treści kanałów. Jeśli wyłączone, kanały będą zawierały jedynie czysty tekst.'
+        help: 'Zaznacz, aby wyświetlać HTML w treści kanałów. Po wyłączeniu tej opcji kanały będą zawierały jedynie czysty tekst.'
         label: 'Formatowanie kanałów'
   forum:
     autodiscovery:
