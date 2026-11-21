@@ -5,6 +5,17 @@
 maicol07-sso:
   admin:
     settings:
+      client_api_key: 'Klucz API'
+      client_api_key_help: 'Klucz API z Twojej instancji Flarum.'
+      client_name: Nazwa
+      client_name_help: 'Nazwa instancji Flarum'
+      client_password_token: 'Token hasła'
+      client_password_token_help: 'Losowy token hasła używany przy rejestracji w instancji Flarum.'
+      client_url: URL
+      client_url_help: 'URL instancji Flarum'
+      client_verify_ssl: 'Weryfikuj SSL'
+      client_verify_ssl_help: 'Weryfikuj certyfikat SSL instancji Flarum podczas wysyłania do niej żądań (zalecane).'
+      cookies_prefix: 'Prefiks nazw ciasteczek'
       jwt_iss: 'Issuer Domain'
       jwt_section_subtitle: 'Ustawienia JWT'
       jwt_signer_key: 'Signer key'
@@ -13,9 +24,11 @@ maicol07-sso:
       logout_url: 'URL wylogowania'
       manage_account_btn_open_in_new_tab: 'Utwórz panel do zarządzania kontem w nowej karcie'
       manage_account_url: 'URL panelu do zarządzania kontem'
+      provider_mode: 'Włącz tę opcję, aby używać trybu dostawcy (SSO między instancjami Flarum). Pozwala innym instancjom Flarum logować użytkowników tej instancji Flarum. Wyłącza to standardowe SSO z innymi stronami.'
       remove_login_btn: 'Usuń przycisk logowania'
       remove_signup_btn: 'Usuń przycisk rejestracji'
       signup_url: 'URL rejestracji'
       title: 'Ustawienia SSO'
   forum:
     manage_account_btn: 'Zarządzaj kontem'
+    no_login_url_error: 'Nie ustawiono URL logowania – sprawdź ustawienia SSO!'

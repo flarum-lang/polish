@@ -3,9 +3,89 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-keyboard-shortcuts:
+  admin:
+    allow_customization_help: 'Gdy ta opcja jest wyłączona, wszyscy używają klawiszy ustawionych poniżej.'
+    allow_customization_label: 'Pozwól użytkownikom wybierać własne klawisze'
+    behaviour_heading: Działanie
+    bindings_heading: Skróty
+    bindings_help: 'Wybierz skrót, a następnie naciśnij klawisze, które chcesz mu przypisać. Naciśnij drugi klawisz zaraz po pierwszym, aby utworzyć sekwencję, np. G, potem H.'
+    column_binding: Klawisze
+    column_shortcut: Skrót
+    enabled_by_default_help: 'Użytkownicy mogą wyłączyć skróty dla siebie na stronie ustawień.'
+    enabled_by_default_label: 'Włącz skróty klawiszowe'
+    filter_clear_label: 'Wyczyść filtr'
+    filter_placeholder: 'Filtruj skróty'
+    no_results: 'Żaden skrót nie pasuje do „{query}”.'
+    reset_title: 'Resetuj skróty klawiszowe'
+    sequence_timeout_help: 'Jak długo skrót wieloetapowy, taki jak „G, potem H”, czeka na kolejny klawisz, zanim zacznie od nowa.'
+    sequence_timeout_label: 'Limit czasu sekwencji (ms)'
+  forum:
+    customize:
+      group_has_conflict: 'W tej grupie są skróty używające tych samych klawiszy.'
+      help: 'Naciśnij klawisze, które chcesz przypisać do skrótu. Naciśnij drugi klawisz zaraz po pierwszym, aby utworzyć sekwencję, np. G, potem H.'
+      reset_all_button: 'Przywróć domyślne ustawienia forum'
+      saved_message: 'Twoje skróty klawiszowe zostały zapisane.'
+      submit_button: 'Zapisz skróty'
+      title: 'Dostosuj skróty'
+      unsaved: '{count, plural, one {# niezapisana zmiana} few {# niezapisane zmiany} many {# niezapisanych zmian} other {# niezapisanej zmiany}}'
+    modal:
+      customize_button: Dostosuj
+      enabled_label: 'Skróty klawiszowe włączone'
+      filter_clear_label: 'Wyczyść wyszukiwanie'
+      filter_placeholder: 'Szukaj skrótów'
+      no_results: 'Żaden skrót nie pasuje do „{query}”.'
+      title: 'Skróty klawiszowe'
+    settings:
+      customize_button: 'Dostosuj skróty'
+      enabled_label: 'Używaj skrótów klawiszowych'
+      heading: 'Skróty klawiszowe'
+      help: 'Naciśnij {key} w dowolnym miejscu forum, aby zobaczyć pełną listę.'
+      view_button: 'Pokaż skróty'
   lib:
+    binding_or: lub
+    binding_then: potem
+    groups:
+      composer: Edytor
+      discussion: Dyskusja
+      discussionList: 'Lista dyskusji'
+      global: Wszędzie
+      navigation: 'Przejdź do'
+    recorder:
+      clear_label: 'Wyłącz ten skrót'
+      conflict: 'Używany też przez: {shortcuts}.'
+      prompt: 'Naciśnij klawisze…'
+      recording_status: 'Oczekiwanie na klawisze.'
+      reset_label: 'Przywróć domyślny'
+      start_label: 'Nagraj nowy skrót'
+      stop_label: 'Zatrzymaj nagrywanie'
     shortcuts:
+      back: Wróć
+      first_post: 'Przejdź do pierwszego posta'
+      flags: 'Pokaż lub ukryj zgłoszenia'
+      follow: 'Obserwuj lub przestań obserwować'
+      go_home: 'Wszystkie dyskusje'
+      go_notifications: Powiadomienia
+      go_profile: 'Twój profil'
+      go_settings: 'Twoje ustawienia'
+      help: 'Pokaż skróty klawiszowe'
+      last_post: 'Przejdź do ostatniego posta'
+      login: 'Zaloguj się'
       mark_all_as_read: 'Oznacz wszystko jako odczytane'
+      minimize_composer: 'Zminimalizuj edytor'
+      new_discussion: 'Rozpocznij dyskusję'
+      next_discussion: 'Następna dyskusja'
+      next_post: 'Następny post'
+      notifications: 'Pokaż lub ukryj powiadomienia'
+      open_discussion: 'Otwórz zaznaczoną dyskusję'
+      pin_nav: 'Przypnij lub odepnij listę dyskusji'
+      previous_discussion: 'Poprzednia dyskusja'
+      previous_post: 'Poprzedni post'
+      refresh: 'Odśwież listę'
+      rename_discussion: 'Zmień tytuł dyskusji'
       reply: Odpowiedz
       search: Szukaj
+      session: 'Pokaż lub ukryj menu użytkownika'
       signup: 'Zarejestruj się'
+      toggle_full_screen: 'Przełącz tryb pełnoekranowy'
+      toggle_theme: 'Przełącz motyw kolorystyczny'
+    unbound: 'Nie ustawiono'

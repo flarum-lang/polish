@@ -5,9 +5,72 @@
 datitisev-backup:
   admin:
     adapter-settings-modal:
+      aliyun:
+        access-id:
+          description: 'ID Twojego tokena dostępu'
+          label: 'Access ID'
+        access-key:
+          description: 'Klucz Twojego tokena dostępu'
+          label: 'Access Key'
+        bucket:
+          description: 'Bucket, który ma być używany.'
+          label: Bucket
+        endpoint:
+          description: 'URL punktu końcowego magazynu.'
+          label: 'Punkt końcowy'
+        path-prefix:
+          description: 'Opcjonalny domyślny prefiks ścieżki dla plików.'
+          label: 'Prefiks ścieżki'
+      aws:
+        bucket:
+          description: 'Bucket S3, do którego będą przesyłane pliki.'
+          label: Bucket
+        credentials-key:
+          description: 'Klucz poświadczeń AWS'
+          label: Klucz
+        credentials-secret:
+          description: 'Sekret poświadczeń AWS'
+          label: Sekret
+        path-prefix:
+          description: 'Opcjonalny domyślny prefiks ścieżki dla plików.'
+          label: 'Prefiks ścieżki'
+        region:
+          description: 'Region Twojego bucketu.'
+          label: Region
+        version:
+          description: 'Podaj wersję lub pozostaw puste, aby użyć najnowszej.'
+          label: Wersja
+      azure:
+        container:
+          description: 'Kontener Azure'
+          label: Kontener
+        endpoint:
+          description: 'Ciąg połączenia z magazynem Azure.'
+          label: 'Ciąg połączenia'
+        path-prefix:
+          description: 'Opcjonalny domyślny prefiks ścieżki dla plików.'
+          label: 'Prefiks ścieżki'
+      dropbox:
+        help:
+          obtain-access-code-button: 'Otwórz Dropbox'
+          obtain-access-code-label: 'Uzyskaj kod dostępu (wymaga klucza aplikacji)'
+          obtain-refresh-token-button: 'Użyj kodu'
+          obtain-refresh-token-label: 'Użyj kodu dostępu, aby uzyskać token odświeżania (wymaga klucza i sekretu aplikacji)'
+          obtain-refresh-token-success: 'Token odświeżania został uzyskany i uzupełniony powyżej! Zapisz zmiany, aby go zachować.'
+        key:
+          label: 'Klucz aplikacji'
+        refresh-token:
+          description: 'Użyj poniższych pól, aby uzyskać token odświeżania, lub ręcznie wykonaj instrukcje ze strony https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
+          label: 'Token odświeżania'
+        secret:
+          label: 'Sekret aplikacji'
       ftp:
         host:
+          description: 'Nazwa hosta, z którym ma zostać nawiązane połączenie FTP, np. <em>ftp.yourdomain.local</em>.'
           label: 'Nazwa hosta zdalnego'
+        passive:
+          description: 'Określa, czy używać trybu pasywnego dla połączenia FTP.'
+          toggle: 'Tryb pasywny'
         password:
           description: 'Hasło do uwierzytelnienia się na serwerze FTP.'
           label: Hasło
@@ -16,37 +79,82 @@ datitisev-backup:
           label: Port
         root:
           description: 'Zdalna ścieżka katalogu głównego (podkatalog) do przechowywania kopii zapasowych.'
+          label: 'Ścieżka katalogu głównego'
         ssl:
           description: 'Określa, czy ma być używane szyfrowane połączenie SSL z serwerem.'
           toggle: SSL
         timeout:
           description: 'Liczba sekund oczekiwania na połączenie z serwerem FTP.'
+          label: 'Limit czasu'
         username:
           description: 'Nazwa użytkownika do uwierzytelnienia się na serwerze FTP.'
           label: 'Nazwa użytkownika'
       gdrive:
+        client-id:
+          description: "Postępuj zgodnie z instrukcjami na stronie https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, aby utworzyć projekt Google i uzyskać ID klienta oraz sekret klienta.\n"
+          label: 'ID klienta'
+        client-secret:
+          description: ' '
+          label: 'Sekret klienta'
         folder:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'ID folderu'
+        help:
+          test_button: 'Testuj połączenie'
+          test_success_alert: 'Połączono z Google Drive! Zapisz zmiany, aby zachować ustawienia.'
         refresh-token:
-          label: 'Odśwież token'
+          description: "Postępuj zgodnie z instrukcjami na stronie https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, aby uzyskać token odświeżania dla swojej aplikacji Google OAuth.\n"
+          label: 'Token odświeżania'
+        use-display-paths:
+          description: "Google Drive obsługuje historię wersji. Ta opcja używa ścieżki pliku jako jego identyfikatora zamiast losowo wygenerowanego. Gdy jest wyłączona, w tym samym folderze może istnieć wiele plików o tej samej nazwie bez konfliktów. Gdy jest włączona, zapis do istniejącej już ścieżki nadpisze istniejący plik. <br/> <b>UWAGA:</b> Jeśli włączysz tę opcję, zmień ID folderu na wyświetlaną ścieżkę folderu! W przeciwnym razie zostanie utworzony folder o nazwie takiej jak ID folderu.\n"
+          label: 'Używaj ścieżek wyświetlanych (pozwala na nadpisywanie)'
+          toggle: 'Używaj ścieżek wyświetlanych'
       local:
         target:
           description: 'Podaj katalog, w którym chcesz zapisać kopie zapasowe.'
           label: 'Ścieżka docelowa'
+      name_label: 'Nazwa lokalizacji'
+      sftp:
+        host: '=> datitisev-backup.admin.adapter-settings-modal.ftp.host'
+        passphrase:
+          description: 'Hasło do klucza prywatnego, jeśli jest ustawione.'
+          label: 'Hasło klucza'
+        password: '=> datitisev-backup.admin.adapter-settings-modal.ftp.password'
+        port:
+          description: 'Port SFTP (domyślny to 22).'
+          label: Port
+        private-key:
+          description: 'Ścieżka (najlepiej bezwzględna) do klucza prywatnego używanego do uwierzytelniania połączenia SFTP.'
+          label: 'Klucz prywatny'
+        root: '=> datitisev-backup.admin.adapter-settings-modal.ftp.root'
+        timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
+        use-agent:
+          description: 'Określa, czy do uwierzytelniania połączenia używać agenta SSH (domyślnie nie).'
+          toggle: 'Używaj agenta'
+        username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
+      timestamp_help: "Określ format znacznika czasu w nazwach plików kopii zapasowych. Domyślnie jest to <code>U</code> (uniksowy znacznik czasu). Używane jest <a>formatowanie dat PHP</a>. Znaki niedozwolone w nazwach plików zostaną zastąpione. Nazwa pliku będzie miała format <code>{forum}-[sformatowany znacznik czasu].zip</code>.\n"
+      timestamp_label: 'Format znacznika czasu w nazwie pliku'
       title: 'Skonfiguruj {adapter}'
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'
+      aws: 'Amazon AWS S3'
       azure: 'Microsoft Azure'
       dropbox: Dropbox
       ftp: FTP
       gdrive: 'Google Drive'
       local: 'Pamięć lokalna'
       sftp: SFTP
+    create_button: 'Dodaj nowy adapter'
+    delete_button: Usuń
+    delete_confirmation: 'Czy na pewno chcesz usunąć „{name}” ({adapter})?'
     nav:
       description: 'Przechowuj kopie zapasowe swojego forum.'
       label: 'Kopia zapasowa'
     required-package-modal:
+      content: "Aby korzystać z tego sterownika, musisz zainstalować odpowiedni pakiet. Możesz to zrobić, uruchamiając w katalogu instalacji Flarum następujące polecenie Composera: <code>composer require {package}</code>.\n"
       title: 'Potrzebny jest pakiet dla {adapter}'
     required_package_button: Ustaw
+    settings:
+      database_bin_path_help: "Jeśli pliki wykonywalne bazy danych (np. mysqldump, pg_dump) nie znajdują się w ścieżce systemowej (PATH), możesz tutaj podać katalog, w którym się znajdują. Pamiętaj o ukośniku na końcu (np. <code>/usr/local/mysql/bin/</code>).\n"
+      database_bin_path_label: '(Opcjonalnie) Ścieżka do plików wykonywalnych bazy danych'
     settings_button: Konfiguruj

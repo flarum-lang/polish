@@ -9,6 +9,8 @@ datlechin-more-discussions:
       block_name_label: 'Nazwa widżetu'
       discussion_limit_help: 'Liczba dyskusji do wyświetlenia (domyślnie <code>5</code>)'
       discussion_limit_label: 'Limit dyskusji'
+      discussion_related_help: 'Wyszukuj powiązane dyskusje na podstawie tytułu dyskusji. <b>Uwaga:</b> może to znacznie obniżyć wydajność strony, zwłaszcza na dużych forach. Aby temu zaradzić, użyj tej opcji razem z rozszerzeniem <b>clarkwinkelmann/flarum-ext-scout</b>.'
+      discussion_related_label: 'Powiązane wyniki'
       filter_by_help: 'Kolejność dyskusji w widżecie (domyślnie: <code>Ostatnio aktywne</code>)'
       filter_by_label: Sortowanie
       filter_dropdown:

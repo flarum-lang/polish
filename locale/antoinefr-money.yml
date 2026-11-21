@@ -12,14 +12,21 @@ antoinefr-money:
       - 'Gdy post lub dyskusja zostaje ukryta lub przywrócona (domyślne)'
       - 'Gdy post lub dyskusja zostaje usunięta'
     permissions:
+      disable_money_label: 'Wyłączenie pieniędzy'
       edit_money_label: 'Edytuj pieniądze'
     settings:
       autoremove: 'Automatycznie aktualizuj saldo'
+      cascaderemove: 'Odbieraj pieniądze za posty po usunięciu dyskusji'
       helpextensionlikes: 'Wymaga rozszerzenia <code>flarum/likes</code>'
+      helpmoneyname: 'Użyj <code>[money]</code>, aby wstawić wartość'
+      helppostminimumlength: 'Wpisz 0, aby wyłączyć'
+      ignore_notifying_users: 'Przy sprawdzaniu liczby słów w odpowiedziach uwzględniaj tylko właściwą treść'
       moneyfordiscussion: 'Pieniądze przyznane za nową dyskusję'
       moneyforlike: 'Pieniądze przyznane, gdy post zostanie polubiony'
       moneyforpost: 'Pieniądze przyznane za nowy post'
+      moneyname: 'Nazwa dla pieniędzy'
       noshowzero: 'Nie pokazuj, jeśli wartość to zero'
+      postminimumlength: 'Minimalna długość posta kwalifikująca go do otrzymania pieniędzy'
       title: Ustawienia
   forum:
     modal:

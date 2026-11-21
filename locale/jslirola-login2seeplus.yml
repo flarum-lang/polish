@@ -8,6 +8,9 @@ jslirola-login2seeplus:
     hide: Ukryj
     image: Obrazki
     link: Linki
+    link_hide: 'Ukryj cały link'
+    link_mask: 'Ukryj tylko adres docelowy (zachowaj tekst linku)'
+    link_off: 'Nie ukrywaj'
     post:
       title: 'Ukryj treść przekraczającą tę długość (wpisz <em>-1</em>, aby pokazać całość)'
     title: Login2SeePlus

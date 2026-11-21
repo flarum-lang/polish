@@ -16,10 +16,27 @@ datlechin-birthdays:
       required_help: 'Aby ta opcja działała, musisz pozwolić na ustawianie daty urodzenia podczas rejestracji'
       required_label: 'Wymagaj podania daty urodzenia'
       set_on_registration_label: 'Zezwól na ustawianie daty urodzenia podczas rejestracji'
+      sign_up_help: 'Określa, czy formularz rejestracji pyta o datę urodzenia.'
+      sign_up_label: 'Data urodzenia przy rejestracji'
+      sign_up_options:
+        'off': 'Nie pytaj'
+        optional: 'Pytaj, opcjonalnie'
+        required: 'Pytaj, wymagane'
+    users:
+      birthday_column: '=> datlechin-birthdays.lib.birthday_label'
+      no_birthday: 'Nie ustawiono'
   api:
+    future_birthday_message: 'Data urodzenia nie może być z przyszłości.'
     invalid_age_message: 'Twój wiek musi wynosić co najmniej {minAge, plural, one {1 rok} few {# lata} other {# lat}}.'
+    invalid_birthday_filter_message: 'Filtr urodzin przyjmuje datę lub zakres obejmujący maksymalnie {max} dni, np. 2026-06-05..2026-06-11.'
     invalid_dob_message: 'Nieprawidłowa data urodzenia'
+    min_age_message: 'Musisz mieć co najmniej {age, plural, one {# rok} few {# lata} many {# lat} other {# roku}}.'
   forum:
+    badge:
+      birthday_tooltip: 'Dziś ma urodziny'
+    change_birthday:
+      submit_button: '=> core.ref.save_changes'
+      title: '=> datlechin-birthdays.forum.settings.change_birthday_button'
     change_dob:
       date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
       submit_button: '=> core.ref.save_changes'
@@ -27,18 +44,42 @@ datlechin-birthdays:
     edit_user:
       dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
     nav:
+      birthdays_link: '=> datlechin-birthdays.forum.page.title'
       nav_item: 'Dzisiejsze urodziny'
+    notifications:
+      birthday_text: 'Wszystkiego najlepszego z okazji urodzin od wszystkich z forum {forum}!'
     page:
       discussion_count: '{count, plural, one {Dyskusje: #} other {Dyskusje: #}}'
+      empty_text: 'Brak urodzin w najbliższym tygodniu.'
+      load_more_button: '=> core.ref.load_more'
       post_count: '{count, plural, one {Posty: #} other {Posty: #}}'
+      title: Urodziny
+      today_heading: Dzisiaj
+      tomorrow_heading: Jutro
+      turns_text: 'Kończy {age, plural, one {# rok} few {# lata} many {# lat} other {# roku}}'
     settings:
+      add_birthday_button: 'Dodaj datę urodzenia'
+      change_birthday_button: 'Zmień datę urodzenia'
       change_dob_label: 'Zmień datę urodzenia'
       dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
+      notify_birthday_label: 'Składaj mi życzenia urodzinowe'
+      show_age_label: 'Pokazuj mój wiek w profilu'
+      show_birthday_label: 'Pokazuj datę moich urodzin w profilu'
       show_dob_date_label: 'Pokaż dzień i miesiąc urodzin'
       show_dob_year_help: 'Pozwoli to ludziom zobaczyć Twój wiek.'
       show_dob_year_label: 'Pokaż rok urodzenia'
     user:
       age_text: 'Wiek: {age}'
       birthday_text: 'Urodziny: {date}'
+    user_card:
+      age_text: 'Wiek: {age}'
+      birthday_and_age_text: 'Urodziny: {date}, wiek: {age}'
+      birthday_text: 'Urodziny: {date}'
+  lib:
+    birthday_label: 'Data urodzenia'
+    datetime_formats:
+      birthday: 'D MMMM'
+      birthdayWithYear: LL
+      day: 'dddd, D MMMM'
   ref:
     date_of_birth: 'Data urodzenia'

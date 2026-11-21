@@ -11,6 +11,7 @@ michaelbelgium-discussion-views:
   admin:
     permissions:
       reset_views_label: 'Resetowanie liczby wyświetleń'
+      view_list_label: 'Dostęp do list wyświetleń dyskusji (pasek boczny i stopka)'
       view_number_label: 'Dostęp do liczby wyświetleń'
     settings:
       abbr_numbers_label: 'Skróć liczbę wyświetleń („1k” zamiast „1000”)'

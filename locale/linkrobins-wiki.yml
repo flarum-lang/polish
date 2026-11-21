@@ -48,6 +48,7 @@ linkrobins-wiki:
       shortcode_heading: 'Nagłówek (## i ### oznaczają mniejsze nagłówki).'
       shortcode_html: 'Surowy kod HTML w wierszach między znacznikami, np. do osadzenia treści lub widżetu. Zostaje zachowany dokładnie w podanej postaci.'
       shortcode_link: 'Link. Same adresy internetowe również stają się linkami.'
+      shortcode_search: 'Wstawia w tym miejscu układu formularz wyszukiwania w wiki.'
       shortcodes_heading: 'Dostępne shortcode’y'
     layout:
       full_width_help: 'Po włączeniu tej opcji strony wiki będą zajmować pełną szerokość, bez paska bocznego forum. Panel ze spisem treści artykułu pozostanie bez zmian. Ponieważ filtr kategorii znajduje się na pasku bocznym, czytelnicy będą przeglądać kategorie ze strony głównej wiki.'
@@ -134,6 +135,7 @@ linkrobins-wiki:
     common:
       date_at_time: '{date} o {time}'
     compose:
+      attach: 'Dołącz pliki'
       body_label: Treść
       body_placeholder: 'Napisz artykuł. Możesz używać Markdown.'
       body_placeholder_click: 'Kliknij, aby napisać artykuł…'
@@ -161,12 +163,14 @@ linkrobins-wiki:
       title_edit: 'Edytuj artykuł'
       title_label: Tytuł
       title_placeholder: 'Tytuł artykułu'
+      uploading: Przesyłanie…
     confirm:
       delete_forever: 'Trwale usunąć ten artykuł wraz z historią zmian? Tej operacji nie można cofnąć.'
       soft_delete: 'Usunąć ten artykuł? Redaktorzy będą mogli go później przywrócić.'
     errors:
       delete_article: 'Nie udało się usunąć artykułu.'
       delete_article_forever: 'Nie udało się trwale usunąć artykułu.'
+      download_denied: 'Nie masz uprawnień do pobrania tego pliku.'
       empty_body: 'Przed wysłaniem wpisz treść artykułu.'
       load_article: 'Nie udało się wczytać tego artykułu. Mógł zostać usunięty lub nie masz uprawnień do jego wyświetlenia.'
       load_articles: 'Nie udało się wczytać artykułów.'
@@ -188,6 +192,8 @@ linkrobins-wiki:
       see_all_lead: 'Zobacz wszystkie z kategorii'
       uncategorised: Inne
       untitled: 'Bez tytułu'
+    link_preview:
+      articles: '{count, plural, one {# artykuł} few {# artykuły} many {# artykułów} other {# artykułu}}'
     nav: Wiki
     report:
       detail_label: 'Chcesz coś dodać? (opcjonalnie)'
@@ -208,6 +214,7 @@ linkrobins-wiki:
       heading: Wiki
       placeholder: 'Szukaj w wiki'
       results_heading: 'Wyniki wyszukiwania dla „{query}”'
+      submit: Szukaj
     show:
       by: 'Autor: '
       created_tooltip: 'Napisano {date}'
