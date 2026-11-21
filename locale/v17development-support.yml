@@ -87,6 +87,13 @@ v17development-flarum-support:
       description: 'Przepraszamy, ten artykuł lub kategoria nie są już dostępne w tym miejscu.'
       solution: 'Możesz użyć pola wyszukiwania powyżej, aby znaleźć to, czego szukasz.'
       title: 'Element nie został znaleziony'
+    notifications:
+      replied_to_ticket:
+        content: '=> v17development-flarum-support.emails.replied_to_ticket.subject'
+        name: 'Ktoś odpowiedział na moje zgłoszenie'
+      ticket_resolved:
+        content: '=> v17development-flarum-support.emails.ticket_resolved.subject'
+        name: 'Moje zgłoszenie zostało rozwiązane'
     or: lub
     overview:
       back_to: 'Wróć do {category}'
@@ -101,6 +108,7 @@ v17development-flarum-support:
         change_icon: 'Zmień ikonę'
         edit_description: 'Edytuj opis'
         new_article: 'Nowy artykuł'
+        recount_articles: 'Przelicz artykuły'
         rename_category: 'Zmień nazwę kategorii'
     reopen: 'otwórz ponownie'
     return_to_home: 'Wróć do strony głównej bazy wiedzy'
@@ -139,6 +147,10 @@ v17development-flarum-support:
         not_allowed: 'Obecnie nie możesz otworzyć nowego zgłoszenia'
         private_support: 'W przypadku pomocy prywatnej możesz użyć tego formularza, aby utworzyć nowe zgłoszenie na naszej platformie. W przypadku innych niż prywatne sprawy odwiedź <a>nasze forum</a>.'
         title: 'Utwórz nowe zgłoszenie'
+      convert_to_discussion:
+        button: 'Konwertuj na dyskusję'
+        confirm: 'Czy na pewno chcesz przekształcić to zgłoszenie w publiczną dyskusję? Jeśli ktoś udostępnił w nim prywatne informacje, one również staną się publiczne.'
+        event: "Zgłoszenie {ticket_title} zostało przekształcone w dyskusję\n\nCzy chcesz teraz przejść do tej dyskusji?\n"
       convert_to_ticket:
         button: 'Konwertuj na zgłoszenie'
         confirm: 'Czy na pewno chcesz przekształcić tę dyskusję w zgłoszenie?'
@@ -155,6 +167,12 @@ v17development-flarum-support:
           empty: 'Nie wybrano języka'
           placeholder: 'Wybierz język'
           title: Język
+        private_note:
+          edit_button: 'Edytuj notatkę'
+          info: 'Prywatne notatki są widoczne tylko dla innych konsultantów pomocy technicznej. Klient ich nie widzi.'
+          placeholder: 'Przykład: 1 stycznia 2022 – Imię konsultanta: usunięto klienta z bazy danych'
+          tip: 'WSKAZÓWKA: Jeśli nad jednym zgłoszeniem pracuje kilku konsultantów, dodawaj do notatki swoje imię i datę.'
+          title: 'Prywatne notatki'
         status:
           placeholder: 'Status zgłoszenia'
           title: Status
@@ -177,7 +195,26 @@ v17development-flarum-support:
       overview:
         all_tickets: 'Wszystkie zgłoszenia'
         description: 'Uśmiechnij się, jesteś bohaterem, który ratuje innym ludziom ich dzień.'
+        filter:
+          assignees:
+            search: 'Szukaj przypisanej osoby'
+            title: 'Filtruj według przypisanych osób'
+            unassigned: Nieprzypisane
+          language:
+            any: 'Dowolny język'
+          status:
+            filter_count: '{count, plural, one {# filtr} few {# filtry} many {# filtrów} other {# filtra}}'
+            title: 'Status zgłoszenia'
         no_tickets: 'Nie ma zgłoszeń spełniających Twoje kryteria, prawdopodobnie wykonujesz dobrą robotę!'
+        refresh: Odśwież
+        selection_closed: 'Zamknięte zgłoszenia'
+        selection_open: 'Otwarte zgłoszenia'
+        selection_unfiltered: 'Bez filtrów'
+        sort:
+          least_recent: 'Najdawniejsza aktywność'
+          newest: 'Od najnowszych'
+          oldest: 'Od najstarszych'
+          recent_activity: 'Ostatnia aktywność'
         title: 'Przegląd zgłoszeń'
       reminders_sent: '{count, plural, one {Wysłano przypomnienie} few {# wysłane przypomnienia} other {# wysłanych przypomnień}}'
       return_to_overview: 'Wróć do przeglądu zgłoszeń'
@@ -217,6 +254,7 @@ v17development-flarum-support:
         assign_me: 'Przypisz do mnie'
         close_ticket: 'Zamknij zgłoszenie'
         remove_me: 'Usuń mnie'
+        update_note: 'Zaktualizuj prywatną notatkę'
         update_status: 'Zaktualizuj status zgłoszenia'
         update_subject: 'Zaktualizuj temat'
         view_ticket: 'Zobacz zgłoszenie'

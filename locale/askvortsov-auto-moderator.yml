@@ -5,8 +5,50 @@
 askvortsov-auto-moderator:
   admin:
     action_drivers:
+      activate_email: 'Aktywuj adres e-mail'
       add_to_group: 'Dodaj do grupy'
       remove_from_group: 'Usuń z grupy'
+      suspend: Zbanuj
+      unsuspend: Odbanuj
+    automoderator_instructions:
+      header: 'Instrukcja rozszerzenia'
+      text: "<li>W skrócie: gdy użytkownik spełnia kryterium X, wykonaj Y. Gdy użytkownik przestaje spełniać kryterium X, wykonaj Z.</li>\n<li><strong>Kryteria:</strong> Kryteria są podstawą tego rozszerzenia. To dowolne zestawy metryk i wymagań. Gdy użytkownik zaczyna spełniać kryterium, wykonywane są wszystkie jego działania „przy spełnieniu”. Gdy użytkownik przestaje spełniać kryterium, wykonywane są wszystkie jego działania „przy utracie”.</li>\n<ul>\n  <li><strong>Metryka:</strong> Warunek liczbowy, np. liczba postów lub otrzymanych polubień. Kryterium może wymagać określonego zakresu, minimum lub maksimum metryk.</li>\n  <li><strong>Wymaganie:</strong> Abstrakcyjny warunek logiczny, np. brak bana lub adres e-mail pasujący do określonego wyrażenia regularnego.</li>\n</ul>\n<li><strong>Działania:</strong> Coś, co dzieje się automatycznie, gdy kryterium zostaje spełnione lub utracone – od dodania lub usunięcia grupy, przez wysłanie e-maila, po zbanowanie użytkownika.</li>\n<li><strong>Wyzwalacz:</strong> Zestaw zdarzeń, które powodują ponowną ocenę kryteriów użytkownika. Wyzwalacze są częścią definicji metryk i wymagań. Wszystkie kryteria są oceniane przy logowaniu – to „uniwersalny wyzwalacz”.</li>\n<li>Działania „przy utracie” są zawsze wykonywane przed działaniami „przy spełnieniu”. Dzięki temu działanie zostanie wykonane, dopóki użytkownik spełnia co najmniej jedno z kryteriów, które wykonują to działanie przy spełnieniu.</li>\n<li>Pamiętaj, że działania są wykonywane tylko „przy utracie” i „przy spełnieniu”. Ręczne zmiany wprowadzone, gdy użytkownik spełnia kryterium, nie spowodują ponownego wykonania jego działań „przy spełnieniu”.</li>\n<li>Jeśli usuniesz kryterium, działania „przy utracie” NIE zostaną wykonane dla użytkowników, którzy obecnie je spełniają.</li>\n<li>Jeśli używasz kryteriów do zarządzania grupami, zalecamy utrzymywanie osobnego zestawu grup zarządzanych wyłącznie przez kryteria. Nie będzie można ręcznie dodawać użytkowników do tych grup ani ich z nich usuwać.</li>\n"
+    automoderator_page:
+      create_criterion_button: 'Utwórz nowe kryterium'
+      criterion_invalid: 'Kryterium jest obecnie nieprawidłowe. Więcej informacji znajdziesz w jego ustawieniach'
+      list_heading: Kryteria
+    criterion_page:
+      actions_help: 'Działania przy spełnieniu są wykonywane, gdy użytkownik zaczyna spełniać kryterium. Działania przy utracie są wykonywane, gdy użytkownik przestaje spełniać kryterium.'
+      actions_label: Działania
+      actions_on_gain_heading: 'Działania przy spełnieniu'
+      actions_on_loss_heading: 'Działania przy utracie'
+      add_action: 'Dodaj działanie'
+      add_metric: 'Dodaj metrykę'
+      back: 'Wróć do listy kryteriów'
+      delete_button: '=> core.ref.delete'
+      description_label: Opis
+      driver_missing_ext: 'Ten sterownik wymaga rozszerzeń, które nie są włączone.'
+      icon_label: Ikona
+      loading: '=> core.ref.loading'
+      metrics_and_requirements_help: 'Określają, czy użytkownicy spełniają to kryterium. Metryki to zakresy wartości, a wymagania to warunki logiczne (prawda/fałsz).'
+      metrics_and_requirements_label: 'Metryki i wymagania'
+      metrics_heading: Metryki
+      name_label: Nazwa
+      negated: 'Odwrócić warunek?'
+      new_criterion: 'Utwórz kryterium'
+      requirements_heading: Wymagania
+    criterion_status:
+      action_validation_errors: 'Wystąpiły następujące błędy walidacji sterowników działań:'
+      heading: 'Sprawdzenie statusu'
+      invalid: 'Kryterium jest obecnie nieprawidłowe. Sprawdź poniższe sterowniki pod kątem błędów.'
+      no_actions: 'Dla tego kryterium nie zdefiniowano żadnych działań. Nic się nie stanie, gdy użytkownicy zaczną lub przestaną spełniać to kryterium.'
+      no_metrics_or_reqs: 'Dla tego kryterium nie zdefiniowano żadnych metryk ani wymagań. Oznacza to, że WSZYSCY użytkownicy będą je spełniać.'
+      requirement_validation_errors: 'Wystąpiły następujące błędy walidacji sterowników wymagań:'
+      valid: 'To kryterium jest prawidłowe!'
+    group_selector:
+      placeholder: 'Wybierz grupę'
+    in_group_settings:
+      regex: 'Wyrażenie regularne dla prawidłowych adresów e-mail (bez ukośników)'
     metric_drivers:
       best_answers: 'Najlepsze odpowiedzi'
       discussions_entered: 'Odwiedzone dyskusje'
@@ -14,4 +56,21 @@ askvortsov-auto-moderator:
       discussions_started: 'Rozpoczęte dyskusje'
       likes_given: 'Rozdane polubienia'
       likes_received: 'Otrzymane polubienia'
+      moderator_strikes: 'Punkty karne z ostrzeżeń moderatorów'
       posts_made: 'Dodane posty'
+    requirement_drivers:
+      email_confirmed: 'Potwierdzony adres e-mail'
+      email_matches_regex: 'Adres e-mail pasuje do wyrażenia regularnego'
+      in_group: 'W grupie'
+      suspended: Zbanowany
+    suspend_selector:
+      days: 'Liczba dni bana'
+      indefinitely: 'Zbanować na czas nieokreślony?'
+    undefined_driver_item:
+      text: 'BŁĄD! Sterownik <strong>{driverName}</strong> nie jest zdefiniowany. Najprawdopodobniej został dodany przez rozszerzenie, które nie jest obecnie zainstalowane. Aby kryterium znów było prawidłowe, musisz ponownie włączyć to rozszerzenie lub usunąć ten sterownik.'
+  lib:
+    group_id: 'ID grupy'
+    managed_groups:
+      group_item: '<badge></badge> {groupName}'
+      groups_not_editable: 'Grup zarządzanych przez kryteria automatycznej moderacji nie można ręcznie przypisywać użytkownikom ani im odbierać, aby uniknąć niespójności.'
+      header: 'Zarządzane grupy:'

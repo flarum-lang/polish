@@ -90,6 +90,7 @@ gtdxyz-flarum-badges:
       select_limit: 'Możesz wybrać {limit, plural, one {<b>jedną odznakę</b> widoczną} few {<b># odznaki</b> widoczne} other {<b># odznak</b> widocznych}} w Twoim profilu.'
       title: 'Odznaki w profilu użytkownika'
     give_badge: 'Przyznaj odznakę'
+    hidden_badges: 'Ten użytkownik nie wyświetla jeszcze odznak.'
     moderation:
       give_badge: 'Przyznaj odznakę'
       remove_badge: 'Odbierz odznakę użytkownikowi'

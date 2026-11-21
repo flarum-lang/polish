@@ -2,10 +2,44 @@
 # Use https://weblate.rob006.net/projects/flarum/datitisev-maintenance/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  lib:
+    error:
+      maintenance_message: 'Forum jest obecnie w trybie konserwacji.'
 datitisev-maintenance:
   admin:
     dashboard:
       disable_maintenance_mode_button: 'Wyłącz tryb konserwacji'
       enable_maintenance_mode_button: 'Włącz tryb konserwacji'
+    permissions:
+      allow_bypass_maintenance_label: 'Omijanie trybu konserwacji (wymaga włączenia ustawienia)'
     settings:
+      active_label: 'Stan trybu konserwacji'
+      allow_bypass_hint: 'Nie działa, gdy baza danych jest niedostępna. Dotyczy forum i API (chyba że API zostało całkowicie wyłączone w <code>config.php</code>). Gdy ta opcja jest wyłączona, administratorzy nadal mają dostęp do API (chyba że API zostało całkowicie wyłączone), aby nie zablokować sobie dostępu.'
+      allow_bypass_label: 'Pozwól na omijanie trybu konserwacji forum i API na podstawie uprawnień'
+      disable_admin_label: 'Wyłącz dostęp do panelu administracyjnego'
+      disable_api_label: 'Wyłącz cały dostęp do API'
+      error_page_file_hint: 'Ścieżka względem katalogu głównego Flarum – tego, w którym znajdują się <code>vendor</code> i <code>storage</code>.'
+      error_page_file_label: 'Ścieżka do pliku strony błędu'
+      error_page_hint: 'W szablonie Blade możesz używać zmiennych $app, $translator, $settings, $title i $message.'
+      error_page_label: 'Kod HTML/Blade strony błędu'
+      force_disable_label: 'Wymuś wyłączenie trybu konserwacji niezależnie od sposobu jego włączenia.'
+      message_label: 'Treść strony błędu'
+      prefer_db_hint: 'Zwykle wartości z <code>config.php</code> nadpisują te widoczne tutaj. Włącz tę opcję, aby to te ustawienia nadpisywały wartości z pliku konfiguracyjnego – będą one wtedy używane tylko wtedy, gdy baza danych jest niedostępna.'
+      prefer_db_label: 'Preferuj ustawienia z bazy danych zamiast ustawień z <code>config.php</code>'
+      settings_notice: 'Te ustawienia mogą nie być obecnie stosowane. Upewnij się, że nie są nadpisywane przez <code>config.php</code>.'
+      status_disabled: 'Tryb konserwacji jest obecnie wyłączony'
+      status_enabled: 'Tryb konserwacji jest obecnie włączony'
+      status_force_disabled: '(wymuszone wyłączenie przez <code>config.php</code>)'
+      status_via_config: '(przez <code>config.php</code>)'
+      status_via_database: '(przez bazę danych)'
       title: 'Tryb konserwacji'
+      title_label: 'Tytuł strony błędu'
+  lib:
+    maintenance_active_disabled_api_message: 'API jest obecnie wyłączone dla wszystkich.'
+    maintenance_active_message: 'Na forum trwają obecnie prace konserwacyjne.'
+    maintenance_active_not_db_message: 'Tryb konserwacji jest włączony przez <code>config.php</code>.'
+  views:
+    error:
+      message: 'Obecnie trwają prace konserwacyjne. Wkrótce wrócimy!'
+      title: 'Prace konserwacyjne'

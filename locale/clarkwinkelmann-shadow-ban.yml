@@ -11,6 +11,8 @@ clarkwinkelmann-shadow-ban:
       hideUsers: 'Ukryj profile użytkowników, które otrzymały shadow bana'
   forum:
     badge:
+      discussion: 'Ukryte w trybie shadow'
+      post: 'Ukryte w trybie shadow'
       user: 'Nałożony shadow ban'
     banUser:
       quick: 'Szybkie wybory'
@@ -21,5 +23,9 @@ clarkwinkelmann-shadow-ban:
       until: 'Do daty (UTC)'
     discussionControl:
       hide: 'Shadow ukrywanie'
+      restore: 'Shadow przywracanie'
+    postControl:
+      hide: 'Shadow ukrywanie'
+      restore: 'Shadow przywracanie'
     userControl:
       ban: 'Shadow ban'

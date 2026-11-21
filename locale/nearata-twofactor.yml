@@ -7,6 +7,7 @@ nearata-twofactor:
     permissions:
       can_enable_twofactor: 'Włączenie uwierzytelniania dwuskładnikowego'
     settings:
+      generate_app_backups: 'Generuj kody zapasowe aplikacji'
       generate_backups: 'Generuj kody zapasowe.'
   forum:
     invalid_twofa_code: 'Nieprawidłowy kod.'
@@ -15,6 +16,42 @@ nearata-twofactor:
       otp_placeholder: 'Kod uwierzytelnienia dwuskładnikowego'
       submit_button: 'Zaloguj się'
       title: 'Uwierzytelnianie dwuskładnikowe'
+    login:
+      app:
+        invalid_passcode: 'Nieprawidłowy kod.'
+        passcode_placeholder: '6-cyfrowy kod'
+      auth_buttons:
+        app: 'Aplikacja uwierzytelniająca'
+      placeholder_label: 'Wybierz metodę uwierzytelniania…'
+      submit_button_label: 'Zaloguj się'
+      title: 'Uwierzytelnianie dwuskładnikowe'
+    settings:
+      app:
+        button_help: 'Kod dostępu otrzymasz w aplikacji uwierzytelniającej.'
+        button_label: 'Aplikacja uwierzytelniająca'
+        setup:
+          close_button_label: Zamknij
+          disable:
+            button_label: Wyłącz
+            enter_code_disable: 'Wprowadź kod, aby wyłączyć aplikację do uwierzytelniania dwuskładnikowego.'
+            success: 'Aplikacja uwierzytelniająca została wyłączona.'
+          enable:
+            backups:
+              copy_button_label: Kopiuj
+              download_button_label: Pobierz
+              download_file_format: "{website_title} | {website_url}\n\nPrzechowuj te kody zapasowe w bezpiecznym, ale dostępnym miejscu.\n\nLISTA KODÓW\n\n{codes}\n\n* Każdego kodu zapasowego możesz użyć tylko raz.\n* Kody MUSZĄ być użyte w podanej kolejności.\n* Data wygenerowania kodów: {date}.\n"
+              message: "Przechowuj te kody odzyskiwania w bezpiecznym miejscu. Jeśli utracisz urządzenie z uwierzytelnianiem dwuskładnikowym, możesz użyć tych jednorazowych kodów w podanej kolejności, aby zalogować się na swoje konto.\n"
+            button_label: Włącz
+            enter_code_manually: 'Zamiast tego wprowadź klucz ręcznie'
+            scan_qr: 'Zeskanuj ten kod QR za pomocą urządzenia do uwierzytelniania dwuskładnikowego, aby skonfigurować swoje konto.'
+            success: 'Aplikacja uwierzytelniająca została włączona.'
+          invalid_passcode: 'Nieprawidłowe hasło lub kod.'
+          passcode_placeholder: '6-cyfrowy kod'
+          password_placeholder: Hasło
+          title: 'Konfiguracja aplikacji uwierzytelniającej'
+      configured: Skonfigurowane
+      not_configured: Nieskonfigurowane
+      section_title: 'Uwierzytelnianie dwuskładnikowe'
     setup_button: 'Uwierzytelnianie dwuskładnikowe'
     setup_modal:
       backups:
@@ -34,3 +71,10 @@ nearata-twofactor:
         disable: Wyłącz
         enable: Włącz
       title: 'Uwierzytelnianie dwuskładnikowe'
+  lib:
+    edit_user:
+      app:
+        label: 'Aplikacja uwierzytelniająca'
+      disable_confirmation: 'Czy na pewno chcesz wyłączyć tę metodę uwierzytelniania dla tego użytkownika?'
+      placeholder_text: 'Brak metod do wyłączenia'
+      section_title: 'Uwierzytelnianie dwuskładnikowe'

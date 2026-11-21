@@ -4,7 +4,10 @@
 
 flarum-ext-welcomebox:
   admin:
+    UseWidget: 'Użyj wersji widżetu'
     enablepostbox: 'Włącz baner powitalny dla gości'
+    img: 'URL obrazka (baner dla gości)'
+    img-help: 'Podaj URL obrazka dla banera gości'
   forum:
     SettingsLink: Ustawienia
     discussion: '=> core.ref.discussions'

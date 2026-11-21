@@ -17,16 +17,21 @@ clarkwinkelmann-catch-the-fish:
       discussion: Dyskusje
       discussion-age: 'Jak stare mogą być dyskusje, aby móc umieścić na nich rybę (dni)'
       discussion-tags: 'Biała lista tagów'
+      discussion-tags-help: "Jeśli nie wybierzesz żadnego tagu, może zostać wybrana dowolna dyskusja spełniająca powyższe ustawienia czasu. Jeśli wybierzesz tagi, dyskusja musi mieć co najmniej jeden z nich, aby mogła zostać wybrana. Prawdopodobieństwo to szansa na wybór po wypróbowaniu wszystkich wcześniejszych opcji. Ostatni tag na liście zawsze pełni funkcję rezerwową, więc upewnij się, że zawiera co najmniej jedną pasującą dyskusję.\n"
       discussion-tags-unavailable: 'Ustawienie nie jest dostępne, ponieważ rozszerzenie obsługujące tagi nie jest włączone.'
       general: Ogólne
       post: Posty
       post-age: 'Jak stare mogą być posty, aby móc umieścić na nich rybę (dni)'
+      post-probability: 'Prawdopodobieństwo umieszczenia w poście zamiast w dyskusji (%)'
       tags-control:
         add: 'Dodaj do białej listy'
         choose: 'Wybierz tag'
         delete: 'Usuń z białej listy'
         down: 'Przenieś niżej'
         up: 'Przenieś wyżej'
+      tags-fallback:
+        last-line: Rezerwowy
+        single-line: 'Do ustawienia prawdopodobieństwa wymagane są co najmniej 2 tagi'
       tags-header:
         probability: Prawdopodobieństwo
         tag: Tag

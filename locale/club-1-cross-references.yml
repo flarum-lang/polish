@@ -8,6 +8,7 @@ club-1-cross-references:
       help: 'Konwertuje #<ID> w treści postów (np. #42) na odnośniki do powiązanych dyskusji.'
       label: 'Włącz krótkie odnośniki'
     retrofit_links_in_frontend:
+      help: "<p><strong>Przestarzałe</strong> (zostanie usunięte w <code>v1.2.0</code>). Zamiast tego rozważ użycie polecenia <code>chore:reparse</code> z rozszerzenia <code>club-1/flarum-ext-chore-commands</code>. Zobacz: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Wyświetla tytuły dyskusji w linkach w postach wysłanych, gdy to rozszerzenie nie było włączone. Odbywa się to po stronie przeglądarki, więc może pogorszyć komfort korzystania z forum.</p>\n"
       label: 'Przekształć w locie stare linki'
     show_discussion_id:
       help: 'Dodaje ID dyskusji na liście dyskusji oraz przy odniesieniach.'

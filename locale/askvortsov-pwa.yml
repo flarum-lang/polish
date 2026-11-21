@@ -22,6 +22,12 @@ askvortsov-pwa:
         heading: Kolory
         theme_color_label: 'Kolor motywu'
         theme_color_text: 'Ten kolor jest wykorzystywany w niektórych sytuacjach podczas wyświetlania Twojej aplikacji. Na przykład przełącznik aplikacji w Androidzie użyje go jako kolor wokół strony.'
+      firebase_config:
+        heading: Firebase
+        help_text: 'Aby obsługiwać powiadomienia push po opublikowaniu aplikacji w App Store, musisz dodać do niej powiadomienia push za pomocą Firebase. Wygeneruj plik konfiguracyjny usługi Firebase (Service Config) i prześlij go tutaj.'
+        see_documentation_here: 'Zobacz dokumentację'
+        upload_file: 'Prześlij plik'
+        upload_successful: 'Konfiguracja Firebase została przesłana'
       heading: 'Konfiguracja Progressive Web App'
       logo_heading: 'Loga i ikony'
       logo_size_text: 'Prześlij logo, które zostanie przeskalowane do rozmiaru {size} na {size} pikseli.'
@@ -40,6 +46,8 @@ askvortsov-pwa:
         push_notif_preference_default_to_email_text: 'Jeśli zaznaczone, użytkownicy będą mieli domyślnie włączone powiadomienia push dla wszystkich typów zdarzeń, dla których powiadomienia e-mail są domyślnie włączone. W przeciwnym razie wszystkie powiadomienia push będą domyślnie wyłączone.'
         user_max_subscriptions_label: 'Maksymalna liczba subskrypcji push na użytkownika'
         user_max_subscriptions_text: 'Ile jednocześnie aktywnych subskrypcji może mieć każdy użytkownik? Gdy użytkownik otrzymuje powiadomienie push, każda subskrypcja skutkuje wysłaniem żądania do API. Każda subskrypcja zwykle odpowiada przeglądarce, z której korzysta użytkownik.'
+        window_controls_overlay_label: 'Włączyć Window Controls Overlay?'
+        window_controls_overlay_text: "Jeśli zaznaczone, użytkownicy mogą uzyskać bardziej immersyjny wygląd, zbliżony do natywnej aplikacji, dzięki ukryciu natywnego paska tytułu. To, czy Window Controls Overlay zostanie włączone, zależy od preferencji użytkownika i obsługi przez przeglądarkę. Po włączeniu musisz dostosować pasek tytułu, dodając własny kod CSS/JS – w przeciwnym razie przyciski okna zasłonią część elementów górnego paska nawigacji forum, a okna praktycznie nie da się przeciągać, co pogorszy komfort korzystania.\n\nZobacz też: <compatibilitylink>Obsługa Window Controls Overlay w przeglądarkach</compatibilitylink> i <learnlink>Window Controls Overlay w Microsoft Learn</learnlink>\n"
       refreshed_message: 'Konfiguracja PWA została pomyślnie odświeżona.'
       status_check_heading: Status
       submit_button: 'Zapisz ustawienia'
