@@ -13,7 +13,7 @@ huseyinfiliz-diff:
     settings:
       archiveInfo: 'Pamiętaj, że możesz wyłączyć obie opcje i ręcznie uruchomić polecenie <code>php flarum diff:archive</code>, aby zarchiwizować stare rewizje.'
       archiveOlds: 'Archiwizuj stare rewizje'
-      archiveOldsInfo: 'Jeśli <strong>x ≥ A</strong>, pierwsze <strong>y=mx+b</strong> rewizji posta zostanie zapisanych jako scalone i skompresowane. <strong>x</strong> oznacza liczbę rewizji posta. Wartości zmiennoprzecinkowe <strong>y</strong> są zaokrąglane w dół do najbliższej liczby całkowitej.'
+      archiveOldsInfo: 'Jeśli <strong>x ≥ A</strong>, pierwszych <strong>y=mx+b</strong> rewizji posta zostanie zapisanych w postaci scalonej i skompresowanej. <strong>x</strong> oznacza liczbę rewizji posta. Wartości zmiennoprzecinkowe <strong>y</strong> są zaokrąglane w dół do najbliższej liczby całkowitej.'
       charLevel: Znak
       dbOptimisation: 'Optymalizacja bazy danych'
       detailLevel: 'Poziom szczegółowości'
