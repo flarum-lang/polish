@@ -7,7 +7,27 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (3 added, 100% complete)
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod) (48 added, 100% complete)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) (7 added, 100% complete)
+* [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml) (8 added, 100% complete)
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish) (4 added, 100% complete)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) (11 added, 100% complete)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless) (11 added, 100% complete)
+* [`clarkwinkelmann/flarum-ext-shadow-ban`](https://github.com/clarkwinkelmann/flarum-ext-shadow-ban) (5 added, 100% complete)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references) (1 added, 100% complete)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (53 added, 1 changed, 100% complete)
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance) (27 added, 100% complete)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions) (2 added, 100% complete)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges) (1 added, 100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (1 changed, 100% complete)
+* [`ianm/syndication`](https://github.com/imorland/syndication) (4 added, 100% complete)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) (3 added, 100% complete)
+* [`katosdev/signature`](https://github.com/katosdev/signature) (4 added, 100% complete)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) (13 added, 100% complete)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday) (10 added, 100% complete)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor) (32 added, 100% complete)
+* [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support) (28 added, 100% complete)
 
 
 All changes: [1.10.19...1.10.20](https://github.com/flarum-lang/polish/compare/1.10.19...1.10.20).
