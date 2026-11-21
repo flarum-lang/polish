@@ -59,7 +59,7 @@ fof-gamification:
         icon_preview_downvote: 'Ocena negatywna'
         icon_preview_upvote: 'Ocena pozytywna'
         points_placeholder: 'Punkty: '
-        points_title: 'Placeholder dla punktów'
+        points_title: 'Etykieta punktów'
         rate_limit: 'Wymuś ograniczenie szybkości głosowania (10 sekund)'
         title: Głosy
         upvotes_only: 'Pozwól jedynie na głosy pozytywne'

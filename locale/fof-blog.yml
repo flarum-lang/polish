@@ -66,7 +66,7 @@ fof-blog:
           helper_text: 'Wyświetl duży obraz dla tego posta na podstronie przeglądu bloga.'
           title: 'Wyróżniony post'
         image:
-          helper_text: 'Najlepsza rozdzielczość dla mediów społecznościowych to 1200x630.'
+          helper_text: 'Najlepsza rozdzielczość dla mediów społecznościowych to 1200×630.'
           title: 'Obraz artykułu'
         summary:
           helper_text: 'To podsumowanie będzie widoczne na podstronie przeglądu bloga oraz będzie wykorzystywane do celów związanych z SEO.'

@@ -357,9 +357,9 @@ ramon-chat:
       full_screen: 'Otwórz na pełnym ekranie'
       title: Czat
     duration:
-      hours: '{count}godz.'
-      minutes: '{count}min'
-      seconds: '{count}s'
+      hours: '{count} godz.'
+      minutes: '{count} min'
+      seconds: '{count} s'
     edit_channel:
       archive_confirm: 'Zarchiwizować ten kanał? Jego historia zostanie skopiowana do dyskusji, a kanał zostanie zamrożony do czasu przywrócenia go z archiwum.'
       failed: 'Nie udało się zapisać zmian.'
