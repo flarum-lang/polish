@@ -7,6 +7,12 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (7 added, 100% complete)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (75 added, 1 changed, 100% complete)
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) (3 added, 100% complete)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (33 added, 100% complete)
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) (73 added, 100% complete)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions) (2 added, 100% complete)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 100% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (8 added, 100% complete)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (3 added, 100% complete)
@@ -18,7 +24,18 @@ CHANGELOG
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) (5 added, 100% complete)
 * [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (8 added, 3 changed, 100% complete)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (2 added, 100% complete)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) (9 added, 100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (4 added, 1 changed, 100% complete)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (3 added, 100% complete)
+* [`ianm/html-head`](https://github.com/imorland/html-head) (61 added, 100% complete)
+* [`ianm/syndication`](https://github.com/imorland/syndication) (4 added, 100% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (1 added, 100% complete)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) (3 added, 100% complete)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) (4 added, 100% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (6 added, 100% complete)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) (13 added, 100% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 added, 100% complete)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) (4 added, 100% complete)
 
 
 All changes: [2.0.13...2.0.14](https://github.com/flarum-lang/polish/compare/2.0.13...2.0.14).
