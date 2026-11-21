@@ -13,14 +13,14 @@ fof-polls:
       start: 'Tworzenie ankiet'
       start_global: 'Tworzenie globalnych ankiet'
       start_group: 'Tworzenie grup ankiet'
-      upload_images: 'Przesyłanie obrazków do ankiet'
+      upload_images: 'Przesyłanie obrazów do ankiet'
       view_group: 'Wyświetlanie grup ankiet'
       view_results_without_voting: 'Podglądanie wyników bez zagłosowania'
       vote: 'Głosowanie w ankietach'
     settings:
-      allow_image_uploads: 'Pozwól na przesyłanie obrazków do ankiet i opcji wyboru'
-      allow_image_uploads_help: 'Jeśli włączone, użytkownicy będą mogli przesyłać obrazki z dysku, niezależnie od możliwości podania adresu URL obrazka (jeśli włączone dla opcji wyboru, dla samej ankiety jest to zawsze włączone).'
-      allow_option_image: 'Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie'
+      allow_image_uploads: 'Pozwól na przesyłanie obrazów do ankiet i opcji wyboru'
+      allow_image_uploads_help: 'Po włączeniu tej opcji użytkownicy będą mogli przesyłać obrazy z dysku, niezależnie od możliwości podania adresu URL obrazu (jeśli włączone dla opcji wyboru, dla samej ankiety jest to zawsze włączone).'
+      allow_option_image: 'Pozwól na podanie URL obrazu dla każdej opcji wyboru w ankiecie'
       enable_global_polls: 'Włącz globalne ankiety'
       enable_global_polls_help: 'Globalne ankiety nie są powiązane z konkretnym postem i można uzyskać do nich dostęp z dedykowanej strony ankiet.'
       enabled_poll_groups: 'Włącz grupy ankiet'
@@ -32,10 +32,10 @@ fof-polls:
         heading: 'Globalne ankiety'
         help: 'Te ustawienia kontrolują funkcję globalnych ankiet.'
       image:
-        heading: 'Ustawienia obrazków'
-        help: 'Te ustawienia kontrolują działanie obrazków w ankietach.'
-      image_height: 'Zmień wysokość obrazka'
-      image_width: 'Zmień szerokość obrazka'
+        heading: 'Ustawienia obrazów'
+        help: 'Te ustawienia kontrolują działanie obrazów w ankietach.'
+      image_height: 'Zmień wysokość obrazu'
+      image_width: 'Zmień szerokość obrazu'
       max_options: 'Maksymalna liczba opcji w ankiecie'
       options_color_blend: 'Mieszanie kolorów tekstu w opcjach ankiety'
       options_color_blend_help: 'Włącz, aby użyć mieszania kolorów w celu poprawy czytelności opcji ankiety. Wyłącz, jeśli ta funkcja psuje wygląd forum i zmniejsza czytelność.'
@@ -69,14 +69,14 @@ fof-polls:
       add_title: 'Dodaj ankietę'
       allow_change_vote_label: 'Pozwól użytkownikom zmienić swój głos'
       allow_multiple_votes_label: 'Pozwól użytkownikom głosować na wiele opcji'
-      date_placeholder: 'Data zakończenia ankiety (opcjonalne)'
+      date_placeholder: 'Data zakończenia ankiety (opcjonalna)'
       delete: '=> core.ref.delete'
       edit_title: 'Edytuj ankietę'
       empty_answers: '{count, plural, one {# odpowiedź jest pusta – uzupełnij ją lub usuń.} few {# odpowiedzi są puste – uzupełnij je lub usuń.} other {# odpowiedzi jest pustych – uzupełnij je lub usuń.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Ukryj głosy do czasu zakończenia ankiety'
       hide_votes_label_help: 'Użytkownik, który rozpoczął ankietę, zawsze będzie mógł zobaczyć głosy.'
-      image_option_placeholder: 'URL obrazka (opcjonalne)'
+      image_option_placeholder: 'URL obrazu (opcjonalny)'
       include_question: 'Ankieta musi zawierać pytanie'
       max: 'Możesz mieć maksymalnie {max, plural, one {# opcję} few {# opcje} other {# opcji}}'
       max_votes_help: 'Ustaw na 0, aby pozwolić użytkownikom głosować na wszystkie opcje.'
@@ -86,18 +86,18 @@ fof-polls:
       option_placeholder: Odpowiedź
       options_label: Odpowiedzi
       poll_image:
-        alt_help_text: 'Ten tekst jest wymagany po ustawieniu obrazka i zostanie wyświetlony, jeśli obraz nie zostanie załadowany.'
-        alt_label: 'Alternatywny tekst obrazka'
-        help: 'Prześlij obrazek, który będzie wyświetlany obok ankiety (opcjonalnie).'
-        label: 'Obrazek ankiety'
-        later_help: 'Po utworzeniu ankiety będzie można przesłać obrazek.'
+        alt_help_text: 'Ten tekst jest wymagany po ustawieniu obrazu i zostanie wyświetlony, jeśli obraz nie zostanie wczytany.'
+        alt_label: 'Alternatywny tekst obrazu'
+        help: 'Prześlij obraz, który będzie wyświetlany obok ankiety (opcjonalnie).'
+        label: 'Obraz ankiety'
+        later_help: 'Po utworzeniu ankiety będzie można przesłać obraz.'
       poll_option_image:
-        help: 'Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).'
-        label: 'Obrazek odpowiedzi ankiety'
+        help: 'Prześlij obraz, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).'
+        label: 'Obraz odpowiedzi ankiety'
       public_poll_label: 'Pozwól użytkownikom zobaczyć, kto głosował'
       question_placeholder: Pytanie
       submit: Zatwierdź
-      subtitle_placeholder: 'Podtytuł/Opis (opcjonalne)'
+      subtitle_placeholder: 'Podtytuł/Opis (opcjonalny)'
       tooltip:
         options:
           add-button: 'Dodaj odpowiedź'
@@ -194,7 +194,7 @@ fof-polls:
       badge: Ankieta
       votes: '{count, plural, one {# głos} few {# głosy} other {# głosów}}'
     upload_image:
-      remove_button: 'Usuń obrazek'
-      upload_button: 'Prześlij obrazek'
+      remove_button: 'Usuń obraz'
+      upload_button: 'Prześlij obraz'
     votes_modal:
       title: 'Głosujący użytkownicy'

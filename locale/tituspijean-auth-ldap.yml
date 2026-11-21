@@ -10,7 +10,7 @@ tituspijean-auth-ldap:
       admin_dn: 'Nazwa wyróżniająca (DN) administratora LDAP. Zostaw puste, aby użyć anonimowego uwierzytelniania (anonymous binding).'
       admin_password: 'Hasło administratora LDAP. Zostaw puste, aby użyć anonimowego uwierzytelniania (anonymous binding).'
       base_dn: 'Bazowe nazwy wyróżniające (base DNs) rozdzielone średnikami'
-      filter: 'Filtr do zastosowania (opcjonalne)'
+      filter: 'Filtr do zastosowania (opcjonalny)'
       follow_referrals: 'Podążaj za odwołaniami podczas uwierzytelniania przez serwer LDAP'
       hosts: 'Domeny lub adresy IP serwerów LDAP (rozdzielone przecinkami)'
       method_name: 'Nazwa serwera LDAP (pojawi się po „Zaloguj się za pomocą”)'

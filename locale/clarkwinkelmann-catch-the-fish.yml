@@ -13,7 +13,7 @@ clarkwinkelmann-catch-the-fish:
       visible: 'Może zobaczyć ryby'
     settings:
       alert-round: 'Pokaż na stronie głównej alert z nazwą rundy i czasem trwania'
-      animate-flip: 'Odwróć obrazki ryb na podstawie kierunku'
+      animate-flip: 'Odwróć obrazy ryb na podstawie kierunku'
       discussion: Dyskusje
       discussion-age: 'Jak stare mogą być dyskusje, aby móc umieścić na nich rybę (dni)'
       discussion-tags: 'Biała lista tagów'
@@ -106,8 +106,8 @@ clarkwinkelmann-catch-the-fish:
       starting-pack-help: 'Będzie zawierać kilka ryb, które pozwolą Ci od razu zacząć zabawę'
       starts-at: 'Czas rozpoczęcia'
     fish-image:
-      alt: 'Obrazek ryby „{name}”'
-      missing: 'Brak obrazka ryby'
+      alt: 'Obraz ryby „{name}”'
+      missing: 'Brak obrazu ryby'
     moderate:
       add: Dodaj
       delete: Usuń
@@ -133,21 +133,21 @@ clarkwinkelmann-catch-the-fish:
     table-fish:
       actions: Akcje
       edit: Edytuj
-      image: Obrazek
-      loading: Ładowanie...
+      image: Obraz
+      loading: Wczytywanie…
       name: Nazwa
       new: 'Nowa ryba'
-      new-from-image: 'Twórz nowe ryby poprzez zbiorczy import obrazków'
+      new-from-image: 'Twórz nowe ryby poprzez zbiorczy import obrazów'
       no-user-name: 'Nie zmieniono nazwy'
       no-user-place: Losowo
       placement: 'Obecna pozycja'
       title: 'Ryby dla rundy „{name}”'
-      upload: 'Prześlij nowy obrazek'
+      upload: 'Prześlij nowy obraz'
       user-name: 'Ostatnio nazwana przez'
       user-place: 'Ostatnio umieszczona przez'
     table-ranking:
       count: 'Złowione ryby'
-      loading: Ładowanie...
+      loading: Wczytywanie…
       rank: Nazwa
       title: 'Ranking rundy „{name}”'
       user: Użytkownik
@@ -156,7 +156,7 @@ clarkwinkelmann-catch-the-fish:
       edit: Edytuj
       end: Do
       fishes: Ryby
-      loading: Ładowanie...
+      loading: Wczytywanie…
       name: Nazwa
       new: 'Nowa runda'
       start: Od

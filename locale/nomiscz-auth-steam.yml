@@ -5,7 +5,7 @@
 nomiscz-auth-steam:
   admin:
     settings:
-      api_key_label: 'API Key'
+      api_key_label: 'Klucz API'
       title: 'Ustawienia logowania Steam'
       use_steam_powered_domain: 'Użyj domeny steampowered.com zamiast steamcommunity.com (zablokowana w Chinach)'
   forum:

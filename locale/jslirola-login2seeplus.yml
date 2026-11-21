@@ -6,14 +6,14 @@ jslirola-login2seeplus:
   admin:
     code: Kod
     hide: Ukryj
-    image: Obrazki
+    image: Obrazy
     link: Linki
     post:
       title: 'Ukryj treść przekraczającą tę długość (wpisz <em>-1</em>, aby pokazać całość)'
     title: Login2SeePlus
   forum:
     code: 'Zaloguj się, aby zobaczyć kod'
-    image: 'Zaloguj się, aby zobaczyć obrazek'
+    image: 'Zaloguj się, aby zobaczyć obraz'
     link: 'Zaloguj się, aby zobaczyć link'
     post: '{login} lub {register}, aby zobaczyć pełną treść'
     post_login: '{login}, aby zobaczyć pełną treść'

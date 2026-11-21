@@ -60,7 +60,7 @@ fof-anti-spam:
         regional_endpoint_label: 'Dostęp geograficzny'
         report_blocked_registrations_help: 'Gdy rejestracja zostanie zablokowana przez funkcję „Weryfikuj rejestracje”, zgłosimy próbę z powrotem do StopForumSpam, aby aktywność spamerów mogła zostać lepiej potwierdzona. Wymaga ustawienia klucza API StopForumSpam (zobacz poniżej).'
         report_blocked_registrations_label: 'Zgłoś blokowane rejestracje'
-        sfs_lookup_help: 'Jeśli ta opcja jest włączona, będziemy sprawdzać bazę danych StopForumSpam, gdy nowy użytkownik zarejestruje się na Twoim forum. Jeśli użytkownik zostanie znaleziony (nazwa użytkownika, adres IP, e-mail) i ten punkt danych jest włączony wraz z poziomem zaufania SFS osiągającym zdefiniowany poziom, uniemożliwimy mu dokończenie rejestracji.'
+        sfs_lookup_help: 'Po włączeniu tej opcji będziemy sprawdzać bazę danych StopForumSpam, gdy nowy użytkownik zarejestruje się na Twoim forum. Jeśli użytkownik zostanie znaleziony (nazwa użytkownika, adres IP, e-mail) i ten punkt danych jest włączony wraz z poziomem zaufania SFS osiągającym zdefiniowany poziom, uniemożliwimy mu dokończenie rejestracji.'
         sfs_lookup_label: 'Weryfikuj rejestracje'
         username_label: 'Kontrola spamu nazwy użytkownika'
   forum:

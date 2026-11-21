@@ -59,20 +59,20 @@ flarum-gdpr:
           export: 'Eksportuj dane dla {username}'
   email:
     confirm_erasure:
-      body: "Cześć {display_name}!\n\nKtoś (mamy nadzieję, że Ty) właśnie złożył wniosek o usunięcie konta `{display_name}`.\n\nAby potwierdzić tę operację, kliknij poniższy link. Wniosek zostanie następnie rozpatrzony przez nasz zespół.\n\n{erasure_confirm_url}\n"
+      body: "Witaj {display_name}!\n\nKtoś (mamy nadzieję, że Ty) właśnie złożył wniosek o usunięcie konta `{display_name}`.\n\nAby potwierdzić tę operację, kliknij poniższy link. Wniosek zostanie następnie rozpatrzony przez nasz zespół.\n\n{erasure_confirm_url}\n"
       subject: 'Potwierdź chęć usunięcia konta'
     erasure_cancelled:
-      body: "Cześć {display_name}!\n\nTo jest automatyczne powiadomienie. Twój wniosek o anulowanie usunięcia konta został przetworzony.\n\nTwoje konto nie zostanie usunięte.\n"
+      body: "Witaj {display_name}!\n\nTo jest automatyczne powiadomienie. Twój wniosek o anulowanie usunięcia konta został przetworzony.\n\nTwoje konto nie zostanie usunięte.\n"
       subject: 'Wniosek o usunięcie konta został anulowany'
     erasure_completed:
       anonymization:
-        body: "Cześć {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało zanonimizowane.\n"
+        body: "Witaj {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało zanonimizowane.\n"
         subject: 'Anonimizacja konta zakończona'
       deletion:
-        body: "Cześć {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało usunięte.\n"
+        body: "Witaj {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało usunięte.\n"
         subject: 'Usuwanie konta zakończone'
     export_available:
-      body: "Cześć {display_name}!\n\nEksport danych konta dla {username} został pomyślnie wygenerowany i jest teraz dostępny:\n\n{url}\n\nEksport będzie dostępny do {destroys_at}.\n"
+      body: "Witaj {display_name}!\n\nEksport danych konta dla {username} został pomyślnie wygenerowany i jest teraz dostępny:\n\n{url}\n\nEksport będzie dostępny do {destroys_at}.\n"
       subject: 'Eksport danych dostępny'
   forum:
     badges:
@@ -93,7 +93,7 @@ flarum-gdpr:
       export-ready: 'Twój eksport danych dla {username} jest teraz gotowy do pobrania.'
     process_erasure:
       anonymization_button: 'Anonimizuj użytkownika'
-      comments_label: 'Komentarze (opcjonalnie)'
+      comments_label: 'Komentarze (opcjonalne)'
       confirm: 'Czy na pewno chcesz usunąć konto {name} w trybie {mode}?'
       confirmed_at: 'Potwierdzono: {date}'
       deletion_button: 'Usuń użytkownika'
@@ -105,7 +105,7 @@ flarum-gdpr:
       cancel_button: 'Anuluj wniosek'
       password_label: 'Potwierdź hasło'
       reason: 'Podano następujący powód: {reason}'
-      reason_label: 'Powód (opcjonalnie)'
+      reason_label: 'Powód (opcjonalny)'
       request_button: 'Złóż wniosek o usunięcie'
       status:
         awaiting_user_confirmation: "Powinieneś otrzymać e-mail, aby potwierdzić chęć usunięcia konta.\n"

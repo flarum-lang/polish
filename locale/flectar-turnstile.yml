@@ -13,7 +13,7 @@ flectar-turnstile:
       site_key: 'Klucz witryny'
   forum:
     error: 'Wystąpił błąd podczas weryfikacji, czy jesteś człowiekiem. Spróbuj ponownie.'
-    not_loaded_error: 'Nie udało się załadować Cloudflare Turnstile. Odśwież stronę i sprawdź, czy adblocker nie blokuje skryptu.'
+    not_loaded_error: 'Nie udało się wczytać Cloudflare Turnstile. Odśwież stronę i sprawdź, czy adblocker nie blokuje skryptu.'
     validation_error: 'Ukończ weryfikację Turnstile.'
 validation:
   custom:

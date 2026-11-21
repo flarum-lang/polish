@@ -8,9 +8,9 @@ fof-analytics:
       title: Matomo
     popup:
       field:
-        googleGTMCode: 'Identyfikator śledzenia GTM (opcjonalne)'
+        googleGTMCode: 'Identyfikator śledzenia GTM (opcjonalny)'
         googleTrackingCode: 'Identyfikator śledzenia'
-        optTrackingCode: 'Identyfikator śledzenia Optimize (opcjonalne)'
+        optTrackingCode: 'Identyfikator śledzenia Optimize (opcjonalny)'
         piwikAliasUrl: 'URL aliasu'
         piwikAuthToken: 'Token autentykacji API'
         piwikHideAliasUrl: 'W raporcie „Outlinks”, ukryj kliknięcia w znane aliasy adresów URL'
@@ -22,7 +22,7 @@ fof-analytics:
         statusGoogle: 'Włącz Google Analytics (UA/GA4)'
         statusPiwik: 'Włącz Matomo'
       placeholder:
-        piwikAuthToken: "Uzupełnij ten token, aby włączyć widżet ze statystykami Matomo w panelu admina.\nMożesz go znaleźć w Ustawienia > Osobiste > Token autentykacji API.\n"
+        piwikAuthToken: "Uzupełnij ten token, aby włączyć widżet ze statystykami Matomo w panelu administracyjnym.\nMożesz go znaleźć w Ustawienia > Osobiste > Token autentykacji API.\n"
       section:
         googleAnalytics: 'Google Analytics'
         piwik: Matomo

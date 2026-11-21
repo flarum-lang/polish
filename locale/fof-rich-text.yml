@@ -19,7 +19,7 @@ fof-rich-text:
       code_tooltip: 'Kod w tekście <{modifierKey}-`>'
       header_tooltip: 'Zmień na nagłówek {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Wstaw poziomą linię'
-      image_tooltip: 'Wstaw obrazek'
+      image_tooltip: 'Wstaw obraz'
       insert_button: Wstaw
       insert_image:
         src_placeholder: Link

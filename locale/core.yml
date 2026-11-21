@@ -10,7 +10,7 @@ core:
       description: 'Ostatnie wiadomości i ogłoszenia od zespołu Flarum.'
       empty: 'Nie znaleziono ogłoszeń.'
       hide: 'Ukryj ogłoszenia'
-      load_error: 'Nie można załadować ogłoszeń. Spróbuj ponownie później.'
+      load_error: 'Nie można wczytać ogłoszeń. Spróbuj ponownie później.'
       read_more: 'Czytaj więcej'
       refresh: 'Odśwież ogłoszenia'
       retry: 'Spróbuj ponownie'
@@ -37,9 +37,9 @@ core:
       edit_header_button: '=> core.ref.custom_header_title'
       enter_hex_message: 'Wpisz kod HEX koloru.'
       favicon_heading: 'Ikona (favicon)'
-      favicon_text: 'Prześlij obrazek, który będzie wyświetlany jako ikona forum.'
+      favicon_text: 'Prześlij obraz, który będzie wyświetlany jako ikona forum.'
       logo_heading: Logo
-      logo_text: 'Prześlij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.'
+      logo_text: 'Prześlij obraz, który będzie wyświetlany jako logo w miejscu nazwy forum.'
       title: 'Wygląd forum'
     basics:
       abandoned_extensions_heading: 'Porzucone rozszerzenia'
@@ -173,7 +173,7 @@ core:
       get_help: 'Uzyskaj pomoc'
       log_out_button: '=> core.ref.log_out'
     loading:
-      title: 'Proszę czekać...'
+      title: 'Proszę czekać…'
     nav:
       appearance_button: '=> core.admin.appearance.title'
       appearance_title: '=> core.admin.appearance.description'
@@ -247,7 +247,7 @@ core:
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
-      upload_button: 'Wybierz obrazek...'
+      upload_button: 'Wybierz obraz…'
     users:
       create_user_button: 'Nowy użytkownik'
       description: 'Stronicowana lista wszystkich użytkowników na Twoim forum.'
@@ -294,7 +294,7 @@ core:
     invalid_username_message: 'Nazwa użytkownika może zawierać jedynie litery, cyfry i myślniki.'
   email:
     abandoned_extensions:
-      body: "Cześć {username},\n\nNastępujące zainstalowane rozszerzenia zostały oznaczone jako porzucone:\n\n{extensions}\n\nSprawdź te rozszerzenia i rozważ przejście na alternatywy, jeśli są dostępne.\n"
+      body: "Witaj {username},\n\nNastępujące zainstalowane rozszerzenia zostały oznaczone jako porzucone:\n\n{extensions}\n\nSprawdź te rozszerzenia i rozważ przejście na alternatywy, jeśli są dostępne.\n"
       line_no_replacement: '- {package} (brak dostępnego zamiennika)'
       line_with_replacement: '- {package} (sugerowany zamiennik: {replacement})'
       subject: 'Wymagane działanie: wykryto porzucone rozszerzenia'
@@ -329,7 +329,7 @@ core:
       minimize_tooltip: Zminimalizuj
       preview_tooltip: Podgląd
     composer_discussion:
-      body_placeholder: 'Napisz post...'
+      body_placeholder: 'Napisz post…'
       discard_confirmation: 'Nie opublikowałeś swojej dyskusji. Czy chcesz ją porzucić?'
       submit_button: 'Dodaj dyskusję'
       title: '=> core.ref.start_a_discussion'
@@ -622,7 +622,7 @@ core:
     icon: Ikona
     icon_text: 'Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.'
     load_more: 'Wczytaj więcej'
-    loading: Ładowanie...
+    loading: Wczytywanie…
     log_in: 'Zaloguj się'
     log_out: 'Wyloguj się'
     mark_all_as_read: 'Oznacz wszystko jako odczytane'
@@ -649,7 +649,7 @@ core:
     username: 'Nazwa użytkownika'
     users: Użytkownicy
     view: Zobacz
-    write_a_reply: 'Napisz odpowiedź...'
+    write_a_reply: 'Napisz odpowiedź…'
     you: Ty
   views:
     admin:
@@ -670,7 +670,7 @@ core:
       title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Ta strona najlepiej działa w nowoczesnych przeglądarkach z włączonym JavaScriptem.'
-      load_error_message: 'Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć podręczną przeglądarki i spróbuj ponownie.'
+      load_error_message: 'Coś poszło nie tak podczas wczytywania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć podręczną przeglądarki i spróbuj ponownie.'
       loading_text: '=> core.ref.loading'
     discussion:
       next_page_button: '=> core.ref.next_page'
@@ -684,7 +684,7 @@ core:
       not_found: 'Podana strona nie istnieje.'
       not_found_return_link: 'Wróć na {forum}'
       permission_denied: 'Nie masz uprawnień, aby przeglądać tę stronę.'
-      unknown: 'Wystąpił błąd podczas próby załadowania tej strony.'
+      unknown: 'Wystąpił błąd podczas próby wczytania tej strony.'
     index:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'

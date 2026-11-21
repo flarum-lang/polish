@@ -16,8 +16,8 @@ signature:
         help: 'Gdy użytkownik przekroczy maksymalną liczbę znaków w sygnaturce, nie będzie mógł jej zapisać, dopóki jej nie skróci.'
         placeholder: '1000 (domyślne)'
       maximum_image_count:
-        description: 'Maksymalna liczba obrazków.'
-        help: 'Gdy użytkownik przekroczy maksymalną liczbę obrazków w sygnaturce, nie będzie mógł jej zapisać, dopóki nie zmniejszy ich liczby.'
+        description: 'Maksymalna liczba obrazów.'
+        help: 'Gdy użytkownik przekroczy maksymalną liczbę obrazów w sygnaturce, nie będzie mógł jej zapisać, dopóki nie zmniejszy ich liczby.'
         placeholder: '5 (domyślne)'
       maximum_image_height:
         description: 'Maksymalna łączna wysokość wszystkich obrazków w edytorze.'
@@ -33,7 +33,7 @@ signature:
       signature: Sygnaturka
     errors:
       max_char_limit_exceed: 'Przekroczono limit znaków.'
-      max_image_count_exceed: 'Przekroczono maksymalną liczbę obrazków.'
+      max_image_count_exceed: 'Przekroczono maksymalną liczbę obrazów.'
       max_image_height_exceed: 'Przekroczono maksymalną wysokość obrazka.'
       max_image_width_exceed: 'Przekroczono maksymalną szerokość obrazka.'
     modal:

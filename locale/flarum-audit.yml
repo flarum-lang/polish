@@ -95,7 +95,7 @@ flarum-audit:
         multiple: 'Połącz wartości przecinkami, aby dopasować dowolną z nich, np. action:post.created,post.deleted'
         negate: 'Poprzedź filtr minusem, aby wykluczyć dopasowania, np. -client:cli'
         toggle: 'Pomoc wyszukiwania'
-      loadMore: 'Załaduj więcej'
+      loadMore: 'Wczytaj więcej'
       noReason: '(brak powodu)'
       noValue: '(brak wartości)'
       permissionGroup:

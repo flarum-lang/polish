@@ -103,7 +103,7 @@ v17development-flarum-support:
       knowledge_base_overview: 'Przegląd bazy wiedzy'
       loading_articles: 'Wczytywanie artykułów'
       no_articles_found: 'W tej kategorii nie znaleziono żadnych artykułów'
-      no_categories_found: 'Przepraszamy, nie znaleziono tu żadnych kategorii...'
+      no_categories_found: 'Przepraszamy, nie znaleziono tu żadnych kategorii…'
       tools:
         change_icon: 'Zmień ikonę'
         edit_description: 'Edytuj opis'
@@ -181,7 +181,7 @@ v17development-flarum-support:
           placeholder: 'Temat zgłoszenia'
           title: Temat
       load_more:
-        title: 'Załaduj więcej zgłoszeń'
+        title: 'Wczytaj więcej zgłoszeń'
       my_tickets:
         description: 'Na tej stronie będziesz mógł znaleźć wszystkie swoje prywatne zgłoszenia.'
         no_tickets: 'Obecnie nie posiadasz żadnych zgłoszeń.'
@@ -261,4 +261,4 @@ v17development-flarum-support:
     utils:
       redirect:
         link: '<a>Kliknij tutaj</a>, jeśli strona nie przekieruje Cię automatycznie'
-        title: 'Przekierowywanie do naszego artykułu w bazie wiedzy...'
+        title: 'Przekierowywanie do naszego artykułu w bazie wiedzy…'

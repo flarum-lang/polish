@@ -25,7 +25,7 @@ fof-drafts:
       discard_empty_draft_alert: 'Porzucić pusty szkic?'
       exit_alert: 'Porzucić zmiany w tym szkicu?'
       saved: Zapisano!
-      saving: Zapisywanie...
+      saving: Zapisywanie…
       title: 'Zapisz szkic'
     dropdown:
       alert: 'Czy na pewno chcesz usunąć ten szkic?'

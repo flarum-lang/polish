@@ -76,7 +76,7 @@ ianm-twofactor:
       enter_current_token: 'Wprowadź token z bieżącego urządzenia'
       enter_new_token: 'Wprowadź token z nowego urządzenia'
       enter_token: 'Wpisz token'
-      loading_qr: 'Wczytywanie kodu QR...'
+      loading_qr: 'Wczytywanie kodu QR…'
       manual_entry_instruction: 'Wprowadź podany kod do aplikacji uwierzytelniającej, a następnie wprowadź wygenerowany token, aby włączyć uwierzytelnianie dwuskładnikowe.'
       manual_tab: 'Ręczna konfiguracja'
       new_backup_codes: 'Twoje nowe kody zapasowe'

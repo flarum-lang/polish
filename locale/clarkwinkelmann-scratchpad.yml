@@ -25,8 +25,8 @@ clarkwinkelmann-scratchpad:
       save: Zapisz
       settings: 'Ustawienia edytora'
     fields:
-      admin_js: 'JS panelu admina'
-      admin_less: 'Less panelu admina'
+      admin_js: 'JS panelu administracyjnego'
+      admin_less: 'Less panelu administracyjnego'
       forum_js: 'JS forum'
       forum_less: 'Less forum'
       php: PHP

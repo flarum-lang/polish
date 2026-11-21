@@ -5,12 +5,12 @@
 core:
   admin:
     permissions:
-      can_push_to_frontpage_label: 'Dodawanie dyskusji na Stronę główną'
+      can_push_to_frontpage_label: 'Dodawanie dyskusji na stronę główną'
   forum:
     badge:
-      frontpage_tooltip: 'Na Stronie głównej'
+      frontpage_tooltip: 'Na stronie głównej'
     index_sort:
       front_button: 'Strona główna'
     post_controls:
-      pull_from_front_button: 'Zdejmij ze Strony głównej'
-      push_to_front_button: 'Dodaj na Stronę główną'
+      pull_from_front_button: 'Zdejmij ze strony głównej'
+      push_to_front_button: 'Dodaj na stronę główną'

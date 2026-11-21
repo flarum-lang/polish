@@ -55,7 +55,7 @@ validation:
     file: 'Pole :attribute musi być większe lub równe :value kilobajtów.'
     numeric: 'Pole :attribute musi być większe lub równe :value.'
     string: 'Pole :attribute musi być dłuższe lub równe :value znaków.'
-  image: 'Pole :attribute musi być obrazkiem.'
+  image: 'Pole :attribute musi być obrazem.'
   in: 'Zaznaczony element :attribute jest nieprawidłowy.'
   in_array: 'Pole :attribute nie znajduje się w :other.'
   integer: 'Pole :attribute musi być liczbą całkowitą.'
