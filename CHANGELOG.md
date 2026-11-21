@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.20 (XXXX-XX-XX)
+--------------------
+
+**Updated translations for extensions**:
+
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (1 changed, 100% complete)
+
+
+All changes: [1.10.19...1.10.20](https://github.com/flarum-lang/polish/compare/1.10.19...1.10.20).
+
+
 1.10.19 (2026-11-15)
 --------------------
 
