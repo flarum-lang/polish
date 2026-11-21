@@ -57,7 +57,7 @@ fof-gamification:
         icon_help: 'Wprowadź dowolną ikonę Font Awesome, która ma końcówkę -up lub -down. Przykłady: arrow, thumbs, chevron'
         icon_name: 'Ikonki głosowania'
         points_placeholder: 'Punkty: '
-        points_title: 'Placeholder dla punktów'
+        points_title: 'Etykieta punktów'
         rate_limit: 'Wymuś ograniczenie szybkości głosowania (10 sekund)'
         title: Głosy
         upvotes_only: 'Pozwól jedynie na głosy pozytywne'

@@ -34,7 +34,7 @@ v17development-flarum-support:
         perma_link: 'Permalink do tego artykułu:'
         title: 'Udostępnij artykuł'
       tools:
-        audit_log: 'Zobacz dziennik zmian'
+        audit_log: 'Zobacz dziennik audytu'
         delete_forever: 'Usuń nieodwracalnie'
         edit_article: 'Edytuj artykuł'
         edit_tags: 'Edytuj tagi artykułu'
@@ -80,9 +80,9 @@ v17development-flarum-support:
         username: '=> core.ref.username'
       audit_log:
         article_created: 'Artykuł został utworzony'
-        loading_auditlog: 'Wczytywanie dziennika zdarzeń'
+        loading_auditlog: 'Wczytywanie dziennika audytu'
         no_more_events: 'Nie znaleziono więcej zdarzeń'
-        title: 'Dziennik zmian artykułu'
+        title: 'Dziennik audytu artykułu'
     not_found:
       description: 'Przepraszamy, ten artykuł lub kategoria nie są już dostępne w tym miejscu.'
       solution: 'Możesz użyć pola wyszukiwania powyżej, aby znaleźć to, czego szukasz.'
