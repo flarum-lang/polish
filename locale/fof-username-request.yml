@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-username-request/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        usernameRequestApproved: 'Zatwierdzone prośby o zmianę pseudonimu'
+        usernameRequestRejected: 'Odrzucone prośby o zmianę pseudonimu'
 flarum-audit:
   lib:
     browser:

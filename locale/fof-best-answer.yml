@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-best-answer/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        awardedBestAnswer: 'Wybranie Twojego posta jako najlepszej odpowiedzi'
+        bestAnswerInDiscussion: 'Najlepsze odpowiedzi w dyskusjach, w których uczestniczysz'
+        selectBestAnswer: 'Przypomnienia o wybraniu najlepszej odpowiedzi w Twoich dyskusjach'
 flarum-audit:
   lib:
     browser:
