@@ -58,7 +58,7 @@ huseyinfiliz-diff:
       sentence: 'Podgląd: {content}'
     revertChangesButton: 'Cofnij zmiany'
     revisionInfo: 'Edytowano {revisionCount, plural, one {{revisionCount} raz} other {{revisionCount} razy}}, najnowsze na górze'
-    revisions: '{revisionCount, plural, one {{revisionCount} rewizja} few {{revisionCount} rewizje} other {{revisionCount} rewizji}}'
+    revisions: '{revisionCount, plural, one {{revisionCount} rewizja} few {{revisionCount} rewizje} many {{revisionCount} rewizji} other {{revisionCount} rewizji}}'
     rollbackButton: 'Przywróć rewizję {number}'
     rollbackErrorMessage: 'Cofnięcie zmian nie powiodło się.'
     rollbackSuccessMessage: 'Zmiany zostały cofnięte.'

@@ -17,7 +17,7 @@ datlechin-birthdays:
       required_label: 'Wymagaj podania daty urodzenia'
       set_on_registration_label: 'Zezwól na ustawianie daty urodzenia podczas rejestracji'
   api:
-    invalid_age_message: 'Twój wiek musi wynosić co najmniej {minAge, plural, one {1 rok} few {# lata} other {# lat}}.'
+    invalid_age_message: 'Twój wiek musi wynosić co najmniej {minAge, plural, one {1 rok} few {# lata} many {# lat} other {# roku}}.'
     invalid_dob_message: 'Nieprawidłowa data urodzenia'
   forum:
     change_dob:

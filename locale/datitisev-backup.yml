@@ -11,7 +11,7 @@ datitisev-backup:
           label: 'Access ID'
         access-key:
           description: 'Klucz Twojego tokena dostępu'
-          label: 'Access Key'
+          label: 'Klucz dostępu'
         bucket:
           description: 'Bucket, który ma być używany.'
           label: Bucket

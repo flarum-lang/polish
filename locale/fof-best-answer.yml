@@ -102,7 +102,7 @@ fof-best-answer:
       discussions_solutions_heading: 'Rozwiązane dyskusje'
     this_best_answer: 'Oznacz jako najlepszą odpowiedź'
     user:
-      best-answer-count: '{count, plural, one {{count} najlepsza odpowiedź} few {{count} najlepsze odpowiedzi} other {{count} najlepszych odpowiedzi}}'
+      best-answer-count: '{count, plural, one {{count} najlepsza odpowiedź} few {{count} najlepsze odpowiedzi} many {{count} najlepszych odpowiedzi} other {{count} najlepszej odpowiedzi}}'
 fof-user-directory:
   lib:
     sort:

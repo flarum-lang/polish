@@ -6,7 +6,7 @@ core:
   admin:
     announcements:
       about: 'Najnowsze wiadomości i ogłoszenia pochodzące z oficjalnej społeczności Flarum na stronie discuss.flarum.org.'
-      comments_label: '{count, plural, one {# komentarz} few {# komentarze} other {# komentarzy}}'
+      comments_label: '{count, plural, one {# komentarz} few {# komentarze} many {# komentarzy} other {# komentarza}}'
       description: 'Ostatnie wiadomości i ogłoszenia od zespołu Flarum.'
       empty: 'Nie znaleziono ogłoszeń.'
       hide: 'Ukryj ogłoszenia'
@@ -363,7 +363,7 @@ core:
       replied_text: '{username} odpowiedział {ago}'
       started_text: '{username} rozpoczął {ago}'
       total_replies_a11y_label: '{count, plural, one {# odpowiedź} other {# odpowiedzi}}'
-      unread_replies_a11y_label: '{count, plural, one {# nieodczytana odpowiedź} few {# nieodczytane odpowiedzi} other {# nieodczytanych odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}.'
+      unread_replies_a11y_label: '{count, plural, one {# nieodczytana odpowiedź} few {# nieodczytane odpowiedzi} many {# nieodczytanych odpowiedzi} other {# nieodczytanej odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
@@ -435,7 +435,7 @@ core:
     post_scrubber:
       now_link: Teraz
       original_post_link: 'Początek dyskusji'
-      unread_text: '{count, plural, one {# nieodczytany} few {# nieodczytane} other {# nieodczytanych}}'
+      unread_text: '{count, plural, one {# nieodczytany} few {# nieodczytane} many {# nieodczytanych} other {# nieodczytanego}}'
       viewing_text: 'Post {index} z {formattedCount}'
     post_stream:
       discussion_renamed_old_tooltip: 'Poprzedni tytuł: „{old}”'
@@ -471,7 +471,7 @@ core:
         title_placeholder: Tytuł
       revoke_access_token: Unieważnij
       revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
-      session_terminated: '{count, plural, one {Zakończono jedną sesję} few {Zakończono # sesje} other {Zakończono # sesji}}.'
+      session_terminated: '{count, plural, one {Zakończono jedną sesję} few {Zakończono # sesje} many {Zakończono # sesji} other {Zakończono # sesji}}.'
       session_termination_failed: 'Wystąpił błąd podczas kończenia Twoich sesji.'
       sessions_heading: 'Aktywne sesje'
       show_access_token: 'Pokaż token'

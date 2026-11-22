@@ -10,7 +10,7 @@ clarkwinkelmann-carving-contest:
       custom-help: 'Lista wartości #hex lub rgb(), rozdzielonych przecinkami'
       simple: 'Prosty zestaw kolorów'
     permissions:
-      like: 'Polubienie prac'
+      like: 'Polubianie prac'
       moderate: Moderacja
       participate: Uczestnictwo
       view: 'Przeglądanie prac'

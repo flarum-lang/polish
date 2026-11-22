@@ -10,7 +10,7 @@ clarkwinkelmann-catch-the-fish:
       list-rankings: 'Dostęp do strony z rankingami'
       moderate: 'Moderowanie rund oraz ryb'
       participate: 'Uczestniczenie w rundach i łapaniu ryb'
-      visible: 'Może zobaczyć ryby'
+      visible: 'Wyświetlanie ryb'
     settings:
       alert-round: 'Pokaż na stronie głównej alert z nazwą rundy i czasem trwania'
       animate-flip: 'Odwróć obrazy ryb na podstawie kierunku'

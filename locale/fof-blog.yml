@@ -35,7 +35,7 @@ fof-blog:
       require_review_label: 'Wpisy na blogu wymagają zatwierdzenia'
       require_review_text: 'Po utworzeniu wpisu nie będzie on publicznie widoczny i będzie wymagał zatwierdzenia przez moderatora.'
       select_categories_button: 'Wybierz kategorie bloga'
-      selected_category_count: '{count, plural, one {Wybrano {count} kategorię} few {Wybrano {count} kategorie} other {Wybrano {count} kategorii}}'
+      selected_category_count: '{count, plural, one {Wybrano {count} kategorię} few {Wybrano {count} kategorie} many {Wybrano {count} kategorii} other {Wybrano {count} kategorii}}'
       show_tag_hierarchy_label: 'Pokaż hierarchię tagów'
       show_tag_hierarchy_text: 'Dodaje odstępy do kategorii podrzędnych oraz uwzględnia hierarchię dla listy kategorii.'
   forum:
