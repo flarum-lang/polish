@@ -13,7 +13,7 @@ antoinefr-money:
       - 'Gdy post lub dyskusja zostaje usunięta'
     permissions:
       disable_money_label: 'Wyłączenie pieniędzy'
-      edit_money_label: 'Edytuj pieniądze'
+      edit_money_label: 'Edytowanie pieniędzy'
     settings:
       autoremove: 'Automatycznie aktualizuj saldo'
       cascaderemove: 'Odbieraj pieniądze za posty po usunięciu dyskusji'

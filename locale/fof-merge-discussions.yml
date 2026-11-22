@@ -57,6 +57,6 @@ fof-merge-discussions:
       preferences:
         discussion_merged: 'Ktoś scalił moją dyskusję z inną'
     post:
-      merged: '{count, plural, one {Scalono # post z {titles}.} few {Scalono # posty z {titles}.} other {Scalono # postów z {titles}.}}'
+      merged: '{count, plural, one {Scalono # post z {titles}.} few {Scalono # posty z {titles}.} many {Scalono # postów z {titles}.} other {Scalono # posta z {titles}.}}'
   ref:
     merge: Scal

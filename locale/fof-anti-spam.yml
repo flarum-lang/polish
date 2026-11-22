@@ -74,7 +74,7 @@ fof-anti-spam:
       reasons: 'Zapisane przyczyny blokady'
       sfs-data: 'Dane StopForumSpam'
       title: 'Zablokowane rejestracje'
-      total: '{count, plural, one {# zablokowana rejestracja} few {# zablokowane rejestracje} other {# zablokowanych rejestracji}}'
+      total: '{count, plural, one {# zablokowana rejestracja} few {# zablokowane rejestracje} many {# zablokowanych rejestracji} other {# zablokowanej rejestracji}}'
       username: 'Nazwa użytkownika'
     permissions:
       spamblock_users_label: 'Oznacz użytkownika jako spamera'
@@ -208,7 +208,7 @@ fof-anti-spam:
       posts_flagged: 'Posty zgłoszone jako spam'
       registrations_blocked: 'Zablokowane rejestracje'
       this_week: '{count, plural, other {# w tym tygodniu}}'
-      top_reason: 'Najczęściej: {reason} ({count, plural, one {# blokada} few {# blokady} other {# blokad}})'
+      top_reason: 'Najczęściej: {reason} ({count, plural, one {# blokada} few {# blokady} many {# blokad} other {# blokady}})'
       total_label: Łącznie
       users_marked: 'Użytkownicy oznaczeni jako spamerzy'
       view_all: 'Zobacz zablokowane rejestracje'

@@ -8,4 +8,4 @@ clarkwinkelmann-likes-received:
       view: 'Przeglądanie otrzymanych polubień'
   forum:
     user-card:
-      likes: '{likes, plural, one {# otrzymane polubienie} few {# otrzymane polubienia} other {# otrzymanych polubień}}'
+      likes: '{likes, plural, one {# otrzymane polubienie} few {# otrzymane polubienia} many {# otrzymanych polubień} other {# otrzymanego polubienia}}'

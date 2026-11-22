@@ -6,8 +6,8 @@ flarum-audit:
   lib:
     browser:
       posts:
-        moved: 'Przeniesiono {post_count, plural, one {jeden post} few {{post_count} posty} other {{post_count} postów}} z {discussion} do {new_discussion}'
-        moved_to_new_discussion: 'Przeniesiono {post_count, plural, one {jeden post} few {{post_count} posty} other {{post_count} postów}} z {discussion} do nowej dyskusji {new_discussion}'
+        moved: 'Przeniesiono {post_count, plural, one {jeden post} few {{post_count} posty} many {{post_count} postów} other {{post_count} posta}} z {discussion} do {new_discussion}'
+        moved_to_new_discussion: 'Przeniesiono {post_count, plural, one {jeden post} few {{post_count} posty} many {{post_count} postów} other {{post_count} posta}} z {discussion} do nowej dyskusji {new_discussion}'
 fof-move-posts:
   admin:
     permissions:
@@ -19,7 +19,7 @@ fof-move-posts:
   forum:
     alerts:
       posts_moved: '{count, plural, one {Post został przeniesiony.} few {Przeniesiono {count} posty.} other {Przeniesiono {count} postów.}}'
-      posts_moved_to: '{count, plural, one {Post został przeniesiony do {target_discussion}.} few {Przeniesiono {count} posty do {target_discussion}.} other {Przeniesiono {count} postów do {target_discussion}.}}'
+      posts_moved_to: '{count, plural, one {Post został przeniesiony do {target_discussion}.} few {Przeniesiono {count} posty do {target_discussion}.} many {Przeniesiono {count} postów do {target_discussion}.} other {Przeniesiono {count} posta do {target_discussion}.}}'
     badge:
       first_moved_tooltip: Przeniesiono
     discussion:
@@ -34,7 +34,7 @@ fof-move-posts:
       discussion_help: 'Zastosowane zostaną tagi z dyskusji źródłowej. Można je zmienić po utworzeniu nowej.'
       discussion_name: '=> core.forum.composer_discussion.title_placeholder'
       new_discussion: 'Nowa dyskusja'
-      selected_posts: 'Wybrano {count, plural, one {jeden post} few {{count} posty} other {{count} postów}}'
+      selected_posts: 'Wybrano {count, plural, one {jeden post} few {{count} posty} many {{count} postów} other {{count} posta}}'
       status:
         complex_move: 'Będzie to złożone przeniesienie. Przenoszone posty zostaną wstawione pomiędzy te już istniejące, wskutek czego stare odnośniki do postów w docelowej dyskusji również mogą ulec zmianie.'
         old_to_new_move: '=> fof-move-posts.ref.status.old_to_new_move'
@@ -48,7 +48,7 @@ fof-move-posts:
       moving: 'Przenoszenie posta'
       unmove: 'Cofnij wybór do przeniesienia'
     post_stream:
-      post_moved: '{username} przeniósł {count, plural, one{post} few{{count} posty} other{{count} postów}} do {target_discussion}.'
+      post_moved: '{username} przeniósł {count, plural, one{post} few{{count} posty} many{{count} postów} other{{count} posta}} do {target_discussion}.'
   lib:
     discussion:
       first_post:

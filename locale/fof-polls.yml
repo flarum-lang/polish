@@ -82,7 +82,7 @@ fof-polls:
       edit_poll: '=> fof-polls.forum.moderation.edit'
       no_permission_alert: 'Nie masz uprawnień, aby utworzyć ankietę.'
     days_remaining: 'Ankieta zakończy się {time}.'
-    max_votes_allowed: 'Ankieta umożliwia głosowanie na {max, plural, one {# opcję} few {# opcje} other {# opcji}}.'
+    max_votes_allowed: 'Ankieta umożliwia głosowanie na {max, plural, one {# opcję} few {# opcje} many {# opcji} other {# opcji}}.'
     modal:
       add_option_label: 'Dodaj opcję'
       add_title: 'Dodaj ankietę'
@@ -92,13 +92,13 @@ fof-polls:
       date_placeholder: 'Data zakończenia ankiety (opcjonalna)'
       delete: '=> core.ref.delete'
       edit_title: 'Edytuj ankietę'
-      empty_answers: '{count, plural, one {# odpowiedź jest pusta – uzupełnij ją lub usuń.} few {# odpowiedzi są puste – uzupełnij je lub usuń.} other {# odpowiedzi jest pustych – uzupełnij je lub usuń.}}'
+      empty_answers: '{count, plural, one {# odpowiedź jest pusta – uzupełnij ją lub usuń.} few {# odpowiedzi są puste – uzupełnij je lub usuń.} many {# odpowiedzi jest pustych – uzupełnij je lub usuń.} other {# odpowiedzi jest pustych – uzupełnij je lub usuń.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Ukryj głosy do czasu zakończenia ankiety'
       hide_votes_label_help: 'Użytkownik, który rozpoczął ankietę, zawsze będzie mógł zobaczyć głosy.'
       image_option_placeholder: 'URL obrazu (opcjonalny)'
       include_question: 'Ankieta musi zawierać pytanie'
-      max: 'Możesz mieć maksymalnie {max, plural, one {# opcję} few {# opcje} other {# opcji}}'
+      max: 'Możesz mieć maksymalnie {max, plural, one {# opcję} few {# opcje} many {# opcji} other {# opcji}}'
       max_votes_help: 'Ustaw na 0, aby pozwolić użytkownikom głosować na wszystkie opcje.'
       max_votes_label: 'Maksymalna liczba głosów na użytkownika'
       min: 'Musisz uwzględnić co najmniej 2 opcje'
@@ -141,7 +141,7 @@ fof-polls:
       scheduled_label: 'Zaplanowano na {date}'
       start_poll_button: 'Rozpocznij globalną ankietę'
       submit_button: Głosuj
-      total_votes: '{count, plural, one {Oddano # głos} few {Oddano # głosy} other {Oddano # głosów}}'
+      total_votes: '{count, plural, one {Oddano # głos} few {Oddano # głosy} many {Oddano # głosów} other {Oddano # głosu}}'
     poll_controls:
       cancel_schedule_label: 'Anuluj zaplanowaną publikację'
       cancel_schedule_success: 'Anulowano zaplanowaną publikację.'
@@ -193,7 +193,7 @@ fof-polls:
         start_poll_group_button: 'Utwórz grupę ankiet'
         title: 'Grupy ankiet'
     poll_never_ends: 'Ankieta nigdy się nie kończy'
-    polls_count: '{count, plural, one {{count} głos} few {{count} głosy} other {{count} głosów}}'
+    polls_count: '{count, plural, one {{count} głos} few {{count} głosy} many {{count} głosów} other {{count} głosu}}'
     polls_list:
       empty_text: 'Wygląda na to, że nie ma tu ankiet dla całej społeczności.'
       load_more_button: '=> core.ref.load_more'
@@ -218,7 +218,7 @@ fof-polls:
       no-recent-polls: 'W tej chwili nie ma żadnych niedawno zakończonych ankiet.'
     tooltip:
       badge: Ankieta
-      votes: '{count, plural, one {# głos} few {# głosy} other {# głosów}}'
+      votes: '{count, plural, one {# głos} few {# głosy} many {# głosów} other {# głosu}}'
     upload_image:
       remove_button: 'Usuń obraz'
       upload_button: 'Prześlij obraz'

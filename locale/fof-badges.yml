@@ -109,7 +109,7 @@ fof-badges:
     no_users_found: 'Nie znaleziono użytkowników'
     permissions:
       give_manually: 'Ręczne przyznawanie odznak'
-      moderate: 'Zarządzaj odznakami'
+      moderate: 'Zarządzanie odznakami'
       view_list: 'Przeglądanie listy odznak'
       view_user_badges: 'Przeglądanie odznak użytkowników'
     preview: Podgląd

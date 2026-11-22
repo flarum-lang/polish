@@ -24,8 +24,8 @@ fof-user-directory:
       nav: 'Katalog użytkowników'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
       usercard:
-        discussion-count: '{count, plural, one {{count} dyskusja} few {{count} dyskusje} other {{count} dyskusji}}'
-        post-count: '{count, plural, one {{count} post} few {{count} posty} other {{count} postów}}'
+        discussion-count: '{count, plural, one {{count} dyskusja} few {{count} dyskusje} many {{count} dyskusji} other {{count} dyskusji}}'
+        post-count: '{count, plural, one {{count} post} few {{count} posty} many {{count} postów} other {{count} posta}}'
     search:
       field:
         placeholder: 'Wyszukaj użytkowników'
