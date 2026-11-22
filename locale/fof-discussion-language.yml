@@ -7,7 +7,7 @@ fof-discussion-language:
     permissions:
       allow_change_language_label: 'Edytowanie języka dyskusji'
     settings:
-      composer_default_label: 'Wstępnie wybierz aktualny język w formularzu tworzenia dyskusji'
+      composer_default_label: 'Wstępnie wybierz aktualny język w formularzu rozpoczynania dyskusji'
       config:
         country_label: 'Kraj (do wyświetlania flagi)'
         language_label: Język
