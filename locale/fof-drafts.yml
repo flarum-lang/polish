@@ -11,7 +11,7 @@ flarum-gdpr:
 fof-default-user-preferences:
   admin:
     settings:
-      draftAutosaveEnable: 'Włącz domyślnie automatyczny zapis'
+      draftAutosaveEnable: 'Domyślnie włączaj automatyczny zapis szkiców'
       draftAutosaveInterval: 'Domyślny interwał automatycznego zapisywania (w sekundach)'
 fof-drafts:
   admin:
@@ -26,7 +26,7 @@ fof-drafts:
   api:
     empty_draft_message: 'W tym szkicu nie ma jeszcze nic do zapisania.'
   console:
-    no_title_error: 'Pomięto szkic: brakuje tytułu dyskusji.'
+    no_title_error: 'Pominięto szkic: brakuje tytułu dyskusji.'
     scheduled_drafts_disabled: 'Planowanie publikacji szkiców jest obecnie wyłączone.'
   forum:
     composer:

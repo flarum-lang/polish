@@ -254,5 +254,5 @@ fof-seo:
         body: 'Otwórz to okno, używając właściwości objectType i objectId, albo zarejestruj relację obiektu.'
         docs_link: Dokumentacja
         title: 'Ten obiekt nie jest obsługiwanym obiektem SeoMeta'
-    profile_description: 'Profil użytkownika {username} | {discussion_count} dyskusji | {comment_count} postów'
+    profile_description: 'Profil użytkownika {username} | {discussion_count, plural, one {# dyskusja} few {# dyskusje} many {# dyskusji} other {# dyskusji}} | {comment_count, plural, one {# post} few {# posty} many {# postów} other {# posta}}'
     profile_title: 'Profil użytkownika {username}'

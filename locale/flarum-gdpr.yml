@@ -69,7 +69,7 @@ flarum-gdpr:
         user_actions:
           data_export:
             button: Eksportuj
-            tooltip: 'Dane eksportu dla {username}'
+            tooltip: 'Eksportuj dane użytkownika {username}'
   email:
     confirm_erasure:
       body: "Otrzymaliśmy prośbę o usunięcie konta `{display_name}`.\n\nJeśli to Ty ją wysłałeś, potwierdź wniosek, korzystając z poniższego linku. Po potwierdzeniu zajmie się nim nasz zespół.\n\n{erasure_confirm_url}\n"

@@ -66,7 +66,7 @@ fof-pwa:
           portrait_primary: 'Pionowa (podstawowa)'
           portrait_secondary: 'Pionowa (alternatywna)'
         orientation_text: "Dowolna: Aplikacja zmienia orientację wraz z urządzeniem.\nNaturalna: Aplikacja korzysta z naturalnej orientacji urządzenia, zwykle pionowej na telefonach i poziomej na monitorach.\nPionowa: Aplikacja pozostaje w orientacji pionowej.\nPozioma: Aplikacja pozostaje w orientacji poziomej.\n\nOrientacja pionowa i pozioma mogą występować w dwóch położeniach różniących się o 180 stopni. Wybierz wariant podstawowy lub alternatywny, aby korzystać tylko z jednego z nich. Na telefonie orientacja pionowa (podstawowa) zwykle oznacza zwykłe ułożenie telefonu, a pionowa (alternatywna) – ułożenie do góry nogami. W przypadku orientacji poziomej położenie podstawowe zależy od urządzenia.\n\nNiektóre przeglądarki i urządzenia mogą ignorować wybraną orientację.\n"
-        push_notif_preference_default_to_email_label: 'Domyślne ustawienia push zgodne z e-mail'
+        push_notif_preference_default_to_email_label: 'Domyślne ustawienia push zgodne z ustawieniami e-mail'
         push_notif_preference_default_to_email_text: 'Po włączeniu powiadomienia push będą domyślnie aktywne dla wszystkich typów powiadomień, dla których domyślnie włączone są powiadomienia e-mail. Po wyłączeniu powiadomienia push będą domyślnie wyłączone.'
         push_notification_ttl_label: 'Czas ważności powiadomień push (TTL)'
         push_notification_ttl_text: 'Przez ile sekund usługa push ma przechowywać niedostarczone powiadomienia w kolejce, zanim wygasną.'
@@ -86,7 +86,7 @@ fof-pwa:
       no_logo: 'Aby aplikację można było zainstalować, musisz przesłać co najmniej jedno logo o rozmiarze minimum 144 × 144 px.'
       no_name: 'Aby aplikacja działała, musisz podać jej pełną nazwę.'
       no_vapid_keys: 'Nie znaleziono kluczy VAPID. Są one wymagane do wysyłania powiadomień push. Możesz je zresetować poniżej.'
-      possible_https_disabled: 'Wygląda na to, że strona może nie korzystać z HTTPS. Pomóc może wyczyszczenie pamięci podręcznej (panel administracyjny => Narzędzia). Jeśli HTTPS działa, zignoruj ten komunikat. W przeciwnym razie pamiętaj, że jest ono wymagane do działania progresywnych aplikacji internetowych.'
+      possible_https_disabled: 'Wygląda na to, że strona może nie korzystać z HTTPS. Pomóc może wyczyszczenie pamięci podręcznej (panel administracyjny => Narzędzia). Jeśli HTTPS działa, zignoruj ten komunikat. W przeciwnym razie pamiętaj, że jest on wymagany do działania progresywnych aplikacji internetowych.'
       success: 'Nie znaleziono żadnych potencjalnych problemów!'
       suggest_gmp: 'Wygląda na to, że rozszerzenie PHP gmp nie jest włączone na serwerze. Nie jest ono bezwzględnie wymagane, ale może poprawić wydajność i jest zalecane. Niektóre hostingi współdzielone mogą go nie obsługiwać.'
   api:

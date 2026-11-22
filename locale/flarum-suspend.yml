@@ -22,7 +22,7 @@ flarum-suspend:
       subject: 'Twoje konto zostało zbanowane'
     unsuspended:
       html:
-        body: 'Twoje konto zostało odbanowane. Możesz już wrócić na forum {forumTitle}.'
+        body: 'Twoje konto zostało odbanowane. Gdy zechcesz, możesz wrócić na forum [{forumTitle}]({forum_url}).'
       plain:
         body: "Twoje konto zostało odbanowane. Aby wrócić na forum, kliknij poniższy link:\n\n{forum_url}\n"
       subject: 'Twoje konto zostało odbanowane'

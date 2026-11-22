@@ -11,8 +11,8 @@ flarum-audit:
   lib:
     browser:
       discussion:
-        merged_away: 'Włączono {discussion} do {new_discussion}'
-        merged_into: 'Do {discussion} scalono posty z {original_discussion_ids_count} dyskusji (łącznie: {post_count})'
+        merged_away: 'Scalono dyskusję {discussion} z {new_discussion}'
+        merged_into: 'Scalono {post_count, plural, one {# post} few {# posty} many {# postów} other {# posta}} z {original_discussion_ids_count} dyskusji w dyskusję {discussion}'
 fof-merge-discussions:
   admin:
     permissions:

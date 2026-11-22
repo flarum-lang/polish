@@ -29,7 +29,7 @@ flarum-audit:
       user-title: 'Dziennik audytu użytkownika'
   lib:
     browser:
-      audit_log_cleared: 'Usunięto {deleted_count} wpisów z dziennika audytu'
+      audit_log_cleared: 'Usunięto {deleted_count, plural, one {# wpis} few {# wpisy} many {# wpisów} other {# wpisu}} z dziennika audytu'
       cache_cleared: 'Ręcznie wyczyszczono pamięć podręczną'
       client:
         access_token: 'Token dostępu'

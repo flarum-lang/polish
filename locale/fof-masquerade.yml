@@ -36,7 +36,7 @@ fof-masquerade:
       delete-permanently-confirmation: 'Czy na pewno chcesz trwale usunąć pole „{field}” i wszystkie zapisane odpowiedzi? Tej operacji nie można cofnąć.'
       description: 'Opis pola'
       description-help: "Opcjonalny opis wyjaśniający przeznaczenie tego pola.\n"
-      edit: 'Edytuj pole {field}'
+      edit: 'Edytuj pole „{field}”'
       force-user-to-completion: 'Wymuś uzupełnienie tego pola przez użytkownika'
       hide-empty-fields: 'Ukryj puste pola'
       icon: Ikona

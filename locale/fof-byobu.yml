@@ -115,7 +115,7 @@ fof-byobu:
     gambits:
       allows-pd:
         hint: tak
-        key: zezwala-na-prywatne
+        key: pozwala-na-pd
       byobu:
         hint: 'nazwa użytkownika lub wyświetlana nazwa uczestnika'
         key: byobu

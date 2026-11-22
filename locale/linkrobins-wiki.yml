@@ -104,7 +104,7 @@ linkrobins-wiki:
     comment_required: 'Treść komentarza jest wymagana.'
     comment_soft_delete_first: 'Przed trwałym usunięciem komentarza należy go najpierw usunąć.'
     content_required: 'Treść artykułu jest wymagana.'
-    faq_too_many: 'Artykuł może zawierać maksymalnie {max} pytań i odpowiedzi.'
+    faq_too_many: 'Artykuł może zawierać maksymalnie {max, plural, one {# wpis} few {# wpisy} many {# wpisów} other {# wpisu}} w sekcji FAQ.'
     report_already_open: 'Ten artykuł został już przez Ciebie zgłoszony. Redaktor sprawdzi zgłoszenie.'
     slug_invalid: 'Ten slug adresu URL jest zarezerwowany. Wybierz taki, który nie składa się wyłącznie z cyfr.'
     slug_taken: 'Inny artykuł ma już taki slug adresu URL.'

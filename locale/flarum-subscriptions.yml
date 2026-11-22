@@ -43,8 +43,8 @@ flarum-subscriptions:
     gambits:
       discussions:
         subscription:
-          following_key: obserwowane
-          ignoring_key: ignorowane
+          following_key: obserwowana
+          ignoring_key: ignorowana
   ref:
     follow: Obserwuj
     following: Obserwujesz

@@ -18,10 +18,10 @@ flarum-deck:
       back_button: Wróć
       discussion_label: Dyskusja
       discussion_placeholder: 'Wyszukaj dyskusję'
-      filter_help: 'Możesz łączyć filtry wyszukiwania, np. tag:, author:, is:unread lub is:following. Zwykłe słowa nie są obsługiwane.'
-      filter_invalid_message: 'Wpisz same filtry, np. tag:support is:unread. Zwykłe słowa nie są obsługiwane.'
+      filter_help: 'Możesz łączyć filtry wyszukiwania, np. tag:, autor:, jest:nieodczytana lub jest:przypięta. Zwykłe słowa nie są obsługiwane.'
+      filter_invalid_message: 'Wpisz same filtry, np. tag:support jest:nieodczytana. Zwykłe słowa nie są obsługiwane.'
       filter_label: Filtry
-      filter_placeholder: 'np. tag:support is:unread'
+      filter_placeholder: 'np. tag:support jest:nieodczytana'
       group_invalid_message: 'Wybierz grupę.'
       group_label: Grupa
       in_deck_badge: 'Na pulpicie'

@@ -32,4 +32,4 @@ flarum-likes:
       posts:
         likedBy:
           hint: 'ID lub nazwa użytkownika'
-          key: polubiono
+          key: polubiony-przez

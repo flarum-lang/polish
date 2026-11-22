@@ -42,7 +42,7 @@ fof-move-posts:
       submit: Przenieś
       title: '=> fof-move-posts.ref.move_posts'
     notifications:
-      post_moved_text: 'Jeden z Twoich postów został przeniesiony do {targetDiscussionTitle}.'
+      post_moved_text: 'Co najmniej jeden z Twoich postów został przeniesiony do {targetDiscussionTitle}.'
     post:
       move: 'Wybierz do przeniesienia'
       moving: 'Przenoszenie posta'

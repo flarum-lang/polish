@@ -29,4 +29,4 @@ flarum-lock:
     gambits:
       discussions:
         locked:
-          key: zamknięte
+          key: zamknięta
