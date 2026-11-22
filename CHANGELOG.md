@@ -7,14 +7,14 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (25 changed).
+* Updated Flarum core translations (27 changed).
 * Updated validation translations (1 changed).
 
 
 **Updated translations for extensions**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (1 changed, 100% complete)
-* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (7 added, 1 changed, 100% complete)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (7 added, 8 changed, 100% complete)
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (1 changed, 100% complete)
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (75 added, 1 changed, 100% complete)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) (3 added, 100% complete)
@@ -23,13 +23,14 @@ CHANGELOG
 * [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions) (2 added, 100% complete)
 * [`flarum/akismet`](https://github.com/flarum/akismet) (1 changed, 100% complete)
 * [`flarum/audit`](https://github.com/flarum/audit) (2 changed, 100% complete)
-* [`flarum/deck`](https://github.com/flarum/deck) (3 changed, 100% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (8 changed, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 changed, 100% complete)
 * [`flarum/likes`](https://github.com/flarum/likes) (3 changed, 100% complete)
 * [`flarum/lock`](https://github.com/flarum/lock) (1 changed, 100% complete)
 * [`flarum/markdown`](https://github.com/flarum/markdown) (1 changed, 100% complete)
 * [`flarum/mentions`](https://github.com/flarum/mentions) (4 changed, 100% complete)
 * [`flarum/messages`](https://github.com/flarum/messages) (1 changed, 100% complete)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (1 changed, 100% complete)
 * [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed, 100% complete)
 * [`flarum/realtime`](https://github.com/flarum/realtime) (4 changed, 100% complete)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (2 changed, 100% complete)
@@ -38,17 +39,18 @@ CHANGELOG
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 1 changed, 100% complete)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) (3 changed, 100% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (8 added, 6 changed, 100% complete)
-* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (3 changed, 100% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (4 changed, 100% complete)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (3 added, 3 changed, 100% complete)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (8 changed, 100% complete)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (2 added, 1 changed, 100% complete)
-* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (5 added, 3 changed, 100% complete)
-* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (4 changed, 100% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (5 added, 7 changed, 100% complete)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (6 changed, 100% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (1 changed, 100% complete)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (1 changed, 100% complete)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (1 changed, 100% complete)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (3 changed, 100% complete)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter) (1 changed, 100% complete)
-* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (3 added, 100% complete)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (3 added, 1 changed, 100% complete)
 * [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) (1 changed, 100% complete)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) (4 changed, 100% complete)
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) (1 changed, 100% complete)
@@ -73,11 +75,11 @@ CHANGELOG
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (3 changed, 100% complete)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo) (4 changed, 100% complete)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split) (4 changed, 100% complete)
-* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) (5 added, 100% complete)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) (5 added, 3 changed, 100% complete)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis) (1 changed, 100% complete)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed, 100% complete)
 * [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (8 added, 3 changed, 100% complete)
-* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (27 changed, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (28 changed, 100% complete)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) (1 changed, 100% complete)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) (2 changed, 100% complete)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (2 changed, 100% complete)
@@ -85,7 +87,7 @@ CHANGELOG
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) (1 changed, 100% complete)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) (9 added, 100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (4 added, 2 changed, 100% complete)
-* [`ianm/follow-users`](https://github.com/imorland/follow-users) (3 added, 100% complete)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (3 added, 1 changed, 100% complete)
 * [`ianm/html-head`](https://github.com/imorland/html-head) (61 added, 100% complete)
 * [`ianm/syndication`](https://github.com/imorland/syndication) (4 added, 2 changed, 100% complete)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (1 added, 1 changed, 100% complete)
@@ -95,7 +97,7 @@ CHANGELOG
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) (13 added, 100% complete)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 added, 2 changed, 100% complete)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) (4 added, 100% complete)
-* [`ramon/chat`](https://github.com/ram0ng1/chat) (44 changed, 100% complete)
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (49 changed, 100% complete)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) (4 changed, 100% complete)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) (1 changed, 100% complete)
 
