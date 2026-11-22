@@ -192,7 +192,7 @@ ramon-chat:
     move_wider_audience: 'Nie można przenosić wiadomości z rozmowy prywatnej ani z prywatnego kanału na otwarty kanał, ponieważ udostępniłoby to wiadomości osobom, które wcześniej nie mogły ich odczytać.'
     not_a_member: 'Ten użytkownik nie należy do tego kanału.'
     rank_color_invalid: 'Podaj kolor w formacie #RRGGBB.'
-    rank_flag_invalid: 'Ta wartość nie określa prawidłowo stanu włączenia lub wyłączenia.'
+    rank_flag_invalid: 'Nieprawidłowa wartość – dozwolone jest tylko włączenie lub wyłączenie.'
     rank_icon_invalid: 'Ikona musi być klasą Font Awesome, np. fas fa-star.'
     rank_limit: 'Kanał może mieć maksymalnie {max, plural, one {# rangę} few {# rangi} many {# rang} other {# rangi}}.'
     rank_name_invalid: 'Nazwa rangi musi mieć od 1 do {max, plural, one {# znaku} few {# znaków} many {# znaków} other {# znaku}}.'
@@ -426,11 +426,11 @@ ramon-chat:
       invite_cancelled: 'Zaproszenie dla {username} zostało wycofane.'
       invited_badge: Zaproszony
       invited_heading: '{count, plural, one {# oczekujące zaproszenie} few {# oczekujące zaproszenia} many {# oczekujących zaproszeń} other {# oczekującego zaproszenia}}'
-      level_always: 'Każdej wiadomości'
+      level_always: 'Każda wiadomość'
       level_always_help: 'Każda wiadomość na tym kanale wywoła powiadomienie.'
-      level_mentions: 'Tylko wzmiankach'
+      level_mentions: 'Tylko wzmianki'
       level_mentions_help: 'Powiadomienie wywołają tylko wiadomości, które o Tobie wspominają lub używają @channel albo @here.'
-      level_never: Niczym
+      level_never: Brak
       level_never_help: 'Ten kanał nie będzie wysyłał Ci powiadomień. Nieodczytane wiadomości nadal będą widoczne na pasku bocznym.'
       member_removed: '{username} został usunięty z kanału.'
       member_search: 'Filtruj członków'
@@ -441,7 +441,7 @@ ramon-chat:
       mute: 'Wycisz ten kanał'
       mute_help: 'Wyciszone kanały nie wyświetlają oznaczeń nieodczytanych wiadomości.'
       no_members: 'Brak pasujących członków.'
-      notification_level: 'Powiadamiaj mnie o'
+      notification_level: Powiadomienia
       notifications: Powiadomienia
       owner_badge: Właściciel
       post_discussions: 'Ogłaszaj nowe dyskusje z tej kategorii'

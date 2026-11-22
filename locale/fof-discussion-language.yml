@@ -15,7 +15,7 @@ fof-discussion-language:
       change_language_label: 'Zmienianie języka dyskusji'
     settings:
       attribution: 'To rozszerzenie wykorzystuje materiały z artykułu Wikipedii <article>List of ISO 639-2 codes</article>, udostępnionego na licencji <license>Creative Commons Uznanie autorstwa – Na tych samych warunkach 3.0</license>.'
-      composer_default_label: 'Wstępnie wybierz aktualny język w formularzu tworzenia dyskusji'
+      composer_default_label: 'Wstępnie wybierz aktualny język w formularzu rozpoczynania dyskusji'
       config:
         add_button: 'Dodaj język'
         choose_country: 'Wybierz kraj…'

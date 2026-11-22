@@ -91,7 +91,7 @@ fof-badges:
       polls_created: 'Utworzone ankiety'
       polls_voted: 'Głosy w ankietach'
       post_count: 'Liczba postów'
-      private_discussions_created: 'Utworzone dyskusje prywatne'
+      private_discussions_created: 'Rozpoczęte dyskusje prywatne'
       reactions_given: 'Dodane reakcje'
       reactions_received: 'Otrzymane reakcje'
       tag_posts: 'Posty w tagu'

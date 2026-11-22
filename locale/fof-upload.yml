@@ -59,7 +59,7 @@ fof-upload:
         region: Region
         secret: 'Tajny klucz dostępu'
         title: 'Magazyn S3'
-        use_path_style_endpoint: 'Adresowanie path-style'
+        use_path_style_endpoint: 'Używaj adresowania w stylu ścieżki (path-style)'
       client_extension:
         placeholder: 'np. docx, xlsx, epub'
         title: 'Rozszerzenia plików podane przez użytkownika'
