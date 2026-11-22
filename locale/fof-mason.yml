@@ -58,7 +58,7 @@ fof-mason:
       hide-empty-fields-section-help: "Domyślnie, jeśli użytkownik może edytować pola lub tytuł został ustawiony, sekcja zawsze będzie wyświetlana, nawet jeśli wszystkie pola są ukryte. Po włączeniu tej opcji, cała sekcja zostanie ukryta i przycisk „Edytuj pola” będzie dostępny jedynie wewnątrz menu „Odpowiedz”, jeśli wszystkie pola są puste.\n"
       labels-as-placeholders: 'Pokaż etykiety jako tekst zastępczy w polach formularza'
       labels-as-placeholders-help: "Pola będą zajmować mniej przestrzeni w pionie oraz ikony nie będą się wyświetlać. Miej na uwadze, że może mieć to wpływ na czytelność, zwłaszcza podczas edycji uzupełnionych pól.\n"
-      n-columns: '{count} kolumn'
+      n-columns: '{count, plural, one {# kolumna} few {# kolumny} many {# kolumn} other {# kolumny}}'
       tags-as-field: 'Pokaż listę wyboru tagów jako pole'
       tags-as-field-help: "To schowa standardowe pole do wyboru tagów i zamiast tego wyświetli niestandardową listę wyboru. Ta opcja zadziała jedynie, jeśli pozwoliłeś maksymalnie na jeden tag główny i jeden dodatkowy!\n"
       tags-field-name: 'Etykieta dla pola z tagami'
