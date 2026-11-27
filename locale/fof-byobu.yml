@@ -69,7 +69,7 @@ fof-byobu:
     hero:
       title: '=> fof-byobu.forum.nav.nav_item'
     input:
-      search_recipients: 'Wpisz 3 pierwsze znaki, aby wyszukać uczestników…'
+      search_recipients: 'Wpisz {count, plural, one {pierwszy znak} few {# pierwsze znaki} many {# pierwszych znaków} other {# pierwszego znaku}}, aby wyszukać uczestników…'
     labels:
       recipients: '{count, plural, one {{count} uczestnik} other {{count} uczestników}}'
     modal:

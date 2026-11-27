@@ -25,3 +25,4 @@ fof-author-change:
       no-results: 'Brak wyników'
       placeholder: 'Szukaj użytkowników'
       type-more: 'Wpisz 3 znaki, aby wyszukać w bazie danych'
+      type-more-characters: 'Wpisz {count, plural, one {# znak} few {# znaki} many {# znaków} other {# znaku}}, aby wyszukać w bazie danych'

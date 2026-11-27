@@ -80,7 +80,23 @@ fof-pwa:
       status_check_heading: 'Kontrola stanu'
       submit_button: 'Zapisz ustawienia'
       text: 'Skonfiguruj swoje forum Flarum jako progresywną aplikację internetową! Nie oznacza to automatycznej publikacji forum w sklepie z aplikacjami. Użytkownicy otrzymają natomiast możliwość dodania go do ekranu głównego. Udostępniamy kilka kontroli stanu, ale najlepszym sposobem na przetestowanie PWA jest samodzielna próba instalacji (instrukcje instalowania progresywnych aplikacji internetowych znajdziesz w internecie). Pamiętaj, że komunikaty zachęcające do instalacji PWA są kontrolowane przez przeglądarki i nie mogą być wywoływane przez programistów, administratorów ani aplikacje. Warto dodać instrukcję instalacji PWA do dokumentacji forum.'
+    sections:
+      delivery:
+        label: Dostarczanie
+      home_screen:
+        description: 'Ikonę aplikacji, tło ekranu startowego i kolor główny ustawisz na stronie <appearance>Wygląd forum</appearance> – tam też określisz, czy forum otwiera się jako aplikacja. Nazwą aplikacji jest nazwa forum, a jej krótką nazwę ustawisz obok niej na stronie <basics>Podstawowe</basics>. To przeglądarki decydują, kiedy zaproponować instalację aplikacji, dlatego warto poinformować użytkowników, jak dodać ją do ekranu głównego.'
+        label: 'Ekran główny'
+      keys:
+        label: 'Klucze VAPID'
+      sharing:
+        label: Udostępnianie
+      status:
+        description: 'Czego jeszcze brakuje, aby forum można było zainstalować jako aplikację i aby mogło wysyłać powiadomienia push.'
+        label: Stan
+      troubleshooting:
+        label: 'Rozwiązywanie problemów'
     status:
+      check_failed: 'Nie udało się wczytać wyników kontroli stanu. Odśwież stronę, aby spróbować ponownie.'
       config_no_https: 'Adres URL w pliku config.php nie korzysta z HTTPS. HTTPS jest wymagany do działania progresywnych aplikacji internetowych.'
       key_gen_failed: 'Nie udało się wygenerować kluczy wymaganych do obsługi powiadomień push. Pełny komunikat błędu: {error}'
       no_logo: 'Aby aplikację można było zainstalować, musisz przesłać co najmniej jedno logo o rozmiarze minimum 144 × 144 px.'
@@ -89,6 +105,9 @@ fof-pwa:
       possible_https_disabled: 'Wygląda na to, że strona może nie korzystać z HTTPS. Pomóc może wyczyszczenie pamięci podręcznej (panel administracyjny => Narzędzia). Jeśli HTTPS działa, zignoruj ten komunikat. W przeciwnym razie pamiętaj, że jest on wymagany do działania progresywnych aplikacji internetowych.'
       success: 'Nie znaleziono żadnych potencjalnych problemów!'
       suggest_gmp: 'Wygląda na to, że rozszerzenie PHP gmp nie jest włączone na serwerze. Nie jest ono bezwzględnie wymagane, ale może poprawić wydajność i jest zalecane. Niektóre hostingi współdzielone mogą go nie obsługiwać.'
+    tabs:
+      app: Aplikacja
+      push: 'Powiadomienia push'
   api:
     endpoint_host_not_allowed: 'Nie udało się włączyć powiadomień push, ponieważ host usługi push „{host}”, z którego korzysta przeglądarka, jest niedozwolony. Skontaktuj się z administratorem forum.'
     endpoint_https_required: 'Nie udało się włączyć powiadomień push, ponieważ przeglądarka podała nieprawidłowy adres URL usługi push: „{url}”. Wymagany jest prawidłowy adres HTTPS.'

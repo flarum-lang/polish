@@ -13,10 +13,13 @@ core:
       mail_mailtrap_inbox_id_label: 'ID skrzynki sandbox'
       mail_mailtrap_mode_help: 'Tryb „Wysyłaj e-maile” dostarcza wiadomości do użytkowników. Tryb sandbox nie dostarcza niczego prawdziwym odbiorcom: każdy e-mail trafia do testowej skrzynki Mailtrap, co sprawdza się na forach testowych i deweloperskich.'
       mail_mailtrap_mode_label: Tryb
+      mail_mailtrap_webhook_signing_secret_help: 'Opcjonalne, używane tylko w trybie „Wysyłaj e-maile”. Dodaj w Mailtrap webhook Email Sending z formatem danych JSON i adresem URL z sekcji „Obsługa zwrotów”, a następnie wklej tutaj jego 32-znakowy sekret podpisywania w formacie szesnastkowym.'
+      mail_mailtrap_webhook_signing_secret_label: 'Sekret podpisywania webhooka'
       mailtrap_description: 'Wysyłaj e-maile przez API Mailtrap lub przechwytuj je w testowej skrzynce sandbox Mailtrap. Aby wysyłać prawdziwe e-maile, adres nadawcy musi należeć do domeny wysyłkowej zweryfikowanej w Mailtrap.'
       mailtrap_heading: 'Ustawienia Mailtrap'
 fof-mailtrap-mail:
   admin:
+    invalid_webhook_secret: 'Wprowadź 32-znakowy sekret podpisywania webhooka w formacie szesnastkowym.'
     mode:
       sandbox: 'Sandbox (testowanie)'
       sending: 'Wysyłaj e-maile'
