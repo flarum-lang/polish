@@ -2,6 +2,53 @@ CHANGELOG
 =========
 
 
+2.0.15 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (153 added, 2 changed).
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (96% complete)
+* [`flarum/ai`](https://github.com/flarum/ai) (100% complete)
+* [`flarum/mcp`](https://github.com/flarum/mcp) (100% complete)
+* [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet) (2 added, 100% complete)
+* [`flarum/audit`](https://github.com/flarum/audit) (6 added, 100% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (7 added, 100% complete)
+* [`flarum/emoji`](https://github.com/flarum/emoji) (2 added, 100% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (505 added, 100% complete)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (9 added, 100% complete)
+* [`flarum/likes`](https://github.com/flarum/likes) (2 added, 100% complete)
+* [`flarum/mentions`](https://github.com/flarum/mentions) (6 added, 100% complete)
+* [`flarum/messages`](https://github.com/flarum/messages) (57 added, 100% complete)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (4 added, 100% complete)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (4 added, 100% complete)
+* [`flarum/realtime`](https://github.com/flarum/realtime) (6 added, 100% complete)
+* [`flarum/statistics`](https://github.com/flarum/statistics) (2 added, 100% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (4 added, 100% complete)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (4 added, 100% complete)
+* [`flarum/tags`](https://github.com/flarum/tags) (7 added, 100% complete)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (1 added, 100% complete)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (1 added, 100% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (1 changed, 100% complete)
+* [`fof/mailtrap-mail`](https://github.com/FriendsOfFlarum/mailtrap-mail) (3 added, 100% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (11 added, 100% complete)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) (1 added, 100% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (3 added, 6 changed, 100% complete)
+
+
+All changes: [2.0.14...2.0.15](https://github.com/flarum-lang/polish/compare/2.0.14...2.0.15).
+
+
 2.0.14 (2026-11-22)
 -------------------
 
