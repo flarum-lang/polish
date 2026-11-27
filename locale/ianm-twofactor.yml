@@ -44,13 +44,13 @@ ianm-twofactor:
       logo_qr: 'Logo na kodzie QR'
       logo_qr_help: 'Jeśli logo zostało przesłane, zostanie ono osadzone na kodzie QR. Pozostaw puste, aby użyć logo forum.'
       tokens:
-        also_kill_developer_tokens: 'Unieważniaj także tokeny deweloperskie'
-        also_kill_developer_tokens_help: 'Unieważnia również tokeny dostępu dewelopera, które były nieaktywne przez określony czas.'
-        heading: 'Tokeny dostępu'
-        help: 'W celu zwiększenia bezpieczeństwa możesz tutaj zarządzać dodatkowymi zachowaniami związanymi z tokenami dostępu.'
+        also_kill_developer_tokens: 'Usuwaj nieużywane tokeny deweloperskie'
+        also_kill_developer_tokens_help: 'Po włączeniu tej opcji tokeny deweloperskie nieużywane przez liczbę dni podaną poniżej będą usuwane. Skrypty i integracje korzystające z takiego tokenu przestaną działać.'
+        heading: 'Tokeny deweloperskie'
+        help: 'Długość zalogowania (również z opcją „Zapamiętaj mnie”) ustawia się na stronie „Zaawansowane”, w sekcji „Sesje”. Tokeny deweloperskie nigdy tam nie wygasają, dlatego można je usuwać tutaj.'
         kill_inactive_tokens: 'Unieważniaj nieaktywne tokeny'
-        kill_inactive_tokens_age_days: 'Unieważniaj nieaktywne tokeny po (dniach)'
-        kill_inactive_tokens_age_days_help: 'Liczba dni braku aktywności, po których tokeny dostępu zostaną usunięte.'
+        kill_inactive_tokens_age_days: 'Usuwaj tokeny deweloperskie po (dniach)'
+        kill_inactive_tokens_age_days_help: 'Liczba dni, przez które token deweloperski może pozostawać nieużywany, zanim zostanie usunięty.'
         kill_inactive_tokens_help: 'Automatycznie unieważnia tokeny dostępu, które były nieaktywne przez określony czas.'
   email:
     body:
@@ -81,6 +81,7 @@ ianm-twofactor:
       confirm_disable_2fa_text_other_user: 'Czy na pewno chcesz wyłączyć uwierzytelnianie dwuskładnikowe dla {username}? Spowoduje to usunięcie wszystkich kodów zapasowych i wyłączenie 2FA dla konta użytkownika.'
       confirm_disable_2fa_title: 'Potwierdzenie wyłączenia uwierzytelniania dwuskładnikowego'
       continue_button: Kontynuuj
+      current_token_required: 'Wprowadź token z bieżącego urządzenia, aby kontynuować.'
       device_changed_confirmation: 'Urządzenie uwierzytelniające zostało pomyślnie zmienione.'
       disable_2fa_button: 'Wyłącz 2FA'
       enable_2fa_button: 'Włącz 2FA'
@@ -110,6 +111,11 @@ ianm-twofactor:
       verify_new_device_message: 'Teraz wprowadź token z nowego urządzenia, aby zakończyć zmianę.'
     user_2fa:
       alert_message: 'Musisz włączyć uwierzytelnianie dwuskładnikowe, aby uzyskać dostęp do swojego konta.'
+  lib:
+    gambits:
+      users:
+        twofactor:
+          key: 2fa
   views:
     log_in:
       two_factor_incorrect_message: 'Nieprawidłowy kod 2FA. Spróbuj ponownie.'
@@ -121,3 +127,4 @@ ianm-twofactor:
       oauth_session_expired: 'Sesja uwierzytelniania OAuth wygasła. Spróbuj zalogować się ponownie.'
       submit_button: 'Prześlij token'
       title: 'Uwierzytelnianie dwuskładnikowe'
+      too_many_attempts_message: 'Zbyt wiele nieprawidłowych kodów 2FA. Odczekaj kilka minut i spróbuj ponownie.'
