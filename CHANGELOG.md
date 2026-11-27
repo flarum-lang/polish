@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.10.21 (XXXX-XX-XX)
+--------------------
+
+**General changes**:
+
+* Updated Flarum core translations (2 changed).
+
+
+**Updated translations for extensions**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) (1 changed, 100% complete)
+
+
+All changes: [1.10.20...1.10.21](https://github.com/flarum-lang/polish/compare/1.10.20...1.10.21).
+
+
 1.10.20 (2026-11-22)
 --------------------
 
