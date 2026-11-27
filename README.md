@@ -73,6 +73,7 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lan
 
 | Rozszerzenie | Status |
 | --- | --- |
+| [`flarum/ai`](https://github.com/flarum/ai) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-ai/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-ai/pl/) |
 | [`flarum/akismet`](https://github.com/flarum/akismet) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-akismet/pl/) |
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-approval/pl/) |
 | [`flarum/audit`](https://github.com/flarum/audit) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-audit/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-audit/pl/) |
@@ -85,9 +86,11 @@ Uwagi oraz błędy można zgłaszać na [GitHubie](https://github.com/flarum-lan
 | [`flarum/likes`](https://github.com/flarum/likes) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-likes/pl/) |
 | [`flarum/lock`](https://github.com/flarum/lock) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-lock/pl/) |
 | [`flarum/markdown`](https://github.com/flarum/markdown) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-markdown/pl/) |
+| [`flarum/mcp`](https://github.com/flarum/mcp) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-mcp/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-mcp/pl/) |
 | [`flarum/mentions`](https://github.com/flarum/mentions) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-mentions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-mentions/pl/) |
 | [`flarum/messages`](https://github.com/flarum/messages) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-messages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-messages/pl/) |
 | [`flarum/nicknames`](https://github.com/flarum/nicknames) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-nicknames/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-nicknames/pl/) |
+| [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-oauth-provider/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-oauth-provider/pl/) |
 | [`flarum/pusher`](https://github.com/flarum/pusher) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-pusher/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-pusher/pl/) |
 | [`flarum/realtime`](https://github.com/flarum/realtime) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-realtime/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-realtime/pl/) |
 | [`flarum/statistics`](https://github.com/flarum/statistics) | [![Status tłumaczeń](https://weblate.rob006.net/widgets/flarum2/pl/flarum-statistics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-statistics/pl/) |
