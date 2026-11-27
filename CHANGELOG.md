@@ -7,7 +7,7 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (153 added).
+* Updated Flarum core translations (153 added, 2 changed).
 
 
 **Added support for new extensions**:
@@ -43,6 +43,7 @@ CHANGELOG
 * [`fof/mailtrap-mail`](https://github.com/FriendsOfFlarum/mailtrap-mail) (3 added, 100% complete)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (11 added, 100% complete)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) (1 added, 100% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (3 added, 6 changed, 100% complete)
 
 
 All changes: [2.0.14...2.0.15](https://github.com/flarum-lang/polish/compare/2.0.14...2.0.15).
