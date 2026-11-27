@@ -2,10 +2,21 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-mentions/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        groupMentioned: 'Wzmianki o Twoich grupach'
+        postMentioned: 'Odpowiedzi na Twoje posty'
+        userMentioned: 'Wzmianki o Tobie'
 flarum-mentions:
   admin:
     permissions:
       mention_groups_label: 'Wspominanie grup'
+    sections:
+      format:
+        description: 'Jaką składnię mogą wpisywać użytkownicy, aby wspomnieć o innym użytkowniku.'
+        label: 'Format wzmianek'
     settings:
       allow_username_format_label: 'Pozwól na wspominanie używając nazwy użytkownika (@login)'
       allow_username_format_text: "Obecny format wspominania o użytkownikach to @\"Nazwa Wyświetlana\"#ID.\nTo ustawienie pozwala korzystać ze starego formatu (@login), zostanie on jednak przekonwertowany na nowy format podczas zapisywania.\n"
@@ -44,6 +55,7 @@ flarum-mentions:
       user_mentioned_text: '{username} wspomniał o Tobie'
     post:
       mentioned_by_more_text: '{count, plural, one {# odpowiedź więcej} other {# odpowiedzi więcej}}.'
+      mentioned_by_self_only_text: '{users} odpowiedziałeś na to.'
       mentioned_by_self_text: '{count, plural, one {{users} odpowiedziałeś na to} other {{users} odpowiedzieliście na to}}.'
       mentioned_by_text: '{users} {count, plural, one {odpowiedział na to} =2 {odpowiedzieli na to} =3 {odpowiedzieli na to} =4 {odpowiedzieli na to} other {odpowiedziało na to}}.'
       others_text: '=> core.ref.some_others'

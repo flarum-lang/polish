@@ -16,6 +16,13 @@ flarum-pusher:
       server_hostname_help: 'Opcjonalne. Nadpisuje host, z którym łączy się klient – dla samodzielnie hostowanego serwera zgodnego z Pusherem (np. soketi). Pozostaw puste, aby korzystać z usługi Pusher z klastrem ustawionym powyżej.'
       server_hostname_label: 'Nazwa hosta serwera'
       title: 'Ustawienia Pushera'
+    sections:
+      connection:
+        description: 'Klucze ze strony App Keys Twojej aplikacji Pusher.'
+        label: Połączenie
+      server:
+        description: 'Potrzebne tylko wtedy, gdy zamiast Pushera korzystasz z własnego serwera zgodnego z Pusherem.'
+        label: 'Własny serwer'
   forum:
     discussion_list:
       show_updates_text: '{count, plural, one {Pokaż # zaktualizowaną dyskusję} few {Pokaż # zaktualizowane dyskusje} many {Pokaż # zaktualizowanych dyskusji} other {Pokaż # zaktualizowanej dyskusji}}'

@@ -14,6 +14,13 @@ flarum-nicknames:
         nickname: Pseudonim
     permissions:
       edit_own_nickname_label: 'Edytowanie własnego pseudonimu'
+    sections:
+      registration:
+        description: 'O co są proszeni nowi użytkownicy podczas rejestracji.'
+        label: Rejestracja
+      validation:
+        description: 'Zasady, które musi spełniać każdy pseudonim.'
+        label: Walidacja
     settings:
       max_label: 'Maksymalna długość pseudonimu'
       min_label: 'Minimalna długość pseudonimu'

@@ -16,6 +16,8 @@ flarum-audit:
       viewLimited: 'Wyświetlanie ograniczonego dziennika audytu'
     settings:
       limitedIpAddress: 'Wyświetlanie adresów IP'
+    tabs:
+      log: Dziennik
   forum:
     link:
       actor-audit: 'Dziennik audytu (działania użytkownika)'
@@ -128,13 +130,18 @@ flarum-audit:
         bio_changed: 'Zmieniono bio użytkownika {username}'
         created: 'Utworzono konto użytkownika {username}'
         deleted: 'Usunięto użytkownika {username}'
+        email_bounced: 'Wiadomość do użytkownika {username} została zwrócona: {reason}'
+        email_bounced_unmatched: 'Wiadomość na adres {email} została zwrócona (brak pasującego konta): {reason}'
         email_change_requested: 'Poproszono o zmianę adresu e-mail użytkownika {username} na {new_email}'
         email_changed: 'Zmieniono adres e-mail użytkownika {username} z {old_email} na {new_email}'
+        email_complained: 'Użytkownik {username} oznaczył wiadomość z forum jako spam'
+        email_complained_unmatched: 'Wiadomość na adres {email} została oznaczona jako spam (brak pasującego konta)'
         groups_changed: 'Zmieniono grupy użytkownika {username} z {old_groups} na {new_groups}'
         impersonated: 'Podszyto się pod użytkownika {username}'
         logged_in: 'Zalogowano się na konto użytkownika {username}'
         logged_in_with_provider: 'Zalogowano się na konto użytkownika {username} przez {provider}'
         logged_out: 'Wylogowano się z konta użytkownika {username}'
+        logged_out_everywhere: 'Wylogowano użytkownika {username} ze wszystkich sesji'
         nickname_request_approved: 'Zatwierdzono zmianę pseudonimu użytkownika {username} z {old_nickname} na {new_nickname}'
         nickname_request_rejected: 'Odrzucono zmianę pseudonimu użytkownika {username}'
         nickname_requested: 'Poproszono o nowy pseudonim {new_nickname} dla użytkownika {username}'

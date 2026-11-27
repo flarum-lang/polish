@@ -88,8 +88,38 @@ core:
         driver_options:
           default: 'Domyślne wyszukiwanie w bazie danych'
         driver_text: 'Wybierz sterownik wyszukiwania dla tego typu danych.'
+        min_length_help: 'Liczba znaków, jaką musi zawierać wyszukiwana fraza, zanim zostaną wczytane wyniki. Domyślnie 3. Niższe wartości sprawdzają się w językach z krótkimi słowami, takich jak chiński, japoński czy koreański, ale dają mniej precyzyjne dopasowania. W domyślnym wyszukiwaniu MySQL/MariaDB opartym na słowach wyszukiwanie dyskusji i postów nie znajduje słów krótszych niż minimalna długość słowa ustawiona w bazie danych (domyślnie 3), chyba że włączono wyszukiwanie CJK.'
+        min_length_label: 'Minimalna długość wyszukiwanej frazy'
         no_other_drivers: 'Brak dodatkowych sterowników wyszukiwania. Zainstaluj rozszerzenie udostępniające taki sterownik, aby móc go skonfigurować.'
         section_label: 'Sterowniki wyszukiwania'
+      sessions:
+        config_override:
+          help: 'Długości sesji są ustawione w pliku config.php i nie można ich tutaj zmienić.'
+          label: 'Skonfigurowano w pliku config.php'
+        cookie_expires_on_close_help: 'Wylogowuj użytkowników po zamknięciu przeglądarki, zamiast utrzymywać ich zalogowanych do wygaśnięcia sesji. Przydatne na współdzielonych komputerach.'
+        cookie_expires_on_close_label: 'Kończ sesje po zamknięciu przeglądarki'
+        disabled: Wyłączone
+        duration_unit_label: Jednostka
+        duration_value_label: Długość
+        enabled: Włączone
+        lifetime_help: 'Jak długo sesja może pozostawać nieaktywna, zanim zostanie usunięta. Domyślnie 120 minut.'
+        lifetime_label: 'Długość sesji (minuty)'
+        never_expires: 'Nigdy nie wygasa'
+        section_label: Sesje
+        token_types:
+          session:
+            help: 'Jak długo użytkownik pozostaje zalogowany, jeśli przy logowaniu nie wybrał opcji zapamiętania.'
+            label: 'Długość zalogowania'
+          session_remember:
+            help: 'Jak długo użytkownik pozostaje zalogowany, jeśli przy logowaniu wybrał opcję zapamiętania. Dotyczy to również logowania przez inną usługę, które jest zawsze zapamiętywane.'
+            label: 'Długość zalogowania z opcją „Zapamiętaj mnie”'
+        units:
+          days: dni
+          hours: godziny
+          minutes: minuty
+          seconds: sekundy
+          weeks: tygodnie
+          years: lata
       title: Zaawansowane
     announcements:
       about: 'Najnowsze wiadomości i ogłoszenia pochodzące z oficjalnej społeczności Flarum na stronie discuss.flarum.org.'
@@ -106,6 +136,16 @@ core:
       view_all: 'Zobacz wszystkie na discuss.flarum.org'
     appearance:
       allow_user_color_scheme_label: 'Pozwól użytkownikom wybierać motyw kolorystyczny'
+      app_icon_background_help: 'Wypełnia przezroczyste części ikony aplikacji na iPhone’ach i iPadach, obszar wokół niej na Androidzie oraz ekran powitalny.'
+      app_icon_background_label: 'Tło ikony aplikacji'
+      app_icon_heading: 'Ikona aplikacji'
+      app_icon_preview_android_label: Android
+      app_icon_preview_apple_label: 'iPhone i iPad'
+      app_icon_text: 'Prześlij kwadratowy obraz o boku co najmniej 512 pikseli, który telefony będą wyświetlać po dodaniu forum do ekranu głównego. Jeśli nie prześlesz ikony (favicon), ten obraz będzie również używany jako favicon.'
+      app_start_page_help: 'Strona, na której otwiera się aplikacja uruchomiona z ekranu głównego. Android uwzględni zmianę przy najbliższej aktualizacji aplikacji przez przeglądarkę. iPhone’y i iPady nie sprawdzają tego ponownie po dodaniu aplikacji do ekranu głównego, więc tam zmiana dotyczy tylko aplikacji dodanych później.'
+      app_start_page_label: 'Strona startowa aplikacji'
+      app_start_page_options:
+        home_page: 'Taka sama jak strona główna'
       color_scheme_label: 'Domyślny motyw kolorystyczny'
       color_schemes:
         auto_mode_label: 'Ustawienia systemu lub użytkownika'
@@ -138,8 +178,19 @@ core:
       logo_dark_mode_text: 'Prześlij alternatywne logo, które będzie wyświetlane w trybie ciemnym.'
       logo_heading: Logo
       logo_text: 'Prześlij obraz, który będzie wyświetlany jako logo w miejscu nazwy forum.'
+      open_as_app_help: 'Telefony otwierają forum z ekranu głównego w osobnym oknie, bez paska narzędzi przeglądarki, i podczas wczytywania wyświetlają ekran powitalny: ikonę aplikacji na tle ekranu powitalnego – tak samo na iPhone’ach, iPadach i Androidzie. Wymaga ikony aplikacji.'
+      open_as_app_label: 'Otwieraj jako aplikację z ekranu głównego'
+      sections:
+        custom_code:
+          description: 'Dodaj własny kod HTML i CSS do każdej strony forum.'
+          label: 'Własny kod'
+        logos:
+          description: 'Obrazy identyfikujące Twoje forum w nagłówku, kartach przeglądarki, wiadomościach e-mail i na ekranach głównych telefonów.'
+          label: 'Logo i ikony'
       show_theme_selector_help: 'Pozwól użytkownikom zmieniać motyw kolorystyczny za pomocą przełącznika w nagłówku.'
       show_theme_selector_label: 'Pokaż przełącznik motywu'
+      splash_screen_background_help: 'Wypełnia ekran wokół ikony aplikacji – tak samo na iPhone’ach, iPadach i Androidzie. Pozostaw puste, aby użyć koloru tła ikony aplikacji.'
+      splash_screen_background_label: 'Tło ekranu powitalnego'
       title: 'Wygląd forum'
     basics:
       abandoned_extensions_heading: 'Porzucone rozszerzenia'
@@ -161,10 +212,33 @@ core:
       display_name_text: 'Wybierz sterownik, który powinien być używany do wyświetlania nazw użytkowników. Domyślnie wyświetlana jest nazwa użytkownika.'
       forum_description_heading: 'Opis forum'
       forum_description_text: 'Wpisz 1–2 krótkie zdania, które opisują Twoje forum. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.'
+      forum_short_name_heading: 'Krótka nazwa'
+      forum_short_name_text: 'Do 16 znaków. Używana tam, gdzie pełna nazwa forum się nie mieści: pod ikoną forum na ekranie głównym telefonu oraz gdy ktoś doda forum jako wyszukiwarkę w przeglądarce. Jeśli jej nie podasz, zostanie użyta nazwa forum, w razie potrzeby skrócona do pełnego słowa.'
       forum_title_heading: 'Nazwa forum'
       home_page_heading: 'Strona główna'
       home_page_text: 'Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.'
+      sections:
+        extensions:
+          description: 'Śledź rozszerzenia, które nie są już rozwijane przez autorów.'
+          label: Rozszerzenia
+        forum:
+          description: 'Jak Twoje forum jest nazwane i opisane dla odwiedzających i wyszukiwarek.'
+          label: Forum
+        home:
+          description: 'Co odwiedzający widzą zaraz po wejściu.'
+          label: 'Strona główna'
+        language:
+          description: 'Język, w którym wyświetlane jest forum.'
+          label: Język
+        members:
+          description: 'Jak użytkownicy są podpisywani i przedstawiani na forum.'
+          label: Użytkownicy
+        urls:
+          description: 'Jak tworzone są linki do dyskusji i profili.'
+          label: Linki
       show_language_selector_label: 'Pokazuj menu wyboru języka'
+      show_post_source_label: 'Pokazuj, jak dodano posty'
+      show_post_source_text: 'Dodaje niewielki dopisek „przez …” obok autora postów dodanych przez API lub połączoną aplikację oraz włącza filtr źródła w wyszukiwaniu postów.'
       slug_driver_heading: 'Generator slugów: {model}'
       slug_driver_options:
         discussions:
@@ -247,6 +321,8 @@ core:
       delete_button: 'Usuń grupę'
       delete_confirmation: 'Czy na pewno chcesz usunąć tę grupę? Członkowie tej grupy NIE zostaną usunięci.'
       hide_label: 'Ukryj na forum'
+      icon_image_label: '=> core.ref.icon_image'
+      icon_image_text: '=> core.ref.icon_image_text'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: Nazwa
@@ -260,6 +336,8 @@ core:
       title: '=> core.ref.custom_header_title'
     email:
       addresses_heading: Adresy
+      bounce_handling_heading: 'Obsługa zwrotów'
+      bounce_handling_text: 'Gdy dostawca poczty zgłosi, że wiadomość na dany adres została trwale zwrócona lub oznaczona jako spam, Flarum może oznaczyć danego użytkownika i opcjonalnie przestać wysyłać do niego e-maile, chroniąc reputację nadawcy.'
       description: 'Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.'
       driver_heading: 'Wybierz sterownik'
       driver_label: Sterownik
@@ -278,6 +356,8 @@ core:
       mail_mailgun_domain_label: Domena
       mail_mailgun_region_label: Region
       mail_mailgun_secret_label: 'Klucz tajny'
+      mail_mailgun_webhook_signing_key_help: 'Klucz podpisywania webhooków HTTP z Mailguna, używany do weryfikacji przychodzących webhooków o zwrotach i zgłoszeniach spamu. Znajdziesz go w panelu Mailguna w sekcji Settings → Webhooks. Wymagany do obsługi zwrotów.'
+      mail_mailgun_webhook_signing_key_label: 'Klucz podpisywania webhooków'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
       mail_postmark_message_stream_label: 'Strumień wiadomości'
@@ -285,17 +365,47 @@ core:
       mail_smtp_verify_peer_help: 'Weryfikuj certyfikat SSL serwera przy połączeniach szyfrowanych przez TLS lub SSL. Wyłącz tę opcję tylko wtedy, gdy serwer pocztowy używa certyfikatu z podpisem własnym.'
       mail_smtp_verify_peer_label: 'Weryfikuj certyfikat SSL'
       mail_username_label: '=> core.ref.username'
+      mailgun_description: 'Wysyłaj e-maile przez API HTTP usługi Mailgun. Podaj domenę i klucz tajny ze swojego konta Mailgun oraz wybierz region odpowiadający Twojej domenie.'
       mailgun_heading: 'Ustawienia Mailguna'
       not_sending_message: 'Obecnie Flarum nie wysyła żadnych wiadomości e-mail. Może to być skutek wybranego sterownika lub błędów w konfiguracji.'
       postmark_description: 'Wysyłaj e-maile przez API HTTP usługi Postmark. Jeśli chcesz korzystać ze strumienia wiadomości innego niż domyślny, podaj go tutaj.'
       postmark_heading: 'Ustawienia Postmark'
+      register_webhook_button: 'Zarejestruj webhook u dostawcy'
+      register_webhook_success: 'Webhook został zarejestrowany u dostawcy poczty.'
+      sections:
+        sending:
+          description: 'Od kogo pochodzą e-maile z Twojego forum i jak są wysyłane.'
+          label: Wysyłanie
       send_test_mail_button: Wyślij
       send_test_mail_heading: 'Wyślij testowy e-mail'
       send_test_mail_success: 'Testowa wiadomość e-mail została pomyślnie wysłana!'
       send_test_mail_text: 'Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na Twój adres e-mail, {email}.'
       smtp_description: 'Skonfiguruj połączenie SMTP. Typowe ustawienia: port 587 z TLS lub port 465 z SSL.'
       smtp_heading: 'Ustawienia SMTP'
+      suppress_bounced_help: 'Po włączeniu tej opcji użytkownicy, których adres zwrócił wiadomość lub zgłosił ją jako spam, będą pomijani przy wysyłaniu powiadomień e-mail, dopóki nie zmienią i nie potwierdzą adresu.'
+      suppress_bounced_label: 'Nie wysyłaj e-maili na zwracane adresy'
       title: '=> core.ref.email'
+      unregister_webhook_button: 'Usuń webhook u dostawcy'
+      unregister_webhook_success: 'Webhook został usunięty u dostawcy poczty.'
+      webhook_password_label: 'Hasło webhooka'
+      webhook_url_help: 'Dodaj ten adres URL jako webhook w panelu dostawcy poczty i włącz w nim zdarzenia zwrotów oraz zgłoszeń spamu.'
+      webhook_url_label: 'Adres URL webhooka'
+      webhook_url_provision_help: 'Przycisk „Zarejestruj webhook u dostawcy” doda ten adres URL u Twojego dostawcy poczty za Ciebie.'
+      webhook_username_help: 'Wybierz nazwę użytkownika bez dwukropków i silne hasło. Są one wymagane przez sterowniki, które uwierzytelniają webhooki nazwą użytkownika i hasłem, oraz na forach chronionych podstawowym uwierzytelnianiem HTTP. Dane logowania są dołączane do adresu URL webhooka. Po ich zmianie zarejestruj webhook ponownie lub zaktualizuj jego adres URL w panelu dostawcy.'
+      webhook_username_label: 'Nazwa użytkownika webhooka'
+    email_bounces:
+      about: 'Zdarzenia zwrotów i zgłoszeń spamu przekazane przez dostawcę poczty, zliczane w każdym okresie. Obejmują zdarzenia dotyczące użytkowników, którzy już poprawili swój adres.'
+      affected: '{count, plural, =0 {Brak adresów, których to obecnie dotyczy} one {# adres, którego to obecnie dotyczy} few {# adresy, których to obecnie dotyczy} many {# adresów, których to obecnie dotyczy} other {# adresu, których to obecnie dotyczy}}'
+      load_error: 'Nie udało się wczytać statystyk zwrotów. Spróbuj ponownie później.'
+      not_configured: 'Obsługa zwrotów nie jest w pełni skonfigurowana, więc informacje o zwrotach nie będą odbierane. <a>Sprawdź ustawienia e-mail.</a>'
+      period_hour: 'Ostatnia godzina'
+      period_month: 'Ostatni miesiąc'
+      period_total: 'Od początku'
+      period_week: 'Ostatni tydzień'
+      recovered: '{count, plural, =0 {żaden nie został przywrócony} one {# przywrócony} few {# przywrócone} many {# przywróconych} other {# przywróconego}}'
+      refresh: Odśwież
+      title: 'Zwroty e-maili'
+      view_affected: 'Pokaż użytkowników, których to dotyczy'
     extension:
       abandoned_no_replacement: 'To rozszerzenie nie jest już rozwijane przez autora i może nie otrzymać aktualizacji.'
       abandoned_with_replacement: 'To rozszerzenie zostało zastąpione przez {replacement}. Rozważ migrację do pakietu zastępczego.'
@@ -306,6 +416,7 @@ core:
       disabled: Wyłączone
       enable_to_see: 'Włącz to rozszerzenie, aby uzyskać dostęp do jego ustawień.'
       enabled: Włączone
+      general_tab: Ogólne
       info_links:
         discuss: Dyskusja
         documentation: Dokumentacja
@@ -315,6 +426,7 @@ core:
         website: 'Strona internetowa'
       no_permissions: 'To rozszerzenie nie posiada żadnych uprawnień.'
       no_settings: 'To rozszerzenie nie posiada żadnych ustawień.'
+      no_settings_or_permissions: 'To rozszerzenie nie posiada żadnych ustawień ani uprawnień.'
       open_modal: 'Otwórz ustawienia'
       permissions_title: Uprawnienia
       purge_button: Wyczyść
@@ -331,6 +443,7 @@ core:
         title_extension: 'Resetowanie ustawień {extensionTitle}'
         warning: 'Ta operacja jest nieodwracalna. Poniższe ustawienia zostaną trwale usunięte z bazy danych i przywrócone do wartości domyślnych. Dane rozszerzenia pozostaną bez zmian.'
       safe_mode_warning: 'Tryb awaryjny jest włączony. Rozszerzenia nie są uruchamiane, dlatego ich ustawienia są niedostępne.'
+      unsaved_changes: 'Niezapisane zmiany'
     extensions-health-widget:
       abandoned_no_replacement: 'Brak zamiennika'
       abandoned_with_replacement: 'Dostępny zamiennik: {replacement}'
@@ -452,12 +565,19 @@ core:
       saved_message: 'Twoje zmiany zostały zapisane.'
       select_dropdown_custom_label: Własne
       submit_button: '=> core.ref.save_changes'
+    streaming-warning:
+      check_again_button: 'Sprawdź ponownie'
+      detail: 'Ten serwer wstrzymuje odpowiedzi, które powinny trafiać do przeglądarki na bieżąco, i wysyła je dopiero po ich zakończeniu. Postęp operacji, np. czyszczenia pamięci podręcznej, oraz odpowiedzi generowane na bieżąco pojawiają się dopiero na końcu. Wyłącz buforowanie dla tej witryny wszędzie, gdzie jest włączone: output_buffering lub zlib.output_compression w PHP, mod_deflate w Apache (lub flushpackets=on dla PHP-FPM za mod_proxy_fcgi), fastcgi_buffering lub proxy_buffering w nginx albo w serwerze proxy lub CDN przed witryną.'
+      label: 'Wstrzymywane odpowiedzi'
     upload_image:
       remove_button: '=> core.ref.remove'
+      set_by_extension_text: 'Ustawione przez {extension}, więc nie można tego tutaj zmienić.'
+      set_in_code_text: 'Ustawione w kodzie forum, więc nie można tego tutaj zmienić.'
       upload_button: 'Wybierz obraz…'
     users:
       create_user_button: 'Nowy użytkownik'
       description: 'Stronicowana lista wszystkich użytkowników na Twoim forum.'
+      filters_label: 'Filtruj według:'
       grid:
         columns:
           display_name:
@@ -466,6 +586,9 @@ core:
             title: '=> core.ref.email'
             visibility_hide: 'Ukryj adres e-mail'
             visibility_show: 'Wyświetl adres e-mail'
+          email_bounced:
+            bounced: 'Doręczenie nieudane'
+            title: 'Doręczanie e-maili'
           group_badges:
             no_badges: Brak
             title: Grupy
@@ -486,6 +609,9 @@ core:
       title: '=> core.ref.users'
       total_users: 'Wszystkich użytkowników: {count}'
   api:
+    app_icon_too_small_message: 'Ikona aplikacji musi mieć co najmniej {size} pikseli szerokości lub wysokości, aby wyglądała ostro na ekranach głównych.'
+    image_set_by_code_message: 'Ten obraz jest ustawiony w kodzie forum, więc nie można go tutaj zmienić.'
+    image_set_by_theme_message: 'Ten obraz jest ustawiony przez rozszerzenie {extension}, więc nie można go tutaj zmienić.'
     invalid_filter_type:
       must_be_numeric_message: 'Filtr {filter} musi być liczbą.'
       must_not_be_array_message: 'Filtr {filter} nie może być tablicą.'
@@ -513,6 +639,8 @@ core:
       default_title: Powiadomienie
       footer:
         main_text: 'Ta wiadomość została wysłana na adres {email}, ponieważ masz włączone powiadomienia typu „{type}” na forum [{forumTitle}]({forumUrl}).'
+        main_text_generic: 'Ta wiadomość została wysłana na adres {email}, ponieważ na forum [{forumTitle}]({forumUrl}) masz włączone powiadomienia e-mail.'
+        main_text_generic_plain: 'Ta wiadomość została wysłana na adres {email}, ponieważ na forum {forumTitle} masz włączone powiadomienia e-mail.'
         main_text_plain: 'Ta wiadomość została wysłana na adres {email}, ponieważ masz włączone powiadomienia typu „{type}” na forum {forumTitle}.'
         settings_text: '[Zmień ustawienia powiadomień]({settingsLink}).'
         settings_text_plain: 'Ustawienia powiadomień możesz zmienić tutaj: {settingsLink}'
@@ -543,6 +671,7 @@ core:
       full_screen_tooltip: 'Pełny ekran'
       minimize_tooltip: Zminimalizuj
       preview_tooltip: Podgląd
+      restore_tooltip: Przywróć
     composer_discussion:
       body_placeholder: 'Napisz post…'
       discard_confirmation: 'Nie opublikowałeś swojej dyskusji. Czy chcesz ją porzucić?'
@@ -606,6 +735,7 @@ core:
       cannot_start_discussion_button: 'Nie można rozpocząć dyskusji'
       mark_all_as_read_confirmation: 'Czy na pewno chcesz oznaczyć wszystkie dyskusje jako odczytane?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
+      mark_filtered_as_read_confirmation: 'Czy na pewno chcesz oznaczyć dyskusje pasujące do bieżących filtrów jako odczytane?'
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: '=> core.ref.refresh'
       skip_to_main_content: 'Przejdź do głównej treści'
@@ -644,6 +774,10 @@ core:
       edited_text: Edytowany
       edited_tooltip: '{username} edytował {ago}'
       number_tooltip: 'Post #{number}'
+      source_api_label: API
+      source_api_tooltip: 'Dodano przez API'
+      source_app_tooltip: 'Dodano przez połączoną aplikację'
+      source_text: 'przez {source}'
     post_controls:
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Czy na pewno chcesz nieodwracalnie usunąć ten post? Tej operacji nie można cofnąć.'
@@ -762,6 +896,9 @@ core:
       delete_success_message: 'Użytkownik <i>{username} ({email})</i> został usunięty'
       edit_button: '=> core.ref.edit'
       toggle_dropdown_accessible_label: 'Przełącz menu rozwijane z opcjami użytkownika'
+    user_email_bounced:
+      alert_message: 'Wiadomość wysłana na adres {email} została zwrócona lub zgłoszona jako spam. Sprawdź swój adres e-mail lub skontaktuj się z administratorem.'
+      update_button: 'Zmień adres e-mail'
     user_email_confirmation:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Wyślij ponownie e-mail aktywacyjny'
@@ -799,6 +936,7 @@ core:
       toggle_dropdown_accessible_label: 'Przełącz menu rozwijane'
     edit_user:
       activate_button: 'Aktywuj użytkownika'
+      clear_email_bounce_label: 'Usuń oznaczenie zwrotu e-maila lub zgłoszenia spamu'
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Grupy
@@ -846,7 +984,12 @@ core:
         discussion:
           hint: 'ID dyskusji'
           key: dyskusja
+        source:
+          hint: 'api lub kilka źródeł oddzielonych przecinkami'
+          key: źródło
       users:
+        bounced:
+          key: niedoręczalny
         email:
           hint: przyklad@machine.local
           key: e-mail
@@ -855,6 +998,33 @@ core:
           key: grupa
     group_selector:
       placeholder: 'Wybierz grupę'
+    icon_image_input:
+      remove_button: Usuń
+      replace_button: 'Zmień obraz'
+      upload_button: 'Prześlij obraz'
+    icon_picker:
+      count_text: '{count, plural, one {# ikona} few {# ikony} many {# ikon} other {# ikony}}'
+      families:
+        brands: Marki
+        classic: Classic
+        duotone: Duotone
+        sharp: Sharp
+        sharp_duotone: 'Sharp Duotone'
+      family_label: 'Rodzina ikon'
+      forced_style_text: 'Wszystkie ikony na tym forum są wyświetlane w stylu ustawionym na stronie „Zaawansowane”, więc styl wybrany tutaj nie będzie widoczny, dopóki to ustawienie jest włączone.'
+      label: 'Wybierz ikonę'
+      more_text: 'Wyświetlono {shown} z {count}. Wyszukaj, aby zawęzić listę.'
+      no_results_text: 'Brak pasujących ikon.'
+      open_button: 'Wybierz ikonę'
+      remove_button: 'Usuń ikonę'
+      search_placeholder: 'Szukaj ikon lub wpisz klasę'
+      unreadable_text: 'Nie można tutaj wyświetlić listy ikon, ponieważ style tego forum są serwowane z innej witryny, która na to nie pozwala. Zamiast tego wpisz klasę ikony, np. {example}.'
+      use_button: 'Użyj {value}'
+      weights:
+        light: Light
+        regular: Regular
+        solid: Solid
+        thin: Thin
     index_sort:
       az_button: '=> core.ref.title_az'
       latest_button: '=> core.ref.latest'
@@ -949,6 +1119,8 @@ core:
     extensions: Rozszerzenia
     generic_confirmation_message: 'Czy na pewno chcesz kontynuować? Tej operacji nie można cofnąć.'
     icon: Ikona
+    icon_image: 'Obraz ikony'
+    icon_image_text: 'Obraz wyświetlany zamiast ikony. Ikona jest nadal używana tam, gdzie nie można wyświetlić obrazu. PNG, JPEG, GIF, WebP lub BMP; z obrazów animowanych zostaje zachowana pierwsza klatka.'
     icon_text: 'Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem (np. <code>fas fa-flag</code> lub <code>fa-solid fa-flag</code>).'
     invalid_login_message: 'Podane dane logowania są nieprawidłowe.'
     latest: 'Ostatnio aktywne'
@@ -1028,7 +1200,15 @@ core:
       method_not_allowed: 'Ta strona nie obsługuje tej metody żądania.'
       not_authenticated: 'Nie masz uprawnień, aby przeglądać tę stronę. Spróbuj ponownie po zalogowaniu.'
       not_found: 'Podana strona nie istnieje.'
+      not_found_actions_label: 'Dokąd teraz'
+      not_found_description: 'Nie udało się znaleźć tej strony. Mogła zostać przeniesiona lub do jej wyświetlenia trzeba się zalogować. Oto kilka sposobów, aby wrócić.'
+      not_found_discussions_link: 'Przeglądaj wszystkie dyskusje'
+      not_found_home_link: 'Przejdź na stronę główną'
       not_found_return_link: 'Wróć na {forum}'
+      not_found_search_button: Szukaj
+      not_found_search_label: 'Szukaj na forum'
+      not_found_search_placeholder: 'Szukaj dyskusji'
+      not_found_title: 'Nie znaleziono strony'
       permission_denied: 'Nie masz uprawnień, aby przeglądać tę stronę.'
       unknown: 'Wystąpił błąd podczas próby wczytania tej strony.'
     index:
@@ -1049,6 +1229,9 @@ core:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Czy na pewno chcesz się wylogować z {forum}?'
       title: '=> core.ref.log_out'
+    offline:
+      text: 'Nie można połączyć się z {forum}. Sprawdź swoje połączenie – strona wczyta się ponownie, gdy tylko będzie dostępne.'
+      title: 'Brak połączenia'
     reset_password:
       confirm_password_label: 'Potwierdź nowe hasło'
       new_password_label: 'Nowe hasło'

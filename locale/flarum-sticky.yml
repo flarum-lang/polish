@@ -12,6 +12,13 @@ flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Przypinanie dyskusji'
+    sections:
+      excerpts:
+        description: 'Dodatkowe informacje wyświetlane na liście dyskusji przy nieodczytanych przypiętych dyskusjach.'
+        label: Fragmenty
+      pinning:
+        description: 'Gdzie pojawiają się przypięte dyskusje na stronie „Wszystkie dyskusje”.'
+        label: Przypinanie
     settings:
       enable_display_excerpt: 'Pokazuj fragment pierwszego posta, gdy przypięta dyskusja jest nieodczytana'
       only_sticky_unread_discussions_help: 'Na stronie „Wszystkie dyskusje” nieodczytane przypięte dyskusje są wyświetlane na górze, a odczytane przypięte dyskusje – w zwykłej kolejności.'

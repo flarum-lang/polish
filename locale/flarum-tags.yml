@@ -28,6 +28,8 @@ flarum-tags:
       delete_tag_confirmation: 'Czy na pewno chcesz usunąć ten tag? Dyskusje oznaczone tym tagiem NIE zostaną usunięte.'
       description_label: Opis
       hide_label: 'Ukryj z „Wszystkie dyskusje”'
+      icon_image_label: '=> core.ref.icon_image'
+      icon_image_text: '=> core.ref.icon_image_text'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: '=> flarum-tags.ref.name'
@@ -43,8 +45,15 @@ flarum-tags:
       bypass_tag_counts_label: 'Pomijanie wymogu podania tagów'
       restrict_by_tag_heading: 'Ogranicz na podstawie tagu'
       tag_discussions_label: 'Edycja tagów dyskusji'
+    sections:
+      requirements:
+        description: 'Ile tagów musi mieć każda nowa dyskusja. Użytkownicy z uprawnieniem „Pomijanie wymogu podania tagów” mogą rozpoczynać dyskusje z dowolną liczbą tagów.'
+        label: 'Wymagania dotyczące tagów'
     settings:
       button_text: '=> flarum-tags.ref.choose_tags'
+    tabs:
+      settings: '=> flarum-tags.admin.tags.settings_heading'
+      tags: '=> flarum-tags.ref.tags'
     tag_settings:
       range_separator_text: ' do '
       required_primary_heading: 'Wymagana liczba głównych tagów'
@@ -60,6 +69,8 @@ flarum-tags:
       primary_heading: 'Główne tagi'
       secondary_heading: 'Tagi dodatkowe'
       settings_heading: Ustawienia
+  api:
+    cannot_change_is_primary_message: 'Tag staje się główny lub dodatkowy poprzez zmianę kolejności tagów.'
   forum:
     all_tags:
       meta_description_text: 'Wszystkie tagi'

@@ -2,10 +2,21 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-messages/pl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        messageReceived: 'Wiadomości wysłane do Ciebie'
 flarum-audit:
   lib:
     browser:
       dialog:
+        group_posted: 'Wysłano prywatną wiadomość do grupy {group_id}'
+        group_started: 'Rozpoczęto prywatną konwersację z grupą {group_id}'
+        message_deleted: 'Nieodwracalnie usunięto prywatną wiadomość użytkownika {username}'
+        message_edited: 'Edytowano prywatną wiadomość użytkownika {username}'
+        message_hidden: 'Usunięto prywatną wiadomość użytkownika {username}'
+        message_restored: 'Przywrócono prywatną wiadomość użytkownika {username}'
         posted: 'Wysłano prywatną wiadomość do użytkownika {username}'
         started: 'Rozpoczęto prywatną konwersację z użytkownikiem {username}'
 flarum-gdpr:
@@ -18,13 +29,28 @@ flarum-gdpr:
 flarum-messages:
   admin:
     permissions:
+      delete_messages_forever_label: 'Nieodwracalne usuwanie wiadomości'
       delete_own_messages_label: 'Usuwanie własnych wiadomości'
+      edit_own_messages_label: 'Edytowanie własnych wiadomości'
+      message_groups_label: 'Rozpoczynanie konwersacji z grupami'
       message_users_without_permission_label: 'Wysyłanie wiadomości do użytkowników bez uprawnienia do korzystania z wiadomości'
       send_messages_label: 'Wysyłanie prywatnych wiadomości'
       send_without_throttle_label: 'Wysyłanie wiadomości z pominięciem limitu szybkości'
       view_ips_label: 'Przeglądanie adresów IP wiadomości'
+    sections:
+      groups:
+        description: 'Konwersacje rozpoczęte z kilkoma użytkownikami jednocześnie.'
+        label: 'Konwersacje grupowe'
+    settings:
+      allow_group_names_help: 'Użytkownicy, którzy mogą pisać w konwersacji grupowej, mogą nadać jej nazwę, którą wszyscy jej uczestnicy widzą zamiast listy uczestników. Wyłączenie tej opcji ukrywa nadane już nazwy.'
+      allow_group_names_label: 'Pozwól użytkownikom nadawać nazwy konwersacjom grupowym'
+      max_recipients_help: 'Do ilu użytkowników można wysłać jedną wiadomość. Więcej niż jeden odbiorca rozpoczyna konwersację grupową, więc wartość 1 wyłącza konwersacje grupowe. Maksymalnie 50.'
+      max_recipients_label: 'Liczba odbiorców wiadomości'
+      recipient_groups_help: 'Nadawcy z uprawnieniem do rozpoczynania konwersacji z grupami mogą wybrać te grupy. Domyślnie to uprawnienie mają tylko administratorzy. Wyłączenie grupy tutaj nie usuwa jej z istniejących konwersacji. Każdy, kto może zarządzać członkostwem w grupie, może dać dostęp do całej historii konwersacji.'
+      recipient_groups_label: 'Grupy, które mogą otrzymywać wiadomości'
   email:
     message_received:
+      group_subject: '{user_display_name} wysłał wiadomość do Ciebie i {count, plural, one {# innej osoby} other {# innych osób}}'
       html:
         body: "{user_display_name} wysłał Ci [nową wiadomość]({url}).\n\nNie dostaniesz nowych powiadomień dotyczących tej konwersacji do czasu, aż zobaczysz nową zawartość.\n"
       plain:
@@ -36,8 +62,14 @@ flarum-messages:
       placeholder: 'Napisz wiadomość…'
       recipients: Odbiorcy
       submit_button: 'Wyślij wiadomość'
+      title: 'Nowa wiadomość'
       to: 'Do:'
+    composer_edit:
+      discard_confirmation: '=> core.forum.composer_edit.discard_confirmation'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Edytuj wiadomość'
     dialog_list:
+      group_last_message_preview: '{username}: {content}'
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Oznacz jako odczytaną'
       own_last_message_preview: 'Ty: {content}'
@@ -49,11 +81,15 @@ flarum-messages:
       cannot_reply_text: 'Ten użytkownik nie może odpowiedzieć'
       controls:
         details_button: Szczegóły
+        leave_button: 'Opuść konwersację'
+        rename_button: 'Zmień nazwę konwersacji'
       controls_toggle_label: 'Opcje konwersacji'
       details_modal:
         created_at: Utworzono
         recipients: Uczestnicy
         title: 'Szczegóły konwersacji'
+      leave_confirmation: 'Czy na pewno chcesz opuścić tę konwersację? Nie będziesz jej już widzieć ani otrzymywać powiadomień o nowych wiadomościach. Twoje wiadomości pozostaną widoczne dla pozostałych uczestników.'
+      members_button: '{count, plural, one {# osoba} few {# osoby} many {# osób} other {# osoby}}'
     header:
       dropdown_tooltip: Wiadomości
     index:
@@ -62,9 +98,22 @@ flarum-messages:
       latest_button: 'Ostatnio aktywne'
       newest_button: Najnowsze
       oldest_button: Najstarsze
+    message:
+      deleted_text: 'Ta wiadomość została usunięta.'
+      edited_text: Edytowana
+      edited_tooltip: '=> core.forum.post.edited_tooltip'
+      read_status:
+        read_by_everyone_tooltip: 'Odczytana przez wszystkich'
+        read_by_some_tooltip: 'Odczytana przez {count} z {total}'
+        read_tooltip: Odczytana
+        sent_tooltip: Wysłana
     message_controls:
       delete_button: Usuń
       delete_confirmation: 'Czy na pewno chcesz usunąć tę wiadomość? Tej operacji nie można cofnąć.'
+      delete_forever_button: '=> core.ref.delete_forever'
+      delete_forever_confirmation: 'Czy na pewno chcesz nieodwracalnie usunąć tę wiadomość? Tej operacji nie można cofnąć.'
+      edit_button: '=> core.ref.edit'
+      restore_button: '=> core.ref.restore'
     messages_page:
       cannot_send_message_button: 'Nie można wysłać wiadomości'
       empty_text: 'Brak nowych wiadomości'
@@ -77,28 +126,48 @@ flarum-messages:
       stream:
         load_next_button: 'Wczytaj następne wiadomości'
         load_previous_button: 'Wczytaj wcześniejsze wiadomości'
+        name_removed_text: '{username} usunął nazwę konwersacji'
+        renamed_text: '{username} nadał konwersacji nazwę „{name}”'
         start_of_the_conversation: 'Początek konwersacji'
         time_lapsed_text: '=> core.forum.post_stream.time_lapsed_text'
+        user_left_text: '{username} opuścił konwersację'
       title: Wiadomości
     notifications:
+      message_liked_text: '{username} polubił Twoją wiadomość'
       message_received_text: 'Nowa wiadomość od {user}'
+    read_by_modal:
+      title: 'Odczytana przez'
     recipient_selection_modal:
       cannot_reply_text: 'Nie może odpowiadać na wiadomości'
+      groups_heading: Grupy
+      groups_help: 'Obecni i przyszli członkowie tych grup mogą czytać całą konwersację. Maksymalnie 10 grup.'
       title: 'Wybierz odbiorców wiadomości'
+    rename_dialog_modal:
+      help_text: 'Tę nazwę widzą wszyscy uczestnicy konwersacji. Pozostaw puste, aby zamiast niej wyświetlać listę uczestników.'
+      name_label: Nazwa
+      submit_button: Zapisz
+      title: 'Zmień nazwę konwersacji'
     search_source:
       conversation_with: 'Konwersacja z użytkownikiem {username}'
       heading: Wiadomości
     settings:
+      notify_message_liked_label: 'Ktoś polubi moją wiadomość'
       notify_message_received_label: 'Ktoś wyśle mi wiadomość'
+      privacy_disclose_read_receipts_label: 'Pokazuj innym, kiedy odczytałem ich wiadomości (i pokazuj mi, kiedy oni odczytali moje)'
     user_controls:
       cannot_reply_text: 'Ten użytkownik nie może odpowiedzieć'
       send_message_button: 'Wyślij wiadomość'
   lib:
     dialog:
+      group_title: '{names}{others, plural, =0 {} other { +#}}'
+      private_group_title: 'Prywatna konwersacja'
       title: 'Wiadomość do użytkownika {username}'
+    groups_unavailable_message: 'Te grupy nie mogą otrzymywać wiadomości.'
     no_other_members_message: 'W tej konwersacji nie ma nikogo więcej.'
     recipient_cannot_reply_message: '{username} nie może odpowiadać na wiadomości.'
     recipient_unavailable_message: '{username} nie może otrzymywać wiadomości.'
+    too_many_groups_message: 'Wiadomość może trafić maksymalnie do {count} grup.'
+    too_many_recipients_message: '{count, plural, one {Wiadomość może trafić tylko do jednego użytkownika.} other {Wiadomość może trafić maksymalnie do # użytkowników.}}'
 flarum-statistics:
   admin:
     statistics:

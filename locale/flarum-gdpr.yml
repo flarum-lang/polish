@@ -49,6 +49,16 @@ flarum-gdpr:
       process_erasure: 'Rozpatrywanie wniosków o usunięcie konta'
       process_export_for_others: 'Wnioskowanie o eksport i pobieranie danych innych użytkowników'
       see_anonymized_user_badges: 'Wyświetlanie zanonimizowanych odznak użytkowników'
+    sections:
+      anonymization:
+        description: 'Jak nazywani są zanonimizowani użytkownicy po usunięciu ich danych.'
+        label: Anonimizacja
+      erasure:
+        description: 'Które metody usunięcia danych mogą wybrać użytkownicy i która jest używana domyślnie.'
+        label: 'Wnioski o usunięcie danych'
+      overview:
+        description: 'Które dane są eksportowane i usuwane, w tym dane zarejestrowane przez inne rozszerzenia.'
+        label: 'Przegląd danych'
     settings:
       allow_anonymization: 'Zezwalaj na anonimizację przy wnioskach o usunięcie konta'
       allow_anonymization_help: 'Domyślna opcja, zalecana dla większości społeczności. W tym trybie posty/komentarze są zachowywane w jak największym stopniu, na ile pozwala na to RODO, ale wszelkie informacje identyfikujące użytkownika są usuwane.'
@@ -140,6 +150,10 @@ flarum-gdpr:
       default_user_action: 'Brak akcji – obsługiwane przez domyślną obsługę danych tabeli użytkowników.'
       discussions:
         export_description: 'Eksportuje wszystkie dyskusje rozpoczęte przez użytkownika. Dane ograniczone do tytułu i daty utworzenia.'
+      emailbounceevents:
+        anonymize_description: 'Usuwa adres e-mail z historii zwrotów wiadomości użytkownika, zachowując anonimowe wpisy na potrzeby statystyk.'
+        delete_description: 'Usuwa historię zwrotów wiadomości e-mail użytkownika.'
+        export_description: 'Eksportuje historię zwrotów wiadomości e-mail i zgłoszeń spamu użytkownika.'
       forum:
         export_description: 'Eksportuje tytuł forum, URL, nazwę użytkownika, e-mail i bieżącą datę.'
       no_action: 'Brak podjętych działań.'

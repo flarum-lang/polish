@@ -6,6 +6,10 @@ flarum-likes:
   admin:
     permissions:
       like_posts_label: 'Polubianie postów'
+    sections:
+      liking:
+        description: 'Dodatkowe zasady określające, kto może polubić post, oprócz uprawnienia „Polubianie postów”.'
+        label: 'Polubianie postów'
     settings:
       like_own_posts_help: 'Po włączeniu tej opcji, w zależności od uprawnień, użytkownicy mogą polubić swoje własne posty na forum. Wyłącz tę opcję, jeśli chcesz uniknąć polubień postów przez ich autorów.'
       like_own_posts_label: 'Użytkownicy mogą polubić swoje własne posty'

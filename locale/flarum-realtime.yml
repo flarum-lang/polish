@@ -7,6 +7,16 @@ flarum-realtime:
     permission:
       view-all-typing: 'Wyświetlanie, kto pisze na całym forum'
       view-who-types: 'Wyświetlanie, kto pisze'
+    sections:
+      discussion-list:
+        description: 'Jak nowa aktywność trafia na otwartą listę dyskusji.'
+        label: 'Lista dyskusji'
+      notifications:
+        description: 'Jak wyświetlane są powiadomienia w czasie rzeczywistym.'
+        label: Powiadomienia
+      typing:
+        description: 'Pokazuj użytkownikom, że ktoś inny pisze odpowiedź.'
+        label: 'Wskaźniki pisania'
     settings:
       index-typing-indicator: 'Wskaźniki pisania na liście dyskusji'
       index-typing-indicator-help: 'Po włączeniu na liście dyskusji pojawi się kropka przy każdej publicznej dyskusji, w której ktoś aktualnie pisze. Nazwy użytkowników nie będą wyświetlane.'

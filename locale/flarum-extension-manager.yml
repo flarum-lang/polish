@@ -4,55 +4,117 @@
 
 flarum-extension-manager:
   admin:
+    actions:
+      add: Dodaj
+      cancel: Anuluj
+      remove: Usuń
+      save: Zapisz
     auth_config:
       add_label: 'Nowa metoda uwierzytelniania'
       add_modal:
         host_label: Host
         host_placeholder: 'przykład: bearer.flarum.org'
+        secret_placeholder: 'token lub hasło'
         submit_button: Zapisz
         token_label: Token
         type_label: Typ
         unchanged_token_placeholder: '(bez zmian)'
+        username_placeholder: 'nazwa użytkownika'
+      create_github_token: 'Utwórz token GitHub (zakres repo)'
+      create_gitlab_token: 'Utwórz token dostępu GitLab'
       delete_confirmation: 'Czy na pewno chcesz usunąć tę metodę uwierzytelniania?'
       delete_label: 'Usuń metodę uwierzytelniania'
       edit_label: 'Edytuj metodę uwierzytelniania'
       fields:
         host: Host
+        password: Hasło
         token: Token
+        username: 'Nazwa użytkownika'
+      github_token_note: 'Composer na {forum}'
+      help: 'Dla prywatnych repozytoriów i płatnych sklepów z rozszerzeniami. Przechowywane w pliku auth.json, który odczytuje Composer i który znajduje się poza katalogiem publicznym witryny.'
+      hide: Ukryj
       no_auth_methods_configured: 'Nie skonfigurowano żadnych metod uwierzytelniania. Jest to opcjonalna, zaawansowana funkcja, która pozwala instalować pakiety z prywatnych repozytoriów.'
       remove_button_label: 'Usuń metodę uwierzytelniania'
+      remove_host_label: 'Usuń {name}'
+      remove_q: 'Usunąć?'
+      show: Pokaż
+      stat: '{count, plural, one {host może się logować} few {hosty mogą się logować} many {hostów może się logować} other {hosta może się logować}}'
+      submit_button: 'Zapisz dane uwierzytelniające'
       title: 'Metody uwierzytelniania'
+      token_stored: 'token zapisany'
+      type_help:
+        bearer: 'Sklepy z rozszerzeniami, które udostępniają token API'
+        github-oauth: 'Prywatne repozytoria GitHub'
+        gitlab-token: 'GitLab.com lub własny GitLab'
+        http-basic: 'Private Packagist i starsze repozytoria'
       types:
         bearer: 'HTTP Bearer'
         github-oauth: 'GitHub OAuth'
         gitlab-oauth: 'GitLab OAuth'
         gitlab-token: 'Token GitLab'
+        http-basic: 'Nazwa użytkownika i hasło'
+      username_stored: 'nazwa użytkownika: {username}'
+      write_only: 'Menedżer rozszerzeń nigdy nie wyświetla zapisanych danych uwierzytelniających – nawet Tobie. Pokazuje tylko, które hosty je mają. Aby zmienić dane uwierzytelniające, wpisz nową wartość – zastąpi ona poprzednią.'
     composer:
       add_repository_label: 'Dodaj repozytorium'
+      config_failed: 'Menedżer rozszerzeń nie mógł odczytać pliku composer.json. Nic nie zostało zmienione.'
       delete_repository_confirmation: 'Czy na pewno chcesz usunąć to repozytorium? Wszystkie rozszerzenia zainstalowane z tego repozytorium zostaną usunięte.'
       delete_repository_label: 'Usuń repozytorium'
       edit_repository_label: 'Edytuj repozytorium'
       minimum_stability:
         help: 'Rodzaj pakietów, które mogą zostać zainstalowane. Nie zmieniaj tego ustawienia, jeśli nie wiesz, co robisz.'
         label: 'Minimalna stabilność'
+        means:
+          alpha: 'Również wersje alfa – wczesny kod, który zapewne jeszcze się zmieni.'
+          beta: 'Również wersje beta. Wiele rozszerzeń dla Flarum 2 jest wciąż publikowanych jako wersje beta lub RC, więc to zwykle najlepszy wybór.'
+          dev: 'Niewydany kod prosto z gałęzi, który może się zmienić bez zmiany numeru wersji.'
+          rc: 'Kandydaci do wydania (RC) oraz finalne wydania.'
+          stable: 'Tylko finalne wydania. Samo Flarum 2 jest stabilne, ale wiele rozszerzeń jest wciąż w wersji beta lub RC, a tych nie da się wtedy zainstalować.'
         options:
           alpha: Alfa
           beta: Beta
           dev: Deweloperska
           rc: 'Release Candidate'
           stable: 'Stabilna (zalecana)'
+        prefer_stable: 'Mimo to preferuj stabilne wydanie, jeśli istnieje'
+        prefer_stable_help: 'Gdy rozszerzenie ma zarówno działające wydanie beta, jak i finalne, wybierane jest wydanie finalne.'
+        recommended: zalecane
+        short:
+          alpha: 'wczesne wersje testowe'
+          dev: 'niewydany kod'
+          rc: 'kandydaci do wydania'
+          stable: 'tylko finalne wydania'
+        stat: 'najniższy akceptowany poziom wydania'
+      remove_repository_label: 'Usuń {name}'
       repositories:
         add_modal:
           name_label: Nazwa
           submit_button: Zapisz
           type_label: Typ
           url: URL
+        duplicate: 'To repozytorium jest już na liście.'
+        filter: 'Filtruj repozytoria'
         help: "Dodaj kolejne repozytoria, z których można instalować pakiety. Jest to zaawansowana funkcja – nie dodawaj repozytoriów, którym nie ufasz, ponieważ mogą zostać wykorzystane do uruchomienia złośliwego kodu na Twoim serwerze.\n"
         label: Repozytoria
+        no_match: 'Żadne repozytorium nie pasuje do „{query}”.'
+        none: 'Tylko Packagist. Nie można instalować pakietów prywatnych ani płatnych.'
+        open: 'Otwórz w nowej karcie'
+        placeholders:
+          composer: 'https://repo.example.com'
+          path: /home/ty/extensions/twoje-rozszerzenie
+          vcs: 'https://github.com/ty/twoje-rozszerzenie'
+        remove_named: 'Usunąć {name}?'
+        stat: '{count, plural, one {repozytorium} few {repozytoria} many {repozytoriów} other {repozytorium}}'
+        type_help:
+          composer: 'Private Packagist lub płatny sklep z rozszerzeniami'
+          path: 'Lokalna kopia robocza do celów programistycznych'
+          vcs: 'GitHub, GitLab, Bitbucket lub dowolny serwer Git'
         types:
+          artifact: 'Katalog z archiwami pakietów'
           composer: composer
           path: path
           vcs: vcs
+        will_add: 'Dodaje {name} z {where}.'
       title: Composer
     exceptions:
       composer_command_failure: 'Nie udało się wykonać polecenia. Sprawdź logi Composera w katalogu storage/logs/composer.'
@@ -66,17 +128,81 @@ flarum-extension-manager:
     extensions:
       already_installed: 'To rozszerzenie jest już zainstalowane'
       check_why_it_failed_updating: 'Pokaż, dlaczego nie zaktualizowano do najnowszej wersji.'
+      disabled: wyłączone
+      enabled: włączone
       install: 'Zainstaluj nowe rozszerzenie'
       install_help: "Wpisz nazwę pakietu rozszerzenia, aby kontynuować. Możesz określić <semantic_link>wersję semantyczną</semantic_link> w formacie <code>vendor/package-name:version</code>. Odwiedź {link}, aby przeglądać dostępne pakiety.\n"
+      learn_more: 'Dowiedz się więcej'
+      library: 'Pakiet Composera'
+      library_why: 'Biblioteka wymagana przez to forum w jego własnym pliku composer.json. Nie ma strony ustawień, a menedżer rozszerzeń nigdy nie proponuje jej usunięcia.'
+      open_settings: 'Otwórz ustawienia {name}'
+      path_install: 'lokalna kopia robocza'
+      path_install_why: 'To rozszerzenie jest dowiązaniem symbolicznym do katalogu na tym serwerze, więc prawdopodobnie właśnie nad nim pracujesz. Menedżer rozszerzeń go nie zastąpi – zaktualizuj je za pomocą gita.'
       proceed: Kontynuuj
       remove: Odinstaluj
+      remove_confirm: 'Czy na pewno chcesz usunąć pliki rozszerzenia {name} z tego serwera? To ta część, którą wykonałby Composer. Stare pliki zostaną zachowane, więc można to cofnąć. Tabele w bazie danych i ustawienia rozszerzenia pozostaną bez zmian – usuwa je przycisk „Wyczyść” w samym Flarum. Jeśli nie zamierzasz wracać do tego rozszerzenia, warto najpierw go użyć.'
+      remove_files: 'Usuń pliki'
+      repin_confirm: 'To forum wymaga dokładnej wersji {count, plural, one {# rozszerzenia} other {# rozszerzeń}}, więc nie można zainstalować nowszej, dopóki to wymaganie się nie zmieni. Jeśli kontynuujesz, plik composer.json zostanie zaktualizowany tak, aby wymagał nowej wersji, zanim cokolwiek zostanie pobrane. Wycofanie aktualizacji przywróci również poprzednie wymaganie.'
       successful_install: 'Rozszerzenie {extension} zostało zainstalowane, przekierowywanie…'
       successful_remove: 'Rozszerzenie zostało usunięte.'
       successful_update: 'Rozszerzenie {extension} zostało zaktualizowane, przekierowywanie…'
       update: Aktualizuj
       update_hard_label: 'Twarda aktualizacja'
+      update_one: 'Aktualizuj {name}'
       update_soft_label: 'Miękka aktualizacja'
+      version_unknown: 'nieznana wersja'
     file_permissions: "Menedżer rozszerzeń wymaga uprawnień do odczytu i zapisu następujących plików i katalogów: composer.json, composer.lock, vendor, storage, storage/.composer\n"
+    host:
+      git_needed: 'Niektóre źródła pakietów wymagają gita, którego nie można tu uruchomić'
+      git_needed_git: 'Te źródła można odczytać tylko za pomocą gita. Udostępniaj ich pakiety z repozytorium Composera (Packagist, Private Packagist lub Satis) albo usuń źródło: {urls}'
+      git_needed_token: 'Dodaj token GitHub w sekcji „Źródła”, aby Composer odczytywał je przez API GitHuba: {urls}'
+      git_needed_why: 'Composer odczytuje te źródła za pomocą gita, a ten serwer nie pozwala PHP uruchamiać programów, więc aktualizacja zostałaby przerwana, zanim cokolwiek by zmieniła.'
+      in_process: 'Działa bez osobnych procesów'
+      in_process_fix: 'Aby uruchamiać Composera w osobnym procesie, poproś dostawcę hostingu o usunięcie proc_open z disable_functions dla tej witryny.'
+      in_process_fix_ini: 'Aby uruchamiać Composera w osobnym procesie, poproś dostawcę hostingu o usunięcie proc_open z disable_functions. To ustawienie pochodzi z {ini} lub z ustawień PHP tej witryny w panelu hostingu.'
+      in_process_limits: 'Ograniczenia: Composer współdzieli pamięć i czas żądania, więc pierwsza aktualizacja trwa dłużej, dopóki pamięć podręczna Composera jest pusta (pomiar na forum z 346 pakietami i 22 prywatnymi repozytoriami GitHub: około {cold} s za pierwszym razem i około {warm} s po zapełnieniu pamięci podręcznej), a prywatne repozytoria Git wymagają tokenu GitHub lub repozytorium Composera, ponieważ nie można tu uruchomić gita.'
+      in_process_no_php: 'Nie znaleziono PHP w wersji wiersza poleceń, za pomocą którego można by uruchomić osobny proces (przyczynę podaje wiersz dotyczący PHP poniżej). Rozwiązanie tego problemu przywróci uruchamianie Composera w osobnym procesie.'
+      in_process_why: 'Menedżer rozszerzeń nie może uruchomić osobnego procesu na tym serwerze, więc zamiast tego uruchamia Composera w ramach żądania HTTP. Composer nadal tylko ustala, co się zmieni – menedżer rozszerzeń sam pobiera i podmienia pliki, zapisując każdy krok w dzienniku, więc każdą aktualizację można jak zwykle wycofać.'
+      memory_in_process: 'Pamięć: {limit} (zwiększana podczas pracy Composera)'
+      memory_in_process_why: 'Ten serwer pozwala menedżerowi rozszerzeń zwiększyć memory_limit, gdy Composer działa w ramach żądania, a potem przywrócić poprzednią wartość, więc można ustalić aktualizacje dowolnej wielkości.'
+      php_fails: 'Znalezione PHP w wersji wiersza poleceń nie uruchamia się ({path})'
+      php_fails_why: 'Uruchomienie zakończyło się błędem: {error}'
+      php_found: 'PHP w wersji wiersza poleceń: {path} {version}'
+      php_found_override_why: 'To ścieżka ustawiona poniżej. Uruchamia się i zgłasza jako PHP w wersji wiersza poleceń.'
+      php_found_why: 'Znaleziono i sprawdzono przez uruchomienie. Za pomocą tego PHP uruchamiane są Composer i polecenia Flarum.'
+      php_hidden: 'open_basedir ukrywa PHP w wersji wiersza poleceń ({path})'
+      php_hidden_fix_cpanel: 'Rozwiązanie w cPanelu: MultiPHP INI Editor → wybierz tę domenę → znajdź open_basedir i dodaj :{dir} na końcu wartości (lub poproś o to dostawcę hostingu). Zapisz, a następnie odśwież tę stronę.'
+      php_hidden_fix_generic: 'Rozwiązanie: dodaj :{dir} do open_basedir w pliku php.ini tej witryny lub w puli PHP-FPM (php_admin_value[open_basedir]), a następnie zrestartuj PHP-FPM i odśwież tę stronę.'
+      php_hidden_fix_plesk: 'Rozwiązanie w Plesku: Websites & Domains → Twoja domena → PHP Settings → open_basedir i dodaj :{dir} na końcu wartości. Zapisz, a następnie odśwież tę stronę.'
+      php_hidden_why: 'PHP tej witryny może zaglądać tylko do: {openBasedir}. PHP w wersji wiersza poleceń znajduje się poza tą listą, więc menedżer rozszerzeń nie może go znaleźć, mimo że jest zainstalowane.'
+      php_missing: 'Nie znaleziono PHP w wersji wiersza poleceń'
+      php_missing_why: 'Composer potrzebuje programu PHP działającego w wierszu poleceń (często nazwanego php lub php8.x), a nie znaleziono go w typowych lokalizacjach. Zapytaj dostawcę hostingu, gdzie się znajduje, lub poproś o jego instalację.'
+      php_override_broken: 'Ścieżka ustawiona poniżej, {path}, nie uruchamia się jako PHP w wersji wiersza poleceń. Mogła się zmienić po aktualizacji PHP.'
+      php_override_broken_title: 'PHP w wersji wiersza poleceń ustawione poniżej nie działa'
+      php_override_detected: 'Menedżer rozszerzeń znalazł działające PHP w {path}. Użyj tej ścieżki poniżej lub wyczyść ustawienie, aby menedżer rozszerzeń sam je znalazł.'
+      php_override_hint: 'Jeśli wiesz, gdzie znajduje się PHP w wersji wiersza poleceń, wpisz poniżej pełną ścieżkę, a menedżer rozszerzeń ją sprawdzi i użyje.'
+      php_setting_clear: Wyczyść
+      php_setting_cleared: 'Wyczyszczono. Menedżer rozszerzeń sam wyszuka PHP w wersji wiersza poleceń.'
+      php_setting_help: 'Potrzebne tylko wtedy, gdy menedżer rozszerzeń nie może samodzielnie znaleźć PHP. Podaj pełną ścieżkę do PHP w wersji wiersza poleceń (nie php-fpm), np. /opt/plesk/php/8.5/bin/php. Przed zapisaniem zostanie sprawdzona przez uruchomienie. Pozostaw puste, aby menedżer rozszerzeń sam go wyszukał.'
+      php_setting_label: 'Ścieżka do PHP w wersji wiersza poleceń'
+      php_setting_save: Zapisz
+      php_setting_saved: 'Zapisano. Menedżer rozszerzeń będzie używać tego PHP.'
+      spawn_ok: 'Może uruchamiać Composera jako osobny proces'
+      spawn_ok_why: 'Composer działa poza żądaniem HTTP, więc ma własną pamięć i nie może przy tym spowodować awarii strony.'
+      ssh_differs: 'Jeśli proc_open i PHP działają, gdy testujesz je przez SSH, to nic dziwnego: PHP używane przez SSH to inny program, skonfigurowany oddzielnie od PHP obsługującego Twoją witrynę. Liczy się tutaj konfiguracja witryny.'
+      status:
+        fail: Problem
+        ok: OK
+        warn: Ostrzeżenie
+      summary_in_process: 'Na tym serwerze wszystko działa, a Composer jest uruchamiany w ramach żądania HTTP, ponieważ osobne procesy są niedozwolone. Aktualizacje nadal podmieniają pakiety pojedynczo, z zapisem w dzienniku, więc pozostają bezpieczne i odwracalne.'
+      summary_in_process_git: 'Na tym serwerze Composer jest uruchamiany w ramach żądania HTTP, a niektóre źródła pakietów tej witryny wymagają gita, którego nie można tu uruchomić. Wiersz dotyczący gita poniżej wyjaśnia, co zmienić.'
+      summary_in_process_time: 'Aktualizacje działają tutaj, a Composer jest uruchamiany w ramach żądania HTTP. Limit czasu na tym serwerze jest krótki i zablokowany, więc pierwsza aktualizacja może wymagać jednej lub dwóch ponownych prób, które menedżer rozszerzeń wykona sam.'
+      time_in_process_lifted: 'Menedżer rozszerzeń znosi limit czasu, gdy Composer ustala aktualizację, a potem go przywraca. Serwer proxy przed PHP może jednak przerwać długie żądanie – w takim przypadku menedżer rozszerzeń ponawia próbę, korzystając z tego, co Composer już pobrał.'
+      time_in_process_locked: 'Ten serwer ogranicza każde żądanie do {seconds} s czasu PHP i nie pozwala menedżerowi rozszerzeń tego wydłużyć. Ustalanie aktualizacji to jedno żądanie, więc przy pustej pamięci podręcznej może zostać przerwane przez ten limit lub przez limit czasu samego serwera WWW.'
+      time_in_process_retry: 'Jeśli tak się stanie, nic nie zostanie zmienione: menedżer rozszerzeń sam ponowi próbę, maksymalnie sześć razy, a każda próba zaczyna się dalej, ponieważ Composer zachowuje to, co pobrał. Jeśli mimo to nie uda się zakończyć, poproś dostawcę hostingu o zwiększenie max_execution_time dla tej witryny (120 sekund w zupełności wystarczy).'
+      time_limit: 'Limit czasu wykonania: {seconds} s'
+      time_none: 'Limit czasu wykonania: brak'
+      title: 'Ten serwer'
     major_updater:
       description: "Aktualizacje do nowej wersji głównej Flarum nie są wstecznie zgodne, co oznacza, że niektóre z obecnie zainstalowanych rozszerzeń oraz zmiany wprowadzone ręcznie mogą nie działać z nową wersją. Przed kontynuowaniem wykonaj kopię zapasową bazy danych i plików.\n"
       dry_run: 'Próbna aktualizacja'
@@ -88,27 +214,117 @@ flarum-extension-manager:
       update: Aktualizuj
     minor_update_confirmation:
       content: 'Spowoduje to również aktualizację wszystkich innych rozszerzeń i pakietów, dla których dostępne są aktualizacje.'
+    page:
+      load_failed: 'Nie udało się wczytać menedżera rozszerzeń. Jego API nie odpowiedziało – przyczynę znajdziesz w konsoli przeglądarki i w dzienniku błędów forum.'
+      load_timeout: 'Strona menedżera rozszerzeń nie wczytała się do końca. Z Twoją witryną i rozszerzeniami wszystko jest w porządku – coś uniemożliwia tej stronie komunikację z forum. Szczegóły znajdziesz w konsoli przeglądarki.'
+      try_again: 'Spróbuj ponownie'
+    release_notes:
+      empty_release: 'Dla tego wydania nie napisano informacji o zmianach.'
+      failed: 'Nie udało się teraz wczytać informacji o wydaniu z GitHuba.'
+      none: 'Dla tych wersji nie opublikowano informacji o wydaniu na GitHubie.'
+      on_github: 'Zobacz wydania na GitHubie'
+      title: '{name}: co nowego od wersji {from}'
     required_php_functions: "Menedżer rozszerzeń wymaga włączenia następujących funkcji PHP: <code>{functions}</code>. Jeśli nie masz dostępu do konfiguracji PHP, skontaktuj się ze swoim dostawcą hostingu.\n"
+    run:
+      abandoned:
+        announce: '{count, plural, one {Jeden pakiet} few {# pakiety} many {# pakietów} other {# pakietu}} w {mode, select, install {tej instalacji} other {tej aktualizacji}} {count, plural, one {jest porzucony} few {są porzucone} many {jest porzuconych} other {jest porzuconych}}. Lista znajduje się w panelu aktualizacji.'
+        intro: '{count, plural, one {Jeden pakiet} few {# pakiety} many {# pakietów} other {# pakietu}} w {mode, select, install {tej instalacji} other {tej aktualizacji}} {count, plural, one {jest porzucony} few {są porzucone} many {jest porzuconych} other {jest porzuconych}}.'
+        intro_stopped: '{count, plural, one {Jeden pakiet, który dodałaby} few {# pakiety, które dodałaby} many {# pakietów, które dodałaby} other {# pakietu, które dodałaby}} {mode, select, install {ta instalacja} other {ta aktualizacja}}, {count, plural, one {jest porzucony} few {są porzucone} many {jest porzuconych} other {jest porzuconych}}. To nie jest przyczyna jej przerwania.'
+        no_replacement: '{package}: nie wskazano zamiennika'
+        replaced: '{package}: zamiast niego użyj {replacement}'
+      another_driver: 'Kolejny krok wykonuje proces w tle, więc ta strona tylko obserwuje postęp.'
+      cannot_drive: 'Ta strona nie może połączyć się z serwerem, aby sterować aktualizacją – zwykle z powodu sesji, która wygasła, gdy strona była otwarta. Nie ma to wpływu na samą aktualizację, która jest kontynuowana w tle. Odśwież stronę.{watching, select, yes { Postęp jest wyświetlany tylko do odczytu.} other {}}'
+      cannot_reach: 'Ta strona nie mogła połączyć się z forum kolejny raz z rzędu (liczba prób: {count}). Nie ma to wpływu na samą aktualizację – jej stan jest zapisany na dysku – a strona będzie ponawiać próby.{watching, select, yes { Postęp jest wyświetlany tylko do odczytu.} other {}}'
+      cannot_reach_short: 'Ta strona nie mogła połączyć się z forum. Nie ma to wpływu na samą aktualizację, a strona będzie ponawiać próby.'
+      details: 'Szczegóły aktualizacji'
+      dismiss: Zamknij
+      done: 'Aktualizacja zakończona'
+      failed: 'Aktualizacja została przerwana'
+      failed_at: 'Przerwano na etapie: {step}'
+      failed_at_step: 'Przerwano na etapie: {phase} → {step}'
+      nothing_moved: 'Od kilku minut nic się nie zmieniło. To normalne, gdy Composer coś ustala. Jeśli ten stan się utrzyma, sprawdź dziennik poniżej.'
+      phases:
+        apply: 'Podmiana plików'
+        fetch: Pobieranie
+        finalise: Kończenie
+        plan: 'Ustalanie zmian'
+      phases_label: Postęp
+      reload_page: 'Odśwież stronę'
+      reload_page_why: 'Do czasu odświeżenia ta strona zawiera kod i numery wersji sprzed aktualizacji.'
+      roll_back: 'Cofnij tę aktualizację'
+      roll_back_confirm: 'Czy na pewno chcesz przywrócić rozszerzenia zmienione przez tę aktualizację do wersji sprzed niej, razem z plikami composer.json i composer.lock?'
+      roll_back_confirm_db: 'Czy na pewno chcesz przywrócić rozszerzenia zmienione przez tę aktualizację do wersji sprzed niej, razem z plikami composer.json i composer.lock? Ta aktualizacja zmieniła również bazę danych ({count, plural, one {# zmiana} few {# zmiany} many {# zmian} other {# zmiany}}). Cofnięcie odwróci również te zmiany, co usunie wszystko, co zostało zapisane w dodanych przez nie elementach.'
+      rollback_failed: 'Samo cofanie nie powiodło się. Nic nie zostało usunięte, więc stare pliki nadal znajdują się w katalogu storage/extension-manager/trash.'
+      rolled_back: 'Aktualizacja cofnięta'
+      rolling_back: Cofanie…
+      start_failed: 'Nie udało się rozpocząć aktualizacji, a forum nie podało przyczyny. Nic się nie zmieniło.'
+      steps:
+        assets: 'Publikowanie zasobów'
+        caches: 'Czyszczenie pamięci podręcznej'
+        check_file_permissions: 'Sprawdzanie uprawnień plików'
+        check_the_site: 'Sprawdzanie strony'
+        check_the_site_again: 'Ponowne sprawdzanie strony'
+        code_cache: 'Czyszczenie pamięci podręcznej kodu PHP'
+        migrations: 'Uruchamianie migracji bazy danych'
+        register: 'Aktualizowanie danych Composera'
+        tidy_the_trash: 'Porządkowanie starych kopii'
+        work_out_what_changes: 'Ustalanie zmian'
+      target:
+        install: 'Instalowanie: {packages}'
+        more: '{shown} i jeszcze {count}'
+        remove: 'Usuwanie: {packages}'
+        update: 'Aktualizowanie: {packages}'
+      working: Aktualizowanie
+      working_on: '{item} – {index} z {total}'
+      working_out: 'Ustalanie z Composerem, czego to wymaga. To najdłuższa część.'
     sections:
       discover:
+        against: 'Sprawdzono pod kątem wersji Flarum {version}, na której działa to forum.'
+        compat:
+          checking: Sprawdzanie…
+          incompatible: 'niezgodne z tą wersją Flarum'
+          incompatible_why: 'Najnowsze wydanie wymaga flarum/core {requires}.'
+          needs_stability: 'wymaga poziomu {level} w sekcji „Źródła”'
+          prerelease: '{version} – wersja przedpremierowa'
+          unknown: 'nie udało się sprawdzić'
         description: 'Dodawaj do swojego forum Flarum nowe funkcje i integracje za pomocą rozszerzeń.'
         empty_results: 'Wygląda na to, że nie ma dostępnych rozszerzeń.'
         extension:
+          abandoned_for: 'Nie jest już rozwijane: zamiast niego użyj {replacement}.'
+          abandoned_why: 'Według autora lub listy porzuconych rozszerzeń Flarum to rozszerzenie nie jest już rozwijane. Może nadal działać.'
           badges:
             abandoned: Porzucone
             flarum: Flarum
             fof: 'Friends Of Flarum'
           downloads: '{count, plural, one {{formattedCount} pobranie} few {{formattedCount} pobrania} many {{formattedCount} pobrań} other {{formattedCount} pobrania}}'
+          install_replacement: 'Zainstaluj {replacement}'
+          installed_as: 'zainstalowane jako {replacement}'
+          replaced: zastąpione
+          replaced_by: 'zastąpione przez {replacement}'
+          replaced_why: 'To stara nazwa. Rozszerzenie zostało przeniesione do nowego pakietu, a zainstalowanie go pod starą nazwą da Ci nowe rozszerzenie z niewłaściwym identyfikatorem, którego nie będzie można włączyć.'
+          replacement_installed: '{replacement} jest zainstalowane'
+        hint: 'Wszystkie rozszerzenia Flarum opublikowane w serwisie Packagist, od najczęściej używanych.'
+        loading_more: Wczytywanie…
+        no_match: 'Nic w serwisie Packagist nie pasuje do „{query}”.'
+        open_packagist: '{name} w serwisie Packagist'
         search: Szukaj…
+        search_button: Szukaj
+        searching: Wyszukiwanie…
         server_error: 'Usługa jest obecnie niedostępna, spróbuj ponownie później.'
+        show_more: 'Pokaż więcej'
         sort:
           top: 'Najczęściej pobierane'
         tabs:
+          all: Wszystkie
           discover: Odkrywaj
           extensions: Rozszerzenia
+          label: Pokaż
           languages: Języki
           themes: Motywy
+          widgets: Widżety
         title: Rozszerzenia
+      installed:
+        title: 'Zainstalowane ({count})'
       queue:
         columns:
           details: Szczegóły
@@ -117,7 +333,11 @@ flarum-extension-manager:
           package: Pakiet
           peak_memory_used: 'Szczytowe użycie pamięci'
           status: Status
+        flarum: Flarum
+        migrations: 'Zmieniono bazę danych ({count, plural, one {# zmiana} few {# zmiany} many {# zmian} other {# zmiany}}).'
+        new_version: '{version} (nowe)'
         none: 'Nie ma jeszcze żadnych zadań.'
+        nothing: 'Nic się nie zmieniło'
         operations:
           extension_install: 'Instalacja rozszerzenia'
           extension_remove: 'Usunięcie rozszerzenia'
@@ -133,9 +353,11 @@ flarum-extension-manager:
           guessed_cause: Przyczyna
           output: Wynik
         refresh: 'Odśwież listę zadań'
+        removed_version: '{version} (usunięte)'
         statuses:
           failure: Niepowodzenie
           pending: Oczekuje
+          rolled_back: Cofnięto
           running: 'W toku'
           success: Sukces
         task_just_started: 'Zadanie właśnie się rozpoczęło'
@@ -151,15 +373,351 @@ flarum-extension-manager:
       task_retention_days: 'Czas przechowywania zadań (w dniach)'
       task_retention_days_help: "Liczba dni, przez które zakończone zadania są przechowywane w bazie danych. Starsze zadania zostaną usunięte. Ustaw 0, aby przechowywać wszystkie zadania.\n"
       title: '=> core.ref.settings'
+    trash:
+      confirm: 'Czy na pewno chcesz usunąć {count, plural, one {# element} few {# elementy} many {# elementów} other {# elementu}} i zwolnić {size}? Należą do aktualizacji, których nie można już wycofać z tego ekranu. Ostatnią aktualizację nadal będzie można wycofać.'
+      days: dni
+      done: '{count, plural, =0 {Nie było nic do usunięcia.} one {Usunięto # element i zwolniono {size}.} few {Usunięto # elementy i zwolniono {size}.} many {Usunięto # elementów i zwolniono {size}.} other {Usunięto # elementu i zwolniono {size}.}}'
+      failed: 'Menedżer rozszerzeń nie mógł odczytać swoich kopii do wycofywania aktualizacji.'
+      freeable: 'Można uprzątnąć teraz'
+      freeable_none: 'Nic – wszystkie zachowane kopie są nadal potrzebne'
+      freeable_value: '{size} – {count, plural, one {# element} few {# elementy} many {# elementów} other {# elementu}}'
+      help: 'Każda aktualizacja zachowuje zastąpione wersje, aby można ją było wycofać. Kopie, których żadne wycofanie nie może już użyć, są usuwane po każdej aktualizacji i co noc. Kopie potrzebne do wycofania ostatniej aktualizacji nigdy nie są usuwane.'
+      keep_days: 'Przechowuj kopie przez'
+      keep_runs: 'lub dla ostatnich'
+      last: 'Ostatnie porządkowanie'
+      last_never: 'Jeszcze nie'
+      last_value: '{when} – {count, plural, =0 {nic do usunięcia} other {usunięto: #, zwolniono {size}}}'
+      prune: 'Uprzątnij teraz'
+      pruning: Porządkowanie…
+      rule: 'Zachowywane są kopie z ostatnich {days} dni lub z ostatnich {runs} aktualizacji – zależnie od tego, która reguła zachowuje więcej. Kopie dla ostatniej aktualizacji, dla aktualizacji w toku oraz wszystkiego, co zmieniło się w ciągu ostatniej doby, są zawsze zachowywane.'
+      runs: aktualizacji
+      saved: Zapisano.
+      size: 'Zajmowane miejsce'
+      size_value: '{size} w {count, plural, one {# kopii} other {# kopiach}}'
+      title: 'Kopie do wycofywania aktualizacji'
     update_successful: 'Flarum zostało zaktualizowane.'
     updater:
+      ago:
+        days: '{count, plural, one {# dzień} few {# dni} many {# dni} other {# dnia}} temu'
+        hours: '{count, plural, one {# godzinę} few {# godziny} many {# godzin} other {# godziny}} temu'
+        minutes: '{count, plural, one {# minutę} few {# minuty} many {# minut} other {# minuty}} temu'
+      banner:
+        details: 'Nie zawsze oznacza to, że można ją zainstalować – co jeszcze musi się zmienić i czy coś to blokuje, zostanie ustalone, gdy o to poprosisz.{checked, select, yes { Ostatnie sprawdzenie: {when}.} other {}}{uncheckable, plural, =0 {} one { Nie udało się w ogóle sprawdzić # pakietu.} other { Nie udało się w ogóle sprawdzić # pakietów.}}'
+        dismiss: 'Nie teraz'
+        more: 'i jeszcze {count}'
+        open: Zobacz
+        title: '{count, plural, one {# pakiet ma} few {# pakiety mają} many {# pakietów ma} other {# pakietu ma}} nowszą wersję'
       check_for_updates: 'Sprawdź aktualizacje'
+      check_line: '<b>{summary}</b> Sprawdzono {when}.{uncheckable, plural, =0 {} one { Nie udało się sprawdzić # pakietu – nie wymienia go żadne repozytorium znane temu forum.} other { Nie udało się sprawdzić # pakietów – nie wymienia ich żadne repozytorium znane temu forum.}}{tracking, plural, =0 {} one { # pakiet śledzi gałąź, więc nie ma wersji do porównania.} few { # pakiety śledzą gałąź, więc nie ma wersji do porównania.} many { # pakietów śledzi gałąź, więc nie ma wersji do porównania.} other { # pakietu śledzi gałąź, więc nie ma wersji do porównania.}}'
+      check_now: 'Sprawdź teraz'
+      check_overdue: 'Sprawdź aktualizacje, aby otrzymać najnowsze poprawki bezpieczeństwa i funkcje swoich rozszerzeń.'
+      checking: Sprawdzanie…
+      core:
+        blocked: '{count, plural, one {# rozszerzenie nie ma} few {# rozszerzenia nie mają} many {# rozszerzeń nie ma} other {# rozszerzenia nie ma}} wydania działającego z Flarum {version}, więc aktualizacja zostałaby odrzucona. Lista znajduje się poniżej.'
+        checking: 'Sprawdzanie {count, plural, one {# kolejnego rozszerzenia} other {# kolejnych rozszerzeń}}…'
+        clear: 'Każde zainstalowane rozszerzenie ma wydanie działające z Flarum {version}.'
+        confirm: 'Czy na pewno chcesz zaktualizować Flarum z wersji {from} do {to}?{count, plural, =0 {} one { # rozszerzenie wymienione poniżej zostanie zaktualizowane razem z nim, ponieważ jego obecna wersja nie obsługuje nowego Flarum.} few { # rozszerzenia wymienione poniżej zostaną zaktualizowane razem z nim, ponieważ ich obecne wersje nie obsługują nowego Flarum.} many { # rozszerzeń wymienionych poniżej zostanie zaktualizowanych razem z nim, ponieważ ich obecne wersje nie obsługują nowego Flarum.} other { # rozszerzeń wymienionych poniżej zostanie zaktualizowanych razem z nim, ponieważ ich obecne wersje nie obsługują nowego Flarum.}} Jeśli po aktualizacji strona nie będzie działać, wszystko zostanie przywrócone.'
+        current: 'Od ostatniego sprawdzenia nie opublikowano nowszej wersji Flarum.'
+        failed: 'Menedżer rozszerzeń nie mógł ustalić, z czym wiązałaby się aktualizacja Flarum. Nic się nie zmieniło.'
+        loading: 'Sprawdzanie Flarum…'
+        nightly:
+          button: 'Wypróbuj wersję nightly'
+          confirm: 'Czy na pewno chcesz przenieść Flarum i dołączone do niego rozszerzenia na rozwojową wersję nightly? Zmiany w bazie danych zostaną zapisane, a opcja „Cofnij tę aktualizację” przywróci forum do obecnego wydania.'
+          help: 'Do testowania przyszłego wydania: Flarum i dołączone do niego rozszerzenia zostaną razem przeniesione na gałąź rozwojową. Nie na działające publicznie forum.'
+          title: 'Wersja nightly.'
+        overrides: '{count, plural, one {To rozszerzenie zastępuje część samego Flarum, więc deklaracja obsługi Flarum {version} nie wystarczy: jego kopia odpowiada wersji Flarum, dla której zostało napisane.} other {Te rozszerzenia zastępują części samego Flarum, więc deklaracja obsługi Flarum {version} nie wystarczy: ich kopie odpowiadają wersji Flarum, dla której zostały napisane.}} Jeśli aktualizacja zepsuje stronę, zostanie wycofana. Najpierw skontaktuj się z {count, plural, one {autorem} other {autorami}} lub usuń je na czas aktualizacji – wyłączenie nie wystarczy, ponieważ Composer nadal wczytuje kopię.'
+        preflight: 'Sprawdzanie, które rozszerzenia działają z Flarum {version}…'
+        row_blocked: 'brak wydania dla tej wersji Flarum – wymaga {requires}'
+        row_overrides: 'zastępuje {classes}'
+        row_unknown: 'nie udało się sprawdzić'
+        row_updating: 'zostanie zaktualizowane do wersji {version}'
+        running: 'To forum działa na Flarum {version}.'
+        update_to: 'Aktualizuj Flarum do wersji {version}'
+        updating_too: '{count, plural, one {# rozszerzenie zostanie zaktualizowane w tym samym czasie, ponieważ jego obecna wersja nie obsługuje nowego Flarum.} few {# rozszerzenia zostaną zaktualizowane w tym samym czasie, ponieważ ich obecne wersje nie obsługują nowego Flarum.} many {# rozszerzeń zostanie zaktualizowanych w tym samym czasie, ponieważ ich obecne wersje nie obsługują nowego Flarum.} other {# rozszerzenia zostanie zaktualizowane w tym samym czasie, ponieważ ich obecne wersje nie obsługują nowego Flarum.}}'
+      core_newer: 'Samo Flarum ma nowszą wersję.'
       flarum: 'Rdzeń Flarum'
       global_update_successful: 'Wszystkie pakiety zostały zaktualizowane.'
       last_update_checked_at: 'Ostatnie sprawdzenie aktualizacji: '
       run_global_update: 'Zaktualizuj wszystko'
+      some_newer: '{count, plural, one {# rozszerzenie ma} few {# rozszerzenia mają} many {# rozszerzeń ma} other {# rozszerzenia ma}} nowszą wersję.'
+      some_newer_and_core: '{count, plural, one {# rozszerzenie ma} few {# rozszerzenia mają} many {# rozszerzeń ma} other {# rozszerzenia ma}} nowszą wersję. Samo Flarum również.'
+      starting: Uruchamianie…
       up_to_date: 'Brak oczekujących aktualizacji.'
+      update_all: 'Aktualizuj wszystkie ({count})'
       updater_help: 'Sprawdza, czy są dostępne aktualizacje rozszerzeń i Flarum.'
       updater_title: Aktualizacje
     why_not_modal:
       title: 'Dlaczego nie można zaktualizować'
+  api:
+    apply:
+      local_path: 'Pakiet {package} jest zainstalowany z lokalnej ścieżki – {path} to dowiązanie symboliczne do kopii roboczej na tym serwerze. Menedżer rozszerzeń jej nie zastąpi, ponieważ edytowana przez Ciebie kopia przestałaby być kopią używaną przez forum. Zaktualizuj ją za pomocą gita.'
+      move_aside_failed: 'Nie udało się przenieść {from} na bok do {to}'
+      move_in_failed: 'Nie udało się przenieść {from} na miejsce w {to}'
+      previous_unfinished: 'Poprzednia podmiana plików nie została dokończona. Wycofaj ją lub wznów, zanim rozpoczniesz kolejną.'
+    capability:
+      disk_free: 'Dysk: {gb} GB wolnego miejsca'
+      disk_unknown: 'Dysk: nieznane'
+      disk_why: 'Poprzednia wersja wszystkiego, co zostanie zastąpione, jest zachowywana, aby można było wycofać zmiany. Wymaga to miejsca na to, co się zmieniło, a nie na drugą kopię wszystkiego.'
+      memory: 'Pamięć: {memory}'
+      memory_full: 'Ustalanie zależności na forum tej wielkości zużywa maksymalnie około 165 MB, więc wszystko działa, łącznie z aktualizacją samego Flarum.'
+      memory_none: 'Poniżej około 160 MB Composer w ogóle nie może tu ustalić zależności. Poproś dostawcę hostingu o zwiększenie memory_limit – 256 MB w zupełności wystarczy.'
+      memory_targeted: 'Wystarczy do aktualizowania rozszerzeń pojedynczo, ale nie do ponownego ustalenia wszystkich zależności naraz. Aktualizacja Flarum wymaga około 192 MB.'
+      opcache_delay: 'Nie można stąd wyczyścić pamięci podręcznej, więc aktualizacja zacznie działać w ciągu {seconds, plural, one {# sekundy} other {# sekund}}, a nie od razu.'
+      opcache_handled: 'Menedżer rozszerzeń czyści pamięć podręczną skompilowanego kodu po zakończeniu aktualizacji, więc nowe pliki są używane od razu, a nie z opóźnieniem.'
+      opcache_never_rereads: 'PHP przechowuje skompilowany kod w pamięci podręcznej i nigdy nie wczytuje plików ponownie'
+      opcache_off: 'Brak pamięci podręcznej skompilowanego kodu'
+      opcache_off_why: 'Nic nie stoi między plikami zapisanymi przez aktualizację a wykonywanym kodem.'
+      opcache_rereads: 'PHP wczytuje zmienione pliki ponownie co {seconds, plural, one {# sekundę} few {# sekundy} many {# sekund} other {# sekundy}}'
+      opcache_restart: 'Ten serwer nigdy nie wczytuje ponownie zmienionych plików, a pamięci podręcznej nie można stąd wyczyścić, więc aby aktualizacja zaczęła działać, trzeba zrestartować PHP-FPM.'
+      summary_full: 'Na tym serwerze wszystko działa. Aktualizacje podmieniają pakiety pojedynczo, co jest bezpieczne i odwracalne.'
+      summary_none: 'Ten serwer nie ma wystarczająco dużo pamięci, aby Composer mógł ustalić, czego wymaga aktualizacja. Wszystko inne jest gotowe – poproś dostawcę hostingu o zwiększenie memory_limit do 256 MB.'
+      summary_targeted: 'Tutaj możesz aktualizować rozszerzenia pojedynczo. Aktualizacja samego Flarum wymaga nieco więcej pamięci, niż pozwala ten serwer.'
+      time_limit: 'Limit czasu wykonania: {seconds} s'
+      time_limit_why: 'To nie problem. Menedżer rozszerzeń wykonuje jeden mały krok na żądanie, więc aktualizacja trwająca dziesięć minut zakończy się nawet na serwerze, który przerywa każde żądanie po {seconds} s.'
+      time_none: 'Limit czasu wykonania: brak'
+      time_none_why: 'Nie ma to zresztą znaczenia – żaden pojedynczy krok nie trwa dłużej niż kilka sekund.'
+      unlimited: 'bez limitu'
+    change:
+      added: '{package} {version} (nowy)'
+      removed: '{package} {version} (usunięty)'
+    check:
+      no_lock: 'Menedżer rozszerzeń nie mógł odczytać pliku composer.lock, więc nie może ustalić, co jest zainstalowane.'
+    composer:
+      abandoned_blocked: 'Ustawienia Composera tego forum blokują porzucone pakiety, a {mode, select, install {instalacja} other {aktualizacja}} wymaga {packages}, {count, plural, one {który jest porzucony} other {które są porzucone}}. Aby na {count, plural, one {niego} other {nie}} zezwolić, dodaj {count, plural, one {go} other {je}} do „{setting}” w pliku composer.json. Komunikat Composera:'
+      abandoned_no_replacement: 'Pakiet {package} jest porzucony i nie wskazano zamiennika.'
+      abandoned_replaced: 'Pakiet {package} jest porzucony – zamiast niego użyj {replacement}.'
+      advice_memory: 'Poproś dostawcę hostingu o zwiększenie memory_limit dla tej witryny (256 MB w zupełności wystarczy) lub aktualizuj mniej rozszerzeń naraz.'
+      advice_time: 'Composer zachowuje to, co pobrał, więc ponowne kliknięcie „Aktualizuj” za jakiś czas często pozwala dojść dalej. Jeśli proces nadal będzie przerywany, poproś dostawcę hostingu o zwiększenie max_execution_time dla tej witryny (120 sekund w zupełności wystarczy) lub o zezwolenie na proc_open, aby Composer mógł działać w osobnym procesie.'
+      and_more: ' i jeszcze {count}'
+      assets_published: 'Zasoby opublikowane'
+      autoload_files_pruned: 'Composer przestał wczytywać usunięte pliki, więc strona odpowiada aż do przebudowy autoloadera'
+      autoloader_copy_failed: 'Nie udało się zapisać kopii autoloadera, więc Composer nie został uruchomiony.'
+      broke_site_no_restore: 'Ta aktualizacja sprawiła, że strona przestała odpowiadać, a nie ma zapisanej kopii do przywrócenia.'
+      broke_site_restored: 'Ta aktualizacja sprawiła, że strona przestała odpowiadać, więc została wycofana.'
+      caches_cleared: 'Pamięć podręczna wyczyszczona, formater i skompilowane zasoby przebudowane'
+      composer_failed: 'Błąd Composera:'
+      core_db_failed: 'Pliki Flarum zostały zaktualizowane, ale bazy danych nie udało się zaktualizować: {error}'
+      core_db_failed_undone: 'Pliki Flarum zostały zaktualizowane, ale bazy danych nie udało się zaktualizować ({error}), więc aktualizacja została wycofana, zanim strona zaczęłaby wyświetlać komunikat „Update Flarum”.'
+      core_db_unchanged: 'po migracji baza danych nadal wskazuje Flarum {version}.'
+      core_moved: 'Flarum zostało zaktualizowane z wersji {from} do {to}, więc baza danych została od razu zaktualizowana'
+      core_same_version: 'Flarum nadal wskazuje wersję {version}, czyli wersję nowego kodu, więc baza danych zostanie zaktualizowana razem z pozostałymi migracjami'
+      downloaded: 'Pobrano {package}'
+      flarum_command_failed: 'Polecenie `flarum {command}` nie powiodło się:'
+      health_503_waiting: 'Strona zwróciła kod 503, a serwer WWW może jeszcze wczytywać nowe pliki – za chwilę nastąpi ponowne sprawdzenie.'
+      health_down_before: 'Strona nie odpowiadała już przed rozpoczęciem tej aktualizacji ({why}), więc to, czy odpowiada po niej, nie będzie podstawą do jej oceny.'
+      health_no_address: 'Nie skonfigurowano adresu strony, więc to, czy strona odpowiada, nie będzie podstawą do oceny tej aktualizacji.'
+      health_not_checked: 'Strona nie została sprawdzona, ponieważ nie można się z nią stąd połączyć.'
+      health_ok_after: 'Po aktualizacji strona odpowiada prawidłowo.'
+      health_ok_before: 'Strona odpowiada przed rozpoczęciem.'
+      health_still_down: 'Strona nadal nie odpowiada, ale nie odpowiadała również przed tą aktualizacją – dlatego aktualizacja została pozostawiona i nie jest za to obwiniana.'
+      limit_joiner: ' oraz '
+      limit_memory: 'ten serwer nie pozwala menedżerowi rozszerzeń zwiększyć memory_limit ({limit})'
+      limit_note: 'Composer działał w ramach żądania HTTP, a {limits}.'
+      limit_time: 'ten serwer nie pozwala menedżerowi rozszerzeń znieść limitu czasu ({seconds} s)'
+      migrations_none: 'Migracje uruchomione (bez zmian w bazie danych)'
+      migrations_run: 'Migracje uruchomione: {count, plural, one {# zmiana w bazie danych, którą cofnie} few {# zmiany w bazie danych, które cofnie} many {# zmian w bazie danych, które cofnie} other {# zmiany w bazie danych, które cofnie}} wycofanie tej aktualizacji'
+      missing: 'Nie znaleziono samego Composera. Jest dostarczany z menedżerem rozszerzeń, więc zwykle oznacza to niepełną instalację – ponowna instalacja rozszerzenia powinna go przywrócić.'
+      needs_git: 'Composer musiał uruchomić gita (dla repozytorium Git lub path), a ten serwer nie pozwala PHP uruchamiać innych programów. W przypadku repozytorium GitHub lub GitLab dodaj token dostępu w sekcji „Menedżer rozszerzeń → Źródła”, aby Composer korzystał z ich API zamiast z gita. W innym przypadku zainstaluj pakiet z repozytorium Composera (Packagist, Private Packagist lub Satis).'
+      no_archive: 'Brak archiwum do pobrania dla {package}. Pakiet jest prawdopodobnie zainstalowany ze źródeł lub z repozytorium path, czego menedżer rozszerzeń nie może pobrać.'
+      not_in_plan: 'Pakietu {package} nie ma w planie.'
+      nothing_changed_install: 'Nic się nie zmieniło – ten pakiet jest już zainstalowany w tej wersji.'
+      nothing_changed_remove: 'Nic się nie zmieniło – ten pakiet nie był bezpośrednim wymaganiem tej witryny.'
+      nothing_moved_pinned: 'Nic się nie zmieniło, ponieważ {pins}. Nie można zainstalować nowszej wersji, dopóki to wymaganie się nie zmieni.'
+      nothing_to_do: 'nic do zrobienia'
+      nothing_to_update: 'Nie ma nic do aktualizacji – wszystko jest już w najnowszej możliwej wersji.'
+      permissions_not_checked: 'Na tym serwerze nie sprawdzono uprawnień plików'
+      permissions_ok: 'Wszystkie pliki zmieniane przez tę aktualizację są zapisywalne'
+      pin_raised: '{package} wymagany w wersji {version} zamiast {current}'
+      pinned_to: '{package} jest przypięty do {constraint}'
+      plan_unreadable: 'Nie udało się odczytać planu tej aktualizacji w {path}, więc aktualizacja została w tym miejscu przerwana. Dysk może być pełny: zwolnij trochę miejsca, a następnie wycofaj aktualizację i rozpocznij ją ponownie.'
+      plan_unwritable: 'Nie udało się zapisać planu w {path}. Sprawdź, czy dysk nie jest pełny i czy katalog jest zapisywalny. Nic nie zostało zmienione.'
+      registered: 'Composer ma już informację o zmianie'
+      replaced_core_class: 'Pakiet {package} zastępuje klasę {class} samego Flarum własną kopią, która nie pasuje do tej wersji Flarum. Poproś autora o wydanie obsługujące tę wersję lub usuń {package}, a następnie ponownie zaktualizuj Flarum.'
+      reread_done: 'Serwer WWW wczytał nowe pliki.'
+      resolve_failed: 'Composer nie mógł ustalić aktualizacji:'
+      resolve_gave_up: 'Nic nie zostało zmienione. {how} – {attempts} razy z rzędu, zanim Composer zakończył ustalanie tej aktualizacji.'
+      resolve_retrying: '{how}, zanim Composer zakończył pracę. Nic nie zostało zmienione. Ponawianie próby (próba {attempt} z {attempts}). Composer zachował to, co już pobrał, więc ta próba zaczyna się dalej.'
+      save_before_resolve_failed: 'Nie udało się zapisać kopii {file} przed ustalaniem zależności, więc nic nie zostało rozpoczęte.'
+      still_wants_changes: 'Po zastosowaniu aktualizacji Composer nadal chce zmienić {count, plural, one {# pakiet} few {# pakiety} many {# pakietów} other {# pakietu}}, więc aktualizacja została zatrzymana przed zmianą jakichkolwiek plików. Nic nie jest uszkodzone – wycofaj tę aktualizację na ekranie menedżera rozszerzeń.'
+      stopped: 'Serwer WWW przerwał żądanie'
+      stopped_memory: 'Ten serwer przerwał żądanie po osiągnięciu limitu pamięci ({limit})'
+      stopped_time: 'Ten serwer przerwał żądanie po {seconds} s'
+      stopped_unknown: 'Serwer WWW przerwał żądanie po około {seconds} s'
+      the_error_was: 'Błąd: {error}'
+      tidy_left: 'Stare kopie do wycofywania zostały pozostawione do nocnego porządkowania: {error}'
+      tidy_no_storage: 'Stare kopie do wycofywania nie zostały uprzątnięte: nieznana ścieżka katalogu storage.'
+      tidy_nothing: 'Brak starych kopii do wycofywania do usunięcia.'
+      tidy_removed: 'Usunięto {count, plural, one {# starą kopię} few {# stare kopie} many {# starych kopii} other {# starej kopii}} do wycofywania i zwolniono {size}.'
+      tidy_rest_tonight: 'Pozostałe zostaną uprzątnięte w nocy.'
+      wait_too_long: 'Pliki zostały zaktualizowane. Ten serwer wczytuje je ponownie tylko co {seconds, plural, one {# sekundę} few {# sekundy} many {# sekund} other {# sekundy}}, czyli zbyt rzadko, by tu czekać – zrestartuj PHP-FPM, aby aktualizacja zaczęła działać od razu.'
+      waiting_reread: 'Oczekiwanie jeszcze {seconds, plural, one {# sekundę} few {# sekundy} many {# sekund} other {# sekundy}}, aż serwer WWW wczyta nowe pliki.'
+      web_cache_cleared: 'Wyczyszczono pamięć podręczną skompilowanego kodu serwera WWW, więc używane są nowe pliki.'
+      will_change: '{count, plural, one {Zmieni się # pakiet} few {Zmienią się # pakiety} many {Zmieni się # pakietów} other {Zmieni się # pakietu}}: {list}'
+    config:
+      basic_needs_username: 'http-basic wymaga zarówno nazwy użytkownika, jak i hasła.'
+      credential_empty: 'Dane uwierzytelniające są puste.'
+      json_encode_failed: 'Nie udało się zakodować {file}: {error}'
+      json_invalid: 'Plik {file} nie zawiera prawidłowego JSON-a, więc menedżer rozszerzeń go nie nadpisze. Najpierw popraw go ręcznie – {error}.'
+      json_refuse_write: 'Odmowa zapisu {file}: wynik nie daje się przetworzyć.'
+      json_replace_failed: 'Nie udało się zastąpić {path}.'
+      json_unreadable: 'Nie udało się odczytać {path}.'
+      json_write_failed: 'Nie udało się zapisać pliku obok {path}. Sprawdź, czy katalog jest zapisywalny.'
+      no_credential: 'Dla tego hosta nie zapisano danych uwierzytelniających.'
+      not_a_hostname: 'To nie jest nazwa hosta. Wpisz github.com, a nie https://github.com/….'
+      repo_ambiguous: 'Ten adres ma więcej niż jedno repozytorium – różnią się tylko zapisanymi w nich danymi uwierzytelniającymi. Usuń właściwe ręcznie z pliku composer.json.'
+      repo_bad_url: 'To nie wygląda na adres URL repozytorium. Użyj https://, git@ lub ssh://.'
+      repo_exists: 'To repozytorium jest już skonfigurowane.'
+      repo_insecure: 'Composer nie użyje repozytorium przez niezabezpieczone http:// lub git://, gdy włączone jest ustawienie secure-http, a dane uwierzytelniające byłyby przesyłane bez szyfrowania. Użyj https:// lub ssh://.'
+      repo_missing: 'Tego repozytorium nie ma w pliku composer.json.'
+      repo_needs_url: 'Repozytorium wymaga adresu URL.'
+      repo_path_not_url: 'Repozytorium path wymaga ścieżki w systemie plików, a nie adresu URL.'
+      repo_type_unsupported: 'Menedżer rozszerzeń nie dodaje repozytoriów typu „{type}”. Wybierz vcs, composer lub path.'
+      stability_invalid: 'Minimalna stabilność musi mieć jedną z wartości: {levels}.'
+      takes_effect_next_time: 'Zmiany zaczną obowiązywać przy następnej instalacji lub aktualizacji.'
+      unknown_credential_type: 'Nieznany typ danych uwierzytelniających. Użyj jednego z: {kinds}.'
+      unknown_error: 'nieznany błąd'
+    core:
+      no_lock: 'Menedżer rozszerzeń nie mógł odczytać pliku composer.lock, więc nie może ustalić, z czym wiązałaby się aktualizacja.'
+    discover:
+      unexpected: 'Packagist zwrócił nieoczekiwaną odpowiedź.'
+      unreachable: 'Nie udało się połączyć z serwisem Packagist.'
+    fetch:
+      checksum: 'Pobrany pakiet {package} nie zgadza się z opublikowaną sumą kontrolną. Nie został rozpakowany.'
+      download_failed: 'Nie udało się pobrać {url} (HTTP {code}).'
+      not_archive: 'Pobrany pakiet {package} nie jest czytelnym archiwum.'
+      not_https: 'Odmowa pobrania {url}: archiwa są pobierane tylko przez HTTPS, tak jak robi to Composer.'
+      path_escapes: 'Odmowa rozpakowania {package}: archiwum zawiera ścieżkę wychodzącą poza nie.'
+      private_hint: 'Jeśli ten pakiet jest prywatny, menedżer rozszerzeń nie znalazł dla niego danych uwierzytelniających – sprawdź plik auth.json.'
+      read_entry_failed: 'Nie udało się odczytać {name} z archiwum {package}.'
+      staging_failed: 'Nie udało się utworzyć katalogu tymczasowego dla {package}.'
+    flarum_command:
+      no_console: 'Nie można uruchomić polecenia `flarum {command}`: konsola Flarum nie jest tu dostępna.'
+      unknown: '`flarum {command}` nie jest poleceniem dostępnym na tym forum.'
+    fresh:
+      cleared: 'Wyczyszczono pamięć podręczną skompilowanego kodu PHP – następne żądanie wykona ten krok z nowym kodem.'
+      needs_web: 'Oczekiwanie, aż strona menedżera rozszerzeń w panelu administracyjnym wykona ten krok: ten serwer nie może uruchamiać osobnych procesów, a ten długo działający proces ma nadal wczytany poprzedni kod.'
+      waiting_request: 'Oczekiwanie na nowe żądanie, aby został wykonany nowy kod.'
+    fs:
+      create_failed: 'Nie udało się utworzyć {path}'
+      read_failed: 'Nie udało się odczytać {path}.'
+    git:
+      add_token: 'Dodaj token GitHub w sekcji „Menedżer rozszerzeń → Źródła”, aby Composer odczytywał je przez API GitHuba: {urls}.'
+      blocked: 'Nic nie zostało zmienione. Ten serwer nie pozwala PHP uruchamiać innych programów, więc Composer nie może uruchomić gita, którego wymagają niektóre źródła pakietów tej witryny.'
+      git_only: 'Te źródła można odczytać tylko za pomocą gita: {urls}. Udostępniaj te pakiety z repozytorium Composera (Packagist, Private Packagist lub Satis) albo usuń źródło, jeśli nic z niego nie korzysta.'
+    health:
+      answered: 'Strona zwróciła kod {status}.'
+      asked_directly: '(zapytano bezpośrednio ten serwer – jego własny adres nie jest stąd osiągalny)'
+      never_reached: 'Nie udało się połączyć ze stroną.'
+      no_answer: 'Strona w ogóle nie odpowiedziała ({error}).'
+      no_response: 'brak odpowiedzi'
+    installed:
+      rewrite_failed: 'Nie udało się ponownie zapisać pliku vendor/composer/installed.json.'
+    journal:
+      append_failed: 'Nie można dopisać do dziennika w {path}'
+      dir_failed: 'Nie można utworzyć katalogu dziennika w {path}'
+      read_failed: 'Nie można odczytać dziennika w {path}'
+      write_failed: 'Nie można zapisać dziennika w {path}'
+    migrations:
+      already_reversed: 'Już cofnięte: {list}.'
+      irreversible: 'Nic nie zostało cofnięte: ta aktualizacja zmieniła bazę danych migracją {migration}, której nie da się odwrócić. Przywrócenie starej wersji sprawiłoby, że działałaby ona na bazie danych, dla której nie została napisana.'
+      irreversible_ext: 'Nic nie zostało cofnięte: ta aktualizacja zmieniła bazę danych migracją {migration} ({extension}), której nie da się odwrócić. Przywrócenie starej wersji sprawiłoby, że działałaby ona na bazie danych, dla której nie została napisana.'
+      none_reversed: 'Nic nie zostało jeszcze cofnięte.'
+      reversed: 'cofnięto zmianę w bazie danych {migration}'
+      undo_stopped: 'Cofanie zostało przerwane podczas odwracania {migration}: {error}'
+    opcache:
+      cleared: 'Wyczyszczono pamięć podręczną skompilowanego kodu PHP, więc używane są nowe pliki.'
+      cli_delay: 'Ten krok został wykonany z wiersza poleceń, który nie może wyczyścić pamięci podręcznej skompilowanego kodu serwera WWW. Pliki zostały zaktualizowane, a PHP samo je wczyta w ciągu {seconds, plural, one {# sekundy} other {# sekund}}.'
+      cli_restart: 'Ten krok został wykonany z wiersza poleceń, który nie może wyczyścić pamięci podręcznej skompilowanego kodu serwera WWW. Pliki zostały zaktualizowane, ale PHP na tym serwerze jest skonfigurowane tak, by nigdy nie wczytywać ich ponownie (opcache.validate_timestamps jest wyłączone), więc zrestartuj PHP-FPM, aby aktualizacja zaczęła działać.'
+      fine: 'Pamięć podręczna skompilowanego kodu nie stanowi tu przeszkody.'
+      not_cleared_delay: 'Pliki zostały zaktualizowane. Nie udało się stąd wyczyścić pamięci podręcznej skompilowanego kodu PHP, więc zmiana zacznie działać w ciągu {seconds, plural, one {# sekundy} other {# sekund}}.'
+      not_cleared_restart: 'Pliki zostały zaktualizowane, ale nie udało się stąd wyczyścić pamięci podręcznej skompilowanego kodu PHP, a ten serwer jest skonfigurowany tak, by nigdy nie wczytywać plików ponownie. Zrestartuj PHP-FPM, aby aktualizacja zaczęła działać.'
+    permissions:
+      and_more: '… i jeszcze {count}'
+      blocked: 'Nic nie zostało zmienione: {count, plural, one {# ścieżka, którą ta aktualizacja musi zmienić, nie jest zapisywalna} few {# ścieżki, które ta aktualizacja musi zmienić, nie są zapisywalne} many {# ścieżek, które ta aktualizacja musi zmienić, nie jest zapisywalnych} other {# ścieżki, które ta aktualizacja musi zmienić, nie jest zapisywalne}} dla: {user} – zwykle dlatego, że jakieś polecenie zostało uruchomione jako root. Przywróć je użytkownikowi serwera WWW i ponownie uruchom aktualizację, np. jako root:'
+      web_user: 'użytkownik serwera WWW'
+    php:
+      exit_code: 'kod wyjścia {code}'
+      wrong_sapi: 'zgłasza SAPI „{sapi}”, a nie cli'
+    php_path:
+      did_not_run: 'Nie udało się uruchomić {path}. {error}'
+      hidden_and_silent: '{path} znajduje się poza open_basedir tej witryny, więc menedżer rozszerzeń nie może tego sprawdzić, a uruchomienie nic nie dało. Sprawdź ścieżkę lub dodaj jej katalog do open_basedir.'
+      missing: 'Pod ścieżką {path} nic nie ma.'
+      not_absolute: 'Podaj pełną ścieżkę zaczynającą się od /.'
+      not_cli: '{path} to PHP, ale w wariancie „{sapi}”, a nie PHP w wersji wiersza poleceń. Użyj pliku php znajdującego się obok, a nie php-fpm ani php-cgi.'
+      not_executable: '{path} istnieje, ale nie jest plikiem wykonywalnym.'
+    process:
+      start_failed: 'Nie udało się uruchomić {command}.'
+      the_command: polecenia
+      the_command_start: Polecenie
+      timeout: '{command} nie zakończyło się w ciągu {seconds} s.'
+    prune:
+      base_not_dir: 'Odmowa usuwania wewnątrz {path}: to nie jest katalog.'
+      cannot_list: 'Nie można wyświetlić zawartości {path}.'
+      journal_unreadable: 'Nic nie zostało usunięte: nie udało się odczytać dziennika {id}, a może być potrzebny do wycofania zmian.'
+      not_inside: 'Odmowa usunięcia {path}: ścieżka nie znajduje się wewnątrz {base}.'
+      not_readable: 'Nie można odczytać {path}.'
+      not_single_name: 'Odmowa usunięcia „{name}”: to nie jest pojedyncza nazwa wewnątrz {base}.'
+      remove_dir_failed: 'Nie udało się usunąć {path} – nie można było usunąć części zawartości.'
+      remove_failed: 'Nie udało się usunąć {path}.'
+      resolves_outside: 'Odmowa usunięcia {path}: ścieżka prowadzi poza {base}.'
+    release_notes:
+      none: 'Brak znanych informacji o wydaniu dla tego pakietu.'
+    restore:
+      assets_rebuilt: 'Zasoby i pamięć podręczna przebudowane'
+      command_failed: 'Pliki zostały przywrócone, ale polecenie `php flarum {command}` nie powiodło się, więc forum może nadal serwować zasoby nowszej wersji. Uruchom `php flarum assets:publish`, `php flarum cache:clear`, `php flarum extension-manager:repair-formatter` i `php flarum extension-manager:rebuild-assets`, aby dokończyć.'
+      composer_failed: 'Pliki zostały przywrócone, ale nie udało się tu uruchomić Composera ({error}). Uruchom `composer install`, aby dokończyć przywracanie.'
+      migrations_queued: 'zmiany w bazie danych zostały zaplanowane do cofnięcia przy następnym żądaniu'
+      record_failed: 'Pliki zostały przywrócone, ale Composer nie mógł zaktualizować własnego rejestru. Uruchom `composer install`, aby dokończyć przywracanie.'
+      record_put_back: 'Rejestr Composera przywrócony'
+    rollback:
+      busy: 'Ta aktualizacja nadal wykonuje jeden z kroków, więc nie można jej jeszcze wycofać. Spróbuj ponownie za minutę.'
+      move_aside_failed: 'Nie udało się przenieść {path} na bok podczas wycofywania'
+      nothing: 'Nie ma nic do wycofania.'
+      nothing_changed: 'Ta aktualizacja nie zdążyła niczego zmienić, więc nie ma czego cofać.'
+      put_back_failed: 'Nie udało się przywrócić {file} z {from}'
+      remove_failed: 'Nie udało się usunąć {path} podczas wycofywania'
+      restore_failed: 'Nie udało się przywrócić {from} do {to}'
+      restored: 'przywrócono {file}'
+    run:
+      dir_failed: 'Nie udało się utworzyć katalogu aktualizacji w {path}'
+      failed_database: 'Ten krok został przerwany przez błąd bazy danych: {error}'
+      failed_during: 'Błąd podczas kroku {step}: {error}'
+      failed_internal: 'Ten krok został przerwany przez nieoczekiwany błąd PHP: {error}'
+      failed_network: 'Pobieranie lub żądanie nie powiodło się: {error}'
+      finished: Zakończono
+      finished_phase: 'Zakończono: {phase}'
+      lock_dir_failed: 'Nie można utworzyć katalogu blokady w {path}, więc ta aktualizacja nie może się upewnić, że jako jedyna zmienia witrynę.'
+      lock_failed: 'Nie można otworzyć pliku blokady w {path}. Jeśli polecenie w wierszu poleceń zostało uruchomione jako inny użytkownik, to on może być właścicielem pliku: przekaż go użytkownikowi serwera WWW lub usuń plik.'
+      no_worker: 'Na tym forum nie ma procesu w tle, więc nie zamykaj tej strony do zakończenia aktualizacji. Jeśli ją zamkniesz, aktualizacja zostanie wznowiona od miejsca, w którym została przerwana.'
+      nothing_to_undo: 'nic do cofnięcia'
+      put_back: 'Automatycznie przywrócono: {undone}'
+      queue_worker: 'proces obsługujący kolejkę'
+      rolled_back: 'Wycofano: {undone}'
+      starting: Uruchamianie
+      state_move_failed: 'Nie można przenieść stanu aktualizacji na miejsce w {path}'
+      state_write_failed: 'Nie można zapisać stanu aktualizacji w {path}'
+      worker_available: 'Dostępny jest proces w tle, więc aktualizacja będzie kontynuowana nawet po zamknięciu tej strony.'
+      worker_stopped: 'Proces w tle wykonujący tę aktualizację zatrzymał się: {error}'
+    stale_cache:
+      set_aside: 'Odłożono na bok pamięć podręczną należącą do innego użytkownika, którą Flarum odbuduje. W dogodnej chwili usuń ją jako root:'
+    start:
+      abandoned_for: 'Rozszerzenie {name} jest porzucone i nie jest już rozwijane, więc nie zostało zainstalowane. Zamiast niego zainstaluj {replacement}.'
+      abandoned_no_usable: 'Rozszerzenie {name} jest porzucone i nie jest już rozwijane, a żadnego z pakietów sugerowanych w jego miejsce również nie można zainstalować, więc nie zostało zainstalowane.'
+      in_progress: 'Aktualizacja jest już w toku.'
+      in_progress_stale: 'Aktualizacja jest już w toku, choć od {minutes} min nic się nie zmieniło.'
+      lock_unwritable: 'Nie udało się utworzyć blokady aktualizacji w {path}. Upewnij się, że serwer WWW może zapisywać w tym katalogu, a następnie spróbuj ponownie. Nic nie zostało rozpoczęte.'
+      no_nightly: 'Brak wersji nightly do przejścia: Packagist nie ma gałęzi rozwojowej dla tej wersji Flarum lub nie udało się z nim połączyć. Nic nie zostało rozpoczęte.'
+      not_a_package: 'To nie jest nazwa pakietu: {package}'
+      not_direct: 'Ta witryna nie wymaga bezpośrednio pakietu {package} – został zainstalowany, ponieważ zależy od niego inne rozszerzenie. Usunięcie tamtego rozszerzenia usunie również ten pakiet.'
+      not_enough_memory: 'Ten serwer nie ma wystarczająco dużo pamięci, aby Composer mógł ustalić, czego wymaga aktualizacja. Nic nie zostało rozpoczęte. Poproś dostawcę hostingu o zwiększenie memory_limit do 256 MB i spróbuj ponownie.'
+      nothing_selected: 'Nic nie zostało wybrane, więc nic nie zostało rozpoczęte.'
+      replaced: 'Rozszerzenie {name} zostało zastąpione innym pakietem, więc nie zostało zainstalowane. Pakiet, którego należy teraz używać, jest wskazany na jego stronie w serwisie Packagist lub w repozytorium.'
+      replaced_by: 'Rozszerzenie {name} zostało zastąpione przez {replacement}. Zainstaluj {replacement} – zainstalowanie go pod starą nazwą da Ci nowe rozszerzenie z niewłaściwym identyfikatorem.'
+      replaced_unchecked: 'Nie udało się połączyć z serwisem Packagist, aby sprawdzić, czy rozszerzenie {name} nie zostało zastąpione innym pakietem, więc nie zostało zainstalowane. Spróbuj ponownie za minutę.'
+      still_enabled: 'Pakiet {package} jest nadal włączony. Najpierw wyłącz go na stronie rozszerzeń, sprawdź, czy forum działa bez niego, a następnie go usuń.'
+    unknown_action: 'Nieznana akcja.'
+    updater:
+      answered: 'Aktualizator Flarum nie zaktualizował bazy danych (odpowiedział kodem {status}: {body}).'
+      no_storage: 'Nie poproszono aktualizatora Flarum o aktualizację bazy danych: otrzymuje on jednorazowy token zamiast danych dostępowych do bazy danych, a ta witryna nie ma katalogu storage, w którym można by go przechować. Zamiast tego zaktualizuj Flarum z wiersza poleceń za pomocą php flarum extension-manager:update.'
+      token_refused: 'Aktualizator Flarum nie zaakceptował jednorazowego tokenu, więc baza danych nie została zaktualizowana. Token jest wykorzystywany przed uruchomieniem Flarum, na podstawie pliku config.php i katalogu storage znajdujących się obok katalogu vendor/. Jeśli w Twojej witrynie znajdują się one gdzie indziej, zaktualizuj Flarum z wiersza poleceń za pomocą php flarum extension-manager:update.'
+      unreachable: 'Aktualizator Flarum nie zaktualizował bazy danych (nie udało się z nim połączyć: {error}).'

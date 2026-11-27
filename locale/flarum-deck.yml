@@ -6,6 +6,10 @@ flarum-deck:
   admin:
     permissions:
       use_deck_label: 'Korzystanie z pulpitu'
+    sections:
+      columns:
+        description: 'Ile kolumn użytkownicy mogą dodać do swojego pulpitu i jak często są one odświeżane.'
+        label: Kolumny
     settings:
       max_columns_help: 'Każda kolumna wysyła osobne żądanie przy każdym odświeżeniu. Wybierz wartość od 1 do 12.'
       max_columns_label: 'Maksymalna liczba kolumn na użytkownika'
@@ -22,6 +26,7 @@ flarum-deck:
       filter_invalid_message: 'Wpisz same filtry, np. tag:support jest:nieodczytana. Zwykłe słowa nie są obsługiwane.'
       filter_label: Filtry
       filter_placeholder: 'np. tag:support jest:nieodczytana'
+      filter_unknown_message: '{count, plural, one {{parts} nie jest filtrem dyskusji.} other {{parts} nie są filtrami dyskusji.}} Użyj filtrów, np. tag:support lub jest:nieodczytana.'
       group_invalid_message: 'Wybierz grupę.'
       group_label: Grupa
       in_deck_badge: 'Na pulpicie'
@@ -34,6 +39,7 @@ flarum-deck:
     column:
       controls_label: 'Opcje kolumny „{title}”'
       drag_handle_label: 'Przeciągnij, aby przenieść kolumnę „{title}”'
+      edit_button: 'Edytuj kolumnę'
       move_left_button: 'Przenieś w lewo'
       move_right_button: 'Przenieś w prawo'
       move_to_bottom_row_button: 'Przenieś do dolnego rzędu'
@@ -62,6 +68,10 @@ flarum-deck:
     discussion_controls:
       add_to_deck_button: 'Dodaj do pulpitu'
       added_message: 'Dyskusja została dodana do pulpitu jako osobna kolumna.'
+    edit_column:
+      name_label: Nazwa
+      submit_button: Zapisz
+      title: 'Edytuj kolumnę'
     index:
       deck_link: Pulpit
     page:
