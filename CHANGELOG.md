@@ -37,6 +37,12 @@ CHANGELOG
 * [`flarum/sticky`](https://github.com/flarum/sticky) (4 added, 100% complete)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (4 added, 100% complete)
 * [`flarum/tags`](https://github.com/flarum/tags) (7 added, 100% complete)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (1 added, 100% complete)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (1 added, 100% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (1 changed, 100% complete)
+* [`fof/mailtrap-mail`](https://github.com/FriendsOfFlarum/mailtrap-mail) (3 added, 100% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (11 added, 100% complete)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) (1 added, 100% complete)
 
 
 All changes: [2.0.14...2.0.15](https://github.com/flarum-lang/polish/compare/2.0.14...2.0.15).
